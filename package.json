@@ -10,8 +10,10 @@
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",
+    "@sparticuz/chromium": "^143.0.4",
     "@supabase/ssr": "^0.9.0",
     "@supabase/supabase-js": "^2.99.2",
+    "botc-script-checker": "^0.2.6",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
@@ -19,6 +21,7 @@
     "lucide-react": "^0.577.0",
     "next": "16.1.6",
     "next-themes": "^0.4.6",
+    "puppeteer-core": "^24.40.0",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "shadcn": "^4.0.8",

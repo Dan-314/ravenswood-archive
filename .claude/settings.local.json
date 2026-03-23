@@ -1,7 +1,25 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "Bash(find /home/pye/Documents/projects/script-finder -name *.json -path */scripts/* -type f)",
+      "Bash(ls -la /home/pye/Documents/projects/script-finder/src/app/scripts/[id]/)",
+      "Bash(head -100 /home/pye/Documents/projects/script-finder/src/app/scripts/[id]/edit/EditForm.tsx)",
+      "Bash(ls /home/pye/Documents/projects/script-finder/src/app/scripts/[id]/)",
+      "Bash(grep -r \"from ''preact\\\\|from \"\"preact\" /home/pye/Documents/projects/yoinked-script-gen/packages/botc-character-sheet/src/ --include=\"*.tsx\" --include=\"*.ts\" -l)",
+      "Bash(find /home/pye/Documents/projects/yoinked-script-gen/packages/botc-character-sheet/node_modules/botc-script-checker/ -name *.d.ts)",
+      "Bash(npm view:*)",
+      "Bash(find /home/pye/Documents/projects/script-finder/src/app/scripts/[id] -type f -name *.tsx)",
+      "Bash(npm ls:*)",
+      "Bash(find /home/pye/Documents/projects/yoinked-script-gen -path */node_modules/botc-script-checker* -type f -name *.d.ts)",
+      "Bash(grep -c \"^  [a-z].*: {$\" /home/pye/Documents/projects/yoinked-script-gen/frontend/src/data/all_characters.ts)",
+      "Bash(grep -A 50 \"interface.*Metadata\\\\|type.*Metadata\" /home/pye/Documents/projects/yoinked-script-gen/packages --include=*.ts -r)",
+      "WebFetch(domain:www.npmjs.com)",
+      "Bash(npm install:*)",
+      "Bash(npx tsc:*)",
+      "Bash(curl -s http://localhost:3000/scripts/)",
+      "Bash(curl -s \"http://localhost:3000\")",
+      "Bash(curl -s \"https://kkjmmisrpthcndavzyxz.supabase.co/rest/v1/scripts?select=id,name&limit=3\" -H \"apikey: sb_publishable_iqpArMB0USVMD9AzgR82Cw_2iIYDnRx\" -H \"Authorization: Bearer sb_publishable_iqpArMB0USVMD9AzgR82Cw_2iIYDnRx\")"
     ]
   }
 }
