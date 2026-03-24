@@ -6,7 +6,7 @@ import { Download, Loader2 } from "lucide-react";
 import type { PdfOptions } from "@/lib/botc/types";
 import { DEFAULT_PDF_OPTIONS } from "@/lib/botc/types";
 import { PdfOptionsForm } from "@/lib/pdf/PdfOptionsForm";
-import { PdfPreview } from "../PdfPreview";
+import { ScriptPreviewLayout } from "../ScriptPreviewLayout";
 
 interface CustomiseViewProps {
   rawJson: unknown;
@@ -63,43 +63,39 @@ export function CustomiseView({ rawJson, scriptName, defaultColor }: CustomiseVi
   };
 
   return (
-    <div className="flex h-[calc(100vh-4rem)]">
-      {/* Options panel */}
-      <div className="shrink-0 w-80 overflow-y-auto flex flex-col gap-4 p-4 border-r">
-        <h2 className="font-semibold text-lg">Customise PDF</h2>
+    <ScriptPreviewLayout
+      rawJson={rawJson}
+      options={options}
+      onAppearanceChange={(appearance: PdfOptions["appearance"], iconScale: number) => {
+        setOptions((prev) => ({ ...prev, appearance, iconScale }));
+      }}
+      className="h-[calc(100vh-4rem)]"
+      sidebarPosition="left"
+      sidebar={
+        <div className="flex flex-col gap-4">
+          <h2 className="font-semibold text-lg">Customise PDF</h2>
 
-        <PdfOptionsForm options={options} onUpdate={update} />
+          <PdfOptionsForm options={options} onUpdate={update} />
 
-        {error && (
-          <p className="text-sm text-destructive">{error}</p>
-        )}
-
-        <Button onClick={handleDownload} disabled={downloading} className="gap-1.5 w-full">
-          {downloading ? (
-            <>
-              <Loader2 className="h-4 w-4 animate-spin" />
-              Downloading...
-            </>
-          ) : (
-            <>
-              <Download className="h-4 w-4" />
-              Download PDF
-            </>
+          {error && (
+            <p className="text-sm text-destructive">{error}</p>
           )}
-        </Button>
-      </div>
 
-      {/* Preview — own scroll context */}
-      <div className="flex-1 overflow-y-auto">
-        <PdfPreview
-          rawJson={rawJson}
-          options={options}
-          className="w-full"
-          onAppearanceChange={(appearance, iconScale) => {
-            setOptions((prev) => ({ ...prev, appearance, iconScale }));
-          }}
-        />
-      </div>
-    </div>
+          <Button onClick={handleDownload} disabled={downloading} className="gap-1.5 w-full">
+            {downloading ? (
+              <>
+                <Loader2 className="h-4 w-4 animate-spin" />
+                Downloading...
+              </>
+            ) : (
+              <>
+                <Download className="h-4 w-4" />
+                Download PDF
+              </>
+            )}
+          </Button>
+        </div>
+      }
+    />
   );
 }
