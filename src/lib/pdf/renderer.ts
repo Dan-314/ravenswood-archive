@@ -1,15 +1,41 @@
+// Ported from botc-character-sheet by John Forster (MIT License)
+// Copyright (c) 2025 John Forster
+
 import { createElement } from "react";
 import { readFileSync } from "fs";
 import { join } from "path";
-import { CharacterSheet, NightSheet, InfoSheet, TeensyLayout } from "./sheets";
+import { FancyDoc } from "./FancyDoc";
+import { TeensyDoc } from "./TeensyDoc";
 import { parseScript, calculateNightOrders } from "@/lib/botc";
 import type { Script } from "botc-script-checker";
 import type { PdfOptions } from "@/lib/botc/types";
 
 function loadCSS(): string {
   try {
-    const cssPath = join(process.cwd(), "src/lib/pdf/styles.css");
-    return readFileSync(cssPath, "utf-8");
+    // Read the index.css which imports all other CSS files
+    const stylesDir = join(process.cwd(), "src/lib/pdf/styles");
+    const files = [
+      "fonts.css",
+      "PrintablePage.css",
+      "BottomTrimSheet.css",
+      "PlayerCount.css",
+      "NightOrderPanel.css",
+      "CharacterSheet.css",
+      "NightSheet.css",
+      "SheetBack.css",
+      "FancyDoc.css",
+      "TeensyDoc.css",
+    ];
+    // Concatenate all CSS files (can't use @import in inline styles)
+    let css = "";
+    for (const file of files) {
+      try {
+        css += readFileSync(join(stylesDir, file), "utf-8") + "\n";
+      } catch {
+        console.warn(`Failed to load CSS file: ${file}`);
+      }
+    }
+    return css;
   } catch (error) {
     console.error("Failed to load PDF CSS:", error);
     return "";
@@ -19,42 +45,16 @@ function loadCSS(): string {
 function getFontFaces(appUrl: string): string {
   const base = `${appUrl}/pdf-assets/fonts`;
   return `
-    @font-face {
-      font-family: 'Unlovable';
-      src: url('${base}/LHF_Unlovable.ttf') format('truetype');
-    }
-    @font-face {
-      font-family: 'Alice in Wonderland';
-      src: url('${base}/AliceInWonderland.ttf') format('truetype');
-    }
-    @font-face {
-      font-family: 'Anglican';
-      src: url('${base}/Anglican.ttf') format('truetype');
-    }
-    @font-face {
-      font-family: 'Canterbury Regular';
-      src: url('${base}/CanterburyRegular.ttf') format('truetype');
-    }
-    @font-face {
-      font-family: 'Utm Agin';
-      src: url('${base}/UtmAgin.ttf') format('truetype');
-    }
-    @font-face {
-      font-family: 'Waters Gothic';
-      src: url('${base}/WatersGothic.ttf') format('truetype');
-    }
-    @font-face {
-      font-family: 'Dumbledor';
-      src: url('${base}/Dumbledor/Dumbledor.ttf') format('truetype');
-    }
-    @font-face {
-      font-family: 'Trade Gothic';
-      src: url('${base}/TradeGothic/TradeGothic.otf') format('opentype');
-    }
-    @font-face {
-      font-family: 'Goudy Old Style';
-      src: url('${base}/GoudyOldStyle/GoudyOldStyle.ttf') format('truetype');
-    }
+    @font-face { font-family: 'Unlovable'; src: url('${base}/LHF_Unlovable.ttf') format('truetype'); }
+    @font-face { font-family: 'Alice in Wonderland'; src: url('${base}/AliceInWonderland.ttf') format('truetype'); }
+    @font-face { font-family: 'Anglican'; src: url('${base}/Anglican.ttf') format('truetype'); }
+    @font-face { font-family: 'Canterbury Regular'; src: url('${base}/CanterburyRegular.ttf') format('truetype'); }
+    @font-face { font-family: 'Utm Agin'; src: url('${base}/UtmAgin.ttf') format('truetype'); }
+    @font-face { font-family: 'Waters Gothic'; src: url('${base}/WatersGothic.ttf') format('truetype'); }
+    @font-face { font-family: 'Dumbledor'; src: url('${base}/Dumbledor/Dumbledor.ttf') format('truetype'); }
+    @font-face { font-family: 'Trade Gothic'; src: url('${base}/TradeGothic/TradeGothic.otf') format('opentype'); }
+    @font-face { font-family: 'Trade Gothic Bold'; src: url('${base}/TradeGothic/TradeGothicBold.otf') format('opentype'); font-weight: bold; }
+    @font-face { font-family: 'Goudy Old Style'; src: url('${base}/GoudyOldStyle/GoudyOldStyle.ttf') format('truetype'); }
   `;
 }
 
@@ -64,42 +64,34 @@ export async function renderToHtml(
   appUrl: string,
   assetsUrl: string,
 ): Promise<string> {
-  // Dynamic import to avoid Next.js Turbopack blocking react-dom/server in route handlers
   const { renderToStaticMarkup } = await import("react-dom/server");
 
   const parsed = parseScript(rawJson);
   const nightOrders = calculateNightOrders(parsed, rawJson as Script);
 
-  const sheetProps = { script: parsed, options, nightOrders, assetsUrl };
+  const docProps = { script: parsed, options, nightOrders, assetsUrl };
 
   let bodyHtml: string;
 
-  if (options.nightSheetOnly) {
-    bodyHtml = renderToStaticMarkup(createElement(NightSheet, sheetProps));
-  } else if (options.teensy) {
-    bodyHtml = renderToStaticMarkup(createElement(TeensyLayout, sheetProps));
-    if (options.showNightSheet) {
-      bodyHtml += renderToStaticMarkup(createElement(NightSheet, sheetProps));
-    }
+  if (options.teensy) {
+    bodyHtml = renderToStaticMarkup(createElement(TeensyDoc, docProps));
   } else {
-    bodyHtml = renderToStaticMarkup(
-      createElement(CharacterSheet, { script: parsed, options, assetsUrl }),
-    );
-    if (options.overleaf === "infoSheet") {
-      bodyHtml += renderToStaticMarkup(createElement(InfoSheet, { script: parsed, options, assetsUrl }));
-    }
-    if (options.showNightSheet) {
-      bodyHtml += renderToStaticMarkup(createElement(NightSheet, sheetProps));
-    }
+    bodyHtml = renderToStaticMarkup(createElement(FancyDoc, docProps));
   }
 
   const css = loadCSS();
   const fontFaces = getFontFaces(appUrl);
 
-  const pageSize = options.paperSize === "A4" ? "A4" : "Letter";
+  // Replace relative image URLs in CSS with absolute URLs for Puppeteer
+  const processedCss = css.replace(
+    /url\(\/pdf-assets\//g,
+    `url(${appUrl}/pdf-assets/`,
+  );
+
+  const pageWidth = options.dimensions.width + "mm";
+  const pageHeight = options.dimensions.height + "mm";
   const orientation = options.teensy ? "landscape" : "portrait";
-  const pageWidth = options.paperSize === "A4" ? "210mm" : "216mm";
-  const pageHeight = options.paperSize === "A4" ? "297mm" : "279mm";
+  const pageSize = options.paperSize === "A4" ? "A4" : "Letter";
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -123,11 +115,13 @@ export async function renderToHtml(
     :root {
       --page-width: ${pageWidth};
       --page-height: ${pageHeight};
+      --print-margin: ${options.dimensions.margin}mm;
+      --print-bleed: ${options.dimensions.bleed}mm;
     }
 
     @page { size: ${pageSize} ${orientation}; margin: 0; }
 
-    ${css}
+    ${processedCss}
   </style>
 </head>
 <body class="pdf-sheet-root">

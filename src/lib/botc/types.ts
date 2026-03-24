@@ -31,7 +31,8 @@ export interface NightOrders {
 
 export interface Jinx {
   characters: [string, string];
-  reason: string;
+  jinx: string;
+  oldJinx?: string;
 }
 
 export const TEAM_ORDER: CharacterTeam[] = [
@@ -64,28 +65,88 @@ export const TEAM_COLORS: Record<string, string> = {
   loric: "#1f5807",
 };
 
+export interface TitleStyle {
+  font: string;
+  letterSpacing: number;
+  wordSpacing: number;
+  lineHeight: number;
+  backLineHeight: number;
+  marginTop: number;
+  marginBottom: number;
+  customFontUrl: string;
+}
+
+export interface PageDimensions {
+  width: number;
+  height: number;
+  margin: number;
+  bleed: number;
+}
+
 export interface PdfOptions {
-  color: string;
-  teensy: boolean;
+  color: string | string[];
+  logo: string;
+  showLogo: boolean;
+  showTitle: boolean;
+  showAuthor: boolean;
+  showJinxes: boolean;
+  showSwirls: boolean;
+  includeMargins: boolean;
+  solidTitle: boolean;
   appearance: "normal" | "compact" | "super-compact" | "mega-compact";
-  titleFont: string;
-  iconScale: number;
-  overleaf: "infoSheet" | "none";
+  overleaf: boolean;
+  displayNightOrder: boolean;
+  displayPlayerCounts: boolean;
   showNightSheet: boolean;
   nightSheetOnly: boolean;
+  iconScale: number;
+  formatMinorWords: boolean;
+  numberOfCharacterSheets: number;
+  inlineJinxIcons: "none" | "primary" | "both";
+  iconUrlTemplate: string;
+  titleStyle: TitleStyle;
+  dimensions: PageDimensions;
+  teensy: boolean;
   paperSize: "A4" | "Letter";
-  includeMargins: boolean;
 }
 
 export const DEFAULT_PDF_OPTIONS: PdfOptions = {
   color: "#137415",
-  teensy: false,
+  logo: "",
+  showLogo: false,
+  showTitle: true,
+  showAuthor: true,
+  showJinxes: true,
+  showSwirls: false,
+  includeMargins: false,
+  solidTitle: false,
   appearance: "normal",
-  titleFont: "Unlovable",
-  iconScale: 1.7,
-  overleaf: "none",
+  overleaf: false,
+  displayNightOrder: true,
+  displayPlayerCounts: true,
   showNightSheet: false,
   nightSheetOnly: false,
+  iconScale: 1.7,
+  formatMinorWords: false,
+  numberOfCharacterSheets: 1,
+  inlineJinxIcons: "primary",
+  iconUrlTemplate: "",
+  titleStyle: {
+    font: "Unlovable",
+    letterSpacing: 0,
+    wordSpacing: 0,
+    lineHeight: 16,
+    backLineHeight: 35,
+    marginTop: 0,
+    marginBottom: 0,
+    customFontUrl: "",
+  },
+  dimensions: {
+    width: 210,
+    height: 297,
+    margin: 0,
+    bleed: 0,
+  },
+  teensy: false,
   paperSize: "A4",
-  includeMargins: false,
 };

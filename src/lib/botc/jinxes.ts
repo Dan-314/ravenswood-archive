@@ -11,7 +11,7 @@ interface JinxData {
  * Find all jinxes relevant to a set of characters.
  * Uses the global jinxes database, plus any custom jinxes defined on characters.
  */
-export function findJinxes(characters: ResolvedCharacter[]): Jinx[] {
+export function findJinxes(characters: ResolvedCharacter[], useOldJinxes = false): Jinx[] {
   const characterIds = new Set(characters.map((c) => c.id.toLowerCase()));
   const jinxes: Jinx[] = [];
   const seen = new Set<string>();
@@ -25,7 +25,8 @@ export function findJinxes(characters: ResolvedCharacter[]): Jinx[] {
       seen.add(key);
       jinxes.push({
         characters: [char1, char2],
-        reason: jinx.jinx,
+        jinx: useOldJinxes && jinx.oldJinx ? jinx.oldJinx : jinx.jinx,
+        oldJinx: jinx.oldJinx,
       });
     }
   }
@@ -44,7 +45,7 @@ export function findJinxes(characters: ResolvedCharacter[]): Jinx[] {
 
       jinxes.push({
         characters: [char.id.toLowerCase(), otherId],
-        reason: jinx.reason,
+        jinx: jinx.reason,
       });
     }
   }

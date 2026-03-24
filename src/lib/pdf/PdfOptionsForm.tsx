@@ -1,0 +1,236 @@
+"use client";
+
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import { Label } from "@/components/ui/label";
+import { Input } from "@/components/ui/input";
+import { Checkbox } from "@/components/ui/checkbox";
+import type { PdfOptions } from "@/lib/botc/types";
+
+const TITLE_FONTS = [
+  "Dumbledor",
+  "Unlovable",
+  "Alice in Wonderland",
+  "Anglican",
+  "Canterbury Regular",
+  "Utm Agin",
+  "Waters Gothic",
+];
+
+interface PdfOptionsFormProps {
+  options: PdfOptions;
+  onUpdate: <K extends keyof PdfOptions>(key: K, value: PdfOptions[K]) => void;
+}
+
+export function PdfOptionsForm({ options, onUpdate }: PdfOptionsFormProps) {
+  const update = onUpdate;
+
+  const colorValue = Array.isArray(options.color) ? options.color[0] : options.color;
+
+  return (
+    <div className="flex flex-col gap-4">
+      {/* Layout & Appearance */}
+      <div className="grid grid-cols-2 gap-4">
+        <div className="flex flex-col gap-1.5">
+          <Label>Layout</Label>
+          <Select value={options.teensy ? "teensy" : "full"} onValueChange={(v) => v !== null && update("teensy", v === "teensy")}>
+            <SelectTrigger className="w-full">
+              <SelectValue />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="full">Full (Portrait)</SelectItem>
+              <SelectItem value="teensy">Teensy (Landscape)</SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
+
+        <div className="flex flex-col gap-1.5">
+          <Label>Appearance</Label>
+          <Select value={options.appearance} onValueChange={(v) => v && update("appearance", v as PdfOptions["appearance"])}>
+            <SelectTrigger className="w-full">
+              <SelectValue />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="normal">Normal</SelectItem>
+              <SelectItem value="compact">Compact</SelectItem>
+              <SelectItem value="super-compact">Super Compact</SelectItem>
+              <SelectItem value="mega-compact">Mega Compact</SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
+      </div>
+
+      {/* Color & Font */}
+      <div className="grid grid-cols-2 gap-4">
+        <div className="flex flex-col gap-1.5">
+          <Label>Color</Label>
+          <div className="flex gap-2 items-center">
+            <input
+              type="color"
+              value={colorValue}
+              onChange={(e) => update("color", e.target.value)}
+              className="h-8 w-10 rounded border border-input cursor-pointer"
+            />
+            <Input
+              value={colorValue}
+              onChange={(e) => update("color", e.target.value)}
+              className="flex-1 h-8"
+              placeholder="#137415"
+            />
+          </div>
+        </div>
+
+        <div className="flex flex-col gap-1.5">
+          <Label>Title Font</Label>
+          <Select value={options.titleStyle.font} onValueChange={(v) => v && update("titleStyle", { ...options.titleStyle, font: v })}>
+            <SelectTrigger className="w-full">
+              <SelectValue />
+            </SelectTrigger>
+            <SelectContent>
+              {TITLE_FONTS.map((font) => (
+                <SelectItem key={font} value={font}>{font}</SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
+        </div>
+      </div>
+
+      {/* Icon Scale & Paper Size */}
+      <div className="grid grid-cols-2 gap-4">
+        <div className="flex flex-col gap-1.5">
+          <Label>Icon Scale ({options.iconScale.toFixed(1)})</Label>
+          <input
+            type="range"
+            min="1.4"
+            max="1.7"
+            step="0.1"
+            value={options.iconScale}
+            onChange={(e) => update("iconScale", parseFloat(e.target.value))}
+            className="w-full accent-primary"
+          />
+        </div>
+
+        <div className="flex flex-col gap-1.5">
+          <Label>Paper Size</Label>
+          <Select
+            value={options.paperSize}
+            onValueChange={(v) => {
+              if (!v) return;
+              const ps = v as "A4" | "Letter";
+              update("paperSize", ps);
+              update("dimensions", {
+                ...options.dimensions,
+                width: ps === "A4" ? 210 : 216,
+                height: ps === "A4" ? 297 : 279,
+              });
+            }}
+          >
+            <SelectTrigger className="w-full">
+              <SelectValue />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="A4">A4</SelectItem>
+              <SelectItem value="Letter">Letter</SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
+      </div>
+
+      {/* Inline Jinx Icons */}
+      <div className="flex flex-col gap-1.5">
+        <Label>Inline Jinx Icons</Label>
+        <Select value={options.inlineJinxIcons} onValueChange={(v) => v && update("inlineJinxIcons", v as "none" | "primary" | "both")}>
+          <SelectTrigger className="w-full">
+            <SelectValue />
+          </SelectTrigger>
+          <SelectContent>
+            <SelectItem value="none">None</SelectItem>
+            <SelectItem value="primary">Primary only</SelectItem>
+            <SelectItem value="both">Both characters</SelectItem>
+          </SelectContent>
+        </Select>
+      </div>
+
+      {/* Show/hide toggles */}
+      <div className="flex flex-col gap-3">
+        <label className="flex items-center gap-2 cursor-pointer">
+          <Checkbox checked={options.showTitle} onCheckedChange={(checked) => update("showTitle", !!checked)} />
+          <span className="text-sm">Show title</span>
+        </label>
+
+        <label className="flex items-center gap-2 cursor-pointer">
+          <Checkbox checked={options.showAuthor} onCheckedChange={(checked) => update("showAuthor", !!checked)} />
+          <span className="text-sm">Show author</span>
+        </label>
+
+        <label className="flex items-center gap-2 cursor-pointer">
+          <Checkbox checked={options.showSwirls} onCheckedChange={(checked) => update("showSwirls", !!checked)} />
+          <span className="text-sm">Show swirl dividers</span>
+        </label>
+
+        <label className="flex items-center gap-2 cursor-pointer">
+          <Checkbox checked={options.showJinxes} onCheckedChange={(checked) => update("showJinxes", !!checked)} />
+          <span className="text-sm">Show jinxes</span>
+        </label>
+
+        <label className="flex items-center gap-2 cursor-pointer">
+          <Checkbox checked={options.solidTitle} onCheckedChange={(checked) => update("solidTitle", !!checked)} />
+          <span className="text-sm">Solid title (no blend)</span>
+        </label>
+      </div>
+
+      {/* Overleaf & Night Sheet */}
+      <div className="flex flex-col gap-3">
+        <label className="flex items-center gap-2 cursor-pointer">
+          <Checkbox checked={options.overleaf} onCheckedChange={(checked) => update("overleaf", !!checked)} />
+          <span className="text-sm">Include back page (overleaf)</span>
+        </label>
+
+        {options.overleaf && (
+          <div className="ml-6 flex flex-col gap-2">
+            <label className="flex items-center gap-2 cursor-pointer">
+              <Checkbox checked={options.displayNightOrder} onCheckedChange={(checked) => update("displayNightOrder", !!checked)} />
+              <span className="text-sm">Night order on back page</span>
+            </label>
+            <label className="flex items-center gap-2 cursor-pointer">
+              <Checkbox checked={options.displayPlayerCounts} onCheckedChange={(checked) => update("displayPlayerCounts", !!checked)} />
+              <span className="text-sm">Player counts on back page</span>
+            </label>
+          </div>
+        )}
+
+        <label className="flex items-center gap-2 cursor-pointer">
+          <Checkbox
+            checked={options.showNightSheet}
+            onCheckedChange={(checked) => {
+              update("showNightSheet", !!checked);
+              if (checked) update("nightSheetOnly", false);
+            }}
+          />
+          <span className="text-sm">Include night sheet</span>
+        </label>
+
+        <label className="flex items-center gap-2 cursor-pointer">
+          <Checkbox
+            checked={options.nightSheetOnly}
+            onCheckedChange={(checked) => {
+              update("nightSheetOnly", !!checked);
+              if (checked) update("showNightSheet", false);
+            }}
+          />
+          <span className="text-sm">Night sheet only</span>
+        </label>
+
+        <label className="flex items-center gap-2 cursor-pointer">
+          <Checkbox checked={options.includeMargins} onCheckedChange={(checked) => update("includeMargins", !!checked)} />
+          <span className="text-sm">Include margins</span>
+        </label>
+      </div>
+    </div>
+  );
+}

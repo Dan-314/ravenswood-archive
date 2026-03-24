@@ -1,0 +1,13 @@
+/* Ported from botc-character-sheet by John Forster (MIT License) */
+/* Copyright (c) 2025 John Forster */
+
+@font-face { font-family: 'Unlovable'; src: url('/pdf-assets/fonts/LHF_Unlovable.ttf') format('truetype'); }
+@font-face { font-family: 'Alice in Wonderland'; src: url('/pdf-assets/fonts/AliceInWonderland.ttf') format('truetype'); }
+@font-face { font-family: 'Anglican'; src: url('/pdf-assets/fonts/Anglican.ttf') format('truetype'); }
+@font-face { font-family: 'Canterbury Regular'; src: url('/pdf-assets/fonts/CanterburyRegular.ttf') format('truetype'); }
+@font-face { font-family: 'Utm Agin'; src: url('/pdf-assets/fonts/UtmAgin.ttf') format('truetype'); }
+@font-face { font-family: 'Waters Gothic'; src: url('/pdf-assets/fonts/WatersGothic.ttf') format('truetype'); }
+@font-face { font-family: 'Dumbledor'; src: url('/pdf-assets/fonts/Dumbledor/Dumbledor.ttf') format('truetype'); }
+@font-face { font-family: 'Trade Gothic'; src: url('/pdf-assets/fonts/TradeGothic/TradeGothic.otf') format('opentype'); }
+@font-face { font-family: 'Trade Gothic Bold'; src: url('/pdf-assets/fonts/TradeGothic/TradeGothicBold.otf') format('opentype'); font-weight: bold; }
+@font-face { font-family: 'Goudy Old Style'; src: url('/pdf-assets/fonts/GoudyOldStyle/GoudyOldStyle.ttf') format('truetype'); }

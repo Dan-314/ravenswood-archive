@@ -1,0 +1,34 @@
+/* Ported from botc-character-sheet by John Forster (MIT License) */
+/* Copyright (c) 2025 John Forster */
+
+@import "./fonts.css";
+@import "./PrintablePage.css";
+@import "./BottomTrimSheet.css";
+@import "./PlayerCount.css";
+@import "./NightOrderPanel.css";
+@import "./CharacterSheet.css";
+@import "./NightSheet.css";
+@import "./SheetBack.css";
+@import "./FancyDoc.css";
+@import "./TeensyDoc.css";
+
+:root {
+  --page-width: 210mm;
+  --page-height: 297mm;
+  --print-margin: 0mm;
+  --print-bleed: 0mm;
+  --sidebar-width: 15mm;
+  --icon-scale: 1;
+}
+
+.pdf-sheet-root {
+  font-family: 'Trade Gothic', 'Trade Gothic Next', 'Helvetica Neue', Arial, sans-serif;
+  color: #2d3748;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+@media print {
+  body { margin: 0; padding: 0; }
+  .printable-page { page-break-after: always; }
+}

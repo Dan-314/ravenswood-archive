@@ -2,11 +2,12 @@
 
 import { useMemo, useRef, useEffect, useState, useCallback } from "react";
 import { parseScript, calculateNightOrders } from "@/lib/botc";
-import { CharacterSheet, NightSheet, InfoSheet, TeensyLayout } from "@/lib/pdf/sheets";
+import { FancyDoc } from "@/lib/pdf/FancyDoc";
+import { TeensyDoc } from "@/lib/pdf/TeensyDoc";
 import { DEFAULT_PDF_OPTIONS } from "@/lib/botc/types";
 import type { Script } from "botc-script-checker";
 import type { PdfOptions } from "@/lib/botc/types";
-import "@/lib/pdf/styles.css";
+import "@/lib/pdf/styles/index.css";
 
 interface PdfPreviewProps {
   rawJson: unknown;
@@ -32,8 +33,8 @@ const ICON_SCALES: Record<PdfOptions["appearance"], number> = {
 
 function randomColor(): string {
   const h = Math.floor(Math.random() * 360);
-  const s = 40 + Math.floor(Math.random() * 30); // 40-70%
-  const l = 25 + Math.floor(Math.random() * 15); // 25-40%
+  const s = 40 + Math.floor(Math.random() * 30);
+  const l = 25 + Math.floor(Math.random() * 15);
   return hslToHex(h, s, l);
 }
 
@@ -60,17 +61,15 @@ export function PdfPreview({ rawJson, options, defaultColor, className, onAppear
     setMounted(true);
   }, []);
 
-  // Auto-adjusted appearance for overflow detection
   const [autoAppearance, setAutoAppearance] = useState<PdfOptions["appearance"] | null>(null);
   const isAdjustingRef = useRef(false);
   const lastCheckedRef = useRef<string | null>(null);
 
-  const baseOptions = options ?? {
+  const baseOptions = {
     ...DEFAULT_PDF_OPTIONS,
-    color: defaultColor || initialRandomColor,
+    ...(options ?? { color: defaultColor || initialRandomColor }),
   };
 
-  // Apply auto-adjusted appearance + icon scale
   const pdfOptions = useMemo(() => {
     if (!autoAppearance) return baseOptions;
     return {
@@ -88,7 +87,6 @@ export function PdfPreview({ rawJson, options, defaultColor, className, onAppear
     [parsed, rawJson],
   );
 
-  // Reset auto-appearance when base options change
   useEffect(() => {
     setAutoAppearance(null);
     lastCheckedRef.current = null;
@@ -103,7 +101,7 @@ export function PdfPreview({ rawJson, options, defaultColor, className, onAppear
       const inner = innerRef.current;
       if (!inner) return;
 
-      const sheetContent = inner.querySelector(".sheet-content") as HTMLElement;
+      const sheetContent = inner.querySelector(".character-sheet .sheet-content") as HTMLElement;
       if (!sheetContent) return;
 
       const currentAppearance = pdfOptions.appearance;
@@ -144,7 +142,7 @@ export function PdfPreview({ rawJson, options, defaultColor, className, onAppear
     if (!container || !inner) return;
 
     const updateScale = () => {
-      const page = inner.querySelector(".sheet-page, .night-page, .info-page, .teensy-wrapper") as HTMLElement;
+      const page = inner.querySelector(".printable-page, .teensy-sheet-pair") as HTMLElement;
       if (!page) return;
       const pw = page.offsetWidth;
       const cw = container.clientWidth;
@@ -157,12 +155,11 @@ export function PdfPreview({ rawJson, options, defaultColor, className, onAppear
     return () => observer.disconnect();
   }, [pdfOptions.teensy, pdfOptions.paperSize]);
 
-  const sheetProps = { script: parsed, options: pdfOptions, nightOrders, assetsUrl };
-
-  // Defer render until client mount when using random color to avoid hydration mismatch
   if (!mounted && !defaultColor && !options) {
     return <div className={`relative overflow-hidden ${className ?? ""}`} />;
   }
+
+  const docProps = { script: parsed, options: pdfOptions, nightOrders, assetsUrl };
 
   return (
     <div
@@ -176,26 +173,17 @@ export function PdfPreview({ rawJson, options, defaultColor, className, onAppear
           transformOrigin: "top center",
           transform: `scale(${scale})`,
           ...({
-            "--page-width": pdfOptions.paperSize === "A4" ? "210mm" : "216mm",
-            "--page-height": pdfOptions.paperSize === "A4" ? "297mm" : "279mm",
+            "--page-width": pdfOptions.dimensions.width + "mm",
+            "--page-height": pdfOptions.dimensions.height + "mm",
+            "--print-margin": pdfOptions.dimensions.margin + "mm",
+            "--print-bleed": pdfOptions.dimensions.bleed + "mm",
           } as React.CSSProperties),
         }}
       >
-        {pdfOptions.nightSheetOnly ? (
-          <NightSheet {...sheetProps} />
-        ) : pdfOptions.teensy ? (
-          <>
-            <TeensyLayout {...sheetProps} />
-            {pdfOptions.showNightSheet && <NightSheet {...sheetProps} />}
-          </>
+        {pdfOptions.teensy ? (
+          <TeensyDoc {...docProps} />
         ) : (
-          <>
-            <CharacterSheet script={parsed} options={pdfOptions} assetsUrl={assetsUrl} />
-            {pdfOptions.overleaf === "infoSheet" && (
-              <InfoSheet script={parsed} options={pdfOptions} assetsUrl={assetsUrl} />
-            )}
-            {pdfOptions.showNightSheet && <NightSheet {...sheetProps} />}
-          </>
+          <FancyDoc {...docProps} />
         )}
       </div>
     </div>

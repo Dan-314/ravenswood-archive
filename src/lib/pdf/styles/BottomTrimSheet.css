@@ -1,0 +1,60 @@
+/* Ported from botc-character-sheet by John Forster (MIT License) */
+/* Copyright (c) 2025 John Forster */
+
+.bottom-trim-sheet {
+  --height: calc(var(--page-height) - 2 * var(--print-margin));
+  min-height: var(--height);
+  max-height: var(--height);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  color: #222;
+}
+
+.bottom-trim-sheet .sheet-content {
+  padding: 10mm;
+  gap: 5mm;
+}
+
+.spacer {
+  flex: 1 0 0px;
+}
+
+.info-author-credit {
+  font-family: Goudy Old Style, Goudy Oldstyle, Goudy, Georgia, serif;
+  font-size: 3.2mm;
+  color: #222;
+  opacity: 0.6;
+  text-align: right;
+  padding-bottom: 3mm;
+  padding-right: 3mm;
+  position: absolute;
+  right: 0;
+  top: -50%;
+}
+
+.info-author-credit p {
+  font-size: 2.5mm;
+  margin: 0;
+}
+
+.info-footer-container {
+  position: relative;
+}
+
+.info-footer-background {
+  background-size: 105mm;
+  width: 100%;
+  height: 20mm;
+}
+
+.info-footer-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20mm;
+  background-color: rgba(0, 0, 0, 0.2);
+  mix-blend-mode: multiply;
+}
