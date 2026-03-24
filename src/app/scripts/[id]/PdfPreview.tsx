@@ -61,23 +61,13 @@ export function PdfPreview({ rawJson, options, defaultColor, className, onAppear
     setMounted(true);
   }, []);
 
-  const [autoAppearance, setAutoAppearance] = useState<PdfOptions["appearance"] | null>(null);
   const isAdjustingRef = useRef(false);
   const lastCheckedRef = useRef<string | null>(null);
 
-  const baseOptions = {
+  const pdfOptions = useMemo<PdfOptions>(() => ({
     ...DEFAULT_PDF_OPTIONS,
     ...(options ?? { color: defaultColor || initialRandomColor }),
-  };
-
-  const pdfOptions = useMemo(() => {
-    if (!autoAppearance) return baseOptions;
-    return {
-      ...baseOptions,
-      appearance: autoAppearance,
-      iconScale: ICON_SCALES[autoAppearance],
-    };
-  }, [baseOptions, autoAppearance]);
+  }), [options, defaultColor, initialRandomColor]);
 
   const assetsUrl = "/pdf-assets/images";
 
@@ -87,15 +77,15 @@ export function PdfPreview({ rawJson, options, defaultColor, className, onAppear
     [parsed, rawJson],
   );
 
-  useEffect(() => {
-    setAutoAppearance(null);
-    lastCheckedRef.current = null;
-    isAdjustingRef.current = false;
-  }, [rawJson, baseOptions.appearance, baseOptions.teensy, baseOptions.paperSize]);
-
   // Overflow detection: auto-bump appearance level if content overflows
+  const appearanceRef = useRef(pdfOptions.appearance);
+  appearanceRef.current = pdfOptions.appearance;
+
   useEffect(() => {
     if (pdfOptions.teensy || pdfOptions.nightSheetOnly) return;
+
+    lastCheckedRef.current = null;
+    isAdjustingRef.current = false;
 
     const timeoutId = setTimeout(() => {
       const inner = innerRef.current;
@@ -104,31 +94,21 @@ export function PdfPreview({ rawJson, options, defaultColor, className, onAppear
       const sheetContent = inner.querySelector(".character-sheet .sheet-content") as HTMLElement;
       if (!sheetContent) return;
 
-      const currentAppearance = pdfOptions.appearance;
-      const checkKey = currentAppearance;
-
-      if (lastCheckedRef.current === checkKey) return;
-
       const hasOverflow = sheetContent.scrollHeight > sheetContent.clientHeight;
 
       if (hasOverflow && !isAdjustingRef.current) {
-        const currentIndex = APPEARANCE_LEVELS.indexOf(currentAppearance);
+        const currentIndex = APPEARANCE_LEVELS.indexOf(appearanceRef.current);
         const nextIndex = currentIndex + 1;
 
         if (nextIndex < APPEARANCE_LEVELS.length) {
           isAdjustingRef.current = true;
           const nextAppearance = APPEARANCE_LEVELS[nextIndex];
-          setAutoAppearance(nextAppearance);
           onAppearanceChange?.(nextAppearance, ICON_SCALES[nextAppearance]);
 
           setTimeout(() => {
             isAdjustingRef.current = false;
           }, 100);
-        } else {
-          lastCheckedRef.current = checkKey;
         }
-      } else if (!hasOverflow) {
-        lastCheckedRef.current = checkKey;
       }
     }, 300);
 

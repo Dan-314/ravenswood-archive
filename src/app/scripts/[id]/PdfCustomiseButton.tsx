@@ -27,7 +27,6 @@ export function PdfCustomiseButton({ rawJson, scriptName, defaultColor }: PdfCus
   const [open, setOpen] = useState(false);
   const [downloading, setDownloading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-
   const [options, setOptions] = useState<PdfOptions>({
     ...DEFAULT_PDF_OPTIONS,
     color: defaultColor || DEFAULT_PDF_OPTIONS.color,

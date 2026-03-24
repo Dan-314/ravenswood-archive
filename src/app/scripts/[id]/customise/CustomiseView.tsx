@@ -17,7 +17,6 @@ interface CustomiseViewProps {
 export function CustomiseView({ rawJson, scriptName, defaultColor }: CustomiseViewProps) {
   const [downloading, setDownloading] = useState(false);
   const [error, setError] = useState<string | null>(null);
-
   const [options, setOptions] = useState<PdfOptions>({
     ...DEFAULT_PDF_OPTIONS,
     color: defaultColor || DEFAULT_PDF_OPTIONS.color,
@@ -64,9 +63,9 @@ export function CustomiseView({ rawJson, scriptName, defaultColor }: CustomiseVi
   };
 
   return (
-    <div className="relative">
-      {/* Options panel — overlaid on the right */}
-      <div className="absolute top-0 right-0 z-10 flex flex-col gap-4 w-80 max-h-[calc(100vh-8rem)] overflow-y-auto bg-background/90 backdrop-blur-sm rounded-lg p-4 shadow-lg">
+    <div className="flex h-[calc(100vh-4rem)]">
+      {/* Options panel */}
+      <div className="shrink-0 w-80 overflow-y-auto flex flex-col gap-4 p-4 border-r">
         <h2 className="font-semibold text-lg">Customise PDF</h2>
 
         <PdfOptionsForm options={options} onUpdate={update} />
@@ -90,15 +89,17 @@ export function CustomiseView({ rawJson, scriptName, defaultColor }: CustomiseVi
         </Button>
       </div>
 
-      {/* Full-width preview */}
-      <PdfPreview
-        rawJson={rawJson}
-        options={options}
-        className="w-full"
-        onAppearanceChange={(appearance, iconScale) => {
-          setOptions((prev) => ({ ...prev, appearance, iconScale }));
-        }}
-      />
+      {/* Preview — own scroll context */}
+      <div className="flex-1 overflow-y-auto">
+        <PdfPreview
+          rawJson={rawJson}
+          options={options}
+          className="w-full"
+          onAppearanceChange={(appearance, iconScale) => {
+            setOptions((prev) => ({ ...prev, appearance, iconScale }));
+          }}
+        />
+      </div>
     </div>
   );
 }
