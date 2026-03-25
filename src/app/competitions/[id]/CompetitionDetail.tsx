@@ -13,6 +13,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog'
 import { createClient } from '@/lib/supabase/client'
 import { parseScriptJson } from '@/lib/search'
+import { BracketView } from '@/components/BracketView'
 import type { Competition, CompetitionEntry, Script, CompetitionStatus } from '@/lib/supabase/types'
 
 const STATUS_VARIANT: Record<CompetitionStatus, 'default' | 'secondary' | 'outline' | 'destructive'> = {
@@ -38,9 +39,10 @@ interface Props {
   userId: string | null
   isCreator: boolean
   isOpen: boolean
+  matchups: unknown[]
 }
 
-export function CompetitionDetail({ competition, entries, userScripts, userId, isCreator, isOpen }: Props) {
+export function CompetitionDetail({ competition, entries, userScripts, userId, isCreator, isOpen, matchups }: Props) {
   const router = useRouter()
   const supabase = React.useMemo(() => createClient(), [])
   const [dialogOpen, setDialogOpen] = React.useState(false)
@@ -96,6 +98,9 @@ export function CompetitionDetail({ competition, entries, userScripts, userId, i
           </CardHeader>
           <CardContent>
             <div className="flex gap-2 flex-wrap">
+              <Link href={`/competitions/${competition.id}/manage`}>
+                <Button variant="outline" size="sm">Manage</Button>
+              </Link>
               {competition.status === 'open' && (
                 <Button
                   variant="secondary"
@@ -178,6 +183,14 @@ export function CompetitionDetail({ competition, entries, userScripts, userId, i
           </table>
         )}
       </div>
+
+      {/* Bracket */}
+      {(matchups as { id: string }[]).length > 0 && (
+        <div>
+          <h2 className="text-lg font-semibold mb-3">Bracket</h2>
+          <BracketView matchups={matchups as Parameters<typeof BracketView>[0]['matchups']} />
+        </div>
+      )}
     </div>
   )
 }

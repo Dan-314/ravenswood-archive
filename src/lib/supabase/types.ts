@@ -8,7 +8,16 @@ export type CharacterTeam = 'townsfolk' | 'outsider' | 'minion' | 'demon' | 'tra
 export interface Database {
   public: {
     Views: Record<never, never>
-    Functions: Record<never, never>
+    Functions: {
+      generate_bracket: {
+        Args: { p_competition_id: string; p_seed_order: string[] }
+        Returns: undefined
+      }
+      advance_winner: {
+        Args: { p_matchup_id: string; p_winner_entry_id: string }
+        Returns: undefined
+      }
+    }
     Tables: {
       scripts: {
         Row: {
@@ -199,6 +208,59 @@ export interface Database {
           }
         ]
       }
+      bracket_matchups: {
+        Row: {
+          id: string
+          competition_id: string
+          round: number
+          position: number
+          entry_a_id: string | null
+          entry_b_id: string | null
+          winner_entry_id: string | null
+          voting_open: boolean
+          created_at: string
+        }
+        Insert: {
+          id?: string
+          competition_id: string
+          round: number
+          position: number
+          entry_a_id?: string | null
+          entry_b_id?: string | null
+          winner_entry_id?: string | null
+          voting_open?: boolean
+          created_at?: string
+        }
+        Update: {
+          entry_a_id?: string | null
+          entry_b_id?: string | null
+          winner_entry_id?: string | null
+          voting_open?: boolean
+        }
+        Relationships: [
+          {
+            foreignKeyName: 'bracket_matchups_entry_a_id_fkey'
+            columns: ['entry_a_id']
+            isOneToOne: false
+            referencedRelation: 'competition_entries'
+            referencedColumns: ['id']
+          },
+          {
+            foreignKeyName: 'bracket_matchups_entry_b_id_fkey'
+            columns: ['entry_b_id']
+            isOneToOne: false
+            referencedRelation: 'competition_entries'
+            referencedColumns: ['id']
+          },
+          {
+            foreignKeyName: 'bracket_matchups_competition_id_fkey'
+            columns: ['competition_id']
+            isOneToOne: false
+            referencedRelation: 'competitions'
+            referencedColumns: ['id']
+          }
+        ]
+      }
       script_groups: {
         Row: {
           script_id: string
@@ -233,3 +295,8 @@ export type ScriptVersion = Database['public']['Tables']['script_versions']['Row
 export type Competition = Database['public']['Tables']['competitions']['Row']
 export type CompetitionEntry = Database['public']['Tables']['competition_entries']['Row']
 export type CompetitionEntryWithScript = CompetitionEntry & { script: Script }
+export type BracketMatchup = Database['public']['Tables']['bracket_matchups']['Row']
+export type MatchupWithEntries = BracketMatchup & {
+  entry_a: CompetitionEntryWithScript | null
+  entry_b: CompetitionEntryWithScript | null
+}

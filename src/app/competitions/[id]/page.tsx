@@ -39,6 +39,14 @@ export default async function CompetitionPage({ params }: { params: Promise<{ id
     userScripts = data ?? []
   }
 
+  // Fetch bracket matchups if they exist
+  const { data: matchups } = await supabase
+    .from('bracket_matchups')
+    .select('*, entry_a:competition_entries!bracket_matchups_entry_a_id_fkey(*, script:scripts(*)), entry_b:competition_entries!bracket_matchups_entry_b_id_fkey(*, script:scripts(*))')
+    .eq('competition_id', id)
+    .order('round')
+    .order('position')
+
   const isCreator = user?.id === competition.created_by
   const isOpen = competition.status === 'open' && new Date(competition.submission_deadline) > new Date()
 
@@ -50,6 +58,7 @@ export default async function CompetitionPage({ params }: { params: Promise<{ id
       userId={user?.id ?? null}
       isCreator={isCreator}
       isOpen={isOpen}
+      matchups={(matchups ?? []) as unknown[]}
     />
   )
 }
