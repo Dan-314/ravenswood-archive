@@ -50,6 +50,19 @@ export function ManageCompetition({ competition, entries, matchups: rawMatchups 
     setLoading(true)
     setError('')
 
+    // If regenerating, reset status to closed first (RPC requires closed status)
+    if (competition.status === 'brackets') {
+      const { error: statusError } = await supabase
+        .from('competitions')
+        .update({ status: 'closed' })
+        .eq('id', competition.id)
+      if (statusError) {
+        setError(statusError.message)
+        setLoading(false)
+        return
+      }
+    }
+
     const { error: rpcError } = await supabase.rpc('generate_bracket', {
       p_competition_id: competition.id,
       p_seed_order: seedOrder.map((e) => e.id),
@@ -117,11 +130,13 @@ export function ManageCompetition({ competition, entries, matchups: rawMatchups 
 
       {error && <p className="text-sm text-destructive">{error}</p>}
 
-      {/* Seed ordering (only when closed, no brackets yet) */}
-      {competition.status === 'closed' && !hasBrackets && (
+      {/* Seed ordering (when closed, or brackets to allow regeneration) */}
+      {(competition.status === 'closed' || competition.status === 'brackets') && (
         <Card>
           <CardHeader>
-            <CardTitle className="text-base">Set seed order</CardTitle>
+            <CardTitle className="text-base">
+              {hasBrackets ? 'Regenerate bracket' : 'Set seed order'}
+            </CardTitle>
           </CardHeader>
           <CardContent>
             {entries.length < 2 ? (
@@ -163,7 +178,7 @@ export function ManageCompetition({ competition, entries, matchups: rawMatchups 
                   disabled={loading}
                   onClick={handleGenerateBracket}
                 >
-                  {loading ? 'Generating...' : 'Generate bracket'}
+                  {loading ? 'Generating...' : hasBrackets ? 'Regenerate bracket' : 'Generate bracket'}
                 </Button>
               </div>
             )}
