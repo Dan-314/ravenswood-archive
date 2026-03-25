@@ -9,6 +9,7 @@ import type { CompetitionEntryWithScript } from '@/lib/supabase/types'
 
 interface MatchupData {
   id: string
+  competition_id: string
   round: number
   position: number
   entry_a_id: string | null
@@ -26,8 +27,64 @@ interface BracketViewProps {
   userId: string | null
 }
 
-export function BracketView({ matchups, voteCounts, userVotes, userId }: BracketViewProps) {
+function useRealtimeVotes(
+  matchupIds: string[],
+  initialCounts: Record<string, Record<string, number>>,
+  initialUserVotes: Record<string, string>,
+  userId: string | null,
+) {
+  const [counts, setCounts] = React.useState(initialCounts)
+  const [userVotes, setUserVotes] = React.useState(initialUserVotes)
+
+  // Sync when server-provided props change (e.g. after router.refresh)
+  React.useEffect(() => {
+    setCounts(initialCounts)
+    setUserVotes(initialUserVotes)
+  }, [initialCounts, initialUserVotes])
+
+  React.useEffect(() => {
+    if (matchupIds.length === 0) return
+
+    const supabase = createClient()
+    const channel = supabase
+      .channel('matchup-votes')
+      .on(
+        'postgres_changes',
+        {
+          event: 'INSERT',
+          schema: 'public',
+          table: 'matchup_votes',
+        },
+        (payload) => {
+          const vote = payload.new as { matchup_id: string; entry_id: string; user_id: string }
+          if (!matchupIds.includes(vote.matchup_id)) return
+
+          setCounts((prev) => {
+            const matchupCounts = { ...(prev[vote.matchup_id] ?? {}) }
+            matchupCounts[vote.entry_id] = (matchupCounts[vote.entry_id] ?? 0) + 1
+            return { ...prev, [vote.matchup_id]: matchupCounts }
+          })
+
+          if (userId && vote.user_id === userId) {
+            setUserVotes((prev) => ({ ...prev, [vote.matchup_id]: vote.entry_id }))
+          }
+        },
+      )
+      .subscribe()
+
+    return () => {
+      supabase.removeChannel(channel)
+    }
+  }, [matchupIds.join(','), userId])
+
+  return { counts, userVotes }
+}
+
+export function BracketView({ matchups, voteCounts, userVotes: initialUserVotes, userId }: BracketViewProps) {
   if (matchups.length === 0) return null
+
+  const matchupIds = React.useMemo(() => matchups.map((m) => m.id), [matchups])
+  const { counts, userVotes } = useRealtimeVotes(matchupIds, voteCounts, initialUserVotes, userId)
 
   // Group by round
   const rounds = new Map<number, MatchupData[]>()
@@ -65,8 +122,8 @@ export function BracketView({ matchups, voteCounts, userVotes, userId }: Bracket
                   <MatchupCard
                     key={m.id}
                     matchup={m}
-                    votesA={voteCounts[m.id]?.[m.entry_a_id ?? ''] ?? 0}
-                    votesB={voteCounts[m.id]?.[m.entry_b_id ?? ''] ?? 0}
+                    votesA={counts[m.id]?.[m.entry_a_id ?? ''] ?? 0}
+                    votesB={counts[m.id]?.[m.entry_b_id ?? ''] ?? 0}
                     userVote={userVotes[m.id] ?? null}
                     userId={userId}
                   />
@@ -109,7 +166,7 @@ function MatchupCard({
       entry_id: entryId,
     })
     setVoting(false)
-    router.refresh()
+    // No router.refresh() needed — realtime subscription handles the update
   }
 
   return (
