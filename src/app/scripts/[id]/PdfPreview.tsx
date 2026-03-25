@@ -56,6 +56,8 @@ export function PdfPreview({ rawJson, options, defaultColor, className, onAppear
   const [scale, setScale] = useState(1);
   const [initialRandomColor] = useState(() => randomColor());
   const [mounted, setMounted] = useState(false);
+  const [autoAppearance, setAutoAppearance] = useState<PdfOptions["appearance"] | null>(null);
+  const [autoIconScale, setAutoIconScale] = useState<number | null>(null);
 
   useEffect(() => {
     setMounted(true);
@@ -64,10 +66,17 @@ export function PdfPreview({ rawJson, options, defaultColor, className, onAppear
   const isAdjustingRef = useRef(false);
   const lastCheckedRef = useRef<string | null>(null);
 
-  const pdfOptions = useMemo<PdfOptions>(() => ({
-    ...DEFAULT_PDF_OPTIONS,
-    ...(options ?? { color: defaultColor || initialRandomColor }),
-  }), [options, defaultColor, initialRandomColor]);
+  const pdfOptions = useMemo<PdfOptions>(() => {
+    const base = {
+      ...DEFAULT_PDF_OPTIONS,
+      ...(options ?? { color: defaultColor || initialRandomColor }),
+    };
+    if (!onAppearanceChange && autoAppearance) {
+      base.appearance = autoAppearance;
+      if (autoIconScale !== null) base.iconScale = autoIconScale;
+    }
+    return base;
+  }, [options, defaultColor, initialRandomColor, onAppearanceChange, autoAppearance, autoIconScale]);
 
   const assetsUrl = "/pdf-assets/images";
 
@@ -103,7 +112,12 @@ export function PdfPreview({ rawJson, options, defaultColor, className, onAppear
         if (nextIndex < APPEARANCE_LEVELS.length) {
           isAdjustingRef.current = true;
           const nextAppearance = APPEARANCE_LEVELS[nextIndex];
-          onAppearanceChange?.(nextAppearance, ICON_SCALES[nextAppearance]);
+          if (onAppearanceChange) {
+            onAppearanceChange(nextAppearance, ICON_SCALES[nextAppearance]);
+          } else {
+            setAutoAppearance(nextAppearance);
+            setAutoIconScale(ICON_SCALES[nextAppearance]);
+          }
 
           setTimeout(() => {
             isAdjustingRef.current = false;

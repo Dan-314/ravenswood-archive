@@ -2,6 +2,15 @@ import { ALL_CHARACTERS } from "botc-script-checker";
 import type { Script, ScriptCharacter, ScriptMetadata } from "botc-script-checker";
 import type { ParsedScript, ResolvedCharacter, GroupedCharacters } from "./types";
 import { TEAM_ORDER } from "./types";
+import localRoles from "../../../roles.json";
+import { ALL_CHARACTERS_WITH_REMINDERS } from "./all-characters";
+
+const LOCAL_CHARACTERS: Record<string, ScriptCharacter> = {};
+for (const role of localRoles as ScriptCharacter[]) {
+  if (role.id) {
+    LOCAL_CHARACTERS[role.id.toLowerCase().replace(/_/g, "")] = role;
+  }
+}
 
 export function parseScript(rawJson: unknown): ParsedScript {
   if (!Array.isArray(rawJson)) {
@@ -46,12 +55,16 @@ export function parseScript(rawJson: unknown): ParsedScript {
 
 function resolveCharacter(id: string): ResolvedCharacter | null {
   const normalizedId = id.toLowerCase().replace(/_/g, "");
-  const char = ALL_CHARACTERS[normalizedId] ?? ALL_CHARACTERS[id.toLowerCase()];
-  if (!char) {
+  // Use ALL_CHARACTERS_WITH_REMINDERS as primary source (has night reminder text),
+  // fall back to botc-script-checker's ALL_CHARACTERS, then local roles
+  const withReminders = ALL_CHARACTERS_WITH_REMINDERS[normalizedId] ?? ALL_CHARACTERS_WITH_REMINDERS[id.toLowerCase()];
+  const base = ALL_CHARACTERS[normalizedId] ?? ALL_CHARACTERS[id.toLowerCase()]
+    ?? LOCAL_CHARACTERS[normalizedId] ?? LOCAL_CHARACTERS[id.toLowerCase()];
+  if (!withReminders && !base) {
     console.warn(`Character not found: ${id}`);
     return null;
   }
-  return { ...char };
+  return { ...base, ...withReminders };
 }
 
 export function groupByTeam(characters: ResolvedCharacter[]): GroupedCharacters {

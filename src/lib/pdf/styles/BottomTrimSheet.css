@@ -13,6 +13,7 @@
 }
 
 .bottom-trim-sheet .sheet-content {
+  position: relative;
   padding: 10mm;
   gap: 5mm;
 }

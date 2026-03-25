@@ -80,7 +80,10 @@
 }
 
 .reminder-icon {
+  display: inline;
   width: 10px;
+  height: auto;
+  max-width: none;
   scale: 1;
   opacity: 0.8;
   margin-right: 4px;

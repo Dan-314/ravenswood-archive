@@ -36,16 +36,16 @@ export function FilterPanel({ characters, groups, filters, onChange }: FilterPan
         </Select>
       </div>
 
-      {/* Carousel */}
+      {/* Base 3 only */}
       <div className="flex items-center gap-2">
         <Checkbox
-          id="carousel"
-          checked={filters.hasCarousel === true}
+          id="base3only"
+          checked={filters.hasCarousel === false}
           onCheckedChange={(checked) =>
-            onChange({ hasCarousel: checked === true ? true : undefined })
+            onChange({ hasCarousel: checked === true ? false : undefined })
           }
         />
-        <Label htmlFor="carousel" className="cursor-pointer">Has carousel characters</Label>
+        <Label htmlFor="base3only" className="cursor-pointer">Base 3 characters only</Label>
       </div>
 
       {groups.length > 0 && (

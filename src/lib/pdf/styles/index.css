@@ -28,6 +28,12 @@
   print-color-adjust: exact;
 }
 
+/* Override Tailwind's img reset within PDF sheets */
+.pdf-sheet-root img {
+  display: inline;
+  max-width: none;
+}
+
 @media print {
   body { margin: 0; padding: 0; }
   .printable-page { page-break-after: always; }

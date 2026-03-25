@@ -10,7 +10,23 @@ import {
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Checkbox } from "@/components/ui/checkbox";
+import { Button } from "@/components/ui/button";
+import { Shuffle } from "lucide-react";
 import type { PdfOptions } from "@/lib/botc/types";
+
+function randomColor(): string {
+  const h = Math.floor(Math.random() * 360);
+  const s = 40 + Math.floor(Math.random() * 30);
+  const l = 25 + Math.floor(Math.random() * 15);
+  const f = (n: number) => {
+    const sp = (s / 100), lp = (l / 100);
+    const a = sp * Math.min(lp, 1 - lp);
+    const k = (n + h / 30) % 12;
+    const c = lp - a * Math.max(Math.min(k - 3, 9 - k, 1), -1);
+    return Math.round(255 * c).toString(16).padStart(2, "0");
+  };
+  return `#${f(0)}${f(8)}${f(4)}`;
+}
 
 const TITLE_FONTS = [
   "Dumbledor",
@@ -65,24 +81,20 @@ export function PdfOptionsForm({ options, onUpdate }: PdfOptionsFormProps) {
         </div>
       </div>
 
-      {/* Color & Font */}
+      {/* Jinx Icons & Font */}
       <div className="grid grid-cols-2 gap-4">
         <div className="flex flex-col gap-1.5">
-          <Label>Color</Label>
-          <div className="flex gap-2 items-center">
-            <input
-              type="color"
-              value={colorValue}
-              onChange={(e) => update("color", e.target.value)}
-              className="h-8 w-10 rounded border border-input cursor-pointer"
-            />
-            <Input
-              value={colorValue}
-              onChange={(e) => update("color", e.target.value)}
-              className="flex-1 h-8"
-              placeholder="#137415"
-            />
-          </div>
+          <Label>Inline Jinx Icons</Label>
+          <Select value={options.inlineJinxIcons} onValueChange={(v) => v && update("inlineJinxIcons", v as "none" | "primary" | "both")}>
+            <SelectTrigger className="w-full">
+              <SelectValue />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="none">None</SelectItem>
+              <SelectItem value="primary">Primary only</SelectItem>
+              <SelectItem value="both">Both characters</SelectItem>
+            </SelectContent>
+          </Select>
         </div>
 
         <div className="flex flex-col gap-1.5">
@@ -100,60 +112,73 @@ export function PdfOptionsForm({ options, onUpdate }: PdfOptionsFormProps) {
         </div>
       </div>
 
-      {/* Icon Scale & Paper Size */}
-      <div className="grid grid-cols-2 gap-4">
-        <div className="flex flex-col gap-1.5">
-          <Label>Icon Scale ({options.iconScale.toFixed(1)})</Label>
-          <input
-            type="range"
-            min="1.4"
-            max="1.7"
-            step="0.1"
-            value={options.iconScale}
-            onChange={(e) => update("iconScale", parseFloat(e.target.value))}
-            className="w-full accent-primary"
-          />
-        </div>
-
-        <div className="flex flex-col gap-1.5">
-          <Label>Paper Size</Label>
-          <Select
-            value={options.paperSize}
-            onValueChange={(v) => {
-              if (!v) return;
-              const ps = v as "A4" | "Letter";
-              update("paperSize", ps);
-              update("dimensions", {
-                ...options.dimensions,
-                width: ps === "A4" ? 210 : 216,
-                height: ps === "A4" ? 297 : 279,
-              });
-            }}
-          >
-            <SelectTrigger className="w-full">
-              <SelectValue />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="A4">A4</SelectItem>
-              <SelectItem value="Letter">Letter</SelectItem>
-            </SelectContent>
-          </Select>
-        </div>
-      </div>
-
-      {/* Inline Jinx Icons */}
+      {/* Paper Size */}
       <div className="flex flex-col gap-1.5">
-        <Label>Inline Jinx Icons</Label>
-        <Select value={options.inlineJinxIcons} onValueChange={(v) => v && update("inlineJinxIcons", v as "none" | "primary" | "both")}>
+        <Label>Paper Size</Label>
+        <Select
+          value={options.paperSize}
+          onValueChange={(v) => {
+            if (!v) return;
+            const ps = v as "A4" | "Letter";
+            update("paperSize", ps);
+            update("dimensions", {
+              ...options.dimensions,
+              width: ps === "A4" ? 210 : 216,
+              height: ps === "A4" ? 297 : 279,
+            });
+          }}
+        >
           <SelectTrigger className="w-full">
             <SelectValue />
           </SelectTrigger>
           <SelectContent>
-            <SelectItem value="none">None</SelectItem>
-            <SelectItem value="primary">Primary only</SelectItem>
-            <SelectItem value="both">Both characters</SelectItem>
+            <SelectItem value="A4">A4</SelectItem>
+            <SelectItem value="Letter">Letter</SelectItem>
           </SelectContent>
         </Select>
+      </div>
+
+      {/* Color */}
+      <div className="flex flex-col gap-1.5">
+        <Label>Color</Label>
+        <div className="flex gap-2 items-center">
+          <input
+            type="color"
+            value={colorValue}
+            onChange={(e) => update("color", e.target.value)}
+            className="h-8 w-10 rounded border border-input cursor-pointer"
+          />
+          <Input
+            value={colorValue}
+            onChange={(e) => update("color", e.target.value)}
+            className="flex-1 h-8"
+            placeholder="#137415"
+          />
+          <Button
+            type="button"
+            variant="outline"
+            size="icon"
+            className="h-8 w-8 shrink-0"
+            onClick={() => update("color", randomColor())}
+            title="Randomise colour"
+          >
+            <Shuffle className="h-4 w-4" />
+          </Button>
+        </div>
+      </div>
+
+      {/* Icon Scale */}
+      <div className="flex flex-col gap-1.5">
+        <Label>Icon Scale ({options.iconScale.toFixed(1)})</Label>
+        <input
+          type="range"
+          min="0.5"
+          max="3.0"
+          step="0.1"
+          value={options.iconScale}
+          onChange={(e) => update("iconScale", parseFloat(e.target.value))}
+          className="w-full accent-primary"
+        />
       </div>
 
       {/* Show/hide toggles */}
