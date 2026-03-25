@@ -131,8 +131,8 @@ export function ManageCompetition({ competition, entries, matchups: rawMatchups,
 
       {error && <p className="text-sm text-destructive">{error}</p>}
 
-      {/* Seed ordering (when closed, or brackets to allow regeneration) */}
-      {(competition.status === 'closed' || competition.status === 'brackets') && (
+      {/* Seed ordering (when closed, or brackets not yet published to allow regeneration) */}
+      {(competition.status === 'closed' || (competition.status === 'brackets' && !competition.bracket_published)) && (
         <Card>
           <CardHeader>
             <CardTitle className="text-base">
@@ -187,6 +187,48 @@ export function ManageCompetition({ competition, entries, matchups: rawMatchups,
         </Card>
       )}
 
+      {/* Publish bracket */}
+      {hasBrackets && !competition.bracket_published && (
+        <Card>
+          <CardContent className="py-3">
+            <div className="flex items-center justify-between">
+              <div>
+                <p className="text-sm font-medium">Bracket is in draft</p>
+                <p className="text-xs text-muted-foreground">Only you can see it. Publish to make it visible to everyone.</p>
+              </div>
+              <Button
+                size="sm"
+                disabled={loading}
+                onClick={async () => {
+                  setLoading(true)
+                  setError('')
+                  const { error: e } = await supabase
+                    .from('competitions')
+                    .update({ bracket_published: true })
+                    .eq('id', competition.id)
+                  if (e) setError(e.message)
+                  setLoading(false)
+                  router.refresh()
+                }}
+              >
+                Publish bracket
+              </Button>
+            </div>
+          </CardContent>
+        </Card>
+      )}
+
+      {hasBrackets && competition.bracket_published && (
+        <Card>
+          <CardContent className="py-3">
+            <div className="flex items-center gap-2">
+              <Badge variant="default">Published</Badge>
+              <p className="text-sm text-muted-foreground">Bracket is live and visible to everyone.</p>
+            </div>
+          </CardContent>
+        </Card>
+      )}
+
       {/* Bracket management (when brackets exist) */}
       {hasBrackets && (
         <div className="flex flex-col gap-4">
@@ -207,14 +249,14 @@ export function ManageCompetition({ competition, entries, matchups: rawMatchups,
                             <MatchupEntryLine
                               entry={m.entry_a}
                               isWinner={m.winner_entry_id === m.entry_a_id}
-                              isBye={m.entry_a_id === null}
+                              isBye={m.round === 1 && m.entry_a_id === null}
                               votes={voteCounts[m.id]?.[m.entry_a_id ?? ''] ?? 0}
                             />
                             <div className="text-xs text-muted-foreground text-center">vs</div>
                             <MatchupEntryLine
                               entry={m.entry_b}
                               isWinner={m.winner_entry_id === m.entry_b_id}
-                              isBye={m.entry_b_id === null}
+                              isBye={m.round === 1 && m.entry_b_id === null}
                               votes={voteCounts[m.id]?.[m.entry_b_id ?? ''] ?? 0}
                             />
                           </div>

@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card'
+import { Input } from '@/components/ui/input'
 import type { Competition, CompetitionStatus } from '@/lib/supabase/types'
 
 type CompetitionWithCount = Competition & { entry_count: number }
@@ -33,13 +34,21 @@ const STATUS_LABEL: Record<CompetitionStatus, string> = {
 
 export function CompetitionList({ competitions }: { competitions: CompetitionWithCount[] }) {
   const [tab, setTab] = React.useState(0)
+  const [search, setSearch] = React.useState('')
 
-  const filtered = competitions.filter(STATUS_TABS[tab].filter)
+  const query = search.toLowerCase().trim()
+  const filtered = competitions
+    .filter(STATUS_TABS[tab].filter)
+    .filter((c) =>
+      !query ||
+      c.name.toLowerCase().includes(query) ||
+      (c.description ?? '').toLowerCase().includes(query)
+    )
 
   return (
     <div className="flex flex-col gap-4">
-      <div className="flex items-center justify-between">
-        <div className="flex gap-1">
+      <div className="flex items-center justify-between gap-2">
+        <div className="flex gap-1 shrink-0">
           {STATUS_TABS.map((t, i) => (
             <Button
               key={t.label}
@@ -51,9 +60,17 @@ export function CompetitionList({ competitions }: { competitions: CompetitionWit
             </Button>
           ))}
         </div>
-        <Link href="/competitions/create">
-          <Button size="sm">Create competition</Button>
-        </Link>
+        <div className="flex gap-2 items-center">
+          <Input
+            placeholder="Search competitions..."
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            className="h-8 w-48"
+          />
+          <Link href="/competitions/create">
+            <Button size="sm">Create competition</Button>
+          </Link>
+        </div>
       </div>
 
       {filtered.length === 0 ? (

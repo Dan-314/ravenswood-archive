@@ -149,6 +149,19 @@ export function CompetitionDetail({ competition, entries, userScripts, userId, i
         </Dialog>
       )}
 
+      {/* Bracket (only shown publicly after creator publishes) */}
+      {(matchups as { id: string }[]).length > 0 && competition.bracket_published && (
+        <div>
+          <h2 className="text-lg font-semibold mb-3">Bracket</h2>
+          <BracketView
+            matchups={matchups as Parameters<typeof BracketView>[0]['matchups']}
+            voteCounts={voteCounts}
+            userVotes={userVotes}
+            userId={userId}
+          />
+        </div>
+      )}
+
       {/* Entries */}
       <div>
         <h2 className="text-lg font-semibold mb-3">
@@ -185,19 +198,6 @@ export function CompetitionDetail({ competition, entries, userScripts, userId, i
           </table>
         )}
       </div>
-
-      {/* Bracket */}
-      {(matchups as { id: string }[]).length > 0 && (
-        <div>
-          <h2 className="text-lg font-semibold mb-3">Bracket</h2>
-          <BracketView
-            matchups={matchups as Parameters<typeof BracketView>[0]['matchups']}
-            voteCounts={voteCounts}
-            userVotes={userVotes}
-            userId={userId}
-          />
-        </div>
-      )}
     </div>
   )
 }

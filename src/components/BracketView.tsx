@@ -106,19 +106,58 @@ export function BracketView({ matchups, voteCounts, userVotes: initialUserVotes,
 
   return (
     <div className="overflow-x-auto">
-      <div className="flex gap-6 min-w-max py-2">
-        {sortedRounds.map(([round, roundMatchups]) => (
-          <div key={round} className="flex flex-col gap-2" style={{ minWidth: 220 }}>
-            <div className="text-xs font-medium text-muted-foreground text-center mb-1">
-              {getRoundLabel(round)}
-            </div>
-            <div
-              className="flex flex-col justify-around flex-1"
-              style={{ gap: `${Math.pow(2, round - 1) * 8}px` }}
-            >
-              {roundMatchups
-                .sort((a, b) => a.position - b.position)
-                .map((m) => (
+      {/* Desktop: horizontal bracket with connectors */}
+      <div className="hidden sm:flex min-w-max py-2">
+        {sortedRounds.map(([round, roundMatchups], roundIdx) => {
+          const sorted = roundMatchups.sort((a, b) => a.position - b.position)
+          const isLastRound = roundIdx === sortedRounds.length - 1
+          return (
+            <React.Fragment key={round}>
+              <div className="flex flex-col" style={{ minWidth: 220 }}>
+                <div className="text-xs font-medium text-muted-foreground text-center mb-2">
+                  {getRoundLabel(round)}
+                </div>
+                <div
+                  className="flex flex-col justify-around flex-1"
+                  style={{ gap: `${Math.pow(2, round - 1) * 8}px` }}
+                >
+                  {sorted.map((m) => (
+                    <MatchupCard
+                      key={m.id}
+                      matchup={m}
+                      votesA={counts[m.id]?.[m.entry_a_id ?? ''] ?? 0}
+                      votesB={counts[m.id]?.[m.entry_b_id ?? ''] ?? 0}
+                      userVote={userVotes[m.id] ?? null}
+                      userId={userId}
+                    />
+                  ))}
+                </div>
+              </div>
+              {!isLastRound && (
+                <div className="flex flex-col justify-around flex-1" style={{ width: 24, marginTop: 20 }}>
+                  {sorted
+                    .filter((_, i) => i % 2 === 0)
+                    .map((_, i) => (
+                      <ConnectorPair key={i} />
+                    ))}
+                </div>
+              )}
+            </React.Fragment>
+          )
+        })}
+      </div>
+
+      {/* Mobile: stacked rounds */}
+      <div className="flex flex-col gap-6 sm:hidden py-2">
+        {sortedRounds.map(([round, roundMatchups]) => {
+          const sorted = roundMatchups.sort((a, b) => a.position - b.position)
+          return (
+            <div key={round}>
+              <div className="text-xs font-medium text-muted-foreground mb-2">
+                {getRoundLabel(round)}
+              </div>
+              <div className="flex flex-col gap-2">
+                {sorted.map((m) => (
                   <MatchupCard
                     key={m.id}
                     matchup={m}
@@ -128,9 +167,10 @@ export function BracketView({ matchups, voteCounts, userVotes: initialUserVotes,
                     userId={userId}
                   />
                 ))}
+              </div>
             </div>
-          </div>
-        ))}
+          )
+        })}
       </div>
     </div>
   )
@@ -175,6 +215,7 @@ function MatchupCard({
         entry={entry_a}
         entryId={entry_a_id}
         otherEntryId={entry_b_id}
+        round={matchup.round}
         isWinner={winner_entry_id != null && winner_entry_id === entry_a_id}
         isLoser={winner_entry_id != null && winner_entry_id !== entry_a_id}
         votes={votesA}
@@ -190,6 +231,7 @@ function MatchupCard({
         entry={entry_b}
         entryId={entry_b_id}
         otherEntryId={entry_a_id}
+        round={matchup.round}
         isWinner={winner_entry_id != null && winner_entry_id === entry_b_id}
         isLoser={winner_entry_id != null && winner_entry_id !== entry_b_id}
         votes={votesB}
@@ -210,10 +252,24 @@ function MatchupCard({
   )
 }
 
+function ConnectorPair() {
+  return (
+    <div className="flex flex-col flex-1">
+      {/* Top matchup's horizontal line out + vertical line down */}
+      <div className="flex-1 flex flex-col">
+        <div className="flex-1 border-b-2 border-r-2 border-muted-foreground/20" />
+        {/* Bottom matchup's horizontal line out + vertical line up */}
+        <div className="flex-1 border-t-2 border-r-2 border-muted-foreground/20" />
+      </div>
+    </div>
+  )
+}
+
 function EntrySlot({
   entry,
   entryId,
   otherEntryId,
+  round,
   isWinner,
   isLoser,
   votes,
@@ -228,6 +284,7 @@ function EntrySlot({
   entry: CompetitionEntryWithScript | null
   entryId: string | null
   otherEntryId: string | null
+  round: number
   isWinner: boolean
   isLoser: boolean
   votes: number
@@ -239,7 +296,7 @@ function EntrySlot({
   onVote: (entryId: string) => void
   className?: string
 }) {
-  const isBye = entryId === null && otherEntryId !== null
+  const isBye = round === 1 && entryId === null && otherEntryId !== null
   let label: string
   let seedLabel: string | null = null
 

@@ -142,6 +142,7 @@ export interface Database {
           created_by: string
           status: CompetitionStatus
           submission_deadline: string
+          bracket_published: boolean
           created_at: string
           updated_at: string
         }
@@ -152,6 +153,7 @@ export interface Database {
           created_by: string
           status?: CompetitionStatus
           submission_deadline: string
+          bracket_published?: boolean
           created_at?: string
           updated_at?: string
         }
@@ -160,6 +162,7 @@ export interface Database {
           description?: string | null
           status?: CompetitionStatus
           submission_deadline?: string
+          bracket_published?: boolean
         }
         Relationships: [
           {
