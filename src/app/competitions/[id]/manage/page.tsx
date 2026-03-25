@@ -36,11 +36,26 @@ export default async function ManageCompetitionPage({ params }: { params: Promis
     .order('round')
     .order('position')
 
+  // Fetch vote counts for matchups
+  const matchupIds = (matchups ?? []).map((m) => (m as { id: string }).id)
+  const voteCounts: Record<string, Record<string, number>> = {}
+  if (matchupIds.length > 0) {
+    const { data: votes } = await supabase
+      .from('matchup_votes')
+      .select('matchup_id, entry_id')
+      .in('matchup_id', matchupIds)
+    for (const v of votes ?? []) {
+      if (!voteCounts[v.matchup_id]) voteCounts[v.matchup_id] = {}
+      voteCounts[v.matchup_id][v.entry_id] = (voteCounts[v.matchup_id][v.entry_id] ?? 0) + 1
+    }
+  }
+
   return (
     <ManageCompetition
       competition={competition as Competition}
       entries={entries}
       matchups={(matchups ?? []) as unknown[]}
+      voteCounts={voteCounts}
     />
   )
 }

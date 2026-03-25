@@ -70,6 +70,17 @@ export default function SubmitForm() {
     }
   }
 
+  function resetForm() {
+    setJsonText('')
+    setManualName('')
+    setManualAuthor('')
+    setScriptType('full')
+    setStatus('idle')
+    setErrorMsg('')
+    setParsed(null)
+    setParseError('')
+  }
+
   if (status === 'success') {
     return (
       <div className="max-w-lg flex flex-col gap-4">
@@ -77,7 +88,10 @@ export default function SubmitForm() {
         <p className="text-muted-foreground">
           Your script has been submitted for review. It will appear in search results once approved.
         </p>
-        <Button onClick={() => router.push('/')} variant="outline">Back to search</Button>
+        <div className="flex gap-2">
+          <Button onClick={resetForm}>Submit another</Button>
+          <Button onClick={() => router.push('/')} variant="outline">Back to search</Button>
+        </div>
       </div>
     )
   }

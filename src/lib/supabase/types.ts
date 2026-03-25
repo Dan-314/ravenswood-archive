@@ -261,6 +261,32 @@ export interface Database {
           }
         ]
       }
+      matchup_votes: {
+        Row: {
+          id: string
+          matchup_id: string
+          user_id: string
+          entry_id: string
+          created_at: string
+        }
+        Insert: {
+          id?: string
+          matchup_id: string
+          user_id: string
+          entry_id: string
+          created_at?: string
+        }
+        Update: Record<never, never>
+        Relationships: [
+          {
+            foreignKeyName: 'matchup_votes_matchup_id_fkey'
+            columns: ['matchup_id']
+            isOneToOne: false
+            referencedRelation: 'bracket_matchups'
+            referencedColumns: ['id']
+          }
+        ]
+      }
       script_groups: {
         Row: {
           script_id: string
@@ -296,6 +322,7 @@ export type Competition = Database['public']['Tables']['competitions']['Row']
 export type CompetitionEntry = Database['public']['Tables']['competition_entries']['Row']
 export type CompetitionEntryWithScript = CompetitionEntry & { script: Script }
 export type BracketMatchup = Database['public']['Tables']['bracket_matchups']['Row']
+export type MatchupVote = Database['public']['Tables']['matchup_votes']['Row']
 export type MatchupWithEntries = BracketMatchup & {
   entry_a: CompetitionEntryWithScript | null
   entry_b: CompetitionEntryWithScript | null

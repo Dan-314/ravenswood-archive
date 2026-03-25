@@ -26,9 +26,10 @@ interface Props {
   competition: Competition
   entries: CompetitionEntryWithScript[]
   matchups: unknown[]
+  voteCounts: Record<string, Record<string, number>>
 }
 
-export function ManageCompetition({ competition, entries, matchups: rawMatchups }: Props) {
+export function ManageCompetition({ competition, entries, matchups: rawMatchups, voteCounts }: Props) {
   const router = useRouter()
   const supabase = React.useMemo(() => createClient(), [])
   const [seedOrder, setSeedOrder] = React.useState<CompetitionEntryWithScript[]>(entries)
@@ -207,12 +208,14 @@ export function ManageCompetition({ competition, entries, matchups: rawMatchups 
                               entry={m.entry_a}
                               isWinner={m.winner_entry_id === m.entry_a_id}
                               isBye={m.entry_a_id === null}
+                              votes={voteCounts[m.id]?.[m.entry_a_id ?? ''] ?? 0}
                             />
                             <div className="text-xs text-muted-foreground text-center">vs</div>
                             <MatchupEntryLine
                               entry={m.entry_b}
                               isWinner={m.winner_entry_id === m.entry_b_id}
                               isBye={m.entry_b_id === null}
+                              votes={voteCounts[m.id]?.[m.entry_b_id ?? ''] ?? 0}
                             />
                           </div>
                           <div className="flex flex-col gap-1 shrink-0">
@@ -268,10 +271,12 @@ function MatchupEntryLine({
   entry,
   isWinner,
   isBye,
+  votes,
 }: {
   entry: CompetitionEntryWithScript | null
   isWinner: boolean
   isBye: boolean
+  votes: number
 }) {
   if (isBye) {
     return <span className="text-xs text-muted-foreground italic">BYE</span>
@@ -280,11 +285,16 @@ function MatchupEntryLine({
     return <span className="text-xs text-muted-foreground italic">TBD</span>
   }
   return (
-    <span className={`text-sm ${isWinner ? 'font-bold' : ''}`}>
-      {entry.seed != null && (
-        <span className="text-xs text-muted-foreground mr-1">#{entry.seed}</span>
+    <span className={`text-sm flex items-center gap-2 ${isWinner ? 'font-bold' : ''}`}>
+      <span>
+        {entry.seed != null && (
+          <span className="text-xs text-muted-foreground mr-1">#{entry.seed}</span>
+        )}
+        {entry.script.name}
+      </span>
+      {votes > 0 && (
+        <span className="text-xs text-muted-foreground font-normal">({votes} {votes === 1 ? 'vote' : 'votes'})</span>
       )}
-      {entry.script.name}
     </span>
   )
 }

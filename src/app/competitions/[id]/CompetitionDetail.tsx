@@ -40,9 +40,11 @@ interface Props {
   isCreator: boolean
   isOpen: boolean
   matchups: unknown[]
+  voteCounts: Record<string, Record<string, number>>
+  userVotes: Record<string, string>
 }
 
-export function CompetitionDetail({ competition, entries, userScripts, userId, isCreator, isOpen, matchups }: Props) {
+export function CompetitionDetail({ competition, entries, userScripts, userId, isCreator, isOpen, matchups, voteCounts, userVotes }: Props) {
   const router = useRouter()
   const supabase = React.useMemo(() => createClient(), [])
   const [dialogOpen, setDialogOpen] = React.useState(false)
@@ -188,7 +190,12 @@ export function CompetitionDetail({ competition, entries, userScripts, userId, i
       {(matchups as { id: string }[]).length > 0 && (
         <div>
           <h2 className="text-lg font-semibold mb-3">Bracket</h2>
-          <BracketView matchups={matchups as Parameters<typeof BracketView>[0]['matchups']} />
+          <BracketView
+            matchups={matchups as Parameters<typeof BracketView>[0]['matchups']}
+            voteCounts={voteCounts}
+            userVotes={userVotes}
+            userId={userId}
+          />
         </div>
       )}
     </div>

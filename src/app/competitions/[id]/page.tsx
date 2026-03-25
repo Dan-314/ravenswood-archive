@@ -47,6 +47,28 @@ export default async function CompetitionPage({ params }: { params: Promise<{ id
     .order('round')
     .order('position')
 
+  // Fetch all votes for this competition's matchups to compute counts
+  const matchupIds = (matchups ?? []).map((m) => (m as { id: string }).id)
+  let votes: { matchup_id: string; entry_id: string; user_id: string }[] = []
+  if (matchupIds.length > 0) {
+    const { data: votesData } = await supabase
+      .from('matchup_votes')
+      .select('matchup_id, entry_id, user_id')
+      .in('matchup_id', matchupIds)
+    votes = (votesData ?? []) as typeof votes
+  }
+
+  // Build vote counts and user's votes per matchup
+  const voteCounts: Record<string, Record<string, number>> = {}
+  const userVotes: Record<string, string> = {}
+  for (const v of votes) {
+    if (!voteCounts[v.matchup_id]) voteCounts[v.matchup_id] = {}
+    voteCounts[v.matchup_id][v.entry_id] = (voteCounts[v.matchup_id][v.entry_id] ?? 0) + 1
+    if (user && v.user_id === user.id) {
+      userVotes[v.matchup_id] = v.entry_id
+    }
+  }
+
   const isCreator = user?.id === competition.created_by
   const isOpen = competition.status === 'open' && new Date(competition.submission_deadline) > new Date()
 
@@ -59,6 +81,8 @@ export default async function CompetitionPage({ params }: { params: Promise<{ id
       isCreator={isCreator}
       isOpen={isOpen}
       matchups={(matchups ?? []) as unknown[]}
+      voteCounts={voteCounts}
+      userVotes={userVotes}
     />
   )
 }

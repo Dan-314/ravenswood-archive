@@ -1,6 +1,10 @@
 'use client'
 
+import * as React from 'react'
+import { useRouter } from 'next/navigation'
 import { Badge } from '@/components/ui/badge'
+import { Button } from '@/components/ui/button'
+import { createClient } from '@/lib/supabase/client'
 import type { CompetitionEntryWithScript } from '@/lib/supabase/types'
 
 interface MatchupData {
@@ -17,9 +21,12 @@ interface MatchupData {
 
 interface BracketViewProps {
   matchups: MatchupData[]
+  voteCounts: Record<string, Record<string, number>>
+  userVotes: Record<string, string>
+  userId: string | null
 }
 
-export function BracketView({ matchups }: BracketViewProps) {
+export function BracketView({ matchups, voteCounts, userVotes, userId }: BracketViewProps) {
   if (matchups.length === 0) return null
 
   // Group by round
@@ -44,7 +51,7 @@ export function BracketView({ matchups }: BracketViewProps) {
     <div className="overflow-x-auto">
       <div className="flex gap-6 min-w-max py-2">
         {sortedRounds.map(([round, roundMatchups]) => (
-          <div key={round} className="flex flex-col gap-2" style={{ minWidth: 200 }}>
+          <div key={round} className="flex flex-col gap-2" style={{ minWidth: 220 }}>
             <div className="text-xs font-medium text-muted-foreground text-center mb-1">
               {getRoundLabel(round)}
             </div>
@@ -55,7 +62,14 @@ export function BracketView({ matchups }: BracketViewProps) {
               {roundMatchups
                 .sort((a, b) => a.position - b.position)
                 .map((m) => (
-                  <MatchupCard key={m.id} matchup={m} />
+                  <MatchupCard
+                    key={m.id}
+                    matchup={m}
+                    votesA={voteCounts[m.id]?.[m.entry_a_id ?? ''] ?? 0}
+                    votesB={voteCounts[m.id]?.[m.entry_b_id ?? ''] ?? 0}
+                    userVote={userVotes[m.id] ?? null}
+                    userId={userId}
+                  />
                 ))}
             </div>
           </div>
@@ -65,25 +79,72 @@ export function BracketView({ matchups }: BracketViewProps) {
   )
 }
 
-function MatchupCard({ matchup }: { matchup: MatchupData }) {
+function MatchupCard({
+  matchup,
+  votesA,
+  votesB,
+  userVote,
+  userId,
+}: {
+  matchup: MatchupData
+  votesA: number
+  votesB: number
+  userVote: string | null
+  userId: string | null
+}) {
+  const router = useRouter()
+  const supabase = React.useMemo(() => createClient(), [])
+  const [voting, setVoting] = React.useState(false)
   const { entry_a, entry_b, winner_entry_id, entry_a_id, entry_b_id, voting_open } = matchup
+
+  const canVote = voting_open && userId && !userVote && !winner_entry_id
+  const totalVotes = votesA + votesB
+
+  async function handleVote(entryId: string) {
+    if (!userId) return
+    setVoting(true)
+    await supabase.from('matchup_votes').insert({
+      matchup_id: matchup.id,
+      user_id: userId,
+      entry_id: entryId,
+    })
+    setVoting(false)
+    router.refresh()
+  }
 
   return (
     <div className="rounded border bg-card text-card-foreground">
       <EntrySlot
         entry={entry_a}
-        isBye={entry_a_id === null && entry_b_id !== null}
+        entryId={entry_a_id}
+        otherEntryId={entry_b_id}
         isWinner={winner_entry_id != null && winner_entry_id === entry_a_id}
         isLoser={winner_entry_id != null && winner_entry_id !== entry_a_id}
+        votes={votesA}
+        totalVotes={totalVotes}
+        showVotes={voting_open || winner_entry_id != null}
+        isUserVote={userVote === entry_a_id}
+        canVote={!!canVote}
+        voting={voting}
+        onVote={handleVote}
         className="border-b"
       />
       <EntrySlot
         entry={entry_b}
-        isBye={entry_b_id === null && entry_a_id !== null}
+        entryId={entry_b_id}
+        otherEntryId={entry_a_id}
         isWinner={winner_entry_id != null && winner_entry_id === entry_b_id}
         isLoser={winner_entry_id != null && winner_entry_id !== entry_b_id}
+        votes={votesB}
+        totalVotes={totalVotes}
+        showVotes={voting_open || winner_entry_id != null}
+        isUserVote={userVote === entry_b_id}
+        canVote={!!canVote}
+        voting={voting}
+        onVote={handleVote}
+        className=""
       />
-      {voting_open && (
+      {voting_open && !winner_entry_id && (
         <div className="px-2 py-0.5 border-t bg-muted/50 text-center">
           <Badge variant="default" className="text-[10px]">Voting open</Badge>
         </div>
@@ -94,17 +155,34 @@ function MatchupCard({ matchup }: { matchup: MatchupData }) {
 
 function EntrySlot({
   entry,
-  isBye,
+  entryId,
+  otherEntryId,
   isWinner,
   isLoser,
+  votes,
+  totalVotes,
+  showVotes,
+  isUserVote,
+  canVote,
+  voting,
+  onVote,
   className = '',
 }: {
   entry: CompetitionEntryWithScript | null
-  isBye: boolean
+  entryId: string | null
+  otherEntryId: string | null
   isWinner: boolean
   isLoser: boolean
+  votes: number
+  totalVotes: number
+  showVotes: boolean
+  isUserVote: boolean
+  canVote: boolean
+  voting: boolean
+  onVote: (entryId: string) => void
   className?: string
 }) {
+  const isBye = entryId === null && otherEntryId !== null
   let label: string
   let seedLabel: string | null = null
 
@@ -130,7 +208,24 @@ function EntrySlot({
       {seedLabel && (
         <span className="text-[10px] text-muted-foreground font-normal">{seedLabel}</span>
       )}
-      <span className="truncate">{label}</span>
+      <span className="truncate flex-1">{label}</span>
+      {isUserVote && (
+        <Badge variant="outline" className="text-[10px] shrink-0">Your vote</Badge>
+      )}
+      {showVotes && totalVotes > 0 && entry && (
+        <span className="text-[10px] text-muted-foreground shrink-0 font-normal">{votes}</span>
+      )}
+      {canVote && entryId && (
+        <Button
+          variant="outline"
+          size="sm"
+          className="h-5 px-1.5 text-[10px] shrink-0"
+          disabled={voting}
+          onClick={() => onVote(entryId)}
+        >
+          Vote
+        </Button>
+      )}
     </div>
   )
 }
