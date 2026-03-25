@@ -50,6 +50,7 @@ export function CompetitionDetail({ competition, entries, userScripts, userId, i
   const [dialogOpen, setDialogOpen] = React.useState(false)
   const [actionLoading, setActionLoading] = React.useState(false)
   const [error, setError] = React.useState('')
+  const [confirmCancel, setConfirmCancel] = React.useState(false)
 
   const enteredScriptIds = new Set(entries.map((e) => e.script_id))
   const availableScripts = userScripts.filter((s) => !enteredScriptIds.has(s.id))
@@ -113,15 +114,35 @@ export function CompetitionDetail({ competition, entries, userScripts, userId, i
                   Close submissions
                 </Button>
               )}
-              {(competition.status === 'open' || competition.status === 'closed') && (
+              {(competition.status === 'open' || competition.status === 'closed') && !confirmCancel && (
                 <Button
                   variant="destructive"
                   size="sm"
                   disabled={actionLoading}
-                  onClick={() => handleStatusChange('cancelled')}
+                  onClick={() => setConfirmCancel(true)}
                 >
                   Cancel competition
                 </Button>
+              )}
+              {confirmCancel && (
+                <div className="flex items-center gap-2">
+                  <p className="text-sm text-destructive">This cannot be undone. Are you sure?</p>
+                  <Button
+                    variant="destructive"
+                    size="sm"
+                    disabled={actionLoading}
+                    onClick={() => handleStatusChange('cancelled')}
+                  >
+                    Yes, cancel
+                  </Button>
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    onClick={() => setConfirmCancel(false)}
+                  >
+                    No, go back
+                  </Button>
+                </div>
               )}
             </div>
             {error && <p className="text-sm text-destructive mt-2">{error}</p>}

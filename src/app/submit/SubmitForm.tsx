@@ -84,12 +84,12 @@ export default function SubmitForm() {
   if (status === 'success') {
     return (
       <div className="max-w-lg flex flex-col gap-4">
-        <h1 className="text-2xl font-bold">Script submitted!</h1>
+        <h1 className="text-2xl font-bold">Script uploaded!</h1>
         <p className="text-muted-foreground">
-          Your script has been submitted for review. It will appear in search results once approved.
+          Your script has been uploaded for review. It will appear in search results once approved.
         </p>
         <div className="flex gap-2">
-          <Button onClick={resetForm}>Submit another</Button>
+          <Button onClick={resetForm}>Upload another</Button>
           <Button onClick={() => router.push('/')} variant="outline">Back to search</Button>
         </div>
       </div>
@@ -99,9 +99,9 @@ export default function SubmitForm() {
   return (
     <div className="max-w-lg flex flex-col gap-6">
       <div>
-        <h1 className="text-2xl font-bold">Submit a script</h1>
+        <h1 className="text-2xl font-bold">Upload a script</h1>
         <p className="text-muted-foreground text-sm mt-1">
-          Paste your BotC script JSON below. Scripts are reviewed before appearing publicly.
+          Paste your BotC script JSON below.
         </p>
       </div>
 
@@ -165,7 +165,7 @@ export default function SubmitForm() {
         )}
 
         <Button type="submit" disabled={!parsed || status === 'loading'}>
-          {status === 'loading' ? 'Submitting…' : 'Submit'}
+          {status === 'loading' ? 'Uploading…' : 'Upload'}
         </Button>
       </form>
     </div>

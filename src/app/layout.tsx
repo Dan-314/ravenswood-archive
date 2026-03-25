@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 </Link>
                 <nav className="flex items-center gap-4 text-sm">
                   <Link href="/submit" className="text-muted-foreground hover:text-foreground transition-colors">
-                    Submit
+                    Upload
                   </Link>
                   <Link href="/competitions" className="text-muted-foreground hover:text-foreground transition-colors">
                     Competitions
