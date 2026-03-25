@@ -42,7 +42,9 @@ export async function searchScripts(
 
   // Name or author fuzzy search
   if (query?.trim()) {
-    q = q.or(`name.ilike.%${query}%,author.ilike.%${query}%`)
+    // Escape PostgREST filter special characters to prevent filter injection
+    const sanitized = query.replace(/[,.()"\\]/g, (c) => `\\${c}`)
+    q = q.or(`name.ilike.%${sanitized}%,author.ilike.%${sanitized}%`)
   }
 
   // Script type filter
