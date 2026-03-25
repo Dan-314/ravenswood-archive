@@ -2,6 +2,7 @@ export type Json = string | number | boolean | null | { [key: string]: Json } | 
 
 export type ScriptType = 'full' | 'teensy'
 export type ScriptStatus = 'pending' | 'approved' | 'rejected'
+export type CompetitionStatus = 'open' | 'closed' | 'brackets' | 'complete' | 'cancelled'
 export type CharacterTeam = 'townsfolk' | 'outsider' | 'minion' | 'demon' | 'traveller' | 'fabled' | 'loric'
 
 export interface Database {
@@ -124,6 +125,80 @@ export interface Database {
         }
         Relationships: []
       }
+      competitions: {
+        Row: {
+          id: string
+          name: string
+          description: string | null
+          created_by: string
+          status: CompetitionStatus
+          submission_deadline: string
+          created_at: string
+          updated_at: string
+        }
+        Insert: {
+          id?: string
+          name: string
+          description?: string | null
+          created_by: string
+          status?: CompetitionStatus
+          submission_deadline: string
+          created_at?: string
+          updated_at?: string
+        }
+        Update: {
+          name?: string
+          description?: string | null
+          status?: CompetitionStatus
+          submission_deadline?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: 'competitions_entries'
+            columns: ['id']
+            isOneToOne: false
+            referencedRelation: 'competition_entries'
+            referencedColumns: ['competition_id']
+          }
+        ]
+      }
+      competition_entries: {
+        Row: {
+          id: string
+          competition_id: string
+          script_id: string
+          submitted_by: string
+          seed: number | null
+          created_at: string
+        }
+        Insert: {
+          id?: string
+          competition_id: string
+          script_id: string
+          submitted_by: string
+          seed?: number | null
+          created_at?: string
+        }
+        Update: {
+          seed?: number | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: 'competition_entries_script_id_fkey'
+            columns: ['script_id']
+            isOneToOne: false
+            referencedRelation: 'scripts'
+            referencedColumns: ['id']
+          },
+          {
+            foreignKeyName: 'competition_entries_competition_id_fkey'
+            columns: ['competition_id']
+            isOneToOne: false
+            referencedRelation: 'competitions'
+            referencedColumns: ['id']
+          }
+        ]
+      }
       script_groups: {
         Row: {
           script_id: string
@@ -154,3 +229,7 @@ export type ScriptWithGroups = Script & {
 }
 
 export type ScriptVersion = Database['public']['Tables']['script_versions']['Row']
+
+export type Competition = Database['public']['Tables']['competitions']['Row']
+export type CompetitionEntry = Database['public']['Tables']['competition_entries']['Row']
+export type CompetitionEntryWithScript = CompetitionEntry & { script: Script }
