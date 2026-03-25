@@ -5,7 +5,6 @@ import { createElement } from "react";
 import { readFileSync } from "fs";
 import { join } from "path";
 import { FancyDoc } from "./FancyDoc";
-import { TeensyDoc } from "./TeensyDoc";
 import { parseScript, calculateNightOrders } from "@/lib/botc";
 import type { Script } from "botc-script-checker";
 import type { PdfOptions } from "@/lib/botc/types";
@@ -24,7 +23,6 @@ function loadCSS(): string {
       "NightSheet.css",
       "SheetBack.css",
       "FancyDoc.css",
-      "TeensyDoc.css",
     ];
     // Concatenate all CSS files (can't use @import in inline styles)
     let css = "";
@@ -71,13 +69,7 @@ export async function renderToHtml(
 
   const docProps = { script: parsed, options, nightOrders, assetsUrl };
 
-  let bodyHtml: string;
-
-  if (options.teensy) {
-    bodyHtml = renderToStaticMarkup(createElement(TeensyDoc, docProps));
-  } else {
-    bodyHtml = renderToStaticMarkup(createElement(FancyDoc, docProps));
-  }
+  const bodyHtml = renderToStaticMarkup(createElement(FancyDoc, docProps));
 
   const css = loadCSS();
   const fontFaces = getFontFaces(appUrl);
@@ -90,7 +82,7 @@ export async function renderToHtml(
 
   const pageWidth = options.dimensions.width + "mm";
   const pageHeight = options.dimensions.height + "mm";
-  const orientation = options.teensy ? "landscape" : "portrait";
+  const orientation = "portrait";
   const pageSize = options.paperSize === "A4" ? "A4" : "Letter";
 
   return `<!DOCTYPE html>

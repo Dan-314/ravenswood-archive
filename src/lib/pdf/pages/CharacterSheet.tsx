@@ -93,7 +93,7 @@ export function CharacterSheet({
         style={
           {
             "--header-gradient": gradient,
-            "--sidebar-width": options.teensy ? "10mm" : "15mm",
+            "--sidebar-width": "15mm",
             "--title-font": options.titleStyle.font,
             "--title-letter-spacing": `${options.titleStyle.letterSpacing}mm`,
             "--title-word-spacing": `${options.titleStyle.wordSpacing}mm`,
@@ -173,6 +173,7 @@ export function CharacterSheet({
           </div>
           <div className="author-credit">
             <p>&copy; Steven Medway bloodontheclocktower.com</p>
+            <p>Script template by John Forster ravenswoodstudio.xyz</p>
           </div>
         </div>
       </div>

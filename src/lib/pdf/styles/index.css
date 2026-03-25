@@ -10,7 +10,7 @@
 @import "./NightSheet.css";
 @import "./SheetBack.css";
 @import "./FancyDoc.css";
-@import "./TeensyDoc.css";
+
 
 :root {
   --page-width: 210mm;

@@ -3,7 +3,6 @@
 import { useMemo, useRef, useEffect, useState, useCallback } from "react";
 import { parseScript, calculateNightOrders } from "@/lib/botc";
 import { FancyDoc } from "@/lib/pdf/FancyDoc";
-import { TeensyDoc } from "@/lib/pdf/TeensyDoc";
 import { DEFAULT_PDF_OPTIONS } from "@/lib/botc/types";
 import type { Script } from "botc-script-checker";
 import type { PdfOptions } from "@/lib/botc/types";
@@ -91,7 +90,7 @@ export function PdfPreview({ rawJson, options, defaultColor, className, onAppear
   appearanceRef.current = pdfOptions.appearance;
 
   useEffect(() => {
-    if (pdfOptions.teensy || pdfOptions.nightSheetOnly) return;
+    if (pdfOptions.nightSheetOnly) return;
 
     lastCheckedRef.current = null;
     isAdjustingRef.current = false;
@@ -127,7 +126,7 @@ export function PdfPreview({ rawJson, options, defaultColor, className, onAppear
     }, 300);
 
     return () => clearTimeout(timeoutId);
-  }, [pdfOptions.appearance, pdfOptions.teensy, pdfOptions.nightSheetOnly, parsed, onAppearanceChange]);
+  }, [pdfOptions.appearance, pdfOptions.nightSheetOnly, parsed, onAppearanceChange]);
 
   // Calculate scale to fit the sheet inside the container
   useEffect(() => {
@@ -136,7 +135,7 @@ export function PdfPreview({ rawJson, options, defaultColor, className, onAppear
     if (!container || !inner) return;
 
     const updateScale = () => {
-      const page = inner.querySelector(".printable-page, .teensy-sheet-pair") as HTMLElement;
+      const page = inner.querySelector(".printable-page") as HTMLElement;
       if (!page) return;
       const pw = page.offsetWidth;
       const cw = container.clientWidth;
@@ -147,7 +146,7 @@ export function PdfPreview({ rawJson, options, defaultColor, className, onAppear
     const observer = new ResizeObserver(updateScale);
     observer.observe(container);
     return () => observer.disconnect();
-  }, [pdfOptions.teensy, pdfOptions.paperSize]);
+  }, [pdfOptions.paperSize]);
 
   if (!mounted && !defaultColor && !options) {
     return <div className={`relative overflow-hidden ${className ?? ""}`} />;
@@ -174,11 +173,7 @@ export function PdfPreview({ rawJson, options, defaultColor, className, onAppear
           } as React.CSSProperties),
         }}
       >
-        {pdfOptions.teensy ? (
-          <TeensyDoc {...docProps} />
-        ) : (
-          <FancyDoc {...docProps} />
-        )}
+        <FancyDoc {...docProps} />
       </div>
     </div>
   );

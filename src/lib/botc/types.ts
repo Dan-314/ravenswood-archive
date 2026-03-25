@@ -106,7 +106,6 @@ export interface PdfOptions {
   iconUrlTemplate: string;
   titleStyle: TitleStyle;
   dimensions: PageDimensions;
-  teensy: boolean;
   paperSize: "A4" | "Letter";
 }
 
@@ -147,6 +146,5 @@ export const DEFAULT_PDF_OPTIONS: PdfOptions = {
     margin: 0,
     bleed: 0,
   },
-  teensy: false,
   paperSize: "A4",
 };

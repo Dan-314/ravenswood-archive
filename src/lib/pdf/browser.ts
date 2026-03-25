@@ -64,7 +64,7 @@ export async function generatePdf(html: string, options: PdfOptions): Promise<Bu
       format,
       printBackground: true,
       margin: { top: 0, right: 0, bottom: 0, left: 0 },
-      landscape: options.teensy,
+      landscape: false,
       preferCSSPageSize: true,
       waitForFonts: true,
       timeout: 60_000,

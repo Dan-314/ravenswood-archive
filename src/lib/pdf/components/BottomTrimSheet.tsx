@@ -53,6 +53,7 @@ export const BottomTrimSheet = ({
         <div className="info-footer-container">
           <div className="info-author-credit">
             <p>&copy; Steven Medway bloodontheclocktower.com</p>
+            <p>Script template by John Forster ravenswoodstudio.xyz</p>
           </div>
           <div className="info-footer-background" style={{ backgroundImage: `url(${assetsUrl}/sidebar-desaturated-small.jpg)` }}></div>
           <div

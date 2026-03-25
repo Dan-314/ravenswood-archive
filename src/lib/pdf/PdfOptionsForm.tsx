@@ -50,21 +50,8 @@ export function PdfOptionsForm({ options, onUpdate }: PdfOptionsFormProps) {
 
   return (
     <div className="flex flex-col gap-4">
-      {/* Layout & Appearance */}
+      {/* Appearance & Paper Size */}
       <div className="grid grid-cols-2 gap-4">
-        <div className="flex flex-col gap-1.5">
-          <Label>Layout</Label>
-          <Select value={options.teensy ? "teensy" : "full"} onValueChange={(v) => v !== null && update("teensy", v === "teensy")}>
-            <SelectTrigger className="w-full">
-              <SelectValue />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="full">Full (Portrait)</SelectItem>
-              <SelectItem value="teensy">Teensy (Landscape)</SelectItem>
-            </SelectContent>
-          </Select>
-        </div>
-
         <div className="flex flex-col gap-1.5">
           <Label>Appearance</Label>
           <Select value={options.appearance} onValueChange={(v) => v && update("appearance", v as PdfOptions["appearance"])}>
@@ -76,6 +63,31 @@ export function PdfOptionsForm({ options, onUpdate }: PdfOptionsFormProps) {
               <SelectItem value="compact">Compact</SelectItem>
               <SelectItem value="super-compact">Super Compact</SelectItem>
               <SelectItem value="mega-compact">Mega Compact</SelectItem>
+            </SelectContent>
+          </Select>
+        </div>
+
+        <div className="flex flex-col gap-1.5">
+          <Label>Paper Size</Label>
+          <Select
+            value={options.paperSize}
+            onValueChange={(v) => {
+              if (!v) return;
+              const ps = v as "A4" | "Letter";
+              update("paperSize", ps);
+              update("dimensions", {
+                ...options.dimensions,
+                width: ps === "A4" ? 210 : 216,
+                height: ps === "A4" ? 297 : 279,
+              });
+            }}
+          >
+            <SelectTrigger className="w-full">
+              <SelectValue />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="A4">A4</SelectItem>
+              <SelectItem value="Letter">Letter</SelectItem>
             </SelectContent>
           </Select>
         </div>
@@ -110,32 +122,6 @@ export function PdfOptionsForm({ options, onUpdate }: PdfOptionsFormProps) {
             </SelectContent>
           </Select>
         </div>
-      </div>
-
-      {/* Paper Size */}
-      <div className="flex flex-col gap-1.5">
-        <Label>Paper Size</Label>
-        <Select
-          value={options.paperSize}
-          onValueChange={(v) => {
-            if (!v) return;
-            const ps = v as "A4" | "Letter";
-            update("paperSize", ps);
-            update("dimensions", {
-              ...options.dimensions,
-              width: ps === "A4" ? 210 : 216,
-              height: ps === "A4" ? 297 : 279,
-            });
-          }}
-        >
-          <SelectTrigger className="w-full">
-            <SelectValue />
-          </SelectTrigger>
-          <SelectContent>
-            <SelectItem value="A4">A4</SelectItem>
-            <SelectItem value="Letter">Letter</SelectItem>
-          </SelectContent>
-        </Select>
       </div>
 
       {/* Color */}
