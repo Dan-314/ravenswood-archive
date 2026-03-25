@@ -23,15 +23,6 @@ export function AuthButton() {
     return () => subscription.unsubscribe()
   }, [supabase])
 
-  async function signIn() {
-    await supabase.auth.signInWithOAuth({
-      provider: 'discord',
-      options: {
-        redirectTo: window.location.origin,
-      },
-    })
-  }
-
   async function signOut() {
     await supabase.auth.signOut()
   }
@@ -49,8 +40,10 @@ export function AuthButton() {
   }
 
   return (
-    <Button variant="outline" size="sm" onClick={signIn}>
-      Sign in with Discord
-    </Button>
+    <Link href="/login">
+      <Button variant="outline" size="sm">
+        Sign in
+      </Button>
+    </Link>
   )
 }
