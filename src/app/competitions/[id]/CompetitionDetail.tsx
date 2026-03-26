@@ -195,7 +195,7 @@ export function CompetitionDetail({ competition, entries, userScripts, userId, i
             <thead>
               <tr className="border-b text-muted-foreground text-left">
                 <th className="pb-2 pr-4 font-medium">Name</th>
-                <th className="pb-2 pr-4 font-medium">Author</th>
+                <th className="pb-2 pr-4 font-medium hidden sm:table-cell">Author</th>
                 <th className="pb-2 font-medium">Type</th>
               </tr>
             </thead>
@@ -207,7 +207,7 @@ export function CompetitionDetail({ competition, entries, userScripts, userId, i
                   onClick={() => router.push(`/scripts/${entry.script_id}`)}
                 >
                   <td className="py-3 pr-4 font-medium">{entry.script.name}</td>
-                  <td className="py-3 pr-4 text-muted-foreground">{entry.script.author ?? '—'}</td>
+                  <td className="py-3 pr-4 text-muted-foreground hidden sm:table-cell">{entry.script.author ?? '—'}</td>
                   <td className="py-3">
                     <Badge variant={entry.script.script_type === 'teensy' ? 'secondary' : 'outline'} className="text-xs">
                       {entry.script.script_type === 'teensy' ? 'Teensy' : 'Full'}

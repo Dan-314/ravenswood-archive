@@ -313,27 +313,27 @@ function EntrySlot({
 
   return (
     <div
-      className={`px-2 py-1.5 text-sm flex items-center gap-1.5 ${
+      className={`px-3 py-2 text-sm flex items-center gap-2 ${
         isWinner ? 'font-bold bg-muted/30' : ''
       } ${isLoser ? 'text-muted-foreground' : ''} ${
         isBye || !entry ? 'text-muted-foreground italic text-xs' : ''
       } ${className}`}
     >
       {seedLabel && (
-        <span className="text-[10px] text-muted-foreground font-normal">{seedLabel}</span>
+        <span className="text-xs text-muted-foreground font-normal">{seedLabel}</span>
       )}
-      <span className="truncate flex-1">{label}</span>
+      <span className="truncate flex-1 min-w-0">{label}</span>
       {isUserVote && (
         <Badge variant="outline" className="text-[10px] shrink-0">Your vote</Badge>
       )}
       {showVotes && totalVotes > 0 && entry && (
-        <span className="text-[10px] text-muted-foreground shrink-0 font-normal">{votes}</span>
+        <span className="text-xs text-muted-foreground shrink-0 font-normal">{votes}</span>
       )}
       {canVote && entryId && (
         <Button
           variant="outline"
           size="sm"
-          className="h-5 px-1.5 text-[10px] shrink-0"
+          className="h-7 px-2.5 text-xs shrink-0"
           disabled={voting}
           onClick={() => onVote(entryId)}
         >
