@@ -5,6 +5,8 @@ import { ArrowLeft } from 'lucide-react'
 import { CustomiseView } from './CustomiseView'
 import type { Metadata } from 'next'
 
+export const dynamic = 'force-dynamic'
+
 interface Props {
   params: Promise<{ id: string }>
 }

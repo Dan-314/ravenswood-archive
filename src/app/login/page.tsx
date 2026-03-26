@@ -10,6 +10,8 @@ import { Separator } from '@/components/ui/separator'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { createClient } from '@/lib/supabase/client'
 
+export const dynamic = 'force-dynamic'
+
 export default function LoginPage() {
   const router = useRouter()
   const searchParams = useSearchParams()

@@ -6,6 +6,8 @@ import { ScriptPreviewLayout } from './ScriptPreviewLayout'
 import { ScriptSidebar } from './ScriptSidebar'
 import type { Metadata } from 'next'
 
+export const dynamic = 'force-dynamic'
+
 interface Props {
   params: Promise<{ id: string }>
 }

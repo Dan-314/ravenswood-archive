@@ -5,6 +5,8 @@ import { ArrowLeft } from 'lucide-react'
 import { ScriptPreviewLayout } from '../../ScriptPreviewLayout'
 import { ScriptSidebar } from '../../ScriptSidebar'
 
+export const dynamic = 'force-dynamic'
+
 interface Props {
   params: Promise<{ id: string; version: string }>
 }
