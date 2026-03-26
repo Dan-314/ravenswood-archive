@@ -19,7 +19,7 @@ export function ScriptRow({ script }: ScriptRowProps) {
       <td className="py-3 pr-4 font-medium">
         {script.name}
       </td>
-      <td className="py-3 pr-4 text-sm text-muted-foreground">
+      <td className="py-3 pr-4 text-sm text-muted-foreground hidden sm:table-cell">
         {script.author ?? '—'}
       </td>
       <td className="py-3 pr-4">
@@ -27,7 +27,7 @@ export function ScriptRow({ script }: ScriptRowProps) {
           {script.script_type === 'teensy' ? 'Teensy' : 'Full'}
         </Badge>
       </td>
-      <td className="py-3">
+      <td className="py-3 hidden md:table-cell">
         <div className="flex flex-wrap gap-1">
           {script.has_carousel && (
             <Badge variant="outline" className="text-xs">Carousel</Badge>

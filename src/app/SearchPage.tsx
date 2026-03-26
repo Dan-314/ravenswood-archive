@@ -2,11 +2,12 @@
 
 import * as React from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
-import { Search } from 'lucide-react'
+import { Search, SlidersHorizontal } from 'lucide-react'
 import { Input } from '@/components/ui/input'
 import { FilterPanel } from '@/components/FilterPanel'
 import { ScriptRow } from '@/components/ScriptCard'
 import { Button } from '@/components/ui/button'
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
 import { createClient } from '@/lib/supabase/client'
 import { searchScripts, type SearchParams } from '@/lib/search'
 import type { Character, Group, ScriptWithGroups } from '@/lib/supabase/types'
@@ -100,6 +101,22 @@ export function SearchPage({ characters, groups }: SearchPageProps) {
 
   const hasMore = scripts.length < count
 
+  const activeFilterCount =
+    (filters.scriptType !== 'all' ? 1 : 0) +
+    (filters.hasCarousel !== undefined ? 1 : 0) +
+    (filters.includeCharacters?.length ?? 0) +
+    (filters.excludeCharacters?.length ?? 0) +
+    (filters.groupIds?.length ?? 0)
+
+  const filterPanel = (
+    <FilterPanel
+      characters={characters}
+      groups={groups}
+      filters={filters}
+      onChange={handleFilterChange}
+    />
+  )
+
   return (
     <div className="flex flex-col gap-6">
       {/* Search bar */}
@@ -114,6 +131,30 @@ export function SearchPage({ characters, groups }: SearchPageProps) {
           />
         </div>
         <Button type="submit">Search</Button>
+
+        {/* Mobile filter button */}
+        <Sheet>
+          <SheetTrigger
+            render={<Button type="button" variant="outline" className="md:hidden" />}
+          >
+            <SlidersHorizontal className="h-4 w-4 mr-2" />
+            Filters
+            {activeFilterCount > 0 && (
+              <span className="ml-1.5 flex h-5 w-5 items-center justify-center rounded-full bg-primary text-[10px] text-primary-foreground">
+                {activeFilterCount}
+              </span>
+            )}
+          </SheetTrigger>
+          <SheetContent side="left" className="overflow-y-auto">
+            <SheetHeader>
+              <SheetTitle>Filters</SheetTitle>
+            </SheetHeader>
+            <div className="px-4 pb-4">
+              {filterPanel}
+            </div>
+          </SheetContent>
+        </Sheet>
+
         {hasActiveFilters && (
           <Button type="button" variant="ghost" onClick={handleReset}>
             Reset
@@ -122,18 +163,13 @@ export function SearchPage({ characters, groups }: SearchPageProps) {
       </form>
 
       <div className="flex gap-8">
-        {/* Filters sidebar */}
-        <div className="w-56 shrink-0">
-          <FilterPanel
-            characters={characters}
-            groups={groups}
-            filters={filters}
-            onChange={handleFilterChange}
-          />
+        {/* Filters sidebar — desktop only */}
+        <div className="hidden md:block w-56 shrink-0">
+          {filterPanel}
         </div>
 
         {/* Results */}
-        <div className="flex-1 flex flex-col gap-4">
+        <div className="flex-1 min-w-0 flex flex-col gap-4">
           <p className="text-sm text-muted-foreground">
             {loading ? 'Searching…' : `${count} script${count !== 1 ? 's' : ''} found`}
           </p>
@@ -141,21 +177,23 @@ export function SearchPage({ characters, groups }: SearchPageProps) {
           {scripts.length === 0 && !loading ? (
             <p className="text-muted-foreground py-12 text-center">No scripts match your filters.</p>
           ) : (
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="border-b text-muted-foreground text-left">
-                  <th className="pb-2 pr-4 font-medium">Name</th>
-                  <th className="pb-2 pr-4 font-medium">Author</th>
-                  <th className="pb-2 pr-4 font-medium">Type</th>
-                  <th className="pb-2 font-medium">Tags</th>
-                </tr>
-              </thead>
-              <tbody>
-                {scripts.map((script) => (
-                  <ScriptRow key={script.id} script={script} />
-                ))}
-              </tbody>
-            </table>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="border-b text-muted-foreground text-left">
+                    <th className="pb-2 pr-4 font-medium">Name</th>
+                    <th className="pb-2 pr-4 font-medium hidden sm:table-cell">Author</th>
+                    <th className="pb-2 pr-4 font-medium">Type</th>
+                    <th className="pb-2 font-medium hidden md:table-cell">Tags</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {scripts.map((script) => (
+                    <ScriptRow key={script.id} script={script} />
+                  ))}
+                </tbody>
+              </table>
+            </div>
           )}
 
           {hasMore && (
