@@ -53,6 +53,7 @@ export function PdfPreview({ rawJson, options, defaultColor, className, onAppear
   const containerRef = useRef<HTMLDivElement>(null);
   const innerRef = useRef<HTMLDivElement>(null);
   const [scale, setScale] = useState(1);
+  const [scaledHeight, setScaledHeight] = useState<number | undefined>(undefined);
   const [initialRandomColor] = useState(() => randomColor());
   const [mounted, setMounted] = useState(false);
   const [autoAppearance, setAutoAppearance] = useState<PdfOptions["appearance"] | null>(null);
@@ -139,14 +140,16 @@ export function PdfPreview({ rawJson, options, defaultColor, className, onAppear
       if (!page) return;
       const pw = page.offsetWidth;
       const cw = container.clientWidth;
-      setScale(Math.min(cw / pw, 1));
+      const s = Math.min(cw / pw, 1);
+      setScale(s);
+      setScaledHeight(inner.scrollHeight * s);
     };
 
     updateScale();
     const observer = new ResizeObserver(updateScale);
     observer.observe(container);
     return () => observer.disconnect();
-  }, [pdfOptions.paperSize]);
+  }, [pdfOptions.paperSize, mounted]);
 
   if (!mounted && !defaultColor && !options) {
     return <div className={`relative overflow-hidden ${className ?? ""}`} />;
@@ -158,12 +161,13 @@ export function PdfPreview({ rawJson, options, defaultColor, className, onAppear
     <div
       ref={containerRef}
       className={`relative overflow-hidden ${className ?? ""}`}
+      style={scaledHeight !== undefined ? { height: scaledHeight } : undefined}
     >
       <div
         ref={innerRef}
         className="pdf-sheet-root"
         style={{
-          transformOrigin: "top center",
+          transformOrigin: "top left",
           transform: `scale(${scale})`,
           ...({
             "--page-width": pdfOptions.dimensions.width + "mm",
