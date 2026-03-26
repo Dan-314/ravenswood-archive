@@ -2,6 +2,7 @@
 
 import * as React from 'react'
 import Link from 'next/link'
+import { Search, X } from 'lucide-react'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card'
@@ -35,6 +36,8 @@ const STATUS_LABEL: Record<CompetitionStatus, string> = {
 export function CompetitionList({ competitions }: { competitions: CompetitionWithCount[] }) {
   const [tab, setTab] = React.useState(0)
   const [search, setSearch] = React.useState('')
+  const [searchOpen, setSearchOpen] = React.useState(false)
+  const searchRef = React.useRef<HTMLInputElement>(null)
 
   const query = search.toLowerCase().trim()
   const filtered = competitions
@@ -48,7 +51,7 @@ export function CompetitionList({ competitions }: { competitions: CompetitionWit
   return (
     <div className="flex flex-col gap-4">
       <div className="flex items-center justify-between gap-2">
-        <div className="flex gap-1 shrink-0">
+        <div className="flex gap-1">
           {STATUS_TABS.map((t, i) => (
             <Button
               key={t.label}
@@ -61,17 +64,33 @@ export function CompetitionList({ competitions }: { competitions: CompetitionWit
           ))}
         </div>
         <div className="flex gap-2 items-center">
-          <Input
-            placeholder="Search competitions..."
-            value={search}
-            onChange={(e) => setSearch(e.target.value)}
-            className="h-8 w-48"
-          />
+          <Button
+            variant="ghost"
+            size="icon"
+            className="h-8 w-8"
+            onClick={() => {
+              setSearchOpen(!searchOpen)
+              if (searchOpen) setSearch('')
+            }}
+          >
+            {searchOpen ? <X className="h-4 w-4" /> : <Search className="h-4 w-4" />}
+          </Button>
           <Link href="/competitions/create">
-            <Button size="sm">Create competition</Button>
+            <Button size="sm" className="shrink-0">Create</Button>
           </Link>
         </div>
       </div>
+
+      {searchOpen && (
+        <Input
+          ref={searchRef}
+          autoFocus
+          placeholder="Search competitions..."
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+          className="h-8"
+        />
+      )}
 
       {filtered.length === 0 ? (
         <p className="text-muted-foreground text-sm">No competitions found.</p>
