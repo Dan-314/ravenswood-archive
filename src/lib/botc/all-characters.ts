@@ -561,6 +561,13 @@ export const ALL_CHARACTERS_WITH_REMINDERS: Record<string, ResolvedCharacter> = 
     team: "outsider",
     id: "goon",
   },
+  godofug: {
+    name: "God of Ug",
+    ability:
+      "One Ug hat. When wear Ug hat, must speak one sound at a time but vote twice. If fail, pass Ug hat.",
+    team: "loric",
+    id: "godofug",
+  },
   gossip: {
     name: "Gossip",
     ability:
@@ -737,6 +744,13 @@ export const ALL_CHARACTERS_WITH_REMINDERS: Record<string, ResolvedCharacter> = 
     team: "townsfolk",
     id: "knight",
     firstNightReminder: "Point to the two non-Demon players marked *KNOW*.",
+  },
+  knaves: {
+    name: "Knaves",
+    ability:
+      "There are 2 Storytellers: one lies & one tells the truth. Once per game, at dusk, they might switch.",
+    team: "loric",
+    id: "knaves",
   },
   legion: {
     name: "Legion",

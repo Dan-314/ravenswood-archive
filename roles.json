@@ -3152,5 +3152,29 @@
         "edition": "loric",
         "ability": "One or more players each have a goal. When achieved, that player learns a piece of true info.",
         "flavor": "The universe is a verb not a noun, they say, and it is turtles, turtles all the way down. Turtles all the way down, my friend, turtles all the way down."
+    },
+    {
+        "id": "godofug",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "name": "God of Ug",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "One Ug hat. When wear Ug hat, must speak one sound at a time but vote twice. If fail, pass Ug hat.",
+        "flavor": "Blessed are my children, for they see the beauty in simple things."
+    },
+    {
+        "id": "knaves",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "name": "Knaves",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "There are 2 Storytellers: one lies & one tells the truth. Once per game, at dusk, they might switch.",
+        "flavor": "Every wall is a door. Every meal is a feast."
     }
 ]
