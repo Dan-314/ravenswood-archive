@@ -36,24 +36,19 @@ export function ScriptPreviewLayout({
   );
 
   const side = (
-    <div className={`shrink-0 overflow-y-auto p-4 md:w-80 ${sidebarPosition === "left" ? "md:border-r border-b md:border-b-0" : "md:border-l border-b md:border-b-0"}`}>
+    <div className={`shrink-0 overflow-y-auto p-4 md:w-80 ${
+      sidebarPosition === "left"
+        ? "md:border-r border-b md:border-b-0"
+        : "md:border-l border-b md:border-b-0 md:order-2"
+    }`}>
       {sidebar}
     </div>
   );
 
   return (
     <div className={`flex flex-col md:flex-row ${className ?? ""}`}>
-      {sidebarPosition === "left" ? (
-        <>
-          {side}
-          {preview}
-        </>
-      ) : (
-        <>
-          {side}
-          {preview}
-        </>
-      )}
+      {side}
+      {preview}
     </div>
   );
 }

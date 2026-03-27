@@ -23,12 +23,12 @@
   -webkit-text-fill-color: transparent;
 
   font-size: 11mm;
-  line-height: var(--title-line-height);
-  margin: calc(-7mm + var(--title-margin-top)) -7mm
-    calc(var(--title-margin-bottom)) -7mm;
-  padding: 7mm;
+  line-height: 1.1;
+  margin: 0;
+  padding: 0;
 
-  max-width: 50%;
+  white-space: nowrap;
+  overflow: visible;
   text-align: center;
   letter-spacing: var(--title-letter-spacing);
   word-spacing: var(--title-word-spacing);

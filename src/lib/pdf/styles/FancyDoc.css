@@ -1,10 +1,8 @@
 /* Ported from botc-character-sheet by John Forster (MIT License) */
 /* Copyright (c) 2025 John Forster */
 
-@media (min-width: 768px) {
-  .sheet-wrapper {
-    margin-left: 5%;
-  }
+.sheet-wrapper {
+  margin-left: 1%;
 }
 
 .print-only {
