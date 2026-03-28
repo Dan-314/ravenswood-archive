@@ -117,7 +117,7 @@ export function ManageCompetition({ competition, entries, matchups: rawMatchups,
 
   return (
     <div className="flex flex-col gap-6">
-      <div className="flex items-center justify-between">
+      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
         <div>
           <h1 className="text-2xl font-bold">Manage: {competition.name}</h1>
           <p className="text-muted-foreground text-sm mt-1">
@@ -244,15 +244,15 @@ export function ManageCompetition({ competition, entries, matchups: rawMatchups,
                   {roundMatchups.map((m) => (
                     <Card key={m.id} size="sm">
                       <CardContent className="py-2">
-                        <div className="flex items-center gap-4">
-                          <div className="flex-1 flex flex-col gap-1">
+                        <div className="flex flex-col gap-2">
+                          <div className="flex items-center gap-2">
                             <MatchupEntryLine
                               entry={m.entry_a}
                               isWinner={m.winner_entry_id === m.entry_a_id}
                               isBye={m.round === 1 && m.entry_a_id === null}
                               votes={voteCounts[m.id]?.[m.entry_a_id ?? ''] ?? 0}
                             />
-                            <div className="text-xs text-muted-foreground text-center">vs</div>
+                            <span className="text-xs text-muted-foreground">vs</span>
                             <MatchupEntryLine
                               entry={m.entry_b}
                               isWinner={m.winner_entry_id === m.entry_b_id}
@@ -260,7 +260,7 @@ export function ManageCompetition({ competition, entries, matchups: rawMatchups,
                               votes={voteCounts[m.id]?.[m.entry_b_id ?? ''] ?? 0}
                             />
                           </div>
-                          <div className="flex flex-col gap-1 shrink-0">
+                          <div className="flex gap-1">
                             {m.winner_entry_id ? (
                               <Badge variant="outline" className="text-xs">Decided</Badge>
                             ) : m.entry_a_id && m.entry_b_id ? (
@@ -280,7 +280,7 @@ export function ManageCompetition({ competition, entries, matchups: rawMatchups,
                                   disabled={loading}
                                   onClick={() => handleAdvanceWinner(m.id, m.entry_a_id!)}
                                 >
-                                  Advance {m.entry_a?.script.name ?? 'A'}
+                                  Advance A
                                 </Button>
                                 <Button
                                   variant="outline"
@@ -289,7 +289,7 @@ export function ManageCompetition({ competition, entries, matchups: rawMatchups,
                                   disabled={loading}
                                   onClick={() => handleAdvanceWinner(m.id, m.entry_b_id!)}
                                 >
-                                  Advance {m.entry_b?.script.name ?? 'B'}
+                                  Advance B
                                 </Button>
                               </>
                             ) : (
