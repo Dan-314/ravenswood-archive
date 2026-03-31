@@ -7,7 +7,7 @@ import { createClient } from '@/lib/supabase/client'
 
 export function AuthButton() {
   const supabase = React.useMemo(() => createClient(), [])
-  const [user, setUser] = React.useState<{ email?: string; user_metadata?: Record<string, unknown> } | null>(null)
+  const [user, setUser] = React.useState<{ email?: string; user_metadata?: Record<string, unknown>; app_metadata?: Record<string, unknown> } | null>(null)
   const [loading, setLoading] = React.useState(true)
 
   React.useEffect(() => {
