@@ -10,7 +10,7 @@ export default async function AdminPage() {
 
   const { data: { user } } = await supabase.auth.getUser()
 
-  if (user?.user_metadata?.role !== 'admin') redirect('/')
+  if (user?.app_metadata?.role !== 'admin') redirect('/')
 
   const { data: claimsRaw } = await supabase
     .from('script_claims')

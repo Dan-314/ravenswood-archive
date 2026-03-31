@@ -21,7 +21,7 @@ export default async function EditScriptPage({ params }: Props) {
 
   if (!script) notFound()
 
-  const isAdmin = user?.user_metadata?.role === 'admin'
+  const isAdmin = user?.app_metadata?.role === 'admin'
   const isOwner = user?.id === script.submitted_by
 
   if (!user || (!isAdmin && !isOwner)) {

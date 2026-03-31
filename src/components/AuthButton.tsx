@@ -31,7 +31,7 @@ export function AuthButton() {
 
   if (user) {
     const username = user.user_metadata?.full_name ?? user.user_metadata?.name ?? user.email
-    const isAdmin = user.user_metadata?.role === 'admin'
+    const isAdmin = user.app_metadata?.role === 'admin'
     return (
       <div className="flex items-center gap-2">
         {isAdmin && (

@@ -40,7 +40,7 @@ export default async function ScriptVersionPage({ params }: Props) {
 
   if (!v || !script) notFound()
 
-  const isAdmin = user?.user_metadata?.role === 'admin'
+  const isAdmin = user?.app_metadata?.role === 'admin'
   const isOwner = user?.id === script.submitted_by
   const canEdit = isAdmin || isOwner
 
