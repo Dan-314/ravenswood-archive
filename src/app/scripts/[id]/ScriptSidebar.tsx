@@ -5,6 +5,8 @@ import Link from 'next/link'
 import { Download, Pencil, Settings2 } from 'lucide-react'
 import { DeleteButton } from './DeleteButton'
 import { CopyJsonButton } from './CopyJsonButton'
+import { ClaimButton } from './ClaimButton'
+import type { ClaimStatus } from '@/lib/supabase/types'
 
 interface Version {
   id: string
@@ -23,6 +25,10 @@ interface ScriptSidebarProps {
   groups: { id: string; name: string }[]
   rawJson: unknown
   canEdit: boolean
+  showClaim: boolean
+  isLoggedIn: boolean
+  displayName: string | null
+  existingClaim: { status: ClaimStatus } | null
   versions?: Version[]
   currentVersionNumber?: number
   versionLabel?: string
@@ -37,6 +43,10 @@ export function ScriptSidebar({
   groups,
   rawJson,
   canEdit,
+  showClaim,
+  isLoggedIn,
+  displayName,
+  existingClaim,
   versions,
   currentVersionNumber,
   versionLabel,
@@ -92,6 +102,14 @@ export function ScriptSidebar({
             </Link>
             <DeleteButton scriptId={scriptId} />
           </>
+        )}
+        {showClaim && (
+          <ClaimButton
+            scriptId={scriptId}
+            isLoggedIn={isLoggedIn}
+            displayName={displayName}
+            existingClaim={existingClaim}
+          />
         )}
       </div>
 

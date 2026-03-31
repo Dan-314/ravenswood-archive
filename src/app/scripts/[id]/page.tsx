@@ -43,6 +43,21 @@ export default async function ScriptDetailPage({ params }: Props) {
   const isAdmin = user?.user_metadata?.role === 'admin'
   const isOwner = user?.id === script.submitted_by
   const canEdit = isAdmin || isOwner
+  const showClaim = !isOwner && !isAdmin
+
+  // Fetch the current user's claim for this script (if logged in)
+  const { data: existingClaim } = user
+    ? await supabase
+        .from('script_claims')
+        .select('status')
+        .eq('script_id', id)
+        .eq('claimant_id', user.id)
+        .maybeSingle()
+    : { data: null }
+
+  const displayName = user
+    ? (user.user_metadata?.full_name ?? user.user_metadata?.name ?? user.email ?? null)
+    : null
 
   const groups = (((script as unknown as Record<string, unknown>).groups as { group: { id: string; name: string } }[]) ?? [])
     .map((g) => g.group)
@@ -75,6 +90,10 @@ export default async function ScriptDetailPage({ params }: Props) {
             groups={groups}
             rawJson={script.raw_json}
             canEdit={canEdit}
+            showClaim={showClaim}
+            isLoggedIn={!!user}
+            displayName={displayName}
+            existingClaim={existingClaim ?? null}
             versions={versions ?? undefined}
           />
         }

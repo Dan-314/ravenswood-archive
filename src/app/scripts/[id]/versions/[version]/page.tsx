@@ -75,6 +75,10 @@ export default async function ScriptVersionPage({ params }: Props) {
             groups={groups}
             rawJson={v.raw_json}
             canEdit={canEdit}
+            showClaim={false}
+            isLoggedIn={!!user}
+            displayName={null}
+            existingClaim={null}
             versions={versions ?? undefined}
             currentVersionNumber={versionNum}
             versionLabel={`Version ${v.version_number} · ${new Date(v.created_at).toLocaleDateString(undefined, { dateStyle: 'long' })}`}

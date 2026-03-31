@@ -2,6 +2,7 @@ export type Json = string | number | boolean | null | { [key: string]: Json } | 
 
 export type ScriptType = 'full' | 'teensy'
 export type ScriptStatus = 'pending' | 'approved' | 'rejected'
+export type ClaimStatus = 'pending' | 'approved' | 'rejected'
 export type CompetitionStatus = 'open' | 'closed' | 'brackets' | 'complete' | 'cancelled'
 export type CharacterTeam = 'townsfolk' | 'outsider' | 'minion' | 'demon' | 'traveller' | 'fabled' | 'loric'
 
@@ -305,6 +306,36 @@ export interface Database {
         }
         Relationships: []
       }
+      script_claims: {
+        Row: {
+          id: string
+          script_id: string
+          claimant_id: string
+          claimant_display_name: string
+          message: string | null
+          status: ClaimStatus
+          reviewed_by: string | null
+          reviewed_at: string | null
+          created_at: string
+        }
+        Insert: {
+          id?: string
+          script_id: string
+          claimant_id: string
+          claimant_display_name: string
+          message?: string | null
+          status?: ClaimStatus
+          reviewed_by?: string | null
+          reviewed_at?: string | null
+          created_at?: string
+        }
+        Update: {
+          status?: ClaimStatus
+          reviewed_by?: string | null
+          reviewed_at?: string | null
+        }
+        Relationships: []
+      }
     }
   }
 }
@@ -330,3 +361,6 @@ export type MatchupWithEntries = BracketMatchup & {
   entry_a: CompetitionEntryWithScript | null
   entry_b: CompetitionEntryWithScript | null
 }
+
+export type ScriptClaim = Database['public']['Tables']['script_claims']['Row']
+export type ScriptClaimWithScript = ScriptClaim & { scripts: Pick<Script, 'id' | 'name' | 'author'> }

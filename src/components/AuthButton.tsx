@@ -31,8 +31,12 @@ export function AuthButton() {
 
   if (user) {
     const username = user.user_metadata?.full_name ?? user.user_metadata?.name ?? user.email
+    const isAdmin = user.user_metadata?.role === 'admin'
     return (
       <div className="flex items-center gap-2">
+        {isAdmin && (
+          <Link href="/admin" className="text-sm text-muted-foreground hover:text-foreground transition-colors hidden sm:block">Admin</Link>
+        )}
         <Link href="/profile" className="text-sm text-muted-foreground hover:text-foreground transition-colors hidden sm:block">{username as string}</Link>
         <Button variant="ghost" size="sm" onClick={signOut}>Sign out</Button>
       </div>
