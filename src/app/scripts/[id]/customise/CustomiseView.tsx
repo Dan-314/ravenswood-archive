@@ -69,7 +69,7 @@ export function CustomiseView({ rawJson, scriptName, defaultColor }: CustomiseVi
       onAppearanceChange={(appearance: PdfOptions["appearance"], iconScale: number) => {
         setOptions((prev) => ({ ...prev, appearance, iconScale }));
       }}
-      className="h-[calc(100vh-4rem)]"
+      className="md:h-[calc(100vh-4rem)]"
       sidebarPosition="left"
       sidebar={
         <div className="flex flex-col gap-4">

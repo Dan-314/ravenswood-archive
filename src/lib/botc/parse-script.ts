@@ -88,7 +88,7 @@ export function groupByTeam(characters: ResolvedCharacter[]): GroupedCharacters 
   return grouped;
 }
 
-const ICON_STORAGE_URL = `${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/pdf-assets`;
+const ICON_STORAGE_URL = `${process.env.NEXT_PUBLIC_SUPABASE_STORAGE_URL ?? process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/pdf-assets`;
 
 export function getIconUrl(character: ResolvedCharacter, _assetsUrl?: string): string {
   // Custom character with image URL
