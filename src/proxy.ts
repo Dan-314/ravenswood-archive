@@ -26,11 +26,26 @@ export async function proxy(request: NextRequest) {
   // Refresh session
   const { data: { user } } = await supabase.auth.getUser()
 
+  const { pathname } = request.nextUrl
+
   // Protect admin routes
-  if (request.nextUrl.pathname.startsWith('/admin')) {
-    if (!user || (user.user_metadata?.role !== 'admin')) {
+  if (pathname.startsWith('/admin')) {
+    if (!user || user.user_metadata?.role !== 'admin') {
       return NextResponse.redirect(new URL('/', request.url))
     }
+  }
+
+  // Redirect unconfirmed email signups to the confirmation page
+  const isEmailSignup = user?.app_metadata?.provider === 'email'
+  if (user && !user.email_confirmed_at && isEmailSignup) {
+    if (pathname !== '/confirm-email' && pathname !== '/auth/callback') {
+      return NextResponse.redirect(new URL('/confirm-email', request.url))
+    }
+  }
+
+  // If a confirmed user lands on /confirm-email, send them home
+  if (user?.email_confirmed_at && pathname === '/confirm-email') {
+    return NextResponse.redirect(new URL('/', request.url))
   }
 
   return supabaseResponse
