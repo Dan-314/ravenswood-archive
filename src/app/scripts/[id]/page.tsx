@@ -45,15 +45,15 @@ export default async function ScriptDetailPage({ params }: Props) {
   const canEdit = isAdmin || isOwner
   const showClaim = !isOwner && !isAdmin
 
-  // Fetch the current user's claim for this script (if logged in)
-  const { data: existingClaim } = user
-    ? await supabase
-        .from('script_claims')
-        .select('status')
-        .eq('script_id', id)
-        .eq('claimant_id', user.id)
-        .maybeSingle()
-    : { data: null }
+  // Fetch the current user's claim and favourite status (if logged in)
+  const [{ data: existingClaim }, { data: favourite }] = await Promise.all([
+    user
+      ? supabase.from('script_claims').select('status').eq('script_id', id).eq('claimant_id', user.id).maybeSingle()
+      : Promise.resolve({ data: null }),
+    user
+      ? supabase.from('script_favourites').select('user_id').eq('script_id', id).eq('user_id', user.id).maybeSingle()
+      : Promise.resolve({ data: null }),
+  ])
 
   const displayName = user
     ? (user.user_metadata?.full_name ?? user.user_metadata?.name ?? user.email ?? null)
@@ -96,6 +96,8 @@ export default async function ScriptDetailPage({ params }: Props) {
             displayName={displayName}
             existingClaim={existingClaim ?? null}
             downloadCount={script.download_count}
+            favouriteCount={script.favourite_count}
+            isFavourited={!!favourite}
             versions={versions ?? undefined}
           />
         }

@@ -2,22 +2,23 @@
 
 import * as React from 'react'
 import { useRouter, useSearchParams } from 'next/navigation'
-import { Search, SlidersHorizontal } from 'lucide-react'
+import { Search, SlidersHorizontal, ArrowDown, ArrowUp } from 'lucide-react'
 import { Input } from '@/components/ui/input'
 import { FilterPanel } from '@/components/FilterPanel'
 import { ScriptRow } from '@/components/ScriptCard'
 import { Button } from '@/components/ui/button'
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
 import { createClient } from '@/lib/supabase/client'
-import { searchScripts, type SearchParams } from '@/lib/search'
+import { searchScripts, type SearchParams, type SortBy } from '@/lib/search'
 import type { Character, Group, ScriptWithGroups } from '@/lib/supabase/types'
 
 interface SearchPageProps {
   characters: Character[]
   groups: Group[]
+  favouritedBy?: string
 }
 
-export function SearchPage({ characters, groups }: SearchPageProps) {
+export function SearchPage({ characters, groups, favouritedBy }: SearchPageProps) {
   const router = useRouter()
   const searchParams = useSearchParams()
 
@@ -27,6 +28,8 @@ export function SearchPage({ characters, groups }: SearchPageProps) {
     includeCharacters: [],
     excludeCharacters: [],
     groupIds: [],
+    sortBy: 'newest',
+    sortAscending: false,
   })
   const [scripts, setScripts] = React.useState<ScriptWithGroups[]>([])
   const [count, setCount] = React.useState(0)
@@ -40,6 +43,7 @@ export function SearchPage({ characters, groups }: SearchPageProps) {
       setLoading(true)
       const { data, count, error } = await searchScripts(supabase, {
         ...params,
+        favouritedBy,
         page: pageNum,
         pageSize: 24,
       })
@@ -78,11 +82,29 @@ export function SearchPage({ characters, groups }: SearchPageProps) {
     runSearch({ ...updated, query })
   }
 
+  function handleSort(col: SortBy) {
+    let updated: SearchParams
+    if (filters.sortBy !== col) {
+      // First click: sort desc
+      updated = { ...filters, sortBy: col, sortAscending: false }
+    } else if (!filters.sortAscending) {
+      // Second click: sort asc
+      updated = { ...filters, sortAscending: true }
+    } else {
+      // Third click: reset to newest
+      updated = { ...filters, sortBy: 'newest', sortAscending: false }
+    }
+    setFilters(updated)
+    runSearch({ ...updated, query })
+  }
+
   const EMPTY_FILTERS: SearchParams = {
     scriptType: 'all',
     includeCharacters: [],
     excludeCharacters: [],
     groupIds: [],
+    sortBy: 'newest',
+    sortAscending: false,
   }
 
   function handleReset() {
@@ -184,7 +206,18 @@ export function SearchPage({ characters, groups }: SearchPageProps) {
                     <th className="pb-2 pr-4 font-medium">Name</th>
                     <th className="pb-2 pr-4 font-medium hidden sm:table-cell">Author</th>
                     <th className="pb-2 pr-4 font-medium">Type</th>
-                    <th className="pb-2 font-medium hidden md:table-cell">Downloads</th>
+                    <th className="pb-2 pr-4 font-medium hidden md:table-cell">
+                      <button onClick={() => handleSort('downloads')} className="flex items-center gap-1 hover:text-foreground transition-colors">
+                        Downloads
+                        {filters.sortBy === 'downloads' && (filters.sortAscending ? <ArrowUp className="h-3 w-3" /> : <ArrowDown className="h-3 w-3" />)}
+                      </button>
+                    </th>
+                    <th className="pb-2 font-medium hidden md:table-cell">
+                      <button onClick={() => handleSort('favourites')} className="flex items-center gap-1 hover:text-foreground transition-colors">
+                        Favourites
+                        {filters.sortBy === 'favourites' && (filters.sortAscending ? <ArrowUp className="h-3 w-3" /> : <ArrowDown className="h-3 w-3" />)}
+                      </button>
+                    </th>
                   </tr>
                 </thead>
                 <tbody>

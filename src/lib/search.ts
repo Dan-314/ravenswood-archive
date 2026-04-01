@@ -1,6 +1,8 @@
 import type { SupabaseClient } from '@supabase/supabase-js'
 import type { Database, ScriptType, ScriptWithGroups } from './supabase/types'
 
+export type SortBy = 'newest' | 'downloads' | 'favourites'
+
 export interface SearchParams {
   query?: string           // name or author search
   scriptType?: ScriptType | 'all'
@@ -8,6 +10,9 @@ export interface SearchParams {
   includeCharacters?: string[]  // must have ALL of these
   excludeCharacters?: string[]  // must have NONE of these
   groupIds?: string[]
+  sortBy?: SortBy
+  sortAscending?: boolean
+  favouritedBy?: string
   page?: number
   pageSize?: number
 }
@@ -23,12 +28,20 @@ export async function searchScripts(
     includeCharacters = [],
     excludeCharacters = [],
     groupIds = [],
+    sortBy = 'newest',
+    sortAscending = false,
+    favouritedBy,
     page = 1,
     pageSize = 24,
   } = params
 
   const from = (page - 1) * pageSize
   const to = from + pageSize - 1
+
+  const orderColumn =
+    sortBy === 'downloads' ? 'download_count' :
+    sortBy === 'favourites' ? 'favourite_count' :
+    'created_at'
 
   let q = supabase
     .from('scripts')
@@ -37,7 +50,7 @@ export async function searchScripts(
       groups:script_groups(group:groups(*))
     `, { count: 'exact' })
     .eq('status', 'approved')
-    .order('created_at', { ascending: false })
+    .order(orderColumn, { ascending: sortBy === 'newest' ? false : sortAscending })
     .range(from, to)
 
   // Name or author fuzzy search
@@ -65,6 +78,20 @@ export async function searchScripts(
   // Exclude characters: script must contain NONE of them
   if (excludeCharacters.length > 0) {
     q = q.not('character_ids', 'ov', `{${excludeCharacters.join(',')}}`)
+  }
+
+  // Favourites filter: only scripts favourited by a specific user
+  if (favouritedBy) {
+    const { data: favData } = await supabase
+      .from('script_favourites')
+      .select('script_id')
+      .eq('user_id', favouritedBy)
+
+    const ids = (favData ?? []).map((r) => r.script_id)
+    if (ids.length === 0) {
+      return { data: [], count: 0, error: null }
+    }
+    q = q.in('id', ids)
   }
 
   // Group filter: script must be in at least one of the selected groups

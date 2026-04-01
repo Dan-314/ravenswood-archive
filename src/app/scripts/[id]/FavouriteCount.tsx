@@ -1,16 +1,16 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { Download } from 'lucide-react'
+import { Heart } from 'lucide-react'
 import { createClient } from '@/lib/supabase/client'
 
-export function DownloadCount({ scriptId, initialCount }: { scriptId: string; initialCount: number }) {
+export function FavouriteCount({ scriptId, initialCount }: { scriptId: string; initialCount: number }) {
   const [count, setCount] = useState(initialCount)
 
   useEffect(() => {
     const supabase = createClient()
     const channel = supabase
-      .channel(`downloads-${scriptId}`)
+      .channel(`favourites-${scriptId}`)
       .on(
         'postgres_changes',
         {
@@ -20,7 +20,7 @@ export function DownloadCount({ scriptId, initialCount }: { scriptId: string; in
           filter: `id=eq.${scriptId}`,
         },
         (payload) => {
-          const n = (payload.new as { download_count: number }).download_count
+          const n = (payload.new as { favourite_count: number }).favourite_count
           if (typeof n === 'number') setCount(n)
         }
       )
@@ -31,8 +31,8 @@ export function DownloadCount({ scriptId, initialCount }: { scriptId: string; in
   if (count <= 0) return null
   return (
     <p className="text-xs text-muted-foreground flex items-center gap-1">
-      <Download className="h-3 w-3" />
-      {count.toLocaleString()} {count === 1 ? 'download' : 'downloads'}
+      <Heart className="h-3 w-3" />
+      {count.toLocaleString()} {count === 1 ? 'favourite' : 'favourites'}
     </p>
   )
 }

@@ -40,6 +40,10 @@ export default async function ScriptVersionPage({ params }: Props) {
 
   if (!v || !script) notFound()
 
+  const { data: favourite } = user
+    ? await supabase.from('script_favourites').select('user_id').eq('script_id', id).eq('user_id', user.id).maybeSingle()
+    : { data: null }
+
   const isAdmin = user?.app_metadata?.role === 'admin'
   const isOwner = user?.id === script.submitted_by
   const canEdit = isAdmin || isOwner
@@ -81,6 +85,8 @@ export default async function ScriptVersionPage({ params }: Props) {
             displayName={null}
             existingClaim={null}
             downloadCount={script.download_count}
+            favouriteCount={script.favourite_count}
+            isFavourited={!!favourite}
             versions={versions ?? undefined}
             currentVersionNumber={versionNum}
             versionLabel={`Version ${v.version_number} · ${new Date(v.created_at).toLocaleDateString(undefined, { dateStyle: 'long' })}`}

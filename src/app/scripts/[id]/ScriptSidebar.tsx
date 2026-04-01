@@ -8,6 +8,8 @@ import { CopyJsonButton } from './CopyJsonButton'
 import { ClaimButton } from './ClaimButton'
 import { DownloadJsonButton } from './DownloadJsonButton'
 import { DownloadCount } from './DownloadCount'
+import { FavouriteButton } from './FavouriteButton'
+import { FavouriteCount } from './FavouriteCount'
 import type { ClaimStatus } from '@/lib/supabase/types'
 
 interface Version {
@@ -33,6 +35,8 @@ interface ScriptSidebarProps {
   displayName: string | null
   existingClaim: { status: ClaimStatus } | null
   downloadCount: number
+  favouriteCount: number
+  isFavourited: boolean
   versions?: Version[]
   currentVersionNumber?: number
   versionLabel?: string
@@ -53,6 +57,8 @@ export function ScriptSidebar({
   displayName,
   existingClaim,
   downloadCount,
+  favouriteCount,
+  isFavourited,
   versions,
   currentVersionNumber,
   versionLabel,
@@ -64,19 +70,21 @@ export function ScriptSidebar({
   return (
     <div className="flex flex-col gap-5">
       <div className="flex flex-col gap-2">
-        <div className="flex items-start justify-between gap-4">
-          <h1 className="text-2xl font-bold tracking-tight">{name}</h1>
-          <Badge variant={scriptType === 'teensy' ? 'secondary' : 'outline'} className="shrink-0">
-            {scriptType === 'teensy' ? 'Teensy' : 'Full'}
-          </Badge>
-        </div>
+        <h1 className="text-2xl font-bold tracking-tight">{name}</h1>
         {versionLabel && (
           <p className="text-sm text-muted-foreground">{versionLabel}</p>
         )}
         {author && (
           <p className="text-muted-foreground text-sm">by <Link href={`/?q=${encodeURIComponent(author)}`} className="hover:underline">{author}</Link></p>
         )}
+        <div className="flex items-center gap-3">
+          <DownloadCount scriptId={scriptId} initialCount={downloadCount} />
+          <FavouriteCount scriptId={scriptId} initialCount={favouriteCount} />
+        </div>
         <div className="flex flex-wrap gap-1.5 mt-1">
+          <Badge variant={scriptType === 'teensy' ? 'secondary' : 'outline'}>
+            {scriptType === 'teensy' ? 'Teensy' : 'Full'}
+          </Badge>
           {hasCarousel && <Badge variant="outline">Carousel</Badge>}
           {groups.map((g) => (
             <Badge key={g.id} variant="secondary">{g.name}</Badge>
@@ -85,18 +93,12 @@ export function ScriptSidebar({
         {description && (
           <p className="text-sm text-muted-foreground mt-1">{description}</p>
         )}
-        <DownloadCount scriptId={scriptId} initialCount={downloadCount} />
       </div>
 
       <div className="flex flex-wrap gap-2">
         <DownloadJsonButton scriptId={scriptId} blob={blob} downloadName={downloadName} />
         <CopyJsonButton json={jsonString} scriptId={scriptId} />
-        <Link href={`/scripts/${scriptId}/customise`}>
-          <Button variant="outline" size="sm" className="gap-1.5">
-            <Settings2 className="h-4 w-4" />
-            Customise &amp; Download PDF
-          </Button>
-        </Link>
+        <FavouriteButton scriptId={scriptId} isLoggedIn={isLoggedIn} initialIsFavourited={isFavourited} />
         {canEdit && (
           <>
             <Link href={`/scripts/${scriptId}/edit`}>
@@ -116,6 +118,12 @@ export function ScriptSidebar({
             existingClaim={existingClaim}
           />
         )}
+        <Link href={`/scripts/${scriptId}/customise`}>
+          <Button variant="outline" size="sm" className="gap-1.5">
+            <Settings2 className="h-4 w-4" />
+            Customise &amp; Download PDF
+          </Button>
+        </Link>
       </div>
 
       {versions && versions.length > 1 && (

@@ -24,6 +24,9 @@ export function NavBar() {
             <Link href="/competitions" className="text-muted-foreground hover:text-foreground transition-colors">
               Competitions
             </Link>
+            <Link href="/favourites" className="text-muted-foreground hover:text-foreground transition-colors">
+              Favourites
+            </Link>
           </nav>
         </div>
         <div className="flex items-center gap-2">
@@ -59,6 +62,13 @@ export function NavBar() {
               onClick={() => setOpen(false)}
             >
               Competitions
+            </Link>
+            <Link
+              href="/favourites"
+              className="text-muted-foreground hover:text-foreground transition-colors"
+              onClick={() => setOpen(false)}
+            >
+              Favourites
             </Link>
           </nav>
           <AuthButton />

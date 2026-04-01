@@ -20,15 +20,18 @@ export function ScriptRow({ script }: ScriptRowProps) {
         {script.name}
       </td>
       <td className="py-3 pr-4 text-sm text-muted-foreground hidden sm:table-cell">
-        {script.author ?? '—'}
+        {script.author ?? 0}
       </td>
       <td className="py-3 pr-4">
         <Badge variant={script.script_type === 'teensy' ? 'secondary' : 'outline'} className="text-xs">
           {script.script_type === 'teensy' ? 'Teensy' : 'Full'}
         </Badge>
       </td>
+      <td className="py-3 pr-4 text-sm text-muted-foreground hidden md:table-cell">
+        {script.download_count > 0 ? script.download_count.toLocaleString() : 0}
+      </td>
       <td className="py-3 text-sm text-muted-foreground hidden md:table-cell">
-        {script.download_count > 0 ? script.download_count.toLocaleString() : '—'}
+        {script.favourite_count > 0 ? script.favourite_count.toLocaleString() : 0}
       </td>
     </tr>
   )

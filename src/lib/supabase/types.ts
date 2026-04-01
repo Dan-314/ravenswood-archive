@@ -37,6 +37,7 @@ export interface Database {
           character_ids: string[]
           raw_json: Json
           download_count: number
+          favourite_count: number
           created_at: string
           updated_at: string
         }
@@ -52,6 +53,7 @@ export interface Database {
           character_ids?: string[]
           raw_json: Json
           download_count?: number
+          favourite_count?: number
           created_at?: string
           updated_at?: string
         }
@@ -67,6 +69,7 @@ export interface Database {
           character_ids?: string[]
           raw_json?: Json
           download_count?: number
+          favourite_count?: number
           created_at?: string
           updated_at?: string
         }
@@ -315,6 +318,20 @@ export interface Database {
           group_id?: string
         }
         Relationships: []
+      }
+      script_favourites: {
+        Row: { user_id: string; script_id: string; created_at: string }
+        Insert: { user_id: string; script_id: string; created_at?: string }
+        Update: Record<never, never>
+        Relationships: [
+          {
+            foreignKeyName: 'script_favourites_script_id_fkey'
+            columns: ['script_id']
+            isOneToOne: false
+            referencedRelation: 'scripts'
+            referencedColumns: ['id']
+          }
+        ]
       }
       script_downloads: {
         Row: {
