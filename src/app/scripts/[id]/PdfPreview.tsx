@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useRef, useEffect, useState, useCallback } from "react";
+import { useMemo, useRef, useEffect, useState } from "react";
 import { parseScript, calculateNightOrders } from "@/lib/botc";
 import { FancyDoc } from "@/lib/pdf/FancyDoc";
 import { DEFAULT_PDF_OPTIONS } from "@/lib/botc/types";
@@ -60,7 +60,10 @@ export function PdfPreview({ rawJson, options, defaultColor, className, onAppear
   const [autoIconScale, setAutoIconScale] = useState<number | null>(null);
 
   useEffect(() => {
-    setMounted(true);
+    Promise.all([
+      document.fonts.load('12px "Trade Gothic"'),
+      document.fonts.load('12px "Goudy Old Style"'),
+    ]).then(() => setMounted(true));
   }, []);
 
   const isAdjustingRef = useRef(false);
@@ -151,7 +154,7 @@ export function PdfPreview({ rawJson, options, defaultColor, className, onAppear
     return () => observer.disconnect();
   }, [pdfOptions.paperSize, mounted]);
 
-  if (!mounted && !defaultColor && !options) {
+  if (!mounted) {
     return <div className={`relative overflow-hidden ${className ?? ""}`} />;
   }
 
