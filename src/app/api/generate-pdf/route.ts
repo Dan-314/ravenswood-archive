@@ -3,6 +3,8 @@ import { renderToHtml } from "@/lib/pdf/renderer";
 import { generatePdf } from "@/lib/pdf/browser";
 import { DEFAULT_PDF_OPTIONS } from "@/lib/botc/types";
 import type { PdfOptions } from "@/lib/botc/types";
+import { createServiceClient } from "@/lib/supabase/service";
+import { getRealIp, hashIp } from "@/lib/tracking";
 
 export const maxDuration = 60;
 
@@ -11,7 +13,7 @@ const MAX_PAYLOAD_SIZE = 500 * 1024; // 500KB
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { rawJson, options: userOptions } = body;
+    const { rawJson, options: userOptions, scriptId } = body;
 
     if (!rawJson || !Array.isArray(rawJson)) {
       return NextResponse.json({ error: "Invalid script format" }, { status: 400 });
@@ -41,6 +43,13 @@ export async function POST(request: NextRequest) {
     const pdfBuffer = await generatePdf(html, options);
 
     const filename = `${body.filename || "script"}.pdf`;
+
+    if (scriptId) {
+      void createServiceClient().rpc('track_download', {
+        p_script_id: scriptId,
+        p_ip_hash: hashIp(getRealIp(request)),
+      }).catch(() => {})
+    }
 
     return new NextResponse(new Uint8Array(pdfBuffer), {
       status: 200,

@@ -4,13 +4,18 @@ import * as React from 'react'
 import { Copy, Check } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 
-export function CopyJsonButton({ json }: { json: string }) {
+export function CopyJsonButton({ json, scriptId }: { json: string; scriptId: string }) {
   const [copied, setCopied] = React.useState(false)
 
   async function handleCopy() {
     await navigator.clipboard.writeText(json)
     setCopied(true)
     setTimeout(() => setCopied(false), 2000)
+    fetch('/api/track-download', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ scriptId }),
+    }).catch(() => {})
   }
 
   return (

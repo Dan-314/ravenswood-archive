@@ -18,6 +18,10 @@ export interface Database {
         Args: { p_matchup_id: string; p_winner_entry_id: string }
         Returns: undefined
       }
+      track_download: {
+        Args: { p_script_id: string; p_ip_hash: string }
+        Returns: undefined
+      }
     }
     Tables: {
       scripts: {
@@ -32,6 +36,7 @@ export interface Database {
           submitted_by: string | null
           character_ids: string[]
           raw_json: Json
+          download_count: number
           created_at: string
           updated_at: string
         }
@@ -46,6 +51,7 @@ export interface Database {
           submitted_by?: string | null
           character_ids?: string[]
           raw_json: Json
+          download_count?: number
           created_at?: string
           updated_at?: string
         }
@@ -60,6 +66,7 @@ export interface Database {
           submitted_by?: string | null
           character_ids?: string[]
           raw_json?: Json
+          download_count?: number
           created_at?: string
           updated_at?: string
         }
@@ -308,6 +315,32 @@ export interface Database {
           group_id?: string
         }
         Relationships: []
+      }
+      script_downloads: {
+        Row: {
+          id: string
+          script_id: string
+          ip_hash: string
+          day_bucket: string
+          created_at: string
+        }
+        Insert: {
+          id?: string
+          script_id: string
+          ip_hash: string
+          day_bucket?: string
+          created_at?: string
+        }
+        Update: Record<never, never>
+        Relationships: [
+          {
+            foreignKeyName: 'script_downloads_script_id_fkey'
+            columns: ['script_id']
+            isOneToOne: false
+            referencedRelation: 'scripts'
+            referencedColumns: ['id']
+          }
+        ]
       }
       script_claims: {
         Row: {

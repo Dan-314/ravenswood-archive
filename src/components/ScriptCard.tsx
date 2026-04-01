@@ -27,17 +27,8 @@ export function ScriptRow({ script }: ScriptRowProps) {
           {script.script_type === 'teensy' ? 'Teensy' : 'Full'}
         </Badge>
       </td>
-      <td className="py-3 hidden md:table-cell">
-        <div className="flex flex-wrap gap-1">
-          {script.has_carousel && (
-            <Badge variant="outline" className="text-xs">Carousel</Badge>
-          )}
-          {script.groups.map((group) => (
-            <Badge key={group.id} variant="secondary" className="text-xs">
-              {group.name}
-            </Badge>
-          ))}
-        </div>
+      <td className="py-3 text-sm text-muted-foreground hidden md:table-cell">
+        {script.download_count > 0 ? script.download_count.toLocaleString() : '—'}
       </td>
     </tr>
   )

@@ -2,10 +2,12 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator'
 import Link from 'next/link'
-import { Download, Pencil, Settings2 } from 'lucide-react'
+import { Pencil, Settings2 } from 'lucide-react'
 import { DeleteButton } from './DeleteButton'
 import { CopyJsonButton } from './CopyJsonButton'
 import { ClaimButton } from './ClaimButton'
+import { DownloadJsonButton } from './DownloadJsonButton'
+import { DownloadCount } from './DownloadCount'
 import type { ClaimStatus } from '@/lib/supabase/types'
 
 interface Version {
@@ -30,6 +32,7 @@ interface ScriptSidebarProps {
   isLoggedIn: boolean
   displayName: string | null
   existingClaim: { status: ClaimStatus } | null
+  downloadCount: number
   versions?: Version[]
   currentVersionNumber?: number
   versionLabel?: string
@@ -49,6 +52,7 @@ export function ScriptSidebar({
   isLoggedIn,
   displayName,
   existingClaim,
+  downloadCount,
   versions,
   currentVersionNumber,
   versionLabel,
@@ -81,16 +85,12 @@ export function ScriptSidebar({
         {description && (
           <p className="text-sm text-muted-foreground mt-1">{description}</p>
         )}
+        <DownloadCount scriptId={scriptId} initialCount={downloadCount} />
       </div>
 
       <div className="flex flex-wrap gap-2">
-        <a href={blob} download={downloadName}>
-          <Button variant="outline" size="sm" className="gap-1.5">
-            <Download className="h-4 w-4" />
-            Download JSON
-          </Button>
-        </a>
-        <CopyJsonButton json={jsonString} />
+        <DownloadJsonButton scriptId={scriptId} blob={blob} downloadName={downloadName} />
+        <CopyJsonButton json={jsonString} scriptId={scriptId} />
         <Link href={`/scripts/${scriptId}/customise`}>
           <Button variant="outline" size="sm" className="gap-1.5">
             <Settings2 className="h-4 w-4" />

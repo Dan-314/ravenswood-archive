@@ -95,6 +95,7 @@ export default async function ScriptDetailPage({ params }: Props) {
             isLoggedIn={!!user}
             displayName={displayName}
             existingClaim={existingClaim ?? null}
+            downloadCount={script.download_count}
             versions={versions ?? undefined}
           />
         }

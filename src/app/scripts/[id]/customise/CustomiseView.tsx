@@ -12,9 +12,10 @@ interface CustomiseViewProps {
   rawJson: unknown;
   scriptName: string;
   defaultColor?: string;
+  scriptId?: string;
 }
 
-export function CustomiseView({ rawJson, scriptName, defaultColor }: CustomiseViewProps) {
+export function CustomiseView({ rawJson, scriptName, defaultColor, scriptId }: CustomiseViewProps) {
   const [downloading, setDownloading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [options, setOptions] = useState<PdfOptions>({
@@ -38,6 +39,7 @@ export function CustomiseView({ rawJson, scriptName, defaultColor }: CustomiseVi
           rawJson,
           options,
           filename: scriptName,
+          scriptId,
         }),
       });
 

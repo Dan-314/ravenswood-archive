@@ -80,6 +80,7 @@ export default async function ScriptVersionPage({ params }: Props) {
             isLoggedIn={!!user}
             displayName={null}
             existingClaim={null}
+            downloadCount={script.download_count}
             versions={versions ?? undefined}
             currentVersionNumber={versionNum}
             versionLabel={`Version ${v.version_number} · ${new Date(v.created_at).toLocaleDateString(undefined, { dateStyle: 'long' })}`}

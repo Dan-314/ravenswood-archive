@@ -184,7 +184,7 @@ export function SearchPage({ characters, groups }: SearchPageProps) {
                     <th className="pb-2 pr-4 font-medium">Name</th>
                     <th className="pb-2 pr-4 font-medium hidden sm:table-cell">Author</th>
                     <th className="pb-2 pr-4 font-medium">Type</th>
-                    <th className="pb-2 font-medium hidden md:table-cell">Tags</th>
+                    <th className="pb-2 font-medium hidden md:table-cell">Downloads</th>
                   </tr>
                 </thead>
                 <tbody>

@@ -47,6 +47,7 @@ export default async function CustomisePage({ params }: Props) {
         rawJson={script.raw_json}
         scriptName={script.name}
         defaultColor={accentColor}
+        scriptId={script.id}
       />
     </div>
   )
