@@ -21,6 +21,7 @@ export function EditForm({ script }: EditFormProps) {
 
   const [name, setName] = React.useState(script.name)
   const [author, setAuthor] = React.useState(script.author ?? '')
+  const [description, setDescription] = React.useState(script.description ?? '')
   const [scriptType, setScriptType] = React.useState<'full' | 'teensy'>(script.script_type)
   const [jsonText, setJsonText] = React.useState(JSON.stringify(script.raw_json, null, 2))
   const [parseError, setParseError] = React.useState('')
@@ -55,7 +56,7 @@ export function EditForm({ script }: EditFormProps) {
     }
 
     const rawJson = JSON.parse(jsonText)
-    const payload = {
+    const versionPayload = {
       name,
       author: author || null,
       script_type: scriptType,
@@ -85,7 +86,7 @@ export function EditForm({ script }: EditFormProps) {
     // Insert new version
     const { error: insertError } = await supabase
       .from('script_versions')
-      .insert({ script_id: script.id, version_number: nextVersion, edited_by: user?.id ?? null, ...payload })
+      .insert({ script_id: script.id, version_number: nextVersion, edited_by: user?.id ?? null, ...versionPayload })
 
     if (insertError) {
       setError(insertError.message)
@@ -96,7 +97,7 @@ export function EditForm({ script }: EditFormProps) {
     // Update scripts table to keep it as current
     const { error: updateError } = await supabase
       .from('scripts')
-      .update(payload)
+      .update({ ...versionPayload, description: description.trim() || null })
       .eq('id', script.id)
 
     if (updateError) {
@@ -122,6 +123,17 @@ export function EditForm({ script }: EditFormProps) {
         <div className="flex flex-col gap-2">
           <Label htmlFor="author">Author</Label>
           <Input id="author" value={author} onChange={(e) => setAuthor(e.target.value)} />
+        </div>
+
+        <div className="flex flex-col gap-2">
+          <Label htmlFor="description">Description</Label>
+          <Textarea
+            id="description"
+            value={description}
+            onChange={(e) => setDescription(e.target.value)}
+            placeholder="Describe the themes or mechanics of your script (optional)"
+            rows={3}
+          />
         </div>
 
         <div className="flex flex-col gap-2">

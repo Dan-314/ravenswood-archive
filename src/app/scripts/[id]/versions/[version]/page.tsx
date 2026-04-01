@@ -70,6 +70,7 @@ export default async function ScriptVersionPage({ params }: Props) {
             scriptId={id}
             name={v.name}
             author={v.author}
+            description={script.description ?? null}
             scriptType={v.script_type}
             hasCarousel={v.has_carousel}
             groups={groups}

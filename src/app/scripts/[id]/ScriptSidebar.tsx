@@ -20,6 +20,7 @@ interface ScriptSidebarProps {
   scriptId: string
   name: string
   author: string | null
+  description: string | null
   scriptType: string
   hasCarousel: boolean
   groups: { id: string; name: string }[]
@@ -38,6 +39,7 @@ export function ScriptSidebar({
   scriptId,
   name,
   author,
+  description,
   scriptType,
   hasCarousel,
   groups,
@@ -76,6 +78,9 @@ export function ScriptSidebar({
             <Badge key={g.id} variant="secondary">{g.name}</Badge>
           ))}
         </div>
+        {description && (
+          <p className="text-sm text-muted-foreground mt-1">{description}</p>
+        )}
       </div>
 
       <div className="flex flex-wrap gap-2">

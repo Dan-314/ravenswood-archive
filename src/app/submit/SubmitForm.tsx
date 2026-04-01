@@ -19,6 +19,7 @@ export default function SubmitForm() {
   const [jsonText, setJsonText] = React.useState('')
   const [manualName, setManualName] = React.useState('')
   const [manualAuthor, setManualAuthor] = React.useState('')
+  const [description, setDescription] = React.useState('')
   const [scriptType, setScriptType] = React.useState<'full' | 'teensy'>('full')
   const [status, setStatus] = React.useState<Status>('idle')
   const [errorMsg, setErrorMsg] = React.useState('')
@@ -54,6 +55,7 @@ export default function SubmitForm() {
     const { error } = await supabase.from('scripts').insert({
       name: manualName || parsed.name,
       author: manualAuthor || parsed.author || null,
+      description: description.trim() || null,
       script_type: finalType,
       has_carousel: parsed.hasCarousel,
       character_ids: parsed.characterIds,
@@ -74,6 +76,7 @@ export default function SubmitForm() {
     setJsonText('')
     setManualName('')
     setManualAuthor('')
+    setDescription('')
     setScriptType('full')
     setStatus('idle')
     setErrorMsg('')
@@ -144,6 +147,17 @@ export default function SubmitForm() {
             value={manualAuthor}
             onChange={(e) => setManualAuthor(e.target.value)}
             placeholder="Auto-detected from JSON"
+          />
+        </div>
+
+        <div className="flex flex-col gap-2">
+          <Label htmlFor="description">Description</Label>
+          <Textarea
+            id="description"
+            value={description}
+            onChange={(e) => setDescription(e.target.value)}
+            placeholder="Describe the themes or mechanics of your script (optional)"
+            rows={3}
           />
         </div>
 

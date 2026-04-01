@@ -85,6 +85,7 @@ export default async function ScriptDetailPage({ params }: Props) {
             scriptId={id}
             name={script.name}
             author={script.author}
+            description={script.description ?? null}
             scriptType={script.script_type}
             hasCarousel={script.has_carousel}
             groups={groups}

@@ -25,6 +25,7 @@ export interface Database {
           id: string
           name: string
           author: string | null
+          description: string | null
           script_type: ScriptType
           has_carousel: boolean
           status: ScriptStatus
@@ -38,6 +39,7 @@ export interface Database {
           id?: string
           name: string
           author?: string | null
+          description?: string | null
           script_type: ScriptType
           has_carousel?: boolean
           status?: ScriptStatus
@@ -51,6 +53,7 @@ export interface Database {
           id?: string
           name?: string
           author?: string | null
+          description?: string | null
           script_type?: ScriptType
           has_carousel?: boolean
           status?: ScriptStatus
