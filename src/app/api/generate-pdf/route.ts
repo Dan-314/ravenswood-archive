@@ -48,7 +48,7 @@ export async function POST(request: NextRequest) {
       void createServiceClient().rpc('track_download', {
         p_script_id: scriptId,
         p_ip_hash: hashIp(getRealIp(request)),
-      }).catch(() => {})
+      }).then(undefined, () => {})
     }
 
     return new NextResponse(new Uint8Array(pdfBuffer), {
