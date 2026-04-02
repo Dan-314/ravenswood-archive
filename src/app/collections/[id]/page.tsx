@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const supabase = await createClient()
   const { data } = await supabase.from('collections').select('name').eq('id', id).single()
   if (!data) return { title: 'Collection not found' }
-  return { title: `${data.name} — BotC Script Finder` }
+  return { title: data.name }
 }
 
 export default async function CollectionPage({ params }: Props) {

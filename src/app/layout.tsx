@@ -6,9 +6,26 @@ import { NavBar } from '@/components/NavBar'
 
 const geist = Geist({ subsets: ['latin'] })
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://ravenswood.app'
+
 export const metadata: Metadata = {
-  title: 'Ravenswood Archive',
+  metadataBase: new URL(siteUrl),
+  title: {
+    default: 'Ravenswood Archive',
+    template: '%s — Ravenswood Archive',
+  },
   description: 'Search and discover Blood on the Clocktower scripts',
+  openGraph: {
+    type: 'website',
+    siteName: 'Ravenswood Archive',
+    title: 'Ravenswood Archive',
+    description: 'Search and discover Blood on the Clocktower scripts',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Ravenswood Archive',
+    description: 'Search and discover Blood on the Clocktower scripts',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const supabase = await createClient()
   const { data } = await supabase.from('scripts').select('name').eq('id', id).single()
   if (!data) return { title: 'Script not found' }
-  return { title: `Customise ${data.name} — BotC Script Finder` }
+  return { title: `Customise ${data.name}` }
 }
 
 export default async function CustomisePage({ params }: Props) {

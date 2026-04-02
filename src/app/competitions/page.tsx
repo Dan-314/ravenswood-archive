@@ -1,5 +1,11 @@
+import type { Metadata } from 'next'
 import { createClient } from '@/lib/supabase/server'
 import { CompetitionList } from './CompetitionList'
+
+export const metadata: Metadata = {
+  title: 'Competitions',
+  description: 'Blood on the Clocktower script competitions and brackets',
+}
 
 export const dynamic = 'force-dynamic'
 

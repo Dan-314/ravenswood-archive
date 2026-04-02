@@ -24,9 +24,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     .eq('version_number', versionNum)
     .single()
   if (!data) return { title: 'Version not found' }
-  return {
-    title: `${data.name}${data.author ? ` by ${data.author}` : ''} (v${data.version_number}) — BotC Script Finder`,
-  }
+  const title = `${data.name}${data.author ? ` by ${data.author}` : ''} (v${data.version_number})`
+  return { title, openGraph: { title } }
 }
 
 export default async function ScriptVersionPage({ params }: Props) {

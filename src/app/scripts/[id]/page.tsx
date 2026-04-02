@@ -17,7 +17,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const supabase = await createClient()
   const { data } = await supabase.from('scripts').select('name, author').eq('id', id).single()
   if (!data) return { title: 'Script not found' }
-  return { title: `${data.name}${data.author ? ` by ${data.author}` : ''} — BotC Script Finder` }
+  const title = `${data.name}${data.author ? ` by ${data.author}` : ''}`
+  return {
+    title,
+    openGraph: { title },
+  }
 }
 
 export default async function ScriptDetailPage({ params }: Props) {

@@ -1,6 +1,12 @@
+import type { Metadata } from 'next'
 import { createClient } from '@/lib/supabase/server'
 import Link from 'next/link'
 import { Badge } from '@/components/ui/badge'
+
+export const metadata: Metadata = {
+  title: 'Collections',
+  description: 'Browse curated collections of Blood on the Clocktower scripts',
+}
 
 export const dynamic = 'force-dynamic'
 
