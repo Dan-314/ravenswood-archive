@@ -59,6 +59,7 @@ export function EditForm({ script }: EditFormProps) {
     const versionPayload = {
       name,
       author: author || null,
+      description: description.trim() || null,
       script_type: scriptType,
       has_carousel: parsed.hasCarousel,
       character_ids: parsed.characterIds,
@@ -97,7 +98,7 @@ export function EditForm({ script }: EditFormProps) {
     // Update scripts table to keep it as current
     const { error: updateError } = await supabase
       .from('scripts')
-      .update({ ...versionPayload, description: description.trim() || null })
+      .update({ ...versionPayload })
       .eq('id', script.id)
 
     if (updateError) {

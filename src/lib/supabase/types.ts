@@ -121,6 +121,7 @@ export interface Database {
           version_number: number
           name: string
           author: string | null
+          description: string | null
           script_type: ScriptType
           has_carousel: boolean
           character_ids: string[]
@@ -134,6 +135,7 @@ export interface Database {
           version_number: number
           name: string
           author?: string | null
+          description?: string | null
           script_type: ScriptType
           has_carousel?: boolean
           character_ids?: string[]
@@ -144,6 +146,7 @@ export interface Database {
         Update: {
           name?: string
           author?: string | null
+          description?: string | null
           script_type?: ScriptType
           has_carousel?: boolean
           character_ids?: string[]

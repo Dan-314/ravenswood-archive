@@ -4,11 +4,29 @@ import Link from 'next/link'
 import { ArrowLeft } from 'lucide-react'
 import { ScriptPreviewLayout } from '../../ScriptPreviewLayout'
 import { ScriptSidebar } from '../../ScriptSidebar'
+import type { Metadata } from 'next'
 
 export const dynamic = 'force-dynamic'
 
 interface Props {
   params: Promise<{ id: string; version: string }>
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { id, version } = await params
+  const versionNum = parseInt(version, 10)
+  if (isNaN(versionNum)) return { title: 'Version not found' }
+  const supabase = await createClient()
+  const { data } = await supabase
+    .from('script_versions')
+    .select('name, author, version_number')
+    .eq('script_id', id)
+    .eq('version_number', versionNum)
+    .single()
+  if (!data) return { title: 'Version not found' }
+  return {
+    title: `${data.name}${data.author ? ` by ${data.author}` : ''} (v${data.version_number}) — BotC Script Finder`,
+  }
 }
 
 export default async function ScriptVersionPage({ params }: Props) {
@@ -40,19 +58,18 @@ export default async function ScriptVersionPage({ params }: Props) {
 
   if (!v || !script) notFound()
 
-  const { data: favourite } = user
-    ? await supabase.from('script_favourites').select('user_id').eq('script_id', id).eq('user_id', user.id).maybeSingle()
-    : { data: null }
-
   const isAdmin = user?.app_metadata?.role === 'admin'
   const isOwner = user?.id === script.submitted_by
   const canEdit = isAdmin || isOwner
+
+  const { data: favourite } = user
+    ? await supabase.from('script_favourites').select('user_id').eq('script_id', id).eq('user_id', user.id).maybeSingle()
+    : { data: null }
 
   const collections = (((script as unknown as Record<string, unknown>).collections as { collection: { id: string; name: string } }[]) ?? [])
     .map((c) => c.collection)
     .filter(Boolean)
 
-  // Extract accent color from version's raw_json metadata
   const meta = Array.isArray(v.raw_json)
     ? v.raw_json.find((el: unknown) => typeof el === 'object' && el !== null && 'id' in el && (el as { id: string }).id === '_meta') as Record<string, unknown> | undefined
     : undefined
@@ -68,13 +85,13 @@ export default async function ScriptVersionPage({ params }: Props) {
       <ScriptPreviewLayout
         rawJson={v.raw_json}
         defaultColor={accentColor}
-        sidebarPosition="right"
+        sidebarPosition="left"
         sidebar={
           <ScriptSidebar
             scriptId={id}
             name={v.name}
             author={v.author}
-            description={script.description ?? null}
+            description={v.description ?? null}
             scriptType={v.script_type}
             hasCarousel={v.has_carousel}
             collections={collections}
