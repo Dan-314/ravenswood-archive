@@ -1,5 +1,5 @@
-import { nightOrders } from "botc-script-checker";
-import type { Script, ScriptCharacter } from "botc-script-checker";
+import { nightOrders } from "./night-orders";
+import type { Script, ScriptCharacter } from "./types";
 import type { NightOrderEntry, NightOrders, ParsedScript, NightMarker } from "./types";
 
 const NIGHT_MARKERS: NightMarker[] = ["dawn", "dusk", "minioninfo", "demoninfo"];

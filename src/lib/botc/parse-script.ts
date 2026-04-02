@@ -1,7 +1,4 @@
-import { ALL_CHARACTERS } from "botc-script-checker";
-import type { Script, ScriptCharacter, ScriptMetadata } from "botc-script-checker";
-import type { ParsedScript, ResolvedCharacter, GroupedCharacters } from "./types";
-import { TEAM_ORDER } from "./types";
+import type { Script, ScriptCharacter, ScriptMetadata, ParsedScript, ResolvedCharacter, GroupedCharacters } from "./types";
 import localRoles from "../../../roles.json";
 import { ALL_CHARACTERS_WITH_REMINDERS } from "./all-characters";
 
@@ -56,10 +53,9 @@ export function parseScript(rawJson: unknown): ParsedScript {
 function resolveCharacter(id: string): ResolvedCharacter | null {
   const normalizedId = id.toLowerCase().replace(/_/g, "");
   // Use ALL_CHARACTERS_WITH_REMINDERS as primary source (has night reminder text),
-  // fall back to botc-script-checker's ALL_CHARACTERS, then local roles
+  // fall back to local roles.json
   const withReminders = ALL_CHARACTERS_WITH_REMINDERS[normalizedId] ?? ALL_CHARACTERS_WITH_REMINDERS[id.toLowerCase()];
-  const base = ALL_CHARACTERS[normalizedId] ?? ALL_CHARACTERS[id.toLowerCase()]
-    ?? LOCAL_CHARACTERS[normalizedId] ?? LOCAL_CHARACTERS[id.toLowerCase()];
+  const base = LOCAL_CHARACTERS[normalizedId] ?? LOCAL_CHARACTERS[id.toLowerCase()];
   if (!withReminders && !base) {
     console.warn(`Character not found: ${id}`);
     return null;
@@ -91,14 +87,6 @@ export function groupByTeam(characters: ResolvedCharacter[]): GroupedCharacters 
 const TPI_CDN_BASE = "https://release.botc.app/resources/characters";
 const ICON_STORAGE_URL = `${process.env.NEXT_PUBLIC_SUPABASE_STORAGE_URL ?? process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/pdf-assets`;
 
-const HOME_SCRIPT_TO_EDITION: Record<string, string> = {
-  "Trouble Brewing": "tb",
-  "Bad Moon Rising": "bmr",
-  "Sects and Violets": "snv",
-  "The Carousel": "carousel",
-  "Fabled": "fabled",
-};
-
 export function getIconUrl(character: ResolvedCharacter, _assetsUrl?: string): string {
   // Custom character with image URL
   if (character.image) {
@@ -107,7 +95,7 @@ export function getIconUrl(character: ResolvedCharacter, _assetsUrl?: string): s
   }
 
   // Official character — use TPI CDN
-  const edition = character.edition ?? HOME_SCRIPT_TO_EDITION[character.homeScript ?? ""] ?? null;
+  const edition = character.edition ?? null;
   if (edition) {
     const alignment =
       character.team === "townsfolk" || character.team === "outsider" ? "_g" :

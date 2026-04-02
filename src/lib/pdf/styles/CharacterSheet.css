@@ -478,6 +478,13 @@
   margin-bottom: 1mm;
 }
 
+.jinx-icon.loric,
+.jinx-icon-placeholder.loric {
+  width: 10mm;
+  height: 10mm;
+  scale: calc(1.7 * var(--icon-scale, 1));
+}
+
 .loric-name {
   font-family: "Goudy Old Style";
   font-size: 3mm;
@@ -485,5 +492,5 @@
 }
 
 .loric-spacer {
-  min-width: 4mm;
+  min-width: 0;
 }

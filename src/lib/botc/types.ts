@@ -1,8 +1,42 @@
-import type { ScriptCharacter, ScriptMetadata, CharacterTeam } from "botc-script-checker";
+export type CharacterTeam = "townsfolk" | "outsider" | "minion" | "demon" | "traveller" | "fabled" | "loric";
+
+export interface ScriptCharacter {
+  id: string;
+  name: string;
+  image?: string | string[];
+  team: CharacterTeam;
+  edition?: string;
+  ability: string;
+  flavor?: string;
+  firstNight?: number;
+  firstNightReminder?: string;
+  otherNight?: number;
+  otherNightReminder?: string;
+  reminders?: string[];
+  remindersGlobal?: string[];
+  setup?: boolean;
+  jinxes?: { id: string; reason: string }[];
+  special?: { type: string; name: string; [k: string]: unknown }[];
+}
+
+export interface ScriptMetadata {
+  id: "_meta";
+  name: string;
+  author?: string;
+  logo?: string;
+  hideTitle?: boolean;
+  background?: string;
+  almanac?: string;
+  bootlegger?: string[];
+  firstNight?: string[];
+  otherNight?: string[];
+  [k: string]: unknown;
+}
+
+export type Script = (string | ScriptCharacter | ScriptMetadata | { id: string; [key: string]: unknown })[];
 
 export type ResolvedCharacter = ScriptCharacter & {
   icon?: string;
-  homeScript?: string;
   isCustom?: boolean;
 };
 

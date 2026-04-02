@@ -4,7 +4,7 @@ import { useMemo, useRef, useEffect, useState } from "react";
 import { parseScript, calculateNightOrders } from "@/lib/botc";
 import { FancyDoc } from "@/lib/pdf/FancyDoc";
 import { DEFAULT_PDF_OPTIONS } from "@/lib/botc/types";
-import type { Script } from "botc-script-checker";
+import type { Script } from "@/lib/botc/types";
 import type { PdfOptions } from "@/lib/botc/types";
 import "@/lib/pdf/styles/index.css";
 

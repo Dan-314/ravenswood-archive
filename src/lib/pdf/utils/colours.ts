@@ -1,7 +1,7 @@
 // Ported from botc-character-sheet by John Forster (MIT License)
 // Copyright (c) 2025 John Forster
 
-import type { CharacterTeam } from "botc-script-checker";
+import type { CharacterTeam } from "@/lib/botc/types";
 
 export function parseRgb(hex: string): [number, number, number] {
   if (hex.startsWith("#")) {

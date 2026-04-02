@@ -6,7 +6,7 @@ import { readFileSync } from "fs";
 import { join } from "path";
 import { FancyDoc } from "./FancyDoc";
 import { parseScript, calculateNightOrders } from "@/lib/botc";
-import type { Script } from "botc-script-checker";
+import type { Script } from "@/lib/botc/types";
 import type { PdfOptions } from "@/lib/botc/types";
 
 function loadCSS(): string {

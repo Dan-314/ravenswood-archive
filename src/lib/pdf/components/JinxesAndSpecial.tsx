@@ -207,7 +207,7 @@ function FabledLoricItem({
         // eslint-disable-next-line @next/next/no-img-element
         <img src={item.image} alt={item.name} className="jinx-icon loric" />
       ) : (
-        <div className="jinx-icon-placeholder">{item.name.charAt(0)}</div>
+        <div className="jinx-icon-placeholder loric">{item.name.charAt(0)}</div>
       )}
       <div className="loric-text-container">
         <p className="jinx-text loric-name">{item.name}</p>
