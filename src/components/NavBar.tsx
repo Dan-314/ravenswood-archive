@@ -21,6 +21,9 @@ export function NavBar() {
             <Link href="/submit" className="text-muted-foreground hover:text-foreground transition-colors">
               Upload
             </Link>
+            <Link href="/collections" className="text-muted-foreground hover:text-foreground transition-colors">
+              Collections
+            </Link>
             <Link href="/competitions" className="text-muted-foreground hover:text-foreground transition-colors">
               Competitions
             </Link>
@@ -55,6 +58,13 @@ export function NavBar() {
               onClick={() => setOpen(false)}
             >
               Upload
+            </Link>
+            <Link
+              href="/collections"
+              className="text-muted-foreground hover:text-foreground transition-colors"
+              onClick={() => setOpen(false)}
+            >
+              Collections
             </Link>
             <Link
               href="/competitions"

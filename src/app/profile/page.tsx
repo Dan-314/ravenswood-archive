@@ -3,7 +3,7 @@ import { redirect } from 'next/navigation'
 import { ScriptRow } from '@/components/ScriptCard'
 import { Badge } from '@/components/ui/badge'
 import Link from 'next/link'
-import type { ScriptWithGroups, Group, ScriptClaimWithScript } from '@/lib/supabase/types'
+import type { ScriptWithCollections, Collection, ScriptClaimWithScript } from '@/lib/supabase/types'
 
 export const dynamic = 'force-dynamic'
 
@@ -28,7 +28,7 @@ export default async function ProfilePage() {
   const [{ data: scriptsRaw }, { data: claimsRaw }] = await Promise.all([
     supabase
       .from('scripts')
-      .select('*, groups:script_groups(group:groups(*))')
+      .select('*, collections:script_collections(collection:collections(*))')
       .eq('submitted_by', user.id)
       .order('created_at', { ascending: false }),
     supabase
@@ -38,10 +38,10 @@ export default async function ProfilePage() {
       .order('created_at', { ascending: false }),
   ])
 
-  const scripts: ScriptWithGroups[] = ((scriptsRaw ?? []) as unknown[]).map((row) => {
+  const scripts: ScriptWithCollections[] = ((scriptsRaw ?? []) as unknown[]).map((row) => {
     const r = row as Record<string, unknown>
-    const rawGroups = (r.groups as { group: Group }[] | null) ?? []
-    return { ...r, groups: rawGroups.map((g) => g.group).filter(Boolean) } as ScriptWithGroups
+    const rawCollections = (r.collections as { collection: Collection }[] | null) ?? []
+    return { ...r, collections: rawCollections.map((c) => c.collection).filter(Boolean) } as ScriptWithCollections
   })
 
   const claims = (claimsRaw ?? []) as unknown as ScriptClaimWithScript[]
@@ -67,7 +67,7 @@ export default async function ProfilePage() {
                 <th className="pb-2 pr-4 font-medium">Name</th>
                 <th className="pb-2 pr-4 font-medium">Author</th>
                 <th className="pb-2 pr-4 font-medium">Type</th>
-                <th className="pb-2 font-medium">Tags</th>
+                <th className="pb-2 font-medium">Collections</th>
               </tr>
             </thead>
             <tbody>

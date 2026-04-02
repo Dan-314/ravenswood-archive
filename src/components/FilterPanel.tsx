@@ -5,17 +5,18 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Checkbox } from '@/components/ui/checkbox'
 import { Separator } from '@/components/ui/separator'
 import { CharacterPicker } from './CharacterPicker'
-import type { Character, Group } from '@/lib/supabase/types'
+import type { Character, Collection } from '@/lib/supabase/types'
 import type { SearchParams } from '@/lib/search'
 
 interface FilterPanelProps {
   characters: Character[]
-  groups: Group[]
+  collections: Collection[]
   filters: SearchParams
   onChange: (filters: Partial<SearchParams>) => void
+  hideCollections?: boolean
 }
 
-export function FilterPanel({ characters, groups, filters, onChange }: FilterPanelProps) {
+export function FilterPanel({ characters, collections, filters, onChange, hideCollections }: FilterPanelProps) {
   return (
     <aside className="flex flex-col gap-5">
       {/* Script type */}
@@ -48,28 +49,28 @@ export function FilterPanel({ characters, groups, filters, onChange }: FilterPan
         <Label htmlFor="base3only" className="cursor-pointer">Base 3 characters only</Label>
       </div>
 
-      {groups.length > 0 && (
+      {!hideCollections && collections.length > 0 && (
         <>
           <Separator />
           <div className="flex flex-col gap-2">
-            <Label>Group</Label>
+            <Label>Collection</Label>
             <div className="flex flex-col gap-1.5">
-              {groups.map((group) => (
-                <div key={group.id} className="flex items-center gap-2">
+              {collections.map((collection) => (
+                <div key={collection.id} className="flex items-center gap-2">
                   <Checkbox
-                    id={`group-${group.id}`}
-                    checked={(filters.groupIds ?? []).includes(group.id)}
+                    id={`collection-${collection.id}`}
+                    checked={(filters.collectionIds ?? []).includes(collection.id)}
                     onCheckedChange={(checked) => {
-                      const current = filters.groupIds ?? []
+                      const current = filters.collectionIds ?? []
                       onChange({
-                        groupIds: checked
-                          ? [...current, group.id]
-                          : current.filter((id) => id !== group.id),
+                        collectionIds: checked
+                          ? [...current, collection.id]
+                          : current.filter((id) => id !== collection.id),
                       })
                     }}
                   />
-                  <Label htmlFor={`group-${group.id}`} className="cursor-pointer font-normal">
-                    {group.name}
+                  <Label htmlFor={`collection-${collection.id}`} className="cursor-pointer font-normal">
+                    {collection.name}
                   </Label>
                 </div>
               ))}

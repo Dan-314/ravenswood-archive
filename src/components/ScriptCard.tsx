@@ -2,10 +2,10 @@
 
 import { useRouter } from 'next/navigation'
 import { Badge } from '@/components/ui/badge'
-import type { ScriptWithGroups } from '@/lib/supabase/types'
+import type { ScriptWithCollections } from '@/lib/supabase/types'
 
 interface ScriptRowProps {
-  script: ScriptWithGroups
+  script: ScriptWithCollections
 }
 
 export function ScriptRow({ script }: ScriptRowProps) {

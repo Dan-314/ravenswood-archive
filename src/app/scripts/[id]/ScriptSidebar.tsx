@@ -27,7 +27,7 @@ interface ScriptSidebarProps {
   description: string | null
   scriptType: string
   hasCarousel: boolean
-  groups: { id: string; name: string }[]
+  collections: { id: string; name: string }[]
   rawJson: unknown
   canEdit: boolean
   showClaim: boolean
@@ -49,7 +49,7 @@ export function ScriptSidebar({
   description,
   scriptType,
   hasCarousel,
-  groups,
+  collections,
   rawJson,
   canEdit,
   showClaim,
@@ -86,8 +86,8 @@ export function ScriptSidebar({
             {scriptType === 'teensy' ? 'Teensy' : 'Full'}
           </Badge>
           {hasCarousel && <Badge variant="outline">Carousel</Badge>}
-          {groups.map((g) => (
-            <Badge key={g.id} variant="secondary">{g.name}</Badge>
+          {collections.map((c) => (
+            <Badge key={c.id} variant="secondary">{c.name}</Badge>
           ))}
         </div>
         {description && (

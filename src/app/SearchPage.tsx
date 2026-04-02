@@ -10,15 +10,16 @@ import { Button } from '@/components/ui/button'
 import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet'
 import { createClient } from '@/lib/supabase/client'
 import { searchScripts, type SearchParams, type SortBy } from '@/lib/search'
-import type { Character, Group, ScriptWithGroups } from '@/lib/supabase/types'
+import type { Character, Collection, ScriptWithCollections } from '@/lib/supabase/types'
 
 interface SearchPageProps {
   characters: Character[]
-  groups: Group[]
+  collections: Collection[]
   favouritedBy?: string
+  lockedCollectionId?: string
 }
 
-export function SearchPage({ characters, groups, favouritedBy }: SearchPageProps) {
+export function SearchPage({ characters, collections, favouritedBy, lockedCollectionId }: SearchPageProps) {
   const router = useRouter()
   const searchParams = useSearchParams()
 
@@ -27,11 +28,11 @@ export function SearchPage({ characters, groups, favouritedBy }: SearchPageProps
     scriptType: 'all',
     includeCharacters: [],
     excludeCharacters: [],
-    groupIds: [],
+    collectionIds: lockedCollectionId ? [lockedCollectionId] : [],
     sortBy: 'newest',
     sortAscending: false,
   })
-  const [scripts, setScripts] = React.useState<ScriptWithGroups[]>([])
+  const [scripts, setScripts] = React.useState<ScriptWithCollections[]>([])
   const [count, setCount] = React.useState(0)
   const [page, setPage] = React.useState(1)
   const [loading, setLoading] = React.useState(true)
@@ -77,6 +78,12 @@ export function SearchPage({ characters, groups, favouritedBy }: SearchPageProps
   }
 
   function handleFilterChange(newFilters: Partial<SearchParams>) {
+    // If a locked collection is set, ensure it is never removed from collectionIds
+    if (lockedCollectionId && newFilters.collectionIds !== undefined) {
+      if (!newFilters.collectionIds.includes(lockedCollectionId)) {
+        newFilters = { ...newFilters, collectionIds: [lockedCollectionId, ...newFilters.collectionIds] }
+      }
+    }
     const updated = { ...filters, ...newFilters }
     setFilters(updated)
     runSearch({ ...updated, query })
@@ -102,7 +109,7 @@ export function SearchPage({ characters, groups, favouritedBy }: SearchPageProps
     scriptType: 'all',
     includeCharacters: [],
     excludeCharacters: [],
-    groupIds: [],
+    collectionIds: lockedCollectionId ? [lockedCollectionId] : [],
     sortBy: 'newest',
     sortAscending: false,
   }
@@ -113,13 +120,16 @@ export function SearchPage({ characters, groups, favouritedBy }: SearchPageProps
     runSearch({ ...EMPTY_FILTERS, query: '' })
   }
 
+  // Count of user-applied filters (locked collection is not counted)
+  const freeCollectionCount = (filters.collectionIds?.length ?? 0) - (lockedCollectionId ? 1 : 0)
+
   const hasActiveFilters =
     query.trim() !== '' ||
     filters.scriptType !== 'all' ||
     filters.hasCarousel !== undefined ||
     (filters.includeCharacters?.length ?? 0) > 0 ||
     (filters.excludeCharacters?.length ?? 0) > 0 ||
-    (filters.groupIds?.length ?? 0) > 0
+    freeCollectionCount > 0
 
   const hasMore = scripts.length < count
 
@@ -128,12 +138,13 @@ export function SearchPage({ characters, groups, favouritedBy }: SearchPageProps
     (filters.hasCarousel !== undefined ? 1 : 0) +
     (filters.includeCharacters?.length ?? 0) +
     (filters.excludeCharacters?.length ?? 0) +
-    (filters.groupIds?.length ?? 0)
+    freeCollectionCount
 
   const filterPanel = (
     <FilterPanel
       characters={characters}
-      groups={groups}
+      collections={lockedCollectionId ? [] : collections}
+      hideCollections={!!lockedCollectionId}
       filters={filters}
       onChange={handleFilterChange}
     />

@@ -27,7 +27,7 @@ export default async function ScriptVersionPage({ params }: Props) {
       .single(),
     supabase
       .from('scripts')
-      .select('*, groups:script_groups(group:groups(*))')
+      .select('*, collections:script_collections(collection:collections(*))')
       .eq('id', id)
       .single(),
     supabase.auth.getUser(),
@@ -48,8 +48,8 @@ export default async function ScriptVersionPage({ params }: Props) {
   const isOwner = user?.id === script.submitted_by
   const canEdit = isAdmin || isOwner
 
-  const groups = (((script as unknown as Record<string, unknown>).groups as { group: { id: string; name: string } }[]) ?? [])
-    .map((g) => g.group)
+  const collections = (((script as unknown as Record<string, unknown>).collections as { collection: { id: string; name: string } }[]) ?? [])
+    .map((c) => c.collection)
     .filter(Boolean)
 
   // Extract accent color from version's raw_json metadata
@@ -77,7 +77,7 @@ export default async function ScriptVersionPage({ params }: Props) {
             description={script.description ?? null}
             scriptType={v.script_type}
             hasCarousel={v.has_carousel}
-            groups={groups}
+            collections={collections}
             rawJson={v.raw_json}
             canEdit={canEdit}
             showClaim={false}

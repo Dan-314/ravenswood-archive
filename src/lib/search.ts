@@ -1,5 +1,5 @@
 import type { SupabaseClient } from '@supabase/supabase-js'
-import type { Database, ScriptType, ScriptWithGroups } from './supabase/types'
+import type { Database, ScriptType, ScriptWithCollections } from './supabase/types'
 
 export type SortBy = 'newest' | 'downloads' | 'favourites'
 
@@ -9,7 +9,7 @@ export interface SearchParams {
   hasCarousel?: boolean
   includeCharacters?: string[]  // must have ALL of these
   excludeCharacters?: string[]  // must have NONE of these
-  groupIds?: string[]
+  collectionIds?: string[]
   sortBy?: SortBy
   sortAscending?: boolean
   favouritedBy?: string
@@ -20,14 +20,14 @@ export interface SearchParams {
 export async function searchScripts(
   supabase: SupabaseClient<Database>,
   params: SearchParams
-): Promise<{ data: ScriptWithGroups[]; count: number; error: string | null }> {
+): Promise<{ data: ScriptWithCollections[]; count: number; error: string | null }> {
   const {
     query,
     scriptType,
     hasCarousel,
     includeCharacters = [],
     excludeCharacters = [],
-    groupIds = [],
+    collectionIds = [],
     sortBy = 'newest',
     sortAscending = false,
     favouritedBy,
@@ -47,7 +47,7 @@ export async function searchScripts(
     .from('scripts')
     .select(`
       *,
-      groups:script_groups(group:groups(*))
+      collections:script_collections(collection:collections(*))
     `, { count: 'exact' })
     .eq('status', 'approved')
     .order(orderColumn, { ascending: sortBy === 'newest' ? false : sortAscending })
@@ -94,14 +94,14 @@ export async function searchScripts(
     q = q.in('id', ids)
   }
 
-  // Group filter: script must be in at least one of the selected groups
-  if (groupIds.length > 0) {
-    const { data: scriptIdsInGroups } = await supabase
-      .from('script_groups')
+  // Collection filter: script must be in at least one of the selected collections
+  if (collectionIds.length > 0) {
+    const { data: scriptIdsInCollections } = await supabase
+      .from('script_collections')
       .select('script_id')
-      .in('group_id', groupIds)
+      .in('collection_id', collectionIds)
 
-    const ids = (scriptIdsInGroups ?? []).map((r) => r.script_id)
+    const ids = (scriptIdsInCollections ?? []).map((r) => r.script_id)
     if (ids.length === 0) {
       return { data: [], count: 0, error: null }
     }
@@ -114,13 +114,13 @@ export async function searchScripts(
     return { data: [], count: 0, error: error.message }
   }
 
-  // Flatten the nested groups join into a clean shape
-  const scripts: ScriptWithGroups[] = (data ?? []).map((row: Record<string, unknown>) => {
-    const { groups: rawGroups, ...rest } = row
-    const groups = ((rawGroups as { group: Record<string, unknown> }[]) ?? [])
-      .map((g) => g.group)
+  // Flatten the nested collections join into a clean shape
+  const scripts: ScriptWithCollections[] = (data ?? []).map((row: Record<string, unknown>) => {
+    const { collections: rawCollections, ...rest } = row
+    const collections = ((rawCollections as { collection: Record<string, unknown> }[]) ?? [])
+      .map((c) => c.collection)
       .filter(Boolean)
-    return { ...rest, groups } as ScriptWithGroups
+    return { ...rest, collections } as ScriptWithCollections
   })
 
   return { data: scripts, count: count ?? 0, error: null }

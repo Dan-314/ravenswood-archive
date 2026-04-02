@@ -8,18 +8,18 @@ import { Checkbox } from '@/components/ui/checkbox'
 import { Label } from '@/components/ui/label'
 import { createClient } from '@/lib/supabase/client'
 import { useRouter } from 'next/navigation'
-import type { Group, ScriptWithGroups } from '@/lib/supabase/types'
+import type { Collection, ScriptWithCollections } from '@/lib/supabase/types'
 
 interface AdminQueueProps {
-  scripts: ScriptWithGroups[]
-  groups: Group[]
+  scripts: ScriptWithCollections[]
+  collections: Collection[]
 }
 
-export function AdminQueue({ scripts: initial, groups }: AdminQueueProps) {
+export function AdminQueue({ scripts: initial, collections }: AdminQueueProps) {
   const router = useRouter()
   const supabase = React.useMemo(() => createClient(), [])
   const [scripts, setScripts] = React.useState(initial)
-  const [groupAssignments, setGroupAssignments] = React.useState<Record<string, string[]>>({})
+  const [collectionAssignments, setCollectionAssignments] = React.useState<Record<string, string[]>>({})
   const [loading, setLoading] = React.useState<string | null>(null)
 
   async function handleDecision(scriptId: string, status: 'approved' | 'rejected') {
@@ -31,10 +31,10 @@ export function AdminQueue({ scripts: initial, groups }: AdminQueueProps) {
       .eq('id', scriptId)
 
     if (!error && status === 'approved') {
-      const groupIds = groupAssignments[scriptId] ?? []
-      if (groupIds.length > 0) {
-        await supabase.from('script_groups').insert(
-          groupIds.map((group_id) => ({ script_id: scriptId, group_id }))
+      const collectionIds = collectionAssignments[scriptId] ?? []
+      if (collectionIds.length > 0) {
+        await supabase.from('script_collections').insert(
+          collectionIds.map((collection_id) => ({ script_id: scriptId, collection_id }))
         )
       }
     }
@@ -46,14 +46,14 @@ export function AdminQueue({ scripts: initial, groups }: AdminQueueProps) {
     setLoading(null)
   }
 
-  function toggleGroup(scriptId: string, groupId: string) {
-    setGroupAssignments((prev) => {
+  function toggleCollection(scriptId: string, collectionId: string) {
+    setCollectionAssignments((prev) => {
       const current = prev[scriptId] ?? []
       return {
         ...prev,
-        [scriptId]: current.includes(groupId)
-          ? current.filter((id) => id !== groupId)
-          : [...current, groupId],
+        [scriptId]: current.includes(collectionId)
+          ? current.filter((id) => id !== collectionId)
+          : [...current, collectionId],
       }
     })
   }
@@ -83,19 +83,19 @@ export function AdminQueue({ scripts: initial, groups }: AdminQueueProps) {
               {script.has_carousel ? ' · Carousel' : ''}
             </div>
 
-            {groups.length > 0 && (
+            {collections.length > 0 && (
               <div className="flex flex-col gap-2">
-                <p className="text-sm font-medium">Assign to groups</p>
+                <p className="text-sm font-medium">Assign to collections</p>
                 <div className="flex flex-wrap gap-x-4 gap-y-1.5">
-                  {groups.map((group) => (
-                    <div key={group.id} className="flex items-center gap-1.5">
+                  {collections.map((collection) => (
+                    <div key={collection.id} className="flex items-center gap-1.5">
                       <Checkbox
-                        id={`${script.id}-${group.id}`}
-                        checked={(groupAssignments[script.id] ?? []).includes(group.id)}
-                        onCheckedChange={() => toggleGroup(script.id, group.id)}
+                        id={`${script.id}-${collection.id}`}
+                        checked={(collectionAssignments[script.id] ?? []).includes(collection.id)}
+                        onCheckedChange={() => toggleCollection(script.id, collection.id)}
                       />
-                      <Label htmlFor={`${script.id}-${group.id}`} className="font-normal cursor-pointer text-sm">
-                        {group.name}
+                      <Label htmlFor={`${script.id}-${collection.id}`} className="font-normal cursor-pointer text-sm">
+                        {collection.name}
                       </Label>
                     </div>
                   ))}

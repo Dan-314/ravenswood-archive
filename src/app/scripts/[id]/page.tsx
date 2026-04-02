@@ -27,7 +27,7 @@ export default async function ScriptDetailPage({ params }: Props) {
   const [{ data: script }, { data: { user } }, { data: versions }] = await Promise.all([
     supabase
       .from('scripts')
-      .select('*, groups:script_groups(group:groups(*))')
+      .select('*, collections:script_collections(collection:collections(*))')
       .eq('id', id)
       .single(),
     supabase.auth.getUser(),
@@ -59,8 +59,8 @@ export default async function ScriptDetailPage({ params }: Props) {
     ? (user.user_metadata?.full_name ?? user.user_metadata?.name ?? user.email ?? null)
     : null
 
-  const groups = (((script as unknown as Record<string, unknown>).groups as { group: { id: string; name: string } }[]) ?? [])
-    .map((g) => g.group)
+  const collections = (((script as unknown as Record<string, unknown>).collections as { collection: { id: string; name: string } }[]) ?? [])
+    .map((c) => c.collection)
     .filter(Boolean)
 
   // Extract accent color from script metadata
@@ -88,7 +88,7 @@ export default async function ScriptDetailPage({ params }: Props) {
             description={script.description ?? null}
             scriptType={script.script_type}
             hasCarousel={script.has_carousel}
-            groups={groups}
+            collections={collections}
             rawJson={script.raw_json}
             canEdit={canEdit}
             showClaim={showClaim}

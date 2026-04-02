@@ -93,20 +93,23 @@ export interface Database {
         }
         Relationships: []
       }
-      groups: {
+      collections: {
         Row: {
           id: string
           name: string
+          description: string | null
           created_at: string
         }
         Insert: {
           id?: string
           name: string
+          description?: string | null
           created_at?: string
         }
         Update: {
           id?: string
           name?: string
+          description?: string | null
           created_at?: string
         }
         Relationships: []
@@ -304,18 +307,18 @@ export interface Database {
           }
         ]
       }
-      script_groups: {
+      script_collections: {
         Row: {
           script_id: string
-          group_id: string
+          collection_id: string
         }
         Insert: {
           script_id: string
-          group_id: string
+          collection_id: string
         }
         Update: {
           script_id?: string
-          group_id?: string
+          collection_id?: string
         }
         Relationships: []
       }
@@ -396,11 +399,11 @@ export interface Database {
 // Convenience types for use in components
 export type Script = Database['public']['Tables']['scripts']['Row']
 export type Character = Database['public']['Tables']['characters']['Row']
-export type Group = Database['public']['Tables']['groups']['Row']
+export type Collection = Database['public']['Tables']['collections']['Row']
 
-// Script with joined groups
-export type ScriptWithGroups = Script & {
-  groups: Group[]
+// Script with joined collections
+export type ScriptWithCollections = Script & {
+  collections: Collection[]
 }
 
 export type ScriptVersion = Database['public']['Tables']['script_versions']['Row']
