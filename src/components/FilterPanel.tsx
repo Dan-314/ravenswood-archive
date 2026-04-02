@@ -49,35 +49,6 @@ export function FilterPanel({ characters, collections, filters, onChange, hideCo
         <Label htmlFor="base3only" className="cursor-pointer">Base 3 characters only</Label>
       </div>
 
-      {!hideCollections && collections.length > 0 && (
-        <>
-          <Separator />
-          <div className="flex flex-col gap-2">
-            <Label>Collection</Label>
-            <div className="flex flex-col gap-1.5">
-              {collections.map((collection) => (
-                <div key={collection.id} className="flex items-center gap-2">
-                  <Checkbox
-                    id={`collection-${collection.id}`}
-                    checked={(filters.collectionIds ?? []).includes(collection.id)}
-                    onCheckedChange={(checked) => {
-                      const current = filters.collectionIds ?? []
-                      onChange({
-                        collectionIds: checked
-                          ? [...current, collection.id]
-                          : current.filter((id) => id !== collection.id),
-                      })
-                    }}
-                  />
-                  <Label htmlFor={`collection-${collection.id}`} className="cursor-pointer font-normal">
-                    {collection.name}
-                  </Label>
-                </div>
-              ))}
-            </div>
-          </div>
-        </>
-      )}
 
       <Separator />
 

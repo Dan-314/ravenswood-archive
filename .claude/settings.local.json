@@ -19,7 +19,23 @@
       "Bash(npx tsc:*)",
       "Bash(curl -s http://localhost:3000/scripts/)",
       "Bash(curl -s \"http://localhost:3000\")",
-      "Bash(curl -s \"https://kkjmmisrpthcndavzyxz.supabase.co/rest/v1/scripts?select=id,name&limit=3\" -H \"apikey: sb_publishable_iqpArMB0USVMD9AzgR82Cw_2iIYDnRx\" -H \"Authorization: Bearer sb_publishable_iqpArMB0USVMD9AzgR82Cw_2iIYDnRx\")"
+      "Bash(curl -s \"https://kkjmmisrpthcndavzyxz.supabase.co/rest/v1/scripts?select=id,name&limit=3\" -H \"apikey: sb_publishable_iqpArMB0USVMD9AzgR82Cw_2iIYDnRx\" -H \"Authorization: Bearer sb_publishable_iqpArMB0USVMD9AzgR82Cw_2iIYDnRx\")",
+      "Bash(grep -o icon:[^,}]* /home/pye/Documents/projects/script-finder/node_modules/botc-script-checker/dist/index.js)",
+      "Bash(python3 -c \"import json; data = json.load\\(open\\(''/home/pye/Documents/projects/script-finder/roles.json''\\)\\); loric = [\\(c[''id''], c.get\\(''team'',''?''\\), c.get\\(''edition'',''?''\\)\\) for c in data if c.get\\(''edition''\\) == ''loric'']; print\\(loric\\)\")",
+      "Bash(curl -s https://release.botc.app/resources/data/roles.json)",
+      "Bash(curl -s https://release.botc.app/resources/data/nightsheet.json)",
+      "Bash(curl -s https://release.botc.app/resources/data/jinxes.json)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(''''Keys:'''', list\\(d.keys\\(\\)\\)\\); print\\(''''firstNight sample:'''', d[''''firstNight''''][:5]\\); print\\(''''Total firstNight:'''', len\\(d[''''firstNight'''']\\)\\); print\\(''''Total otherNight:'''', len\\(d[''''otherNight'''']\\)\\)\")",
+      "Bash(python3 -c \":*)",
+      "Bash(git -C /home/pye/Documents/projects/script-finder/.claude/worktrees/agent-a8cb1aaf status)",
+      "Bash(git -C /home/pye/Documents/projects/script-finder/.claude/worktrees/agent-a416ed37 status)",
+      "Bash(git -C /home/pye/Documents/projects/script-finder/.claude/worktrees/agent-a4a4e2df status)",
+      "Bash(git -C /home/pye/Documents/projects/script-finder/.claude/worktrees/agent-a8cb1aaf diff -- roles.json)",
+      "Bash(git worktree:*)",
+      "Bash(git -C /home/pye/Documents/projects/script-finder status --short)"
+    ],
+    "additionalDirectories": [
+      "/tmp"
     ]
   }
 }

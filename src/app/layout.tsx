@@ -7,19 +7,32 @@ import { NavBar } from '@/components/NavBar'
 const geist = Geist({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'BotC Script Finder',
+  title: 'Ravenswood Archive',
   description: 'Search and discover Blood on the Clocktower scripts',
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${geist.className} antialiased min-h-screen bg-background text-foreground`}>
+      <body className={`${geist.className} antialiased min-h-screen bg-background text-foreground flex flex-col`}>
         <Providers>
           <NavBar />
-          <main className="mx-auto max-w-7xl px-4 py-8">
+          <main className="mx-auto max-w-7xl px-4 py-8 w-full flex-1">
             {children}
           </main>
+          <footer className="border-t mt-8 py-6">
+            <div className="mx-auto max-w-7xl px-4 flex items-center justify-center">
+              <a href="https://release.botc.app/resources/" target="_blank" rel="noopener noreferrer">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="https://release.botc.app/resources/community/ccc-parchment.png"
+                  alt="Clocktower Community Content"
+                  style={{ height: 50, width: 'auto', transition: 'filter 0.2s', filter: 'brightness(1)' }}
+                  className="hover:brightness-125"
+                />
+              </a>
+            </div>
+          </footer>
         </Providers>
       </body>
     </html>

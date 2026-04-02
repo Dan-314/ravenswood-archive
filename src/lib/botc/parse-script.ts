@@ -88,7 +88,16 @@ export function groupByTeam(characters: ResolvedCharacter[]): GroupedCharacters 
   return grouped;
 }
 
+const TPI_CDN_BASE = "https://release.botc.app/resources/characters";
 const ICON_STORAGE_URL = `${process.env.NEXT_PUBLIC_SUPABASE_STORAGE_URL ?? process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/pdf-assets`;
+
+const HOME_SCRIPT_TO_EDITION: Record<string, string> = {
+  "Trouble Brewing": "tb",
+  "Bad Moon Rising": "bmr",
+  "Sects and Violets": "snv",
+  "The Carousel": "carousel",
+  "Fabled": "fabled",
+};
 
 export function getIconUrl(character: ResolvedCharacter, _assetsUrl?: string): string {
   // Custom character with image URL
@@ -96,10 +105,20 @@ export function getIconUrl(character: ResolvedCharacter, _assetsUrl?: string): s
     if (typeof character.image === "string") return character.image;
     if (Array.isArray(character.image) && character.image.length > 0) return character.image[0];
   }
-  // Official character — use icon filename from ALL_CHARACTERS
+
+  // Official character — use TPI CDN
+  const edition = character.edition ?? HOME_SCRIPT_TO_EDITION[character.homeScript ?? ""] ?? null;
+  if (edition) {
+    const alignment =
+      character.team === "townsfolk" || character.team === "outsider" ? "_g" :
+      character.team === "minion" || character.team === "demon" ? "_e" :
+      "";
+    return `${TPI_CDN_BASE}/${edition}/${character.id}${alignment}.webp`;
+  }
+
+  // Fallback to Supabase storage for unknown editions
   if ("icon" in character && character.icon) {
     return `${ICON_STORAGE_URL}/${character.icon}`;
   }
-  // Fallback: try id-based URL
   return `${ICON_STORAGE_URL}/${character.id}.png`;
 }

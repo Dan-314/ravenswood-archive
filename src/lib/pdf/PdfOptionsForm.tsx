@@ -29,6 +29,15 @@ function randomColor(): string {
   return `#${f(0)}${f(8)}${f(4)}`;
 }
 
+const TPI_CDN = "https://release.botc.app/resources/editions";
+
+const EDITION_LOGOS: { label: string; value: string }[] = [
+  { label: "None", value: "" },
+  { label: "Trouble Brewing", value: `${TPI_CDN}/tb/logo.webp` },
+  { label: "Bad Moon Rising", value: `${TPI_CDN}/bmr/logo.webp` },
+  { label: "Sects & Violets", value: `${TPI_CDN}/snv/logo.webp` },
+];
+
 const TITLE_FONTS = [
   "Dumbledor",
   "Unlovable",
@@ -178,6 +187,34 @@ export function PdfOptionsForm({ options, onUpdate }: PdfOptionsFormProps) {
             onChange={(e) => update("iconScale", parseFloat(e.target.value))}
             className="w-full accent-primary"
           />
+        </div>
+
+        {/* Edition logo */}
+        <div className="flex flex-col gap-1.5">
+          <Label>Edition logo</Label>
+          <Select
+            value={options.showLogo && EDITION_LOGOS.some((e) => e.value === options.logo) ? options.logo : "none"}
+            onValueChange={(v) => {
+              if (!v || v === "none") {
+                update("showLogo", false);
+              } else {
+                update("logo", v);
+                update("showLogo", true);
+              }
+            }}
+          >
+            <SelectTrigger className="w-full">
+              <SelectValue />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="none">None</SelectItem>
+              {EDITION_LOGOS.filter((e) => e.value !== "").map((e) => (
+                <SelectItem key={e.value} value={e.value}>
+                  {e.label}
+                </SelectItem>
+              ))}
+            </SelectContent>
+          </Select>
         </div>
 
         {/* Show/hide toggles */}

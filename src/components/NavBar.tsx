@@ -15,7 +15,7 @@ export function NavBar() {
       <div className="mx-auto flex h-14 max-w-7xl items-center justify-between px-4">
         <div className="flex items-center gap-6">
           <Link href="/" className="font-semibold tracking-tight">
-            BotC Script Finder
+            Ravenswood Archive
           </Link>
           <nav className="hidden sm:flex items-center gap-4 text-sm">
             <Link href="/submit" className="text-muted-foreground hover:text-foreground transition-colors">
