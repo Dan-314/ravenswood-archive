@@ -4,8 +4,8 @@ import Link from 'next/link'
 import { Badge } from '@/components/ui/badge'
 
 export const metadata: Metadata = {
-  title: 'Collections',
-  description: 'Browse curated collections of Blood on the Clocktower scripts',
+  title: 'Script Collections',
+  description: 'Browse curated collections of Blood on the Clocktower scripts. Find themed BotC script packs for your next Clocktower game.',
 }
 
 export const dynamic = 'force-dynamic'

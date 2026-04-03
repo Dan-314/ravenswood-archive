@@ -8,23 +8,35 @@ const geist = Geist({ subsets: ['latin'] })
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://ravenswoodarchive.com'
 
+const description = 'Browse, search and download Blood on the Clocktower scripts. Find BotC homebrew scripts, custom scripts and official scripts for your next Clocktower game.'
+
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'Ravenswood Archive',
+    default: 'Ravenswood Archive — Blood on the Clocktower Script Finder',
     template: '%s — Ravenswood Archive',
   },
-  description: 'Search and discover Blood on the Clocktower scripts',
+  description,
+  keywords: [
+    'Blood on the Clocktower',
+    'BotC',
+    'Clocktower scripts',
+    'BotC scripts',
+    'homebrew scripts',
+    'custom scripts',
+    'script finder',
+    'Ravenswood Archive',
+  ],
   openGraph: {
     type: 'website',
     siteName: 'Ravenswood Archive',
-    title: 'Ravenswood Archive',
-    description: 'Search and discover Blood on the Clocktower scripts',
+    title: 'Ravenswood Archive — Blood on the Clocktower Script Finder',
+    description,
   },
   twitter: {
     card: 'summary',
-    title: 'Ravenswood Archive',
-    description: 'Search and discover Blood on the Clocktower scripts',
+    title: 'Ravenswood Archive — Blood on the Clocktower Script Finder',
+    description,
   },
 }
 
@@ -32,8 +44,9 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   name: 'Ravenswood Archive',
+  alternateName: ['BotC Script Finder', 'Clocktower Script Finder'],
   url: siteUrl,
-  description: 'Search and discover Blood on the Clocktower scripts',
+  description,
   potentialAction: {
     '@type': 'SearchAction',
     target: { '@type': 'EntryPoint', urlTemplate: `${siteUrl}/?q={search_term_string}` },

@@ -3,8 +3,8 @@ import { createClient } from '@/lib/supabase/server'
 import { CompetitionList } from './CompetitionList'
 
 export const metadata: Metadata = {
-  title: 'Competitions',
-  description: 'Blood on the Clocktower script competitions and brackets',
+  title: 'Script Competitions',
+  description: 'Blood on the Clocktower script competitions and brackets. Vote on your favourite BotC scripts.',
 }
 
 export const dynamic = 'force-dynamic'
