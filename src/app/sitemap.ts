@@ -2,7 +2,7 @@ import type { MetadataRoute } from 'next'
 import { createClient } from '@supabase/supabase-js'
 import type { Database } from '@/lib/supabase/types'
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://ravenswood.app'
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://ravenswoodarchive.com'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const supabase = createClient<Database>(

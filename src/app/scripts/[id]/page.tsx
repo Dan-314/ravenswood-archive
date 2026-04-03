@@ -15,12 +15,14 @@ interface Props {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { id } = await params
   const supabase = await createClient()
-  const { data } = await supabase.from('scripts').select('name, author').eq('id', id).single()
+  const { data } = await supabase.from('scripts').select('name, author, description').eq('id', id).single()
   if (!data) return { title: 'Script not found' }
   const title = `${data.name}${data.author ? ` by ${data.author}` : ''}`
+  const description = data.description || `${data.name} — a Blood on the Clocktower script${data.author ? ` by ${data.author}` : ''}`
   return {
     title,
-    openGraph: { title },
+    description,
+    openGraph: { title, description },
   }
 }
 
@@ -73,8 +75,24 @@ export default async function ScriptDetailPage({ params }: Props) {
     : undefined
   const accentColor = (meta?.colour as string) || undefined
 
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://ravenswoodarchive.com'
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'CreativeWork',
+    name: script.name,
+    ...(script.author && { author: { '@type': 'Person', name: script.author } }),
+    ...(script.description && { description: script.description }),
+    url: `${siteUrl}/scripts/${id}`,
+    dateCreated: script.created_at,
+    dateModified: script.updated_at,
+  }
+
   return (
     <div className="flex flex-col gap-4">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Link href="/" className="flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground w-fit">
         <ArrowLeft className="h-4 w-4" />
         Back to search

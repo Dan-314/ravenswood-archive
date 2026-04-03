@@ -6,7 +6,7 @@ import { NavBar } from '@/components/NavBar'
 
 const geist = Geist({ subsets: ['latin'] })
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://ravenswood.app'
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? 'https://ravenswoodarchive.com'
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -28,10 +28,27 @@ export const metadata: Metadata = {
   },
 }
 
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Ravenswood Archive',
+  url: siteUrl,
+  description: 'Search and discover Blood on the Clocktower scripts',
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: { '@type': 'EntryPoint', urlTemplate: `${siteUrl}/?q={search_term_string}` },
+    'query-input': 'required name=search_term_string',
+  },
+}
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${geist.className} antialiased min-h-screen bg-background text-foreground flex flex-col`}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         <Providers>
           <NavBar />
           <main className="mx-auto max-w-7xl px-4 py-8 w-full flex-1">
