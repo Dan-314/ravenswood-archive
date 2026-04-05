@@ -20,7 +20,7 @@ export function ScriptRow({ script }: ScriptRowProps) {
         {script.name}
       </td>
       <td className="py-3 pr-4 text-sm text-muted-foreground hidden sm:table-cell">
-        {script.author ?? 0}
+        {script.author ?? '—'}
       </td>
       <td className="py-3 pr-4">
         <Badge variant={script.script_type === 'teensy' ? 'secondary' : 'outline'} className="text-xs">
