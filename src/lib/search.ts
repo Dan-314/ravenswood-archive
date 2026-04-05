@@ -51,6 +51,7 @@ export async function searchScripts(
     `, { count: 'exact' })
     .eq('status', 'approved')
     .order(orderColumn, { ascending: sortBy === 'newest' ? false : sortAscending })
+    .order('id', { ascending: true })
     .range(from, to)
 
   // Name or author fuzzy search
