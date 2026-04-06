@@ -24,7 +24,6 @@ interface LanguageSelectProps {
 let manifestCache: LanguageEntry[] | null = null;
 
 function formatLabel(lang: LanguageEntry) {
-  if (lang.completion >= 100) return lang.nativeName;
   return `${lang.nativeName} — ${lang.completion}%`;
 }
 
