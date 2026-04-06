@@ -151,6 +151,7 @@ export function PdfPreview({ rawJson, options, defaultColor, className, onAppear
     updateScale();
     const observer = new ResizeObserver(updateScale);
     observer.observe(container);
+    observer.observe(inner);
     return () => observer.disconnect();
   }, [pdfOptions.paperSize, mounted]);
 

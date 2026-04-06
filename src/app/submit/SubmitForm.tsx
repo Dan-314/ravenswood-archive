@@ -50,6 +50,11 @@ export default function SubmitForm() {
     setStatus('loading')
 
     const { data: { user } } = await supabase.auth.getUser()
+    if (!user) {
+      setErrorMsg('You must be signed in to submit a script.')
+      setStatus('error')
+      return
+    }
     const finalType = scriptType
 
     const { error } = await supabase.from('scripts').insert({
@@ -60,12 +65,18 @@ export default function SubmitForm() {
       has_carousel: parsed.hasCarousel,
       character_ids: parsed.characterIds,
       raw_json: JSON.parse(jsonText),
-      submitted_by: user?.id ?? null,
+      submitted_by: user.id,
       status: 'approved',
     })
 
     if (error) {
-      setErrorMsg(error.message)
+      if (error.code === '23505' && error.message.includes('scripts_json_hash_unique')) {
+        setErrorMsg('This script has already been uploaded.')
+      } else if (error.code === '42501' || error.message.includes('row-level security')) {
+        setErrorMsg('You must be signed in to submit a script.')
+      } else {
+        setErrorMsg(error.message)
+      }
       setStatus('error')
     } else {
       setStatus('success')
