@@ -139,8 +139,10 @@ const getReminderText = (entry: NightOrderEntry, night: "first" | "other", trans
     return { reminderText, name };
   } else {
     const reminder = NON_CHARACTER_REMINDERS[entry];
-    const reminderText =
-      night === "first" ? reminder.first : (reminder.other ?? "");
+    const translated = translations?.roles?.[entry];
+    const reminderText = (night === "first"
+      ? (translated?.first ?? reminder.first)
+      : (translated?.other ?? reminder.other ?? ""));
     const name = translations?.nightMarkers?.[entry] ?? reminder.name;
     return { reminderText, name };
   }
