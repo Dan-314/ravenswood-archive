@@ -6,7 +6,6 @@ import { getImageSrc } from "../utils/nightOrder";
 import { teamColours } from "../utils/colours";
 import { BottomTrimSheet } from "../components/BottomTrimSheet";
 import { splitEmoji } from "../utils/splitEmoji";
-// splitEmoji wraps text in .title-text spans (gradient) and emojis in plain spans (native color)
 
 export type NightSheetProps = {
   title: string;
@@ -15,6 +14,17 @@ export type NightSheetProps = {
   options: PdfOptions;
   assetsUrl: string;
 };
+
+const BASE_FONT_MM = 11;
+const MAX_CHARS = 30;
+const MIN_FONT_MM = 7;
+
+function nightTitleStyle(title: string): React.CSSProperties | undefined {
+  if (title.length <= MAX_CHARS) return undefined;
+  const scaled = BASE_FONT_MM * (MAX_CHARS / title.length);
+  const fontSize = Math.max(scaled, MIN_FONT_MM);
+  return { fontSize: `${fontSize.toFixed(1)}mm` };
+}
 
 export const NightSheet = ({
   title,
@@ -29,7 +39,7 @@ export const NightSheet = ({
         <BottomTrimSheet options={options} assetsUrl={assetsUrl}>
           <div className="night-sheet-heading">
             <h3 className="night-title">First Night</h3>
-            <h3 className="script-title">{splitEmoji(title)}</h3>
+            <h3 className="script-title" style={nightTitleStyle(title)}>{splitEmoji(title)}</h3>
           </div>
           <div className="night-sheet-order">
             {firstNightOrder.map((reminder, i) => (
@@ -48,7 +58,7 @@ export const NightSheet = ({
         <BottomTrimSheet options={options} assetsUrl={assetsUrl}>
           <div className="night-sheet-heading">
             <h3 className="night-title">Other Nights</h3>
-            <h3 className="script-title">{splitEmoji(title)}</h3>
+            <h3 className="script-title" style={nightTitleStyle(title)}>{splitEmoji(title)}</h3>
           </div>
           <div className="night-sheet-order">
             {otherNightOrder.map((reminder, i) => (

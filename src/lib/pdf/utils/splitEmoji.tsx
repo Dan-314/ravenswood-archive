@@ -21,7 +21,7 @@ export function splitEmojiSegments(text: string): TitleSegment[] {
 /** Convenience wrapper: returns ReactElements with emojis outside gradient context */
 export function splitEmoji(text: string): (string | ReactElement)[] {
   const segments = splitEmojiSegments(text);
-  if (segments.length === 1 && segments[0].type === "text") return [text];
+  if (segments.length === 1 && segments[0].type === "text") return [<span key={0} className="title-text">{text}</span>];
   return segments.map((seg, i) =>
     seg.type === "text" ? (
       <span key={i} className="title-text">{seg.content}</span>
