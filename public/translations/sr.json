@@ -1,0 +1,1218 @@
+{
+  "roles": {
+    "acrobat": {
+      "ability": "Svake noći* izabereš igrača: ako je ili postane pijan ili otrovan, ti umreš.",
+      "flavor": "Dobrodošli, svi do jednog, na najbolju tačku na zemlji.",
+      "name": "Akrobata",
+      "other": "Akrobata izabere igrača. :reminder:"
+    },
+    "alchemist": {
+      "ability": "Imaš sposobnost Sluge. Kada je koristiš, Pripovedač će te možda pitati da izabereš drugačije.",
+      "flavor": "Posetite unutrašnjost Zemlje. Ispravljanjem ćete pronaći skriveni kamen. Iznad zlata, leži crvena. Keter u Malkutu.",
+      "name": "Alhemičar"
+    },
+    "alhadikhia": {
+      "ability": "Svake noći* smeš da izabereš 3 igrača (svi igrači znaju koga): svaki tiho izabere da preživi ili da umre, ali ako svi prežive, svi umru.",
+      "flavor": "Alsukut min dhahab.",
+      "name": "Alhadikija"
+    },
+    "alsaahir": {
+      "ability": "Svakog dana, ako javno pogodiš koji igrači su Sluge, a koji su Demoni, dobri pobede.",
+      "flavor": "Ovde sam zbog vas, a vi ste ovde zbog mene.",
+      "name": "Alsahir"
+    },
+    "amnesiac": {
+      "ability": "Ne znaš koju sposobnost imaš. Svakog dana privatno nagađaš šta je: saznaš koliko si blizu.",
+      "flavor": "Ček. Šta. Ko? A, u redu. Ček. Šta?",
+      "name": "Amnezičar"
+    },
+    "angel": {
+      "ability": "Nešto loše se možda desi onome ko je najzaslužniji za smrt novog igrača.",
+      "flavor": "Neka se oni koji su bez greha usude da dignu ruku na moje izabranike, jer ću takve budale oboriti besom i pravednošću hiljadu oluja.",
+      "name": "Anđeo"
+    },
+    "apprentice": {
+      "ability": "Svoje prve noći dobije sposobnost Građanina (ako si dobar) ili sposobnost Sluge (ako si zao).",
+      "flavor": "Godinama sam putovao, proučavajući načine Zanata. Koji zanat, pitate? Jednostavno, običnog naroda. Nema razloga za brigu. Ne još.",
+      "name": "Šegrt"
+    },
+    "artist": {
+      "ability": "Jednom po partiji, tokom dana, privatno pitaš Pripovedača da/ne pitanje.",
+      "flavor": "Mon Dieu! C'est lumineux! Moj rad, ona je... kako kaže... Magnifique! Dieu est révélé! Oui.",
+      "name": "Umetnik"
+    },
+    "assassin": {
+      "ability": "Jednom po partiji, tokom noći*, izabereš igrača: on umre, čak i ako ne bi trebalo da može.",
+      "flavor": "...",
+      "name": "Ubica",
+      "other": "Ubica možda izabere igrača. :reminder: :reminder:"
+    },
+    "atheist": {
+      "ability": "Pripovedač može da krši pravila igre, i ako je pogubljen, dobri pobede, čak i ako si mrtav. [Nema zlih likova]",
+      "flavor": "Hajde da se raziđemo sa nepotrebnim pretpostavkama i glupom paranojom. Postoji sasvim racionalno objašnjenje za sve. Da, šoljica čaja možda zaista kruži oko planete, premala da bi se videla, ali ja ću piti svoj čaj iz pravog porcelana u svojim pravim rukama.",
+      "name": "Ateista"
+    },
+    "balloonist": {
+      "ability": "Svake noći saznaš igrača tipa lika drugačijeg od prethodne noći. [+0 ili +1 Stranac]",
+      "flavor": "Više toplote! Više! Više! Više! Ahhh... tako je lepo odavde gore, zar se ne slažete? Vidite li decu kako pecaju pored reke, ispod vrbe? Vidite li odsjaj sunca na stubovima cirkuskog šatora? Šta je ovo? Starac, sam, onesvešćen u vinogradu? Manje toplote! Niže! Niže! Vai più in basso!",
+      "name": "Balonista"
+    },
+    "banshee": {
+      "ability": "Ako te Demon ubije, svi igrači to saznaju. Od sada možeš da nominuješ dva puta na dan i da glasaš dva puta po nominaciji.",
+      "flavor": "Gorm do shúile, dearg do ghruaig, ní bheidh sé i bhfad, is a mbeidh tú san uaigh.",
+      "name": "Banši"
+    },
+    "barber": {
+      "ability": "Ako si umro danas ili noćas, Demon može da izabere 2 igrača (ne drugog Demona) koji onda zamene likove.",
+      "flavor": "Da li ste znali da su berberstvo i hirurgija nekada bili ista profesija? Ne? Pa, sada znate.",
+      "name": "Brica",
+      "other": "Ako je Brica umro danas ili noćas, pokaži Demonu \"OVAJ LIK TE JE IZABRAO\" i žeton Brice. Ako je Demon izabrao 2 igrača, probudi ih jedno po jedno. Pokaži \"TI SI\" karticu i novi žeton lika."
+    },
+    "barista": {
+      "ability": "Svake noći do sumraka, 1) neki igrač postane trezan, zdrav i dobija istinite informacije, ili 2) njegova sposobnost radi dvaput. On sazna koje se desilo.",
+      "flavor": "Šoljica kafe bez mleka, gospodine? Mnogo mi je žao, ali nam je ponestalo mleka— šta kažete na kafu bez pene?",
+      "name": "Barista"
+    },
+    "baron": {
+      "ability": "Ima dodatnih Stranaca u igri. [+2 Stranca]",
+      "flavor": "Ovaj grad je otišao dođavola, zar ne? Jeftina strana radna snaga... to je rešenje. Natrpajte ih u rudnik, kažem. Malo napornog rada nikome nije škodilo, a ošišajte uši svakom razbojniku koji kaže drugačije. Sve se vrti oko profita, zar ne?",
+      "name": "Baron"
+    },
+    "beggar": {
+      "ability": "Moraš da iskoristiš glasački žeton da bi glasao. Ako ti mrtav igrač da svoj, saznaš njegovu ekipu. Trezan si i zdrav.",
+      "flavor": "Milostinja za siromašne, dobri gospodine? Izdvojite novčić, gospođo? Hvala vam. Bog vas blagoslovio! Vi ste prava dobra duša, nema sumnje! Večeras ću pojesti nešto luksuzno, hoću!",
+      "name": "Prosjak"
+    },
+    "bishop": {
+      "ability": "Samo Pripovedač može da nominuje. Makar 1 igrač sa suprotne ekipe mora biti nominovan svakog dana.",
+      "flavor": "In nomine Patris, et Filii, et Spiritus Sancti… Nos mos Dei. Deus vult de nobis.",
+      "name": "Vladika"
+    },
+    "boffin": {
+      "ability": "Demon (i ako je pijan ili otrovan) ima sposobnost dobrog lika van igre. Oboje znate koju.",
+      "flavor": "Zvezdani vodonik, ogroman, inertan; ugljenik, kiseonik, neonski gasovi, sve uništeno. Molekularni haos, entropija, donosi nove kosmičke fenomene, ponovno rođenje iz atomskog haosa, kolaps guste materije. Sve u maloj bočici.",
+      "name": "Naučnik"
+    },
+    "bonecollector": {
+      "ability": "Jednom po partiji, tokom noći*, izabereš mrtvog igrača: on ponovo dobije svoju sposobnost do sumraka.",
+      "flavor": "Sakupljam mnogo stvari. Kosu. Zube. Odeću. Fragmente pesama. Snove izgubljenih ljubavnika. Moje tajne veštine nisu za tebe da znaš, ali moja cena je puka sitnica. Donesi mi krv plemkinje koja je umrla od slomljenog srca pod punim mesecom i dobićeš svoje odgovore.",
+      "name": "Kolekcionar kostiju"
+    },
+    "boomdandy": {
+      "ability": "Ako si pogubljen, svi osim 3 igrača umru. Nakon odbrojavanja od 10 do 1, igrač na koga upire prstom najviše igrača umre.",
+      "flavor": "Tik... Tok... Tik... TOK.",
+      "name": "Piromanijak"
+    },
+    "bootlegger": {
+      "ability": "Ova skripta ima nezvanične likove ili pravila.",
+      "flavor": "Kada sam se rodio, dobio sam ime „Nezvonko Nezvaničnjaković“, kao i moj otac pre mene. Ugledno ime, za dostojanstvene godine.",
+      "name": "Sklepalo"
+    },
+    "bountyhunter": {
+      "ability": "Na početku znaš 1 zlog igrača. Ako igrač kog znaš umre, saznaš drugog zlog igrača te noći. [1 Građanin je zao]",
+      "flavor": "Sam, hodam ovim ulicama, popločanim mučnim smradom truleži. Njegova gustina se probija do mojih nozdrva, nepozvana, gori od gađenja. I iščekivanja. Bolest ovog jadnog mesta raste svake noći. A ja... ja sam lek.",
+      "name": "Lovac na glave"
+    },
+    "buddhist": {
+      "ability": "Prva 2 minuta svakog dana, igrači veterani ne smeju da pričaju.",
+      "flavor": "Bacaš trnje. Padajući u mojoj tišini, postaju cveće.",
+      "name": "Budista"
+    },
+    "bureaucrat": {
+      "ability": "Svake noći izabereš igrača (ne sebe): njegov glas se računa kao 3 sutra.",
+      "first": "Birokrata izabere igrača: :reminder:",
+      "flavor": "Potpišite ovde, molim vas. I ovde. I ovde. Iiiiiiiiii ovde. Sve bi ovo trebalo da bude sređeno i prebrojano do kraja dana, pod pretpostavkom da su svačiji potpisi čitki. Nismo odavno imali zabunu u papirologiji. Juče u podne, ako me sećanje dobro služi...",
+      "name": "Birokrata",
+      "other": "Birokrata izabere igrača: :reminder:"
+    },
+    "butcher": {
+      "ability": "Svakog dana nakon prvog pogubljenja smeš opet da nominuješ.",
+      "flavor": "Ima ukus piletine. Još malo, molim vas.",
+      "name": "Mesar"
+    },
+    "butler": {
+      "ability": "Svake noći izabereš igrača (ne sebe): sutra smeš da glasaš samo ako i on glasa.",
+      "first": "Batler izabere igrača. :reminder:",
+      "flavor": "Da, gazda... Ne, gazda... Naravno, gazda.",
+      "name": "Batler",
+      "other": "Batler izabere igrača. :reminder:"
+    },
+    "cannibal": {
+      "ability": "Imaš sposobnost igrača koji je najskorije umro pogubljenjem. Ako je on zao, ti si otrovan dok dobar igrač ne umre pogubljenjem.",
+      "flavor": "Ne volim klovnove. Imaju čudan ukus.",
+      "name": "Ljudožder"
+    },
+    "cerenovus": {
+      "ability": "Svake noći izabereš igrača i dobrog lika: taj igrač mora da se pravi da je taj lik sutra, inače će možda biti pogubljen.",
+      "first": "Cerenovus izabere igrača i lika. :reminder: Vrati Cerenovusa na spavanje. Probudi metu. Pokaži \"OVAJ LIK TE JE IZABRAO\" karticu, žeton Cerenovusa, a onda žeton lika kog treba da oponaša.",
+      "flavor": "Stvarnost je samo mišljenje. Preciznije, moje mišljenje.",
+      "name": "Cerenovus",
+      "other": "Cerenovus izabere igrača i lika. :reminder: Vrati Cerenovusa na spavanje. Probudi metu. Pokaži \"OVAJ LIK TE JE IZABRAO\" karticu, žeton Cerenovusa, a onda žeton lika kog treba da oponaša."
+    },
+    "chambermaid": {
+      "ability": "Svake noći izabereš 2 živa igrača (ne sebe): saznaš koliko se probudilo noćas zbog sopstvene sposobnosti.",
+      "first": "Sobarica izabere 2 živa igrača. Pokaži signal prstima.",
+      "flavor": "Nisam videla ništa neprimereno, gospođice. Molim vas, ali ako sam i videla nešto, to sigurno nije bio gazda kuće koji se ušunjao u profesorovu laboratoriju oko jedanaest sati i mešao kitnjaste napitke, baš kao što ste rekli, gospođice.",
+      "name": "Sobarica",
+      "other": "Sobarica izabere 2 živa igrača. Pokaži signal prstima."
+    },
+    "chef": {
+      "ability": "Na početku znaš koliko postoji parova zlih igrača.",
+      "first": "Daj signal prstima.",
+      "flavor": "Rezervacije za večeras deluju neobično. Gospođa Mejveder nikada ranije nije bila u društvu sa tim mangupom iz Hadson Lejna. Pak, večeras imaju sto za dvoje. Čudno.",
+      "name": "Kuvar"
+    },
+    "choirboy": {
+      "ability": "Ako Demon ubije Kralja, ti saznaš koji igrač je Demon. [+Kralj]",
+      "flavor": "Video sam to, jesam. Bio sam u klupama, sređivao sam himne, kada je iz orgulja počela užasna melodija. Orguljaš je imao dugačak plašt i dugačke prste na dirkama. I šešir koji je izgledao... baš kao... tvoj.",
+      "name": "Pojče",
+      "other": "Ako Demon ubije Kralja, pokaži igrača koji je Demon."
+    },
+    "clockmaker": {
+      "ability": "Na početku znaš koliko ima koraka od Demona do njegovog najbližeg Sluge.",
+      "first": "Daj signal prstima.",
+      "flavor": "Ne uznemiravaj me. Kucanje mora da se nastavi, pošto je krug simbol života i sadrži sve stvari - sve odgovore - unutar svoje božanstvene mašinerije. Moram se baciti na posao.",
+      "name": "Časovničar"
+    },
+    "courtier": {
+      "ability": "Jednom po partiji, tokom noći, izabereš lika: on je pijan 3 noći i 3 dana.",
+      "first": "Dvorjanin možda izabere lika. :reminder: :reminder:",
+      "flavor": "Više se plašim vojske od sto ovaca koju predvodi lav nego vojske od sto lavova koju predvodi ovca.",
+      "name": "Dvorjanin",
+      "other": "Dvorjanin možda izabere lika. :reminder: :reminder:"
+    },
+    "cultleader": {
+      "ability": "Svake noći pređeš na ekipu jednog od svojih živih komšija. Ako svi dobri igrači pristanu da se pridruže tvojoj sekti, tvoj tim pobedi.",
+      "flavor": "Pošto su mislili da su mudri, ispali su budale.",
+      "name": "Vođa sekte"
+    },
+    "damsel": {
+      "ability": "Sve Sluge znaju da je Dama u igri. Ako Sluga javno pogodi ko si (jednom po partiji), tvoja ekipa gubi.",
+      "flavor": "Ne diraj kosu, dušo.",
+      "name": "Dama"
+    },
+    "dawn": {
+      "first": "Sačekaj nekoliko sekundi. Završi noćnu fazu.",
+      "other": "Sačekaj nekoliko sekundi. Završi noćnu fazu."
+    },
+    "demoninfo": {
+      "first": "Ako ima 7 ili više igrača probudi Demona: pokaži \"OVO SU TI SLUGE\" karticu. Pokaži na sve Sluge. Pokaži \"OVI LIKOVI NISU U IGRI\" karticu. Pokaži 3 žetona dobrih likova koji nisu u igri."
+    },
+    "deusexfiasco": {
+      "ability": "Makar jednom po partiji, Pripovedač će da napravi grešku, ispravi je i javno prizna da je pogrešio.",
+      "flavor": "To nije mana, to je funkcija. To nije greška, to je podešavanje. Nije pokvareno, to je simpatično.",
+      "name": "Deus ex Fiasco"
+    },
+    "deviant": {
+      "ability": "Ako si bio smešan danas ne možeš da umreš izgnanstvom.",
+      "flavor": "To je bila damina šala, zaista.",
+      "name": "Devijant"
+    },
+    "devilsadvocate": {
+      "ability": "Svake noći izabereš živog igrača (osim onog od prethodne noći): ako je pogubljen sutra, on ne umre.",
+      "first": "Đavolji advokat izabere živog igrača. :reminder:",
+      "flavor": "Moj klijent, ukoliko prigovor bude odbijen, izjašnjava se nevinim na osnovu nepoštovanja člana 27.B od strane tužilaštva - pogrešne ili obmanjujuće konjugacije glagola. Činjenica da je devet članova porote preminulo sinoć je jednostavno prima facie, što je, kao što je slučaj Vils protiv Tula postavio kao presedan, dodatni razlog za oslobađajuću presudu.",
+      "name": "Đavolji advokat",
+      "other": "Đavolji advokat izabere živog igrača. :reminder:"
+    },
+    "djinn": {
+      "ability": "Koristite posebno pravilo Duha iz lampe. Svi igrači znaju šta je.",
+      "flavor": "نحن لسنا هنا. انت لست حقيقي. كل شيء هو وهم. أسئلتك هي جبل نار في يوم صافٍ.",
+      "name": "Duh iz lampe"
+    },
+    "doomsayer": {
+      "ability": "Ako su živa 4 igrača ili više, svaki živi igrač može da javno izabere (jednom po partiji) da igrač sa njegove ekipe umre.",
+      "flavor": "I sedmog dana, biće velika poplava i pošast među ljudima iz Sela Gavranova! Mrtvi će vaskrsnuti, a živi će se pokajati! O tegobo! O nesveti dane! Samo velikom žrtvom će se prevazići! Tako kažu Mudraci Nostrosa i tako kažem ja.",
+      "name": "Zlouranitelj"
+    },
+    "dreamer": {
+      "ability": "Svake noći izabereš igrača (ne sebe niti Putnika): saznaš da je 1 dobar lik i 1 zao lik, od kojih je samo 1 tačno.",
+      "first": "Sanjar pokaže na igrača. Pokaži 1 dobar i 1 zao žeton lika, od kojih je 1 njegov lik.",
+      "flavor": "Sećam se Časovničara. Nebo je bilo crveno i padala je kiša fraktalnih trouglova. Mirisalo je na ljubičice i čulo se krčkanje. Žena sa svetlećim očima i raščupanom bradom šištala je ka nebu. Onda sam se probudio.",
+      "name": "Sanjar",
+      "other": "Sanjar pokaže na igrača. Pokaži 1 dobar i 1 zao žeton lika, od kojih je 1 njegov lik."
+    },
+    "drunk": {
+      "ability": "Ne znaš da si Pijandura. Misliš da si neki Građanin, ali nisi.",
+      "flavor": "Samo *štuc* socijalno pijem, draga. Doduše, debelo se *štuc* socijalizujem.",
+      "name": "Pijandura"
+    },
+    "duchess": {
+      "ability": "Svakog dana 3 igrača smeju da te posete. Tokom noći* svaki posetilac sazna koliko je posetilaca zlo, ali 1 dobije pogrešnu informaciju.",
+      "flavor": "Zabavljaćemo se tačno između 6 i 7 časova. Čaj u 6:15. Kolači u 6:45. Ne kasnite. Svečana odeća je obavezna, kao i uvek.",
+      "name": "Vojvotkinja"
+    },
+    "dusk": {
+      "first": "Započni noćnu fazu.",
+      "other": "Započni noćnu fazu."
+    },
+    "empath": {
+      "ability": "Svake noći saznaš koliko je od tvoje 2 žive komšije zlo.",
+      "first": "Daj signal prstima.",
+      "flavor": "Naježila sam se. Nešto ovde nije u redu. Osećam to.",
+      "name": "Empata",
+      "other": "Daj signal prstima."
+    },
+    "engineer": {
+      "ability": "Jednom po partiji, tokom noći, izabereš koje su Sluge ili koji je Demon u igri.",
+      "flavor": "Ako se savije, super. Ako se polomi, pa, verovatno mu je trebala popravka u svakom slučaju.",
+      "name": "Inženjer"
+    },
+    "eviltwin": {
+      "ability": "Ti i igrač sa suprotne ekipe se znate. Ako je od vas dvoje dobar igrač pogubljen, zli pobede. Dobri ne mogu da pobede dok ste oboje živi.",
+      "first": "Probudi oba blizanca. Pokaži im da se pogledaju. Pokaži žeton lika dobrog blizanca Zlom Blizancu i obrnuto.",
+      "flavor": "Ja nisam Sara! Ja sam Mara! ONA je Sara! Sara je zla! Ne ja!",
+      "name": "Zli blizanac"
+    },
+    "exorcist": {
+      "ability": "Svake noći* izabereš igrača (osim onog od prethodne noći): ako izabereš Demona, on sazna ko si, ali onda se ne budi noćas.",
+      "flavor": "Izbacujemo vas, svakog nečistog duha, svaku satansku silu, svaki napad paklenog protivnika, svaki legion, svaku đavolsku grupu i sektu, u ime i silom Gospoda našeg Isusa Hrista. Naređujemo vam, idite i bežite daleko od Crkve Božije, od duša koje je Bog stvorio po Svom liku i iskupio dragocenom krvlju božanskog Jagnjeta.",
+      "name": "Isterivač",
+      "other": "Isterivač izabere igrača. :reminder: Vrati Isterivača na spavanje. Ako je Isterivač izabrao Demona: probudi Demona. Pokaži \"OVAJ LIK TE JE IZABRAO\" i žeton Isterivača. Pokaži na Isterivača."
+    },
+    "fanggu": {
+      "ability": "Svake noći* izabereš igrača: on umre. Prvi Stranac koji umre na ovaj način postane zli Fangu, a ti umreš umesto njega. [+1 Stranac]",
+      "flavor": "Vaši zidovi i vaša oružja su prosto dim u snovima.",
+      "name": "Fangu",
+      "other": "Fangu izabere igrača. :reminder: Ako je izabrao Stranca (samo jednom): zameni žeton Stranca sa dodatnim žetonom Fangua. Vrati Fangua na spavanje. Probudi metu. Pokaži \"TI SI\" i žeton Fangua i pokaži palac na dole. :reminder:"
+    },
+    "farmer": {
+      "ability": "Kada umreš tokom noći, živ dobar igrač postane Seljak.",
+      "flavor": "Čak i onima koji su na vlasti je potrebna hrana na stolu. Bez nas, grad gladuje.",
+      "name": "Seljak"
+    },
+    "fearmonger": {
+      "ability": "Svake noći izabereš igrača: ako ga ti nominuješ i pogubiš, njegov tim izgubi. Ako izabereš novog igrača, svi znaju da si to uradio.",
+      "flavor": "Čuvaj se dugog gledanja u Bezdan, da se i Bezdan ne bi zagledao u tebe.",
+      "name": "Zastrašivač"
+    },
+    "ferryman": {
+      "ability": "Poslednjeg dana, svi mrtvi igrači ponovo dobiju svoj glasački žeton.",
+      "flavor": "Kada dođu pravedni snovi, oni imaju težinu istine.",
+      "name": "Čamdžija"
+    },
+    "fibbin": {
+      "ability": "Jednom po partiji, 1 dobar igrač možda dobije netačne informacije.",
+      "flavor": "Ohohoho. He. He. Hi. Hi.",
+      "name": "Lažov"
+    },
+    "fiddler": {
+      "ability": "Jednom po partiji Demon zajno izabere igrača sa suprotne ekipe: svi igrači izaberu koji od ova 2 igrača pobedi.",
+      "flavor": "Kladim se da me ne možeš pobediti na takmičenju u violini, buljava bitango! Izaći ćemo na žicu, pozvati pabske svirače i dobro se zabaviti. Razbiću te čizmama kad dođe jutro, bučni lutku.",
+      "name": "Violinista"
+    },
+    "fisherman": {
+      "ability": "Jednom po partiji, tokom dana, poseti Pripovedača da ti da savet koji će pomoći tvom timu da pobedi.",
+      "flavor": "Ovo je bio moj omiljeni deo reke... vidite kako sunčeva svetlost pravi dugu od manastira do pijace? Ovo je bilo najbolje mesto za velike ribe. I što sam stariji, one su bile sve veće.",
+      "name": "Ribolovac"
+    },
+    "flowergirl": {
+      "ability": "Svake noći* saznaš da li je Demon glasao danas.",
+      "flavor": "Jučerašnje ljubičice su uvele i uginule, ali danas moji makovi cvetaju.",
+      "name": "Cvećarka",
+      "other": "Ili klimni ili odmahni glavom."
+    },
+    "fool": {
+      "ability": "Prvi put kada umreš, ipak ne umreš.",
+      "flavor": "...a kralj je rekao „Šta?! Nikada nisam imao ni par gumenih pantalona, a kamoli top za krem!“ Ho-ho! Veseo dan!",
+      "name": "Dvorska luda"
+    },
+    "fortuneteller": {
+      "ability": "Svake noći izabereš 2 igrača: saznaš da li je ijedan od njih Demon. Jedan dobar igrač ti se registruje kao Demon.",
+      "first": "Gatara izabere 2 igrača. Klimni glavom ako je ijedan od njih Demon (ili \"LAŽNI DEMON\").",
+      "flavor": "Osećam veliko zlo u tvojoj duši! Ali... to bi mogao biti samo tvoj parfem. Alergična sam na zovu.",
+      "name": "Gatara",
+      "other": "Gatara izabere 2 igrača. Klimni glavom ako je ijedan od njih Demon (ili \"LAŽNI DEMON\")."
+    },
+    "gambler": {
+      "ability": "Svake noći* izabereš igrača i nagađaš mu lika: ako pogrešiš, umreš.",
+      "flavor": "Glava, ja pobeđujem. Pismo, ti gubiš.",
+      "name": "Kockar",
+      "other": "Kockar izabere igrača i lika. :reminder:"
+    },
+    "gangster": {
+      "ability": "Jednom na dan, smeš da izabereš da ubiješ jednog živog komšiju, ako se drugi živi komšija složi.",
+      "flavor": "Sviđaju mi se tvoje cipele. Bilo bi baš šteta imaš malu nezgodu i da se unište. Sada kada si to pomenuo, sviđaju mi se i tvoje manžetne.",
+      "name": "Mafijaš"
+    },
+    "gardener": {
+      "flavor": "Kada sofistika postane glupost, a licemerje okrutnost, povuci se u baštu. Poslednja ljubav staraca je cveće i kamenje.",
+      "name": "Baštovan"
+    },
+    "general": {
+      "ability": "Svake noći saznaš koja ekipa pobeđuje, po mišljenju Pripovedača: dobra, zla ili nijedna.",
+      "first": "Daj signal palcem.",
+      "flavor": "Nemam vremena za izjave.",
+      "name": "General",
+      "other": "Daj signal palcem."
+    },
+    "gnome": {
+      "ability": "Svi igrači na početku znaju igrača na tvojoj ekipi. Smeš da izabereš da ubiješ bilo koga ko ih nominuje.",
+      "flavor": "„Čet’ri po broju ili sedam piva, nema predstava što važe za mene i moje. Šala da puknu zavrtnji i daske oduvljene duž temelja poda, tako neupitno mini. Veliki eseji niz tokove radosti, ništa veće nego što se vidi, ne nasledno. Ha-urrumph.",
+      "name": "Gnom"
+    },
+    "goblin": {
+      "ability": "Ako javno izjaviš da si Goblin kada te neko nominuje i tog dana si pogubljen, tvoj tim pobedi.",
+      "flavor": "Ne želiš da uvrediš gobline. Stvarno, stvarno ne želiš. Sasvim druga tema... mogu li dobiti još jedno parče torte?",
+      "name": "Goblin"
+    },
+    "godfather": {
+      "ability": "Na početku znaš koji su Stranci u igri. Ako je 1 umro danas, izabereš igrača noćas: on umre. [-1 ili +1 Stranac]",
+      "first": "Pokaži žetone likova svih Stranaca koji su sada u igri.",
+      "flavor": "Obično je to samo posao. Ali kada vređaš moju ćerku, vređaš i mene. A kada vređaš mene, vređaš moju porodicu. Zaista bi trebalo da budeš oprezniji - bilo bi šteta da se desi nesrećan slučaj.",
+      "name": "Kum",
+      "other": "Ako je Stranac umro danas, Kum izabere igrača. :reminder:"
+    },
+    "golem": {
+      "ability": "Smeš da nominuješ samo jednom po partiji. Kada to uradiš, ako nominovani igrač nije Demon, on umre.",
+      "flavor": "Golem pomoći? Golem smrviti! Golem pomog'o.",
+      "name": "Golem"
+    },
+    "goon": {
+      "ability": "Svake noći prvi igrač koji te izabere sa svojom sposobnošću je pijan do sumraka. Ti pređeš na njegovu ekipu.",
+      "flavor": "Da, šefe. Dobro sam objasnio stvari onom matorcu. Ne želi da mu opet objašnjavam. Ne, šefe, ne treba mi kakav doktor - to je samo ubod. Bićem odmah ujutru bolji",
+      "name": "Tabadžija"
+    },
+    "gossip": {
+      "ability": "Svakog dana smeš da nešto javno izjaviš. Noćas, ako je izjava bila istinita, neki igrač umre.",
+      "flavor": "Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla. Bla.",
+      "name": "Tračara",
+      "other": "Ako Tračara treba da ubije igrača, on umre. :reminder:"
+    },
+    "grandmother": {
+      "ability": "Na početku znaš jednog dobrog igrača i koji je lik. Ako ga Demon ubije, ti takođe umreš.",
+      "first": "Pokaži na igrača koji je unuče i pokaži njegov žeton lika.",
+      "flavor": "Ponesi jaknu ako izlaziš napolje, draga. I termos. I šal. Znaš, imam slabo srce. Šta bih uradila da se prehladiš... ili nešto gore?",
+      "name": "Baka",
+      "other": "Ako je Demon ubio unuče, Baka takođe umire. :reminder:"
+    },
+    "gunslinger": {
+      "ability": "Svakog dana nakon sabiranja glasova posle prvog glasanja, smeš da izabereš igrača koji je glasao: on umre.",
+      "flavor": "Vreme je da neko uzme stvar u svoje ruke. Taj neko... sam ja.",
+      "name": "Revolveraš"
+    },
+    "harlot": {
+      "ability": "Svake noći* izabereš živog igrača: ako se složi, saznaš njegovog lika, ali oboje možda umrete.",
+      "flavor": "Očarana, Mornaru. Izgledaš kao da ti je potreban neko ko će zaista saslušati tvoje probleme. Ja sam dobar slušalac. Veoma, veoma dobar.",
+      "name": "Bludnica"
+    },
+    "harpy": {
+      "ability": "Svake noći izabereš 2 igrača: sutra prvi igrač mora da se pravi da je drugi zao, inače će možda jedan ili oboje umreti.",
+      "flavor": "Tako lep dan nikada nisam videla, niti takvo ogavno kljucanje kako se nadvija nada mnom.",
+      "name": "Harpija"
+    },
+    "hatter": {
+      "ability": "Ako si umro danas ili noćas, Sluge i Demoni smeju da izaberu da postanu nove Sluge i Demoni.",
+      "flavor": "Jedan šešir. Prešešir. Šešira tri. Šešir čajni. Šešir bajni. Predšešir. Nadšešir. Šešira šest. Šašav šešir. Štapićasti šešir.",
+      "name": "Šeširdžija"
+    },
+    "hellslibrarian": {
+      "ability": "Nešto loše se možda desi onom ko priča kada Pripovedač zamoli za tišinu.",
+      "flavor": "Ššššššš. Molim vas da budete tihi. Bolje ne uznemiravati Bibliotekara. Čuo sam da je ćudljivo.",
+      "name": "Pakleni bibliotekar"
+    },
+    "heretic": {
+      "ability": "Pobednici gube i gubitnici pobeđuju, čak i ako si mrtav.",
+      "flavor": "Nakon što grad razbije krov i razbije staklo na prozorima katedrale, on se ponovo topi u zemlju, poput umirućeg jagnjeta na pustinjskom suncu. Takva je parabola o ludaku.",
+      "name": "Jeretik"
+    },
+    "hermit": {
+      "ability": "Imaš sposobnosti svih ostalih Stranaca. [-0 ili -1 Stranac]",
+      "flavor": "Na izgubljenim i zaboravljenim mestima zemlje, svetlo duše priziva.",
+      "name": "Pustinjak"
+    },
+    "highpriestess": {
+      "ability": "Svake noći saznaš s kojim igračem bi najviše trebalo da pričaš, po mišljenju Pripovedača.",
+      "first": "Pokaži igrača.",
+      "flavor": "Postoji život iza ličnosti koji koristi ličnosti kao maske. Postoje trenuci kada život skida masku i daje duboke odgovore na duboke.",
+      "name": "Vrhovna Sveštenica",
+      "other": "Pokaži igrača."
+    },
+    "huntsman": {
+      "ability": "Jednom po partiji, tokom noći, izabereš živog igrača: Dama, ako je izabrana, postane Građanin koji nije u igri. [+Dama]",
+      "flavor": "Moja koliba je topla i čvrsta. Sekira mi je pored vrata, čizme se suše pored vatre, a gulaš od losa se krčka... Počuj! Vrisak odjekuje dolinom! Kiša, blato i hladan, hladan vetar prikrivaju miris vukova, ali ja znam put i moj tempo je stabilan. Dolazim.",
+      "name": "Lovac"
+    },
+    "imp": {
+      "ability": "Svake noći* izabereš igrača: on umre. Ako na ovaj način ubiješ sebe, neki Sluga postane Đavolak.",
+      "flavor": "Moramo održati um oštrim, a mač još oštrijim. Zlo hoda među nama i neće se zaustaviti ni pred čim da uništi nas dobre, jednostavne ljude, dovodeći naš lepi grad do propasti. Ne verujte nikome. Ali, ako baš morate nekome da verujete, verujte meni.",
+      "name": "Đavolak",
+      "other": "Đavolak izabere igrača. :reminder: Ako je Đavolak izabrao sebe: zameni žeton 1 živog Sluge sa dodatnim žetonom Đavolka. Vrati starog Đavolka na spavanje. Probudi novog Đavolka. Pokaži \"TI SI\" karticu, a onda pokaži žeton Đavolka."
+    },
+    "innkeeper": {
+      "ability": "Svake noći* izabereš 2 igrača: ne mogu da umru noćas, ali je 1 pijan do sumraka.",
+      "flavor": "Uđi unutra, dragi putniče, i odmori svoje umorne kosti. Pij i veseli se, jer te legije Mračnog neće uznemiravati večeras.",
+      "name": "Krčmar",
+      "other": "Krčmar izabere 2 igrača. :reminder: :reminder: :reminder:"
+    },
+    "investigator": {
+      "ability": "Na početku znaš da je 1 od 2 igrača određeni Sluga.",
+      "first": "Pokaži žeton lika Sluge. Pokaži i na \"SLUGU\" igrača i na \"POGREŠNOG\" igrača.",
+      "flavor": "Lepa je noć za šetnju, zar ne, gospodine Morozov? Ili bih trebalo da kažem... BARONU Morozov?",
+      "name": "Inspektor"
+    },
+    "judge": {
+      "ability": "Jednom po partiji ako je neki drugi igrač nominovao, smeš da učiniš da trenutno pogubljenje prođe ili propadne.",
+      "flavor": "Proglašavam optuženog krivim za krivična dela ubistva, prevare, podmetanja požara, krađe, lažnog predstavljanja kao službeno lice, bavljenja medicinom bez dozvole, klevete, ubistva kralja i bacanja smeća.",
+      "name": "Sudija"
+    },
+    "juggler": {
+      "ability": "Svog prvog dana javno nagađaš likove igračima do 5 puta. Te noći saznaš koliko si puta pogodio.",
+      "flavor": "Za moj sledeći trik, po zahtevu, trebaće mi cvet, kesa pasulja, igračka zmija, četkica i motorizovani trimer za živu ogradu na benzinski pogon. Upozoravam vas, ovaj trik bi mogao biti moj poslednji. Oh, pobogu.",
+      "name": "Žongler",
+      "other": "Daj singal prstima."
+    },
+    "kazali": {
+      "ability": "Svake noći* izabereš igrača: on umre. [Ti biraš koji igrač je koji Sluga. -? do +? Stranaca]",
+      "name": "Kazali"
+    },
+    "king": {
+      "ability": "Svake noći ako je broj mrtvih igrača veći ili jednak broju živih, saznaš 1 živog lika. Demon zna da si ti Kralj.",
+      "flavor": "Između nepoznatih sojeva smrtnih sukoba / I morbidne noći, slatke od misterije i jada / Leže neograničene radosti dugog i šarenog života sudbine / Čija bašta cveta sa svakim naslikanim licem koje se pojavi.",
+      "name": "Kralj"
+    },
+    "klutz": {
+      "ability": "Kada saznaš da si umro, javno izabereš 1 živog igrača: ako je on zao, tvoj tim izgubi.",
+      "flavor": "Ups.",
+      "name": "Šeprtlja"
+    },
+    "knight": {
+      "ability": "Na početku znaš 2 igrača koji nisu Demon.",
+      "flavor": "Kada čovek laže, ubija neki deo sveta.",
+      "name": "Vitez"
+    },
+    "legion": {
+      "ability": "Svake noći* neki igrač možda umre. Pogubljenja su neuspešna ako su samo zli glasali. Takođe se registruješ kao Sluga. [Većina igrača su Legija]",
+      "flavor": "Mi smo hladan vetar u zimskom danu. Mi smo senka u noći bez meseca. Mi smo otrov u vašem čaju i šapat u vašem uhu. Mi smo svuda.",
+      "name": "Legija",
+      "other": "Neki igrač možda umre. :reminder:"
+    },
+    "leviathan": {
+      "ability": "Ako se pogubi više od 1 dobrog igrača, zli pobede. Svi igrači znaju da si u igri. Posle petog dana, zli pobede.",
+      "flavor": "Do poslednjeg trenutka, borim se s tobom. Iz srca pakla, ubodem te. Zbog mržnje, ispljunem svoj poslednji dah na tebe.",
+      "name": "Levijatan"
+    },
+    "librarian": {
+      "ability": "Na početku znaš da je 1 od 2 igrača određeni Stranac. (Ili da ih je nula u igri)",
+      "first": "Pokaži žeton lika Stranca. Pokaži i na \"STRANCA\" igrača i na \"POGREŠNOG\" igrača.",
+      "flavor": "Svakako, gospođo, pod normalnim okolnostima, možete pozajmiti Kodeks Malifikarijum iz trezora biblioteke. Međutim, izgleda da niste član.",
+      "name": "Bibliotekar"
+    },
+    "lilmonsta": {
+      "ability": "Svake noći Sluge izaberu ko će da čuva Derište i ujedno ko „je Demon“. Svake noći* neki igrač možda umre. [+1 Sluga]",
+      "flavor": "Prvi korak: Budi sladak. Drugi korak: Vladavina svetom. Treći korak: Dowučak.",
+      "name": "Derište"
+    },
+    "lleech": {
+      "ability": "Svake noći* izabereš igrača: on umre. Na početku izabereš igrača: on je otrovan. Ti umreš ako i samo ako je on mrtav.",
+      "first": "Pijavica izabere igrača. :reminder:",
+      "flavor": "Ukusan, ukusan, ukusan, ukusan, ukusan, ukusan moza- ovaj... kolač! Da. Ukusan kolač. To je ono što sam htela da kažem.",
+      "name": "Pijavica",
+      "other": "Pijavica izabere igrača. :reminder:"
+    },
+    "lordoftyphon": {
+      "ability": "Svake noći* izabereš igrača: on umre. [Zli igrači sede zajedno. Ti si u sredini. +1 Sluga. -? do +? Stranaca]",
+      "flavor": "U zasenčenim i zaboravljenim kutcima kosmosa, gde zvezde šapuću tajne praznini, leži istina toliko duboka da i najmanji pogled na nju rastavlja zdrav razum smrtnih umova.",
+      "name": "Gospodar Tifona",
+      "other": "Gospodar Tifona izabere igrača. :reminder:"
+    },
+    "lunatic": {
+      "ability": "Misliš da si neki Demon, ali nisi. Demon zna ko si i zna koga izabereš noću.",
+      "first": "Ako ima 7 ili više igrača, probudi Ludaka: pokaži \"OVO SU TI SLUGE\" karticu. Pokaži na bilo koje igrače. Pokaži \"OVI LIKOVI NISU U IGRI\" karticu. Pokaži 3 žetona dobrih likova. Vrati Ludaka na spavanje. Probudi Demona. Pokaži \"TI SI\" info karticu i žeton Demona. Pokaži \"OVAJ IGRAČ JE\" info karticu i žeton Ludaka, i onda pokaži na Ludaka.",
+      "flavor": "Ja sam noć... ja mislim.",
+      "name": "Ludak",
+      "other": "Uradi štagod je potrebno da simuliraš Demonov red. Vrati Ludaka na spavanje. Probudi Demona. Pokaži žeton Ludaka i pokaži na njega, i onda na njegovu metu (ili mete)."
+    },
+    "lycanthrope": {
+      "ability": "Svake noći* izabereš živog igrača. Ako je dobar, on umre i Demon ne ubija noćas. Jedan dobar igrač se registruje kao zao.",
+      "flavor": "Ispod tankog vela civilizacije zavija ludilo.",
+      "name": "Vukodlak",
+      "other": "Vukodlak izabere igrača. :reminder:"
+    },
+    "magician": {
+      "ability": "Demon misli da si Sluga. Sluge misle da si Demon.",
+      "flavor": "1... 2... Abra... 3... 4... Kadabra... *puf!* I, kao što vidite, dame i gospodo, vreća zlata kapetana Farnsvorta je nestala! Nestala! Bez traga! Hvala vam i laku noć!",
+      "name": "Mađioničar"
+    },
+    "marionette": {
+      "ability": "Misliš da si neki dobar lik, ali nisi. Demon zna ko si. [Ti si Demonu komšija]",
+      "flavor": "Reči, reči. Samo se na njih možemo osloniti.",
+      "name": "Marioneta"
+    },
+    "mastermind": {
+      "ability": "Ako Demon umre pogubljenjem (što bi završilo partiju), igra se nastavlja još 1 dan. Ako je igrač pogubljen tog dana, njegov tim izgubi.",
+      "flavor": "Pipci tog čudovišta su prikovani za vrata crkve. Majke i deca plešu na ulici. Odlično. Sve se odvija tačno onako kako sam planirao.",
+      "name": "Zli genije"
+    },
+    "mathematician": {
+      "ability": "Svake noći saznaš koliko je sposobnosti igrača radilo napravilno (od zore) zbog sposobnosti nekog drugog lika.",
+      "first": "Daj signal prstima.",
+      "flavor": "Bilo koji konzistentan formalni sistem x, unutar kojeg se može izvršiti određena količina bazične aritmetike, je nepotpun; to jest, postoje iskazi jezika x koji se ne mogu ni dokazati ni opovrgnuti u x. Dakle, pijan si.",
+      "name": "Matematičar",
+      "other": "Daj signal prstima."
+    },
+    "matron": {
+      "ability": "Svakog dana smeš da izabereš do 3 para (2) igrača da zamene sedišta. Igrači ne smeju da napuštaju svoja sedišta da vode privatne razgovore.",
+      "flavor": "Gospođice Federbotom, budite tihi. Gospodine Raderforde, za šoljicu čaja su potrebna samo četiri prsta, molim vas. Znam da ste otac devetoro dece, ali godine, ili nedostatak istih, kako god da je slučaj, nikada nisu izgovor za loše manire.",
+      "name": "Matrona"
+    },
+    "mayor": {
+      "ability": "Ako su samo 3 igrača živa i ne desi se pogubljenje, tvoj tim pobedi. Ako umreš tokom noći, neki drugi igrač možda umre umesto tebe.",
+      "flavor": "Moramo da ostavimo razlike po strani, i da prestanemo sa ovim besmislenim ubijanjem. Svi smo ipak poreski obveznici. Pa, većina nas.",
+      "name": "Gradonačelnik"
+    },
+    "mezepheles": {
+      "ability": "Na početku znaš tajnu reč. Prvi dobar igrač koji kaže tu reč postane zao te noći.",
+      "flavor": "Ono što izvire samo iz srca, privući će srca drugih ka tvom.",
+      "name": "Mefistofel"
+    },
+    "minioninfo": {
+      "first": "Ako ima 7 ili više igrača, probudi sve Sluge: pokaži \"OVO JE DEMON\" karticu. Pokaži na Demona. Pokaži \"OVO SU TI SLUGE\" karticu. Pokaži na ostale Sluge."
+    },
+    "minstrel": {
+      "ability": "Kada Sluga umre pogubljenjem, svi ostali igrači (osim Putnika) su pijani do sutrašnjeg sumraka.",
+      "flavor": "I čuću, iako meko gaziš iznad mene... I svi moji snovi biće topli i slađi... Ako ne zaboraviš da mi kažeš da me voliš... Jednostavno ću mirno spavati dok mi ne dođeš.",
+      "name": "Trubadur"
+    },
+    "monk": {
+      "ability": "Svake noći* izabereš igrača (ne sebe): on je siguran od Demona noćas.",
+      "flavor": "Noćas duva zao i smrtonosan vetar. Hajde, brate moj, skloni se u opatiju dok besni oluja. Rečju mojom, ili životom mojim, bićeš bezbedan.",
+      "name": "Monah",
+      "other": "Monah izabere igrača. :reminder:"
+    },
+    "moonchild": {
+      "ability": "Kada saznaš da si umrla, javno izabereš 1 živog igrača. Noćas, ako si izabrala dobrog igrača, on umre.",
+      "flavor": "Škorpija popreko gleda ljubavnike, a ti imaš odluku koju treba da doneseš. Sa srebrom preko mog dlana, i tvoja sudbina će biti otkrivena. Sa čelikom preko mog grla, tako mi zvezda, zažalićeš.",
+      "name": "Mesečevo dete",
+      "other": "Ako Mesečevo dete treba da ubije dobrog igrača, on umre. :reminder:"
+    },
+    "mutant": {
+      "ability": "Ne smeš da se praviš da si Stranac, inače ćeš možda biti pogubljen.",
+      "flavor": "Ja nisam nakaza! Ja sam ljudsko biće! Imajte milosti!",
+      "name": "Mutant"
+    },
+    "nightwatchman": {
+      "ability": "Jednom po partiji, tokom noći, izabereš igrača: on sazna da si ti Noćni čuvar.",
+      "flavor": "Noć je hladna i usamljena, ali imam mesec, zvezde, oštar vetar i meko koračanje kožnih čizama po kaldrmi za društvo. U daljini, svetlost sveća treperi iza mračnog prozora...",
+      "name": "Noćni čuvar"
+    },
+    "noble": {
+      "ability": "Na početku znaš 3 igrača, od kojih je tačno 1 zao.",
+      "flavor": "Sarkazam je zaista najniži oblik duhovitosti. Ali govoreći kao odgovor na vašu kritiku, gospodine, on je, ipak, oblik duhovitosti.",
+      "name": "Plemić"
+    },
+    "nodashii": {
+      "ability": "Svake noći* izabereš igrača: on umre. Tvoje 2 komšije Građani su otrovani.",
+      "flavor": "Grehovima Arnoha, osećam tvoj teški smrad. Prokletim suncem i njegovom gnusnom legijom sićušnih, nasmejanih bogova, kvarim te. Blagoslovenom noći i skrivenim dubinama užasnog i nesvetog mora, okončavam tvoj bedni život na ovoj ravni.",
+      "name": "Nodaši",
+      "other": "Nodaši izabere igrača. :reminder:"
+    },
+    "ogre": {
+      "ability": "Svoje prve noći izabereš igrača (ne sebe): pređeš na njegovu ekipu (ne znaš koju) čak i ako si pijan ili otrovan.",
+      "flavor": "<stenj><smeh></stenj>",
+      "name": "Ogr"
+    },
+    "ojo": {
+      "ability": "Svake noći* izabereš lika: on umre. Ako nije u igri, Pripovedač bira ko umre.",
+      "flavor": "Kao oganj u noći bez meseca. . . Vidim te, smrtniče.",
+      "name": "Oko"
+    },
+    "oracle": {
+      "ability": "Svake noći* saznaš koliko je mrtvih igrača zlo.",
+      "flavor": "Samo izabrani mogu zagledati dalje od vela. Mrtvi su nemirni i u tišini pokazuju ka ledenom severu.",
+      "name": "Prorok",
+      "other": "Daj signal prstima."
+    },
+    "organgrinder": {
+      "ability": "Svi igrači drže oči zatvorene tokom glasanja i broj glasova je skriven. Svake noći biraš da li si pijan do sumraka.",
+      "first": "Ulični svirač ili klimne glavom što znači da želi da bude pijan, ili odmahne glavom da bi bio trezan. :reminder:",
+      "flavor": "Vrte se vrte ručke u krug. Što više plešeš, manje znaš.",
+      "name": "Ulični svirač",
+      "other": "Ulični svirač ili klimne glavom što znači da želi da bude pijan, ili odmahne glavom da bi bio trezan. :reminder:"
+    },
+    "pacifist": {
+      "ability": "Pogubljeni dobri igrači možda ne umru.",
+      "flavor": "Ne verujte svima u kojima je impuls za kažnjavanjem jak.",
+      "name": "Pacifista"
+    },
+    "philosopher": {
+      "ability": "Jednom po partiji, tokom noći, izabereš dobrog lika: dobiješ tu sposobnost. Ako je taj lik već u igri, postane pijan.",
+      "first": "Filozof možda izebere lika. Po potrebi, zameni njegov žeton lika. :reminder:",
+      "flavor": "Ako je išta stvarno, pivo je stvarno. Pij, jer sutra možemo umreti.",
+      "name": "Filozof",
+      "other": "Filozof možda izebere lika. Po potrebi, zameni njegov žeton lika. :reminder:"
+    },
+    "pithag": {
+      "ability": "Svake noći* izabereš igrača i lika koji on postaje (ako nije u igri). Ako na ovaj način stvoriš Demona, smrti su noćas proizvoljne.",
+      "flavor": "Idi oko kazana; Otrovnu utrobu ubaci; Žabu, koja je pod hladnim kamenom; Dana i noći ima trideset jedan; Znojni otrov spavajući dobio; Prvo skuvaj u začaranom loncu.",
+      "name": "Baba-vračara",
+      "other": "Baba-vračara izabere igrača i lika. Ako izabere lika koji nije u igri: vrati Baba-vračaru na spavanje. Probudi metu. Pokaži \"TI SI\" karticu i novi žeton lika."
+    },
+    "pixie": {
+      "ability": "Na početku znaš 1 lika Građana koji je u igri. Ako si se pravio da si taj lik, dobiješ njegovu sposobnost kad on umre.",
+      "first": "Pokaži žeton lika Građanina obeležen sa \"PRAVI SE\".",
+      "flavor": "Ukrug i ukrug po bašti, idite. Devojčice trče tamo-amo. Dečaci se penju na drvo. Koji od njih bi trebalo da bude Vila? Dame se smeše i idu u grad. Gazde sa sekirama seku šumu. Što je tvoje, to je moje. Što je moje, božanstveno je. Glupa mala Vila, to sam ja.",
+      "name": "Vila"
+    },
+    "plaguedoctor": {
+      "ability": "Kada umreš, Pripovedač dobije sposobnost Sluge.",
+      "flavor": "Muolim te se primirrii. Zdvarima dreba vreeemena da ze izleeče. Heehh-heehh.",
+      "name": "Lekar kuge"
+    },
+    "po": {
+      "ability": "Svake noći* smeš da izabereš igrača: on umre. Ako prethodno nisi izabrao nikoga, izabereš 3 igrača noćas.",
+      "flavor": "Da li bi želela cvet? Tako sam usamljena.",
+      "name": "Po",
+      "other": "Po možda izabere igrača ili izabere 3 igrača ako je nije nikog izabrao prošle noći. :reminder: ili :reminder: :reminder: :reminder:"
+    },
+    "poisoner": {
+      "ability": "Svake noći izabereš igrača: otrovan je noćas i sutra tokom dana.",
+      "first": "Trovač izabere igrača. :reminder:",
+      "flavor": "Dodajte jedinjenje Alfa jedinjenju Beta... ALI NE PREVIŠE!",
+      "name": "Trovač",
+      "other": "Trovač izabere igrača. :reminder:"
+    },
+    "politician": {
+      "ability": "Ako si ti bio najviše zaslužan za gubitak svog tima, pređeš na drugu ekipu i pobediš, čak i ako si mrtav.",
+      "flavor": "Drago mi je što ste postavili to pitanje. Iskreno, mi je drago. Ali ja mislim da je ovde PRAVO pitanje...",
+      "name": "Političar"
+    },
+    "poppygrower": {
+      "ability": "Sluge i Demoni se ne znaju. Ako umreš, oni se međusobno saznaju te noći.",
+      "flavor": "U skrivenim gajevima duboke šume, crni mak obitava. Videti njegovo veselje znači biti očaran. Osetiti njegov gusti miris znači biti zauvek izgubljen, rob bogova svetlosti i tame.",
+      "name": "Makarka"
+    },
+    "preacher": {
+      "ability": "Svake noći izabereš igrača: Sluga, ako je izabran, saznaje to. Sve izabrane Sluge nemaju sposobnost.",
+      "flavor": "Bolje je biti bogat i zdrav nego siromašan i bolestan.",
+      "name": "Sveštenik"
+    },
+    "princess": {
+      "ability": "Svog prvog dana, ako si nominovala i pogubila nekog igrača, Demon ne ubija noćas.",
+      "flavor": "Naše reči su psi, vezani svilenim nitima, dragi gospodari. Neka ih dobrota istka kao istinu, da se uzde ne raspletu i ne rastrgnu naš dvor.",
+      "name": "Princeza"
+    },
+    "professor": {
+      "ability": "Jednom po partiji, tokom noći*, izabereš mrtvog igrača: ako je Građanin, on vaskrsne.",
+      "flavor": "Proces je jednostavan. Priključite hidraulični konfabulator na modifikovani pojačavač či matrice, dodajte 20 kubnih centimetara pseudodorafina, održavajte njegove Z nivoe iznad 20% i vaš muž će biti dobro. Sada nam je potreban samo udar groma.",
+      "name": "Profesor",
+      "other": "Profesor možda izabere mrtvog igrača. :reminder: :reminder:"
+    },
+    "psychopath": {
+      "ability": "Svakog dana, pre nominacija, smeš da javno izabereš igrača: on umre. Ako si pogubljen, umreš samo ako izgubiš u papir-kamen-makazama.",
+      "flavor": "Iznenađenje!",
+      "name": "Psihopata"
+    },
+    "pukka": {
+      "ability": "Svake noći izabereš igrača: on je otrovan. Prethodno otrovani igrač umre, a onda postane zdrav.",
+      "first": "Puka izabere igrača. :reminder:",
+      "flavor": "Zaista ste bili ljubazni što ste me pozvali u svoj prelepi dom. Mnogo mi je žao što sam vas slučajno ogrebala. Sitnica. Nije bitno. Ali molim vas, uzmite ovu zlatnu čačkalicu kao skromni znak mog izvinjenja.",
+      "name": "Puka",
+      "other": "Puka izabere igrača. :reminder: Prethodno otrovani igrač umre i onda postane zdrav. :reminder:"
+    },
+    "puzzlemaster": {
+      "ability": "1 igrač je pijan, čak i ako umreš. Ako pogodiš (jednom po partiji) ko je, saznaš ko je Demon, ali ako pogrešiš, saznaš pogrešnu informaciju.",
+      "flavor": "Kada neko počne da misli da je nešto samo nešto drugo, obično je na ivici greške. Strpljenje, strpljenje. Ne mešajte „samo“ i „trebalo bi“ sa „jeste“ i „nije“.",
+      "name": "Majstor zagonetki"
+    },
+    "ravenkeeper": {
+      "ability": "Ako umreš tokom noći, probudiš se da izabereš igrača: saznaš njegovog lika.",
+      "flavor": "Moje ptice će me osvetiti! Letite! Letite, moji slatki i poslušni ljubimci! U dvorac i na reku! U sokake i u salone! Letite!",
+      "name": "Čuvar gavrana",
+      "other": "Ako je Čuvar gavrana umro noćas, Čuvar gavrana izabere igrača. Pokaži žeton lika tog igrača."
+    },
+    "recluse": {
+      "ability": "Možda se registruješ kao zao i kao Sluga ili Demon, čak i ako si mrtav.",
+      "flavor": "Bež! Skin te svoje brljave žape z mog imanja, jasno? Grr. Pagani lopoovi tamo đužno, opet mi se primčete! Gubte se! Neam ja živca za batine i đavle — moa vamilija se više neeće borit prsa o prsa. Moorš, aje!",
+      "name": "Samotnjak"
+    },
+    "revolutionary": {
+      "ability": "2 igrača koji su komšije se zna da su na istoj ekipi. Jednom po partiji 1 od njih se pogrešno registruje.",
+      "flavor": "Ujedinjeni smo lažirali. Podeljeni, zakočili smo.",
+      "name": "Revolucionar"
+    },
+    "riot": {
+      "ability": "Trećeg dana, Sluge postanu Nemir i nominovani umru ali odmah nominuju živog igrača. Ovo se mora desiti.",
+      "flavor": "Larga vida a la revolución! Mi revolucion!",
+      "name": "Nemir"
+    },
+    "sage": {
+      "ability": "Ako te Demon ubije, saznaš da je on 1 od 2 igrača.",
+      "flavor": "Ovi planinski tomovi čuvaju tajnu, siguran sam u to! Reč po reč, ona čeka. Još sveća, dečače! Još mastila! Ove beleške možda izgledaju tajanstveno, ali paklena zagonetka se otkriva.",
+      "name": "Mudrac",
+      "other": "Ako je Demon ubio Mudraca, probudi Mudraca i pokaži na 2 igrača, od kojih je 1 Demon."
+    },
+    "sailor": {
+      "ability": "Svake noći izabereš živog igrača: jedan od vas dvoje je pijan do sumraka. Ne možeš da umreš.",
+      "first": "Mornar izabere živog igrača. :reminder:",
+      "flavor": "Popiću više od bilo koga o'de! Ti! Brbljivče! Mis'iš da me možeš pobediti? Ne? Š'ae s tobom, bako? Jesi ikad probala prezačinjeni rum starog Mekilija? Garant će ti izrasti dlake na grudima! Izađi na crtu, ajd'!",
+      "name": "Mornar",
+      "other": "Mornar izabere živog igrača. :reminder:"
+    },
+    "saint": {
+      "ability": "Ako umreš pogubljenjem, tvoj tim izgubi.",
+      "flavor": "Mudrost rađa mir. Strpljenje rađa mudrost. Ne bojte se, jer će doći vreme kada će i strah proći. Pomolimo se, i neka jedinstvo naše vizije učini od svih nas svetce.",
+      "name": "Svetac"
+    },
+    "savant": {
+      "ability": "Svakog dana smeš da posetiš Pripovedača da privatno saznaš 2 tvrdnje: 1 je istina i 1 je laž.",
+      "flavor": "Sedamdeset dve šibice na podu... sunce zalazi rano, ali mesec se nije promenio... pocepani komad tkanine... zlo u vlastelinskom domu... tri puta tri... onaj kome smo verovali nije ono što izgleda... zeleno svetlo znači magnezijum... ostaci, ali obrazac je pogrešan... Sedamdeset dve šibice na podu...",
+      "name": "Učenjak"
+    },
+    "scapegoat": {
+      "ability": "Ako je igrač sa tvoje ekipe pogubljen, ti možda budeš pogubljen umesto njega.",
+      "flavor": "Dobro veče! Hvala vam što ste me pozvali na bal. Nisam odavde, ali delujete kao prijateljska ekipa, bože. Siguran sam da ćemo se odlično slagati. Šta će vam sav taj kanap?",
+      "name": "Žrtveni jarac"
+    },
+    "scarletwoman": {
+      "ability": "Ako ima 5 ili više živih igrača i Demon umre, ti postaneš Demon. (Putnici se ne računaju.)",
+      "flavor": "Pokazao si mi tajne Saveta Ljubičastog Plamena. Ležali smo zajedno u vatri i pohoti i u zverskoj zajednici, i ja sam zauvek tvoja sluškinja. Ali večeras, dragi moj, ja sam tvoja gospodarica.",
+      "name": "Grešnica",
+      "other": "Ako je Grešnica postala Demon danas, pokaži joj \"TI SI\" karticu, a onda žeton Demona."
+    },
+    "seamstress": {
+      "ability": "Jednom po partiji, tokom noći, izabereš 2 igrača (ne sebe): saznaš da li su na istoj ekipi.",
+      "first": "Krojačica možda izabere 2 igrača. Klimni ili odmahni glavom. :reminder:",
+      "flavor": "Jesi li čula kako je onaj stranac u kašmirskom kaputu flertovao sa našom mladom Bel? I ona je rekla da? Pa, to nije ništa u poređenju sa onim što su Hari i onaj žongler radili na vašaru! Šta bih ja sve mogla da kažem kad bih bila brbljivica... oh, da.",
+      "name": "Krojačica",
+      "other": "Krojačica možda izabere 2 igrača. Klimni ili odmahni glavom. :reminder:"
+    },
+    "sentinel": {
+      "ability": "Možda ima 1 više ili 1 manje Stranac u igri.",
+      "flavor": "Ime, molim. Dokumenta, molim. Oružje, molim.",
+      "name": "Stražar"
+    },
+    "shabaloth": {
+      "ability": "Svake noći* izabereš 2 igrača: oni umru. Mrtav igrač kog si izabrao prethodne noći će možda oživeti.",
+      "flavor": "Blarg f'taag nm mataan! No sho gumta m'sik na juuu. Fluuuuuuuuurg h-sikkkh.",
+      "name": "Šabalot",
+      "other": "Prethodno izabran igrač se možda oživi. :reminder: Šabalot izabere 2 igrača. :reminder: :reminder:"
+    },
+    "shugenja": {
+      "ability": "Na početku znaš da li ti je najbliži zli igrač sa desne ili sa leve strane. Ako je jednako rastojanje, ova informacija je proizvoljna.",
+      "flavor": "これは夢。それも夢。すべて夢です。",
+      "name": "Šugendža"
+    },
+    "slayer": {
+      "ability": "Jednom po partiji, tokom dana, javno izabereš igrača: ako je on Demon, umire.",
+      "flavor": "Umri.",
+      "name": "Istrebljivač"
+    },
+    "snakecharmer": {
+      "ability": "Svake noći izabereš živog igrača: ako izabereš Demona, zameniš lika i ekipu sa njim, i onda je on otrovan.",
+      "first": "Zmijokrotitelj izabere igrača. Ako je izabrao Demona: pokaži \"TI SI\" i žeton Demona. Pokaži palac na dole. Zameni žetone Zmijokrotitelja i Demona. Vrati starog Zmijokrotitelja na spavanje. Probudi starog Demona. Pokaži \"TI SI\" i žeton Zmijokrotitelja i pokaži palac na gore. :reminder:",
+      "flavor": "Efendija... Ja sam samo skroman čovek, ali moje sviralo je zlatno i jedna melodija će ukrotiti najdivljeg duhe, inšalah. Kažu da pohlepa obesi ljude više nego vešala. Ali ne ja, efendija... ne ja.",
+      "name": "Zmijokrotitelj",
+      "other": "Zmijokrotitelj izabere igrača. Ako je izabrao Demona: pokaži \"TI SI\" i žeton Demona. Pokaži palac na dole. Zameni žetone Zmijokrotitelja i Demona. Vrati starog Zmijokrotitelja na spavanje. Probudi starog Demona. Pokaži \"TI SI\" i žeton Zmijokrotitelja i pokaži palac na gore. :reminder:"
+    },
+    "snitch": {
+      "ability": "Svaki Slugi dobija 3 blefa.",
+      "flavor": "Bio je to Jovan.",
+      "name": "Cinkaroš"
+    },
+    "soldier": {
+      "ability": "Siguran si od Demona.",
+      "flavor": "Kao što je David rekao Golijatu, kao što je Tezej rekao Minotauru, kao što je Ardžuna rekao Bahagadati... Ne.",
+      "name": "Vojnik"
+    },
+    "spiritofivory": {
+      "ability": "Ne može biti više od 1 dodatnog zlog igrača.",
+      "flavor": "Pustoš zove. Kosti se pretvaraju u meso, a zatim se raspadaju u prah. Veliki duh raste. Veliki duh posmatra. Veliki duh vodi. Čovek sluša, ili čoveka više nema.",
+      "name": "Duša slonovače"
+    },
+    "spy": {
+      "ability": "Svake noći vidiš Knjigu. Možda se registruješ kao dobar i kao Građanin ili Stranac, čak i ako si mrtav.",
+      "first": "Pokaži Knjigu koliko god Špijunu treba.",
+      "flavor": "Svaki majstor pivara koji vredi zna da nijedna mešavina ne donosi probleme brže od one koja čini da se špijuni dupliraju.",
+      "name": "Špijun",
+      "other": "Pokaži Knjigu koliko god Špijunu treba."
+    },
+    "steward": {
+      "ability": "Na početku znaš 1 dobrog igrača.",
+      "flavor": "Kako se USUĐUJEŠ da optužiš Njeno Visočanstvo za nešto loše? Poznajem je celog života! Svih devet godina!",
+      "name": "Upravitelj"
+    },
+    "stormcatcher": {
+      "ability": "Imenuj dobrog lika. Ako je u igri, može da umre samo pogubljenjem, ali zli igrači saznaju koji je to igrač.",
+      "flavor": "U zoru, duga senka hrama puzi ka fontani. U sumrak, obelisk blokira crveni odsjaj, hladeći toplu vodu ispod luka. Sve linije se ovde spajaju. Oluja dolazi, a ovo, ovo šljunkovito, bujno i sveto mesto između drveća jabuke, je centar.",
+      "name": "Olujnik"
+    },
+    "summoner": {
+      "ability": "Dobiješ 3 blefa. Treće noći, izabereš igrača: on postane zao Demon po tvom izboru. [Nema Demona]",
+      "first": "Pokaži \"OVI LIKOVI NISU U IGRI\" karticu. Pokaži 3 žetona dobrih likova koji nisu u igri.",
+      "name": "Prizivač"
+    },
+    "sweetheart": {
+      "ability": "Kada umreš, 1 igrač je pijan od sada pa nadalje.",
+      "flavor": "Nikad je neću zaboraviti. Nikad.",
+      "name": "Draga",
+      "other": "Ako je Draga umrla, neki igrač je odmah postao pijan. Ako nije već odrađeno, odradi to sada. :reminder:"
+    },
+    "tealady": {
+      "ability": "Ako su ti obe žive komšije dobre, ne mogu da umru.",
+      "flavor": "Ako vam je hladno, čaj će vas ugrejati. Ako vam je previše vruće, čaj će vas rashladiti. Ako ste depresivni, čaj će vas razveseliti. Ako ste uzbuđeni, čaj će vas smiriti.",
+      "name": "Čajdžinica"
+    },
+    "thief": {
+      "ability": "Svake noći izabereš igrača (ne sebe): njegov glas se računa negativno sutra.",
+      "first": "Lopov izabere igrača. :reminder:",
+      "flavor": "Nisam niš'a uradio. Nisam čak ni bio u toj uličici sinoć! Nisam ti ja ukrao gradonačelniku Brunu aktovku sa svim tim fensi dokumentima, vala. Osim toga, bila je preteška za poneti daleko.",
+      "name": "Lopov",
+      "other": "Lopov izabere igrača. :reminder:"
+    },
+    "tinker": {
+      "ability": "Možda umreš u bilo kom trenutku.",
+      "flavor": "Mislim da vidim u čemu je problem. Srećom, imam ideju! Ovaj katapult će bacati duplo dalje uz samo malo podešavanje...",
+      "name": "Čeprkalo",
+      "other": "Čeprkalo možda umre. :reminder:"
+    },
+    "towncrier": {
+      "ability": "Svake noći* saznaš da li je Sluga nominovao danas.",
+      "flavor": "Čujte i počujte! Veštičarenje u lavirintu! Genijalni učenjak otkriva sve! Grad u opasnosti! Čujte!",
+      "name": "Glasnik",
+      "other": "Ili klimni ili odmahni glavom."
+    },
+    "toymaker": {
+      "ability": "Demon sme da ne napadne i mora to da uradi makar jednom po partiji. Zli igrači dobiju normalne početne informacije.",
+      "flavor": "Zuji! Silazi niz stepenice! Greje vas noću! Ima ukus šećera! Deca ga obožavaju! Predstavljamo vam... potpuno novu... Toplu-zujo-brujo-hoda-robo-stvar-napravicu! Zabava za sve uzraste!",
+      "name": "Stvaralac igračaka"
+    },
+    "undertaker": {
+      "ability": "Svake noći* saznaš koji je lik umro pogubljenjem danas.",
+      "flavor": "Hmmm... šta imamo ovde? Leva čizma je izlizana do pete, sa strugotinama kremena ispod jezika. Ovo je odeća vojnika.",
+      "name": "Pogrebnik",
+      "other": "Ako je igrač bio pogubljen danas, pokaži njegov žeton lika."
+    },
+    "vigormortis": {
+      "ability": "Svake noći* izabereš igrača: on umre. Sluge koje ubiješ zadrže svoju sposobnost i otruju 1 komšiju Građanina. [-1 Stranac]",
+      "flavor": "Sva vrata su jedna vrata. Svi ključevi su jedan ključ. Sve čaše su jedna čaša, ali ko pije vodu koju mu ja dajem neće ožedneti nikada, nego će voda u njemu biti izvor koji izvire u život večni.",
+      "name": "Vigormortis",
+      "other": "Vigormortis izabere igrača. :reminder: Ako je taj igrač Sluga, otruj Građanina koji mu je komšija. :reminder: :reminder:"
+    },
+    "villageidiot": {
+      "ability": "Svake noći izabereš igrača: saznaš na kojoj je ekipi. [+0 do +2 Seoske budale. 1 od dodatnih je pijan]",
+      "flavor": "Ruže su plave, ljubičice crvene, Obrnite moje glupave smene.",
+      "name": "Seoska budala"
+    },
+    "virgin": {
+      "ability": "Prvi put kada te nominuju, ako je igrač koji te je nominovao Građanin, on je odmah pogubljen.",
+      "flavor": "Ja sam čista. Neka oni koji su bez greha padnu i pate umesto mene. Moj ugled neće biti uprljan vašim otrovnim optužbama.",
+      "name": "Devica"
+    },
+    "vizier": {
+      "ability": "Svi igrači znaju da si ti Vizir. Ne možeš da umreš tokom dana. Ako je neko dobar glasao, smeš da izabereš da se odmah desi pogubljenje.",
+      "flavor": "Odlična odluka, kao i uvek, gospodaru. Tako sitan zločin kao što je sudar sa Vladikom zaista zaslužuje vašu „pravdu“ i „milost“. Prošetajte baštama. Posetite galeriju i razgledajte skulpture fon Štraufa. Opustite se, gospodaru. Prepustite sve... meni.",
+      "name": "Vizir"
+    },
+    "vortox": {
+      "ability": "Svake noći* izabereš igrača: on umre. Sposobnosti Građana uvek daju pogrešne informacije. Svakog dana, ako niko nije pogubljen, zli pobede.",
+      "flavor": "Crno je belo. Tačno je pogrešno. Levo je desno. Gore je dugačko. Dole je vid. Kratko je slepo. Prati me. Nađi odgovore.",
+      "name": "Vortoks",
+      "other": "Vortoks izabere igrača. :reminder:"
+    },
+    "voudon": {
+      "ability": "Samo ti i mrtvi možete da glasate. Njima ne treba glasački žeton da bi to uradili. Većina od 50% nije potrebna.",
+      "flavor": "Bien venu. Sedi. Udahni duboko. Uđi u zemlju mrtvih. Vidi njihovim očima. Govori njihovim glasom. Yon sel lang se janm ase.",
+      "name": "Vudon"
+    },
+    "washerwoman": {
+      "ability": "Na početku znaš da je 1 od 2 igrača određeni Građanin.",
+      "first": "Pokaži žeton lika Građana. Pokaži i na \"GRAĐANINA\" igrača i na \"POGREŠNOG\" igrača.",
+      "flavor": "Krvne mrlje na smokingu? Ne, ovo je šeri za kuvanje. Kako nesmotreno.",
+      "name": "Pralja"
+    },
+    "widow": {
+      "ability": "Svoje prve noći pogledaš Knjigu i izabereš igrača: on je otrovan. 1 dobar igrač zna da je Udovica u igri.",
+      "flavor": "Još vina? Château d’Ergot ’07 je veoma posebna berba. Da, zaista veoma posebna.",
+      "name": "Udovica"
+    },
+    "witch": {
+      "ability": "Svake noći izabereš igrača: ako nominuje sutra, on umre. Ako su ostala samo 3 živa igrača, nemaš više ovu sposobnost.",
+      "first": "Veštica izabere igrača. :reminder:",
+      "flavor": "Tri kapi kozje krvi. Pramen kose, iskidan u besu. Ime je izgovoreno, senka bačena. Hodaj levom nogom prvo niz tu trnovitu stazu i ne osvrći se.",
+      "name": "Veštica",
+      "other": "Veštica izabere igrača. :reminder:"
+    },
+    "wizard": {
+      "ability": "Jednom po partiji, izabereš da poželiš želju. Ako ti se ispuni, možda će da ima cenu i da ostavi trag o svojoj prirodi.",
+      "flavor": "Svaki čovek i svaka žena je zvezda. Ljubav je zakon, voljna ljubav.",
+      "name": "Čarobnjak"
+    },
+    "wraith": {
+      "ability": "Smeš da otvoriš oči tokom noći. Probudiš se kad i ostali zli igrači.",
+      "first": "Probudi Utvaru kad god se probudi neki drugi zli igrač.",
+      "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
+      "name": "Utvara",
+      "other": "Probudi Utvaru kad god se probudi neki drugi zli igrač."
+    },
+    "xaan": {
+      "ability": "Na noć X, svi Građani su otrovani do sumraka. [X Stranaca]",
+      "flavor": "Padaju. Jedan po jedan. Po dva, po tri, po pet.",
+      "name": "Zan",
+      "other": "Promeni žeton podsetnik Zana na relevantnu noć. Ako je noć X, obeleži Zana sa \"X\" žetonom podsetnikom. :reminder: :reminder:"
+    },
+    "yaggababble": {
+      "ability": "Na početku znaš tajnu frazu. Za svaki put kad javno kažeš tu frazu danas, neki igrač možda umre.",
+      "flavor": "Ubistva u Rue Morgue? Фальшивые новости! Psi na Baskervilskoj močvari? Фальшивые новости! Smrt tokom plovidbe Nilom? Фальшивые новости!",
+      "name": "Blebetalo"
+    },
+    "zealot": {
+      "ability": "Ako ima 5 ili više živih igrača, ti moraš da glasaš za svaku nominaciju.",
+      "flavor": "Volim da pričam sa tobom. Tvoj um me privlači. Podseća me na moj sopstveni um samo što si ti izgleda nenormalna.",
+      "name": "Zaluđenik"
+    },
+    "zombuul": {
+      "ability": "Svake noći*, ako niko nije umro danas, izabereš igrača: on umre. Prvi put kad umreš, ipak si živ, ali se registruješ kao mrtav.",
+      "flavor": "Ne. Razumem. Tvoje načine. Dragi čoveče. Pokaži mi. Zemlju. Gde svetinja. Leži. Spava. I ja takođe. Moram spavati. Uskoro.",
+      "name": "Zombul",
+      "other": "Ako niko nije umro danas, Zombul izabere igrača. :reminder:"
+    },
+    "bigwig": {
+      "ability": "Svaki nominovan igrač izabere igrača: do glasanja, samo on sme da priča i moraju da se pravi da je nominovani dobar, inače će možda umreti.",
+      "flavor": "Sujeta pita: „Da li je popularno?“ Kukavičluk pita: „Da li je bezbedno?“ Savest pita: „Da li je ispravno?“ Ko od nas će pitati: „Da li je istina?“",
+      "name": "Glavni baja"
+    },
+    "tor": {
+      "ability": "Igrači ne znaju koji su lik niti koja ekipa. Saznaju tek nakon što umru.",
+      "flavor": "Sa gromom kao glasom i munjom kao sečivom, ja, večni čuvar, gozbim se budalama koje se usude da priđu zabranjenoj kapiji. Gle, moj sveti cilj! Da isteram bubu iz utrobe kamenite zemlje, da je uhvatim u mrežu zvezda, na vrhu brda gde se nebo susreće sa zemljom.",
+      "name": "Tor"
+    },
+    "zenomancer": {
+      "ability": "Jedan ili više igrača imaju zaseban cilj. Kada ga postigne, taj igrač sazna jednu istinitu informaciju.",
+      "flavor": "Univerzum je glagol, a ne imenica, kažu, i to su kornjače, kornjače sve do dna. Kornjače sve do dna, prijatelju moj, kornjače sve do dna.",
+      "name": "Vanzemaljac"
+    }
+  },
+  "teams": {
+    "demon": "Demoni",
+    "fabled": "Fabularni",
+    "minion": "Podanici",
+    "outsider": "Stranci",
+    "townsfolk": "Građani",
+    "traveller": "Putnici"
+  },
+  "nightMarkers": {
+    "dawn": "Zora",
+    "demoninfo": "Demonske informacije",
+    "dusk": "Sumrak",
+    "minioninfo": "Slugine informacije"
+  },
+  "reminders": {
+    "2nd": "Drugi",
+    "3attacks": "3 napada",
+    "3votes": "3 glasa",
+    "abnormal": "Nepravilno",
+    "abouttodie": "Uskoro će umreti",
+    "actstwice": "Dva puta radi",
+    "aligned": "Ista ekipa",
+    "alive": "Živ",
+    "amigo": "Ortak",
+    "cannotdie": "Ne može da umre",
+    "chosen": "Izabran",
+    "claimed": "Tvrdio",
+    "correct": "Tačno",
+    "cursed": "Proklet",
+    "day1": "Dan 1",
+    "day2": "Dan 2",
+    "day3": "Dan 3",
+    "day4": "Dan 4",
+    "day5": "Dan 5",
+    "dead": "Mrtav",
+    "demonnotvoted": "Demon nije glasao",
+    "demonvoted": "Demon glasao",
+    "diedtoday": "Umro danas",
+    "doesntkill": "Ne ubija",
+    "drunk": "Pijan",
+    "drunk1": "Pijan 1",
+    "drunk2": "Pijan 2",
+    "drunk3": "Pijan 3",
+    "everyoneisdrunk": "Svi su pijani",
+    "evil": "Zao",
+    "evilwakes": "Zli se bude",
+    "falseinfo": "Pogrešna informacija",
+    "fauxpaw": "Loš pas",
+    "fear": "Strah",
+    "finalnightnoattack": "Poslednja noć: nema napada",
+    "friend": "Prijatelj",
+    "good": "Dobar",
+    "goodplayerexecuted": "Dobar igrač pogubljen",
+    "grandchild": "Unuče",
+    "guessused": "Nagađao",
+    "haircutstonight": "Šišanje noćas",
+    "hasability": "Ima sposobnost",
+    "isthealchemist": "Je Alhemičar",
+    "istheapprentice": "Je Šegrt",
+    "isthedemon": "Je Demon",
+    "isthedrunk": "Je Pijandura",
+    "isthemarionette": "Je Marioneta",
+    "isthephilosopher": "Je Filozof",
+    "know": "Zna",
+    "lunch": "Ručak",
+    "mad": "Pravi se",
+    "master": "Gospodar",
+    "maynotnominate": "Ne sme da nominuje",
+    "minion": "Sluga",
+    "minionnominated": "Sluga nominovao",
+    "minionsnotnominated": "Sluge nisu nominovale",
+    "negativevote": "Negativan glas",
+    "night1": "Noć 1",
+    "night2": "Noć 2",
+    "night3": "Noć 3",
+    "noability": "Nema sposobnost",
+    "nominateevil": "Nominuj zlog",
+    "nominategood": "Nominuj dobrog",
+    "nomoreevil": "Ne više zlih",
+    "once": "Jednom",
+    "outsider": "Stranac",
+    "poisoned": "Otrovan",
+    "protected": "Zaštićen",
+    "redherring": "Lažni trag",
+    "registerfalsely": "Registruj pogrešno?",
+    "safe": "Siguran",
+    "soberhealthy": "Trezan i zdrav",
+    "somethingbad": "Nešto loše",
+    "storytellerability": "Sposobnost Pripovedača",
+    "survivesexecution": "Preživi pogubljenje",
+    "teapartytonight": "Čajanka večeras",
+    "townsfolk": "Građanin",
+    "turnsevil": "Postaje zao",
+    "twin": "Blizanac",
+    "visitor": "Posetilac",
+    "whoopsie": "Upsić",
+    "wrong": "Pogrešno",
+    "stormcaught": "Centar oluje"
+  },
+  "jinxes": {
+    "alchemist-boffin": "Ako Alhemičar ima sposobnost Naučnika, Alhemičar ne saznaje koju sposobnost Demon ima.",
+    "alchemist-marionette": "Alhemičar-Marioneta nema sposobnost Marionete i Marioneta je u igri.",
+    "alchemist-mastermind": "Alhemičar-Zli genije nema sposobnost Zlog genija i Zli genije nije u igri.",
+    "alchemist-organgrinder": "Ako Alhemičar ima sposobnost Uličnog svirača, Ulični svirač je u igri. Ako su oboje trezni, oboje su pijani.",
+    "alchemist-spy": "Alhemičar-Špijun nema sposobnost Špijuna i Špijun je u igri. Nakon svakog pogubljenja, živi Alhemičar-Špijun može da javno nagađa da je jedan od živih igrača Špijun. Ako pogodi, Demon mora da izabere Špijuna noćas.",
+    "alchemist-summoner": "Alhemičar- Prizivač ne dobija blefove, i bira koji će Demon biti, ali ne i koji igrač će biti Demon. Ako umre pre nego što se ovo desi, zli pobede. [Nema Demona]",
+    "alchemist-widow": "Alhemičar-Udovica nema sposobnost Udovice i Udovica je u igri. Nakon svakog pogubljenja, živi Alhemičar-Udovica može da javno nagađa da je jedan od živih igrača Udovica. Ako pogodi, Demon mora da izabere Udovicu noćas.",
+    "alchemist-wraith": "Alhemičar-Utvara nema sposobnost Utvare i Utvara je u igri. Nakon svakog pogubljenja, živi Alhemičar-Utvara može da javno nagađa da je jedan od živih igrača Utvara. Ako pogodi, Demon mora da izabere Utvaru noćas.",
+    "alhadikhia-mastermind": "Ako Alhadikija umre pogubljenjem, i Zli genije je živ, Alhadijkija izabere 3 dobra igrača noćas: ako sva 3 izaberu da prežive, zli pobede. U suprotnom, dobri pobede.",
+    "alhadikhia-princess": "Ako Princeza nominuje i pogubi igrača svog prvog dana, niko ne umre zbog Alhadikije noćas.",
+    "alhadikhia-scarletwoman": "Ako bi trebalo da bude dva Demona, od kojih bi jedan bio Grešnica, Grešnica postane Grešnica ponovo.",
+    "alsaahir-vizier": "Pripovedač na izjavljuje da je Vizir u igri.",
+    "atheist-riot": "Tokom nemira, ako je Pripovedač nominovan, igrači glasaju. Ako \"će uskoro umreti\", igra se završava. Ako ne, ponovo nominuje.",
+    "balloonist-marionette": "Ako Marioneta misli da je Balonista, Stranac je možda dodat tokom postavke.",
+    "banshee-leviathan": "Svake noći* Levijatan izabere živog dobrog igrača (kog nije birao prethodnih noći): izabrana Banši umre i dobije svoju sposobnost.",
+    "banshee-riot": "Svake noći* Nemir izabere živog dobrog igrača (kog nije birao prethodnih noći): izabrana Banši umre i dobije svoju sposobnost.",
+    "banshee-vortox": "Ako Vortoks ubije Banši, svi igrači saznaju da je Banši umrla.",
+    "baron-heretic": "Samo 1 lik sa urokom može biti u igri.",
+    "baron-plaguedoctor": "Ako bi Pripovedač trebalo da dobije sposobnost Barona, do dva igrača postanu Stranci.",
+    "boffin-cultleader": "Ako Demon ima sposobnost Vođe sekte, ne može da postane dobar zbog ove sposobnosti.",
+    "boffin-drunk": "Demon ne može da ima sposobnost Pijandure.",
+    "boffin-goon": "Ako Demon ima sposobnost Tabadžije, ne može da postane dobar zbog ove sposobnosti.",
+    "boffin-heretic": "Demon ne može da ima sposobnost Jeretika.",
+    "boffin-ogre": "Demon ne može da ima Ogrovu sposobnost.",
+    "boffin-politician": "Demon ne može da ima sposobnost Političara.",
+    "boffin-villageidiot": "Ako ima žeton viška, Naučnik može da da Demonu sposobnost Seoske budale.",
+    "boomdandy-plaguedoctor": "Ako bi Pripovedač trebalo da dobije sposobnost Piromanijaka, igrač postane Piromanijak.",
+    "bountyhunter-kazali": "Ako Kazali pretvori Lovca na glave u Slugu, ni jedan Građanin ne postane zao.",
+    "bountyhunter-philosopher": "Ako Filozof dobije sposobnost Lovca na glave, Građanin će možda postati zao.",
+    "butler-cannibal": "Ako Ljudožder dobije Batlerovu sposobnost, Ljudožder to sazna.",
+    "butler-organgrinder": "Ako Ulični svirač izaziva da se glasa zatvorenih očiju, Batler sme da podigne ruku da glasa ali njegov glas se samo računa ako je i njegov Gospodar takođe glasao.",
+    "cannibal-juggler": "Ako Žongler nagađa svog prvog dana i umre putem pogubljenja, noćas živi Ljudožder sazna koliko je tačnih pogodaka dobio Žongler.",
+    "cannibal-princess": "Ako je Ljudožder nominovao, pogubio i ubio Princezu danas, Demon ne ubija noćas.",
+    "cannibal-zealot": "Ako Ljudožder dobije Zaluđenikovu sposobnost, Ljudožder to sazna.",
+    "cerenovus-goblin": "Cerenovus može da izabere da natera igrača da se pravi da je Goblin.",
+    "chambermaid-mathematician": "Sobarica može da sazna da li će se Matematičar probuditi noćas.",
+    "clockmaker-summoner": "Prizivač se registruje kao Demon Časovničaru.",
+    "courtier-summoner": "Ako živi Prizivač nema sposobnost, Pripovedač ima sposobnost Prizivača.",
+    "courtier-vizier": "Ako Vizir izgubi svoju sposobnost, on to sazna, i ne može da umre tokom dana.",
+    "cultleader-pithag": "Ako Baba-vračara pretvori zlog igrača u Vođu sekte, ne može da postane dobar zbog sopstvene sposobnosti.",
+    "damsel-pithag": "Ako Baba-vračara stvori Damu, Pripovedač bira koji igrač to postane.",
+    "damsel-spy": "Ako je Špijun u igri (ili je bio), Dama je otrovana.",
+    "damsel-widow": "Ako je Udovica u igri (ili je bila), Dama je otrovana.",
+    "drunk-mathematician": "Matematičar možda sazna ako Pijandurina sposobnost dobije pogrešne informacije ili ne uspe da radi pravilno.",
+    "engineer-legion": "Ako se Legija stvori, svi zli igrači postanu Legija. Ako je Legija u igri, Inženjer na početku ovo zna ali nema sposobnost.",
+    "engineer-summoner": "Ako se živi Prizivač ukloni iz igre, Pripovedač ima sposobnost Prizivača.",
+    "eviltwin-plaguedoctor": "Ako bi Pripovedač trebalo da dobije sposobnost Zlog blizanca, igrač postane Zli Blizanac.",
+    "exorcist-leviathan": "Ako Levijatan nominuje i pogubi igrača kog je Isterivač izabrao, dobri pobede.",
+    "exorcist-riot": "Ako Nemir nominuje i pogubi igrača kog je Isterivač izabrao, dobri pobede.",
+    "exorcist-yaggababble": "Ako Isterivač izabere Blebetalo, Blebetalo ne ubija noćas.",
+    "fanggu-scarletwoman": "Ako bi trebalo da bude dva Demona, od kojih bi jedan bio Grešnica, Grešnica ostane Grešnica.",
+    "farmer-leviathan": "Svake noći* Levijatan izabere živog dobrog igrača (kog nije birao prethodnih noći): izabrani Farmer iskoristi svoju sposobnost ali ne umre.",
+    "farmer-riot": "Svake noći* Nemir izabere živog dobrog igrača (kog nije birao prethodnih noći): izabrani Farmer iskoristi svoju sposobnost ali ne umre.",
+    "fearmonger-plaguedoctor": "Ako bi Pripovedač trebalo da dobije sposobnost Zastrašivača, Sluga je dobije, i to sazna.",
+    "fearmonger-vizier": "Vizir se budi sa Zastrašivačem, sazna koga je izabrao i ne može da izabere da taj igrač bude odmah pogubljen.",
+    "goblin-plaguedoctor": "Ako bi Pripovedač trebalo da dobije sposobnost Goblina, Sluga je dobije, i to sazna.",
+    "godfather-heretic": "Samo 1 lik sa urokom može biti u igri.",
+    "goon-pithag": "Ako Baba-vračara pretvori zlog igrača u Tabadžiju, ne može da postane dobar zbog sopstvene sposobnosti.",
+    "grandmother-leviathan": "Ako je Levijatan u igri i Unuče umre pogubljenjem, zli pobede.",
+    "grandmother-riot": "Ako je Nemir u igri i Unuče umre pogubljenjem, zli pobede.",
+    "hatter-legion": "Ako se stvori Legija, svi zli igrači postanu Legija. Ako je Legija u igri, Šeširdžija nema sposobnost.",
+    "hatter-leviathan": "Levijatan ne može da uđe u igru nakon petog dana.",
+    "hatter-lilmonsta": "Ako Šeširdžija umre i Demon izabere Derište, takođe bira i Slugu u koju će se pretvoriti.",
+    "hatter-summoner": "Ako Prizivač stvori drugog živog Demona, smrti noćas su proizvoljne.",
+    "heretic-lleech": "Samo 1 lik sa urokom može biti u igri.",
+    "heretic-pithag": "Samo 1 lik sa urokom može biti u igri.",
+    "heretic-spy": "Samo 1 lik sa urokom može biti u igri.",
+    "heretic-widow": "Samo 1 lik sa urokom može biti u igri.",
+    "huntsman-marionette": "Ako Marioneta misli da je Lovac, Dama je možda dodata tokom postavke.",
+    "innkeeper-leviathan": "Ako Levijatan nominuje i pogubi igrača kog je Krčmar zaštitio, dobri pobede.",
+    "innkeeper-riot": "Ako Nemir nominuje i pogubi igrača kog je Krčmar zaštitio, dobri pobede.",
+    "investigator-vizier": "Pripovedač na izjavljuje da je Vizir u igri.",
+    "kazali-marionette": "Ako bi trebalo da bude Marioneta u igri, ulazi u igru nakon Demona i mora početi kao njegov komšija.",
+    "kazali-summoner": "Ako Prizivač stvori drugog živog Demona, smrti noćas su proizvoljne.",
+    "king-leviathan": "Ako je Levijatan u igri, i makar 1 igrač je mrtav, Kralj sazna živog lika svake noći.",
+    "king-riot": "Ako je Nemir u igri, i makar 1 igrač je mrtav, Kralj sazna živog lika svake noći.",
+    "legion-magician": "Mađioničar se budi sa Legijom i možda se registruje kao zao. Legija zna ako je Mađioničar u igri, ali ne koji je to igrač.",
+    "legion-minstrel": "Ako je Legija umrla pogubljenjem danas, Legija zadržava svoju sposobnost, ali Trubadur možda sazna da su oni Legija.",
+    "legion-politician": "Političar se možda registruje kao zao Legiji.",
+    "legion-preacher": "Ako Sveštenik izabere Legiju, Legija zadržava svoju sposobnost, ali Sveštenik možda sazna da su oni Legija.",
+    "legion-summoner": "Ako je Legija prizvana, svi zli igrači postanu Legija.",
+    "legion-zealot": "Zaluđenik se možda registruje kao zao Legiji.",
+    "leviathan-mayor": "Ako su Levijatan i Gradonačelnik živi petog dana i ne desi se pogubljenje, dobri pobede.",
+    "leviathan-monk": "Ako Levijatan nominuje i pogubi igrača kog je Monah zaštitio, dobri pobede.",
+    "leviathan-pithag": "Levijatan ne može da uđe u igru nakon petog dana.",
+    "leviathan-ravenkeeper": "Svake noći* Levijatan izabere živog dobrog igrača (kog nije birao prethodnih noći): izabrani Čuvar gavrana iskoristi svoju sposobnost ali ne umre.",
+    "leviathan-sage": "Svake noći* Levijatan izabere živog dobrog igrača (kog nije birao prethodnih noći): izabrani Mudrac iskoristi svoju sposobnost ali ne umre.",
+    "leviathan-soldier": "Ako Levijatan nominuje i pogubi Vojnika, dobri pobede.",
+    "lilmonsta-magician": "Ako je Mađioničar živ, Pripovedač bira koji će Sluga da čuva Derište.",
+    "lilmonsta-marionette": "Ako bi trebalo da bude Marioneta u igri, ulazi u igru nakon Demona i mora početi kao njegov komšija.",
+    "lilmonsta-poppygrower": "Ako su Derište i Makarka živi, Sluge se bude jedno po jedno, dok neko od njih ne izabere da uzme žeton Derišta.",
+    "lilmonsta-psychopath": "Ako Psihopata čuva Derište, on umire kada je pogubljen.",
+    "lilmonsta-scarletwoman": "Ako Derište umre dok je 5 ili više igrača živo, Derište ostaje kod Grešnice do kraja partije.",
+    "lilmonsta-vizier": "Ako Vizir čuva Derište, on umire kada je pogubljen.",
+    "lleech-mastermind": "Ako je Zli genije živ i domaćin Pijavice umre pogubljenjem, Pijavica ostane živa ali izgubi svoju sposobnost.",
+    "lleech-slayer": "Ako Istrebljivač upuca domaćina Pijavice, domaćin umre.",
+    "lordoftyphon-summoner": "Ako se prizove Gospodar Tifona, Sluga mu mora biti komšija i njegov drugi komšija postane zli Sluga.",
+    "lunatic-mathematician": "Matematičar možda sazna ako Ludak ne napadne istog igrača kao i pravi Demon.",
+    "magician-marionette": "Ako je Mađioničar živ, Demon ne zna koji komšija mu je Marioneta.",
+    "magician-spy": "Kada Špijun gleda Knjigu, uklanjaju se žetoni likova Demona i Mađioničara.",
+    "magician-vizier": "Ako je Vizir u igri, Mađioničar nema sposobnost ali je imun na Vizirovu sposobnost.",
+    "magician-widow": "Kada Udovica gleda Knjigu, uklanjaju se žetoni likova Demona i Mađioničara.",
+    "magician-wraith": "Nakon svakog pogubljenja, živi Mađioničar može da javno nagađa da je jedan od živih igrača Utvara. Ako pogodi, Demon mora da izabere Utvaru noćas.",
+    "marionette-mathematician": "Matematičar možda sazna ako Marionetina sposobnost dobije pogrešne informacije ili ne uspe da radi pravilno.",
+    "marionette-plaguedoctor": "Ako bi Pripovedač trebalo da dobije sposobnost Marionete, jedan od Demonovih dobrih komšija postane Marioneta.",
+    "marionette-summoner": "Ako bi trebalo da bude Marioneta u igri, ulazi u igru nakon Demona i mora početi kao njegov komšija.",
+    "mastermind-vigormortis": "Zli genije koji ima svoju sposobnost zadrži je nakon što Vigormortis umre.",
+    "mayor-riot": "Gradonačelnik sme da izabere da zaustavi nemir. Ako to uradi kada je samo 1 Nemir živ, dobri pobede. U suprotnom, zli pobede.",
+    "monk-riot": "Ako Nemir nominuje i pogubi igrača kog je Monah zaštitio, dobri pobede.",
+    "ogre-pithag": "Ako Baba-vračara pretvori zlog igrača u Ogra, ne može da postane dobar zbog sopstvene sposobnosti.",
+    "ogre-recluse": "Ako se Samotnjak registruje kao zao Ogru, Ogr sazna da je zao.",
+    "ogre-spy": "Špijun se registruje kao zao Ogru.",
+    "pithag-politician": "Ako Baba-vračara pretvori zlog igrača u Političara, ne može da postane dobar zbog sopstvene sposobnosti.",
+    "pithag-summoner": "Ako Prizivač stvori drugog živog Demona, smrti noćas su proizvoljne.",
+    "pithag-villageidiot": "Ako ima žeton viška, Baba-vračara može da stvori dodatnu Seosku budalu. Ako se to desi, pijana Seoska budala se može promeniti.",
+    "plaguedoctor-scarletwoman": "Ako bi Pripovedač trebalo da dobije sposobnost Grešnice, Sluga je dobije, i to sazna.",
+    "plaguedoctor-spy": "Ako bi Pripovedač trebalo da dobije sposobnost Špijuna, Sluga je dobije, i to sazna.",
+    "plaguedoctor-wraith": "Ako bi Pripovedač trebalo da dobije sposobnost Utvare, Sluga je dobije, i to sazna.",
+    "politician-vizier": "Političar se možda registruje kao zao Viziru.",
+    "poppygrower-spy": "Ako Makarka ima svoju sposobnost, Špijun ne gleda Knjigu.",
+    "poppygrower-summoner": "Ako je Makarka živa treće noći, Prizivač bira koji je Demon ali ne i koji je igrač.",
+    "poppygrower-widow": "Ako Makarka ima svoju sposobnost, Udovica ne gleda Knjigu.",
+    "preacher-summoner": "Ako živi Prizivač nema sposobnost, Pripovedač ima sposobnost Prizivača.",
+    "preacher-vizier": "Ako Vizir izgubi svoju sposobnost, on to saznaje i ne može da umre tokom dana.",
+    "pukka-summoner": "Prizivač sme da prizove Puku druge noći umesto treće.",
+    "ravenkeeper-riot": "Svake noći* Nemir izabere živog dobrog igrača (kog nije birao prethodnih noći): izabrani Čuvar gavrana iskoristi svoju sposobnost ali ne umre.",
+    "recluse-sage": "Samotnjak se možda registruje kao Demon Mudracu.",
+    "riot-sage": "Svake noći* Nemir izabere živog dobrog igrača (kog nije birao prethodnih noći): izabrani Mudrac iskoristi svoju sposobnost ali ne umre.",
+    "riot-soldier": "Ako Nemir nominuje i pogubi Vojnika, dobri pobede.",
+    "summoner-zombuul": "Ako Prizivač prizove mrtvog igrača da bude Zombul, Zombul se računa da je već \"jednom umro\".",
+    "vizier-zealot": "Zaluđenik se možda registruje kao zao Viziru."
+  }
+}

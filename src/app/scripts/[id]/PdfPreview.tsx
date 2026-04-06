@@ -6,6 +6,8 @@ import { FancyDoc } from "@/lib/pdf/FancyDoc";
 import { DEFAULT_PDF_OPTIONS } from "@/lib/botc/types";
 import type { Script } from "@/lib/botc/types";
 import type { PdfOptions } from "@/lib/botc/types";
+import { useTranslations } from "@/lib/botc/use-translations";
+import { applyTranslationsToScript } from "@/lib/botc/translations";
 import "@/lib/pdf/styles/index.css";
 
 interface PdfPreviewProps {
@@ -13,6 +15,7 @@ interface PdfPreviewProps {
   options?: PdfOptions;
   defaultColor?: string;
   className?: string;
+  language?: string;
   onAppearanceChange?: (appearance: PdfOptions["appearance"], iconScale: number) => void;
 }
 
@@ -49,7 +52,7 @@ function hslToHex(h: number, s: number, l: number): string {
   return `#${f(0)}${f(8)}${f(4)}`;
 }
 
-export function PdfPreview({ rawJson, options, defaultColor, className, onAppearanceChange }: PdfPreviewProps) {
+export function PdfPreview({ rawJson, options, defaultColor, className, language, onAppearanceChange }: PdfPreviewProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const innerRef = useRef<HTMLDivElement>(null);
   const [scale, setScale] = useState(1);
@@ -83,7 +86,14 @@ export function PdfPreview({ rawJson, options, defaultColor, className, onAppear
 
   const assetsUrl = "/pdf-assets/images";
 
-  const parsed = useMemo(() => parseScript(rawJson), [rawJson]);
+  const effectiveLanguage = options?.language ?? language ?? "en";
+  const { translations } = useTranslations(effectiveLanguage !== "en" ? effectiveLanguage : null);
+
+  const rawParsed = useMemo(() => parseScript(rawJson), [rawJson]);
+  const parsed = useMemo(
+    () => translations ? applyTranslationsToScript(rawParsed, translations) : rawParsed,
+    [rawParsed, translations],
+  );
   const nightOrders = useMemo(
     () => calculateNightOrders(parsed, rawJson as Script),
     [parsed, rawJson],
@@ -159,7 +169,7 @@ export function PdfPreview({ rawJson, options, defaultColor, className, onAppear
     return <div className={`relative overflow-hidden ${className ?? ""}`} />;
   }
 
-  const docProps = { script: parsed, options: pdfOptions, nightOrders, assetsUrl };
+  const docProps = { script: parsed, options: pdfOptions, nightOrders, assetsUrl, translations };
 
   return (
     <div

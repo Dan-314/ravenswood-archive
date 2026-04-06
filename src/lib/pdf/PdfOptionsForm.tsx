@@ -14,6 +14,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Button } from "@/components/ui/button";
 import { Shuffle, ChevronDown, ChevronUp } from "lucide-react";
 import type { PdfOptions } from "@/lib/botc/types";
+import { LanguageSelect } from "@/components/LanguageSelect";
 
 function randomColor(): string {
   const h = Math.floor(Math.random() * 360);
@@ -61,6 +62,12 @@ export function PdfOptionsForm({ options, onUpdate }: PdfOptionsFormProps) {
 
   return (
     <div className="flex flex-col gap-4">
+      {/* Language */}
+      <div className="flex flex-col gap-1.5">
+        <Label>Language</Label>
+        <LanguageSelect value={options.language} onChange={(v) => update("language", v)} />
+      </div>
+
       {/* Appearance & Paper Size */}
       <div className="grid grid-cols-2 gap-4">
         <div className="flex flex-col gap-1.5">

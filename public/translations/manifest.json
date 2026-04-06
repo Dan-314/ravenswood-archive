@@ -1,0 +1,92 @@
+[
+  {
+    "code": "da",
+    "name": "Danish",
+    "nativeName": "Dansk",
+    "completion": 88
+  },
+  {
+    "code": "en@pirate",
+    "name": "English (Pirate)",
+    "nativeName": "English (Pirate)",
+    "completion": 92
+  },
+  {
+    "code": "es_419",
+    "name": "Spanish (Latin America)",
+    "nativeName": "Español (Latinoamérica)",
+    "completion": 88
+  },
+  {
+    "code": "es_MX",
+    "name": "Spanish (Mexico)",
+    "nativeName": "Español (México)",
+    "completion": 100
+  },
+  {
+    "code": "gl",
+    "name": "Galician",
+    "nativeName": "Galego",
+    "completion": 88
+  },
+  {
+    "code": "it",
+    "name": "Italian",
+    "nativeName": "Italiano",
+    "completion": 100
+  },
+  {
+    "code": "pl",
+    "name": "Polish",
+    "nativeName": "Polski",
+    "completion": 100
+  },
+  {
+    "code": "pt_PT",
+    "name": "Portuguese (Portugal)",
+    "nativeName": "Português (Portugal)",
+    "completion": 100
+  },
+  {
+    "code": "sv",
+    "name": "Swedish",
+    "nativeName": "Svenska",
+    "completion": 100
+  },
+  {
+    "code": "vi",
+    "name": "Vietnamese",
+    "nativeName": "Tiếng Việt",
+    "completion": 100
+  },
+  {
+    "code": "sr",
+    "name": "Serbian",
+    "nativeName": "Српски",
+    "completion": 89
+  },
+  {
+    "code": "uk",
+    "name": "Ukrainian",
+    "nativeName": "Українська",
+    "completion": 84
+  },
+  {
+    "code": "ko",
+    "name": "Korean",
+    "nativeName": "한국어",
+    "completion": 100
+  },
+  {
+    "code": "ja",
+    "name": "Japanese",
+    "nativeName": "日本語",
+    "completion": 91
+  },
+  {
+    "code": "zh_Hans",
+    "name": "Chinese (Simplified Han script)",
+    "nativeName": "简体中文",
+    "completion": 97
+  }
+]

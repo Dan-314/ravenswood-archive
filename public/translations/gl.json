@@ -1,0 +1,1205 @@
+{
+  "roles": {
+    "acrobat": {
+      "ability": "Cada noite*, escolle un xogador: se está ou torna borracho ou envelenado esta noite, morres.",
+      "flavor": "Benvidos, todos e todas, ao maior espectáculo do mundo.",
+      "name": "Acróbata",
+      "other": "A Acróbata escolle un xogador. :reminder:"
+    },
+    "alchemist": {
+      "ability": "Tés unha habilidade de Esbirro. Ao usala, o Narrador pode indicarche que cambies a escolla.",
+      "flavor": "Visita o interior da Terra. Por rectificación has atopar a pedra agochada. Riba do ouro, tá o roxo. Kéter en Malkut.",
+      "name": "Alquimista"
+    },
+    "alhadikhia": {
+      "ability": "Cada noite*, podes escoller 3 xogadores (tódolos xogadores descobren cales): cada un escolle en silencio vivir ou morrer, pero se todos viven, todos morren.",
+      "flavor": "Alsukut min dhahab.",
+      "name": "Al-Hadikhia"
+    },
+    "alsaahir": {
+      "ability": "Cada día, se adiviñas públicamente que xogadores son Esbirros e cales son Demos, gaña o ben.",
+      "flavor": "Estou aquí por ti, e ti estás aquí por min.",
+      "name": "Alsaahir"
+    },
+    "amnesiac": {
+      "ability": "Descoñeces a túa habilidade. Cada día, adiviña en privado cal é: descobres como de preto estás.",
+      "flavor": "Espera. Que. Quen? Ah, vale. Espera. Que?",
+      "name": "Amnésico"
+    },
+    "angel": {
+      "ability": "Algo malo pode pasarlle a quen sexa máis responsable pola morte dun novo xogador.",
+      "flavor": "Que aqueles sen pecado se atrevan a levantar a man contra o meu elexido, pois hei derrubar esos necios coa furia e xustiza de mil tormentas.",
+      "name": "Anxo"
+    },
+    "apprentice": {
+      "ability": "Na túa 1a noite, gañas unha habilidade de Aldeán (se es bo), ou de Esbirro (se es malo).",
+      "flavor": "Por anos viaxei, estudando as artes Da Artesanía. Que Artesanía, preguntas? Simplemente a do humilde. Nada do que preocuparse. Aínda non.",
+      "name": "Aprendiz"
+    },
+    "artist": {
+      "ability": "Unha vez por partida, de día, pregunta en privado ao Narrador calqueira pregunta de si ou non.",
+      "flavor": "Mon Dieu! C'est lumineux! Miña obra, é... como se di... Magnifique! Dieu est révélé! Oui.",
+      "name": "Artista"
+    },
+    "assassin": {
+      "ability": "Unha vez por partida, de noite*, escolle un xogador: morre, incluso se por algún motivo non podía.",
+      "flavor": "...",
+      "name": "Asasina",
+      "other": "A Asasina podería escoller un xogador. :reminder: :reminder:"
+    },
+    "atheist": {
+      "ability": "O Narrador pode saltarse as regras do xogo, e se é executado, gaña o ben, incluso se estás morto. [Non personaxes malvados]",
+      "flavor": "Deixemos de lado conxecturas innecesarias e boba paranoia. Hai una explicación perfectamente racional para todo. Si, unha taza de té pode totalmente estar a orbitar o planeta, demasiado pequena para vela, pero eu vou beber o meu té da moi real China nas miñas moi reais mans.",
+      "name": "Ateo"
+    },
+    "balloonist": {
+      "ability": "Cada noite, descobres un xogador dun tipo de personaxe diferente á noite anterior. [+0 ou +1 Forasteiro]",
+      "flavor": "Máis calor! Máis alto! Máis alto! Più alto! Ahhh... é tan bonito dende aquí arriba, non si? Podes ver os nenos pescando polo río, baixo o salgueiro? Podes ver o reflexo do sol nos postes da carpa do circo? Que é isto? Un ancián, só, desmaiado no viñedo? Menos calor! Máis abaixo! Máis abaixo! Vai più in basso!",
+      "name": "Aeronauta"
+    },
+    "banshee": {
+      "ability": "Se o Demo te mata, tódolos xogadores descóbreno. Dende agora, podes nomear dúas veces por día e votar dúas veces por nomeación.",
+      "flavor": "Gorm do shúile, dearg do ghruaig, ní bheidh sé i bhfad, is a mbeidh tú san uaigh.",
+      "name": "Chorona"
+    },
+    "barber": {
+      "ability": "Se morriches hoxe ou esta noite, o Demo pode escoller 2 xogadores (non outro Demo) para trocar personaxes.",
+      "flavor": "Sabías que a barbería e a ciruxía foron algunha vez a mesma profesión? Non? Pois, xa o sabes.",
+      "name": "Barbeiro",
+      "other": "Se o Barbeiro morreu hoxe ou esta noite, mostra ao Demo as fichas *ESTE PERSONAXE SELECCIONOUTE* e do Barbeiro. Se o Demo escolleu 2 xogadores, esperta un de cada vez. Mostra a ficha *TI ES* e a súa nova ficha de personaxe."
+    },
+    "barista": {
+      "ability": "Cada noite, ata o solpor, 1) un xogador torna sobrio, san e recibe información verdadeira, ou 2) a súa habilidade funciona dúas veces. Sabe cal.",
+      "flavor": "Unha taza de café sen crema, Monsieur? Síntoo moito, pero xusto quedamos sen crema - que tal sen leite?",
+      "name": "Camareira"
+    },
+    "baron": {
+      "ability": "Hai Forasteiros extra en xogo. [+2 Forasteiros]",
+      "flavor": "Esta vila cae a cachos, que? Traballo extranxeiro barato... esa é a solución. Mándaos á mina, dígocho eu. Un pouco de traballo duro nunca fixo mal a ninguén, e un tirón de orellas a calquera bandido que diga outra cousa. É todo sobre os de abaixo, que?",
+      "name": "Barón"
+    },
+    "beggar": {
+      "ability": "Debes usar unha ficha de voto para votar. Se un xogador morto che deixa a súa, descobres o seu aliñamento. Estás sobrio e san.",
+      "flavor": "Esmola para os pobres, bo Señor? Unha moeda, Señora? Grazas. Deus lle bendiga! É unha boa alma sen erratas. Terei unha elegante cea esta noite, abofé!",
+      "name": "Mendigo"
+    },
+    "bigwig": {
+      "ability": "Cada nomeado escolle un xogador: ata votar, só el pode falar e teima que o nomeado é bo ou el podería morrer.",
+      "flavor": "A vaidade pregunta 'É popular?' A cobardía pregunta 'É seguro?' A conciencia pregunta 'É correcto?' Quen de entre nós preguntará: 'É verdade?'",
+      "name": "Peixe Gordo"
+    },
+    "bishop": {
+      "ability": "Só o Narrador pode nomear. Polo menos un xogador rival debe ser nomeado cada día.",
+      "flavor": "In nomine Patria, et Filii, et Spiritus Sancti... Nos mos Dei. Deus vult de nobis.",
+      "name": "Bispo"
+    },
+    "boffin": {
+      "ability": "O Demo (incluso borracho ou evelenado) ten unha habilidade de personaxe bo fóra de xogo. Ambos sabedes cal.",
+      "flavor": "Hidróxeno estelar, vasto, inerte; carbono, osíxeno, gases de neón, todos arruinados. Caos molecular, entropía, canta novos fenómenos cósmicos, renacer dende caos atómico, densa materia colapsando. Todo nun pequeniño frasco.",
+      "name": "Científico"
+    },
+    "bonecollector": {
+      "ability": "Unha vez por partida, de noite*, escolle un xogador morto: recupera a súa habilidade ata o solpor.",
+      "flavor": "Colecciono moitas cousas. Pelo. Dentes. Roupa. Fragmentos de poemas. Os sonos de amantes perdidos. Miñas artes secretas non son para que as sepa calqueira pero miña fianza é un nadiña. Tráeme o sangue dunha dona que morreu de desamor baixo a lúa chea, e has de ter túas respostas.",
+      "name": "Coleccionista de Ósos"
+    },
+    "boomdandy": {
+      "ability": "Se es executado, tódolos xogadores menos 3 morren. Tras unha conta atrás de 10 a 1, o xogador con máis xogadores sinalándolle, morre.",
+      "flavor": "Tic... Tic... Tic... TAC.",
+      "name": "Bumdandi"
+    },
+    "bootlegger": {
+      "ability": "Este guión ten personaxes ou regras caseiros.",
+      "flavor": "Cando fun nado, chamáronme 'Caseiriño Mac cara de casa', coma meu pai antes ca min. Un nome respectable, para unha idade digna.",
+      "name": "Contrabandista"
+    },
+    "bountyhunter": {
+      "ability": "Empezas sabendo 1 xogador malvado. Se o xogador que sabes morre, descobres outro xogador malvado esta noite. [1 Aldeán é Malvado]",
+      "flavor": "Só, ando estas rúas, pavimentadas co doente fedor da corrupción. A súa espesura méteseme nas fosas nasais, sen permiso, queimando con repugnancia. E anticipación. A enfermidade deste miserable lugar medra cada noite. E eu... Eu son a cura.",
+      "name": "Cazador de Recompensas"
+    },
+    "buddhist": {
+      "ability": "Durante os 2 primeiros minutos de cada día, os xogadores veteráns non poden falar.",
+      "flavor": "Tiras espiñas. Caendo no meu silencio, viran flores.",
+      "name": "Budista"
+    },
+    "bureaucrat": {
+      "ability": "Cada noite, escolle un xogador (non a ti mesmo): seu voto conta por 3 mañá.",
+      "first": "O Burócrata escolle un xogador. :reminder:",
+      "flavor": "Asina aquí por favor. E aquí. E aquí. Eeeeeeeee aquí. Debería estar todo en orde e contado para hoxe, asumindo que as firmas de todos son lexibles. Non tivemos unha confusión co papeleo por siglos. Onte ao mediodía, se mal non recordo...",
+      "name": "Burócrata",
+      "other": "O Burócrata escolle un xogador. :reminder:"
+    },
+    "butcher": {
+      "ability": "Cada día, trala 1a execución, podes nomear outra vez.",
+      "flavor": "Sabe a polo. Máis por favor.",
+      "name": "Carniceiro"
+    },
+    "butler": {
+      "ability": "Cada noite, escolle un xogador (non a ti mesmo): mañá, só podes votar se está a votar tamén.",
+      "first": "O Mordomo escolle un xogador. :reminder:",
+      "flavor": "Si, señor... Non, señor... Por suposto, señor.",
+      "name": "Mordomo",
+      "other": "O Mordomo escolle un xogador. :reminder:"
+    },
+    "cannibal": {
+      "ability": "Tés a habilidade do reciente executado matado. Se é malvado, estás envelenado ata que un xogador bo morra por execución.",
+      "flavor": "Non me gustan os paiasos. Teñen sabor chistoso.",
+      "name": "Caníbal"
+    },
+    "cerenovus": {
+      "ability": "Cada noite, escolle un xogador e un personaxe bo: \"teima\" en que é ese personaxe mañá, ou podería ser executado.",
+      "first": "A Cerenova escolle un xogador e un personaxe. :reminder: Pon a Cerenova a durmir. Esperta o obxectivo. Mostra a ficha *ESTE PERSONAXE SELECCIONOUTE*, a ficha da Cerenova, logo a ficha do personaxe-teimado.",
+      "flavor": "A realidade é unha mera opinión. Específicamente, miña opinión.",
+      "name": "Cerenova",
+      "other": "A Cerenova escolle un xogador e un personaxe. :reminder: Pon a Cerenova a durmir. Esperta o obxectivo. Mostra a ficha *ESTE PERSONAXE SELECCIONOUTE*, a ficha da Cerenova, logo a ficha do personaxe-teimado."
+    },
+    "chambermaid": {
+      "ability": "Cada noite, escolle 2 xogadores vivos (non a ti mesma): descobres cantos espertaron debido á súa habilidade.",
+      "first": "A Criada escolle 2 xogadores vivos. Fai un sinal cos dedos.",
+      "flavor": "Non lle vin cousa rara alghunha, Señora. Espero non lle moleste, pero se vin algho, de seghuro non foi ó señor da casa meterse no laboratorio do profesor aló polas onse e mesturando brebaxes, como dixo vostede, Señora.",
+      "name": "Criada",
+      "other": "A Criada escolle dous xogadores vivos. Fai un sinal cos dedos."
+    },
+    "chef": {
+      "ability": "Empezas sabendo cantas parexas de xogadores malvados hai.",
+      "first": "Fai unha sinal cos dedos.",
+      "flavor": "Que cousa máis rara nas reservas desta noite. Nunca antes se viu á Señora Primavera en compañía dese pícaro de Hudson Lane. Mais, esta noite, teñen mesa para dous. Que estraño.",
+      "name": "Cociñeiro"
+    },
+    "choirboy": {
+      "ability": "Se o Demo mata ao Rei, descobres que xogador é o Demo. [+o Rei]",
+      "flavor": "Vino, enserio. Eu estaba nos bancos, ordenando os libros de himnos, cando unha melodía aterradora comezou no órgano. O organista tiña unha capa longa, e dedos largos nas teclas. E un sombreiro que parecía... igual que... o teu.",
+      "name": "Neno do Coro",
+      "other": "Se o Demo matou ao Rei, sinala ao Demo."
+    },
+    "clockmaker": {
+      "ability": "Empezas sabendo cantos pasos dende o Demo ao seu Esbirro máis cercano.",
+      "first": "Fai un sinal cos dedos.",
+      "flavor": "Non me molestar. O tic debe continuar, pois o círculo é un símbolo de vida e contén tódalas cousas - tódalas respostas - na súa maquinaria divina. Debo traballar.",
+      "name": "Reloxeiro"
+    },
+    "courtier": {
+      "ability": "Unha vez por partida, de noite, escolle un personaxe: está borracho por 3 noites e 3 días.",
+      "first": "A Cortesá podería escoller un personaxe. :reminder: :reminder:",
+      "flavor": "Téñolle máis medo a un exército de cen ovellas lideradas por un león ca a un exército de cen leóns liderados por unha ovella.",
+      "name": "Cortesá",
+      "other": "A Cortesá podería escoller un personaxe. :reminder: :reminder:"
+    },
+    "cultleader": {
+      "ability": "Cada noite, viras ao aliñamento dun veciño vivo. Se tódolos xogadores bos escollen unirse ao teu culto, o teu equipo gaña.",
+      "flavor": "Créndose listos, viráronse parvos.",
+      "name": "Líder do Culto"
+    },
+    "damsel": {
+      "ability": "Tódolos Esbirros saben que hai unha Damisela en xogo. Se un Esbirro te adiviña (unha vez), o teu equipo perde.",
+      "flavor": "Non tóquelo pelo, amor.",
+      "name": "Damisela"
+    },
+    "dawn": {
+      "first": "Espera uns segundos. Termina a Fase Nocturna.",
+      "other": "Espera uns segundos. Termina a Fase Nocturna."
+    },
+    "demoninfo": {
+      "first": "Se hai 7 xogadores ou máis, esperta o Demo: Mostra a ficha *ESTES SON TEUS ESBIRROS*. Sinala tódolos Esbirros. Mostra a ficha *ESTES PERSONAXES NON ESTÁN EN XOGO*. Mostra 3 fichas de personaxes bos fóra de xogo."
+    },
+    "deusexfiasco": {
+      "ability": "Polo menos unha es por partida, o Narrador cometerá un erro, correxirao e admitirao públicamente.",
+      "flavor": "Non é un fallo, é unha función. Non é un erro, é un retoque. Non está roto, é peculiar.",
+      "name": "Deus ex Fiasco"
+    },
+    "deviant": {
+      "ability": "Se hoxe fuches gracioso, non podes morrer por exilio.",
+      "flavor": "Foi coña da moza, enserio.",
+      "name": "Depravado"
+    },
+    "devilsadvocate": {
+      "ability": "Cada noite, escolle un xogador vivo (diferente á noite anterior): se é executado mañá, non morre.",
+      "first": "O Avogado do Diabro escolle un xogador vivo. :reminder:",
+      "flavor": "O meu cliente, de ser a obxección rexeitada, declara inocencia pola virtude da non observación do estatuto 27.B do fiscal - conxugación incorrecta ou enganosa dun verbo. O feito de que nove dos xurados morreran esta noite é simplemente prima facie, o cal é, como Wills contra Thule sentou precedente, maior razón para absolver.",
+      "name": "Avogado do Diabro",
+      "other": "O Avogado do Diabro escolle un xogador vivo. :reminder:"
+    },
+    "djinn": {
+      "ability": "Usa a regra especial do Xenio. Tódolos xogadores saben cal é.",
+      "flavor": "نحن لسنا هنا. انت لست حقيقي. كل شيء هو وهم أسئلتك هي جبل نار في يوم صافٍ.",
+      "name": "Xenio"
+    },
+    "doomsayer": {
+      "ability": "Se 4 ou máis xogadores viven, cada xogador vivo pode escoller públicamente (unha vez por partida) que un xogador do seu propio aliñamento morre.",
+      "flavor": "E no Sétimo Día, ha de haber unha gran inundación e unha peste sobre a Xente da Vila dos Corvos! Os mortos han levantarse e os vivos han arrepentirse! Oh Desgraza! Oh día Impío! Só mediante gran sacrificio han de prevalecer! Así din os Sabios de Nostros e así digo eu.",
+      "name": "Agoirador"
+    },
+    "dreamer": {
+      "ability": "Cada noite, escolle un xogador (non a ti mesmo ou Viaxeiros): descobres 1 personaxe bo e 1 personaxe malo, 1 dos cales é correcto.",
+      "first": "O Soñador sinala un xogador. Mostra 1 ficha de personaxe boa e 1 mala, 1 das cales é o seu personaxe.",
+      "flavor": "Recordo ao Reloxeiro. O ceo era vermello e chovían triángulos fractais. Había un cheiro a violetas e un son burbullante. Unha muller con ollos brillantes e unha barba desaliñada asubiaba ao ceo. Logo, acordei.",
+      "name": "Soñador",
+      "other": "O Soñador sinala un xogador. Mostra 1 ficha de personaxe boa e 1 mala, 1 das cales é o seu personaxe."
+    },
+    "drunk": {
+      "ability": "Non sabes que eres o Borracho. Cres que eres un Aldeán, pero non.",
+      "flavor": "Eu son só un *hip* bebedor social, querida. Certo que, son moi *hip* socializador.",
+      "name": "Borracho"
+    },
+    "duchess": {
+      "ability": "Cada día, 3 xogadores poden escoller visitarte. De noite*, cada visitante descobre cantos visitantes son malvados, pero 1 obtén información falsa.",
+      "flavor": "Hemos de entreternos entre as 6 e as 7 horas precisamente. Té ás 6:15. Bolos ás 6:45. Non veñades tarde. Aplica roupa formal, como sempre.",
+      "name": "Duquesa"
+    },
+    "dusk": {
+      "first": "Empeza a Fase Nocturna.",
+      "other": "Empeza a Fase Nocturna."
+    },
+    "empath": {
+      "ability": "Cada noite, descobres cantos dos teus 2 veciños vivos son malvados.",
+      "first": "Fai un sinal cos dedos.",
+      "flavor": "Pícame a pel. Algo anda mal aquí. Podo sentilo.",
+      "name": "Empática",
+      "other": "Fai un sinal cos dedos."
+    },
+    "engineer": {
+      "ability": "Unha vez por partida, de noite, escolle que Esbirros ou que Demo está en xogo.",
+      "flavor": "Se dobra, perfecto. Se rompe, a ver, probablemente necesitaba reparación de todas formas.",
+      "name": "Enxeñeiro"
+    },
+    "eviltwin": {
+      "ability": "Ti e un xogador contrario coñecédesvos. Se o xogador bo é executado, gaña o mal. O ben non pode gañar se ambos vivides.",
+      "first": "Esperta ambos xemelgos. Deixa que se vexan. Mostra a ficha de personaxe do xemelgo bo á Xemelga Malvada, e viceversa.",
+      "flavor": "Eu non son Sara! Eu son Clara! ELA é Sara! Sara é a malvada! Non eu!",
+      "name": "Xemelga Malvada"
+    },
+    "exorcist": {
+      "ability": "Cada noite*, escolle un xogador (diferente á noite anterior): o Demo, de ser escollido, descobre quen es e despois non esperta esta noite.",
+      "flavor": "Nós expulsámosvos, cada avolto espírito, cada poder satánico, cada asalto do adversario infernal, cada lexión, cada grupo diabólico e secta, no nome e polo poder do Noso Señor Xesucristo. Ordenámosvos, marchade e voade lonxe da Igrexa de Deus, das almas feitas por Deus na súa imaxe e semellanza e redimidas polo valioso sangue da Cabra divina.",
+      "name": "Exorcista",
+      "other": "O Exorcista escolle un xogador. :reminder: Pon o Exorcista a durmir. Se o Exorcista escolleu o Demo: Esperta o Demo. Mostra as fichas *ESTE PERSONAXE SELECCIONOUTE* e do Exorcista. Sinala o Exorcista."
+    },
+    "fanggu": {
+      "ability": "Cada noite*, escolle un xogador: morre. O 1o Forasteiro que isto matar convértese nun Fang Gu malvado e morres ti. [+1 Forasteiro]",
+      "flavor": "Túas paredes e armas non son máis que fume nos sonos.",
+      "name": "Fang Gu",
+      "other": "O Fang Gu escolle un xogador. :reminder: Se escolleu un Forasteiro (só unha vez): Troca a ficha de Forasteiro coa ficha de Fang Gu de sobra. Pon o Fang Gu a durmir. Esperta o obxectivo. Mostra as fichas *TI ES* e do Fang Gu e da un pulgar abaixo. :reminder:"
+    },
+    "farmer": {
+      "ability": "Cando morras de noite, un xogador bo vivo convértese nun Granxeiro.",
+      "flavor": "Incluso os ricos e poderosos necesitan comida na mesa. Sen nós, a cidade morre á fame.",
+      "name": "Granxeiro"
+    },
+    "fearmonger": {
+      "ability": "Cada noite, escolle un xogador: se o nomeado e executas, o seu equipo perde. Tódolos xogadores saben se escolliches un novo xogador.",
+      "flavor": "Coidado de ollar moito cara o Abismo, non sexa que o Abismo che devolva a mirada.",
+      "name": "Arrepiante"
+    },
+    "ferryman": {
+      "ability": "No día final, tódolos xogadores mortos recuperan a súa ficha de voto.",
+      "flavor": "Cando veñen os sonos xustos, teñen o peso da verdade.",
+      "name": "Barqueiro"
+    },
+    "fibbin": {
+      "ability": "Unha vez por partida, 1 xogador bo podería recibir información incorrecta.",
+      "flavor": "Ha-ha-ha. Ha. Ha. Ha.",
+      "name": "Mentireiro"
+    },
+    "fiddler": {
+      "ability": "Unha vez por partida, o Demo escolle en segredo un xogador contrario: tódolos xogadores escollen cal destes 2 xogadores gaña.",
+      "name": "Violinista"
+    },
+    "fisherman": {
+      "ability": "Unha vez por partida, de día, visita o Narrador por un consello para axudar a teu equipo a gañar.",
+      "flavor": "Esta era miña parte favorita da ría... ves como a luz do sol fai un arco da vella dende o mosteiro ata o mercado? Este era o mellor sitio para nos peixes. E canto máis vello me fago, máis grandes de volvían.",
+      "name": "Pescador"
+    },
+    "flowergirl": {
+      "ability": "Cada noite*, descobres se un Demo votou hoxe.",
+      "flavor": "As violetas de onte murcharon e morreron, pero hoxe miñas papoulas florecen.",
+      "name": "Nena das Flores",
+      "other": "Ben asente ou nega coa cabeza."
+    },
+    "fool": {
+      "ability": "A 1a vez que morres, non.",
+      "flavor": "...e o Rei dixo 'Que? Eu nin sequera posuín nunca un par de pantalóns de ghoma, menos aínda un canón de crema!' Ha-ha! Bo día!",
+      "name": "Bufón"
+    },
+    "fortuneteller": {
+      "ability": "Cada noite, escolle 2 xogadores: descobres se algún deles é un Demo. Hai un xogador bo que rexistra como Demo para ti.",
+      "first": "A Pitonisa escolle 2 xogadores. Asente se algún é o Demo (ou o *ENGADO*).",
+      "flavor": "Sinto un gran mal na túa ialma! Pero... podería ser só o teu perfume. Son alérxica ao Sabugueiro.",
+      "name": "Pitonisa",
+      "other": "A Pitonisa escolle 2 xogadores. Asente se algún é o Demo (ou o *ENGADO*)."
+    },
+    "gambler": {
+      "ability": "Cada noite*, escolle un xogador e adiviña o seu personaxe: se te equivocas, morres.",
+      "flavor": "Cara, eu gaño. Cruz, ti perdes.",
+      "name": "Tafur",
+      "other": "O Tafur escolle un xogador e un personaxe. :reminder:"
+    },
+    "gangster": {
+      "ability": "Unha vez por partida, podes escoller matar un veciño vivo, se teu outro veciño está de acordo.",
+      "flavor": "Gústanme teus zapatos. Sería unha pena se tiveras un pequeno accidente, e se estropearan. Agora que o mencionas, tamén me gustan os teus xemelgos.",
+      "name": "Gánster"
+    },
+    "gardener": {
+      "flavor": "Cando a sofística vira estupidez e a hipocresía crueldade, recúa ao xardín. O último amor do home vello son flores e pedras.",
+      "name": "Xardiñeiro"
+    },
+    "general": {
+      "ability": "Cada noite, descobres que aliñamento cre o Narrador que está gañando: bo, malvado, ou ningún.",
+      "first": "Da un sinal co pulgar.",
+      "flavor": "Non teño tempo para frases.",
+      "name": "Xeneral",
+      "other": "Da un sinal co pulgar."
+    },
+    "gnome": {
+      "ability": "Tódolos xogadores empezan sabendo un xogador do teu aliñamento. Podes escoller matar a calqueira que o nomee.",
+      "name": "Gnomo"
+    },
+    "goblin": {
+      "ability": "Se clamas públicamente ser o Trasno ao ser nomeado e es executado ese día, teu equipo gaña.",
+      "flavor": "Non queres insultar aos Trasnos. De verdade da boa que non queres. Cambiando totalmente de tema... podo coller outro anaco de torta?",
+      "name": "Trasno"
+    },
+    "godfather": {
+      "ability": "Empezas sabendo que Forasteiros están en xogo. Se 1 morreu hoxe, escolle un xogador: morre. [-1 ou +1 Forasteiro]",
+      "first": "Mostra as fichas de personaxe de tódolos Forasteiros en xogo.",
+      "flavor": "Normalmente, son só negocios. Pero cando insultas á miña filla, insúltasme a min. E cando me insultas a min, insultas á miña familia. Deberías ter moito máis coidado - sería unha pena se tiveras un desafortunado accidente.",
+      "name": "Padriño",
+      "other": "Se un Forasteiro morreu hoxe, o Padriño escolle un xogador. :reminder:"
+    },
+    "golem": {
+      "ability": "Só pode nomear unha vez por partida. Ao facelo, se o nomeado non é o Demo, morre.",
+      "flavor": "Gólem axudar? Gólem chafar! Gólem axudar.",
+      "name": "Gólem"
+    },
+    "goon": {
+      "ability": "Cada noite, o 1o xogador en escollerte coa súa habilidade está borracho ata o solpor. Viras ao seu aliñamento.",
+      "flavor": "Si xefe. Expliquei o asunto ben explicado ó velluquerio ese. Nó quer que lle volva explicar. Bah xefe, non necesito dotor - é un nadiña cunha navalla. Pasará pa mañá",
+      "name": "Matón"
+    },
+    "gossip": {
+      "ability": "Cada día, podes facer unha declaración pública. Esta noite, se era certa, un xogador morre.",
+      "flavor": "Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla. Bla.",
+      "name": "Maruxa",
+      "other": "Se a Maruxa ten que matar un xogador, morre. :reminder:"
+    },
+    "grandmother": {
+      "ability": "Empezas sabendo un xogador bo e o seu personaxe. Se o Demo o mata, morres tamén.",
+      "first": "Sinala ao xogador neto e mostra a súa ficha de personaxe.",
+      "flavor": "Leva unha chaqueta se vas afora, cariño. E o termo. E a bufanda. Teño un corazón débil, sabes. Que faría eu se te collera o frío... ou peor?",
+      "name": "Avoa",
+      "other": "Se o Demo matou ao neto, a avoa morre tamén. :reminder:"
+    },
+    "gunslinger": {
+      "ability": "Cada día, trala 1a conta de votos, podes escoller un xogador que votou: morre.",
+      "flavor": "Ía sendo hora de que alguén tomase as rendas do asunto. Ese alguén... son eu.",
+      "name": "Pistoleiro"
+    },
+    "harlot": {
+      "ability": "Cada noite*, escolle un xogador vivo: se está de acordo, descobres o seu personaxe, pero ambos poderiades morrer.",
+      "flavor": "Enchanté, Mariñeiro. Semella que precisas dalguén que realmente escoite os teus problemas. Son boa oínte. Moi, moi boa.",
+      "name": "Rameira"
+    },
+    "harpy": {
+      "ability": "Cada noite, escolle 2 xogadores: mañá, o 1o teima que o 2o é malvado, ou un ou ambos poderían morrer.",
+      "flavor": "Un día tan bo nunca eu vin, nin presenza tan ruín pairando sobre min.",
+      "name": "Harpía"
+    },
+    "hatter": {
+      "ability": "Se morriches hoxe ou esta noite, os xogadores Esbirro e Demo pode escoller novos personaxes de Esbirro e Demo que ser.",
+      "flavor": "Soías ser moito máis moitástico. Perdiches a túa moiticidade.",
+      "name": "Sombreireiro"
+    },
+    "hellslibrarian": {
+      "ability": "Algo malo podería pasarlle a quen queira que fale cando o Narrador pediu silencio.",
+      "flavor": "Shhhhhh. Por favor, silencio. É mellor non molestar á Bibliotecaria. Oín que ten mal xenio.",
+      "name": "Bibliotecaria do Inferno"
+    },
+    "heretic": {
+      "ability": "Quen gañe, perde e quen perda, gaña, incluso se estás morto.",
+      "flavor": "Logo de que a saraiba esmagou o tellado e partiu o cristal das fiestras da Catedral, derrete de novo na Terra, coma un año moribundo no sol do deserto. Tal é a parábola do louco.",
+      "name": "Herexe"
+    },
+    "hermit": {
+      "ability": "Tés tódalas habilidades de Forasteiros [-0 ou -1 Forasteiro]",
+      "flavor": "Nos lugares recónditos e esquecidos da terra, a luz da alma chama.",
+      "name": "Ermitán"
+    },
+    "highpriestess": {
+      "ability": "Cada noite, descobre con que xogador cre o Narrador que deberías falar máis.",
+      "first": "Sinala un xogador.",
+      "flavor": "Hai vida trala personalidade que USA personalidades como máscaras. Hai veces nas que a vida quita a máscara e o fondo responde profundamente.",
+      "name": "Suma Sacerdotisa",
+      "other": "Sinala un xogador."
+    },
+    "huntsman": {
+      "ability": "Unha vez por partida, de noite, escolle un xogador vivo: a Damisela, de ser escolleita, convértese nun Aldeán fóra de xogo. [+ a Damisela]",
+      "flavor": "Miña cabana é quente e resistente. Miña machada na porta, miñas botas secando no lume, un cocido lento de alce... Ah! Un grito soa no val! A choiva e o fango e o frío, frío vento enmascaran o cheiro dos lobos, pero coñezo meu camiño e meu andar é seguro. Estou vindo.",
+      "name": "Cazador"
+    },
+    "imp": {
+      "ability": "Cada noite*, escolle un xogador: morre. Se te matas desta maneira, un Esbirro convértese no Imp.",
+      "flavor": "Debemos manter as nosa mente afiadas e a espada máis afiada. O Mal camiña entre nós, e non se deterá ante nada para destruirnos a nós, bos, simples aldeáns, levando a nósa boa vila á ruína. Non confíes en ninguén. Pero, se debes confiar en alguén, confía en min.",
+      "name": "Imp",
+      "other": "O Imp escolle un xogador. :reminder: Se o Imp se escolleu a si mesmo: Troca a ficha dun Esbirro vivo cunha ficha de sobra do Imp. Pon o antigo Imp a durmir. Espera o novo Imp. Mostra a ficha *TI ES*, logo a ficha do Imp."
+    },
+    "innkeeper": {
+      "ability": "Cada noite*, escolle 2 xogadores: non poden morrer esta noite, pero 1 está borracho ata o solpor.",
+      "flavor": "Entra, viaxeiro, e descansa teus ósos fatigados. Bebe e queda contento, pois as lexións do Señor Oscuro non ten han de molestar esta noite.",
+      "name": "Pousadeira",
+      "other": "A Pousadeira escolle 2 xogadores. :reminder: :reminder: :reminder:"
+    },
+    "investigator": {
+      "ability": "Empezas sabendo que 1 de 2 xogadores é un determinado Esbirro.",
+      "first": "Mostra a ficha de personaxe do Esbirro. Sinala a ámbolos xogadores *ESBIRRO* e *INCORRECTO*.",
+      "flavor": "Éche boa noite para un paseo, non lle parece, señor Morozov? Ou debería dicir... BARÓN Morozov?",
+      "name": "Investigador"
+    },
+    "judge": {
+      "ability": "Unha vez por partida, se outro xogador nomeou, podes escoller forzar a execución en curso a pasar ou fallar.",
+      "flavor": "Atopo ao defensor culpable dos crimes de asasinato, fraude, piromanía, furto, suplantar a un axente da lei, practicar mediciña sen licencia, difamación, rexicidio e tirar lixo.",
+      "name": "Xuíz"
+    },
+    "juggler": {
+      "ability": "No teu 1o día, adiviña públicamente os personaxes de ata 5 xogadores. Esa noite, descobres cantos acertaches.",
+      "flavor": "Para o meu seguinte truco, como se requiriu, necesitarei unha flor, unha bolsa de xudías, unha serpe de xoguete, un pincel, e un instrumento recortador de sebes a gasolina motorizado. Advírtovos, este truco pode ser o último para min. Ai señor.",
+      "name": "Malabarista",
+      "other": "Da un sinal cos dedos."
+    },
+    "kazali": {
+      "ability": "Cada noite*, escolle un xogador: morre. [Escolles cales xogadores son cales Esbirros. -? a +? Forasteiros]",
+      "name": "Kazali"
+    },
+    "king": {
+      "ability": "Cada noite, se os mortos igualan ou superan os vivos, descobres 1 personaxe vivo. O Demo sabe que eres o Rei.",
+      "flavor": "Entre as liñas descoñesidas da loita mortal / E a noite mórbida, dose en misterio e desghrasa / Xasen as desenfrenadas aleghrías da longha e colorida vida do destino / Cuxo xardín florese con cada rostro pintado para ensinar.",
+      "name": "Rei"
+    },
+    "klutz": {
+      "ability": "Cando descobres que morriches, escolle públicamente 1 xogador vivo: se é malvado, teu equipo perde.",
+      "flavor": "Ups.",
+      "name": "Torpe"
+    },
+    "knight": {
+      "ability": "Empezas sabendo 2 xogadores que non son o Demo.",
+      "flavor": "Cando un home minte, mata unha parte do mundo.",
+      "name": "Cabaleiro"
+    },
+    "legion": {
+      "ability": "Cada noite*, un xogador podería morrer. As execucións fallan se só o mal votou. Rexistras tamén como Esbirro. [A maioría de xogadores son Lexión]",
+      "flavor": "Estamos no frío que pela nun día de inverno. Estamos na tebra nunha noite sen lúa. Estamos no veleno do teu té e no murmurio da túa orella. Estamos en todas partes.",
+      "name": "Lexión",
+      "other": "Un xogador podería morrer. :reminder:"
+    },
+    "leviathan": {
+      "ability": "Se máis de 1 xogador bo é executado, gaña o mal. Tódolos xogadores saben que estás en xogo. Despois do día 5, gaña o mal.",
+      "flavor": "Ata a fin, aférrome a tu. Dende o corazón do Inferno, apuñálote a tu. Por mor do odio, cuspo meu último alento a tu.",
+      "name": "Leviatán"
+    },
+    "librarian": {
+      "ability": "Empezas sabendo que 1 de 2 xogadores é un determinado Forasteiro. (Ou que non hai ningún en xogo.)",
+      "first": "Mostra a ficha do personaxe do Forasteiro. Sinala a ámbolos xogadores *FORASTEIRO* e *INCORRECTO*.",
+      "flavor": "Certamente señora, en circunstancias normais, podería tomar prestado o Codex Malificarium das bóvedas da biblioteca. Non obstante, vostede non parece ser membro.",
+      "name": "Bibliotecario"
+    },
+    "lilmonsta": {
+      "ability": "Cada noite, os Esbirros escollen quen coida da Criaturiña e \"é o Demo\". Cada noite* un xogador podería morrer. [+1 Esbirro]",
+      "flavor": "Paso 1: Ser lindo. Paso 2: Dominación mundial. Paso 3: Almozo.",
+      "name": "Criaturiña"
+    },
+    "lleech": {
+      "ability": "Cada noite*, escolle un xogador: morre. Empezas escollendo un xogador: está envelenado. Morres se e só se está morto.",
+      "first": "A Sanguixuga escolle un xogador. :reminder:",
+      "flavor": "Saboroso, saboroso, saboroso, saboroso, saboroso, saboroso, saboroso, saboroso cereb- digo pastel! Sí. Saboroso pastel. Eso quixen dicir.",
+      "name": "Sanguixuga",
+      "other": "A Sanguixuga escolle un xogador. :reminder:"
+    },
+    "lordoftyphon": {
+      "ability": "Cada noite* escolle un xogador: morre. [Os personaxes malvados están nunha liña. Estás no medio. +1 Esbirro. -? a +? Forasteiros]",
+      "flavor": "Nas ensombrecidas e esquecidas esquinas do cosmos, onde as estrelas borboriñan segredos ao baleiro, atópase unha verdade tan profunda que a mísera ollada desentraña a cordura das mentes mortais.",
+      "name": "Señor do Tifón",
+      "other": "O Señor do Tifón escolle un xogador. :reminder:"
+    },
+    "lunatic": {
+      "ability": "Cres que eres un Demo, pero non. O Demo sabe quen eres e a quen escolles de noite.",
+      "first": "Se hai 7 ou máis xogadores, esperta o Lunático: Mostra a ficha *ESTOS SON TEUS ESBIRROS*. Sinala a algún xogador. Mostra a ficha *ESTOS PERSONAXES NON ESTÁN EN XOGO*. Mostra as fichas de 3 personaxes bos. Pon o Lunático a durmir. Esperta o Demo. Móstralle a ficha de información*TI ES* e a ficha do Demo. Móstralle a ficha de información *ESTE XOGADOR É* e a ficha do Lunático, logo sinala a Lunático.",
+      "flavor": "Eu son a noite... Creo.",
+      "name": "Lunático",
+      "other": "Fai o que sexa necesario para simular a actuación do Demo. Pon ao Lunático a durmir. Esperta o Demo. Mostra a ficha do Lunático e sinálao, logo ao seu obxectivo(s)."
+    },
+    "lycanthrope": {
+      "ability": "Cada noite*, escolle un xogador vivo. Se é bo, morre e o Demo non mata esta noite. Un xogador bo rexistra como malvado.",
+      "flavor": "Baixo a fina capa da civilización existe unha loucura ouveante.",
+      "name": "Licántropo",
+      "other": "O Licántropo escolle un xogador. :reminder:"
+    },
+    "magician": {
+      "ability": "O Demo pensa que es un Esbirro. Os Esbirros pensan que es un Demo.",
+      "flavor": "1... 2... Abra... 3... 4... Cadabra... *zas!* E, como poden ver, damas e cabaleiros, a bolsa de ouro do capitán Farnsworth desapareceu! Marchou! Sen rastro! Grazas, e boas noites!",
+      "name": "Mago"
+    },
+    "marionette": {
+      "ability": "Pensas que es un personaxe bo, pero non. O Demo sabe quen es. [Es veciña do Demo]",
+      "flavor": "Palabras, palabras. Son todo o que temos para guiarnos.",
+      "name": "Marioneta"
+    },
+    "mastermind": {
+      "ability": "Se o Demo morre por execución (terminando a partida), xogade durante 1 día máis. Se un xogador é entón executado, seu equipo perde.",
+      "flavor": "Os tentáculos dese monstro están cravados á porta da igrexa. Nais e raparigos están a bailar nas calles. Excelente. Todo está procedendo exactamente como o tiña planeado.",
+      "name": "Mente Maestra"
+    },
+    "mathematician": {
+      "ability": "Cada noite, descobres cantas habilidades dos xogadores funcionaron de forma anormal (dende o alba) debido a habilidade doutro personaxe.",
+      "first": "Da un sinal cos dedos.",
+      "flavor": "Calquera sistema formal x consistente, no cal se pode levar a cabo unha certa cantidade de aritmética elemetal está incompleto; isto é, hai afirmacións dunha lingua de x que non poden ser probadas nin desmentidas en x. Ergo, estás borracho.",
+      "name": "Matemático",
+      "other": "Da un sinal cos dedos."
+    },
+    "matron": {
+      "ability": "Cada día, podes escoller ata 3 sets de 2 xogadores para trocar asentos. Os xogadores non poden deixar os seus asentos para falar en privado.",
+      "flavor": "Señorita Plumabaixa, silencio. Señor Ruderford, para unha taza precisa só de catro dedos, por favor. Sei que é pai de nove, pero a idade, ou falta desta como pode ser o caso, xamáis é excusa para falta de maneiras.",
+      "name": "Institutriz"
+    },
+    "mayor": {
+      "ability": "Se só 3 xogadores viven e non ocorre execución, teu equipo gaña. Se morres de noite outro xogador podería morrer no teu lugar.",
+      "flavor": "Debemos esquecer as nosas diferenzas, e deter esta matanza sen xeito. Somos todos contribuíntes a fin de contas. Ehh, a maioría.",
+      "name": "Alcalde"
+    },
+    "mezepheles": {
+      "ability": "Empezas sabendo unha palabra secreta. O 1o xogador bo en dicir esta palabra vira malvado esa noite.",
+      "flavor": "Aquilo que mata o corazón de seu, dobregará os corazón doutros ao teu.",
+      "name": "Mefistofélico"
+    },
+    "minioninfo": {
+      "first": "Se hai 7 ou máis xogadores, esperta tódolos Esbirros: Mostra a ficha *ESTE É Ó DEMO*. Sinala ao Demo. Mostra a ficha *ESTES SON TEUS ESBIRROS*. Sinala aos outros Esbirros."
+    },
+    "minstrel": {
+      "ability": "Cando un Esbirros morre por execución, tódolos demáis xogadores (excepto Viaxeiros) están borrachos ata mañá ao solpor.",
+      "name": "Trobador"
+    },
+    "monk": {
+      "ability": "Cada noite*, escolle un xogador (non a ti mesmo): está a salvo do Demo esta noite.",
+      "flavor": "Éche un mórbido e mortal vento o que sopra esta noite. Ven, meu irmán, refúxiate na abadía mentres a tormenta estala. Pola miña palabra, ou pola miña vida, estarás a salvo.",
+      "name": "Monxe",
+      "other": "O Mince escolle u xogador. :reminder:"
+    },
+    "moonchild": {
+      "ability": "Cando descobres que morriches, escolle públicamente 1 xogador vivo. Esta noite, se era un xogador bo, morre.",
+      "flavor": "Escorpio mira de reollo aos amantes, e tes unha escolla que facer. Pasa prata pola miña man, e teu destino ha ser revelado. Pasa aceiro pola miña gorxa, e polas estrelas que has artepentirte.",
+      "name": "Filla da Lúa",
+      "other": "Se a Filla da Lúa debera matar un xogador bo, morre. :reminder:"
+    },
+    "mutant": {
+      "ability": "Se teimas en que eres un Forasteiro, poderías ser executado.",
+      "flavor": "Non son un bicho raro! Son un ser humano! Tede piedade!",
+      "name": "Mutante"
+    },
+    "nightwatchman": {
+      "ability": "Unha vez por partida, de noite, escolle un xogador: descobre que eres o Vixilante Nocturno.",
+      "flavor": "A noite é fría e solitaria, pero teño a lúa, as estrelas, o vento fresco e o suave golpeteo de botas de coiro contra a beirarrúa por compaña. Anda, luz de velas estremece tras unha turbia fiestra...",
+      "name": "Vixilante Nocturno"
+    },
+    "noble": {
+      "ability": "Empezas sabendo 3 xogadores, dos cales 1 e só 1 é malvado.",
+      "flavor": "O sarcasmo é en efecto a máis baixa forma de argucia. Pero falando en resposta á vosa crítica, Señor, é, con todo, unha forma de argucia.",
+      "name": "Nobre"
+    },
+    "nodashii": {
+      "ability": "Cada noite*, escolle un xogador: morre. Teus 2 aldeáns veciños están envelenados.",
+      "flavor": "Polos pecados de Arnoch, sinto o teu fedor cargado. Polo mal-dito sol e seu sucio séquito de pequenos deuses sorrintes, corrómpote a tu. Pola sacrosanta noite e as profundidades ocultas do horríbel e impío mar, termino túa vida neste plano.",
+      "name": "Non Dashii",
+      "other": "A Non Dashii escolle un xogador. :reminder:"
+    },
+    "ogre": {
+      "ability": "Na túa primeira noite, escolle un xogador (non a ti mesmo): viras ao seu aliñamento (non sabes cal) incluso estando borracho ou envelenado.",
+      "flavor": "<grrr><gorg></grrr>",
+      "name": "Ogro"
+    },
+    "ojo": {
+      "ability": "Cada noite*, escolle un personaxe: morre. Se non está en xogo, o Narrador escolle quen morre.",
+      "flavor": "Coma unha fogueira nunha noite sen lúa... Véxote, mortal.",
+      "name": "Ollo"
+    },
+    "oracle": {
+      "ability": "Cada noite*, descobres cantos xogadores mortos son malvados.",
+      "flavor": "Só os elexidos poden ollar máis aló do velo. Os mortos están inquedos, e sinalan en silencio cara o xeado norte.",
+      "name": "Oráculo",
+      "other": "Fai un sinal cos dedos."
+    },
+    "organgrinder": {
+      "ability": "Tódolos xogadores pechan os ollos ao votar e a conta de votos é secreta. Cada noite, escolle se estás borracho ata o solpor.",
+      "first": "O Organilleiro afirma que si para estar borracho, ou nega que non para estar sobrio. :reminder:",
+      "flavor": "As agullas dan voltas e voltas. Canto máis bailas máis ignoras.",
+      "name": "Organilleiro",
+      "other": "O Organilleiro afirma que si para estar borracho, ou nega que non para estar sobrio. :reminder:"
+    },
+    "pacifist": {
+      "ability": "Os xogadores bos executados poderían non morrer.",
+      "flavor": "Desconfía de todo aquel no cal o impulso de castigar é poderoso.",
+      "name": "Pacifista"
+    },
+    "philosopher": {
+      "ability": "Unha vez por partida, de noite, escolle un personaxe bo: gañas esa habilidade. Se este personaxe está en xogo, está borracho.",
+      "first": "O Filósofo podería escoller un personaxe. De ser necesario, troca a súa ficha de personaxe. :reminder:",
+      "flavor": "Se algo é real, e a cerveza. Bebe, pois mañá podemos morrer.",
+      "name": "Filósofo",
+      "other": "O Filósofo podería escoller un personaxe. De ser necesario, troca a súa ficha de personaxe. :reminder:"
+    },
+    "pithag": {
+      "ability": "Cada noite*, escolle un xogador e un personaxe no que se converte (se non está en xogo). Se se fai un Demo, as mortes esta noite son arbitrarias.",
+      "flavor": "Habelas, hainas.",
+      "name": "Meiga",
+      "other": "A Meiga escolle un xogador e un personaxe. Se escolleu un personaxe que non está en xogo: Pon a Meiga a durmir. Espera ao obxectivo. Mostra a ficha de *TI ES* e a súa nova ficha de personaxe."
+    },
+    "pixie": {
+      "ability": "Empezas sabendo 1 Aldeán en xogo. Se teimaches en que eras este personaxe, gañas a súa habilidade cando morre.",
+      "first": "Mostra a ficha de personaxe do Aldeán marcado como *TEIMADA*."
+    },
+    "plaguedoctor": {
+      "ability": "Cando morres, o Narrador gaña unha habilidade de Esbirros.",
+      "flavor": "Pof favof eftate quieto. Af coufaf nefefitan tempo pada fanar. Afí-afí.",
+      "name": "Médico da Peste"
+    },
+    "po": {
+      "ability": "Cada noite*, podes escoller un xogador: morre. Se a túa última escolla foi ninguén, escolle 3 xogadores esta noite.",
+      "flavor": "Queres unha flor? Estou moi só.",
+      "name": "Po",
+      "other": "O Po pode escoller un xogador OU escolle 3 xogadores se escolleu que ninguén onte. :reminder: ou :reminder: :reminder: :reminder:"
+    },
+    "poisoner": {
+      "ability": "Cada noite, escolle un xogador: está envelenado esta noite e o día de mañá.",
+      "first": "O Envelenador escolle un xogador. :reminder:",
+      "flavor": "Engade compoñente Alfa a compoñente Beta... NON DE MÁIS!",
+      "name": "Envelenador",
+      "other": "O Envelenador escolle un xogador. :reminder:"
+    },
+    "politician": {
+      "ability": "Se fuches o xogador máis responsable da derrota do teu equipo, cambias de aliñamento e gañas, incluso se estás morto.",
+      "flavor": "Alégrome de que fixeras esa pregunta. De veras. Pero creo que a VERDADEIRA pregunta aquí é...",
+      "name": "Político"
+    },
+    "poppygrower": {
+      "ability": "Os Esbirros e Demos non se coñecen. Se morres, descóbrense entre eles esa noite.",
+      "flavor": "Nos agochados soutos do profundo bosque, habita a papoula negra. Ver a súa foliada é quedar enfeitizado. Ulir o seu denso aroma é perderse por sempre, escravo dos deuses da luz e da escuridade.",
+      "name": "Papouleira"
+    },
+    "preacher": {
+      "ability": "Cada noite, escolle un xogador: un Esbirros, de ser escolleito, descóbreo. Tódolos Esbirros escolleitos non teñen habilidade.",
+      "flavor": "É mellor ser rico e estar san, que ser pobre e estar enfermo.",
+      "name": "Predicador"
+    },
+    "princess": {
+      "ability": "No teu 1o día, se nomeaches e executaches un xogador, o Demo non mata esta noite.",
+      "flavor": "As nosas palabras son cans de caza, atados por fíos de seda, estimados señores. Que a bondade os teza con fidelidade, para que os reinos non se desentrañen e rachen a nosa corte.",
+      "name": "Princesa"
+    },
+    "professor": {
+      "ability": "Unha vez por partida, de noite*, escolle un xogador morto: se é un Aldeán, é resucitado.",
+      "flavor": "O proceso é simple. Conecta o confabulador hidráulico ao amplificador modificado da matriz chi, engade 20 CCs de pseudodorafina, mantén seus niveis de Z por enriba do 20%, e teu marido estará ben. Agora, todo o que necesitamos é un golpe de raio.",
+      "name": "Profesor",
+      "other": "O Profesor podería escoller un xogador morto. :reminder: :reminder:"
+    },
+    "psychopath": {
+      "ability": "Cada día, antes das nomeacións, podes escoller públicamente un xogador: morre. De ser executado, só morres se perdes pedra-papel-tesoiras.",
+      "flavor": "Sorpresa!",
+      "name": "Psicópata"
+    },
+    "pukka": {
+      "ability": "Cada noite, escolle un xogador: está envelenado. O xogador previamente envelenado morre e logo sana.",
+      "first": "O Puka escolle un xogador. :reminder:",
+      "flavor": "Foi vostede moi amable acolléndome no seu fermoso fogar. Síntoo moitísimo por rabuñarlo sen querer. Unha cousiña. Un nada. Pero por favor acepte este palillo de ouro como unha humilde mostra do meu arrepentimento.",
+      "name": "Puka",
+      "other": "O Puka escolle un xogador. :reminder: O xogador previamente envelenado morre e logo sana. :reminder:"
+    },
+    "puzzlemaster": {
+      "ability": "1 xogador está borracho, incluso se estás morto. Se adiviñas (unha vez) quen é, descobres o xogador Demo, pero se te equivocas recibes información falsa.",
+      "flavor": "Cando un comeza a pensar que unha cousa é meramente outra cousa, un atópase usualmente ao borde dun erro. Paciencia, paciencia. Non confundir só e debería con é e non é.",
+      "name": "Maestro de Crebacabezas"
+    },
+    "ravenkeeper": {
+      "ability": "Se morres de noite, espertas para escoller un xogador: descobres o seu personaxe.",
+      "flavor": "Meus paxaros vingaranme! Voade! Voade, miñas doces e obedientes mascotas! Ao pazo e ao río! Ás rúas e aos salóns! Voade!",
+      "name": "Coidador de Corvos",
+      "other": "Se o Coidador de Corvos morreu esta noite, o Coidador de Corvos escolle un xogador. Mostra a ficha de personaxe dese xogador."
+    },
+    "recluse": {
+      "ability": "Poderías rexistrar como malo e como un Esbirro ou Demo, incluso se estás morto.",
+      "name": "Recluso"
+    },
+    "revolutionary": {
+      "ability": "2 xogadores veciños son conocidos por ter o mesmo aliñamento. Unha vez por partida, 1 deles rexistra falsamente.",
+      "flavor": "Unidos finximos. Divididos, detivémonos.",
+      "name": "Revolucionario"
+    },
+    "riot": {
+      "ability": "No día 3, os Esbirros convértense en Revolta e os nomeados morren pero nomean un xogador vivo inmediatamente. Isto debe pasar.",
+      "flavor": "Larga vida a la revolución! Mi revolución!",
+      "name": "Revolta"
+    },
+    "sage": {
+      "ability": "Se o demo te mata, descobres que é 1 de 2 xogadores.",
+      "flavor": "Estes montañosos tomos gardan o segredo, estou segura! Entre palabra e palabra, xace agárdanse. Máis velas, rapaz! Máis tinta! Estas notas poden parecer arcanas, pero o crebacabezas infernal estase a resolver.",
+      "name": "Sabia",
+      "other": "Se o Demo matou á Sabia, esperta a Sabia e sinala a 2 xogadores, 1 dos cales é o Demo."
+    },
+    "sailor": {
+      "ability": "Cada noite, escolle un xogador vivo: ou ti ou el está borracho ata o solpor. Non podes morrer.",
+      "first": "O Mariñeiro escolle un xogador vivo. :reminder:",
+      "name": "Mariñeiro",
+      "other": "O Mariñeiro escolle un xogador vivo. :reminder:"
+    },
+    "saint": {
+      "ability": "Se morres por execución, teu equipo perde.",
+      "flavor": "A sabedoría xera paz. A paciencia xera sabedoría. Non temades, pois ha de vir o tempo no que o medo tamén pasará. Oremos, e que a unidade da nosa visión nos faga Santos a todos.",
+      "name": "Santo"
+    },
+    "savant": {
+      "ability": "Cada día, podes visitar ao Narrador para descubrir 2 cousas en privado: 1 é certa e 1 é falsa.",
+      "flavor": "Setenta e dous mistos no chan... o sol ponse cedo pero a lúa non cambia... un anaco de tea rasgado... mal na casa do pazo... tres por tres... naquel que confiamos non é quen parece... luz verde significa magnesio... residuo, pero o patrón está mal... Setenta e dous mistos no chan...",
+      "name": "Erudito"
+    },
+    "scapegoat": {
+      "ability": "Se un xogador do teu aliñamento é executado, poderías ser executado no seu lugar.",
+      "flavor": "Boa tarde! Grazas por invitarme ao baile. Non son de por aquí, pero de seguro parecedes xente amigable, abofé. Seguro que imos a levarnos moi ben. Para que é toda esa corda?",
+      "name": "Chibo Expiatorio"
+    },
+    "scarletwoman": {
+      "ability": "Se hai 5 ou máis xogadores vivos e o Demo morre, convérteste no Demo. (Os viaxeiros non contan.)",
+      "flavor": "Ensináchesme os segredos do Consello da Lapa Violeta. Deitámonos xuntos en lume e luxuria e comuna bestial, e son por sempre a túa serva. Pero esta noite, meu querer, son a túa ama.",
+      "name": "Muller Escarlata",
+      "other": "Se a Muller Escarlata volveuse o Demo hoxe, móstralle a ficha *TI ES*, logo a ficha do Demo."
+    },
+    "seamstress": {
+      "ability": "Unha aves por partida, de noite, escolle dous xogadores (non a ti mesma): descobres se son do mesmo aliñamento.",
+      "first": "A Costureira podería escoller 2 xogadores. Asente ou nega. :reminder:",
+      "flavor": "Escoitaches que aquil estrano na cazadora de cachemira púxolle a pregunta na nosa Bela? I ela dixo que si? Bueno, pois iso non é nada comparado coa que fixeron Enrique e ise malabarista na feira. O que podería dicir se fose unha larapiteira... arre que si.",
+      "name": "Costureira",
+      "other": "A Costureira podería escoller 2 xogadores. Asente ou nega. :reminder:"
+    },
+    "sentinel": {
+      "ability": "Podería haber 1 Forasteiro de máis ou de menos en xogo.",
+      "flavor": "Nome, por favor. Papeis, por favor. Armas, por favor.",
+      "name": "Centinela"
+    },
+    "shabaloth": {
+      "ability": "Cada noite*, escolle 2 xogadores: morren. Un xogador morto que escolleches onte podería ser regurxitado.",
+      "flavor": "Blarg f'taag nm mataan! No sho gumtha m'sik na iuuu. Fluuuuuuuuurg h-sikkkh.",
+      "name": "Shabalote",
+      "other": "Un xogador previamente escolleito podería ser resucitado. :reminder: O Shabalote escolle 2 xogadores. :reminder: :reminder:"
+    },
+    "shugenja": {
+      "ability": "Empezas sabendo se o teu xogador malvado máis próximo se atopa en sentido horario ou antihorario. De ser equidistante, esta información é arbitraria.",
+      "flavor": "これは夢。それも夢。すべて夢です。"
+    },
+    "slayer": {
+      "ability": "Unha vez por partida, de día, escolle públicamente un xogador: se é o Demo, morre.",
+      "flavor": "Morre.",
+      "name": "Matador"
+    },
+    "snakecharmer": {
+      "ability": "Cada noite, escolle un xogador vivo: un Demo escolleito troca personaxes e aliñamentos contigo e despois queda envelenado.",
+      "first": "O Encantador de Serpes escolle un xogador. Se escolleu o Demo: Mostra as fichas *TI ES* e do Demo. Dálle un pulgar abaixo. Troca as fichas de Encantador de Serpes e do Demo. Pon ao antigo Encantador de Serpes a durmir. Esperta o antigo Demo. Mostra as fichas de *TI ES* e do Encantador de Serpes e Dálle un pulgar arriba. :reminder:",
+      "flavor": "Maestro... Non son máis que un home humilde, pero miña pipa é dourada e unha soa melodía domará ao máis salvaxe xenio, si Dios quere. Din que a avaricia colga máis homes ca a corda. Pero eu non, Maestro... Eu non.",
+      "name": "Encantador de Serpes",
+      "other": "O Encantador de Serpes escolle un xogador. Se escolleu o Demo: Mostra as fichas *TI ES* e do Demo. Dálle un pulgar abaixo. Troca as fichas de Encantador de Serpes e do Demo. Pon ao antigo Encantador de Serpes a durmir. Esperta o antigo Demo. Mostra as fichas de *TI ES* e do Encantador de Serpes e Dálle un pulgar arriba. :reminder:"
+    },
+    "snitch": {
+      "ability": "Cada Esbirro recibe 3 farois.",
+      "flavor": "Foi Xoán.",
+      "name": "Lerchán"
+    },
+    "soldier": {
+      "ability": "Estás a salvo do Demo.",
+      "flavor": "Coma David lle dixo a Goliat, coma Teseo lle dixo ao Minotauro, coma Aryuna lle dixo a Bhagadatta... Non.",
+      "name": "Soldado"
+    },
+    "spiritofivory": {
+      "ability": "Non pode haber máis de 1 xogador malvado extra.",
+      "flavor": "O Ermo chama. Ósos erguen en carne, e caen en po. O gran espírito medra. O gran espírito olla. O gran espírito guía. O humano escoita, ou o humano non é máis.",
+      "name": "Espírito de Marfil"
+    },
+    "spy": {
+      "ability": "Cada noite, ves o Grimorio. Poderías rexistrar como bo e como un Aldeán ou Forasteiro, incluso se estás morto.",
+      "first": "Mostra o Grimorio tanto como o Espía o precise.",
+      "flavor": "Calquera cervexeiro que vala o seu licor, sabe que ningún brebaxe serve máis problemas, que un no que os espías parecen dobres.",
+      "name": "Espía",
+      "other": "Mostra o Grimorio tanto como o Espía o precise."
+    },
+    "steward": {
+      "ability": "Empezas sabendo 1 xogador bo.",
+      "flavor": "Como OSAS acusar á Súa Dama de mal obrar? Coñézoa de tódala vida! Nove anos eteiros!",
+      "name": "Paxe"
+    },
+    "stormcatcher": {
+      "ability": "Nomea un personaxe bo. Se está en xogo, só pode morrer por execución, pero os xogadores malvados descobren que xogador é.",
+      "flavor": "Ao alba, a longa sombra do templo arrastra car a fonte. Ao solpor, o obelisco bloques a luz vermella, enfriando as quentes augas baixo a ponte. Tódalas liñas converxen aquí. Avecíñase unha tormenta, e este, este empedrado e exuberante e santificado lugar entre as maceiras, é o ollo.",
+      "name": "Cazador de Tormentas"
+    },
+    "summoner": {
+      "ability": "Recibes 3 farois. Na 3a noite, escolle un xogador: convértese nun Demo malvado da túa escolla. [Non Demo]",
+      "first": "Mostra a ficha *ESTES PERSONAXES NON ESTÁN EN XOGO*. Mostra 3 fichas de personaxes bos fóra de xogo.",
+      "name": "Invocador"
+    },
+    "sweetheart": {
+      "ability": "Cando morres, 1 xogador está borracho a partir de agora.",
+      "flavor": "Nunca a olvidarei. Endexamáis.",
+      "name": "Meniña",
+      "other": "Se a Meniña morreu, un xogador emborrachou inmediatamente. Se aínda non o fixeches, faino agora. :reminder:"
+    },
+    "tealady": {
+      "ability": "Se ámbolos teus veciños vivos son bos, non poden morrer.",
+      "flavor": "Se tes frío, un té quentarate. Se tes calor, un té refrescarate. Se estás deprimido, un té alegrarate. Se estás nervioso, un té calmarate.",
+      "name": "Dama do Té"
+    },
+    "thief": {
+      "ability": "Cada noite, escolle un xogador (non a ti mesmo): seu voto conta negativamente mañá.",
+      "first": "O Ladrón escolle un xogador. :reminder:",
+      "flavor": "Eu non fixen nada. Eu nin estaba en esa calle onte á noite! Non fun eu quen robou o maletín do Alcalde Bruno con todos esos documentos elegantes en el. Ademais, era moi pesado para levalo lexos.",
+      "name": "Ladrón",
+      "other": "O Ladrón escolle un xogador. :reminder:"
+    },
+    "tinker": {
+      "ability": "Poderías morrer en calquera momento.",
+      "flavor": "Creo que vexo un problema. Por sorte, teño unha idea! Esta catapulta disparará o dobre de lonxe só con un pequeno axuste...",
+      "name": "Chapuceiro",
+      "other": "O Chapuceiro podería morrer. :reminder:"
+    },
+    "tor": {
+      "flavor": "Co trono como a miña voz e o lóstrego como a miña folla, eu, o eterno gardián, devoro os tontos que atreven a acercarse á porta prohibida. Contemplade, miña sagrada meta! Para purgar o escaravello da barriga da rochosa terra, para atrapalo nunha rede de estrelas, no cume onde o ceo toca o solo.",
+      "name": "Tor"
+    },
+    "towncrier": {
+      "ability": "Cada noite*, descobres se un Esbirros nomeou hoxe.",
+      "flavor": "Escoitade! Escoitade! Bruxería no labirinto! Erudito xenio revélao todo! Vila en perigo! Escoitade!",
+      "name": "Pregoeiro",
+      "other": "Ben asente ou nega coa cabeza."
+    },
+    "toymaker": {
+      "ability": "O Demo pode escoller non atacar e debe facelo polo menos unha vez por partida. Os xogadores malvados reciben información inicial normal.",
+      "flavor": "Zumba! Baixa as escaleiras! Mantente quente pola noite! Sabe a azúcar! Os raparigos adórano! Introducindo... o novo... Artiluxio zumba-anda-quenta-azucra-amo-couso! Divertido para tódalas idades!",
+      "name": "Fabricante de Xoguetes"
+    },
+    "undertaker": {
+      "ability": "Cada noite*, descobres que personaxe morreu por execución hoxe.",
+      "flavor": "Hmmm... que temos aquí? A bota esquerda está gastada ata o tacón, con virutas de sílex baixo a lingüeta. Este é o vestiario dun Home Militar.",
+      "name": "Sepultureiro",
+      "other": "Se un xogador morreu por execución hoxe, mostra a súa ficha de personaxe."
+    },
+    "vigormortis": {
+      "ability": "Cada noite*, escolle un xogador: morre. Os Esbirros que matas manteñen a súa habilidade e envelenan 1 Aldeán veciño. [-1 Forasteiro]",
+      "flavor": "Tódalas portas son unha porta. Tódalas chaves son una chave. Tódalas tazas son unha taza, pero quen quera que beba da auga que dou nunca ha de ter sede, pois a auga será nel un pozo que brota cara a vida eterna.",
+      "name": "Vigormortis",
+      "other": "O Vigormortis escolle un xogador. :reminder: Se ese xogador é un Esbirro, envelena un Aldeán veciño. :reminder: :reminder:"
+    },
+    "villageidiot": {
+      "ability": "Cada noite, escolle un xogador: descobres o seu aliñamento. [+0 a +2 Parvos da Vila. 1 dos extras exstá borracho]",
+      "flavor": "As rosas son azuis, e as violetas vermellas, Por favor invirte o que eu dixera.",
+      "name": "Parvo da Vila"
+    },
+    "virgin": {
+      "ability": "A 1a vez que es nomeada, se o nomeador é un Aldeán, é executado inmediatamente.",
+      "flavor": "Son Pura. Deixa que aqueles sen pecado se boten abaixo e sufran no meu lugar. Miña reputación non ha de ser manchada coas vosas acusacións venenosas.",
+      "name": "Virxe"
+    },
+    "vizier": {
+      "ability": "Tódolos xogadores saben que es o Visir. Non podes morrer de día. Se alguén bo votou, podes escoller executar inmediatamente.",
+      "flavor": "Unha excelente decisión, como sempre, señor. Un crimen tan ruín coma tropezar co Obispo dende logo merece a vosa 'xustiza' e 'compasión'. Vaia dar un paseo polos xardíns. Visite a galería e examine as esculturas de Von Strauf. Reláxese, señor. Déixeo todo... Para min.",
+      "name": "Visir"
+    },
+    "vortox": {
+      "ability": "Cada noite*, escolle un xogador: morre. As habilidades dos Aldeáns cantan información falsa. Cada día, se ninguén é executado, gaña o mal.",
+      "flavor": "Branco é Negro. Bo é Malo. Dereito é Esquerdo. Arriba é Largo. Abaixo é Vista. Curto é Cego. Ségueme. Respostas Teño.",
+      "name": "Vórtox",
+      "other": "O Vórtox escolle un xogador. :reminder:"
+    },
+    "voudon": {
+      "ability": "Só ti e os mortos podedes votar. Non necesitan unha ficha de voto para facelo. Unha maioría do 50% non é requerida.",
+      "flavor": "Bien venu. Senta. Respira profundo. Entra no mundo dos mortos. Olla cos seus ollos. Fala coa súa voz. Ion sel lang se janm ase.",
+      "name": "Vodú"
+    },
+    "washerwoman": {
+      "ability": "Empezas sabendo que 1 de 2 xogadores é un determinado Aldeán.",
+      "first": "Mostra a ficha de personaxe do Aldeán. Sinala a ámbolos xogadores *ALDEÁN* e *INCORRECTO*.",
+      "flavor": "Manchas de sangue nun traxe? Non, isto é xerez de cociñar. Que descoido.",
+      "name": "Lavandeira"
+    },
+    "widow": {
+      "ability": "Na túa primeira noite, mira o Grimorio e escolle un xogador: está envelenado. 1 xogador bo sabe que unha Viúva está en xogo.",
+      "flavor": "Máis viño? Château d'Ergot '07 é unha colleita moi especial. Pero que, ben ben especial.",
+      "name": "Viúva"
+    },
+    "witch": {
+      "ability": "Cada noite, escolle un xogador: se nomea mañá, morre. Se só 3 xogadores viven, perdes esta habilidade.",
+      "first": "A bruxa escolle un xogador. :reminder:",
+      "flavor": "Tres pingueiras de sangue de cabra. Un guecho de cabelo, arrancado con furia. O nome é pronunciado, a sombra proxectada. Camiña co pé esquerdo primeiro polo camiño enzarzado abaixo, e non mires atrás.",
+      "name": "Bruxa",
+      "other": "A bruxa escolle un xogador. :reminder:"
+    },
+    "wizard": {
+      "ability": "Unha vez por partida, escolle pedir un desexo. Se se cumpre, podería ter un custo, e deixar unha pista da súa natureza.",
+      "flavor": "Cada Home e cada muller é unha estrela. O amor é lei, amor baixo fin.",
+      "name": "Feiticeiro"
+    },
+    "wraith": {
+      "ability": "Podes escoller abrilos ollos de noite. Espertas cando o fan outros xogadores malvados.",
+      "first": "Esperta o Espectro cando outros xogadores malvados esperten.",
+      "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
+      "name": "Espectro",
+      "other": "Esperta o Espectro cando outros xogadores malvados esperten."
+    },
+    "xaan": {
+      "ability": "Na noite X, tódolos Aldeáns están envelenados ata o solpor. [X Forasteiros]",
+      "flavor": "Han caer. Un por un. Por dous, por tres, por cinco.",
+      "name": "Xaan",
+      "other": "Cambia a ficha de recordatorio dos Xaan pola noite relevante. Se é a noite X, marca o Xaan coa ficha de recordatorio *X*. :reminder: :reminder:"
+    },
+    "yaggababble": {
+      "ability": "Empezas sabendo unha frase secreta. Por cada vez que a dixeches públicamente hoxe, un xogador podería morrer.",
+      "flavor": "Crimes na rúa Morgue? Фальшивые новости! Cans no páramo dos Baskerville? Фальшивые новости! Morte namentres navegando o Nilo? Фальшивые новости!",
+      "name": "Iaggabábbel"
+    },
+    "zealot": {
+      "ability": "Se hai 5 ou máis xogadores vivos, debes votar por cada nomeación.",
+      "flavor": "Gusto de falar contigo. A túa mente atráeme. Semella a miña propia mente excepto que resulta que ti estás demente.",
+      "name": "Fanático"
+    },
+    "zombuul": {
+      "ability": "Cada noite*, se ninguén morreu hoxe, escolle un xogador: morre. A 1a vez que morres, vives pero rexistras como morto.",
+      "flavor": "Non. Comprendo. Túas formas. Compañeiro humano. Móstrame. A terra. Onde os santos. Xacen. Durmindo. Eu tamén. Debo. Durmir. Pronto.",
+      "name": "Zombul",
+      "other": "Se ninguén morreu hoxe, o Zombul escolle un xogador. :reminder:"
+    }
+  },
+  "teams": {
+    "demon": "Demos",
+    "fabled": "Lendarios",
+    "loric": "Lóricos",
+    "minion": "Esbirros",
+    "outsider": "Forasteiros",
+    "townsfolk": "Aldeáns",
+    "traveller": "Viaxeiros"
+  },
+  "nightMarkers": {
+    "dawn": "Alba",
+    "demoninfo": "Información do Demo",
+    "dusk": "Solpor",
+    "minioninfo": "Información dos Esbirros"
+  },
+  "reminders": {
+    "2nd": "2o",
+    "3attacks": "3 Ataques",
+    "3votes": "3 Votos",
+    "abnormal": "Anormal",
+    "abouttodie": "A piques de morrer",
+    "actstwice": "Actúa Dúas Veces",
+    "aligned": "Aliñado",
+    "alive": "Vivo",
+    "amigo": "Amigo",
+    "cannotdie": "Non Pode Morrer",
+    "chosen": "Escollido",
+    "claimed": "Avisado",
+    "correct": "Correcto",
+    "cursed": "Maldito",
+    "day1": "Día 1",
+    "day2": "Día 2",
+    "day3": "Día 3",
+    "day4": "Día 4",
+    "day5": "Día 5",
+    "dead": "Morto",
+    "demonnotvoted": "Demo Non Votou",
+    "demonvoted": "Demo Votou",
+    "diedtoday": "Morreu Hoxe",
+    "doesntkill": "Non Mata",
+    "drunk": "Borracho",
+    "drunk1": "Borracho 1",
+    "drunk2": "Borracho 2",
+    "drunk3": "Borracho 3",
+    "everyoneisdrunk": "Todos Borrachos",
+    "evil": "Malvado",
+    "evilwakes": "Espertan Malvados",
+    "falseinfo": "Información Falsa",
+    "fauxpaw": "Mala Pata",
+    "fear": "Arrepío",
+    "finalnightnoattack": "Noite Final: Non Ataque",
+    "friend": "Colega",
+    "good": "Bo",
+    "goodplayerexecuted": "Xogador Bo Executado",
+    "grandchild": "Neto",
+    "guessused": "Intento Usado",
+    "haircutstonight": "Corta o Pelo Esta Noite",
+    "hasability": "Ten Habilidade",
+    "isthealchemist": "É O Alquimista",
+    "istheapprentice": "É O Aprendiz",
+    "isthedemon": "É O Demo",
+    "isthedrunk": "É O Borracho",
+    "isthemarionette": "É A Marioneta",
+    "isthephilosopher": "É Ó Filósofo",
+    "know": "Sabe",
+    "lunch": "Xantar",
+    "mad": "Teimado",
+    "master": "Señor",
+    "maynotnominate": "Non Pode Nomear",
+    "minion": "Esbirro",
+    "minionnominated": "Esbirro Nomeou",
+    "minionsnotnominated": "Esbirros Non Nomearon",
+    "negativevote": "Voto Negativo",
+    "night1": "Noite 1",
+    "night2": "Noite 2",
+    "night3": "Noite 3",
+    "noability": "Non Habilidade",
+    "nominateevil": "Nominar Malvado",
+    "nominategood": "Nominar Bo",
+    "nomoreevil": "Non Máis Malvados",
+    "once": "Unha Vez",
+    "outsider": "Forasteiro",
+    "poisoned": "Envelenado",
+    "protected": "Protexido",
+    "redherring": "Engado",
+    "registerfalsely": "Rexistrar Falsamente?",
+    "safe": "A Salvo",
+    "soberhealthy": "Sobrio e San",
+    "somethingbad": "Algo Malo",
+    "storytellerability": "Habilidade do Narrador",
+    "stormcaught": "Ollo da Tormenta",
+    "survivesexecution": "Sobrevive Execución",
+    "teapartytonight": "Festa do Té Esta Noite",
+    "townsfolk": "Aldeán",
+    "turnsevil": "Vira Malvado",
+    "twin": "Xemelga",
+    "visitor": "Visitante",
+    "whoopsie": "Upsi",
+    "wrong": "Incorrecto"
+  },
+  "jinxes": {
+    "alchemist-boffin": "Se o Alquimista ten a habilidade do Científico, o Alquimista non sabe que habilidade ten o Demo.",
+    "alchemist-marionette": "Un Alquimista-Marioneta non ten a habilidade da Marioneta e a Marioneta está en xogo.",
+    "alchemist-mastermind": "Un Alquimista-Mente Maestra non ten a habilidade da Mente Maestra e a Mente Maestra non está en xogo.",
+    "alchemist-organgrinder": "Se o Alquimista ten a habilidade do Organilleiro, o Organilleiro está e xogo. Se ambos están sobrios, ambos están borrachos.",
+    "alchemist-spy": "Un Alquimista-Espía non ten a habilidade do Espía e o Espía está en xogo. Tras cada execución, un Alquimista-Espía vivo pode adiviñar públicamente a un xogador vivo como o Espía. Se é correcto, o Demo debe escoller ao Espía esta noite.",
+    "alchemist-summoner": "O Alquimista-Invocador non recibe farois, e escolle cál Demo, pero non cál xogador. Se morre antes disto, gaña o mal. [Non Demo]",
+    "alchemist-widow": "Un Alquimista-Viúva non ten a habilidade da Viúva e unha Viúva está en xogo. Tras cada execución, un Alquimista-Viúva pode adiviñar públicamente a un xogador vivo como a Viúva. Se é correcto, o Demo debe escoller á Viúva esta noite.",
+    "alchemist-wraith": "Un Alquimista-Espectro non ten a habilidade do Espectro e un Espectro está en xogo. Tras cada execución, un Alquimista-Espectro pode adiviñar públicamente a un xogador vivo como o Espectro. Se é correcto, o Demo debe escoller ao Espectro esta noite.",
+    "alhadikhia-mastermind": "Se o Al-Hadikhia morre por execución, e a Mente Maestra está viva, o Al-Hadikhia escolle 3 xogadores bos esta noite: se os 3 escollen vivir, gaña o mal. Senón, gaña o ben.",
+    "alhadikhia-princess": "Se a Princesa nomeou e executou a un xogador no seu 1o día, ninguén morre polo Al-Hadikhia esta noite.",
+    "alhadikhia-scarletwoman": "Se houberen dous Demos, un dos cales era a Muller Escarlata, a Muller Escarlata convértese na Muller Escarlata de novo.",
+    "alsaahir-vizier": "O Narrador non declara que o Visir está en xogo.",
+    "atheist-riot": "Durante unha revolta, se o Narrador é nomeado, os xogadores votan. Se está \"a piques de morrer\", o xogo acaba. Se non, nomina outra vez.",
+    "balloonist-marionette": "Se a Marioneta pensá que é o Aeronauta, pode que un Forasteiro fose engadido durante a configuración.",
+    "banshee-leviathan": "Cada noite*, o Leviatán escolle un xogador vivo no (diferente a noites previas): unha Chorona escolleita morre e gaña a súa habilidade.",
+    "banshee-riot": "Cada noite*, a Avolta escolle un xogador bo vivo (diferente a noites previas): unha Chorona escolleita morre e gaña a súa habilidade.",
+    "banshee-vortox": "Se o Vórtox mata á Chorona, tódolos xogadores descobren que a Chorona morreu.",
+    "baron-heretic": "Só 1 personaxe maldito pode estar en xogo.",
+    "baron-plaguedoctor": "Se o Narrador fose gañar a habilidade do Barón, ata dous xogadores convértense en Forasteiros.",
+    "boffin-cultleader": "Se o Demo ten a habilidade do Líder do Culto, non pode virar bo debido a esta habilidade.",
+    "boffin-drunk": "O Demo non pode ter a habilidade do Borracho.",
+    "boffin-goon": "Se o Demo ten a habilidade do Matón, non pode virar bo debido a esta habilidade.",
+    "boffin-heretic": "O Demo non pode ter a habilidade do Herexe.",
+    "boffin-ogre": "O Demo non pode ter a habilidade do Ogro.",
+    "boffin-politician": "O Demo non pode ter a habilidade do Político.",
+    "boffin-villageidiot": "Se hai unha ficha de sobra, o Científico pode outorgar ao Demi a habilidade to Tonto do Pobo.",
+    "boomdandy-plaguedoctor": "Se o Narrador fose gañar a habilidade do Bumdandi, un xogador convértese no Bumdandi.",
+    "bountyhunter-kazali": "Se o Kazali converte ao Cazador de Recompensas nun Esbirro, non se crea un Aldeán malvado.",
+    "bountyhunter-philosopher": "Se o Filósofo gaña a habilidade do Cazador de Recompensas, pode que un Aldeán vire malvado.",
+    "butler-cannibal": "Se o Caníbal gaña a habilidade do Mordomo, o Caníbal descobre isto.",
+    "butler-organgrinder": "Se o Organilleiro está causando ollos pechados durante votacións, o Mordomo pode levantar a man para votar pero seu voto só é contado se o señor tamén votou.",
+    "cannibal-juggler": "Se o Malabarista adiviña no seu primeiro día e morre por execución, esta noite o Caníbal descobre cantas veces acertou o Malabarista.",
+    "cannibal-princess": "Se o Caníbal nomeou, executou, e matou á Princesa hoxe, o Demo non mata esta noite.",
+    "cannibal-zealot": "Se o Caníbal gaña a habilidade do Fanático, o Caníbal descobre isto.",
+    "cerenovus-goblin": "A Cerenova pode escoller que un xogador teime en que é o Trasno.",
+    "chambermaid-mathematician": "A Criada pode detectar se o Matemático espertará esta noite.",
+    "clockmaker-summoner": "O Invocador rexistra como o Demo para o Reloxeiro.",
+    "courtier-summoner": "Se o Invocador vivo non ten habilidade, o Narrador ten a habilidade do Invocador.",
+    "courtier-vizier": "Se o Visir perde a súa habilidade, descóbreo, e non pode morrer de día.",
+    "cultleader-pithag": "Se a Meiga converte un xogador malvado no Líder do Culto, non pode virar bo debida á súa habilidade.",
+    "damsel-pithag": "Se unha Meiga crea unha Damisela, o Narrador escolle que xogador é.",
+    "damsel-spy": "Se o Espía está (ou estivo) en xogo, a Damisela está envelenada.",
+    "damsel-widow": "Se a Viúva está (ou estivo) en xogo, a Damisela está envelenada.",
+    "drunk-mathematician": "O Matemático podería descubrir se a habilidade do Borracho cantou información falsa ou non funcionou correctamente.",
+    "engineer-legion": "Se se crea unha Lexión, tódolos xogadores malvados convértense en Lexión. Se a Lexión está en xogo, o Enxeñeiro empeza sabendo isto pero non ten habilidade.",
+    "engineer-summoner": "Se o Invocador vivo sae de xogo, o Narrador ten a habilidade do Invocador.",
+    "eviltwin-plaguedoctor": "Se o Narrador fose gañar a habilidade da Xemelga Malvada, un xogador convértese na Xemelga Malvada.",
+    "exorcist-leviathan": "Se o Leviatán nomea e executa o xogador escolleito polo Exorcista, gaña o ben.",
+    "exorcist-riot": "Se a Avolta nomea e executa o xogador escolleito polo Exorcista, gaña o ben.",
+    "exorcist-yaggababble": "Se o Exorcista escolle o Iaggabábbel, o Iaggabábbel non mata esta noite.",
+    "fanggu-scarletwoman": "Se houberen dous Demos, un dos cales era a Muller Escarlata, a Muller Escarlata permanece como a Muller Escarlata.",
+    "farmer-leviathan": "Cada noite*, o Leviatán escolle un xogador bo vivo (diferente a noites previas): un Granxeiro escolleito usa a súa habilidade pero non morre.",
+    "farmer-riot": "Cada noite* a Avolta escolle un xogador bo vivo (diferente a noites previas): un Granxeiro escolleito usa a súa habilidade pero non morre.",
+    "fearmonger-plaguedoctor": "Se o Narrador fose gañar a habilidade do Arrepiante, un Esbirro gáñaa, e sábeo.",
+    "fearmonger-vizier": "O Visir esperta co Arrepiante, descobre a quen escolle e non pode escoller executar inmediatamente a ese xogador.",
+    "goblin-plaguedoctor": "Se o Narrador fose gañar a habilidade do Trasno, un Esbirro gáñaa, e sábeo.",
+    "godfather-heretic": "Só un personaxe maldito pode estar en xogo.",
+    "goon-pithag": "Se a Meiga converte un xogador malvado no Matón, non pode virar bo debido á súa habilidade.",
+    "grandmother-leviathan": "Se o Leviatán está en xogo e o Neto morre por execución, gaña o mal.",
+    "grandmother-riot": "Se a Avolta está en xogo e o Neto morre por execución, gaña o mal.",
+    "hatter-legion": "Se Lexión é creada, tódolos xogadores malvados convértense en Lexión. Se a Lexión está en xogo, o Sombreireiro non ten habilidade.",
+    "hatter-leviathan": "O Leviatán non pode entrar en xogo tralo día 5.",
+    "hatter-lilmonsta": "Se o Sombreireiro morre e o Demo escolle Criaturiña, tamén escolle un Esbirros no que converterse.",
+    "hatter-summoner": "Se o Invocador crea un segundo Demo vivo, as mortes esta noite son arbitrarias.",
+    "heretic-lleech": "Só 1 personaxe maldito pode está en xogo.",
+    "heretic-pithag": "Só 1 personaxe maldito pode estar en xogo.",
+    "heretic-spy": "Só 1 personaxe maldito pode estar en xogo.",
+    "heretic-widow": "Só 1 personaxe maldito pode estar en xogo.",
+    "huntsman-marionette": "Se a Marioneta le pensa que é o Cazador, a Damisela foi engadida na configuración.",
+    "innkeeper-leviathan": "Se o Leviatán nomea e executa un xogador protexido pola Pousadeira, gaña o ben.",
+    "innkeeper-riot": "Se Avolta nomea e executa un xogador protexido pola Pousadeira, gaña o ben.",
+    "investigator-vizier": "O Narrador non declara que o Visir está en xogo.",
+    "kazali-marionette": "Se fose haber unha Marioneta en xogo, entra despois do Demo e debe empezar como a súa veciña.",
+    "kazali-summoner": "Se o Invocador crea un segundo Demo vivo, as mortes esta noite son arbitrarias.",
+    "king-leviathan": "Se o Leviatán está en xogo, e polo menos 1 xogador está morto, o Rei descobre un personaxe vivo cada noite.",
+    "king-riot": "Se Avolta está en xogo, e polo menos 1 xogador está morto, o Rei descobre un personaxe vivo cada noite.",
+    "legion-magician": "O Mago esperta coa Lexión e pode que rexistre como malvado. A Lexión sabe se hai un Mago en xogo, pero non que xogador é.",
+    "legion-minstrel": "Se unha Lexión morreu por execución hoxe, a Lexión conserva a súa habilidade, pero o Trobador podería descubrir que é Lexión.",
+    "legion-politician": "O Político podería rexistrar como malvado para Lexión.",
+    "legion-preacher": "Se o Predicador escolle Lexión, a Lexión conserva a súa habilidade, pero o Predicador podería descubrir que é Lexión.",
+    "legion-summoner": "Se Lexión é invocada, tódolos xogadores malvados convértense en Lexión.",
+    "legion-zealot": "O Fanático podería rexistrar como malvado para Lexión.",
+    "leviathan-mayor": "Se o Leviatán e o Alcalde están vivos no día 5 e non ocorre execución, gaña o ben.",
+    "leviathan-monk": "Se o Leviatán nomea e executa ao xogador protexido polo Monxe, gaña o ben.",
+    "leviathan-pithag": "O Leviatán non pode entrar en xogo tralo día 5.",
+    "leviathan-ravenkeeper": "Cada noite*, o Leviatán escolle un xogador vivo (diferente a noites previas): un Coidador de Corvos escolleito usa a súa habilidade pero non morre.",
+    "leviathan-sage": "Cada noite*, o Leviatán escolle un xogador bo vivo (diferente a noites previas): un Sabio escolleito usa a súa habilidade pero non morre.",
+    "leviathan-soldier": "Se o Leviatán nomea e executa á Soldado, gaña o ben.",
+    "lilmonsta-magician": "Se o Mago está vivo, o Narrador escolle que Esbirro coida da Criaturiña.",
+    "lilmonsta-marionette": "Se fose haber unha Marioneta en xogo, entra despois do Demo e debe empezar como a súa veciña.",
+    "lilmonsta-poppygrower": "Se a Criaturiña e a Papouleira estás vivas, os Esbirros espertan un a un, ata que un deles escolla quedar ca ficha da Criaturiña.",
+    "lilmonsta-psychopath": "Se o Psicópata está coidando da Criaturiña, morre cando é executado.",
+    "lilmonsta-scarletwoman": "Se a Criaturiña morre con 5 ou máis xogadores vivos, a Muller Escarlata coida da Criaturiña polo resto da partida.",
+    "lilmonsta-vizier": "Se o Visir está coidando da Criaturiña, morre cando é executado.",
+    "lleech-mastermind": "Se a Mente Maestra está viva e o hóspede da Sanguixuga morre por execución, a Sanguixuga vive pero perde a súa habilidade.",
+    "lleech-slayer": "Se o Matador mata ao hóspede da Sanguixuga, o hóspede morre.",
+    "lordoftyphon-summoner": "Se un Señor do Tifón e invocado, debe ser veciño dun Esbirro e o outro veciño convértese nun Esbirro malvado.",
+    "lunatic-mathematician": "O Matemático podería descubrir se o Lunático ataca a un xogador diferente ao que atacou o Demo.",
+    "magician-marionette": "Se o Mago está vivo o Demo non sabe que veciño é a Marioneta.",
+    "magician-spy": "Cando o Espía ve o Grimorio, as Fichas de Personaxe do Demo e do Mago quítanse.",
+    "magician-vizier": "Se o Visir está en xogo, o Mago non ten habilidade pero é inmune á habilidade do Visor.",
+    "magician-widow": "Cando a Viúva ve o Grimorio, as fichas pde personaxe do Demo e do Mago quítanse.",
+    "magician-wraith": "Tras cada execución, o Mago vivo pode adiviñar públicamente a un xogador como o Espectro. Se é correcto, o Demo debe escoller o Espectro esta noite.",
+    "marionette-mathematician": "O Matemático podería descubrir se a habilidade da Marioneta cantou información falta ou non funcionou correctamente.",
+    "marionette-plaguedoctor": "Se o Narrador fose gañar a habilidade da Marioneta, un dos veciños bos do Demo convértese na Marioneta.",
+    "marionette-summoner": "Se fose haber unha Marioneta en xogo, entra en xogo despois do Demo e debe empezar como a súa veciña.",
+    "mastermind-vigormortis": "A Mente Maestra que ten a súa habilidade mantena se o Vigormortis morre.",
+    "mayor-riot": "O Alcalde pode escoller deter a Revolta. Se o fai cando só 1 Revolta está viva, gaña o ben. Se non, gaña o mal.",
+    "monk-riot": "Se a Revolta monea e executa o xogador protexido polo Monxe, gaña o ben.",
+    "ogre-pithag": "Se a Meiga converte un xogador malvado no Ogro, non pode virar bo debido á súa habilidade.",
+    "ogre-recluse": "Se o Recluso rexistra como malvado para o Ogro, o Ogro descobre que é malvado.",
+    "ogre-spy": "O Espía rexistra como malvado para o Ogro.",
+    "pithag-politician": "Se a Meiga converte un xogador malvado no Político, non pode virar bo debido á súa habilidade.",
+    "pithag-summoner": "Se o Invocador crea un segundo Demo vivo, as mortes esta noite son arbitrarias.",
+    "pithag-villageidiot": "Se hai unha ficha de sobra, a Meiga pode crear un Parvo da Vila. De ser así, o Parvo da Vila borracho podería cambiar.",
+    "plaguedoctor-scarletwoman": "Se o Narrador fose gañar a habilidade da Muller Escarlata, un Esbirro gáñaa, e sábeo.",
+    "plaguedoctor-spy": "Se o Narrador fose gañar a habilidade do Espía, un Esbirros gáñaa, e sábeo.",
+    "plaguedoctor-wraith": "Se o Narrador fose gañar a habilidade do Espectro, un Esbirro gáñaa, e sábeo.",
+    "politician-vizier": "O Político podería rexistrar como malvado para o Visir.",
+    "poppygrower-spy": "Se a Papouleira ten a súa habilidade, o Espía non ve o Grimorio.",
+    "poppygrower-summoner": "Se a Papouleira está viva na 3a noite, o Invocador escolle que Demo, pero non que xogador.",
+    "poppygrower-widow": "Se a Papouleira ten a súa habilidade, a Viúva non ve o Grimorio.",
+    "preacher-summoner": "Se o Invocador vivo non ten habilidade, o Narrador ten a habilidade do Invocador.",
+    "preacher-vizier": "Se o Visir perde a súa habilidade, descóbreo, e non pode morrer de día.",
+    "pukka-summoner": "O Invocador pode invocar un Pukka na 2a noite en lugar da 3a.",
+    "ravenkeeper-riot": "Cada noite*, a Revolta escolle un xogador bo vivo (diferente a noites previas): un Coidador de Corvos escolleito usa a súa habilidade pero non morre.",
+    "recluse-sage": "O Recluso podería rexistrar como o Demo para o Sabio.",
+    "riot-sage": "Cada noite*, a Revolta escolle un xogador bo vivo (diferente a noites previas): un Sabio escolleito usa a súa habilidade pero non morre.",
+    "riot-soldier": "Se a Revolta nomea e executa a Soldado, gaña o ben.",
+    "summoner-zombuul": "Se o Invocador invoca un xogador morto no Zombuul, o Zombuul xa \"morreu unha vez\".",
+    "vizier-zealot": "O Fanático podería rexistrar como malvado para o Visir."
+  }
+}

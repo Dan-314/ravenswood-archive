@@ -9,6 +9,8 @@ import {
   createOverlayBackground,
 } from "../utils/colours";
 import type { GroupedCharacters, Jinx, PdfOptions } from "@/lib/botc/types";
+import type { TranslationData } from "@/lib/botc/translations";
+import { translateTeamName } from "@/lib/botc/translations";
 import type { FabledOrLoric } from "../utils/fabledOrLoric";
 import { JinxesAndSpecial } from "../components/JinxesAndSpecial";
 import { CharacterSection } from "./CharacterSection";
@@ -24,6 +26,7 @@ interface CharacterSheetProps {
   bootleggerRules?: string[];
   options: PdfOptions;
   assetsUrl: string;
+  translations?: TranslationData | null;
 }
 
 export function CharacterSheet({
@@ -35,6 +38,7 @@ export function CharacterSheet({
   bootleggerRules = [],
   options,
   assetsUrl,
+  translations,
 }: CharacterSheetProps) {
   const {
     color,
@@ -53,25 +57,25 @@ export function CharacterSheet({
   const sections = [
     {
       key: "townsfolk",
-      title: "Townsfolk",
+      title: translateTeamName("townsfolk", translations ?? null),
       chars: characters.townsfolk,
       color: teamColours["townsfolk"],
     },
     {
       key: "outsider",
-      title: "Outsiders",
+      title: translateTeamName("outsider", translations ?? null),
       chars: characters.outsider,
       color: teamColours["outsider"],
     },
     {
       key: "minion",
-      title: "Minions",
+      title: translateTeamName("minion", translations ?? null),
       chars: characters.minion,
       color: teamColours["minion"],
     },
     {
       key: "demon",
-      title: "Demons",
+      title: translateTeamName("demon", translations ?? null),
       chars: characters.demon,
       color: teamColours["demon"],
     },

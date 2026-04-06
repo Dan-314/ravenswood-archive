@@ -2,7 +2,7 @@ import { createClient } from '@/lib/supabase/server'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { ArrowLeft } from 'lucide-react'
-import { ScriptPreviewLayout } from './ScriptPreviewLayout'
+import { ScriptDetailClient } from './ScriptDetailClient'
 import { ScriptSidebar } from './ScriptSidebar'
 import type { Metadata } from 'next'
 
@@ -98,10 +98,9 @@ export default async function ScriptDetailPage({ params }: Props) {
         Back to search
       </Link>
 
-      <ScriptPreviewLayout
+      <ScriptDetailClient
         rawJson={script.raw_json}
         defaultColor={accentColor}
-        sidebarPosition="left"
         sidebar={
           <ScriptSidebar
             scriptId={id}

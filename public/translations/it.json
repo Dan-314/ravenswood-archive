@@ -1,0 +1,1331 @@
+{
+  "roles": {
+    "acrobat": {
+      "ability": "Ogni notte*, scegli un giocatore: se quest'ultimo diventa o è ubriaco o avvelenato stanotte, muori.",
+      "flavor": "Benvenuti, tutti quanti, al più grande spettacolo sulla terra.",
+      "name": "Acrobata",
+      "other": "L'Acrobata sceglie un giocatore. :reminder:"
+    },
+    "alchemist": {
+      "ability": "Hai un'abilità di un Tirapiedi. Quando la usi, il Narratore può chiederti di scegliere diversamente.",
+      "first": "Mostra il gettone *TU SEI* e il gettone personaggio di un Tirapiedi.",
+      "flavor": "Visita l'interno della Terra. Tramite la rettificazione troverai la pietra nascosta. Al di sopra dell'oro, giace il rosso. Kether in Malkuth.",
+      "name": "Alchimista"
+    },
+    "alhadikhia": {
+      "ability": "Ogni notte*, puoi scegliere 3 giocatori (tutti i giocatori sanno chi): ognuno sceglie silenziosamente se vive o muore, ma se tutti decidono di vivere, tutti e tre muoiono.",
+      "flavor": "Alsukut min dhahab.",
+      "name": "Al-Hadikhia",
+      "other": "L'Al-Hadikhia sceglie tre giocatori. :reminder: :reminder: :reminder: Sveglia ciascun giocatore in ordine. Il giocatore annuisce oppure scuote la testa. Addormentalo prima di svegliare il giocatore seguente."
+    },
+    "alsaahir": {
+      "ability": "Ogni giorno, se indovini pubblicamente quali giocatori sono Tirapiedi e quali sono Demoni, i buoni vincono.",
+      "flavor": "Sono qui per causa tua, e tu sei qui per causa mia.",
+      "name": "Alsaahir"
+    },
+    "amnesiac": {
+      "ability": "Non sai qual è la tua abilità. Ogni giorno, indovina privatamente qual è: scopri quanto sia accurata la tua ipotesi.",
+      "first": "Fai quel che è necessario per soddisfare l'abilità dello Smemorato.",
+      "flavor": "Aspetta. Cosa. Chi? Oh, ok. Aspetta. Cosa?",
+      "name": "Smemorato",
+      "other": "Fai quel che è necessario per soddisfare l'abilità dello Smemorato."
+    },
+    "angel": {
+      "ability": "Qualcosa di brutto potrebbe succedere a chi è il più responsabile della morte di un nuovo giocatore.",
+      "first": "Dichiara quali giocatori sono protetti dall'Angelo. :reminder:",
+      "flavor": "Lascia quelli che non hanno peccato alzare la mano ai miei prescelti, e colpirò questi idioti con la furia della giustizia e di mille tempeste.",
+      "name": "Angelo"
+    },
+    "apprentice": {
+      "ability": "Durante la tua prima notte, ottieni l'abilità di un Cittadino (se sei buono), o l'abilità di un Tirapiedi (se sei malvagio).",
+      "first": "Mostra la carta *TU SEI*, poi un gettone Cittadino o Tirapiedi. Sostituisci il gettone Apprendista con quel gettone personaggio. :reminder:",
+      "flavor": "Per anni ho viaggiato, studiando i metodi dell'Arte. Quale arte, ti chiederai? Semplicemente l'arte della gente umile. Nulla di cui preoccuparsi. Non ancora.",
+      "name": "Apprendista"
+    },
+    "artist": {
+      "ability": "Una volta a partita, durante il giorno, chiedi privatamente al Narratore qualsiasi domanda a cui si può rispondere con sì o no.",
+      "flavor": "Mon Dieu! C'est lumineux! Oh cielo, lei è... come dire... Magnifique! Dieu est révélé! Oui.",
+      "name": "Artista"
+    },
+    "assassin": {
+      "ability": "Una volta a partita, durante la notte*, scegli un giocatore: quest'ultimo muore, anche se per qualche motivo non potrebbe.",
+      "flavor": "...",
+      "name": "Sicario",
+      "other": "Il Sicario potrebbe scegliere un giocatore. :reminder: :reminder:"
+    },
+    "atheist": {
+      "ability": "Il Narratore può infrangere le regole e se giustiziato, i buoni vincono, anche se sei morto. [Nessun personaggio malvagio]",
+      "flavor": "Disperdiamoci con congetture inutili e stupide paranoie. C'è una spiegazione perfettamente razionale per tutto. Sì, una tazza di tè può orbitare attorno al pianeta, troppo piccola per essere vista, ma berrò il mio tè dalla ceramica completamente reale nelle mie mani completamente reali.",
+      "name": "Ateo"
+    },
+    "balloonist": {
+      "ability": "Ogni notte, scopri un giocatore con un tipo di personaggio diverso da quello della notte scorsa. [+0 o +1 Forestiero]",
+      "first": "Mostra qualsiasi giocatore. :reminder:",
+      "flavor": "Più calore! Più in alto! Più in alto! Più alto! Ahhh... è così bello quassù, non credi? Riesci a vedere i bambini che pescano nel fiume, al di sotto del salice? Riesci a vedere lo scintillio del sole sui pali delle tende del circo? Cos'è questo? Un vecchio, solo, addormentato nel vinaio? Meno calore! Più in basso! Più in basso! Vai più in basso!",
+      "name": "Aeronauta",
+      "other": "Mostra un giocatore con un tipo di personaggio diverso da quello precedente. :reminder:"
+    },
+    "banshee": {
+      "ability": "Se il Demone ti uccide, tutti i giocatori lo scoprono. D'ora in poi, puoi accusare due volte al giorno e votare due volte durante ogni accusa.",
+      "flavor": "Gorm do shúile, dearg do ghruaig, ní bheidh sé i bhfad, is a mbeidh tú san uaigh.",
+      "name": "Banshee",
+      "other": "Se la Banshee è stata uccisa dal Demone stanotte, annuncia a tutti i giocatori che la Banshee è morta. :reminder:"
+    },
+    "barber": {
+      "ability": "Se sei morto oggi o stanotte, il Demone può scegliere 2 giocatori (non un altro Demone) che scambiano personaggi.",
+      "flavor": "Lo sapevi che barbiere e chirurgo un tempo erano la stessa professione? No? Beh, ora lo sai.",
+      "name": "Barbiere",
+      "other": "Se il Barbiere è morto oggi o stanotte, mostra al Demone la tessera *QUESTO PERSONAGGIO TI HA SCELTO* e il gettone del Barbiere. Se il Demone ha scelto 2 giocatori, svegliali uno alla volta. Mostra la tessera *TU SEI* e il loro nuovo gettone personaggio."
+    },
+    "barista": {
+      "ability": "Ogni notte, fino al tramonto, 1) un giocatore diventa sobrio, sano e ottiene informazioni vere, o 2) la sua abilità è attivata due volte. Il giocatore in questione scopre quale delle due opzioni.",
+      "first": "Scegli un giocatore. Sveglialo, mostragli la tessera *QUESTO PERSONAGGIO TI HA SCELTO* e il gettone personaggio del Barista, poi fai un segnale con le dita. :reminder:",
+      "flavor": "Una tazza di caffè senza crema, Monsieur? Sono terribilmente spiacemente, ma abbiamo appena finito la crema — facciamo senza latte?",
+      "name": "Barista",
+      "other": "Scegli un giocatore. Sveglialo, mostragli la tessera *QUESTO PERSONAGGIO TI HA SCELTO* e il gettone personaggio del Barista, poi fai un segnale con le dita. :reminder:"
+    },
+    "baron": {
+      "ability": "Ci sono più Forestieri in gioco. [+2 Forestieri]",
+      "flavor": "Questa città sta andando a rotoli, che succede? Manodopera straniera sottopagata... questa è la strategia vincente. Ficcali nelle miniere, ti dico. Un po' di lavoro sodo non ha mai fatto male a nessuno, e una tirata d'orecchi a qualunque brigatista che dica il contrario. Il risultato è quello che conta, no?",
+      "name": "Barone"
+    },
+    "beggar": {
+      "ability": "Devi usare un gettone voto per votare. Se un giocatore morto ti offre il suo gettone, scopri il suo allineamento. Sei sobrio e sano.",
+      "flavor": "Elemosina per i poveri, caro Signore? Fate la carità, Signora? Grazie. Dio vi benedica! Siete un'anima gentile e che sia chiaro! Farò uno spuntino di puro lusso stasera, ebbene sì!",
+      "name": "Mendicante"
+    },
+    "bishop": {
+      "ability": "Solo il Narratore può lanciare un'accusa. Almeno 1 giocatore dell'allineamento opposto deve essere accusato ogni giorno.",
+      "flavor": "In nomine Patris, et Filii, et Spiritus Sancti… Nos mos Dei. Deus vult de nobis.",
+      "name": "Vescovo"
+    },
+    "boffin": {
+      "ability": "Il Demone (anche se ubriaco o avvelenato) ha l'abilità di un personaggio buono non attualmente in gioco. Entrambi sapete quale.",
+      "first": "Sveglia il Cervellone e il Demone. Mostra il gettone *QUESTO PERSONAGGIO TI HA SCELTO* e il gettone Cervellone, poi il gettone del personaggio buono non in gioco.",
+      "flavor": "Idrogeno stellare, vasto, inerte; carbone, ossigeno, gas neon, tutti rovinati. Caos molecolare, l'entropia genera nuovi fenomeni cosmici, rinati dal caos atomico, materia densa che collassa. Tutto quanto in una piccolissima boccetta.",
+      "name": "Cervellone"
+    },
+    "bonecollector": {
+      "ability": "Una volta a partita, durante la notte*, scegli un giocatore morto: quest'ultimo riottiene la sua abilità fino al tramonto.",
+      "flavor": "Colleziono tante cose. Capelli. Denti. Vestiti. Frammenti di poesie. I sogni di amanti perduti. Non sta a te conoscere le mie arti occulte, ma quello che ti chiedo in cambio è praticamente una miseria. Portami il sangue di una nobildonna che è morta di crepacuore durante una notte di luna piena, e avrai le tue risposte.",
+      "name": "Collezionista di Ossa",
+      "other": "Il Collezionista di Ossa potrebbe scegliere un giocatore morto. :reminder: Se necessario, sveglia il giocatore scelto per permettergli di usare la sua abilità."
+    },
+    "boomdandy": {
+      "ability": "Se sei giustiziato, tutti i giocatori muoiono tranne 3. Dopo un conto alla rovescia da 10 a 1, il giocatore che viene indicato dalla maggior parte degli altri giocatori muore.",
+      "flavor": "Tic... Tic... Tic... TOC.",
+      "name": "Bombarolo"
+    },
+    "bootlegger": {
+      "ability": "Questo scenario ha personaggi o regole personalizzati.",
+      "flavor": "Mi è arrivata quest'ultima spedizione da casa, una birra che vorrei chiamare \"Carro-Nebbia\". Vuoi provarla?",
+      "name": "Contrabbandiere"
+    },
+    "bountyhunter": {
+      "ability": "Inizi conoscendo 1 giocatore malvagio. Se il giocatore che conosci muore, scopri un altro giocatore malvagio stanotte. [1 Cittadino è malvagio]",
+      "first": "Indica il giocatore marcato come *CONOSCE*.",
+      "flavor": "Cammino solitario per queste strade, lastricate con il tanfo nauseabondo della corruzione. È così denso che si insinua senza invito tra le mie narici, bruciando con disgusto. E impazienza. La malattia di questo posto miserabile peggiora ogni notte. E io... io sono la cura.",
+      "name": "Cacciatore di Taglie",
+      "other": "Se il giocatore *CONOSCIUTO* è morto oggi o stanotte, indica un nuovo giocatore *CONOSCIUTO*."
+    },
+    "buddhist": {
+      "ability": "Ogni giorno, i giocatori veterani non possono parlare per i primi 2 minuti.",
+      "first": "Dichiara quali giocatori sono soggetti al Buddista.",
+      "flavor": "Voi lanciate spine. Mentre cadono col mio silenzio, diventano fiori.",
+      "name": "Buddhista"
+    },
+    "bureaucrat": {
+      "ability": "Ogni notte, scegli un giocatore (non te stesso): il suo voto conta come 3 voti domani.",
+      "first": "Il Burocrate sceglie un giocatore. :reminder:",
+      "flavor": "Firmi qui, per favore. E qui. E qui. Eeeeeeeee qui. Dovrebbe essere tutto risolto e registrato entro la fine della giornata, ammesso che le firme di tutti siano leggibili. È da secoli che non abbiamo avuto un errore con le pratiche. Ieri a mezzogiorno, se non ricordo male...",
+      "name": "Burocrate",
+      "other": "Il Burocrate sceglie un giocatore. :reminder:"
+    },
+    "butcher": {
+      "ability": "Ogni giorno, dopo la prima esecuzione, puoi accusare di nuovo.",
+      "flavor": "Sa di pollo. Di più per favore.",
+      "name": "Macellaio"
+    },
+    "butler": {
+      "ability": "Ogni notte, scegli un giocatore (non te stesso): domani, puoi votare solo se anche chi hai scelto sta votando.",
+      "first": "Il Maggiordomo sceglie un giocatore. :reminder:",
+      "flavor": "Sì, signore... No, signore... Assolutamente, signore.",
+      "name": "Maggiordomo",
+      "other": "Il Maggiordomo sceglie un giocatore. :reminder:"
+    },
+    "cannibal": {
+      "ability": "Hai l'abilità dell'ultimo giocatore giustiziato e morto. Se quel giocatore è malvagio, sei avvelenato finché un giocatore buono non viene giustiziato e muore.",
+      "flavor": "Non mi piacciono i pagliacci. Hanno un sapore strano.",
+      "name": "Cannibale"
+    },
+    "cerenovus": {
+      "ability": "Ogni notte, scegli un giocatore e un personaggio buono: chi hai scelto è \"ossessionato\" dall'essere questo personaggio domani, o potrebbe essere giustiziato.",
+      "first": "Lo Strizzacervelli sceglie un giocatore e un personaggio. :reminder: Addormenta lo Strizzacervelli. Sveglia il bersaglio. Mostra la tessera *QUESTO PERSONAGGIO TI HA SCELTO*, il gettone dello Strizzacervelli e il gettone del personaggio da cui sarà ossessionato.",
+      "flavor": "La realtà è soltanto un'opinione. A voler essere specifici, la mia opinione.",
+      "name": "Strizzacervelli",
+      "other": "Lo Strizzacervelli sceglie un giocatore e un personaggio. :reminder: Addormenta lo Strizzacervelli. Sveglia il bersaglio. Mostra la tessera *QUESTO PERSONAGGIO TI HA SCELTO*, il gettone dello Strizzacervelli e il gettone del personaggio da cui sarà ossessionato."
+    },
+    "chambermaid": {
+      "ability": "Ogni notte, scegli 2 giocatori vivi (non te stesso): scopri quanti si sono svegliati stanotte grazie alla loro abilità.",
+      "first": "La Domestica sceglie 2 giocatori vivi. Fai un segnale con le dita.",
+      "flavor": "Non ho visto nulla di inappropriato, Milady. Mi perdoni, ma se avessi visto qualcosa, di certo non è stato il padrone di casa che sgattaiolava nel laboratorio del professore verso le undici e che mescolava pozioni strane, proprio come ha detto lei, signora.",
+      "name": "Domestica",
+      "other": "La Domestica sceglie due giocatori vivi. Dai un segnale con le dita."
+    },
+    "chef": {
+      "ability": "Inizi conoscendo quante coppie di giocatori malvagi ci sono (seduti accanto).",
+      "first": "Dai un segnale con le dita.",
+      "flavor": "Le prenotazioni di questa sera sembrano strane. Mai prima d'ora la Sig.ra Mayweather ha frequentato quella canaglia di Hudson Lane. Eppure stasera, hanno un tavolo per due. Bizzarro.",
+      "name": "Chef"
+    },
+    "choirboy": {
+      "ability": "Se il Demone uccide il Re, scopri quale giocatore è il Demone. [+il Re]",
+      "flavor": "L'ho visto, certo. Ero tra le panche, pulivo i libri dei canti, quando una melodia terribile ha iniziato a suonare dall'organo a canne. L'organista aveva un lungo mantello e lunghe dita sui tasti. E un cappello che sembrava... esattamente... il tuo.",
+      "name": "Chierichetto",
+      "other": "Se il Demone ha ucciso il Re, indica il giocatore che è il Demone."
+    },
+    "clockmaker": {
+      "ability": "Inizi conoscendo da quanti passi dista il Demone dal suo Tirapiedi più vicino.",
+      "first": "Fai un segnale con le dita.",
+      "flavor": "Non mi disturbare. Il tic toc deve continuare, poiché il cerchio è un simbolo di vita e contiene tutte le cose - tutte le risposte - nel suo meccanismo divino. Devo lavorare.",
+      "name": "Orologiaio"
+    },
+    "courtier": {
+      "ability": "Una volta a partita, durante la notte, scegli un personaggio: quest'ultimo è ubriaco per 3 notti e 3 giorni.",
+      "first": "Il Cortigiano potrebbe scegliere un personaggio. :reminder: :reminder:",
+      "flavor": "Ho più paura di un esercito di cento pecore guidate da un leone, che di un esercito di cento leoni guidati da una pecora.",
+      "name": "Cortigiano",
+      "other": "Il Cortigiano potrebbe scegliere un personaggio. :reminder: :reminder:"
+    },
+    "cultleader": {
+      "ability": "Ogni notte, diventi dell'allineamento di un tuo vicino vivo. Se tutti i giocatori buoni decidono di unirsi alla tua setta, la tua squadra vince.",
+      "first": "Il Capo della Setta potrebbe cambiare allineamento. Se succede, mostra la tessera delle informazioni *TU SEI* e fai un segnale col pollice.",
+      "flavor": "Credendosi saggi, divennero degli sciocchi.",
+      "name": "Capo della Setta",
+      "other": "Il Capo della Setta potrebbe cambiare allineamento. Se succede, mostra la tessera delle informazioni *TU SEI* e fai un segnale col pollice."
+    },
+    "damsel": {
+      "ability": "Tutti i Tirapiedi sanno che c'è una Damigella in gioco. Se un Tirapiedi indovina correttamente chi è pubblicamente (un'unica volta), la tua squadra perde.",
+      "first": "Durante la fase Informazioni dei Tirapiedi, mostra ai Tirapiedi il gettone della Damigella. Se non l'hai fatto finora, fallo adesso. Se la Damigella è stata scelta dal Cacciatore, mostrale la tessera delle informazioni *TU SEI* e il suo nuovo gettone personaggio.",
+      "flavor": "Non toccarmi i capelli, tesoro.",
+      "name": "Damigella",
+      "other": "Se la Damigella è stata scelta dal Cacciatore, mostrale la tessera delle informazioni *TU SEI* e il suo nuovo gettone personaggio."
+    },
+    "dawn": {
+      "first": "Aspetta alcuni secondi. Termina la Fase della Notte.",
+      "other": "Aspetta alcuni secondi. Termina la Fase della Notte."
+    },
+    "demoninfo": {
+      "first": "Se ci sono 7 giocatori o più, sveglia il Demone: Mostra il gettone *QUESTI SONO I TUOI TIRAPIEDI*. Indica tutti i Tirapiedi. Mostra il gettone *QUESTI PERSONAGGI NON SONO IN GIOCO*. Mostra 3 personaggi buoni non in gioco."
+    },
+    "deusexfiasco": {
+      "ability": "Almeno una volta a partita, il Narratore commetterà un errore, lo rettificherà e lo ammetterà pubblicamente.",
+      "flavor": "Non è un bug, è una caratteristica. Non è un errore, è un aggiustamento. Non è rotto, è particolare.",
+      "name": "Deus ex Fiasco"
+    },
+    "deviant": {
+      "ability": "Se oggi sei stato divertente, non puoi morire tramite esilio.",
+      "flavor": "Fu la freddura della signora, davvero.",
+      "name": "Perverso"
+    },
+    "devilsadvocate": {
+      "ability": "Ogni notte, scegli un personaggio vivo (diverso dalla notte precedente): se questo viene giustiziato domani, non morirà.",
+      "first": "L'Avvocato del Diavolo sceglie un giocatore vivo. :reminder:",
+      "flavor": "Il mio assistito, se l'obiezione dovesse essere respinta, si dichiara innocente in virtù dell'inosservanza da parte della procura dello statuto 27.B - coniugazione incoretta o fuorviante di un verbo. Il fatto che nove membri della giuria sono morti ieri notte è semplicemente prima facie, vale a dire, come il precedente legale stabilito da Wills contro Thule, un ulteriore motivo per assolverlo.",
+      "name": "Avvocato del Diavolo",
+      "other": "L'Avvocato del Diavolo sceglie un giocatore vivo. :reminder:"
+    },
+    "djinn": {
+      "ability": "Usa la regola speciale del Genio. Tutti i giocatori sanno qual è.",
+      "flavor": "نحن لسنا هنا. انت لست حقيقي. كل شيء هو وهم. أسئلتك هي جبل نار في يوم صاف.",
+      "name": "Genio"
+    },
+    "doomsayer": {
+      "ability": "Se 4 o più giocatori sono vivi, ogni giocatore vivo può scegliere pubblicamente (una volta a partita) che un giocatore del suo allineamento muoia.",
+      "flavor": "E il Settimo Giorno, ci sarà una grande inondazione e pestilenza per il Popolo del Villaggio dei Corvi! I morti si rialzeranno e i vivi si pentiranno! Oh Dolore! Oh Giorno Sconsacrato! Prevaricheranno soltanto tramite un grande sacrificio! Così dicono i Saggi dei Nostros e così dico io.",
+      "name": "Catastrofista"
+    },
+    "dreamer": {
+      "ability": "Ogni notte, scegli un giocatore (non te stesso o Viaggiatori): apprendi 1 personaggio buono e 1 malvagio, 1 dei quali è corretto.",
+      "first": "Il Sognatore indica un giocatore. Mostra 1 gettone personaggio buono e 1 malvagio, 1 dei quali è il personaggio del giocatore scelto.",
+      "flavor": "Mi ricordo l'Orologiaio. Triangoli frattali piovevano giù dal cielo rosso. C'era un odore di violette e un suono gorgogliante. Una donna dagli occhi ardenti e con una barba incolta sibilava verso il cielo. Poi mi sono svegliato.",
+      "name": "Sognatore",
+      "other": "Il Sognatore indica un giocatore. Mostra 1 gettone personaggio buono e 1 gettone personaggio malvagio, 1 dei quali è il suo personaggio."
+    },
+    "drunk": {
+      "ability": "Non sai di essere l'Ubriaco. Credi di essere un Cittadino, ma non lo sei.",
+      "flavor": "Sono solo un *hic* bevitore sociale, mio caro. In verità, socializzo *burp* tantissimo.",
+      "name": "Ubriaco"
+    },
+    "duchess": {
+      "ability": "Ogni giorno, 3 giocatori possono scegliere di visitarti. Durante la notte, ogni visitatore scopre quanti visitatori sono malvagi, ma 1 di loro riceve informazioni false.",
+      "flavor": "L'intrattenimento è tra le ore 6 e 7 in punto. Il tè alle 6.15. Le paste alle 6.45. Non fate tardi. Siete pregati di indossare abiti formali, come di consueto.",
+      "name": "Duchessa",
+      "other": "Uno per uno: Sveglia ciascun giocatore marcato come *VISITATORE* o come *INFORMAZIONI FALSE*. Mostra la tessera *QUESTO PERSONAGGIO TI HA SCELTO* e il gettone personaggio della Duchessa, poi fai un segnale con le dita."
+    },
+    "dusk": {
+      "first": "Inizia la Fase della Notte.",
+      "other": "Inizia la Fase della Notte."
+    },
+    "empath": {
+      "ability": "Ogni notte, scopri quanti dei tuoi 2 vicini vivi sono malvagi.",
+      "first": "Fai un segnale con le dita.",
+      "flavor": "Ho la pelle d'oca. Qui c'è qualcosa che non va. Me lo sento.",
+      "name": "Sensitivo",
+      "other": "Fai un segnale con le dita."
+    },
+    "engineer": {
+      "ability": "Una volta a partita, durante la notte, scelgi quali Tirapiedi o quale Demone è in gioco.",
+      "first": "L'Ingegnere potrebbe scegliere Tirapiedi o Demoni. Addormenta l'Ingegnere. Sveglia il/i bersaglio/i uno alla volta. Mostra la tessera informazioni *TU SEI* e il loro nuovo gettone personaggio. :reminder:",
+      "flavor": "Se si piega, ottimo. Se si rompe, beh, probabilmente andava aggiustato comunque.",
+      "name": "Ingegnere",
+      "other": "L'Ingegnere potrebbe scegliere Tirapiedi o Demoni. Addormenta l'Ingegnere. Sveglia il bersaglio, mostragli la tessera *TU SEI* e il suo nuovo gettone personaggio. :reminder:"
+    },
+    "eviltwin": {
+      "ability": "Tu e un giocatore dell'allineamento opposto vi conoscete. Se il giocatore buono è giustiziato, i malvagi vincono. I buoni non possono vincere se vivete entrambi.",
+      "first": "Sveglia entrambi i gemelli. Permetti loro di incrociare gli sguardi. Mostra il gettone personaggio del gemello buono al Gemello Malvagio e vice versa.",
+      "flavor": "Io non sono Sara! Sono Clara! LEI è Sara! Sara è quella malvagia! Non io!",
+      "name": "Gemello Malvagio"
+    },
+    "exorcist": {
+      "ability": "Ogni notte*, scegli un giocatore (diverso dalla notte precedente): il Demone, se scelto, scopre chi sei e poi non si sveglia stanotte.",
+      "flavor": "Noi vi scacciamo, ogni spirito impuro, ogni potere satanico, ogni assalto da avversario infernale, ogni legione, ogni gruppo diabolico e setta, nel nome e dal potere datomi dal Nostro Signore Gesù Cristo. Vi ordiniamo di sparire, volate via dalla Chiesa di Dio, dalle anime create da Dio in Sua immagine, e redette dal prezioso sangue dell'Agnello divino.",
+      "name": "Esorcista",
+      "other": "L'Esorcista sceglie un giocatore. :reminder: Addormenta l'Esorcista. Se l'Esorcista ha scelto il Demone: Sveglia il Demone. Mostragli la tessera *QUESTO PERSONAGGIO TI HA SCELTO* e il gettone dell'Esorcista. Indica l'Esorcista."
+    },
+    "fanggu": {
+      "ability": "Ogni notte*, scegli un giocatore: quest'ultimo muore. Il primo Forestiero che uccidi in questo modo diventa un Fang Gu malvagio e tu muori al suo posto. [+1 Forestiero]",
+      "flavor": "Le vostre mura e le vostre armi non sono altro che fumo nei sogni.",
+      "name": "Fang Gu",
+      "other": "Il Fang Gu sceglie un giocatore. :reminder: Se ha scelto un Forestiero (un'unica volta): Sostituisci il gettone del Forestiero con un gettone Fang Gu in più. Addormenta il Fang Gu. Sveglia il bersaglio. Mostragli la tessera *TU SEI* e il gettone Fang Gu e fagli il pollice in giù. :reminder:"
+    },
+    "farmer": {
+      "ability": "Quando muori durante la notte, un giocatore buono vivo diventa un Contadino.",
+      "flavor": "Anche i grandi e i potenti hanno bisogno del cibo in tavola. Senza di noi, la città morirà di fame.",
+      "name": "Contadino",
+      "other": "Se il Contadino è morto stanotte, sveglia un giocatore buono vivo. Mostragli la tessera delle informazioni *TU SEI* e il gettone personaggio del Contadino."
+    },
+    "fearmonger": {
+      "ability": "Ogni notte, scegli un giocatore: se lo accusi e quest'ultimo viene giustiziato, la sua squadra perde. Tutti i giocatori scoprono quando scegli un nuovo giocatore.",
+      "first": "Il Seminatore di Paura sceglie un giocatore. :reminder: Dichiara che il Seminatore di Paura ha scelto un giocatore.",
+      "flavor": "Guardatevi dallo scrutare a lungo nell'Abisso, altrimenti anche l'Abisso scruterà dentro di voi.",
+      "name": "Seminatore di Paura",
+      "other": "Il Seminatore di Paura sceglie un giocatore. :reminder: Se il giocatore è differente da quello scelto la notte scorsa, dichiara che il Seminatore di Paura ha scelto un giocatore."
+    },
+    "ferryman": {
+      "ability": "Durante il giorno finale, tutti i giocatori morti riottengono il loro gettone voto.",
+      "flavor": "Quando i desideri virtuosi arrivano, questi hanno il peso della verità.",
+      "name": "Traghettatore"
+    },
+    "fibbin": {
+      "ability": "Una volta a partita, 1 giocatore buono potrebbe ricevere informazioni false.",
+      "flavor": "Ha-ha-ha. Ha. Ha. Ha.",
+      "name": "Bugiardo"
+    },
+    "fiddler": {
+      "ability": "Una volta a partita, il Demone sceglie segretamente un giocatore dell'allineamento opposto: tutti i giocatori scelgono quale di questi 2 giocatori vince.",
+      "flavor": "Scommetto la mia vita che non mi puoi sconfiggere in una gara di violino, ficcanaso dagli occhi da capo! Andremo a sbronzarci, riempiremo il pub e faremo una bella festa. Ti metterò gli stivali addosso domattina, pupazzetto brontolone.",
+      "name": "Violinista"
+    },
+    "fisherman": {
+      "ability": "Una volta a partita, durante il giorno, visita il Narratore per ricevere un consiglio su come aiutare la tua squadra a vincere.",
+      "flavor": "Questa era la mia parte preferita del fiume... vedi come la luce del sole forma un arcobaleno dal monastero fino al mercato? Questo era il posto migliore per i pesci grandi. E più invecchio, più grandi erano.",
+      "name": "Pescatore"
+    },
+    "flowergirl": {
+      "ability": "Ogni notte*, scopri se un Demone ha votato oggi.",
+      "flavor": "Le violette di ieri sono appassite e morte, ma oggi i miei papaveri sbocciano.",
+      "name": "Fioraia",
+      "other": "Annuisci o scuoti la testa."
+    },
+    "fool": {
+      "ability": "La prima volta che dovresti morire, non muori.",
+      "flavor": "...e il Re disse 'Cosa?! Non ho mai nemmeno posseduto un paio di pantaloni di gomma, figuriamoci un cannone di crema pasticcera!' Oh-oh! Giorno felice!",
+      "name": "Giullare"
+    },
+    "fortuneteller": {
+      "ability": "Ogni notte, scegli 2 giocatori: scopri se uno fra loro è un Demone. Un giocatore buono ti appare come un Demone.",
+      "first": "La Chiromante sceglie 2 giocatori. Annuisci se uno di loro è il Demone (o la *FALSA PISTA*).",
+      "flavor": "Percepisco una profonda malvagità nella tua anima! Ma... potrebbe semplicemente essere il tuo profumo. Sono allergica al sambuco.",
+      "name": "Chiromante",
+      "other": "La Chiromante sceglie 2 giocatori. Annuisci se uno di loro è il Demone (o la *FALSA PISTA*)."
+    },
+    "gambler": {
+      "ability": "Ogni notte*, scegli un giocatore e indovina il suo personaggio: se sbagli, muori.",
+      "flavor": "Testa, vinco io. Croce, perdi tu.",
+      "name": "Giocatore d'Azzardo",
+      "other": "Il Giocatore d'Azzardo sceglie un giocatore e un personaggio. :reminder:"
+    },
+    "gangster": {
+      "ability": "Una volta al giorno, puoi scegliere di uccidere un tuo vicino vivo, se il tuo altro vicino vivo è d'accordo.",
+      "flavor": "Mi piacciono le tue scarpe. Sarebbe un vero peccato se ti succedesse un imprevisto, e si rovinassero. Ora che ci penso, mi piacciono anche i tuoi gemelli.",
+      "name": "Gangster"
+    },
+    "gardener": {
+      "ability": "Il Narratore assegna il personaggio a tutti i giocatori.",
+      "flavor": "Quando la sofisticazione diventa stupidità e l'ipocrisia crudeltà, ritirati nel giardino. L'ultimo amore degli uomini vecchi sono i fiori e le pietre.",
+      "name": "Giardiniere"
+    },
+    "general": {
+      "ability": "Ogni notte, scopri quale allineamento sta vincendo secondo il Narratore: i buoni, i malvagi, o nessuno dei due.",
+      "first": "Fai un segnale con il pollice.",
+      "flavor": "Non ho tempo per le citazioni.",
+      "name": "Generale",
+      "other": "Fai un segnale con il pollice."
+    },
+    "gnome": {
+      "ability": "Tutti i giocatori iniziano conoscendo un giocatore del tuo allineamento. Puoi decidere di uccidere chiunque lo accusi.",
+      "flavor": "Quattro i punti o sette le birre, nessuno spettacolo va per me e il mio. Uno scherzo per far scricchiolare le manovelle e le assi del pavimento lungo le fondamenta, così incontroversibilmente piccole. I grandi saggi lungo le correnti di gioia, non più grandi di quanto sia la scena, già ereditati. Ha-urrumph.",
+      "name": "Gnomo"
+    },
+    "goblin": {
+      "ability": "Se affermi pubblicamente di essere il Folletto quando vieni accusato e vieni giustiziato quel giorno, la tua squadra vince.",
+      "flavor": "Non vuoi insultare i folletti. Seriamente, non vuoi farlo. Cambiando discorso... posso avere un'altra fetta di torta?",
+      "name": "Folletto"
+    },
+    "godfather": {
+      "ability": "Inizi conoscendo quali Forestieri sono in gioco. Se 1 è morto oggi, scegli un giocatore stanotte: quest'ultimo muore. [-1 o +1 Forestiero]",
+      "first": "Mostra i gettoni personaggio di tutti i Forestieri in gioco.",
+      "flavor": "Di solito, sono solo affari. Ma quando offendi mia figlia, tu offendi me. E quando offendi me, offendi la mia famiglia. Devi davvero stare più attento - sarebbe un peccato se ti capitasse un incidente spiacevole.",
+      "name": "Padrino",
+      "other": "Se oggi è morto un Forestiero, il Padrino sceglie un giocatore. :reminder:"
+    },
+    "golem": {
+      "ability": "Puoi lanciare un'accusa solo una volta a partita. Quando lo fai, se l'accusato non è il Demone, il giocatore scelto muore.",
+      "flavor": "Golem aiuta? Golem distrugge! Golem aiuta.",
+      "name": "Golem"
+    },
+    "goon": {
+      "ability": "Ogni notte, il primo giocatore che ti sceglie usando la sua abilità è ubriaco fino al tramonto. Diventi del suo allineamento.",
+      "flavor": "Sì, capo. Gli ho spiegato tutto per bene a quel tipo. Non vuole che glielo spieghi di nuovo. No capo, non ho bisogno di un dottore - è solo un a ferita da coltello. Starò bene domattina.",
+      "name": "Scagnozzo"
+    },
+    "gossip": {
+      "ability": "Ogni giorno, puoi fare una dichiarazione pubblica. Stanotte, se quello che hai detto è vero, un giocatore muore.",
+      "flavor": "Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla. Bla.",
+      "name": "Pettegola",
+      "other": "Se la Pettegola provoca la morte di un giocatore, quest'ultimo muore. :reminder:"
+    },
+    "grandmother": {
+      "ability": "Inizi conoscendo un giocatore buono e il suo personaggio. Se il Demone lo uccide, muori anche tu.",
+      "first": "Indica il giocatore che rappresenta il nipote e mostra il suo gettone personaggio.",
+      "flavor": "Porta un giacchetto se stai uscendo, caro. E il tuo thermos. E la tua sciarpa. Ho il cuore debole, lo sai. Cosa mai dovrei fare se ti venisse un raffreddore... o peggio?",
+      "name": "Nonna",
+      "other": "Se il nipote è stato ucciso dal Demone, anche la Nonna muore. :reminder:"
+    },
+    "gunslinger": {
+      "ability": "Ogni giorno, dopo che la prima votazione è stata conteggiata, puoi scegliere un giocatore che ha votato: quest'ultimo muore.",
+      "flavor": "È ora che qualcuno prenda in mano la situazione. E quel qualcuno... sono io.",
+      "name": "Pistolero"
+    },
+    "harlot": {
+      "ability": "Ogni notte*, scegli un giocatore vivo: se quest'ultimo è d'accordo, tu scopri il suo personaggio, ma potreste morire entrambi.",
+      "flavor": "Echantée, Marinaio. Sembra proprio tu abbia bisogno di qualcuno che ascolti le tue pene. Sono una brava ascoltatrice. Molto, molto brava.",
+      "name": "Sgualdrina",
+      "other": "La Sgualdrina indica qualsiasi giocatore vivo. Addormenta la Sgualdrina. Sveglia il giocatore scelto, mostragli la tessera *QUESTO PERSONAGGIO TI HA SCELTO* e il gettone della Sgualdrina. Se il giocatore annuisce, sveglia la Sgualdrina e mostrale il gettone personaggio del giocatore scelto. A quel punto, puoi decidere se entrambi i giocatori muoiono. :reminder: :reminder:"
+    },
+    "harpy": {
+      "ability": "Ogni notte, scegli 2 giocatori: domani, il primo giocatore è ossessionato dall'idea che il secondo giocatore è malvagio, o entrambi potrebbero morire.",
+      "first": "L'Arpia sceglie 2 giocatori. :reminder: Addormenta l'Arpia. Sveglia il primo bersaglio. Mostragli la tessera *QUESTO PERSONAGGIO TI HA SCELTO*, il gettone personaggio dell'Arpia, poi indica il secondo bersaglio.",
+      "flavor": "Non ho mai visto un giorno così magico, né una presenza così terribile sopra di me.",
+      "name": "Arpia",
+      "other": "L'Arpia sceglie 2 giocatori. :reminder: Addormenta l'Arpia. Sveglia il primo bersaglio. Mostragli la tessera *QUESTO PERSONAGGIO TI HA SCELTO*, il gettone personaggio dell'Arpia, poi indica il secondo bersaglio."
+    },
+    "hatter": {
+      "ability": "Se sei morto oggi o stanotte, i Tirapiedi e il Demone possono scegliere di cambiare personaggio e diventare Tirapiedi e Demone differenti.",
+      "flavor": "Un Cappello. Troppo Cappello. Tre Cappelli. Cappello da Tè. Cappello Davanti. Cappello Prospero. Sei Cappelli. Cappello Bastoncini.",
+      "name": "Cappellaio",
+      "other": "Se il Cappellaio è morto, sveglia i Tirapiedi e i Demoni. Ciascuno può scegliere un nuovo personaggio. Se un giocatore lo fa, mostragli la tessera di informazioni *TU SEI* e il suo nuovo gettone personaggio."
+    },
+    "hellslibrarian": {
+      "ability": "Qualcosa di brutto potrebbe succedere a chiunque parli quando il Narratore ha chiesto di fare silenzio.",
+      "flavor": "Shhhhhh. Silenzio per favore. È meglio non disturbare il Bibliotecario. Ho sentito che ha un caratteraccio.",
+      "name": "Bibliotecario Infernale"
+    },
+    "heretic": {
+      "ability": "Chiunque vince perde, e chiunque perde vince, anche se sei morto.",
+      "flavor": "Dopo che la grandine ha distrutto il tetto e scheggiato il vetro delle finestre della Cattedrale, questa si scioglie di nuovo nella terra, come un agnello morente sotto il sole del deserto. Questa è la parabola del folle.",
+      "name": "Eretico"
+    },
+    "hermit": {
+      "ability": "Hai tutte le abilità dei Forestieri. [-0 o -1 Forestieri]",
+      "flavor": "Nei posti perduti e dimenticati della terra, la luce dell'anima richiama.",
+      "name": "Eremita"
+    },
+    "highpriestess": {
+      "ability": "Ogni notte, scopri con quale giocatore dovresti parlare secondo il Narratore.",
+      "first": "Indica un giocatore.",
+      "flavor": "C'è vita dietro la personalità che usa personalità come maschere. A volte la vita mette via la maschera e il profondo risponde al profondo.",
+      "name": "Sacerdotessa",
+      "other": "Indica un giocatore."
+    },
+    "huntsman": {
+      "ability": "Una volta a partita, durante la notte, scegli un giocatore vivo: la Damigella, se scelta, diventa un Cittadino non attualmente in gioco. [+la Damigella]",
+      "first": "Il Cacciatore potrebbe scegliere un giocatore. :reminder: Se quel giocatore era la Damigella: Addormenta il Cacciatore. Sveglia il bersaglio. Mostragli la tessera delle informazioni *TU SEI* e il suo nuovo gettone personaggio.",
+      "flavor": "La mia cabina è solida e accogliente. La mia ascia è vicino alla porta, i miei stivali si asciugano davanti al fuoco, e lo stufato di alce cuoce a fuoco lento... Ascolta! Un urlo riecheggia nella valle! La pioggia, il fango e il freddo, freddo vento nascondono l'odore dei lupi, ma conosco il percorso e il mio passo è fermo. Sto arrivando.",
+      "name": "Cacciatore",
+      "other": "Il Cacciatore potrebbe scegliere un giocatore. :reminder: Se quel giocatore era la Damigella: Addormenta il Cacciatore. Sveglia il bersaglio. Mostragli la tessera delle informazioni *TU SEI* e il suo nuovo gettone personaggio."
+    },
+    "imp": {
+      "ability": "Ogni notte*, scegli un giocatore: quest’ultimo muore. Se uccidi te stesso in questo modo, un Tirapiedi diventa il Diavoletto.",
+      "flavor": "Dobbiamo tenere la mente sveglia e le nostre spade taglienti. Il Male cammina tra noi, e non si fermerà a niente per distruggere noi gente buona e semplice, mandando in rovina la nostra bella città. Non fidatevi di nessuno. Ma se dovete fidarvi di qualcuno, fidatevi di me.",
+      "name": "Diavoletto",
+      "other": "Il Diavoletto sceglie un giocatore. :reminder: Se il Diavoletto ha scelto sé stesso: Sostituisci 1 gettone di un Tirapiedi vivo con un gettone del Diavoletto in più. Addormenta il vecchio Diavoletto. Sveglia il nuovo Diavoletto. Mostra la tessera delle informazioni *TU SEI*, e poi mostra il gettone personaggio del Diavoletto."
+    },
+    "innkeeper": {
+      "ability": "Ogni notte*, scegli 2 giocatori: stanotte non possono morire, ma 1 di loro è ubriaco fino al tramonto.",
+      "flavor": "Entra pure, caro viaggiatore, e fai riposare le tue stanche membra. Bevi e sii felice, perché le legioni dell'Oscuro non ti importuneranno stanotte.",
+      "name": "Locandiere",
+      "other": "Il Locandiere sceglie 2 giocatori. :reminder: :reminder: :reminder:"
+    },
+    "investigator": {
+      "ability": "Inizi conoscendo che 1 fra 2 giocatori è un Tirapiedi specifico.",
+      "first": "Mostra il gettone personaggio del Tirapiedi. Indica sia i giocatori contrassegnati da *TIRAPIEDI* e *SBAGLIATO*.",
+      "flavor": "È una bella serata per una passeggiata, non è vero, Signor Morozov? O dovrei dire... BARONE Morozov?",
+      "name": "Investigatore"
+    },
+    "judge": {
+      "ability": "Una volta a partita, se un altro giocatore ha lanciato un'accusa, puoi scegliere di forzare il successo o il fallimento dell'esecuzione attuale.",
+      "flavor": "Dichiaro l'imputato colpevole dei seguenti crimini: omicidio, frode, incendio doloso, furto, imitazione di un ufficiale della legge, pratica della medicina senza licenza, calunnia, regicidio e abbandono di rifiuti.",
+      "name": "Giudice"
+    },
+    "juggler": {
+      "ability": "Durante il tuo primo giorno, indovina pubblicamente fino a 5 personaggi dei giocatori. Quella notte, scopri quanti erano corretti.",
+      "flavor": "Per il mio prossimo numero, come richiesto, avrò bisogno di un fiore, un sacco di fagioli, un serpente giocattolo, un pennello e un dispositivo motorizzato a benzina per potare le siepi. Vi avverto, questo potrebbe essere il mio ultimo numero. Oh cielo.",
+      "name": "Giocoliere",
+      "other": "Fai un segnale con le dita."
+    },
+    "kazali": {
+      "ability": "Ogni notte*, scegli un giocatore: quest'ultimo muore. [Tu scegli quali giocatori sono quali Tirapiedi. -? o +? Forestieri]",
+      "first": "Il Kazali sceglie quali giocatori sono quali Tirapiedi. Sveglia ciascun bersaglio. Mostragli la tessera di informazioni *TU SEI* e il gettone Tirapiedi, poi fai un segnale pollice verso.",
+      "flavor": "Gon(z)a7les6. Fai attenzi8ne. La mecc4nazi4ne è iNvert1ta. E99ori nelsi6tema. Reco{7\\}figura.",
+      "name": "Kazali",
+      "other": "Il Kazali sceglie un giocatore. :reminder:"
+    },
+    "king": {
+      "ability": "Ogni notte, se il numero dei morti è uguale o supera quello dei vivi, scopri 1 personaggio vivo. Il Demone sa che tu sei il Re.",
+      "first": "Sveglia il Demone. Mostra la tessera delle informazioni *QUESTO GIOCATORE È* e il gettone personaggio del Re, poi indica il Re.",
+      "flavor": "Tra le note sconosciute della lotta mortale / E la notte morbosa, dolce di mistero e di dolore / Giacciono le gioie illimitate della lunga e colorata vita del destino / Il cui giardino fiorisce con ogni volto dipinto da mostrare.",
+      "name": "Re",
+      "other": "Se il numero dei morti è uguale o supera quello dei vivi, mostra il gettone personaggio di un giocatore vivo."
+    },
+    "klutz": {
+      "ability": "Quando scopri di essere morto, scegli pubblicamente un giocatore vivo: se quest'ultimo è malvagio, la tua squadra perde.",
+      "flavor": "Ops.",
+      "name": "Pasticcione"
+    },
+    "knight": {
+      "ability": "Inizi conoscendo 2 giocatori che non sono il Demone.",
+      "first": "Indica i due giocatori contrassegnati da *CONOSCE*.",
+      "flavor": "Quando un uomo mente, uccide qualche parte del mondo.",
+      "name": "Cavaliere"
+    },
+    "legion": {
+      "ability": "Ogni notte*, un giocatore potrebbe morire. Le esecuzioni falliscono se solo i malvagi hanno votato. Appari come un Tirapiedi. [La maggior parte dei giocatori è Legione]",
+      "flavor": "Siamo il vento freddo di una giornata d'inverno. Siamo l'ombra in una notte senza luna. Siamo il veleno nel tuo té e il sussurro nel tuo orecchio. Siamo ovunque.",
+      "name": "Legione",
+      "other": "Un giocatore potrebbe morire. :reminder:"
+    },
+    "leviathan": {
+      "ability": "Se più di 1 giocatore buono viene giustiziato, i malvagi vincono. Tutti i giocatori sanno che sei in gioco. Dopo il giorno 5, i malvagi vincono.",
+      "first": "Dichiara che il Leviatano è in gioco. :reminder:",
+      "flavor": "Agli ultimi, combatto con voi. Dal cuore dell'Inferno, vi pugnalo. Nel nome dell'odio, sputo contro di voi il mio ultimo respiro.",
+      "name": "Leviatano",
+      "other": "Cambia il gettone promemoria del Leviatano al giorno rilevante. :reminder: Puoi annunciare che il Leviatano è in gioco."
+    },
+    "librarian": {
+      "ability": "Inizi conoscendo che 1 fra 2 giocatori è un Forestiero specifico (o che non ce ne sono in gioco).",
+      "first": "Mostra il gettone personaggio del Forestiero. Indica sia i giocatori contrassegnati da *FORESTIERO* e *SBAGLIATO*.",
+      "flavor": "Ma certo signora, in circostanze normali, può prendere il prestito il Codex Maleficarum dalla cripta della biblioteca. Tuttavia, lei non risulta essere un membro.",
+      "name": "Bibliotecario"
+    },
+    "lilmonsta": {
+      "ability": "Ogni notte, i Tirapiedi scelgono chi accudisce il Mostriciattolo ed \"è il Demone\". Ogni notte*, un giocatore potrebbe morire. [+1 Tirapiedi]",
+      "first": "Sveglia i Tirapiedi, che scelgono un giocatore. :reminder: Addormenta i Tirapiedi. Sveglia il bersaglio. Mostragli il gettone *TU SEI* e il gettone del Mostriciattolo.",
+      "flavor": "Fase 1: Sii carino. Fase 2: Dominio del mondo. Fase 3: Colassione.",
+      "name": "Mostriciattolo",
+      "other": "Sveglia i Tirapiedi, che scelgono un giocatore. :reminder: Addormenta i Tirapiedi. Sveglia il bersaglio. Mostragli il gettone *TU SEI* e il gettone del Mostriciattolo. Un giocatore potrebbe morire. :reminder:"
+    },
+    "lleech": {
+      "ability": "Ogni notte*, scegli un giocatore: quest'ultimo muore. Inizi scegliendo un giocatore: quest'ultimo è avvelenato. Muori solo e se questo giocatore muore.",
+      "first": "La Sanguisuga sceglie un giocatore. :reminder:",
+      "flavor": "Gustoso, gustoso, gustoso, gustoso, gustoso, gustoso, gustoso, gustoso cerv- Voglio dire tortino! Sì. Gustoso tortino. Ecco cosa intendevo.",
+      "name": "Sanguisuga",
+      "other": "La Sanguisuga sceglie un giocatore. :reminder:"
+    },
+    "lordoftyphon": {
+      "ability": "Ogni notte*, scegli un giocatore: quest'ultimo muore. [I personaggi malvagi sono in fila. Tu sei al centro. +1 Tirapiedi. -? o +? Forestieri]",
+      "first": "Sveglia i vicini del Lord del Tifone. Mostragli la tessera di informazioni *TU SEI* e il gettone Tirapiedi, poi fai un segnale pollice verso.",
+      "flavor": "Negli angoli oscuri e dimenticati del cosmo, dove le stelle sussurrano segreti al vuoto, si nasconde una verità così profonda il cui minimo scorcio snoda la sanità delle menti mortali.",
+      "name": "Lord del Tifone",
+      "other": "Il Lord del Tifone sceglie un giocatore. :reminder:"
+    },
+    "lunatic": {
+      "ability": "Credi di essere un Demone, ma non lo sei. Il Demone sa chi sei e chi scegli durante la notte.",
+      "first": "Se ci sono 7 o più giocatori, sveglia lo Squilibrato: Mostra la tessera *QUESTI SONO I TUOI TIRAPIEDI*. Indica qualsiasi giocatori. Mostra la tessera *QUESTI PERSONAGGI NON SONO IN GIOCO*. Mostra 3 gettoni personaggio buoni. Addormenta lo Squilibrato. Sveglia il Demone. Mostra la tessera delle informazioni *TU SEI* e il gettone del Demone. Mostra la tessera delle informazioni *QUESTO GIOCATORE È* e il gettone dello Squilibrato, poi indica lo Squilibrato.",
+      "flavor": "Io sono la notte... credo.",
+      "name": "Squilibrato",
+      "other": "Fai il necessario per simulare le azioni del Demone. Addormenta lo Squilibrato. Sveglia il Demone. Mostra il gettone dello Squilibrato e indicalo, poi i suoi bersagli."
+    },
+    "lycanthrope": {
+      "ability": "Ogni notte*, scegli un giocatore vivo. Se è buono, quest'ultimo muore e il Demone non uccide stanotte. Un giocatore buono appare come malvagio.",
+      "flavor": "Sotto il sottile strato di civiltà giace una clamorosa follia.",
+      "name": "Licantropo",
+      "other": "Il Licantropo sceglie un giocatore. :reminder:"
+    },
+    "magician": {
+      "ability": "Il Demone crede che tu sia un Tirapiedi. I Tirapiedi credono tu sia un Demone.",
+      "first": "Durante le Informazioni dei Tirapiedi, indica l'Illusionista e il Demone. Durante le Informazioni del Demone, indica l'Illusionista e i Tirapiedi.",
+      "flavor": "1... 2... Abra... 3... 4... Cadabra... *puf!* E, come potete osservare, signore e signori, la borsa d'oro del Capitano Farnsworth è scomparsa! Sparita! Senza lasciare traccia! Grazie, e buonanotte!",
+      "name": "Illusionista"
+    },
+    "marionette": {
+      "ability": "Credi di essere un personaggio buono, ma non lo sei. Il Demone sa chi sei. [Sei vicino al Demone]",
+      "first": "Sveglia il Demone. Mostra la tessera delle informazioni *QUESTO GIOCATORE È* e il gettone personaggio della Marionetta. Indica la Marionetta.",
+      "flavor": "Parole, parole. È tutto ciò che hanno.",
+      "name": "Marionetta"
+    },
+    "mastermind": {
+      "ability": "Se il Demone viene giustiziato e muore (terminando la partita), gioca per 1 altro giorno. Se un giocatore viene giustiziato, la sua squadra perde.",
+      "flavor": "I tentacoli di quel mostro sono inchiodati alle porte della chiesa. Madri e figli ballano per le strade. Eccellente. Tutto procede esattamente come pianificato.",
+      "name": "Mastermind"
+    },
+    "mathematician": {
+      "ability": "Ogni notte, scopri quanti giocatori hanno abilità che hanno malfunzionato (dall'alba) a causa dell'abilità di un altro giocatore.",
+      "first": "Fai un segnale con le dita.",
+      "flavor": "Qualsiasi sistema formale coerente x, all'interno del quale può essere eseguita una certa quantità di aritmetica elementare è incompleto; ovvero, ci sono affermazioni del linguaggio di x che non possono essere né dimostrate né confutate in x. Ergo, sei ubriaco.",
+      "name": "Matematico",
+      "other": "Fai un segnale con le dita."
+    },
+    "matron": {
+      "ability": "Ogni giorno, puoi scegliere di far scambiare posto fino a 3 coppie di 2 giocatori. I giocatori non possono lasciare il loro posto per parlare in privato.",
+      "flavor": "Miss Featherbottom, silenzio. Master Rutherford, una tazza di tè deve essere presa con quattro dita, per favore. So che è padre di nove figli, ma l'età, o mancanza d'età come potrebbe essere il suo caso, non è mai una scusa per le brutte maniere.",
+      "name": "Direttrice"
+    },
+    "mayor": {
+      "ability": "Se ci sono solo 3 giocatori vivi e nessun giocatore viene giustiziato, la tua squadra vince. Se muori durante la notte, un altro giocatore potrebbe morire al tuo posto.",
+      "flavor": "Dobbiamo mettere da parte le nostre divergenze e porre fine a queste uccisioni insensate. Siamo tutti cittadini contribuenti dopotutto. Beh, la maggior parte di noi.",
+      "name": "Sindaco"
+    },
+    "mezepheles": {
+      "ability": "Inizi conoscendo una parola segreta. Il primo giocatore buono vivo che dice questa parola diventa malvagio quella notte.",
+      "first": "Mostra la parola segreta.",
+      "flavor": "Ciò che nasce unicamente dal cuore, piega i cuori altrui verso il tuo.",
+      "name": "Mefistofele",
+      "other": "Se un giocatore ha detto la parola segreta, sveglialo. Mostra il gettone informazione *TU SEI* e il pollice verso. :reminder: :reminder:"
+    },
+    "minioninfo": {
+      "first": "Se ci sono 7 o più giocatori, sveglia tutti i Tirapiedi: Mostra il gettone *QUESTO È IL DEMONE*. Punta verso il Demone. Mostra il gettone *QUESTI SONO I TUOI TIRAPIEDI*. Punta verso gli altri Tirapiedi."
+    },
+    "minstrel": {
+      "ability": "Quando un Tirapiedi viene giustiziato e muore, tutti gli altri giocatori (tranne i Viaggiatori) sono ubriachi fino al tramonto di domani.",
+      "flavor": "E sentirò, nonostante cammini delicatamente sopra di me... E tutti i miei sogni saranno più dolci e confortevoli... Se mi confesserai che mi ami... Dormirò in pace finché non mi troverai.",
+      "name": "Menestrello"
+    },
+    "monk": {
+      "ability": "Ogni notte*, scegli un giocatore (non te stesso): quest'ultimo è protetto dal Demone stanotte.",
+      "flavor": "È un vento dannoso e mortale quello che soffia stanotte. Vieni, fratello mio, prendi rifugio nel monastero mentre la tempesta infuria. Ti do la mia parola, e giuro sulla mia vita, tu sarai al sicuro.",
+      "name": "Monaco",
+      "other": "Il Monaco sceglie un giocatore. :reminder:"
+    },
+    "moonchild": {
+      "ability": "Quando scopri di essere morto, scegli pubblicamente 1 giocatore vivo. Stanotte, se chi hai scelto era un giocatore buono, quest'ultimo muore.",
+      "flavor": "Lo Scorpione guarda di traverso agli amanti, e devi fare una scelta. Con l'argento intreccio il mio palmo, e il tuo destino sarà rivelato. Con l'acciaio intreccio la mia gola, e le stelle te ne faranno pentire.",
+      "name": "Figlia della Luna",
+      "other": "Se la Figlia della Luna provoca la morte di un giocatore buono, quest'ultimo muore. :reminder:"
+    },
+    "mutant": {
+      "ability": "Se sei \"ossessionato\" con l'idea di essere un Forestiero, potresti essere giustiziato.",
+      "flavor": "Non sono un mostro! Sono un essere umano! Abbiate pietà!",
+      "name": "Mutante"
+    },
+    "nightwatchman": {
+      "ability": "Una volta a partita, durante la notte, scegli un giocatore: quest'ultimo scopre che tu sei il Guardiano Notturno.",
+      "first": "Il Guardiano Notturno potrebbe scegliere un giocatore. Addormenta il Guardiano Notturno. Sveglia il bersaglio. Mostragli la tessera *QUESTO GIOCATORE È* e il gettone del Guardiano Notturno, poi indica il Guardiano Notturno.",
+      "flavor": "La notte è fredda e solitaria, ma io ho la luna, le stelle, il vento fresco e il lieve tonfo degli stivali di pelle sul lastricato in pietra a tenermi compagnia. Laggiù, il lume di una candela trema dietro una cupa finestra...",
+      "name": "Guardiano Notturno",
+      "other": "Il Guardiano Notturno potrebbe scegliere un giocatore. Addormenta il Guardiano Notturno. Sveglia il bersaglio. Mostragli la tessera *QUESTO GIOCATORE È* e il gettone del Guardiano Notturno, poi indica il Guardiano Notturno. :reminder:"
+    },
+    "noble": {
+      "ability": "Inizi conoscendo 3 giocatori, 1 e soltanto 1 dei quali è malvagio.",
+      "first": "Punta ai 3 giocatori marcati con *CONOSCE*.",
+      "flavor": "Il sarcasmo è decisamente la forma più bassa di intelletto. Ma per rispondere alla sua critica, Signore, esso è nonostante tutto una forma di intelletto.",
+      "name": "Nobile"
+    },
+    "nodashii": {
+      "ability": "Ogni notte*, scegli un giocatore: quest'ultimo muore. I tuoi 2 Cittadini vicini sono avvelenati.",
+      "flavor": "Nel nome dei peccati di Arnoch, sento il tuo fetore carico. Per il maledetto sole e la sua ripugnante legione di piccoli dèi sogghignanti, ti corrompo. Nel nome della notte benedetta e delle profondità nascoste del mare orrido e sconsacrato, pongo fine alla tua squallida vita su questo piano.",
+      "name": "No Dashii",
+      "other": "Il No Dashii sceglie un giocatore. :reminder:"
+    },
+    "ogre": {
+      "ability": "Durante la tua prima notte, scegli un giocatore (non te stesso): diventi del suo allineamento (non scopri quale), anche se sei ubriaco o avvelenato.",
+      "first": "L'Orco indica un giocatore. :reminder:",
+      "flavor": "<grugnito><sorriso></grugnito>",
+      "name": "Orco"
+    },
+    "ojo": {
+      "ability": "Ogni notte*, scegli un personaggio: quest'ultimo muore. Se il personaggio non è in gioco, il Narratore decide chi muore.",
+      "flavor": "Come un falò in una notte senza luna... Io ti vedo, essere mortale.",
+      "name": "Ojo",
+      "other": "L'Ojo sceglie un personaggio. :reminder:"
+    },
+    "oracle": {
+      "ability": "Ogni notte*, scopri quanti giocatori morti sono malvagi.",
+      "flavor": "Solo i prescelti possono contemplare al di là del velo. I morti sono irrequieti, e in silenzio puntano verso il gelido nord.",
+      "name": "Oracolo",
+      "other": "Fai un segnale con le dita."
+    },
+    "organgrinder": {
+      "ability": "Tutti i giocatori tengono gli occhi chiusi durante le votazioni e il conteggio rimane segreto. Ogni notte, scegli se sei ubriaco fino al tramonto.",
+      "first": "Il Suonatore di Organetto annuisce per essere ubriaco, oppure scuote la testa per essere sobrio. :reminder:",
+      "flavor": "Gira e rigira fanno i manici. Più balli e meno sai.",
+      "name": "Suonatore di Organetto",
+      "other": "Il Suonatore di Organetto annuisce per essere ubriaco, oppure scuote la testa per essere sobrio. :reminder:"
+    },
+    "pacifist": {
+      "ability": "I giocatori buoni giustiziati potrebbero non morire.",
+      "flavor": "Diffidate di coloro che possiedono un forte impeto punitivo.",
+      "name": "Pacifista"
+    },
+    "philosopher": {
+      "ability": "Una volta a partita, durante la notte, scegli un personaggio buono: ottieni la sua abilità. Se il personaggio scelto è in gioco, quest'ultimo è ubriaco.",
+      "first": "Il Filosofo potrebbe scegliere un personaggio. Se necessario, sostituisci il suo gettone personaggio. :reminder:",
+      "flavor": "Se c'è qualcosa di reale, la birra è reale. Bevete, poiché domani potremmo morire.",
+      "name": "Filosofo",
+      "other": "Il Filosofo potrebbe scegliere un personaggio. Se necessario, sostituisci il suo gettone personaggio. :reminder:"
+    },
+    "pithag": {
+      "ability": "Ogni notte*, scegli un giocatore e un personaggio in cui diventa (se non è in gioco). Se viene creato un Demone in questo modo, le morti stanotte sono arbitrarie.",
+      "flavor": "Gira attorno al calderone; Getta nelle viscere il veleno; Rospo, quello sotto la pietra fredda; Trentuno giorni e notti; Il veleno sudato dorme; Bollisci nel calderone incantato.",
+      "name": "Fattucchiera",
+      "other": "La Fattucchiera sceglie un giocatore e un personaggio. Se sceglie un personaggio che non è in gioco: Addormenta la Fattucchiera. Sveglia il bersaglio. Mostragli la tessera *TU SEI* e il suo nuovo gettone personaggio."
+    },
+    "pixie": {
+      "ability": "Inizi conoscendo un Cittadino attualmente in gioco. Se sei \"ossessionato\" dall'idea di essere questo personaggio, ottieni la sua abilità quando quest'ultimo muore.",
+      "first": "Mostra il gettone personaggio Cittadino marcato come *OSSESSIONATO*.",
+      "flavor": "Gira e rigira intorno al giardino. Le bambine corrono da tutte le parti. I bambini si arrampicano sugli alberi. Quale di questi dovrebbe essere la Fatina? Le damigelle sorridono e vanno in città. I signori con le asce tagliano la foresta. Ciò che è tuo è mio. Ciò che è mio è divino. Sono una piccola Fatina ingenua.",
+      "name": "Fatina"
+    },
+    "plaguedoctor": {
+      "ability": "Quando muori, il Narratore ottiene l'abilità di un Tirapiedi.",
+      "flavor": "Pehr pyacehre stai fehrmo. È temmmpo di periiire. Errrm-errrm.",
+      "name": "Medico della Peste",
+      "other": "Se il Medico della Peste è morto, il Narratore ha ottenuto l'abilità di un Tirapiedi. Se non l'hai ancora fatto, fallo ora. :reminder:"
+    },
+    "po": {
+      "ability": "Ogni notte*, puoi scegliere un giocatore: quest'ultimo muore. Se la tua ultima scelta è stata nessuno, scegli 3 giocatori stanotte.",
+      "flavor": "Vuoi un fiore? Sono così solo.",
+      "name": "Po",
+      "other": "Il Po può scegliere un giocatore OPPURE sceglie 3 giocatori se non ha scelto nessuno la notte precedente. :reminder: oppure :reminder: :reminder: :reminder:"
+    },
+    "poisoner": {
+      "ability": "Ogni notte, scegli un giocatore: quest'ultimo è avvelenato stanotte e domani durante il giorno.",
+      "first": "L'Untore sceglie un giocatore. :reminder:",
+      "flavor": "Aggiungi la sostanza Alpha alla sostanza Beta... NON TROPPO!",
+      "name": "Untore",
+      "other": "L'Untore sceglie un giocatore. :reminder:"
+    },
+    "politician": {
+      "ability": "Se sei stato il giocatore più responsabile per la sconfitta della tua squadra, cambi allineamento e vinci, anche se sei morto.",
+      "flavor": "Sono contento che tu mi abbia fatto questa domanda. Davvero, lo sono. Ma secondo me la VERA domanda è...",
+      "name": "Politico"
+    },
+    "poppygrower": {
+      "ability": "I Tirapiedi e i Demoni non si conoscono. Se muori, si conoscono l'un l'altro quella notte.",
+      "first": "Salta le Informazioni dei Tirapiedi e le Informazioni del Demone. Sveglia il Demone. Mostragli la tessera delle informazioni *QUESTI PERSONAGGI NON SONO IN GIOCO*. Mostra 3 gettoni di personaggi buoni non in gioco.",
+      "flavor": "Nei boschetti nascosti della foresta profonda dimora il papavero nero. Essere testimoni della sua delizia significa rimanerne incantati. Annusare il suo forte profumo porta a perdersi eternamente, e a diventare schiavo degli dei della luce e dell'oscurità.",
+      "name": "Coltivatore di Papaveri",
+      "other": "Se il Coltivatore di Papaveri è morto oggi o stanotte, sveglia i Tirapiedi. Mostra la tessera delle informazioni *QUESTO È IL DEMONE*. Indica il Demone. Addormentali. Sveglia il Demone. Mostra la tessera delle informazioni *QUESTI SONO I TUOI TIRAPIEDI*. Indica i Tirapiedi."
+    },
+    "preacher": {
+      "ability": "Ogni notte, scegli un giocatore: un Tirapiedi, se scelto, lo apprende. I Tirapiedi scelti perdono la loro abilità.",
+      "first": "Il Predicatore sceglie un giocatore. :reminder: Se ha scelto un Tirapiedi: Addormenta il Predicatore. Sveglia il bersaglio. Mostragli la tessera *QUESTO PERSONAGGIO TI HA SCELTO* e il gettone del Predicatore.",
+      "flavor": "È meglio essere ricchi e sani che poveri e malati.",
+      "name": "Predicatore",
+      "other": "Il Predicatore sceglie un giocatore. :reminder: Se ha scelto un Tirapiedi: Addormenta il Predicatore. Sveglia il bersaglio. Mostragli la tessera *QUESTO PERSONAGGIO TI HA SCELTO* e il gettone del Predicatore."
+    },
+    "princess": {
+      "ability": "Durante il tuo primo giorno, se hai accusato e giustiziato un giocatore, il Demone non uccide stanotte.",
+      "flavor": "Le nostre parole sono dei mastini vincolati da fili di seta, miei signori. Lasciate che la gentilezza le intrecci in verità, affinché il regno non crolli e la nostra corte non venga divisa.",
+      "name": "Principessa",
+      "other": "Se la Principessa ha accusato il giocatore che è stato giustiziato oggi, il Demone si sveglia come di consueto, ma nessuno muore a causa della sua abilità. :reminder:"
+    },
+    "professor": {
+      "ability": "Una volta a partita, durante la notte*, scegli un giocatore morto: se quest'ultimo è un Cittadino, viene resuscitato.",
+      "flavor": "Il processo è semplice. Collego il confabulatore idraulico all'amplificatore di matrice chi modificato, aggiungo 20 CCs di pseudodorafina, mantengo i suoi livelli Z sopra il 20%, e suo marito starà bene. Ora, tutto ciò di cui abbiamo bisogno è il colpo di un fulmine.",
+      "name": "Professore",
+      "other": "Il Professore potrebbe scegliere un giocatore morto. :reminder: :reminder:"
+    },
+    "psychopath": {
+      "ability": "Ogni giorno, prima delle accuse, puoi scegliere pubblicamente un giocatore: quest'ultimo muore. Se vieni giustiziato, muori solo se perdi a morra cinese.",
+      "flavor": "Sorpresa!",
+      "name": "Psicopatico"
+    },
+    "pukka": {
+      "ability": "Ogni notte, scegli un giocatore: quest'ultimo è avvelenato. Il giocatore avvelenato precedentemente muore e ritorna sano.",
+      "first": "Il Pukka sceglie un giocatore. :reminder:",
+      "flavor": "Siete stati veramente gentili a invitarmi nella vostra bellissima dimora. Sono davvero desolato di avervi graffiato per sbaglio. Una cosuccia. Non fa niente. Ma prego, prendete questo stuzzicadenti d'oro come umile simbolo del mio rimorso.",
+      "name": "Pukka",
+      "other": "Il Pukka sceglie un giocatore. :reminder: Il giocatore avvelenato precedentemente muore e ritorna sano. :reminder:"
+    },
+    "puzzlemaster": {
+      "ability": "1 giocatore è ubriaco, anche se muori. Se indovini (un'unica volta) chi è, scopri chi è il Demone, ma se sbagli ricevi informazioni false.",
+      "flavor": "Quando qualcuno comincia a pensare che una certa cosa sia solamente una certa altra cosa, si trova solitamente vicino a un errore. Pazienza, pazienza. Non confondere solo e dovrebbe con è e non è.",
+      "name": "Enigmista"
+    },
+    "ravenkeeper": {
+      "ability": "Se muori durante la notte, vieni svegliato per scegliere un giocatore: scopri il suo personaggio.",
+      "flavor": "I miei uccelli mi vendicheranno! Volate! Volate, miei dolci e leali tesori! Verso la magione e verso il fiume! Verso i vicoli e verso i saloni! Volate!",
+      "name": "Custode dei Corvi",
+      "other": "Se il Custode dei Corvi è morto stanotte, il Custode dei Corvi sceglie un giocatore. Mostragli il gettone personaggio di quel giocatore."
+    },
+    "recluse": {
+      "ability": "Puoi apparire come malvagio e come un Tirapiedi o un Demone, anche se sei morto.",
+      "flavor": "Mannaggia a voi maledette pesti nel mio giardino. Grr. Fareste bene a smammare a sud o comincerò a rincorrervi! Via! Combattere i demoni non è mai stata la mia specialità. Via, ho detto!",
+      "name": "Solitario"
+    },
+    "revolutionary": {
+      "ability": "2 giocatori vicini sono noti essere dello stesso allineamento. Una volta a partita, 1 di loro appare erroneamente.",
+      "flavor": "Uniti fingiamo. Divisi rallentiamo.",
+      "name": "Rivoluzionario"
+    },
+    "riot": {
+      "ability": "Durante il giorno 3, i Tirapiedi diventano Rivolta e gli accusati muoiono, ma devono accusare un giocatore vivo immediatamente. Questo deve accadere.",
+      "flavor": "Larga vida a la revolución! Mi revolución!",
+      "name": "Rivolta",
+      "other": "Cambia il gettone promemoria della Rivolta secondo il giorno corrente. :reminder: Se è la terza notte, puoi svegliare i Tirapiedi. Mostra loro il gettone informazioni *TU SEI* e il gettone personaggio della Rivolta."
+    },
+    "sage": {
+      "ability": "Se il Demone ti uccide, scopri che è 1 fra 2 giocatori.",
+      "flavor": "Questi volumi immensi custodiscono il segreto, ne sono sicuro! Fra le tante parole, giace in attesa. Più candele, ragazzo! Più inchiostro! Queste annotazioni possono sembrare misteriose, ma l'enigma infernale si sta rivelando.",
+      "name": "Saggio",
+      "other": "Se il Demone ha ucciso il Saggio, sveglia il Saggio e indica 2 giocatori, 1 dei quali è il Demone."
+    },
+    "sailor": {
+      "ability": "Ogni notte, scegli un giocatore vivo: uno tra voi due è ubriaco fino al tramonto. Non puoi morire.",
+      "first": "Il Marinaio sceglie un giocatore vivo. :reminder:",
+      "flavor": "Batto ognuno di voi nel bere! Tu! Il chiacchierone! Pensi di potermi sfidare? No? E tu invece, Nonnetta? Hai mai provato il Rum Extra Speziato del Vecchio McKillys? Garantito a farti crescere i peli sul petto! Salite a bordo, sì!",
+      "name": "Marinaio",
+      "other": "Il Marinaio sceglie un giocatore vivo. :reminder:"
+    },
+    "saint": {
+      "ability": "Se vieni giustiziato e muori, la tua squadra perde.",
+      "flavor": "La saggezza genera pace. La pazienza genera saggezza. Non temete, poiché il tempo arriverà quando anche la paura svanirà. Preghiamo, affinché l'unione delle nostre idee ci renda tutti santi.",
+      "name": "Martire"
+    },
+    "savant": {
+      "ability": "Ogni giorno, puoi visitare il Narratore per scoprire 2 cose in privato: 1 è vera e 1 è falsa.",
+      "flavor": "Settantadue fiammiferi a terra... il sole tramonta presto ma la luna è immutabile... un pezzo di stoffa strappato... forze del male nella villa padronale... tre per tre... colui di cui ci fidavamo non è quello che sembra... la luce verde indica del residuo... di magnesio, ma lo schema è errato... Settantadue fiammiferi a terra...",
+      "name": "Prodigio"
+    },
+    "scapegoat": {
+      "ability": "Se un giocatore del tuo allineamento è giustiziato, potresti essere giustiziato al suo posto.",
+      "flavor": "Buonasera! Grazie per avermi invitato al ballo. Non sono di qui, ma sembrate un gruppo amichevole, perbacco. Sono sicuro che andremo d'amore e d'accordo. A cosa serve tutta quella corda?",
+      "name": "Capro Espiatorio"
+    },
+    "scarletwoman": {
+      "ability": "Se ci sono 5 o più giocatori vivi e il Demone muore, diventi il Demone. (I Viaggiatori non contano.)",
+      "flavor": "Mi hai mostrato i segreti del Comitato della Fiamma Porpora. Abbiamo giaciuto insieme tra il fuoco e la lussuria, in comunione animalesca, e sarò per sempre la tua serva. Ma stanotte, mio caro, sono io la tua padrona.",
+      "name": "Donna Scarlatta",
+      "other": "Se la Donna Scarlatta è diventata il Demone oggi, mostrale la tessera *TU SEI* e il gettone del Demone."
+    },
+    "seamstress": {
+      "ability": "Una volta a partita, durante la notte, scegli 2 giocatori (non te stessa): scopri se sono dello stesso allineamento.",
+      "first": "La Sarta potrebbe scegliere 2 giocatori. Annuisci o scuoti la testa. :reminder:",
+      "flavor": "Hai sentito che quello straniero col cappotto di cashmere ha chiesto la mano della nostra giovane Belle? E lei ha detto sì? Beh, non è niente in confronto a quello che Harry e quel giocoliere hanno combinato alla fiera! Le cose che potrei dire se fossi una pettegola... eh, sì.",
+      "name": "Sarta",
+      "other": "La Sarta potrebbe scegliere 2 giocatori. Annuisci o scuoti la testa. :reminder:"
+    },
+    "sentinel": {
+      "ability": "Ci potrebbe essere 1 Forestiero in più o 1 in meno in gioco.",
+      "flavor": "Nome, per favore. Documenti, per favore. Armi, per favore.",
+      "name": "Sentinella"
+    },
+    "shabaloth": {
+      "ability": "Ogni notte*, scegli 2 giocatori: questi ultimi muoiono. Un giocatore morto che hai scelto la notte precedente potrebbe essere regurgitato.",
+      "flavor": "Blarg f'taag nm mataan! No sho gumtha m'sik na yuuu. Fluuuuuuuuurg h-sikkkh.",
+      "name": "Shabaloth",
+      "other": "Un giocatore scelto precedentemente potrebbe essere resuscitato. :reminder: Lo Shabaloth sceglie 2 giocatori. :reminder: :reminder:"
+    },
+    "shugenja": {
+      "ability": "Inizi conoscendo se il giocatore malvagio più vicino a te si trova in senso orario o antiorario. Se equidistante, questa informazione è arbitraria.",
+      "first": "Indica in senso orario o in senso antiorario.",
+      "flavor": "これは夢。それも夢。すべて夢です。",
+      "name": "Shugenja"
+    },
+    "slayer": {
+      "ability": "Una volta a partita, durante il giorno, scegli pubblicamente un giocatore: se è il Demone, muore.",
+      "flavor": "Muori.",
+      "name": "Arciere"
+    },
+    "snakecharmer": {
+      "ability": "Ogni notte, scegli un giocatore vivo: se scegli il Demone, quest'ultimo scambia personaggio e allineamento con te ed è poi avvelenato.",
+      "first": "L'Incantatore di Serpenti sceglie un giocatore. Se ha scelto il Demone: Mostragli la tessera *TU SEI* e il gettone del Demone. Dai un pollice in giù. Scambia i gettoni dell'Incantatore di Serpenti e del Demone. Addormenta il vecchio Incantatore di Serpenti. Sveglia il vecchio Demone. Mostragli la tessera *TU SEI* e il gettone dell'Incantatore di Serpenti, poi dai un pollice in su. :reminder:",
+      "flavor": "Effendi... Non sono altro che un umile uomo, ma la mia pipa è dorata e una singola canzone mette a bada anche il più violento dei geni, Inshallah. Dicono che l'avidità impicca più uomini della corda. Ma io no, Effendi... io no.",
+      "name": "Incantatore di Serpenti",
+      "other": "L'Incantatore di Serpenti sceglie un giocatore. Se ha scelto il Demone: Mostragli la tessera *TU SEI* e il gettone del Demone. Dai un pollice in giù. Scambia i gettoni dell'Incantatore di Serpenti e del Demone. Addormenta il vecchio Incantatore di Serpenti. Sveglia il vecchio Demone. Mostragli la tessera *TU SEI* e il gettone dell'Incantatore di Serpenti, poi dai un pollice in su. :reminder:"
+    },
+    "snitch": {
+      "ability": "Ogni Tirapiedi riceve 3 bluff.",
+      "first": "Sveglia ciascun Tirapiedi. Mostra la tessera informazioni *QUESTI PERSONAGGI NON SONO IN GIOCO*. Mostra 3 gettoni personaggi non in gioco.",
+      "flavor": "È stato John.",
+      "name": "Informatore"
+    },
+    "soldier": {
+      "ability": "Sei protetto dal Demone.",
+      "flavor": "Come Davide disse a Golia, come Teseo disse al Minotauro, come Arjuna disse a Bhagadatta... No.",
+      "name": "Soldato"
+    },
+    "spiritofivory": {
+      "ability": "Non ci può essere più di 1 giocatore malvagio in più.",
+      "flavor": "La landa desolata chiama. Le ossa si elevano a carne, e poi si riducono a polvere. Il grande spirito cresce. Il grande spirito osserva. Il grande spirito guida. L'essere umano ascolta, o l'essere umano svanisce.",
+      "name": "Spirito d'Avorio"
+    },
+    "spy": {
+      "ability": "Ogni notte, guarda il Grimorio. Puoi apparire come buono e come un Cittadino o un Forestiero, anche da morto.",
+      "first": "Mostra il Grimorio alla Spia per tutto il tempo necessario.",
+      "flavor": "Qualsiasi mastro birraio che valga il suo liquore, sa che nessuna mistura cura i problemi più rapidamente di quella che fa vedere due spie.",
+      "name": "Spia",
+      "other": "Mostra il Grimorio per la durata di tempo necessaria alla Spia."
+    },
+    "steward": {
+      "ability": "Inizi conoscendo 1 giocatore buono.",
+      "first": "Indica il giocatore marcato come *CONOSCE*.",
+      "flavor": "Come OSATE accusare Sua Signoria di atti illeciti? La conosco da tutta la mia vita! Tutti e nove anni!",
+      "name": "Attendente"
+    },
+    "stormcatcher": {
+      "ability": "Dichiara un personaggio buono. Se è in gioco, quest'ultimo può morire solo se giustiziato, ma i giocatori malvagi sanno che giocatore è.",
+      "first": "Annuncia quale personaggio è protetto dalla tempesta. Se il personaggio è in gioco, marca quel giocatore come *OCCHIO DELLA TEMPESTA*. Sveglia ciascun giocatore malvagio e mostra loro il gettone del personaggio, poi il giocatore marcato. Se non è in gioco, sveglia ciascun giocatore malvagio, mostra loro la tessera di informazioni *QUESTO PERSONAGGIO NON È IN GIOCO* e il gettone personaggio rilevante.",
+      "flavor": "All'alba, la lunga ombra del tempio giunge alla fontana. Al tramonto, l'obelisco blocca lo sguardo rosso, raffreddando l'acqua calda sotto l'arcata. Tutte le linee si incontrano qui. Una tempesta è in arrivo, e questo posto sacro di ciottoli e vegetazione tra i meli, ne è l'occhio.",
+      "name": "Cacciatore di Tempeste"
+    },
+    "summoner": {
+      "ability": "Ottieni 3 bluff. Durante la terza notte, scegli un giocatore: quest'ultimo diventa un Demone malvagio a tua scelta. [Nessun Demone]",
+      "first": "Mostra la tessera *QUESTI PERSONAGGI NON SONO IN GIOCO*. Mostra 3 gettoni di personaggi buoni non attualmente in gioco.",
+      "flavor": "Saluta i guardiani del nord; in nome del mio intelletto, sei adeguato. Saluta i guardiani dell'est; in nome del mio volere, sei dominato. Saluta i guardiani del sud; in nome di ciò che giace al di là, il mistero è rivelato. Saluta i guardiani dell'ovest; uno scudo nell'oscurità.",
+      "name": "Evocatore",
+      "other": "Cambia il gettone promemoria dell'Invocatore in base alla notte pertinente. :reminder: Se è la terza notte, l'Invocatore sceglie un giocatore e un Demone. Addormenta l'Invocatore. Sveglia il bersaglio. Mostragli la tessera *TU SEI* e il gettone del Demone, poi il pollice verso."
+    },
+    "sweetheart": {
+      "ability": "Quando muori, 1 giocatore diventa ubriaco.",
+      "flavor": "Non la dimenticherò mai. Mai.",
+      "name": "Tesorino",
+      "other": "Se il Tesorino è morto, un giocatore è diventato immediatamente ubriaco. Se non l'hai ancora fatto, fallo ora. :reminder:"
+    },
+    "tealady": {
+      "ability": "Se entrambi i tuoi vicini vivi sono buoni, non possono morire.",
+      "flavor": "Se hai freddo, il tè ti scalderà. Se hai caldo, il tè ti rinfrescherà. Se sei depresso, il tè ti consolerà. Se sei agitato, il tè ti calmerà.",
+      "name": "Signora del Tè"
+    },
+    "thief": {
+      "ability": "Ogni notte, scegli un giocatore (non te stesso): il suo voto conta negativamente domani.",
+      "first": "Il Ladro sceglie un giocatore. :reminder:",
+      "flavor": "Non ho fatto niente, io. Non stavo nemmeno in quel vicolo ieri sera! Non fui mica io ad aver rubato la valigetta del Sindaco Bruno con tutte quei documenti sofisticati lì. E poi, era troppo pesante per trasportarla.",
+      "name": "Ladro",
+      "other": "Il Ladro sceglie un giocatore. :reminder:"
+    },
+    "tinker": {
+      "ability": "Potresti morire in qualsiasi momento.",
+      "flavor": "Penso di aver capito il problema. Per fortuna, ho un'idea! Questa catapulta avrà il doppio della forza di lancio con solo un piccolo aggiustamento...",
+      "name": "Smanettatore",
+      "other": "Lo Smanettatore potrebbe morire. :reminder:"
+    },
+    "towncrier": {
+      "ability": "Ogni notte*, scopri se un Tirapiedi ha accusato qualcuno oggi.",
+      "flavor": "Udite! Udite! Stregoneria nel labirinto! Genio prodigio rivela tutto! Città in pericolo! Udite!",
+      "name": "Strillone",
+      "other": "Annuisci o scuoti la testa."
+    },
+    "toymaker": {
+      "ability": "Il Demone può scegliere di non attaccare e deve farlo almeno una volta a partita. I giocatori malvagi ottengono le informazioni iniziali come di consueto.",
+      "first": "Svolgi le fasi delle Informazioni dei Tirapiedi e delle Informazioni del Demone anche se ci sono meno di 7 giocatori.",
+      "flavor": "Suona! Cammina giù per le scale! Ti tiene caldo la notte! Sa di zucchero! I bambini lo adorano! Vi presento... il nuovissimo... Cosino-aggeggino-musicale-caldo-mobile! Divertimento per tutte le età!",
+      "name": "Giocattolaio",
+      "other": "Se è una notte in cui l'attacco del Demone può terminare la partita, e il Demone è contrassegnato col gettone *NOTTE FINALE: NESSUN ATTACCO*, non svegliare il Demone stanotte."
+    },
+    "undertaker": {
+      "ability": "Ogni notte*, scopri quale personaggio è stato giustiziato e ucciso oggi.",
+      "flavor": "Hmmm... cosa abbiamo qui? Lo stivale sinistro è logorato fino al tacco, con scaglie di pietra focaia sotto la linguetta. Questo è l'abito di un uomo d'armi.",
+      "name": "Becchino",
+      "other": "Se un giocatore è stato giustiziato oggi, mostra il suo gettone personaggio."
+    },
+    "vigormortis": {
+      "ability": "Ogni notte*, scegli un giocatore: quest'ultimo muore. I Tirapiedi uccisi in questo modo continuano ad avere la loro abilità e avvelenano un Cittadino vicino. [-1 Forestiero]",
+      "flavor": "Tutte le porte non sono che una porta. Tutte le chiavi non sono che una chiave. Tutte le tazze sono una tazza, ma chiunque beva dall'acqua da me offerta non patirà mai la sete, ma l'acqua sarà in lui un pozzo che donerà la vita eterna.",
+      "name": "Vigormortis",
+      "other": "Il Vigormortis sceglie un giocatore. :reminder: Se quel giocatore è un Tirapiedi, avvelena un Cittadino vicino. :reminder: :reminder:"
+    },
+    "villageidiot": {
+      "ability": "Ogni notte, scegli un giocatore: scopri il suo allineamento. [+0 fino a +2 Scemi del Villaggio. 1 di quelli aggiuntivi è ubriaco]",
+      "first": "Se ci sono più Scemi del Villaggio, marcane uno come *UBRIACO*. :reminder: Sveglia gli Scemi del Villaggio uno alla volta per scegliere un giocatore. Fai un segnale col pollice.",
+      "flavor": "Le rose sono blu, le viole sono rosse, per favore inverti quello che ho appena detto.",
+      "name": "Scemo del Villaggio",
+      "other": "Sveglia gli Scemi del Villaggio uno alla volta per scegliere un giocatore. Fai un segnale col pollice."
+    },
+    "virgin": {
+      "ability": "La prima volta che vieni accusata, se l'accusatore è un Cittadino, quest'ultimo viene giustiziato immediatamente.",
+      "flavor": "Io sono casta. Che siano quelli senza peccato a gettarsi e soffrire al mio posto. La mia reputazione non verrà macchiata dalle tue maligne accuse.",
+      "name": "Vergine"
+    },
+    "vizier": {
+      "ability": "Tutti i giocatori sanno che sei il Visir. Non puoi morire durante il giorno. Se almeno un giocatore buono ha votato, puoi scegliere di giustiziare l'accusato immediatamente.",
+      "first": "Annuncia quale giocatore è il Visir.",
+      "flavor": "Una decisione eccellente come sempre, sire. Un crimine così futile come urtare il Vescovo merita decisamente la tua 'giustizia' e la tua 'pietà'. Fate una passeggiata nei giardini. Visitate la galleria e esaminate le sculture di Von Strauf. Rilassatevi, sire. Lasciate tutto... nelle mie mani.",
+      "name": "Visir"
+    },
+    "vortox": {
+      "ability": "Ogni notte*, scegli un giocatore: quest'ultimo muore. Le abilità dei Cittadini generano informazioni false. Ogni giorno, se nessuno è stato giustiziato, i malvagi vincono.",
+      "flavor": "Nero è Bianco. Giusto è Sbagliato. Sinistra è Destra. Su è Lungo. Giù è Vista. Basso è Cieco. Seguimi. Trova risposte.",
+      "name": "Vortox",
+      "other": "Il Vortox sceglie un giocatore. :reminder:"
+    },
+    "voudon": {
+      "ability": "Solo tu e i morti possono votare. Non hanno bisogno di un gettone voto per farlo. Una maggioranza del 50% non è necessaria.",
+      "flavor": "Bien venu. Siediti. Respira profondamente. Entra nella terra dei morti. Osserva con i loro occhi. Parla con la loro voce. Yon sel lang se janm ase.",
+      "name": "Voudon"
+    },
+    "washerwoman": {
+      "ability": "Inizi conoscendo che 1 tra 2 giocatori è un Cittadino specifico.",
+      "first": "Mostra il gettone personaggio del Cittadino. Indica sia i giocatori contrassegnati da *CITTADINO* e *SBAGLIATO*.",
+      "flavor": "Macchie di sangue sull'abito da sera? No, questo è sherry da cucina. Che sbadata.",
+      "name": "Lavandaia"
+    },
+    "widow": {
+      "ability": "Durante la tua prima notte, guarda il Grimorio e scegli un personaggio: quest'ultimo è avvelenato. 1 giocatore buono sa che c'è una Vedova in gioco.",
+      "first": "Mostra il Grimorio alla Vedova per tutto il tempo necessario. La Vedova sceglie un giocatore. :reminder: Addormenta la Vedova. Sveglia il giocatore marcato come *CONOSCE* e mostra il giocatore della Vedova. :reminder:",
+      "flavor": "Altro vino? Lo Château d’Ergot ’07 è un vino d'annata speciale. Oh sì, molto speciale davvero.",
+      "name": "Vedova"
+    },
+    "witch": {
+      "ability": "Ogni notte, scegli un giocatore: se lancia un'accusa domani, quest'ultimo muore. Se solo 3 giocatori sono vivi, perdi questa abilità.",
+      "first": "La Strega sceglie un giocatore. :reminder:",
+      "flavor": "Tre gocce di sangue di capra. Una ciocca di capelli, strappata in un momento di rabbia. Il nome è pronunciato, l'ombra è proiettata. Partendo col piede sinistro, prosegui verso il sentiero di rovi e non guardarti indietro.",
+      "name": "Strega",
+      "other": "La Strega sceglie un giocatore. :reminder:"
+    },
+    "wizard": {
+      "ability": "Una volta a partita, scegli di esprimere un desiderio. Se esaudito, potrebbe avere un prezzo e lasciare un indizio riguardo alla sua natura.",
+      "first": "Fai quel che è necessario per soddisfare l'abilità del Mago.",
+      "flavor": "Ogni uomo e ogni donna è una stella. L'amore è la legge, amore sotto la volontà.",
+      "name": "Mago",
+      "other": "Fai quel che è necessario per soddisfare l'abilità del Mago."
+    },
+    "wraith": {
+      "ability": "Puoi scegliere di aprire gli occhi durante la notte. Ti svegli quando si svegliano gli altri giocatori malvagi.",
+      "first": "Sveglia lo Spettro quando si svegliano gli altri giocatori malvagi.",
+      "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
+      "name": "Spettro",
+      "other": "Sveglia lo Spettro quando gli altri giocatori malvagi si svegliano."
+    },
+    "xaan": {
+      "ability": "Durante la notte X, tutti i Cittadini sono avvelenati fino al tramonto. [X Forestieri]",
+      "first": "Se X è 1, segna lo Xaan con il gettone promemoria *X*. :reminder: :reminder:",
+      "flavor": "Cadono giù. Uno ad uno. Per due, per tre, per cinque.",
+      "name": "Xaan",
+      "other": "Cambia il gettone promemoria dello Xaan in base alla notte in questione. Se è la notte X, segna lo Xaan con il gettone promemoria *X*. :reminder: :reminder:"
+    },
+    "yaggababble": {
+      "ability": "Inizi conoscendo una frase segreta. Per ogni volta che la pronunci pubblicamente oggi, un giocatore potrebbe morire.",
+      "first": "Sveglia la Ciarlatana e informala della frase segreta.",
+      "flavor": "Delitti nella Rue Morgue? Фальшивые новости! Mastini sulle brughiere dei Baskerville? Фальшивые новости! Morte sul Nilo? Фальшивые новости!",
+      "name": "Ciarlatana",
+      "other": "Per ogni volta che la Ciarlatana ha pronunciato la frase oggi, un giocatore potrebbe morire. :reminder:"
+    },
+    "zealot": {
+      "ability": "Se ci sono 5 o più giocatori vivi, devi votare durante ogni accusa.",
+      "flavor": "Mi piace parlare con te. La tua mente mi affascina. Assomiglia alla mia tranne per il fatto che tu sei fuori di testa.",
+      "name": "Fanatico"
+    },
+    "zombuul": {
+      "ability": "Ogni notte*, se oggi non è morto nessuno, scegli un giocatore: questo muore. La prima volta che muori, sopravvivi ma appari morto.",
+      "flavor": "Non. Capisco. Le tue usanze. Umano mio simile. Mostrami. La terra. Dove i benedetti. Giacciono. Dormendo. Anche io. Devo dormire. A breve.",
+      "name": "Zombuul",
+      "other": "Se oggi non è morto nessuno, lo Zombuul sceglie un giocatore. :reminder:"
+    },
+    "bigwig": {
+      "ability": "Ogni accusatore sceglie un giocatore: fino alla fase di voto, solo quel giocatore può parlare ed è ossessionato che l'accusato è buono, o potrebbe morire.",
+      "flavor": "La vanità chiede 'È popolare?' La codardia chiede 'È sicuro?' La coscienza chiede 'È giusto?' Chi tra di noi chiederà 'È vero?'",
+      "name": "Parruccone"
+    },
+    "tor": {
+      "ability": "I giocatori non conoscono il loro personaggio o allineamento. Li scoprono quando muoiono.",
+      "flavor": "Con il tuono per la voce e il lampo per la lama, io, il guardiano eterno, banchetto con gli idioti che osano avvicinarsi al cancello proibito. Osservate, il mio sacro obiettivo! Ripulire lo scarafaggio dallo stomaco della terra rocciosa, intrappolarlo in una rete di stelle, sulla cima della collina dove il cielo incontra la terra.",
+      "name": "Tor",
+      "other": "Se un personaggio è morto stanotte, mostragli la tessera informazioni *TU SEI*, il suo gettone personaggio, e un pollice su o verso."
+    },
+    "zenomancer": {
+      "ability": "Uno o più giocatori hanno un obiettivo. Quando è raggiunto, quel giocatore apprende un'informazione vera.",
+      "flavor": "L'universo è un verbo e non un nome, dicono, e sono tutte tartarughe, tartarughe, ti dico. Tartarughe fino alla base, amico mio, tartarughe fino alla base.",
+      "name": "Zenomante"
+    },
+    "hindu": {
+      "ability": "I primi 4 giocatori che muoiono sono reincarnati immediatamente cone Viaggiatori dello stesso allineamento.",
+      "flavor": "चत्वारो मृत्युमध्ये पतन्ति, चत्वारो यात्री पुनरुद्गताः। चत्वारो धर्मे स्थितचित्तवृत्तेः, चत्वार एषां न पुनः क्षयः॥",
+      "name": "Hindu"
+    },
+    "pope": {
+      "ability": "Ci sono copie di personaggi buoni in gioco. Potrebbero anche essere bluff.",
+      "flavor": "...Pulcherrimae.",
+      "name": "Papa"
+    },
+    "cacklejack": {
+      "ability": "Ogni giorno, scegli un giocatore: un giocatore diverso cambia personaggio stanotte.",
+      "flavor": "Collega α Al cavo β. LuCe aCcEsa. BuZZer spento. GAzOinks! Braccia T3Se. DiTA su7 naso. stAaaaI feRMO. BoiNgo-banGo! Ah-ah-ah!",
+      "name": "Cacklejack",
+      "other": "Prima dell'alba, scegli un giocatore non marcato come *NON IO*. Sveglia il bersaglio. Mostragli il gettone informazioni *TU SEI* e il suo nuovo gettone personaggio."
+    },
+    "ventriloquist": {
+      "ability": "Se un giocatore è ossessionato di essere un personaggio diverso durante la sua accusa, potrebbe non morire se giustiziato oggi.",
+      "flavor": "Allora, gente, adunatevi! Questo è il mio amico Charlie, e ha una parlantina che farebbe arrossire i muli. Ma state tranquilli, cari, sono io che faccio tutta la conversazione... o no?",
+      "name": "Ventriloquista"
+    },
+    "godofug": {
+      "ability": "Un cappello Ug. Se avere cappello Ug, fare un suono e due voti alla volta. Se sbagliare, passare cappello Ug.",
+      "flavor": "I miei figli sono benedetti, poiché vedono la bellezza nelle cose semplici.",
+      "name": "Dio dell'Ug"
+    },
+    "knaves": {
+      "ability": "Ci sono 2 Narratori: uno mente e l'altro dice la verità. Una volta per partita, al tramonto, si potrebbero invertire.",
+      "flavor": "Ogni muro è una porta. Ogni pasto è un banchetto.",
+      "name": "Fanti"
+    }
+  },
+  "teams": {
+    "demon": "Demoni",
+    "fabled": "Leggendari",
+    "minion": "Tirapiedi",
+    "outsider": " Forestieri",
+    "townsfolk": "Cittadini",
+    "traveller": "Viaggiatori",
+    "loric": "Folklorico"
+  },
+  "nightMarkers": {
+    "dawn": "Alba",
+    "demoninfo": "Informazioni del demone",
+    "dusk": "Tramonto",
+    "minioninfo": "Informazioni dei Tirapiedi"
+  },
+  "reminders": {
+    "2nd": "Secondo",
+    "3attacks": "3 Attacchi",
+    "3votes": "3 Voti",
+    "abnormal": "Anormale",
+    "abouttodie": "Sta per morire",
+    "actstwice": "Attivo due volte",
+    "aligned": "Allineato/a",
+    "alive": "Vivo",
+    "amigo": "Amigo",
+    "cannotdie": "Non può morire",
+    "chosen": "Scelto",
+    "claimed": "Affermato",
+    "correct": "Corretto",
+    "cursed": "Maledetto",
+    "day1": "Giorno 1",
+    "day2": "Giorno 2",
+    "day3": "Giorno 3",
+    "day4": "Giorno 4",
+    "day5": "Giorno 5",
+    "dead": "Morto",
+    "demonnotvoted": "Il Demone non ha votato",
+    "demonvoted": "Il Demone ha votato",
+    "diedtoday": "Morto oggi",
+    "doesntkill": "Non Uccide",
+    "drunk": "Ubriaco",
+    "drunk1": "Ubriaco 1",
+    "drunk2": "Ubriaco 2",
+    "drunk3": "Ubriaco 3",
+    "everyoneisdrunk": "Tutti Ubriachi",
+    "evil": "Malvagio",
+    "evilwakes": "I malvagi si svegliano",
+    "falseinfo": "Informazioni false",
+    "fauxpaw": "Faux Paw",
+    "fear": "Paura",
+    "finalnightnoattack": "Notte Finale: Nessun Attacco",
+    "friend": "Amico",
+    "good": "Buono",
+    "goodplayerexecuted": "Giocatore buono giustiziato",
+    "grandchild": "Nipote",
+    "guessused": "Abilità Usata",
+    "haircutstonight": "Tagli stanotte",
+    "hasability": "Ha Abilità",
+    "isthealchemist": "È l'Alchimista",
+    "istheapprentice": "È l'Apprendista",
+    "isthedemon": "È il Demone",
+    "isthedrunk": "È l'Ubriaco",
+    "isthemarionette": "È la Marionetta",
+    "isthephilosopher": "È il Filosofo",
+    "know": "Conosce",
+    "lunch": "Pranzo",
+    "mad": "Ossessionato",
+    "master": "Padrone",
+    "maynotnominate": "Non Può Accusare",
+    "minion": "Tirapiedi",
+    "minionnominated": "Tirapiedi Ha Accusato",
+    "minionsnotnominated": "Tirapiedi Non Ha Accusato",
+    "negativevote": "Voto negativo",
+    "night1": "Notte 1",
+    "night2": "Notte 2",
+    "night3": "Notte 3",
+    "noability": "Nessuna abilità",
+    "nominateevil": "Accusa un Malvagio",
+    "nominategood": "Accusa un Buono",
+    "nomoreevil": "Nessun Altro Malvagio",
+    "once": "Una Volta",
+    "outsider": "Forestiero",
+    "poisoned": "Avvelenato",
+    "protected": "Protetto",
+    "redherring": "Depistaggio",
+    "registerfalsely": "Appare Erroneamente?",
+    "safe": "Protetto",
+    "soberhealthy": "Sano e sobrio",
+    "somethingbad": "Qualcosa di Brutto",
+    "storytellerability": "Abilità del Narratore",
+    "survivesexecution": "Sopravvive l'Esecuzione",
+    "teapartytonight": "Tè Stanotte",
+    "townsfolk": "Cittadino",
+    "turnsevil": "Diventa malvagio",
+    "twin": "Gemello",
+    "visitor": "Visitatore",
+    "whoopsie": "Ops",
+    "wrong": "Sbagliato",
+    "stormcaught": "Occhio della tempesta",
+    "goal": "Obiettivo",
+    "notme": "Non Io",
+    "hat": "Cappello"
+  },
+  "jinxes": {
+    "alchemist-boffin": "Se l'Alchimista ha l'abilità del Cervellone, l'Alchimista non scopre quale abilità ha il Demone.",
+    "alchemist-marionette": "Un Alchimista-Marionetta non ha l'abilità della Marionetta, e la Marionetta è in gioco.",
+    "alchemist-mastermind": "Un Alchimista-Mastermind non ha l'abilità del Mastermind ed il Mastermind non è in gioco.",
+    "alchemist-organgrinder": "Se l'Alchimista ha l'abilità del Suonatore di Organetto, il Suonatore di Organetto è in gioco. Se entrambi sono sobri, entrambi sono ubriachi.",
+    "alchemist-spy": "Un Alchimista-Spia non ha l'abilità della Spia e la Spia è in gioco. Dopo ogni esecuzione, un Alchimista-Spia può indicare un giocatore vivo come la Spia. Se indovina correttamente, il Demone deve scegliere la Spia stanotte.",
+    "alchemist-summoner": "L'Alchimista-Evocatore non ottiene bluff e sceglie quale Demone ma non quale giocatore. Se muore prima che questo succeda, i malvagi vincono. [Nessun Demone]",
+    "alchemist-widow": "Un Alchimista-Vedova non ha l'abilità della Vedova ed una Vedova è in gioco. Dopo ogni esecuzione, un Alchimista-Vedova vivo può indicare pubblicamente un giocatore vivo come la Vedova. Se indovina correttamente, il Demone deve scegliere la Vedova stanotte.",
+    "alchemist-wraith": "Un Alchimista-Spettro non ha l'abilità dello Spettro e uno Spettro è in gioco. Dopo ogni esecuzione, un Alchimista-Spettro vivo può indicare pubblicamente un giocatore vivo come lo Spettro. Se indovina correttamente, il Demone deve scegliere lo Spettro stanotte.",
+    "alhadikhia-mastermind": "Se l'Al-Hadikhia viene giustiziato e muore, ed il Mastermind è vivo, l'Al-Hadikhia sceglie tre giocatori buoni stanotte: se tutti e tre scelgono di vivere, i malvagi vincono. Altrimenti, vincono i buoni.",
+    "alhadikhia-princess": "Se la Principessa ha accusato e fatto giustiziare un giocatore durante il suo primo giorno, nessuno morirà per mano dell'Al-Hadikhia stanotte.",
+    "alhadikhia-scarletwoman": "Se ci dovessero essere due Demoni, uno dei quali era la Donna Scarlatta, la Donna Scarlatta ritorna ad essere la Donna Scarlatta nuovamente.",
+    "alsaahir-vizier": "Il Narratore non dichiara che il Visir è in gioco.",
+    "atheist-riot": "Durante una rivolta, se il Narratore è accusato, i giocatori votano. Se il Narratore \"sta per morire\", la partita finisce. Altrimenti, i giocatori accusano ancora.",
+    "balloonist-marionette": "Se la Marionetta pensa di essere l'Aeronauta, un Forestiero potrebbe essere stato aggiunto durante la preparazione.",
+    "banshee-leviathan": "Ogni notte*, il Leviatano sceglie un giocatore buono vivo (diverso dalla notte precedente): una Banshee scelta muore e ottiene la sua abilità.",
+    "banshee-riot": "Ogni notte*, la Rivolta sceglie un giocatore vivo buono (diverso dalle notti precedenti): una Banshee scelta muore e guadagna la sua abilità.",
+    "banshee-vortox": "Se il Vortox uccide la Banshee, tutti i giocatori scoprono che la Banshee è morta.",
+    "baron-heretic": "Solo 1 personaggio con interazioni particolari può essere in gioco.",
+    "baron-plaguedoctor": "Se il Narratore guadagna l'abilità del Barone, fino a due giocatori diventano Forestieri.",
+    "boffin-cultleader": "Se il Demone ha l'abilità del Capo della Setta, non può cambiare allineamento tramite questa abilità.",
+    "boffin-drunk": "Se il Demone ottiene l'abilità dell'Ubriaco, il Cervellone sceglie un giocatore Cittadino che ottiene questa abilità.",
+    "boffin-goon": "Se il Demone ha l'abilità dello Scagnozzo, non può cambiare allineamento con questa abilità.",
+    "boffin-heretic": "Il Demone non può avere l'abilità dell'Eretico.",
+    "boffin-ogre": "Il Demone non può avere l'abilità dell'Orco.",
+    "boffin-politician": "Il Demone non può avere l'abilità del Politico.",
+    "boffin-villageidiot": "Se c'è un gettone in più, il Cervellone può dare al Demone l'abilità dello Scemo del Villaggio.",
+    "boomdandy-plaguedoctor": "Se il Narratore ottiene l'abilità del Bombarolo, un giocatore diventa il Bombarolo.",
+    "bountyhunter-kazali": "Se il Kazali trasforma il Cacciatore di Taglie in un Tirapiedi, non viene creato un Cittadino malvagio.",
+    "bountyhunter-philosopher": "Se il Filosofo ottiene l'abilità del Cacciatore di Taglie, un Cittadino potrebbe diventare malvagio.",
+    "butler-cannibal": "Se il Cannibale ottiene l'abilità del Maggiordomo, il Cannibale lo apprende.",
+    "butler-organgrinder": "Se il Suonatore di Organetto sta causando una votazione ad occhi chiusi, il Maggiordomo può alzare la mano per votare, ma il voto conta solo se anche il suo maestro ha votato.",
+    "cannibal-juggler": "Se il Giocoliere usa la sua abilità durante il suo primo giorno, viene giustiziato e muore, stanotte il Cannibale vivo scopre quanti ruoli il Giocoliere ha indovinato correttamente.",
+    "cannibal-princess": "Se il Cannibale ha accusato, fatto giustiziare e ucciso la Principessa oggi, il Demone non uccide stanotte.",
+    "cannibal-zealot": "Se il Cannibale ottiene l'abilità del Fanatico, il Cannibale ne viene informato.",
+    "cerenovus-goblin": "Lo Strizzacervelli può scegliere di rendere un giocatore \"ossessionato\" dall'idea di essere il Folletto.",
+    "chambermaid-mathematician": "La Domestica può rilevare se il Matematico si sveglierà stanotte.",
+    "clockmaker-summoner": "L'Evocatore risulta Demone all'Orologiaio.",
+    "courtier-summoner": "Se l'Evocatore vivo non ha abilità, il Narratore ha l'abilità dell'Evocatore.",
+    "courtier-vizier": "Se il Visir perde la sua abilità ne viene informato e non può morire durante il giorno.",
+    "cultleader-pithag": "Se la Fattucchiera trasforma un giocatore malvagio nel Capo della Setta, quel giocatore non può cambiare allineamento con questa abilità.",
+    "damsel-pithag": "Se la Fattucchiera crea una Damigella, il Narratore sceglie quale giocatore diventa la Damigella.",
+    "damsel-spy": "Se la Spia è (o è stata) in gioco, la Damigella è avvelenata.",
+    "damsel-widow": "Se la Vedova è (o è stata) in gioco, la Damigella è avvvelenata.",
+    "drunk-mathematician": "Il Matematico potrebbe apprendere se l'abilità dell'Ubriaco ha fornito informazioni false o ha funzionato erroneamente.",
+    "engineer-legion": "Se viene creata la Legione, tutti i giocatori malvagi diventano Legione. Se la Legione è in gioco, l'Ingegnere inizia sapendolo, ma non ha abilità.",
+    "engineer-summoner": "Se l'Evocatore è rimosso dal gioco, il Narratore ha l'abilità dell'Evocatore.",
+    "eviltwin-plaguedoctor": "Se il Narratore ottiene l'abilità del Gemello Malvagio, un giocatore diventa il Gemello Malvagio.",
+    "exorcist-leviathan": "Se il Leviatano nomina ed esegue il giocatore scelto dall'Esorcista, i buoni vincono.",
+    "exorcist-riot": "Se la Rivolta nomina e fa giustiziare il giocatore scelto dall'Esorcista, i buoni vincono.",
+    "exorcist-yaggababble": "Se l'Esorcista sceglie la Ciarlatana, la Ciarlatana non uccide stanotte.",
+    "fanggu-scarletwoman": "Se ci dovessero essere due Demon, uno dei quali era la Donna Scarlatta, la Donna Scarlatta rimane la Donna Scarlatta.",
+    "farmer-leviathan": "Ogni notte*, il Leviatano sceglie un giocatore vivo buono (diverso dalle notti precedenti): un Contadino scelto usa la sua abilità ma non muore.",
+    "farmer-riot": "Ogni notte, la Rivolta sceglie un giocatore buono vivo (diverso dalle notti precedenti): un Contadino scelto usa la sua abilità ma non muore.",
+    "fearmonger-plaguedoctor": "Se il Narratore guadagna l'abilità del Seminatore di Paura, un Tirapiedi la guadagna e ne viene informato.",
+    "fearmonger-vizier": "Il Visir si sveglia con il Seminatore di Paura, scopre chi viene scelto e non può scegliere di far giustiziare immediatamente quel giocatore.",
+    "goblin-plaguedoctor": "Se il Narratore ottiene l'abilità del Folletto, un Tirapiedi la ottiene e ne viene informato.",
+    "godfather-heretic": "Solo 1 personaggio con interazioni particolari può essere in gioco.",
+    "goon-pithag": "Se la Fattucchiera trasforma un giocatore malvagio nello Scagnozzo, quel giocatore non può cambiare allineamento grazie alla sua abilità.",
+    "grandmother-leviathan": "Se il Leviatano è in gioco e il nipote viene giustiziato e muore, i malvagi vincono.",
+    "grandmother-riot": "Se la Rivolta è in gioco e il Nipote viene giustiziato e muore, i malvagi vincono.",
+    "hatter-legion": "Se viene creata una Legione, tutti i giocatori malvagi diventano Legione. Se la Legione è in gioco, il Cappellaio non ha un'abilità.",
+    "hatter-leviathan": "Il Leviatano non può entrare in gioco dopo il giorno 5.",
+    "hatter-lilmonsta": "Se il Cappellaio muore e il Demone sceglie il Mostriciattolo, il Demone sceglie anche un Tirapiedi e diventa quel Tirapiedi.",
+    "hatter-summoner": "Se l'Evocatore crea un secondo Demone vivo, le morti stanotte sono arbitrarie.",
+    "heretic-lleech": "Solo 1 personaggio con interazioni particolari può essere in gioco.",
+    "heretic-pithag": "Solo 1 personaggio con interazioni particolari può essere in gioco.",
+    "heretic-spy": "Solo 1 personaggio con interazioni particolari può essere in gioco.",
+    "heretic-widow": "Solo 1 personaggio con interazioni particolari può essere in gioco.",
+    "huntsman-marionette": "Se la Marionetta pensa di essere il Cacciatore, la Damigella è stata aggiunta durante la preparazione.",
+    "innkeeper-leviathan": "Se il Leviatano accusa e fa giustiziare il giocatore protetto dal Locandiere, i buoni vincono.",
+    "innkeeper-riot": "Se la Rivolta accusa e fa giustiziare un giocatore protetto dal Locandiere, i buoni vincono.",
+    "investigator-vizier": "Il Narratore non dichiara che il Visir è in gioco.",
+    "kazali-marionette": "Se ci sarebbe una Marionetta in gioco, entra in gioco dopo il Demone e deve essere suo vicino.",
+    "kazali-summoner": "Se l'Evocatore crea un secondo Demone vivo, le morti stanotte sono arbitrarie.",
+    "king-leviathan": "Se il Leviatano è in gioco e almeno un giocatore è morto, il Re scopre un personaggio vivo ogni notte.",
+    "king-riot": "Se la Rivolta è in gioco e almeno un giocatore è morto, il Re scopre un personaggio vivo ogni notte.",
+    "legion-magician": "L'Illusionista si sveglia con la Legione e può registrare come malvagio. La Legione sa se c'è un Illusionista in gioco, ma non quale giocatore sia.",
+    "legion-minstrel": "Se una Legione è stata giustiziata ed è morta oggi, la Legione mantiene la sua abilità, ma il Menestrello potrebbe scoprire che è Legione.",
+    "legion-politician": "Il Politico potrebbe apparire come malvagio alla Legione.",
+    "legion-preacher": "Se il Predicatore sceglie una Legione, la Legione mantiene la sua abilità, ma il Predicatore potrebbe scoprire che è Legione.",
+    "legion-summoner": "Se la Legione è evocata, tutti i giocatori malvagi diventano Legione.",
+    "legion-zealot": "Il Fanatico potrebbe apparire come malvagio alla Legione.",
+    "leviathan-mayor": "Se il Leviatano e il Sindaco sono vivi il quinto giorno e nessun giocatore viene giustiziato, i buoni vincono.",
+    "leviathan-monk": "Se il Leviatano accusa e fa giustiziare il giocatore protetto dal Monaco, i buoni vincono.",
+    "leviathan-pithag": "Il Leviatano non può entrare in gioco dopo il giorno 5.",
+    "leviathan-ravenkeeper": "Ogni notte*, il Leviatano sceglie un giocatore vivo (diverso dalla notte precedente): un Custode dei Corvi scelto usa la sua abilità ma non muore.",
+    "leviathan-sage": "Ogni notte*, il Leviatano sceglie un giocatore vivo buono (diverso dalle notti prcedenti): un Saggio scelto usa la sua abilità ma non muore.",
+    "leviathan-soldier": "Se il Leviatano accusa e fa giustiziare il Soldato, i buoni vincono.",
+    "lilmonsta-magician": "Se l'Illusionista è vivo, il Narratore sceglie quale Tirapiedi accudisce il Mostriciattolo.",
+    "lilmonsta-marionette": "Se ci sarebbe una Marionetta in gioco, entra in gioco dopo il Demone e deve essere suo vicino.",
+    "lilmonsta-poppygrower": "Se il Mostriciattolo e il Coltivatore di Papaveri sono vivi, i Tirapiedi si svegliano uno a uno, finché uno di loro non sceglie di accudire il Mostriciattolo.",
+    "lilmonsta-psychopath": "Se lo Psicopatico sceglie di accudire il Mostriciattolo, muore se viene giustiziato.",
+    "lilmonsta-scarletwoman": "Se il Mostriciattolo muore quando ci sono 5 o più giocatori ancora vivi, la Donna Scarlatta accudisce il Mostriciattolo per il resto della partita.",
+    "lilmonsta-vizier": "Se il Visir sceglie di accudire il Mostriciattolo, muore se viene giustiziato.",
+    "lleech-mastermind": "Se il Mastermind è vivo e l'ospite della Sanguisuga viene giustiziato e muore, la Sanguisuga sopravvive ma perde la sua abilità.",
+    "lleech-slayer": "Se l'Arciere sceglie l'ospite della Sanguisuga, l'ospite muore.",
+    "lordoftyphon-summoner": "Se un Lord del Tifone è evocato, deve essere vicino a un Tirapiedi e il suo altro vicino diventa un Tirapiedi.",
+    "lunatic-mathematician": "Il Matematico potrebbe apprendere se lo Squilibrato attacca un giocatore differente da quello scelto dal Demone.",
+    "magician-marionette": "Se l'Illusionista è vivo, il Demone non apprende quale dei suoi vicini è la Marionetta.",
+    "magician-spy": "Quando la Spia guarda il Grimorio, i gettoni personaggio del Demone e dell'Illusionista vengono rimossi.",
+    "magician-vizier": "Se il Visir è in gioco, l'Illusionista non ha la sua abilità, ma è immune all'abilità del Visir.",
+    "magician-widow": "Quando la Vedova guarda il Grimorio, i gettoni personaggio del Demone e dell'Illusionista vengono rimossi.",
+    "magician-wraith": "Dopo ogni esecuzione, l'Illusionista vivo può indicare pubblicamente un giocatore come Spettro. Se indovina correttamente, il Demone deve scegliere lo Spettro stanotte.",
+    "marionette-mathematician": "Il Matematico potrebbe apprendere se l'abilità della Marionetta ha prodotto informazioni false o se non ha funzionato correttamente.",
+    "marionette-plaguedoctor": "Se il Narratore ottiene l'abilità della Marionetta, uno dei vicini buoni vivi del Demone diventa la Marionetta.",
+    "marionette-summoner": "Se ci sarebbe una Marionetta in gioco, entra in gioco dopo il Demone e deve essere suo vicino.",
+    "mastermind-vigormortis": "Un Mastermind che ha la sua abilità la mantiene se il Vigormortis muore.",
+    "mayor-riot": "Il Sindaco può scegliere di interrompere la Rivolta. Se lo fa quando una sola Rivolta è viva, i buoni vincono. Altrimenti, i malvagi vincono.",
+    "monk-riot": "Se la Rivolta accusa e fa giustiziare il giocatore protetto dal Monaco, i buoni vincono.",
+    "ogre-pithag": "Se la Fattucchiera trasforma un giocatore malvagio nell'Orco, quest'ultimo non può cambiare allineamento grazie alla sua abilità.",
+    "ogre-recluse": "Se il Solitario appare malvagio all'Orco, l'Orco apprende che il giocatore è malvagio.",
+    "ogre-spy": "La Spia appare malvagia all'Orco.",
+    "pithag-politician": "Se la Fattucchiera trasforma un giocatore malvagio nel Politico, quest'ultimo non può cambiare allineamento grazie alla sua abilità.",
+    "pithag-summoner": "Se l'Evocatore crea un secondo Demone vivo, le morti stanotte sono arbitrarie.",
+    "pithag-villageidiot": "Se c'è un gettone in più, la Fattucchiera può creare un altro Scemo del Villaggio. Se lo fa, lo Scemo del Villaggio ubriaco potrebbe cambiare.",
+    "plaguedoctor-scarletwoman": "Se il Narratore ottiene l'abilità della Donna Scarlatta, un Tirapiedi la ottiene e ne viene informato.",
+    "plaguedoctor-spy": "Se il Narratore ottiene l'abilità della Spia, un Tirapiedi la ottiene e ne viene informato.",
+    "plaguedoctor-wraith": "Se il Narratore ottiene l'abilità dello Spettro, un Tirapiedi la ottiene e viene informato.",
+    "politician-vizier": "Il Politico potrebbe apparire malvagio al Visir.",
+    "poppygrower-spy": "Se il Coltivatore di Papaveri ha la sua abilità, la Spia non guarda il Grimorio.",
+    "poppygrower-summoner": "Se il Coltivatore di Papaveri è vivo durante la terza notte, l'Evocatore sceglie il tipo di Demone ma non il giocatore.",
+    "poppygrower-widow": "Se il Coltivatore di Papaveri ha la sua abilità, la Vedova non guarda il Grimorio.",
+    "preacher-summoner": "Se l'Evocatore vivo non ha abilità, il Narratore ha l'abilità dell'Evocatore.",
+    "preacher-vizier": "Se il Visir perde la sua abilità, ne è informato e non può morire durante il giorno.",
+    "pukka-summoner": "L'Evocatore può invocare un Pukka la seconda notte anziché la terza.",
+    "ravenkeeper-riot": "Ogni notte*, la Rivolta sceglie un giocatore buono vivo (diverso dalle notti precedenti): un Custode dei Corvi scelto usa la sua abilità ma non muore.",
+    "recluse-sage": "Il Solitario può registrare come Demone al Saggio.",
+    "riot-sage": "Ogni notte*, la Rivolta sceglie un giocatore buono vivo (diverso dalle notti precedenti): un Saggio scelto usa la sua abilità ma non muore.",
+    "riot-soldier": "Se la Rivolta accusa e fa giustiziare il Soldato, i buoni vincono.",
+    "summoner-zombuul": "Se l'Evocatore trasforma un giocatore morto nello Zombuul, lo Zombuul è già \"morto una volta\".",
+    "vizier-zealot": "Il Fanatico potrebbe apparire come malvagio al Visir."
+  }
+}

@@ -8,6 +8,8 @@ import { FancyDoc } from "./FancyDoc";
 import { parseScript, calculateNightOrders } from "@/lib/botc";
 import type { Script } from "@/lib/botc/types";
 import type { PdfOptions } from "@/lib/botc/types";
+import { applyTranslationsToScript } from "@/lib/botc/translations";
+import { loadTranslations } from "@/lib/botc/load-translations-server";
 
 function loadCSS(): string {
   try {
@@ -64,10 +66,16 @@ export async function renderToHtml(
 ): Promise<string> {
   const { renderToStaticMarkup } = await import("react-dom/server");
 
-  const parsed = parseScript(rawJson);
+  let parsed = parseScript(rawJson);
+  const translations = options.language && options.language !== "en"
+    ? loadTranslations(options.language)
+    : null;
+  if (translations) {
+    parsed = applyTranslationsToScript(parsed, translations);
+  }
   const nightOrders = calculateNightOrders(parsed, rawJson as Script);
 
-  const docProps = { script: parsed, options, nightOrders, assetsUrl };
+  const docProps = { script: parsed, options, nightOrders, assetsUrl, translations };
 
   const bodyHtml = renderToStaticMarkup(createElement(FancyDoc, docProps));
 

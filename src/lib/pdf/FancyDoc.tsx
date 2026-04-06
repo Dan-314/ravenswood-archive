@@ -5,6 +5,8 @@ import { CharacterSheet } from "./pages/CharacterSheet";
 import { NightSheet } from "./pages/NightSheet";
 import { SheetBack } from "./pages/SheetBack";
 import type { NightOrders, ParsedScript, PdfOptions } from "@/lib/botc/types";
+import type { TranslationData } from "@/lib/botc/translations";
+import { translateJinxes } from "@/lib/botc/translations";
 import { getFabledOrLoric } from "./utils/fabledOrLoric";
 import { groupByTeam, findJinxes } from "@/lib/botc";
 
@@ -13,6 +15,7 @@ export type FancyDocProps = {
   options: PdfOptions;
   nightOrders: NightOrders;
   assetsUrl: string;
+  translations?: TranslationData | null;
 };
 
 export function FancyDoc({
@@ -20,6 +23,7 @@ export function FancyDoc({
   options: rawOptions,
   nightOrders,
   assetsUrl,
+  translations,
 }: FancyDocProps) {
   // If a custom font URL is provided, inject a @font-face and override titleStyle.font
   const hasCustomFont = !!rawOptions.titleStyle.customFontUrl;
@@ -31,9 +35,10 @@ export function FancyDoc({
     : rawOptions;
 
   const groupedCharacters = groupByTeam(script.characters);
-  const jinxes = options.showJinxes
+  const rawJinxes = options.showJinxes
     ? findJinxes(script.characters)
     : [];
+  const jinxes = translateJinxes(rawJinxes, translations ?? null);
   const fabledAndLoric = getFabledOrLoric(
     script.characters,
     assetsUrl,
@@ -60,6 +65,7 @@ export function FancyDoc({
                   bootleggerRules={script.metadata?.bootlegger}
                   options={options}
                   assetsUrl={assetsUrl}
+                  translations={translations}
                 />
                 <div style={{ breakAfter: "page" }}></div>
 
@@ -86,6 +92,7 @@ export function FancyDoc({
           otherNightOrder={nightOrders.other}
           options={options}
           assetsUrl={assetsUrl}
+          translations={translations}
         />
       )}
     </div>

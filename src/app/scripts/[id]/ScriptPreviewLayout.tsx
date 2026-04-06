@@ -8,6 +8,7 @@ interface ScriptPreviewLayoutProps {
   rawJson: unknown;
   options?: PdfOptions;
   defaultColor?: string;
+  language?: string;
   onAppearanceChange?: (appearance: PdfOptions["appearance"], iconScale: number) => void;
   sidebar: ReactNode;
   sidebarPosition?: "left" | "right";
@@ -18,6 +19,7 @@ export function ScriptPreviewLayout({
   rawJson,
   options,
   defaultColor,
+  language,
   onAppearanceChange,
   sidebar,
   sidebarPosition = "right",
@@ -29,6 +31,7 @@ export function ScriptPreviewLayout({
         rawJson={rawJson}
         options={options}
         defaultColor={defaultColor}
+        language={language}
         className="w-full"
         onAppearanceChange={onAppearanceChange}
       />

@@ -2,6 +2,7 @@
 // Copyright (c) 2025 John Forster
 
 import type { NightMarker, NightOrderEntry, PdfOptions } from "@/lib/botc/types";
+import type { TranslationData } from "@/lib/botc/translations";
 import { getImageSrc } from "../utils/nightOrder";
 import { teamColours } from "../utils/colours";
 import { BottomTrimSheet } from "../components/BottomTrimSheet";
@@ -13,6 +14,7 @@ export type NightSheetProps = {
   otherNightOrder?: NightOrderEntry[];
   options: PdfOptions;
   assetsUrl: string;
+  translations?: TranslationData | null;
 };
 
 const BASE_FONT_MM = 11;
@@ -32,6 +34,7 @@ export const NightSheet = ({
   otherNightOrder,
   options,
   assetsUrl,
+  translations,
 }: NightSheetProps) => {
   return (
     <>
@@ -49,6 +52,7 @@ export const NightSheet = ({
                 night="first"
                 assetsUrl={assetsUrl}
                 iconUrlTemplate={options.iconUrlTemplate}
+                translations={translations}
               />
             ))}
           </div>
@@ -68,6 +72,7 @@ export const NightSheet = ({
                 night="other"
                 assetsUrl={assetsUrl}
                 iconUrlTemplate={options.iconUrlTemplate}
+                translations={translations}
               />
             ))}
           </div>
@@ -82,6 +87,7 @@ type NightSheetEntryProps = {
   night: "first" | "other";
   assetsUrl: string;
   iconUrlTemplate?: string;
+  translations?: TranslationData | null;
 };
 
 const ReminderIcon = ({ assetsUrl }: { assetsUrl: string }) => (
@@ -91,7 +97,7 @@ const ReminderIcon = ({ assetsUrl }: { assetsUrl: string }) => (
 
 export const NightSheetEntry = (props: NightSheetEntryProps) => {
   const src = getImageSrc(props.entry, props.assetsUrl, props.iconUrlTemplate);
-  const { reminderText, name } = getReminderText(props.entry, props.night);
+  const { reminderText, name } = getReminderText(props.entry, props.night, props.translations);
   const colour =
     typeof props.entry === "string" ? "#222" : teamColours[props.entry.team];
   if (!reminderText) {
@@ -125,7 +131,7 @@ export const NightSheetEntry = (props: NightSheetEntryProps) => {
   );
 };
 
-const getReminderText = (entry: NightOrderEntry, night: "first" | "other") => {
+const getReminderText = (entry: NightOrderEntry, night: "first" | "other", translations?: TranslationData | null) => {
   if (typeof entry === "object") {
     const reminderText =
       night === "first" ? entry.firstNightReminder : entry.otherNightReminder;
@@ -135,7 +141,7 @@ const getReminderText = (entry: NightOrderEntry, night: "first" | "other") => {
     const reminder = NON_CHARACTER_REMINDERS[entry];
     const reminderText =
       night === "first" ? reminder.first : (reminder.other ?? "");
-    const name = reminder.name;
+    const name = translations?.nightMarkers?.[entry] ?? reminder.name;
     return { reminderText, name };
   }
 };

@@ -141,6 +141,7 @@ export interface PdfOptions {
   titleStyle: TitleStyle;
   dimensions: PageDimensions;
   paperSize: "A4" | "Letter";
+  language: string;
 }
 
 export const DEFAULT_PDF_OPTIONS: PdfOptions = {
@@ -181,4 +182,5 @@ export const DEFAULT_PDF_OPTIONS: PdfOptions = {
     bleed: 0,
   },
   paperSize: "A4",
+  language: "en",
 };
