@@ -8,7 +8,7 @@ import { NightOrderPanel } from "../components/NightOrderPanel";
 import { PlayerCount } from "../components/PlayerCount";
 import { createOverlayBackground } from "../utils/colours";
 import { PrintablePage } from "../components/PrintablePage";
-import { splitEmoji } from "../utils/splitEmoji";
+import { splitEmojiSegments } from "../utils/splitEmoji";
 
 type SheetBackProps = {
   title: string;
@@ -32,12 +32,20 @@ export const SheetBack = ({
     dimensions,
   } = options;
 
+  const textureStyle: CSSProperties = { backgroundImage: `url(${assetsUrl}/parchment_texture.jpg)` };
+
   const renderTitle = () => {
     const parts = title.split("&");
     return parts.map((part, partIndex) => (
       <span key={partIndex}>
-        {formatMinorWords ? formatWithMinorWords(part) : splitEmoji(part)}
-        {partIndex < parts.length - 1 && <span className="ampersand">&amp;</span>}
+        {formatMinorWords ? formatWithMinorWords(part, textureStyle) : splitEmojiSegments(part).map((seg, i) =>
+          seg.type === "text" ? (
+            <span key={i} className="title-text" style={textureStyle}>{seg.content}</span>
+          ) : (
+            <span key={i}>{seg.content}</span>
+          )
+        )}
+        {partIndex < parts.length - 1 && <span className="ampersand title-text" style={textureStyle}>&amp;</span>}
       </span>
     ));
   };
@@ -61,7 +69,7 @@ export const SheetBack = ({
       >
         <div className="sheet-background" style={{ backgroundImage: `url(${assetsUrl}/sidebar-desaturated-small.jpg)` }}>
           <div className="title-container">
-            <h1 style={{ backgroundImage: `url(${assetsUrl}/parchment_texture.jpg)` }}>{renderTitle()}</h1>
+            <h1>{renderTitle()}</h1>
           </div>
         </div>
 

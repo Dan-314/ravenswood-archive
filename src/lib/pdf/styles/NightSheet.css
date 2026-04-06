@@ -16,12 +16,6 @@
 .night-sheet-heading .script-title {
   font-family: var(--title-font), serif;
   font-weight: lighter;
-
-  background: var(--header-gradient);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-
   font-size: 11mm;
   line-height: 1.1;
   margin: 0;
@@ -33,6 +27,13 @@
   letter-spacing: var(--title-letter-spacing);
   word-spacing: var(--title-word-spacing);
   filter: drop-shadow(0.2mm 0.1mm 0 #222d) drop-shadow(0mm 0mm 0.1mm #2228);
+}
+
+.night-sheet-heading .script-title .title-text {
+  background: var(--header-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .night-sheet-order {

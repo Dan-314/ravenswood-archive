@@ -13,7 +13,7 @@ import type { FabledOrLoric } from "../utils/fabledOrLoric";
 import { JinxesAndSpecial } from "../components/JinxesAndSpecial";
 import { CharacterSection } from "./CharacterSection";
 import { PrintablePage } from "../components/PrintablePage";
-import { splitEmoji } from "../utils/splitEmoji";
+import { splitEmojiSegments } from "../utils/splitEmoji";
 
 interface CharacterSheetProps {
   title: string;
@@ -221,11 +221,16 @@ function Header({
         )}
         {showTitle && (
           <span
-            style={{
-              mixBlendMode: solidHeader ? "normal" : "multiply",
-            }}
+            className="title-wrap"
+            style={solidHeader ? { mixBlendMode: "normal" } : undefined}
           >
-            {splitEmoji(title)}
+            {splitEmojiSegments(title).map((seg, i) =>
+              seg.type === "text" ? (
+                <span key={i} className="title-text">{seg.content}</span>
+              ) : (
+                <span key={i}>{seg.content}</span>
+              )
+            )}
           </span>
         )}
         {showSwirls && (

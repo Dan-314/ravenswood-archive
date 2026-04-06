@@ -6,6 +6,7 @@ import { getImageSrc } from "../utils/nightOrder";
 import { teamColours } from "../utils/colours";
 import { BottomTrimSheet } from "../components/BottomTrimSheet";
 import { splitEmoji } from "../utils/splitEmoji";
+// splitEmoji wraps text in .title-text spans (gradient) and emojis in plain spans (native color)
 
 export type NightSheetProps = {
   title: string;

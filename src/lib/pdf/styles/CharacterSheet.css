@@ -90,7 +90,7 @@
   align-self: center;
 }
 
-.sheet-header span {
+.sheet-header .title-wrap {
   font-weight: lighter;
   letter-spacing: var(--title-letter-spacing);
   filter: drop-shadow(2px 0px 0px #cb8b);
@@ -98,11 +98,6 @@
   line-height: var(--title-line-height);
   margin-top: var(--title-margin-top);
   margin-bottom: var(--title-margin-bottom);
-
-  background: var(--header-gradient);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   font-family: var(--title-font), serif;
   font-weight: 100;
   font-size: 14mm;
@@ -110,6 +105,13 @@
   margin-left: -8mm;
   margin-right: -8mm;
   mix-blend-mode: multiply;
+}
+
+.sheet-header .title-text {
+  background: var(--header-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .swirl-divider {
@@ -284,7 +286,7 @@
   margin-bottom: 1mm;
 }
 
-.appearance-compact .sheet-header span {
+.appearance-compact .sheet-header .title-wrap {
   font-size: 13mm;
 }
 
@@ -312,7 +314,7 @@
   margin-bottom: 0.5mm;
 }
 
-.appearance-super-compact .sheet-header span {
+.appearance-super-compact .sheet-header .title-wrap {
   font-size: 12mm;
 }
 
@@ -330,7 +332,7 @@
   font-size: 2.8mm;
 }
 
-.appearance-mega-compact .sheet-header span {
+.appearance-mega-compact .sheet-header .title-wrap {
   font-size: 11mm;
 }
 

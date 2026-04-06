@@ -34,17 +34,12 @@
   mix-blend-mode: normal;
   font-weight: 100;
   font-size: 30mm;
-  color: #ae9d7f;
   text-wrap: wrap;
   z-index: 1;
   flex-shrink: 1;
   text-align: center;
   padding: 10mm;
 
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-  background-size: 100mm;
   filter: drop-shadow(0.5mm 0.5mm black) drop-shadow(0mm 0mm 1mm black);
   letter-spacing: var(--title-letter-spacing);
   word-spacing: var(--title-word-spacing);
@@ -56,6 +51,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.sheet-backing h1 .title-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 100mm;
 }
 
 .sheet-backing h1 .ampersand {

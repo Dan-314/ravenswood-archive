@@ -1,7 +1,8 @@
 // Ported from botc-character-sheet by John Forster (MIT License)
 // Copyright (c) 2025 John Forster
 
-import { splitEmoji } from "./splitEmoji";
+import type { CSSProperties } from "react";
+import { splitEmojiSegments } from "./splitEmoji";
 
 const minorWords = new Set([
   "the",
@@ -31,7 +32,7 @@ const isWordMinor = (word: string, index: number) => {
   );
 };
 
-export const formatWithMinorWords = (text: string): React.ReactElement[] => {
+export const formatWithMinorWords = (text: string, titleTextStyle?: CSSProperties): React.ReactElement[] => {
   return text
     .split(/\s+/)
     .reduce((acc: React.ReactElement[], word, wordIndex, words) => {
@@ -52,10 +53,20 @@ export const formatWithMinorWords = (text: string): React.ReactElement[] => {
         }
 
         const needsSpace = acc.length > 0;
+        const joined = sequence.join(" ");
+        const segments = splitEmojiSegments(joined);
+        const content = segments.map((seg, i) =>
+          seg.type === "text" ? (
+            <span key={i} className="title-text" style={titleTextStyle}>{seg.content}</span>
+          ) : (
+            <span key={i}>{seg.content}</span>
+          )
+        );
+
         acc.push(
           <span key={wordIndex} className={isMinor ? "minor-word" : undefined}>
             {needsSpace && " "}
-            {splitEmoji(sequence.join(" "))}
+            {content}
           </span>,
         );
       }
