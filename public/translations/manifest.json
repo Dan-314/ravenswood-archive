@@ -6,6 +6,12 @@
     "completion": 88
   },
   {
+    "code": "de",
+    "name": "German",
+    "nativeName": "Deutsch",
+    "completion": 62
+  },
+  {
     "code": "en@pirate",
     "name": "English (Pirate)",
     "nativeName": "English (Pirate)",
@@ -34,6 +40,12 @@
     "name": "Italian",
     "nativeName": "Italiano",
     "completion": 100
+  },
+  {
+    "code": "nl",
+    "name": "Dutch",
+    "nativeName": "Nederlands",
+    "completion": 71
   },
   {
     "code": "pl",
@@ -70,6 +82,12 @@
     "name": "Ukrainian",
     "nativeName": "Українська",
     "completion": 84
+  },
+  {
+    "code": "th",
+    "name": "Thai",
+    "nativeName": "ไทย",
+    "completion": 75
   },
   {
     "code": "ko",

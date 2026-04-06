@@ -1,0 +1,1231 @@
+{
+  "roles": {
+    "acrobat": {
+      "ability": "Elke nacht* kies je een speler: Als ze vannacht dronken of vergiftigd worden, sterf je.",
+      "flavor": "Welkom allemaal bij het grootste spektakel op aarde.",
+      "name": "Acrobaat",
+      "other": "De Acrobaat kiest een speler. :reminder:"
+    },
+    "alchemist": {
+      "ability": "Jij hebt een Minion vaardigheid. Als je deze gebruikt mag de Verteller aangeven dat je anders moet keizen.",
+      "first": "Laat de *JIJ BENT* informatiefische en een Minionfische (ondergeschikte) zien.",
+      "flavor": "Bezoek het hart van de Aarde. Door zuivering vind je de Steen der Wijzen. Boven het goud rust het rubedo. Het Kether in Malkuth.",
+      "name": "Alchemist"
+    },
+    "alhadikhia": {
+      "ability": "Elke nacht* kies drie spelers (alle spelers leren wie): Elke speler kiest stil of ze leven of sterven. Als ze allemaal leven, sterven ze allemaal.",
+      "flavor": "Het valt van goud.",
+      "name": "Al-Hadikhia"
+    },
+    "alsaahir": {
+      "ability": "Elke dag, als je publiekelijk en correct de Minion(s) en de Demoon raadt, wint goed.",
+      "flavor": "Ik ben hier door jouw toedoen, en jij door die van mij.",
+      "name": "Alsaahir (waarzegger)"
+    },
+    "amnesiac": {
+      "ability": "Jij weet niet wat je vaardigheid is. Elke dag maak je privé een keuze: je leert hoe accuraat je bent.",
+      "flavor": "Wacht. Wat. Wie? O, ok. Wacht. Wat?",
+      "name": "Vergeetachtige"
+    },
+    "angel": {
+      "ability": "Iets slechts kan gebeuren bij degene die het meest verantwoordelijk is voor de dood van een nieuwe speler.",
+      "flavor": "Laat wie zonder zonde is het wagen zijn hand op te heffen tegen mijn uitverkorene, want ik zal zulke dwazen neerhalen met de woede en rechtvaardigheid van duizend stormen.",
+      "name": "Engel"
+    },
+    "apprentice": {
+      "ability": "Op je eerste nacht, krijg een Dorpeling vaardigheid (als goed) of een Minion vaardigheid (als slecht).",
+      "flavor": "Jarenlang trok ik rond, lerend van de geheimen van Het Ambacht. ‘Welk ambacht?’, hoor ik je vragen. Het ambacht van het gewone volk. Maar maak je geen zorgen... nog niet.",
+      "name": "Leerling"
+    },
+    "artist": {
+      "ability": "Een keer per spel, tijdens de dag, stel je de Verteller privé een ja/nee vraag.",
+      "flavor": "Een kloddertje hier, en een kloddertje daar.",
+      "name": "Kunstenaar"
+    },
+    "assassin": {
+      "ability": "Een keer per spel, in de nacht*, kies een speler: deze sterft zelfs als ze dat niet kunnen.",
+      "flavor": "...",
+      "name": "Sluipmoordenaar",
+      "other": "De Sluipmoordenaar mag een speler kiezen. :reminder: :reminder:"
+    },
+    "atheist": {
+      "ability": "De Verteller kan de spelregels breken. Als deze geëxecuteerd wordt, wint goed, zelfs als je dood bent. [Geen slechte spelers]",
+      "flavor": "Laten we ons niet verliezen in de nutteloze veronderstellingen en dwaze paranoia. Er is een volstrekt normale en rationale verklaring voor alles. Ja, een theekopje kan om de planeet draaien, te klein om te zien, maar ik drink mijn thee uit het daadwerkelijk servies dat in mijn handen rust.",
+      "name": "Atheïst"
+    },
+    "balloonist": {
+      "ability": "Elke nacht leer je een speler van een ander karaktertype dan de nacht ervoor. [+0 of +1 Buitenstaander]",
+      "first": "Laat een speler zien. :reminder:",
+      "flavor": "Meer hitte! Hoger! Hoger! Più also! Ahhh... het is zo mooi hierboven, vind je niet? Kun je de kinderen zien vissen bij de rivier, onder de wilgen? Zie de schittering van de zon op de palen van de circustent? Wat? Een oude man, alleen, bewusteloos in de wijngaard? Minder hitte! Lager! Lager! Vai più in basso!",
+      "name": "Ballonvaarder",
+      "other": "Laat een speler met een ander karaktertype zien als hiervoor. :reminder:"
+    },
+    "banshee": {
+      "ability": "Als de Demoon jouw dood, leren alle spelers dit. Vanaf nu mag je twee keer per dag nomineren en twee keer per nominatie stemmen.",
+      "flavor": "Gorm do shúile, dearg do ghruaig, ní bheidh sé i bhfad, is a mbeidh tú san uaigh.",
+      "name": "Doodsengel"
+    },
+    "barber": {
+      "ability": "Als jij vandaag of vannacht bent gestorven, mag de Demoon 2 spelers kiezen (niet een andere Demoon) om van karakter te wisselen.",
+      "flavor": "Wist je dat barbier en chirurg ooit hetzelfde beroep waren? Nee? Nu weet je het wel.",
+      "name": "Barbier",
+      "other": "Als de Barbier vandaag of vannacht sterft, laat de Demoon het token *DIT KARAKTER KOOS JOU* zien met het Barbier-token. Als de Demoon 2 spelers kiest, maak ze dan 1-voor-1 wakker. Laat de *JIJ BENT* token zien met hun nieuwe karakter."
+    },
+    "barista": {
+      "ability": "Elke nacht, tot de schemering, 1) 1 speler wordt nuchter, gezond en krijgt correct informatie, of 2) hun vaardigheid werkt 2x. Ze leren welke.",
+      "flavor": "Een kopje koffie zonder room, Monsieur? Het spijt me, maar we zitten zonder room- hoe denk je over koffie zonder melk?",
+      "name": "Barista (koffiespecialist)"
+    },
+    "baron": {
+      "ability": "Er zijn extra Buitenstaanders in het spel. [+2 Buitenstaanders]",
+      "flavor": "Dit stadje is naar de knoppen, wat? Goedkope buitenlandse arbeidskrachten… dát is het antwoord. Stop ze maar in de mijn, zeg ik. Een beetje hard werken heeft nog nooit iemand kwaad gedaan, en een draai om de oren voor elke schurk die het tegenspreekt. Uiteindelijk draait het om de winst, wat?",
+      "name": "Baron"
+    },
+    "beggar": {
+      "ability": "Je gebruikt een stem-token om te stemmen. Als een dode speler de zijne aan jou geeft, leert je hun alliantie. Jij bent nuchter & gezond.",
+      "flavor": "Een aalmoes voor de armen, meneer? Ik vraag slecht een muntje, mevrouw? Dank u, Gods zegen! U bent een goede ziel, geen twijfel mogelijk! Ik heb het chique eten vanavond!",
+      "name": "Bedelaar"
+    },
+    "bishop": {
+      "ability": "Enkel de Verteller kan nomineren. Minstens 1 speler uit het tegenovergestelde team moet elke dag genomineerd worden.",
+      "flavor": "Zie de maan schijnt door de bomen. Makkers staakt uw wild geraas.",
+      "name": "Bisschop"
+    },
+    "boffin": {
+      "ability": "De Demoon (zelfs als hij dronken of vergiftigd is) heeft een niet-in-het-spel goed karakter vaardigheid. Jullie weten beide welke.",
+      "flavor": "Stellaire waterstof, enorm inert: koolstof, zuurstof, neon, allemaal verpest. Moleculaire chaos, entropie, nieuwe kosmische verschijnselen. Wedergeboorte door atomische chaos, duistere materie stort in. En dat alles in een piepklein flesje.",
+      "name": "Bolleboos"
+    },
+    "bonecollector": {
+      "ability": "Een keer per spel in de nacht* kies je een dode speler: ze krijgen hun vaardigheid tot de schemering terug.",
+      "flavor": "Ik spaar van alles. Haren. Tanden. Kleding. Stukje poëzie. De dromen van verloren geliefden. Mijn geheime kunsten zul je niet kennen, maar mijn kosten zijn slecht een fooi. Breng mij het bloed van de edelvrouw die stierf aan liefdesverdriet onder de volle maan en je zult je antwoorden vinden.",
+      "name": "Bottenhoeder"
+    },
+    "boomdandy": {
+      "ability": "Als jij wordt geëxecuteerd, alle spelers op 3 na sterven. Er wordt afgeteld van 10 tot 1 en de speler met de meeste spelers wijzend in hun richting, sterft.",
+      "flavor": "Harry doet boem.",
+      "name": "Terrorist"
+    },
+    "bootlegger": {
+      "ability": "Dit script heeft zelfverzonnen karakters of regels.",
+      "name": "Thuisstoker"
+    },
+    "bountyhunter": {
+      "ability": "Jij start met het weten van 1 slechte speler. Als deze speler sterft, leer je een andere slechte speler. [1 Dorpeling is slecht]",
+      "flavor": "Als is alleen door de straten dwaal, geplaveid met de zieke geur van corruptie, drukt er een dikke waas mijn neus binnen, ongebonden en brandend van afkeer. En afwachting. Elke nacht woekert de ziekte verder door deze ellendige plek. En ik... ven de oplossing.",
+      "name": "Premiejager"
+    },
+    "buddhist": {
+      "ability": "De eerste 2 minuten van elke dag mogen de ervaren spelers niet praten.",
+      "flavor": "Je gooit met doornen. Maar in mijn rust worden ze bloemen.",
+      "name": "Boeddhist"
+    },
+    "bureaucrat": {
+      "ability": "Elke nacht kies je een speler (niet jezelf): hun stem telt morgen als 3 stemmen.",
+      "first": "De Ambtenaar kiest een speler. :reminder:",
+      "flavor": "Hier tekenen alsjeblieft. En hier. En hier. Eeeeeeeen hier. Dit komt allemaal voor elkaar voor het einde van de dag, mits de handtekening leesbaar is. We hebben in geen tijden een probleem gehad. Gistermiddag voor het laatst, kan ik mij herinneren.",
+      "name": "Ambtenaar",
+      "other": "De Ambtenaar kiest een speler. :reminder:"
+    },
+    "butcher": {
+      "ability": "Elke dag, na de 1e executie, mag je nog eens nomineren.",
+      "flavor": "Het smaakt naar kip. Meer graag.",
+      "name": "Slager"
+    },
+    "butler": {
+      "ability": "Elke nacht, kies een speler (niet jezelf): morgen mag je alleen stemmen als zij ook stemmen.",
+      "first": "De Butler kiest een speler. :reminder:",
+      "flavor": "Ja, meneer.... Nee, meneer. Natuurlijk, meneer.",
+      "name": "Butler",
+      "other": "De Butler kiest een speler. :reminder:"
+    },
+    "cannibal": {
+      "ability": "Jij hebt de vaardigheid van de recent geëxecuteerde dode. Als ze slecht zijn, ben je vergiftigd tot een goede speler sterf door executie.",
+      "flavor": "I hou niet van clowns. Die smaken raar.",
+      "name": "Kannibaal"
+    },
+    "cerenovus": {
+      "ability": "Elke nacht, kies een speler en een goed karakter: ze moeten morgen tot \"waanzin\" gedreven zijn als dit karakter, of kunnen worden geëxecuteerd.",
+      "first": "De Cerenovus kiest een speler & karakter. :reminder: Laat de Cerenovus slapen en maak het doelwit wakker. Laat het *DIT KARAKTER KIEST JOU* token zien met het Cerenovus token en daarna het waanzin-karakter-token.",
+      "flavor": "De realiteit is slechts een mening. Specifiek mijn mening.",
+      "name": "Cerenovus",
+      "other": "De Cerenovus kiest een speler & karakter. :reminder: Laat de Cerenovus slapen en maak het doelwit wakker. Laat het *DIT KARAKTER KIEST JOU* token zien met het Cerenovus token, daarna het waanzin-karakter-token."
+    },
+    "chambermaid": {
+      "ability": "Elke nacht, kies 2 levende spelers (niet jezelf): leer hoe veel vannacht wakker werden door hun eigen vaardigheid.",
+      "first": "Het Kamermeisje kiest 2 levende spelers. Geef een vinger signaal.",
+      "flavor": "Ik heb niets raars gezien, mejuffrouw. Mijn excuus, maar als ik iets gezien had was dat heus niet de meester van het huis die stiekem naar het laboratorium sloop om drankjes te brouwen, zoals u zei, mevrouw.",
+      "name": "Kamermeisje",
+      "other": "Het Kamermeisje kiest 2 levende spelers. Geef een vinger signaal."
+    },
+    "chef": {
+      "ability": "Jij start met weten hoeveel paren slechte spelers er zijn.",
+      "first": "Geef een vingersignaal.",
+      "flavor": "De reservering van vanavond is vreemd. Mevrouw Mayweather heeft nooit gezelschap gehad van de schurk uit Hudson Lane. En toch, vanavond, hebben ze een tafel voor 2. Raar.",
+      "name": "Kok"
+    },
+    "choirboy": {
+      "ability": "Als de Demoon de Koning dood, leer jij welke speler de Demoon is. [+de Koning]",
+      "flavor": "Ik zag het, echt waar! Ik was in de kerkbanken de liederboeken aan het opruimen toen er een vreselijke melodie uit de pijporgel kwam. De organist had een lange mantel en lange vingers aan de toetsen. En ook een hoed... die precies... op jouwe lijkt.",
+      "name": "Koorknaap",
+      "other": "Als de Demoon de Koning vermoord, wijs naar de Demoon."
+    },
+    "clockmaker": {
+      "ability": "Jij start met weten hoeveel stappen er tussen de Demoon en zijn dichtstbijzijnde Minion zitten.",
+      "first": "Geef een vingersignaal.",
+      "flavor": "Stoor mij niet. De tik moet voort. De cirkel is het leven zelf, bevat alles - alle antwoorden - in haar goddelijke rad. Het moet werken.",
+      "name": "Klokmaker"
+    },
+    "courtier": {
+      "ability": "1 keer per spel, in de nacht, kies een karakter: Ze zijn dronken voor 3 nachten en 3 dagen.",
+      "first": "De Hofmeester mag een karakter kiezen. :reminder: :reminder:",
+      "flavor": "Ik ben banger voor een leger met 100 schapen onder leiding van een leeuw, dan een leger met 100 leeuwen onder leiding van een schaap.",
+      "name": "Hofdienaar",
+      "other": "De Hofdienaar mag een karakter kiezen. :reminder: :reminder:"
+    },
+    "cultleader": {
+      "ability": "Elke nacht wordt jij de alliantie van een levende buur. Als alle goede spelers kiezen om bij jouw Cult te komen, wint jouw team.",
+      "flavor": "Die meenden wijs te zijn, werden tot dwazen.",
+      "name": "Cultleider"
+    },
+    "damsel": {
+      "ability": "Alle Minions weten dat er een Jonkvrouw in het spel zit. Als een Minion jou (1x) publiekelijk raad, verliest jouw team.",
+      "flavor": "Schat, kom niet aan het haar.",
+      "name": "Jonkvrouw"
+    },
+    "dawn": {
+      "first": "Wacht een paar seconden. Eindig de nacht fase.",
+      "other": "Wacht een paar seconden. Eindig de nacht fase."
+    },
+    "demoninfo": {
+      "first": "Als er meer dan 6 spelers zijn, laat de Demoon ontwaken: toon de \"DIT ZIJN JE VOLGELINGEN\" kaart. Wijs alle Volgelingen aan. Toon de \"DEZE KARAKTERS ZIJN NIET IN HET SPEL\" kaart. Toon 3 goede karakterfiches die niet in het spel zijn."
+    },
+    "deusexfiasco": {
+      "ability": "Minstens 1 keer per spel zal de Verteller een fout maken, deze oplossen en dit publiekelijk toegeven.",
+      "flavor": "Het is geen fout, maar een functie. Het is geen vergissing, maar een verfijning. Het is niet stuk, maar gewoon bijzonder.",
+      "name": "Deus ex Fiasco"
+    },
+    "deviant": {
+      "ability": "Als je vandaag grappig was, kun je niet sterven door verbanning.",
+      "flavor": "Het was de kwinkslag van de dame, inderdaad.",
+      "name": "Uitzonderlijke"
+    },
+    "devilsadvocate": {
+      "ability": "Elke nacht, kies een levende speler (anders dan de vorige nacht): als ze morgen worden geëxecuteerd, sterven ze niet.",
+      "first": "De Advocaat van de Duivel kiest een levende speler. :reminder:",
+      "flavor": "Mijn cliënt, mocht het bezwaar worden afgewezen, pleit onschuldig vanwege het niet naleven door de aanklager van artikel 27.B – foutieve of misleidende vervoeging van een werkwoord. Het feit dat negen van de juryleden gisteravond zijn overleden, is simpelweg prima facie, wat, zoals in Wills vs Thule is vastgesteld, een extra reden vormt om vrij te spreken.",
+      "name": "Advocaat van de Duivel",
+      "other": "De Advocaat van de Duivel kiest een levende speler. :reminder:"
+    },
+    "djinn": {
+      "ability": "Gebruik de speciale regel van de Djinn. Alle spelers weten wat het is.",
+      "flavor": "نحن لسنا هنا. انت لست حقيقي. كل شيء هو وهم. أسئلتك هي جبل نار في يوم صافٍ. (Wij zijn hier niet. Jij bent niet echt. Alles is een illusie. Jouw vragen zijn als een berg vuur op een heldere dag.)",
+      "name": "Djinn"
+    },
+    "doomsayer": {
+      "ability": "Als er meer dan 4 spelers leven, mag elke speler publiekelijk (1 keer per spel) aangeven dat iemand van hun eigen alliantie sterft.",
+      "flavor": "En op de Zevende Dag zal er een grote vloed en een pestplaag komen over het volk van het Dorp der Raven! De doden zullen opstaan en de levenden zullen berouw tonen! Oh onheilige dag! Alleen grote offers zullen overwinnen! Aldus spreken de Wijzen van Nostros en aldus spreek ik.",
+      "name": "Doembrenger"
+    },
+    "dreamer": {
+      "ability": "Elke nacht, kies een speler (niet jezelf of Reizigers): jij leert 1 goed en 1 slecht karakter, 1 hiervan is correct.",
+      "first": "De Dromer wijst naar een speler. Laat 1 goed en 1 slecht karakter token zien. 1 hiervan is hun echte karakter.",
+      "flavor": "Ik herinner mij de Klokmaker. De lucht is rood en het regende driehoeken. Er hing een geur van viooltjes en een borrelend geluid. Een vrouw met gloeiende rode ogen en een warrige baard siste naar de lucht. En toen werd ik wakker.",
+      "name": "Dromer",
+      "other": "De Dromer wijst naar een speler. Laat 1 goed en 1 slecht karakter token zien. 1 hiervan is hun echter karakter."
+    },
+    "drunk": {
+      "ability": "Jij weet niet dat je Dronken bent. Jij denkt dat je een Dorpeling bent, maar dat ben je niet.",
+      "flavor": "Ik ben slechts een *hik* sociale drinker, schat. Toegegeven, *boer* ik ben behoorlijk sociaal.",
+      "name": "Dronkaard"
+    },
+    "duchess": {
+      "ability": "Elke dag mogen 3 spelers er voor kiezen jou te bezoeken. In de nacht* leert iedere bezoeker hoeveel bezoekers slecht zijn, maar 1 krijgt verkeerde informatie.",
+      "flavor": "Gasten worden ontvangen tussen 6 en 7 uur precies. Thee om kwart over 6, Koekjes om kwart voor 7. Kom stipt op tijd en draag formele kleding, zoals altijd.",
+      "name": "Hertogin"
+    },
+    "dusk": {
+      "first": "Start de nacht fase.",
+      "other": "Start de Nacht fase."
+    },
+    "empath": {
+      "ability": "Elke nacht leer je hoeveel van je 2 levende buren slecht is.",
+      "first": "Geef een vingersignaal.",
+      "flavor": "Mijn huid tintelt. Er klopt iets niet. Ik voel het.",
+      "name": "Empaat",
+      "other": "Geef een vingersignaal."
+    },
+    "engineer": {
+      "ability": "Een keer per spel, in de nacht, kies je welke Minions of welke Demoon in het spel zit.",
+      "flavor": "Als het buigt, mooi. Als het breekt, nou, dan had het waarschijnlijk toch gemaakt moeten worden.",
+      "name": "Ingenieur"
+    },
+    "eviltwin": {
+      "ability": "Jij en een speler van een andere alliantie kennen elkaar. Als de goede speler wordt geëxecuteerd, wint slechtegenstandert. Goed kan niet winnen als jullie allebei leven.",
+      "first": "Maak beide Tweelingen wakker. Sta oogcontact toe. Laat de goede Tweeling het karakter token van de Slechte Tweeling zien & omgekeerd.",
+      "flavor": "Ik ben niet Sara. Ik ben Clara! ZIJ is Sara. Sara is slechte! Niet ik!",
+      "name": "Slechte Tweeling"
+    },
+    "exorcist": {
+      "ability": "Elke nacht*, kies een speler (anders dan de vorige nacht): de Demoon, indien gekozen, leert wie jij bent en wordt niet wakker vannacht.",
+      "flavor": "Wij bannen u uit: elke onreine geest, elke satanische macht, elke aanval van de helse vijand, elk Legioen, elke duivelse menigte en sekte, in de naam en de kracht van onze Heer Jezus Christus. Wij gebieden u: ga heen en vlucht van Gods Kerk, van de zielen geschapen naar Zijn beeld en verlost door het bloed van het Goddelijke Lam.",
+      "name": "Exorcist (geesten uitdrijver)",
+      "other": "De Exorcist kiest een speler. :reminder: Laat de Exorcist slapen. Als de Exorcist een Demoon kiest: maak de Demoon wakker. Laat de *DIT KARAKTER KIEST JOU* token zien met de Exorcist token. Wijs de Exorcist aan."
+    },
+    "fanggu": {
+      "ability": "Elke nacht*, kies een speler: deze sterft. De eerste Buitenstaander die je dood wordt de slechte Fang Gu en jij sterft in plaats van hen. [+1 Buitenstaander]",
+      "flavor": "Je muren en je wapens zijn als rook in dromen.",
+      "name": "Fang Gu",
+      "other": "De Fang Gu kiest een speler. :reminder: Als ze een Buitenstaander kiezen (werkt maar 1x): Verander de Buitenstaander Token in de extra Fang Gu token. Laat de Fang Gu slapen. Maak het doelwit wakker. Laat het *JIJ BENT* en het Fang Gu token zien en geef een duim omlaag. :reminder:"
+    },
+    "farmer": {
+      "ability": "Als jij 's nachts doodgaat, wordt een levende goede speler de Boer.",
+      "flavor": "Arbeid adelt, maar de adel arbeidt niet.",
+      "name": "Boer"
+    },
+    "fearmonger": {
+      "ability": "Elke nacht, kies een speler: als jij hun nomineert en executeert, verliest hun team. Alle spelers weten dat je een nieuwe speler hebt gekozen.",
+      "flavor": "Wie te lang in de afgrond kijkt, wordt de door afgrond aangetrokken.",
+      "name": "Angstzaaier"
+    },
+    "ferryman": {
+      "ability": "Op de laatste dag krijgen alle spelers hun stemtoken terug.",
+      "flavor": "Wanneer rechtvaardigen durven dromen, dragen zij de waarheid.",
+      "name": "Veerman"
+    },
+    "fibbin": {
+      "ability": "Een keer per spel kan 1 goede speler incorrecte informatie krijgen.",
+      "flavor": "Gniffel Gniffel. Hihihi. Hi. Hi. Hi.",
+      "name": "Jokkebrok"
+    },
+    "fiddler": {
+      "ability": "1 keer per spel kiest de Demoon in het privé een tegenstander: alle spelers kiezen welk van deze 2 spelers wint.",
+      "flavor": "Ik wed op m’n leven, je zult me niet winnen in een strijd, jij schele sufferd! We gaan de kroeg op z’n kop zetten, halen het dak eraf en hebben een donders leuke avond. Morgenochtend krijg je er van langs, jij rammelende malloot.",
+      "name": "Strijker"
+    },
+    "fisherman": {
+      "ability": "Een keer per spel, tijdens de dag, bezoek je de Verteller voor advies om jouw team te laten winnen.",
+      "flavor": "Dit was mijn favoriete deel van de rivier... zie hoe het zonlicht een regenboog vormt van het klooster tot de markt. De beste plek voor grote vissen en hoe ouder ik word, de groter ze waren.",
+      "name": "Visser"
+    },
+    "flowergirl": {
+      "ability": "Elke nacht* leer je of een Demoon heeft gestemd.",
+      "flavor": "De violen van gisteren zijn verdroogt en gestorven, maar vandaag bloeien de klaprozen.",
+      "name": "Bloemenmeisje",
+      "other": "Knik of schut je hoofd."
+    },
+    "fool": {
+      "ability": "De eerste keer dat je sterft, gebeurd dat niet.",
+      "flavor": "…en de koning riep uit: ‘Wat?! Ik heb nog nooit een rubberen broek gehad, laat staan een slagroomkanon!’ Ho-ho! Ach, wat een jolige dag, m’n heren!",
+      "name": "Hofnar"
+    },
+    "fortuneteller": {
+      "ability": "Elke nacht, kies 2 spelers. Jij leert of 1 van hen de Demoon is. Een goede speler kan als Demoon voor jou registreren.",
+      "first": "De Waarzegger kiest 2 spelers. Knik of schud als ze de Demoon kiezen (of de *VALSE VINK*).",
+      "flavor": "Ik proef het kwade in je ziel! Maar dan kan ook je parfum zijn. Ik ben allergisch voor vlierbes.",
+      "name": "Waarzegger",
+      "other": "De Waarzegger kiest 2 spelers. Knik of schud als ze de Demoon kiezen (of de *VALSE VINK*)."
+    },
+    "gambler": {
+      "ability": "Elke nacht* kies een speler en hun karakter. Als je verkeerd kiest sterf je.",
+      "flavor": "Kop, ik win. Munt, jij verliest.",
+      "name": "Gokker",
+      "other": "De Gokker kiest een speler & karakter. :reminder:"
+    },
+    "gangster": {
+      "ability": "1 keer per dag mag je er voor kiezen om een levende buur te vermoorden, als de andere levende buur hiermee akkoord gaat.",
+      "flavor": "Ik vind je schoenen leuk. Het zou een schande zijn als er iets mee gebeurd. En nu je het zegt, ik vind je manchetknopen ook mooi.",
+      "name": "Gangster (bendelid)"
+    },
+    "gardener": {
+      "name": "Tuinman"
+    },
+    "general": {
+      "ability": "Elke nacht leer je een alliantie waarvan de Verteller denkt dat hij wint: goed, slecht of geen van beide.",
+      "first": "Geef een duimsignaal.",
+      "flavor": "Ik heb geen tijd voor citaten.",
+      "name": "Generaal",
+      "other": "Geef een duimsignaal."
+    },
+    "gnome": {
+      "ability": "Alle spelers kennen 1 speler uit jouw alliantie. Jij mag iedereen die deze speler nomineert doden.",
+      "flavor": "Wat zullen we drinken, zeven dagen lang? Een grap om de planken van de vloer te laten kraken! Zo ongelofelijk biiiiijzonder. Grote verhalen met tranen van het lachen. Hallokidoki.",
+      "name": "Kabouter"
+    },
+    "goblin": {
+      "ability": "Als je publiekelijk claimt de Kobold te zijn als je genomineerd wordt & die dag geëxecuteerd wordt, wint jouw team.",
+      "flavor": "Je wilt de kobolden echt niet beledigen. Echt, écht niet. Over iets heel anders gesproken… mag ik nog een stuk taart?",
+      "name": "Kobold"
+    },
+    "godfather": {
+      "ability": "Jij start met weten welke Buitenstaanders in het spel zitten. Als 1 hiervan overdacht sterft; kies een speler vannacht: zij sterven. [-1 of +1 Buitenstaander]",
+      "first": "Laat het karakter token van alle Buitenstaanders in het spel zien.",
+      "flavor": "Normaal gesproken is het je eigen probleem. Maar als je mijn dochter beledigd, beledig je mij. En als je mij beledigd, beledig je mijn familie. Je zou voorzichtiger moeten zijn - het zou zonde zijn als je iets overkomt.",
+      "name": "Mafioso",
+      "other": "Als vandaag een Buitenstaander is gestorven, kiest de Mafioso een speler. :reminder:"
+    },
+    "golem": {
+      "ability": "Je mag maar 1 keer in het spel nomineren. Als je dit doet en de genomineerde niet de Demoon is, sterven ze.",
+      "flavor": "Golem helpt? Golem vermorzelt! Golem helpt.",
+      "name": "Golem"
+    },
+    "goon": {
+      "ability": "Elke nacht, de eerste speler die jou kiest met zijn vaardigheid is dronken tot schemering. Jij veranderd in hun alliantie.",
+      "flavor": "Ja baas. Ik heb de tingen uitgelegd heel goed aan dat kereltje. Hij niet wil dat ik het opnieuw uitleg. Neh baas, Ik heb niet nodig dokter - het is maar een steekwond. Ik morgen kom'",
+      "name": "Zot"
+    },
+    "gossip": {
+      "ability": "Maak elke dag publiekelijk een statement. Vannacht, als het waar was, sterft er een speler.",
+      "flavor": "Bla. Bla bla. Bla die bla die bla. Bla. Bla bla. bla die bla die bla.",
+      "name": "Roddelaar",
+      "other": "Als de Roddelaar een speler moet doden, sterft deze. :reminder:"
+    },
+    "grandmother": {
+      "ability": "Jij start met het weten van 1 goede speler en hun karakter. Als de Demoon hen doodt, sterf jij ook.",
+      "first": "Wijs naar het kleinkind & laat het karaktertoken hiervan zien.",
+      "flavor": "Trek een jas aan als je naar buiten gaat, schatje. En je drinken. En je sjaal. Ik heb een slecht hart, weet je. Wat moet ik doen als je verkouden wordt... of erger?",
+      "name": "Oma",
+      "other": "Als het kleinkind wordt vermoord door de Demoon, sterft de Oma ook. :reminder:"
+    },
+    "gunslinger": {
+      "ability": "Elke dag, na de eerste stemronde, mag je een speler kiezen die gestemd heeft: deze sterft.",
+      "flavor": "Het duurde even voor iemand het heft in eigen hand nam. Die iemand... ben ik.",
+      "name": "Scherpschutter"
+    },
+    "harlot": {
+      "ability": "Elke nacht* kies je een levende speler. Als zij ermee akkoord gaan leer je hun karakter, maar jullie kunnen beide sterven.",
+      "flavor": "Enchanté, Matroos. U ziet er uit als iemand die zijn verhaal kwijt moet. En ik kan goed luisteren. Heel, heel goed.",
+      "name": "Maîtresse"
+    },
+    "harpy": {
+      "ability": "Elke nacht, kies 2 spelers. Morgen, de 1e speler wordt tot waanzin wordt gedreven dat de 2e speler slecht is, of beide kunnen sterven.",
+      "flavor": "Zo'n mooie dag heb ik nog nooit gezien, noch zo'n kraaiend gezelschap om mij heen.",
+      "name": "Harpij"
+    },
+    "hatter": {
+      "ability": "Als jij vandaag of vannacht sterft, kunnen de Minions en Demoon nieuwe karakters kiezen die zij willen zijn.",
+      "flavor": "Eén hoed. Twee hoed. Drie hoed. Thee hoed. Voor hoed. Vijf hoed. Zes hoed. Stok hoed.",
+      "name": "Hoedenmaker"
+    },
+    "hellslibrarian": {
+      "ability": "Iets slechts kan gebeuren bij iedereen die blijft praten als de Verteller al om stilte heeft gevraagd.",
+      "flavor": "Sssssssst. Wees stil. Het is beter om de bibliothecaris niet te storen. Ik heb gehoord dat hij met het verkeerde been uit bed is gestapt.",
+      "name": "Bibliothecaris der Hel"
+    },
+    "heretic": {
+      "ability": "Wie wint, verliest & wie verliest, wint. Zelfs als jij dood bent.",
+      "flavor": "Wanneer de hagel het dak verbrijzeld en de glasramen van de kathedraal splinteren, smelten zij weer in de aarde, als een stervend lam in de brandende zon van de woestijn. Zo spreekt de gelijkenis van de gek.",
+      "name": "Ketter"
+    },
+    "hermit": {
+      "ability": "Jij hebt de vaardigheid van alle Buitenstaanders. [-0 of -1 Buitenstaander]",
+      "flavor": "In de vergeten en verloren plekken op aarde vraagt de ziel om verlichting.",
+      "name": "Zielzoeker"
+    },
+    "highpriestess": {
+      "ability": "Elke nacht leer je een speler waarvan de Verteller gelooft dat je daar het beste mee kunt praten.",
+      "first": "Wijs naar een speler.",
+      "flavor": "Achter de persoonlijkheid die maskers van anderen draagt, schuilt het ware leven. Soms legt het leven zijn masker af en biedt het diepe antwoorden op diepste vragen.",
+      "name": "Hoge Priester",
+      "other": "Wijs naar een speler."
+    },
+    "huntsman": {
+      "ability": "1 keer per spel, in de nacht, kies een levende speler. Als dit de Jonkvrouw is wordt deze een niet-in-het-spel goede Dorpeling. [+Jonkvrouw]",
+      "flavor": "Mijn hut is warm en stevig. Mijn bijl staat bij de deur, mijn laarzen drogen bij het vuur, en er pruttelt elandstoof op het fornuis… Hoor! Een kreet weergalmt door de vallei! De regen, de modder en de ijskoude wind verbergen de geur van de wolven, maar ik ken het pad en mijn tred is vast. Ik kom eraan.",
+      "name": "Jager"
+    },
+    "imp": {
+      "ability": "Elke nacht* kies een speler: deze sterft. Als jij jezelf op deze manier dood, wordt een Minion de Imp.",
+      "flavor": "Houd het verstand scherp en het zwaard scherper. Het kwaad loop rond en keert zich tegen ons, het goede en eenvoudige volk. Ons dorp wordt geruïneerd. Vertrouw niemand. Maar als je iemand wil vertrouwen, vertrouw dan mij.",
+      "name": "Imp (duiveltje)",
+      "other": "De Imp kiest een speler. :reminder: Als de Imp zichzelf heeft gekozen: verander 1 levende Minion token in de extra Imp token. Laat de oude Imp slapen. Maak de nieuwe Imp wakker. Laat het *JIJ BENT* en het Imp token zien."
+    },
+    "innkeeper": {
+      "ability": "Elke nacht*, kies 2 goede spelers: zij kunnen vannacht niet dood maar 1 is dronken tot de schemering.",
+      "flavor": "Kom binnen, reiziger, en laat je voetjes rusten. Drink en wees blij! Want de legioenen van het kwaad zullen je vannacht niet lastigvallen.",
+      "name": "Herbergier",
+      "other": "De Herbergier kiest 2 spelers. :reminder: :reminder: :reminder:"
+    },
+    "investigator": {
+      "ability": "Jij start met weten dat 1 van 2 spelers een specifieke Minion is.",
+      "first": "Laat het Minion karakter zien. Wijs zowel de *MINION* als de *FOUTIEVE* speler aan.",
+      "flavor": "Het is een goede nacht voor een wandeling, niet waar meneer Van Neemweggen? Of zou ik moeten zeggen.... Baron Van Neemweggen?",
+      "name": "Onderzoeker"
+    },
+    "judge": {
+      "ability": "1 keer per spel, als een andere speler genomineerd heeft, kun je er voor kiezen om de huidgige executie te laten slagen of mislukken.",
+      "flavor": "Ik acht de verdachte schuldig aan moord, fraude, brandstichting, diefstal, nadoen van een ambtenaar in functie, het beoefenen van geneeskunde zonder diploma, laster, koningsmoord en het verspreiden van afval.",
+      "name": "Rechter"
+    },
+    "juggler": {
+      "ability": "Op de 1e dag, raad publiekelijk 5 spelers hun karakter. 's Nachts leer je hoe veel je er correct had.",
+      "flavor": "En voor mijn volgende truc heb ik een bloem, een zak bonen, een speelgoedslang, een verfkwast en een gemotoriseerde heggenschaar op benzine nodig. Ik waarschuw, dit zou mijn laatste truc kunnen zijn. Oh, tjonge.",
+      "name": "Jongleur",
+      "other": "Geef een vingersignaal."
+    },
+    "kazali": {
+      "ability": "Elke nacht*, kies een speler: deze sterft. [Jij kiest welke spelers in een specifieke Minion veranderen. -? of +? Buitenstaanders]",
+      "name": "Kazali",
+      "other": "De Kazali kiest een speler. :reminder:"
+    },
+    "king": {
+      "ability": "Elke nacht dat het aantal doden gelijk is of groter is dan het aantal levende spelers, leer je 1 karakter. De Demoon weet dat jij de Koning bent.",
+      "flavor": "Tussen de spanning van sterfelijkheid en strijd / en de morbide nacht, zoet van mysterie en verdriet / liggen de vreugden van het lot's lange leven / Wiens tuin bloeit met elk geverfd gezicht.",
+      "name": "Koning"
+    },
+    "klutz": {
+      "ability": "Als je leert dat je gestorven bent kies je publiekelijk 1 levende speler: als deze slecht is verliest jouw team.",
+      "flavor": "Oeps.",
+      "name": "Kluns"
+    },
+    "knight": {
+      "ability": "Jij start met weten dat 2 spelers niet de Demoon zijn.",
+      "flavor": "Als een man liegt, stort een deel van de wereld in.",
+      "name": "Ridder"
+    },
+    "legion": {
+      "ability": "Elke nacht* kan een speler sterven. Executies mislukken als enkel slechte spelers stemmen. Jij registreert als Demoon en Minion. [De meeste spelers zijn Legioen]",
+      "flavor": "Wij zijn de kille wind op een winterdag. Wij zijn de schaduw in de nacht zonder maan. Wij zijn het gif in je kopje en het gefluister in je oor. Wij zijn overal.",
+      "name": "Legioen",
+      "other": "Een speler kan sterven. :reminder:"
+    },
+    "leviathan": {
+      "ability": "Als meer dan 1 goede speler wordt geëxecuteerd, wint slecht. Alle spelers weten dat jij in het spel zit. Na dag 5 wint slecht.",
+      "flavor": "Tot het einde zal ik met je worstelen. Vanuit het diepst van de hel haal ik je neer. Uit haat spuw ik mijn laatste adem naar je uit.",
+      "name": "Leviathan"
+    },
+    "librarian": {
+      "ability": "Jij start met weten dat 1 van 2 spelers een specifieke Buitenstaander is. (Of dat er geen Buitenstaanders in het spel zitten.)",
+      "first": "Laat het Buitenstaander karakter-token zien. Wijs naar de *BUITENSTAANDER* en de *FOUTIEF* speler.",
+      "flavor": "Zeker, mevrouw. Onder normale omstandigheden kunt u de Codex Malificarium lenen uit de kluis van de bibliotheek. Het lijkt er echter op dat u geen lid bent.",
+      "name": "Bibliothecaris"
+    },
+    "lilmonsta": {
+      "ability": "Elke nacht kiezen de Minions wie op mini-Monster past & \"de Demoon\" is. Elke nacht* mag een speler sterven. [+1 Minion]",
+      "flavor": "Stap 1: Skattig zijn. Stap 2: De wereld veroveren. Stap 3: Ompbijt.",
+      "name": "Mini-Monster"
+    },
+    "lleech": {
+      "ability": "Elke nacht*, kies een speler: deze sterft. Jij start met het kiezen van 1 speler: deze is vergiftigd. Jij kunt alleen sterven als deze speler sterft.",
+      "first": "De Bloedzuiger kiest een speler. :reminder:",
+      "flavor": "Lekker, lekker, lekker, lekker, lekker, lekker, herse.... ik bedoel taart! Cake. Lekker stukje taart. Cake. Dat is wat ik wilde zeggen.",
+      "name": "Bloedzuiger",
+      "other": "De Bloedzuiger kiest een speler. :reminder:"
+    },
+    "lordoftyphon": {
+      "ability": "Elke nacht*, kies een speler: deze sterft. [Slechte karakters zitten in een lijn. Jij zit in het midden. +1 Minion. -? of +? Buitenstaanders]",
+      "flavor": "In een donkere en vergeten hoek van het heelal, waar de sterren hun geheimen door fluisteren aan de leegte, rust een waarheid zo groot dat een enkele blik de sterfelijke ziel doet vervagen.",
+      "name": "Heer der Typhon",
+      "other": "De Heer der Typhon kiest een speler. :reminder:"
+    },
+    "lunatic": {
+      "ability": "Jij denkt dat je de Demoon bent, maar dat ben je niet. De Demoon weet wie jij bent & wie jij 's nachts kiest.",
+      "first": "Als er meer dan 7 spelers zijn maak je de Waanzinnige wakker. Laat de *DIT ZIJN JE MINIONS* token zien. Wijs naar enkele spelers. Laat de *DEZE KARAKTERS ZITTEN NIET IN HET SPEL* token zien en laat 3 goede karakter-tokens zien. Laat de Waanzinnige slapen. Maak de Demoon wakker. Laat de *JIJ BENT* en de Demoon-token zien. Laat de *DEZE SPELER IS* token en de Waanzinnige-token zien en wijs naar de Waanzinnige.",
+      "flavor": "Ik ben de duisternis... denk ik.",
+      "name": "Waanzinnige",
+      "other": "Doe wat je moet doen om de Waanzinnige te laten denken dat ze Demoon zijn. Laat de Waanzinnige slapen. Maak de Demoon wakker. Laat het Waanzinnige token zien wijs heb aan, en daarna hun doelwit."
+    },
+    "lycanthrope": {
+      "ability": "Elke nacht* kies je een levende speler. Indien deze goed is sterven ze en Demoon doodt niet. 1 goede speler registreert als slecht.",
+      "flavor": "Onder het dunne laagje van beschaving schuilt een huilende waanzin.",
+      "name": "Weerwolf",
+      "other": "De Weerwolf kiest een speler. :reminder:"
+    },
+    "magician": {
+      "ability": "De Demoon denkt dat jij een Minion bent. De Minions denken dat jij een Demoon bent.",
+      "flavor": "1...2... Abra... 3...4... Cadabra.... *poef!* Dames & Heren, jongens en Meisjes, het goud van de Kapitein is weg! Verdwenen! Zonder enig spoor! Dank u, en fijne avond!",
+      "name": "Magiër"
+    },
+    "marionette": {
+      "ability": "Jij denkt dat je een goed karakter bent, maar dat ben je niet. De Demoon weet wie je bent. [Jij zit naast de Demoon]",
+      "flavor": "Woorden, woorden. Dat is alles wat je hebt.",
+      "name": "Marionet"
+    },
+    "mastermind": {
+      "ability": "Als de Demoon sterft door executie (waarbij het spel eindigt), speel je 1 extra dag. Als een speler geëxecuteerd wordt, verliest hun team.",
+      "flavor": "De tentakels van dat monster zijn aan de deuren van de kerk genageld. Moeders en kinderen zwieren dansend door de straat. Perfect. Alles gaat precies zoals ik dat bedacht heb.",
+      "name": "Meesterbrein"
+    },
+    "mathematician": {
+      "ability": "Elke nacht leer je hoeveel rollen er incorrect hebben gewerkt (sinds zonsopgang) door de vaardigheid van andere spelers.",
+      "first": "Geef een vingersignaal.",
+      "flavor": "Elk consistent formeel systeem x dat een beetje rekenkunde aankan, is incompleet; met andere woorden: er zijn uitspraken die je er noch kunt bewijzen, noch kunt ontkrachten. Ergo… jij bent dronken.",
+      "name": "Wiskundige",
+      "other": "Geef een vingersignaal."
+    },
+    "matron": {
+      "ability": "Elke dag mag je tot 3 sets van 2 spelers kiezen om van stoel te ruilen. Spelers mogen niet hun stoel verlaten om in privé te praten.",
+      "flavor": "Juffrouw Featherbottom, stilte graag. Mijnheer Rutherford, een theekopje houdt men met vier vingers, niet meer. Ik weet dat u vader bent van negen, maar leeftijd; of juist het ontbreken daarvan, is geen excuus voor slechte manieren.",
+      "name": "Gouvernante"
+    },
+    "mayor": {
+      "ability": "Als er nog 3 spelers leven en er zijn geen executies, wint jouw team. Als jij 's nachts sterft, kan een andere speler in plaats daarvan sterven.",
+      "flavor": "We moeten onze meningsverschillen opzijzetten en stoppen met dit zinloze geweld. Uiteindelijk zijn we allemaal belastingbetalers. Nou ja… de meesten van ons.",
+      "name": "Burgemeester"
+    },
+    "mezepheles": {
+      "ability": "Jij start met het leren van 1 geheim woord. De 1e goede speler die dit woord zegt wordt slecht die avond.",
+      "first": "Laat het geschreven woord zien.",
+      "flavor": "Wat recht uit het hart komt, vindt zijn weg naar het hart van een ander.",
+      "name": "Mezepheles"
+    },
+    "minioninfo": {
+      "first": "Als er meer dan 6 spelers zijn, laat alle Volgelingen ontwaken: toon de \"DIT IS DE DEMOON\" kaart. Wijs de Demoon aan. Toon de \"DIT ZIJN JE VOLGELINGEN\"kaart. Wijs naar alle andere Volgelingen."
+    },
+    "minstrel": {
+      "ability": "Als een Minion sterft door executie zijn alle andere spelers (behalve de Reizigers) drinken tot de schemering van morgen.",
+      "flavor": "En ik zal horen, al sluipt u zacht boven mij... En al mijn dromen zijn warm en zoet daarbij... Als u mij niet vergeet te zeggen dat u mij bemint... Dan slaap ik in vrede, mijns goed gezind.",
+      "name": "Minstreel"
+    },
+    "monk": {
+      "ability": "Elke nacht*, kies een speler (niet jezelf): zij zijn veilig voor de Demoon vannacht.",
+      "flavor": "Het is een dodelijke gure wind die vannacht waait. Kom binnen, mijn broeder, zoek beschutting in de abdij terwijl de storm buiten raast. Bij mijn woord of bij mijn leven; u bent veilig.",
+      "name": "Monnik",
+      "other": "De Monnik kiest een speler. :reminder:"
+    },
+    "moonchild": {
+      "ability": "Als je leert dat je gestorven bent kies je publiekelijk 1 levende speler. Vannacht, als dit een goede speler was, sterven ze.",
+      "flavor": "De Schorpioen werpt een schuine blik op de geliefden, en je hebt een keuze te maken. Met een zilveren kruis in de hand zal je lot geopenbaard worden. Met een stalen kruis bij de keel zul je er spijt van krijgen.",
+      "name": "Maanling",
+      "other": "Als de Maanling een goede speler aanwees, sterft deze. :reminder:"
+    },
+    "mutant": {
+      "ability": "Als jij tot \"waanzin\" wordt gedreven dat je een Buitenstaander bent, kun je geëxecuteerd worden.",
+      "flavor": "Ik ben geen freak! Ik ben een mens! Heb genade!",
+      "name": "Mutant (misvormde)"
+    },
+    "nightwatchman": {
+      "ability": "Een keer per spel in de nacht, kies een speler: zij leren dat jij de Nachtwaker bent.",
+      "flavor": "De nacht is koud en verlaten, maar ik heb de maan en de sterren, een zuchtje wind en het zachte geplof van mijn laarzen op de stenen. Daarginds flikkert kaarslicht achter het raam...",
+      "name": "Nachtwaker"
+    },
+    "noble": {
+      "ability": "Jij start met het weten van 3 spelers, exact 1 hiervan is slecht.",
+      "flavor": "Sarcasme is de laagste vorm van humor. Maar als ik op uw kritiek reageer, meneer, is het nog altijd een vorm van humor.",
+      "name": "Nobel"
+    },
+    "nodashii": {
+      "ability": "Elke nacht*, kies een speler: deze sterft. Je 2 Dorpeling buren zijn vergiftigd.",
+      "flavor": "Bij de zonde van Arnoch proef ik bittere stank. Bij de vervloekte zon en zijn legioenen aan kleine grijzende goden, ik bezoedel u. Bij de gezegende nachten en de diepten van de onheilige zee, breek ik uw vervloekte leven op deze aarde.",
+      "name": "No Dashii",
+      "other": "De No Dashii kiest een speler. :reminder:"
+    },
+    "ogre": {
+      "ability": "Op je 1e nacht, kies een speler (niet jezelf): jij wordt hun alliantie (jij weet niet welke) zelfs als je dronken of vergiftigd bent.",
+      "first": "De Oger wijst naar een speler. :reminder:",
+      "flavor": "\\<grunt\\>\\<grin\\>\\</grunt\\>",
+      "name": "Oger"
+    },
+    "ojo": {
+      "ability": "Elke nacht*, kies een karakter: deze sterft. Als dit karakter niet in het spel zit kiest de Verteller wie sterft.",
+      "flavor": "Als een kampvuur op een donkere nacht... kan ik je zien, sterveling.",
+      "name": "Ojo",
+      "other": "De Ojo kiest een karakter. :reminder:"
+    },
+    "oracle": {
+      "ability": "Elke nacht*, leer jij hoeveel dode spelers slecht zijn.",
+      "flavor": "Alleen de uitverkorenen durven achter het gordijn te kijken. De doden rusten niet en wijzen zwijgend naar het ijskoude noorden.",
+      "name": "Orakel",
+      "other": "Geef een vingersignaal."
+    },
+    "organgrinder": {
+      "ability": "Alle spelers houden hun ogen dicht tijdens het stemmen en het stemtotaal is geheim. Elke nacht kun je kiezen of je dronken bent tot de schemering.",
+      "first": "De Orgelman knikt ja om dronken te zijn, of schud nee om nuchter te zijn. :reminder:",
+      "flavor": "Rond en rond, het orgelpracht. Hoe meer je danst, hoe minder je lacht.",
+      "name": "Orgelman",
+      "other": "De Orgelman knikt om dronken te zijn, of schud zijn hoofd nee om nuchter te zijn. :reminder:"
+    },
+    "pacifist": {
+      "ability": "Goede geëxecuteerde spelers hoeven niet te sterven.",
+      "flavor": "Wantrouw een ieder bij de drang om te straffen sterk is.",
+      "name": "Pacifist"
+    },
+    "philosopher": {
+      "ability": "Een keer in het spel, in de nacht, kies een goede karakter: jij krijgt deze vaardigheid. Als dit karakter al in het spel zit wordt deze dronken.",
+      "first": "De Filosoof mag een karakter kiezen. Indien nodig wissel je de karaktertoken om. :reminder:",
+      "flavor": "Als er iets echt is, is het bier. Drink! Want morgen kan het over zijn.",
+      "name": "Filosoof",
+      "other": "De Filosoof mag een karakter kiezen. Indien nodig wissel je de karaktertoken om. :reminder:"
+    },
+    "pithag": {
+      "ability": "Elke nacht*, kies een speler & karakter die de speler wordt (indien niet in het spel). Een een Demoon wordt gemaakt, zijn doden vannacht willekeurig.",
+      "flavor": "Rond de ketel ik ga, en de vergiftigde ingewanden sta; een pad die onder koude steen, eenendertig dag en nacht te leen; Gezweet gif in slaap verkregen, in de betoverde pot gelegen.",
+      "name": "Grotheks",
+      "other": "De Grotheks kiest een speler & karakter. Laat de Grotheks slapen. Als de Grotheks een karakter heeft gekozen dat niet in het spel zit: maak het doelwit wakker. Laat het *JIJ BENT* token met het nieuwe karakter token zien."
+    },
+    "pixie": {
+      "ability": "Jij start met het weten van 1 Dorpeling die in het spel zit. Als je tot \"waanzin\" bent als dit karakter, krijg je de vaardigheid als deze Dorpeling sterft.",
+      "first": "Laat het Townsfolk (dorpeling) token zien dat gemarkeerd staat als *MAD* (gek).",
+      "flavor": "Rond en rond de tuin in ’t rond, meisjes rennen over de grond. Jongens klimmen in de boom . Hoe past ##Pixie## in deze droom? Dames lachen en gaan op pad. Heren hakken bossen plat. Wat van jou is, wordt van mij. Wat van mij is, blijft erbij. Dwaze kleine ##Pixie##, ik.",
+      "name": "Pixie (fee)"
+    },
+    "plaguedoctor": {
+      "ability": "Als jij sterft krijgt de Verteller een Minion vaardigheid.",
+      "flavor": "Bleift tog shtill, geen teid m nate denku. Myrhh-myrhh.",
+      "name": "Pestmeester"
+    },
+    "po": {
+      "ability": "Elke nacht*, kies een speler: deze sterft. Als je vorige keuze niemand was: kies vannacht 3 spelers.",
+      "flavor": "Wil je ook een bloem? Ik ben zo eenzaam.",
+      "name": "Po",
+      "other": "De Po mag een speler kiezen, of 3 als ze de vorige nacht niemand kozen. :reminder: or :reminder: :reminder: :reminder:"
+    },
+    "poisoner": {
+      "ability": "Elke nacht, kies een speler: ze zijn vergiftigt vannacht en morgen tijdens de dag.",
+      "first": "De Gifmenger kiest een speler. :reminder:",
+      "flavor": "Giet mengsel Alfa bij mengsel Beta... NIET ZO VEEL!",
+      "name": "Gifmenger",
+      "other": "De Gifmenger kiest een speler. :reminder:"
+    },
+    "politician": {
+      "ability": "Als jij de speler bent die het meest verantwoordelijk is voor het verliezen van je team, verander van alliantie en win, zelfs als je dood bent.",
+      "flavor": "Ik heb daar geen actieve herinnering aan...",
+      "name": "Politicus"
+    },
+    "poppygrower": {
+      "ability": "Minions & Demonen kennen elkaar niet. Als jij sterft leren ze die nacht elkaar kennen.",
+      "flavor": "In de verborgen holen van het diepe woud, woont de zwarte papaver. Wie zijn dans aanschouwt wordt betoverd. Wie de geur ruikt zal een slaaf zijn aan de goden van licht en duisternis.",
+      "name": "Papaverkweker"
+    },
+    "preacher": {
+      "ability": "Elke nacht, kies een speler: als dit een Minion is leert deze dat ze zijn gekozen. De Minions hebben geen vaardigheid.",
+      "flavor": "Het is beter om rijk en gezond te zijn, dan arm en ziek.",
+      "name": "Pastoor"
+    },
+    "princess": {
+      "ability": "Op jouw 1e dag, als jij een speler nomineert en executeert, kan de Demoon niet doden.",
+      "flavor": "Onze woorden zijn honden, gebonden aan zijden draden; Laat vriendelijkheid de teugels zijn die ons hof bij elkaar houden.",
+      "name": "Prinses"
+    },
+    "professor": {
+      "ability": "1 keer per spel, in de nacht*, kies een dode speler: als zij een Dorpeling zijn, worden ze herrezen.",
+      "flavor": "Het proces is eenvoudig. Sluit de hydraulische confabulator aan op de gemodificeerde chi-matrixversterker, voeg 20 cc pseudodorafine toe, houd zijn Z-waarden boven de 20% en je man komt er wel. Nu hebben we alleen nog een blikseminslag nodig.",
+      "name": "Professor",
+      "other": "De Professor kan een dode speler kiezen. :reminder: :reminder:"
+    },
+    "psychopath": {
+      "ability": "Elke dag, voor de nominaties, mag je publiekelijk een speler kiezen: deze sterft. Als jij geexecuteert wordt, kun je alleen sterven door Steen-Papier-Schaar.",
+      "flavor": "Verrassing!",
+      "name": "Psychopaat"
+    },
+    "pukka": {
+      "ability": "Elke nacht, kies een speler: ze zijn vergiftigt. De vorige vergiftigde speler sterft en wordt gezond.",
+      "first": "De Pukka kiest een speler. :reminder:",
+      "flavor": "Jullie hebben mij zo hartelijk ontvangen in dit prachtige huis. Het spijt me dat ik naar je uitgehaald heb. Een kleinigheidje. Kan gebeuren. Maar nee deze gouden tandenstoker als nederig teken van mijn excuus.",
+      "name": "Pukka",
+      "other": "De Pukka kiest een speler. :reminder: De vorige vergiftigde speler sterft en wordt gezond. :reminder:"
+    },
+    "puzzlemaster": {
+      "ability": "1 speler is dronken, zelfs als jij sterft. Als je kiest (1 keer) wie het is, leer je de Demoon-speler. Maar als je verkeerd kiest krijg je foutieve info.",
+      "flavor": "Als je denkt dat het een gewoon het ander is, sta je meestal op het randje van vergissingen. Geduldig zijn. Verwar niet juist en goed en nee en niet.",
+      "name": "Puzzelmeester"
+    },
+    "ravenkeeper": {
+      "ability": "Als jij 's nachts sterft, wordt je wakker gemaakt om een speler te kiezen: jij leert hun karakter.",
+      "flavor": "Mijn vogels zullen wraak nemen! Vlieg! Vlieg mijn lieve loyale dieren. Van het kasteel tot de oceaan. Van de vallei tot aan de straten. Vlieg!",
+      "name": "Kraaienhoeder",
+      "other": "Als de Kraaienhoeder vannacht is gestorven, kiest deze een speler. Laat het karakter token van deze speler zien."
+    },
+    "recluse": {
+      "ability": "Jij kan registreren als slecht & Minion of Demoon, zelfs als je dood bent.",
+      "flavor": "Gaat van m'n land, Grut, begrepen? Grrr.. 'k zat je al op 't spoor en kom 'rachteraan. God! Blijft met die smer'ge Demonenvingers van m'n gewassen af. Gaat, en snel!",
+      "name": "Kluizenaar"
+    },
+    "revolutionary": {
+      "ability": "2 spelers die naast elkaar zitten hebben dezelfde alliantie. 1 keer per spel registreert een van hun incorrect.",
+      "flavor": "Als je snel wil gaan, ga alleen; als je ver wilt komen, ga samen.",
+      "name": "Revolutionair"
+    },
+    "riot": {
+      "ability": "Op dag 3 worden de Minions Rellen & genomineerden sterven, maar nomineren direct een levende speler. Dit moet gebeuren.",
+      "flavor": "Larga vida a la revolución! Mi revolucion! (Lang leve de revolutie! Mijn revolutie!)",
+      "name": "Rellen"
+    },
+    "sage": {
+      "ability": "Als de Demoon jou dood, leer je dat het 1 van 2 spelers is.",
+      "flavor": "Deze gigantische stapels met boeken bewaren zeker de geheimen. Woord voor woord ligt het antwoord te wachten. Meer kaarsen, jongen! Meer inkt! Deze aantekening lijkt geheimzinnig, maar de puzzel ontrafeld.",
+      "name": "Wijze",
+      "other": "Als de Demoon de Wijze dood, maak de Wijze wakker en wijs 2 spelers aan; 1 hiervan is de Demoon."
+    },
+    "sailor": {
+      "ability": "Elke nacht, kies een levende speler: jij of zij zijn dronken tot schemering. Jij kan niet dood.",
+      "first": "De Matroos kiest een levende speler. :reminder:",
+      "flavor": "Ik drink jullie stuk voor stuk onder de tafel! Jij daar! Kwebbelkont! Denk jij dat je me aankunt? Nee? En jij dan, oma? Ooit Old McKilly’s Extra Rum geprobeerd? Gegarandeerd haar op je borst! Kom aan boord, aye!",
+      "name": "Matroos",
+      "other": "De Matroos kiest een levende speler. :reminder:"
+    },
+    "saint": {
+      "ability": "Als jij sterft door executie, verliest je team.",
+      "flavor": "Wijsheid zaait vrede. Geduld zaait wijsheid. Vrees niet, de tijd komt dat ook de angst wordt vergeten. Laat ons bidden en moge de eenheid van ons aanzien ons tot heiligen maken.",
+      "name": "Heilige"
+    },
+    "savant": {
+      "ability": "Elke dag mag je de Verteller in privé bezoeken om 2 dingen te leren: 1 is waar en 1 is foutief.",
+      "flavor": "Tweeënzeventig lucifers liggen verspreid… de zon gaat vroeg onder, maar de maan blijft onveranderd… een gescheurd stukje stof… er heerst kwaad in het landhuis… drie aan drie… degene die we vertrouwden is niet wie hij lijkt… groen licht duidt op magnesium… er blijft iets achter, maar het patroon klopt niet… tweeënzeventig lucifers op de vloer…",
+      "name": "Geleerde"
+    },
+    "scapegoat": {
+      "ability": "Als een speler van jouw alliantie wordt geëxecuteerd, kan jij in plaats daarvan geëxecuteerd worden.",
+      "flavor": "Goedenavond! Bedankt voor de uitnodiging voor dit bal. Ik kom hier niet vandaan, maar jullie lijken me een vriendelijke groep, nietwaar. Ik weet zeker dat we het uitstekend met elkaar zullen kunnen vinden. Maar uhm… waar is al dat touw voor?",
+      "name": "Zondebok"
+    },
+    "scarletwoman": {
+      "ability": "Als er 5 of meer spelers leven & de Demoon sterft, wordt jij de nieuwe Demoon. (Reizigers tellen niet)",
+      "flavor": "Je liet me de geheimen zien van de Raad van de Paarse Vlam. In vuur, lust en beestachtig verlangen hebben wij verenigd, en ik ben voor eeuwig dienstbaar. Maar vannacht, liefste, ben ik jouw meester.",
+      "name": "Rode Vrouw",
+      "other": "Als de Rode Vrouw vandaag de Demoon is geworden, laat dan de *JIJ BENT* token zien en daarna de Demoon token."
+    },
+    "seamstress": {
+      "ability": "1 keer per spel, in de nacht, kies 2 spelers (niet jezelf). Je leert of ze in dezelfde alliantie zitten.",
+      "first": "De Naaister mag 2 spelers kiezen. Knik of schud je hoofd. :reminder:",
+      "flavor": "Heb je gehoord dat die vreemdeling in de kasjmierjas ons jonge Belle het hof maakte? En ze heeft ja gezegd? Nou, dat is niets vergeleken met wat Harry en die jongleur op de kermis hebben uitgespookt! De dingen die ik zou kunnen vertellen als ik roddelde… ach, ja.",
+      "name": "Naaister",
+      "other": "De Naaister mag 2 spelers kiezen. Knik of schud je hoofd. :reminder:"
+    },
+    "sentinel": {
+      "ability": "Er kan 1 Buitenstaander meer of minder in het spel zitten.",
+      "flavor": "Naam, alsjeblieft. Papieren, alsjeblieft. Wapens, alsjeblieft.",
+      "name": "Schaduwwachter"
+    },
+    "shabaloth": {
+      "ability": "Elke nacht*, kies 2 spelers: ze sterven. Een dode speler die gisteren door jouw keuze is gestorven kan uitgebraakt worden.",
+      "flavor": "Barf'taag nm mataan! No sho gumtha m'sik na jouuuu. Fluuuuuuuuurg h-sikkkh.",
+      "name": "Shabaloth",
+      "other": "Een eerder gekozen spelen kan herrezen worden. :reminder: De Shabaloth kiest 2 spelers. :reminder: :reminder:"
+    },
+    "shugenja": {
+      "ability": "Jij start met weten of je dichtstbijzijnde slechte speler met de klok mee of tegen de klok in zit. Als de afstand gelijk is, is deze informatie willekeurig.",
+      "first": "Wijs met de klok mee of tegen de klok in.",
+      "flavor": "これは夢。それも夢。すべて夢です。(Dit is een droom. Dat is ook een droom. Alles is een droom.)",
+      "name": "Shugenja"
+    },
+    "slayer": {
+      "ability": "1 keer per spel tijdens de dag kies je publiekelijk een speler: als dit de Demoon is, sterft die.",
+      "flavor": "Sterf.",
+      "name": "Boogschieter"
+    },
+    "snakecharmer": {
+      "ability": "Elke nacht, kies een levende speler: een gekozen Demoon wisselt met jou van alliantie en karakter en is daarna vergiftigd.",
+      "first": "De Slangentemmer kiest een speler. Als ze de Demoon kiezen: Laat de *JIJ BENT* en Demoon token zien. Geef een duimsignaal. Ruil de Slangentemmer & Demoon tokens om. Laat de oude Slangentemmer slapen en maak de oude Demoon wakker. Laat de *JIJ BENT* en Slangentemmer token zien. Geef een duimsignaal. :reminder:",
+      "flavor": "Effendi... Ik ben slechts een nederig man, maar mijn fluit is van goud en één melodie zal de wildste djinn temmen, Inshallah. Ze zeggen dat hebzucht meer mannen het leven kost dan touw. Maar ik niet, Effendi... ik niet.",
+      "name": "Slangentemmer",
+      "other": "De Slangentemmer kiest een speler. Als ze de Demoon kiezen: Laat de *JIJ BENT* en Demoon token zien. Geef een duimsignaal. Ruil de Slangentemmer & Demoon tokens om. Laat de oude Slangentemmer slapen en maak de oude Demoon wakker. Laat de *JIJ BENT* en Slangentemmer token zien. Geef een duimsignaal. :reminder:"
+    },
+    "snitch": {
+      "ability": "Elke Minions krijgt 3 bluffen.",
+      "flavor": "Het was Jan.",
+      "name": "Klikspaan"
+    },
+    "soldier": {
+      "ability": "Jij bent veilig voor de Demoon.",
+      "flavor": "Zoals David tot Goliath sprak, zoals Theseus tot de Minotaurus sprak, zoals Arjuna tot Bhagadatta sprak… Nee.",
+      "name": "Soldaat"
+    },
+    "spiritofivory": {
+      "ability": "Er kan niet meer dan 1 extra slechte speler zijn.",
+      "flavor": "De Woestenij roept. Beenderen tot vlees, vallen terug tot stof. De grote geest groeit. De grote geest aanschouwt. De grote geest leidt. De mens luistert, of is niet meer.",
+      "name": "Geest van Ivoor"
+    },
+    "spy": {
+      "ability": "Elke nacht bekijk je de Grimoire. Je registreert mogelijk als goed & als Dorpeling of Buitenstaander, zelfs als je dood bent.",
+      "first": "Laat het Grimoire aan de spion zien voor zolang dat nodig is.",
+      "flavor": "Iedere brouwer die zijn likeur waard is weet, geen brouwsel schenkt problemen sneller dan een waardoor iedereen een spion lijkt.",
+      "name": "Spion",
+      "other": "Laat het grimoire zien aan de spion voor zolang dit nodig is."
+    },
+    "steward": {
+      "ability": "Je begint het spel met de naam van 1 goede speler.",
+      "flavor": "Hoe DURF je mevrouw te beschuldigen van wangedrag? Ik ken haar al mijn gehele leven! Alle negen jaren!",
+      "name": "Hofmeester"
+    },
+    "stormcatcher": {
+      "ability": "Noem een goed karakter. Als deze in het spel is, dan kan dit karakter alleen sterven via executie, maar slechte spelers leren welk karakter dit is.",
+      "flavor": "Bij dageraad kruipt de lange schaduw van de tempel naar de fontein. Bij schemering blokkeert de rode schittering wat het water onder het viaduct doet koelen. Alle lijnen lopen hier samen. Er komt een storm aan, en deze, deze weelderige met kiezelstenen bekleedde heilige plaats tussen de appelbomen, is het oog.",
+      "name": "Storm Vanger"
+    },
+    "summoner": {
+      "ability": "Je krijgt 3 bluffs. Tijdens de 3e nacht, kies een speler: die speler wordt een slechte Demoon die jij kiest. [Geen Demoon]",
+      "first": "Laat het *DEZE KARAKTERS ZIJN NIET IN HET SPEL* fiche zien. Laat 3 goede character fiches zien die niet in het spel zijn.",
+      "name": "Oproeper"
+    },
+    "sweetheart": {
+      "ability": "Wanneer jij sterft is 1 speler dronken voor de rest van het spel.",
+      "flavor": "Ik zal naar nooit vergeten. Nooit.",
+      "name": "Schatje",
+      "other": "Als het Schatje dood is gegaan, werd er meteen een speler dronken. Als je dit nog niet gedaan hebt, doe dit nu. :reminder:"
+    },
+    "tealady": {
+      "ability": "Als jouw levende buren beide goed zijn, kunnen ze niet sterven.",
+      "flavor": "Als je het koud hebt, warmt thee je op. Als je het te warm hebt, zal thee je doen koelen. Als je somber bent, zal thee je opvrolijken. Als je opgewonden bent, zal thee je kalmeren.",
+      "name": "Thee Dame"
+    },
+    "thief": {
+      "ability": "Elke nacht, kies een speler (niet jezelf): hun stem telt morgen negatief.",
+      "first": "De Dief kiest een speler. :reminder:",
+      "flavor": "Ik hep niets gedaan. Ik was niet eens in da steegje gisternacht! Da was ik nie die Burgemeester Bruno's koffer met al die belangrijke zooi gejat heeft. Trouwens da ding was toch te zwaar om te dragen.",
+      "name": "Dief",
+      "other": "De Dief kiest een speler. :reminder:"
+    },
+    "tinker": {
+      "ability": "Je kan ieder moment sterven.",
+      "flavor": "Volgens mij zie ik het probleem. Gelukkig heb ik een idee! Deze katapult zal twee keer zo ver kunnen schieten met gewoon één kleine aanpassing...",
+      "name": "Prutser",
+      "other": "De Prutser sterft mogelijk. :reminder:"
+    },
+    "towncrier": {
+      "ability": "Elke nacht*, jij leert of een volgeling vandaag genomineerd heeft.",
+      "flavor": "Hoort gij! Hoort gij! Hekserij in het layrint! Brilliante geleerde onthuld alles! Dorp in gevaar! Hoort gij!",
+      "name": "Stadsomroeper",
+      "other": "Knik of schud je hoofd."
+    },
+    "toymaker": {
+      "ability": "De Demoon mag ervoor kiezen om niet aan te vallen & moet dit minstens één keer tijdens het spel doen. Slechte spelers krijgen normale start info.",
+      "flavor": "Het zoemt! Het loopt van de trap af! Het houdt je warm in de nacht! Het smaakt naar suiker! De kinderen houden ervan! Laat mij je introduceren aan... het gloednieuwe... Wazige-warme-zoemende-lopend-bot-dingetje-uitvindsel! Plezier voor alle leeftijden!",
+      "name": "Speelgoedmaker"
+    },
+    "undertaker": {
+      "ability": "Elke nacht*, jij leert welk karakter er is dood gegaan door executie vandaag.",
+      "flavor": "Hmmm...wat hebben we hier? De linker laars is versleten tot de hiel, met vuursteen schaafsel onder de tong. Dit is de kledij van een militaire man.",
+      "name": "Begrafenisondernemer",
+      "other": "Als een speler geëxecuteerd is vandaag, laat hun karakter fiche zien."
+    },
+    "vigormortis": {
+      "ability": "Elke nacht* kies een speler: deze sterft. Volgelingen die jij doodt behouden hun vaardigheid & vergiftigen 1 van hun Dorpeling buren. [-1 Buitenstaander]",
+      "flavor": "Alle deuren zijn één deur. Alle sleutels zijn één sleutel. Alle kopjes zijn één kop, maar wie toch van het water drinkt dat ik geef zal nooit dorstig zijn, maar dat water zal een put naar het oneindige leven in hem doen opwellen.",
+      "name": "Vigormortis",
+      "other": "De Vigormortis kiest een speler. :reminder: Als deze speler een volgeling is, vergiftig een naburige Dorpeling. :reminder: :reminder:"
+    },
+    "villageidiot": {
+      "ability": "Elke nacht, kies een speler: jij leert hun team. [+0 t/m +2 Dorpsgekken. 1 van deze extra's is dronken)",
+      "flavor": "Rozen zijn blauw, en violen zijn rood. Draai alsjeblieft om wat ik zojuist zei.",
+      "name": "Dorpsgek",
+      "other": "Maak de Dorpsgekken één voor één wakker, de Dorpsgek kiest een speler, laat een goede of slechte duim zien afhankelijk van het team van de gekozen speler."
+    },
+    "virgin": {
+      "ability": "De eerste keer dat je genomineerd bent, als de voordrager een Dorpeling is dan worden ze meteen geëxecuteerd.",
+      "flavor": "Ik ben puur. Laat degene zonder zondes zichzelf opofferen en lijden in mijn plaats. Mijn reputatie zal niet worden besmeurd met jouw giftige beschuldigingen.",
+      "name": "Maagd"
+    },
+    "vizier": {
+      "ability": "Alle spelers weten dat jij de Vizier bent. Jij kan overdag niet sterven. Als goed heeft gestemd, mag jij ervoor kiezen om meteen te executeren.",
+      "flavor": "Een uitstekende keuze zoals altijd, sire. Zo'n kleinzielige daad als tegen de Bisschop aan botsen verdient inderdaad uw 'gerechtigheid' en uw 'genade'. Neem een wandeling in de tuinen. Bezoek de galerij en bekijk de sculpturen van Von Strauf. Ontspan, sire. Laat alles...over aan mij.",
+      "name": "Vizier (raadgever)"
+    },
+    "vortox": {
+      "ability": "Elke nacht*, kies een speler: deze sterft. Dorpeling vaardigheden geven foutieve info. Elke dag, als er niemand is geëxecuteerd, wint slecht.",
+      "flavor": "Zwart is Wit. Goed is Fout. Links is Rechts. Boven is Lang. Beneden is Zicht. Kort is Blind. Volg mij. Antwoorden vind.",
+      "name": "Vortox",
+      "other": "De Vortox kiest een speler. :reminder:"
+    },
+    "voudon": {
+      "ability": "Alleen jij & de doden kunnen stemmen. Zij hebben geen stem fiche nodig om te stemmen. Een 50% meerderheid is niet nodig.",
+      "flavor": "Bien venu. Ga zitten. Neem een diepe adem. Treed toe in het land der doden. Zie met hun ogen. Spreek met hun stem. Yon sel lang se janm ase.",
+      "name": "Voudon"
+    },
+    "washerwoman": {
+      "ability": "Jij begint het spel wetende dat 1 van 2 spelers een bepaalde Dorpeling is.",
+      "first": "Laat het Dorpeling karakter fiche zien. Wijs naar beide de *DORPELING* en * FOUT* spelers.",
+      "flavor": "Bloedvlekken op een smoking? Nee, dit is kooksherry. Wat nalatig.",
+      "name": "Wasvrouw"
+    },
+    "widow": {
+      "ability": "Tijdens je eerste nacht, bekijk de Grimoire & kies een speler: deze speler is vergiftigd. 1 goede speler weet dat er een Weduwe in het spel zit.",
+      "first": "Laat de Grimoire zien zolang de Weduwe dit nodig heeft. De Weduwe kiest een speler. :reminder:",
+      "flavor": "Meer wijn? Château d'Ergot '07 is een hele speciale vintage. Oh ja, inderdaad zeer speciaal.",
+      "name": "Weduwe"
+    },
+    "witch": {
+      "ability": "Elke nacht, kies een speler: als deze speler morgen nomineert, sterft de speler. Als er nog maar 3 spelers leven, verlies je deze vaardigheid.",
+      "first": "De Heks kiest een speler. :reminder:",
+      "flavor": "Drie druppels geitenbloed. Een uit woede uitgetrokken lok haar. De naam is gesproken, de schaduw geworpen. Loop linkervoer voorop naar beneden over dat stekelige pad, en kijk niet terug.",
+      "name": "Heks",
+      "other": "De Heks kiest een speler. :reminder:"
+    },
+    "wizard": {
+      "ability": "Één keer tijdens het spel, kies om een wens te maken. Als deze vervult is, zit er mogelijk een prijs aan & wordt er mogelijk een hint naar de aard van de wens achtergelaten.",
+      "first": "Voer de Tovenaars vaardigheid uit als dit van toepassing is.",
+      "flavor": "Iedere man en iedere vrouw is een ster. Liefde is de wet, liefde onder wilskracht.",
+      "name": "Tovenaar"
+    },
+    "wraith": {
+      "ability": "Jij mag ervoor kiezen om je ogen te openen in de nacht. Jij wordt ook wakker gemaakt wanneer slechte spelers wakker worden.",
+      "first": "Maak de Schim wakker wanneer andere slechte spelers wakker worden.",
+      "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
+      "name": "Schim",
+      "other": "Maak de Schim wakker wanneer andere slechte spelers wakker worden."
+    },
+    "xaan": {
+      "ability": "Tijdens nacht X zijn alle Dorpelingen vergiftigd tot schemering. [X Buitenstaanders]",
+      "first": "Markeer de Xaan met het *NACHT 1* fiche. Als X 1 is, markeer de Xaan met het *X* herinneringsfiche. :reminder: :reminder:",
+      "flavor": "Daar vallen ze, één voor één. Per twee, per drie, per vijf.",
+      "name": "Xaan",
+      "other": "Verander het Xaan herinneringsfiche naar de relevante nacht. Als dit nacht X is, markeer dan de Xaan met het *X* herinneringsfiche. :reminder: :reminder:"
+    },
+    "yaggababble": {
+      "ability": "Jij begint het spel met een geheime uitdrukking. Voor elke keer dat jij dit publiekelijk zegt vandaag, sterft er misschien een speler.",
+      "first": "Kies een geheime uitdrukking. Maak de Kletsmajoor wakker en laat de speler weten wat de geheime uitdrukking is.",
+      "flavor": "Moorden in de het Rue lijkenhuis? Фальшивые новости! Honden op de Baskerville heide? Фальшивые новости! Dood tijdens het zeilen over de Nijl? Фальшивые новости!",
+      "name": "Kletsmajoor",
+      "other": "Voor iedere keer dat de Kletsmajoor de uitdrukking heeft gezegd vandaag, mag je een speler kiezen. Deze sterft. :reminder:"
+    },
+    "zealot": {
+      "ability": "Als er 5 of meer spelers leven, moet je voor iedere nominatie stemmen.",
+      "flavor": "Ik geniet ervan om met jou te praten. Jouw verstand is aantrekkelijk. Het heeft weg van mijn eigen verstand, behalve dat jij gestoord blijkt te zijn.",
+      "name": "Fanatiekeling"
+    },
+    "zombuul": {
+      "ability": "Elke nacht*, als er niemand is dood is gegaan vandaag, kies een speler: deze sterft. De eerste keer dat jij sterft leef je, maar je registreert als dood.",
+      "flavor": "Ik kan niet. Begrijpen. Jouw manieren. Medemens. Laat mij zien. De grond. Waar de heilige. Liggen. Slapende. Ik ook. Moet slapen. Binnenkort.",
+      "name": "Zombuul",
+      "other": "Als niemand is doodgegaan vandaag, kiest de Zombuul een speler. :reminder:"
+    },
+    "bigwig": {
+      "ability": "De genomineerde kiest een speler: tot aan de stemming mag alleen deze speler spreken. Deze speler is waanzinnig dat de genomineerde een goed karakter is. Anders kan de speler sterven.",
+      "flavor": "IJdelheid vraagt: ‘Is het populair?’ Lafheid vraagt: ‘Is het veilig?’ Geweten vraagt: ‘Is het juist?’ Wie van ons zal vragen: ‘Is het waar?’",
+      "name": "Pruikentijd"
+    },
+    "tor": {
+      "ability": "Spelers weeten niet welk karakter of groep zijn. Ze leeren ze waneer ze dood gaan.",
+      "flavor": "Met donder als mijn stem en bliksem als mijn zwaard, ik, de eeuwige wachter, voed mij met de dwazen die het wagen de verboden poort te naderen. Aanschouw mijn heilige doel! De kever uit de buik van de rotsachtige aarde verdrijven, hem vangen in een net van sterren, op de heuveltop waar hemel en aarde elkaar raken."
+    },
+    "knaves": {
+      "ability": "Er zijn 2 speleiders: een liegt en een vertelt de waarhijd. Een keer, bij zonsopgang, kunnen ze wisselen.",
+      "flavor": "Elke muur is een deur. Elk maaltijd is een feestmaal."
+    }
+  },
+  "teams": {
+    "demon": "Demons",
+    "fabled": "Fabled (Legendarischen)",
+    "minion": "Minions (handlangers)",
+    "outsider": "Outsiders (buitenstaanders)",
+    "townsfolk": "Townsfolk (dorpelingen)",
+    "traveller": "Travellers (reizigers)",
+    "loric": "Loric (Hoeders)"
+  },
+  "nightMarkers": {
+    "dawn": "Dageraad",
+    "demoninfo": "Demoon informatie",
+    "dusk": "Schemering",
+    "minioninfo": "Minion informatie"
+  },
+  "reminders": {
+    "2nd": "2e",
+    "3attacks": "3 aanvallen",
+    "3votes": "3 stemmen",
+    "abnormal": "abnormaal",
+    "abouttodie": "Bijna stervende",
+    "actstwice": "2x handelen",
+    "aligned": "gelijk",
+    "alive": "Levend",
+    "amigo": "Vriend",
+    "cannotdie": "Kan niet dood",
+    "chosen": "Gekozen",
+    "claimed": "Geclaimd",
+    "correct": "Correct",
+    "cursed": "Vervloekt",
+    "day1": "Dag 1",
+    "day2": "Dag 2",
+    "day3": "Dag 3",
+    "day4": "Dag 4",
+    "day5": "Dag 5",
+    "dead": "Dood",
+    "demonnotvoted": "Demoon niet gestemd",
+    "demonvoted": "Demoon gestemd",
+    "diedtoday": "Vandaag dood",
+    "doesntkill": "Dood niet",
+    "drunk": "Dronken",
+    "drunk1": "Dronken 1",
+    "drunk2": "Dronken 2",
+    "drunk3": "Dronken 3",
+    "everyoneisdrunk": "Allemaal dronken",
+    "evil": "Slecht",
+    "evilwakes": "Slecht wordt wakker",
+    "falseinfo": "Verkeerde info",
+    "fauxpaw": "Valse Poot",
+    "fear": "Angst",
+    "finalnightnoattack": "Laatste nacht: Geen Aanval",
+    "friend": "Vriend",
+    "good": "Goed",
+    "goodplayerexecuted": "Goede speler geëxecuteerd",
+    "grandchild": "Kleinkind",
+    "guessused": "Gok gebruikt",
+    "haircutstonight": "Geknipt vanavond",
+    "hasability": "Heeft vaardigheid",
+    "isthealchemist": "Is de Alchemist",
+    "istheapprentice": "Is de Leerling",
+    "isthedemon": "Is de Demoon",
+    "isthedrunk": "Is de Dronkaard",
+    "isthemarionette": "Is de Marionet",
+    "isthephilosopher": "Is de Filosoof",
+    "know": "Bekend",
+    "lunch": "Lunch",
+    "mad": "Waanzin",
+    "master": "Meester",
+    "maynotnominate": "Mag niet nomineren",
+    "minion": "Volgeling",
+    "minionnominated": "Minion nomineerde",
+    "minionsnotnominated": "Minion nomineerde niet",
+    "negativevote": "Negatieve stem",
+    "night1": "Nacht 1",
+    "night2": "Nacht 2",
+    "night3": "Nacht 3",
+    "noability": "Geen vaardigheid",
+    "nominateevil": "Nomineerde Slecht",
+    "nominategood": "Nomineerde Goed",
+    "nomoreevil": "Geen Slecht Meer",
+    "once": "Eens",
+    "outsider": "Buitenstaander",
+    "poisoned": "Vergiftigd",
+    "protected": "Beschermd",
+    "redherring": "Vals foutief",
+    "registerfalsely": "Foutief Registreren?",
+    "safe": "Veilig",
+    "soberhealthy": "Nuchter & Gezond",
+    "somethingbad": "Iets Slechts",
+    "storytellerability": "Verteller Vaardigheid",
+    "survivesexecution": "Overleeft Executie",
+    "teapartytonight": "Vanavond Theekransje",
+    "townsfolk": "Dorpeling",
+    "turnsevil": "Wordt Slecht",
+    "twin": "Tweeling",
+    "visitor": "Bezoeker",
+    "whoopsie": "Oepsie",
+    "wrong": "Fout",
+    "goal": "Doel",
+    "notme": "niet ik",
+    "hat": "hoed"
+  },
+  "jinxes": {
+    "alchemist-boffin": "Als de Alchemist de Bolleboos vaardigheid heeft, leert de Alchemist niet welke vaardigheid de Demoon heeft.",
+    "alchemist-marionette": "Een Alchemist-Marionet heeft niet de vaardigheid van de Marionet & de Marionet zit in het spel.",
+    "alchemist-mastermind": "Een Alchemist-Meesterbrein heeft niet de vaardigheid van het Meesterbrein & het Meesterbrein zit niet in het spel.",
+    "alchemist-organgrinder": "Als de Alchemist de vaardigheid van de Orgelman heeft, is de Orgelman in het spel. Als ze beiden nuchter zijn, zijn ze beiden dronken.",
+    "alchemist-spy": "Een Alchemist-Spion heeft geen vaardigheid & de Spion zit in het spel. Na elke executie mag de Alchemist-Spion publiekelijk een levende speler als Spion raden. Als dit klopt moet de Demoon de Spion vannacht kiezen.",
+    "alchemist-summoner": "De Alchemist-Bezweerder krijgt geen bluffs en kiest een Demoon, maar geen speler. Als hij sterft voor dit gebeurt, wint het slechte team. [Geen Demoon]",
+    "alchemist-widow": "Een Alchemist-Widow (weduwe) heeft geen Widow-eigenschap en de Widow zit in het spel. Na elke executie raadt de Alchemist-Widow publiekelijk een levende speler als de Widow. Indien correct moet de Demon de Widow vannacht kiezen.",
+    "alchemist-wraith": "Een Alchemist-Schim heeft niet de vaardigheid van de Schim & de Schim zit in het spel. Na elke executie mag de Alchemist-Schim publiekelijk een levende speler raden als de Schim. Als dit goed is, moet de Demoon de Schim vannacht kiezen.",
+    "alhadikhia-mastermind": "Als de Al-Hadikhia sterft door executie en er is een Meesterbrein in leven, dan kiest de Al-Hadikhia 3 goede spelers vannacht: als ze alle drie kiezen om te leven, wint slecht. Anders wint goed.",
+    "alhadikhia-princess": "Als de Prinses een speler nomineert & executeert op hun eerste dag, sterft er niemand door de Al-Hadikhia vannacht.",
+    "alhadikhia-scarletwoman": "Als er twee Demonen zijn en 1 hiervan was de Rode Vrouw, dan verandert de Rode Vrouw terug in de Rode Vrouw.",
+    "alsaahir-vizier": "De verteller verklaart niet dat de Vizier in het spel zit.",
+    "atheist-riot": "Tijdens de rellen, als de verteller is genomineerd, moeten de spelers stemmen. Als de verteller op het punt staat te sterven, eindigt het spel. Zo niet, dan nomineren ze opnieuw.",
+    "balloonist-marionette": "Als de Marionette denkt dat ze de Balloonist (ballonvaarder) is, kan er een buitenstaander zijn toegevoegd aan het spel.",
+    "banshee-leviathan": "Elke nacht* kiest het Zeemonster een levende goede speler (anders dan de vorige nacht): een gekozen Banshee sterft en krijgt hun vaardigheid.",
+    "banshee-riot": "Elke nacht*, kiest de Rel een levende goede speler (anders dan de vorige nacht): een gekozen Banshee sterft en krijgt hun vaardigheid.",
+    "banshee-vortox": "Als de Vortox de Banshee vermoordt, leren alle spelers dat de Banshee is gestorven.",
+    "baron-heretic": "Er kan maar 1 vervloekte karakter in het spel zitten.",
+    "baron-plaguedoctor": "Als de Verteller de vaardigheid van de Baron krijgt, komen er maximaal 2 Buitenstaanders bij in het spel.",
+    "boffin-cultleader": "Als de Demoon de vaardigheid van de Cultleider krijgt, kunnen ze niet veranderen naar het Goede Team door deze vaardigheid.",
+    "boffin-drunk": "De Demon kan niet de vaardigheid Drunk (dronken) krijgen.",
+    "boffin-goon": "Als de Demoon de vaardigheid van de Schurk rijgt, kunnen ze niet veranderen naar het GoedeTeam door deze vaardigheid.",
+    "boffin-heretic": "De Demoon kan niet de vaardigheid van de Ketter hebben.",
+    "boffin-ogre": "De Demoon kan niet de vaardigheid van de Oger hebben.",
+    "boffin-politician": "De Demoon kan niet de vaardigheid van de Politicus hebben.",
+    "boffin-villageidiot": "Als er een vrije token is, mag de Bolleboos aan de Demoon, de Dorpsgek vaardigheid geven.",
+    "boomdandy-plaguedoctor": "Als de Storyteller (spelleider) de Boemdandy vaardigheid krijgt, wordt een speler de Boemdandy.",
+    "bountyhunter-kazali": "Als de Kazali een Premiejager in een Minion verandert, wordt er geen Slechte Dorpeling gemaakt.",
+    "bountyhunter-philosopher": "Als de Filosoof de vaardigheid van Premiejager krijgt, kan er een Slechte Dorpeling worden gemaakt.",
+    "butler-cannibal": "Als de Kannibaal de vaardigheid van Butler krijgt, komt de Kannibaal dit te weten.",
+    "butler-organgrinder": "Als de Orgelman zorgt voor stemmen met de ogen dicht, mag de Butler zijn hand opsteken, maar deze wordt alleen meegeteld als hun meester ook stemde.",
+    "cannibal-juggler": "Als de Jongleur raadt op de eerste dag en sterft door executie, dan leert de Kannibaal die nacht hoeveel keuzes de Jongleur goed had.",
+    "cannibal-princess": "Als de Kannibaal succesvol de Prinses nomineert, executeert en laat sterven, kan de Demoon vannacht niemand doden.",
+    "cannibal-zealot": "Als de Kannibaal de vaardigheid van de Fanaticus krijgt, komt de Kannibaal dit te weten.",
+    "cerenovus-goblin": "De Cerenovus mag een speler Gek maken dat die de Goblin is.",
+    "chambermaid-mathematician": "Het Kamermeisje kan detecteren of de Wiskundige vannacht wakker wordt.",
+    "clockmaker-summoner": "De Bezweerder registreert als de Demoon voor de Klokkenmaker.",
+    "courtier-summoner": "Als de levende Bezweerder geen vaardigheid heeft, dan krijgt de Verteller de vaardigheid van de Bezweerders.",
+    "courtier-vizier": "Als de Vizier zijn vaardigheid verliest, dan ontdekt die dat, en kan vervolgens niet sterven gedurende de dag.",
+    "cultleader-pithag": "Als de Grotheks een slechte speler in de Cultleider verandert, kan deze niet Goed worden door hun eigen vaardigheid.",
+    "damsel-pithag": "Als een Grotheks een Jonkvrouw maakt, kiest de Verteller welke speler dit wordt.",
+    "damsel-spy": "Als de Spion in het spel zit (of zat), is de Jonkvrouw vergiftigd.",
+    "damsel-widow": "Als de Weduwe in het spel zit (of zat), is de Jonkvrouw vergiftigd.",
+    "drunk-mathematician": "De Wiskundige kan leren of de vaardigheid van de Dronkaard verkeerde informatie heeft gegeven of verkeerd heeft gewerkt.",
+    "engineer-legion": "Als het Legioen wordt gemaakt, worden alle slechte spelers Legioen. Als het Legioen in het spel is, dan weet de Ingenieur dat maar hij heeft geen vaardigheid.",
+    "engineer-summoner": "Als de levende Bezweerder uit het spel wordt gehaald, heeft de Verteller de Bezweerders vaardigheid.",
+    "eviltwin-plaguedoctor": "Als de Verteller de Slechte Tweeling vaardigheid krijgt, wordt een speler de Slechte Tweeling.",
+    "exorcist-leviathan": "Als de Leviathan een door de Exorcist geselecteerde speler nomineert en executeert, wint het Goede Team.",
+    "exorcist-riot": "Als de Rellen een door de Exorcist geselecteerde speler nomineert en executeert, wint het Goede Team.",
+    "exorcist-yaggababble": "Als de Exorcist de Kletsmajoor kiest, kan de Kletsmajoor vannacht niet doden.",
+    "fanggu-scarletwoman": "Als er twee Demonen zijn, waarvan er 1 de Rode Vrouw was, dan blijft de Rode Vrouw de Rode Vrouw.",
+    "farmer-leviathan": "Elke nacht* kiest de Leviathan een levende Goede speler (anders dan de vorige nacht): een gekozen Boer gebruikt zijn vaardigheid maar sterft niet.",
+    "farmer-riot": "Elke nacht* kiest de Rellen een levende Goede speler (anders dan de vorige nacht): een gekozen Boer gebruikt hun vaardigheid maar sterft niet.",
+    "fearmonger-plaguedoctor": "Als de Verteller de vaardigheid van de Angstzaaier krijgt, krijgt een Minion deze en ontdekt dit.",
+    "fearmonger-vizier": "De Vizier wordt wakker met de Angstzaaier, leert wie zij kiezen en kan vervolgens deze speler niet direct executeren.",
+    "goblin-plaguedoctor": "Als de Verteller de Kobolt vaardigheid krijgt, krijgt een Minion deze en ontdekt dit.",
+    "godfather-heretic": "Er kan maar 1 vervloekte karakter in het spel zijn.",
+    "goon-pithag": "Als de Grotheks een Slechte speler in de Domkop verandert, kunnen zij niet Goed worden door diens eigen vaardigheid.",
+    "grandmother-leviathan": "Als de Leviathan in het spel zit en het Kleinkind sterft door executie, wint Goed.",
+    "grandmother-riot": "Als er Rellen in het spel zijn en het Kleinkind sterft door executie, wint Slecht.",
+    "hatter-legion": "Als het Legioen wordt gemaakt, worden alle slechte spelers Legioen. Als er een Legioen in het spel zit, heeft de Hoedenmaker geen vaardigheid.",
+    "hatter-leviathan": "De Leviathan kan niet na dag 5 in het spel komen.",
+    "hatter-lilmonsta": "Als de Hoedenmaker sterft & de Demoon kiest Mini-Monster, kiest die ook welke Minion die wordt.",
+    "hatter-summoner": "Als de Bezweerder een tweede levende Demoon maakt, zijn sterfgevallen willekeurig.",
+    "heretic-lleech": "Er kan maar 1 vervloekt karakter in het spel zijn.",
+    "heretic-pithag": "Er kan maar 1 vervloekt karakter in het spel zijn.",
+    "heretic-spy": "Er kan maar 1 vervloekt karakter in het spel zijn.",
+    "heretic-widow": "Er kan maar 1 vervloekt karakter in het spel zijn.",
+    "huntsman-marionette": "Als de Marionet denkt dat zij de Jager zijn, dan is de Jonkvrouw toegevoegd tijdens het opzetten.",
+    "innkeeper-leviathan": "Als de Leviathan een door de Herbergier beschermde speler nomineert en executeert, wint goed.",
+    "innkeeper-riot": "Als Rellen een door de Herbergier beschermde speler nomineert en executeert, wint goed.",
+    "investigator-vizier": "De Verteller zegt niet dat de Vizier in het spel zit.",
+    "kazali-marionette": "Als er een Marionet in het spel zit, worden zijn toegevoegd na de Demoon en moeten als hun buur beginnen.",
+    "kazali-summoner": "Als de Bezweerder een tweede levende Demoon maakt, zijn de doden vannacht willekeurig.",
+    "king-leviathan": "Als de Leviathan in het spel is en er is ten minste 1 dode, dan leert de Koning elke nacht een levend karakter.",
+    "king-riot": "Als Rellen in het spel zijn en er is ten minste 1 dode, dan leert de Koning elke nacht een levend karakter.",
+    "legion-magician": "De Tovenaar wordt met het Legioen wakker en kan als slecht registreren. Legioen weet dat er een Tovenaar in het spel zit, maar niet welke speler dit is.",
+    "legion-minstrel": "Als Legioen vandaag sterft door executie, houdt deze zijn vaardigheid, maar de Minstreel kan leren dat het Legioen is.",
+    "legion-politician": "De Politicus kan als slecht registreren voor het Legioen.",
+    "legion-preacher": "Als de Pastoor Legioen kiest, houdt Legioen zijn vaardigheid, maar de Pastoor kan leren dat ze Legioen zijn.",
+    "legion-summoner": "Als Legioen bezweert wordt, worden alle slechte spelers Legioen.",
+    "legion-zealot": "De Fanaticus kan als slecht registreren voor het Legioen.",
+    "leviathan-mayor": "Als de Leviathan en de Burgemeester beide leven op dag 5 en er is geen executie, dan wint goed.",
+    "leviathan-monk": "Als de Leviathan de door de Monnik beschermde speler nomineert en executeert, dan wint goed.",
+    "leviathan-pithag": "De Leviathan kan niet in het spel komen na dag 5.",
+    "leviathan-ravenkeeper": "Elke nacht*, kiest de Leviathan een levende speler (anders dan de vorige nacht): een gekozen Kraaienhouder gebruikt zijn vaardigheid maar sterft niet.",
+    "leviathan-sage": "Elke nacht* kiest de Leviathan een levende goede speler (anders dan de vorige nacht): een gekozen Wijze gebruikt hun vaardigheid en sterft niet.",
+    "leviathan-soldier": "Als de Leviathan de Soldaat nomineert en executeert, wint goede team.",
+    "lilmonsta-magician": "Als de Tovenaar leeft, kiest de Verteller welke Minion op het mini-Monster past.",
+    "lilmonsta-marionette": "Als er een Marionet in het spel zit, dan komen zij in het spel na de Demoon en moeten als hun buur starten.",
+    "lilmonsta-poppygrower": "Als mini-Monster en de Papaverkweker leven, worden de Minions 1-voor-1 wakker, tot 1 van hen zichzelf kiest voor het mini-Monster token.",
+    "lilmonsta-psychopath": "Als de Psychopaat op mini-Monster past, sterven ze bij executie.",
+    "lilmonsta-scarletwoman": "Als mini-Monster sterft met 5 of meer levende spelers, dan heeft de Rode Vrouw mini-Monster voor de rest van het spel.",
+    "lilmonsta-vizier": "Als de Vizier op mini-Monster past, sterven ze bij executie.",
+    "lleech-mastermind": "Als het Meesterbrein leeft en de Gastheer sterft door executie, dan leeft de Bloedzuiger maar verliest zijn vaardigheid.",
+    "lleech-slayer": "Als de Boogschutter de Gastheer neerschiet, sterft de Gastheer.",
+    "lordoftyphon-summoner": "Als de Heer van Typhon wordt bezweerd, dan moeten ze naast een Minion zitten en wordt de andere buur ook een slechte Minion.",
+    "lunatic-mathematician": "De Wiskundige kan leren of de Waanzinnige een andere speler dan de echte Demoon aanvalt.",
+    "magician-marionette": "Als de Tovenaar leeft, leert de Demoon niet welke buur een Marionet is.",
+    "magician-spy": "Als de Spion de Grimoire ziet, worden de Demoon- en Tovenaarstoken verwijderd.",
+    "magician-vizier": "Als de Vizier in het spel zit, heeft de Tovenaar geen vaardigheid maar is immuun voor de Viziers vaardigheid.",
+    "magician-widow": "Als de Weduwe de Grimoire ziet, zijn de Demoon- en Tovenaartoken verwijderd.",
+    "magician-wraith": "Na elke executie, mag de levende Tovenaar publiekelijk een speler als Schim aanwijzen. Als dit goed is, moet de Demoon vannacht de Schim kiezen.",
+    "marionette-mathematician": "De Wiskundige kan leren of de Marionets informatie verkeerde informatie heeft gegeven, of incorrect werkt.",
+    "marionette-plaguedoctor": "Als de Verteller de Marionet vaardigheid krijgt, wordt een van de Demoons goede buren een Marionet.",
+    "marionette-summoner": "Als er een Marionet in het spel zit, dan komen zij in het spel na de Demoon en moeten als hun buur starten.",
+    "mastermind-vigormortis": "Een Meesterbrein dat zijn vaardigheid heeft, houdt deze als de Vigormortis sterft.",
+    "mayor-riot": "De Burgemeester kan kiezen om de Rellen te stoppen. Als ze dit doen met nog 1 levende Rellen, wint goed. Anders wint slecht.",
+    "monk-riot": "Als Rellen de door de Monnik beschermde speler nomineren en executeren, dan wint goed.",
+    "ogre-pithag": "Als de Grotheks een slechte speler in de Oger verandert, kan deze niet goed worden door diens eigen vaardigheid.",
+    "ogre-recluse": "Als de Kluizenaar registreert als slecht voor de Oger, dan leert de Oger dat ze slecht zijn.",
+    "ogre-spy": "De Spion registreert als slecht voor de Oger.",
+    "pithag-politician": "Als de Grotheks een slechte speler in de Politicus verandert, kan deze niet goed worden door diens eigen vaardigheid.",
+    "pithag-summoner": "Als de Bezweerder een tweede levende Demoon maakt, zijn doden vannacht willekeurig.",
+    "pithag-villageidiot": "Als er een token beschikbaar is, kan de Grotheks een extra Dorpsgek maken. Als dit gebeurd, mag de dronken Dorpsgek veranderen.",
+    "plaguedoctor-scarletwoman": "Als de Verteller de Rode Vrouw vaardigheid krijgt, krijgt een Minion deze, en krijgt dit te weten.",
+    "plaguedoctor-spy": "Als de Verteller de Spion vaardigheid krijgt, dan krijgt een Minion deze, en krijgt dit te weten.",
+    "plaguedoctor-wraith": "Als de Verteller de Schim vaardigheid krijgt, krijgt een Minion deze, en krijgt dit te weten.",
+    "politician-vizier": "De Politicus kan als slecht registreren voor de Vizier.",
+    "poppygrower-spy": "Als de Papaverkweker zijn vaardigheid heeft, krijgt de Spion de Grimoire niet te zien.",
+    "poppygrower-summoner": "Als de Papaverkweker leeft in de 3e nacht, kiest de Bezweerder welke Demoon maar niet welke speler.",
+    "poppygrower-widow": "Als de Papaverkweker zijn vaardigheid heeft, krijgt de Weduwe de Grimoire niet te zien.",
+    "preacher-summoner": "Als de levende Bezweerder geen vaardigheid heeft, krijgt de Verteller de Bezweerder vaardigheid.",
+    "preacher-vizier": "Als de Vizier zijn vaardigheid verliest, dan krijgen ze dit te weten, en kunnen niet sterven tijdens de dag.",
+    "pukka-summoner": "De Bezweerder kan een Pukka bezweren op de 2e nacht, in plaats van de 3e.",
+    "ravenkeeper-riot": "Elke nacht* kiest de Rellen een levende goede speler (anders dan de vorige nacht): een gekozen Kraaienhouder gebruikt zijn vaardigheid maar sterft niet.",
+    "recluse-sage": "De Kluizenaar kan als Demoon registreren voor de Wijze.",
+    "riot-sage": "Elke nacht* kiest Rellen een levende goede speler (anders dan de vorige nacht): een gekozen Wijze gebruikt hun vaardigheid maar sterft niet.",
+    "riot-soldier": "Als Rellen de Soldaat nomineert en executeert, wint goed.",
+    "summoner-zombuul": "Als de Bezweerder een dode speler in de Zombuul veranderd, is de Zombuul \"al 1 keer gestorven\".",
+    "vizier-zealot": "De Fanaticus kan als slecht registreren voor de Vizier."
+  }
+}

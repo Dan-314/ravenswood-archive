@@ -14,7 +14,7 @@ const OUTPUT_DIR = join(PROJECT_ROOT, "public", "translations");
 const BASE_URL = "https://translation.botc.app/api";
 const PROJECT = "botc-app";
 const COMPONENT = "game-content";
-const MIN_COMPLETION = 80;
+const MIN_COMPLETION = 50;
 
 // Weblate doesn't provide native names, so we map them here
 const NATIVE_NAMES = {

@@ -53,12 +53,6 @@ export function PdfOptionsForm({ options, onUpdate }: PdfOptionsFormProps) {
 
   return (
     <div className="flex flex-col gap-4">
-      {/* Language */}
-      <div className="flex flex-col gap-1.5">
-        <Label>Language</Label>
-        <LanguageSelect value={options.language} onChange={(v) => update("language", v)} />
-      </div>
-
       {/* Appearance & Paper Size */}
       <div className="grid grid-cols-2 gap-4">
         <div className="flex flex-col gap-1.5">
@@ -160,6 +154,12 @@ export function PdfOptionsForm({ options, onUpdate }: PdfOptionsFormProps) {
             <Shuffle className="h-4 w-4" />
           </Button>
         </div>
+      </div>
+
+      {/* Language */}
+      <div className="flex flex-col gap-1.5">
+        <Label>Language</Label>
+        <LanguageSelect value={options.language} onChange={(v) => update("language", v)} />
       </div>
 
       {/* Advanced options toggle (mobile only) */}
