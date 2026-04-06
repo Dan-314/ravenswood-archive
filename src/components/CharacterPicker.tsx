@@ -8,14 +8,15 @@ import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover
 import { Badge } from '@/components/ui/badge'
 import type { Character } from '@/lib/supabase/types'
 
-const TEAM_ORDER = ['townsfolk', 'outsider', 'minion', 'demon', 'traveler', 'fabled']
+const TEAM_ORDER = ['townsfolk', 'outsider', 'minion', 'demon', 'traveller', 'fabled', 'loric']
 const TEAM_LABELS: Record<string, string> = {
   townsfolk: 'Townsfolk',
   outsider: 'Outsiders',
   minion: 'Minions',
   demon: 'Demons',
-  traveler: 'Travelers',
+  traveller: 'Travellers',
   fabled: 'Fabled',
+  loric: 'Loric',
 }
 
 interface CharacterPickerProps {

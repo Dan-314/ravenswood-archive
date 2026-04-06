@@ -85,7 +85,6 @@ export function groupByTeam(characters: ResolvedCharacter[]): GroupedCharacters 
 }
 
 const TPI_CDN_BASE = "https://release.botc.app/resources/characters";
-const ICON_STORAGE_URL = `${process.env.NEXT_PUBLIC_SUPABASE_STORAGE_URL ?? process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/pdf-assets`;
 
 export function getIconUrl(character: ResolvedCharacter, _assetsUrl?: string): string {
   // Custom character with image URL
@@ -104,9 +103,9 @@ export function getIconUrl(character: ResolvedCharacter, _assetsUrl?: string): s
     return `${TPI_CDN_BASE}/${edition}/${character.id}${alignment}.webp`;
   }
 
-  // Fallback to Supabase storage for unknown editions
+  // Fallback for characters without an edition (e.g. custom characters with icon field)
   if ("icon" in character && character.icon) {
-    return `${ICON_STORAGE_URL}/${character.icon}`;
+    return character.icon;
   }
-  return `${ICON_STORAGE_URL}/${character.id}.png`;
+  return "";
 }
