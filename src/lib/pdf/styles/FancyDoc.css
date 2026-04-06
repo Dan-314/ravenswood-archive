@@ -5,6 +5,12 @@
   margin-left: 1%;
 }
 
+@media print {
+  .sheet-wrapper {
+    margin-left: 0;
+  }
+}
+
 .print-only {
   visibility: hidden;
   display: none;
