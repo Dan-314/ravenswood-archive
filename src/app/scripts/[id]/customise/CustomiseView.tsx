@@ -45,7 +45,7 @@ export function CustomiseView({ rawJson, scriptName, defaultColor, scriptId }: C
 
       if (!response.ok) {
         const err = await response.json().catch(() => ({ error: response.statusText }));
-        throw new Error(err.error || "Failed to generate PDF");
+        throw new Error(err.message || err.error || "Failed to generate PDF");
       }
 
       const blob = await response.blob();
