@@ -42,7 +42,11 @@ export async function POST(request: NextRequest) {
     // Generate PDF
     const pdfBuffer = await generatePdf(html, options);
 
-    const filename = `${body.filename || "script"}.pdf`;
+    const rawFilename = `${body.filename || "script"}.pdf`;
+    // ASCII-safe fallback: strip non-ASCII characters
+    const asciiFilename = rawFilename.replace(/[^\x20-\x7E]/g, "").replace(/\s+/g, " ").trim() || "script.pdf";
+    // RFC 5987 UTF-8 encoded filename for browsers that support it
+    const utf8Filename = encodeURIComponent(rawFilename).replace(/['()]/g, escape);
 
     if (scriptId) {
       void createServiceClient().rpc('track_download', {
@@ -55,7 +59,7 @@ export async function POST(request: NextRequest) {
       status: 200,
       headers: {
         "Content-Type": "application/pdf",
-        "Content-Disposition": `attachment; filename="${filename}"`,
+        "Content-Disposition": `attachment; filename="${asciiFilename}"; filename*=UTF-8''${utf8Filename}`,
         "Content-Length": pdfBuffer.byteLength.toString(),
       },
     });

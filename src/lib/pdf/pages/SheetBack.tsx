@@ -8,6 +8,7 @@ import { NightOrderPanel } from "../components/NightOrderPanel";
 import { PlayerCount } from "../components/PlayerCount";
 import { createOverlayBackground } from "../utils/colours";
 import { PrintablePage } from "../components/PrintablePage";
+import { splitEmoji } from "../utils/splitEmoji";
 
 type SheetBackProps = {
   title: string;
@@ -35,7 +36,7 @@ export const SheetBack = ({
     const parts = title.split("&");
     return parts.map((part, partIndex) => (
       <span key={partIndex}>
-        {formatMinorWords ? formatWithMinorWords(part) : part}
+        {formatMinorWords ? formatWithMinorWords(part) : splitEmoji(part)}
         {partIndex < parts.length - 1 && <span className="ampersand">&amp;</span>}
       </span>
     ));

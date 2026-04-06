@@ -5,6 +5,7 @@ import type { NightMarker, NightOrderEntry, PdfOptions } from "@/lib/botc/types"
 import { getImageSrc } from "../utils/nightOrder";
 import { teamColours } from "../utils/colours";
 import { BottomTrimSheet } from "../components/BottomTrimSheet";
+import { splitEmoji } from "../utils/splitEmoji";
 
 export type NightSheetProps = {
   title: string;
@@ -27,7 +28,7 @@ export const NightSheet = ({
         <BottomTrimSheet options={options} assetsUrl={assetsUrl}>
           <div className="night-sheet-heading">
             <h3 className="night-title">First Night</h3>
-            <h3 className="script-title">{title}</h3>
+            <h3 className="script-title">{splitEmoji(title)}</h3>
           </div>
           <div className="night-sheet-order">
             {firstNightOrder.map((reminder, i) => (
@@ -46,7 +47,7 @@ export const NightSheet = ({
         <BottomTrimSheet options={options} assetsUrl={assetsUrl}>
           <div className="night-sheet-heading">
             <h3 className="night-title">Other Nights</h3>
-            <h3 className="script-title">{title}</h3>
+            <h3 className="script-title">{splitEmoji(title)}</h3>
           </div>
           <div className="night-sheet-order">
             {otherNightOrder.map((reminder, i) => (
