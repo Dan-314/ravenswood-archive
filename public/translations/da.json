@@ -1,0 +1,1198 @@
+{
+  "roles": {
+    "acrobat": {
+      "ability": "Hver nat*, vælg en spiller: hvis de er eller bliver fuld eller forgiftet i nat, dør du.",
+      "flavor": "Velkommen, allesammen, til det største show på jorden.",
+      "name": "Akrobat",
+      "other": "Akrobaten vælger en spiller. :reminder:"
+    },
+    "alchemist": {
+      "ability": "Du har en Håndlanger-evne. Når du bruger den, kan Fortælleren bede dig om at vælge anderledes.",
+      "flavor": "Besøg Jordens indre. Ved rektifikation skal du finde den skjulte sten. Over guldet hviler det røde. Kether i Malkuth.",
+      "name": "Alkymist"
+    },
+    "alhadikhia": {
+      "ability": "Hver nat* kan du vælge 3 spillere (alle spillere lærer hvem): i stilhed vælger hver især, om de vil leve eller dø, men hvis alle lever, dør alle.",
+      "flavor": "Alsukut min dhahab.",
+      "name": "Al-Hadikhia"
+    },
+    "alsaahir": {
+      "ability": "Hver dag hvis du offentligt gætter, hvilke spillere der er Håndlanger(e) og hvilke er Dæmon(er), vinder det gode hold.",
+      "flavor": "Jeg er her på grund af dig, og du er her på grund af mig.",
+      "name": "Alsaahir"
+    },
+    "amnesiac": {
+      "ability": "Du ved ikke, hvad din evne er. Hver dag kan du privat gætte, hvad den er: du lærer, hvor nøjagtig du er.",
+      "flavor": "Vent. Hvad. Hvem? Oh, ok. Vent. Hvad?",
+      "name": "Amnesist"
+    },
+    "angel": {
+      "ability": "Noget dårligt kan ske for den, der er mest ansvarlig for en ny spillers død.",
+      "flavor": "Lad dem, som er uden synd, vove at række deres hånd mod min udvalgte, for jeg vil slå sådanne tåber ned med tusind stormes vrede og retfærdighed.",
+      "name": "Engel"
+    },
+    "apprentice": {
+      "ability": "På din første nat får du en Borgerevne (hvis du er god) eller en Håndlangerevne (hvis du er ond).",
+      "flavor": "I årevis har jeg rejst og studeret Håndværkets vej. Hvilket håndværk, spørger du? Blot de almindelige folks. Intet at bekymre sig om. Ikke endnu.",
+      "name": "Lærling"
+    },
+    "artist": {
+      "ability": "Én gang pr. spil i løbet af dagen må du privat stille Fortælleren et ja/nej spørgsmål.",
+      "flavor": "Mon Dieu! C'est lumineux! Mit værk, hun er... hvad kalder man det... Magnifique! Dieu est révélé! Oui.",
+      "name": "Kunstner"
+    },
+    "assassin": {
+      "ability": "Én gang pr. spil om natten* kan du vælge en spiller: de dør, selv hvis de af en eller anden grund ikke kunne.",
+      "flavor": "...",
+      "name": "Snigmorder",
+      "other": "Snigmorderen kan vælge en spiller. :reminder: :reminder:"
+    },
+    "atheist": {
+      "ability": "Fortælleren kan bryde spillets regler, og hvis de bliver henrettet, vinder det gode hold, selv hvis du er død. [Ingen onde karakterer]",
+      "flavor": "Lad os skille os af med unødvendige formodninger og tåbelig paranoia. Der findes en fuldkommen rationel forklaring på alting. Ja, en tekop kan ganske rigtigt kredse om planeten, for lille til at se, men jeg skal drikke min te fra det meget virkelige porcelæn i mine meget virkelige hænder.",
+      "name": "Ateist"
+    },
+    "balloonist": {
+      "ability": "Hver nat lærer du en spiller af en anden karaktertype end forrige nat. [+0 eller +1 Fremmed]",
+      "name": "Ballonskipper"
+    },
+    "banshee": {
+      "ability": "Hvis Dæmonen dræber dig, vil alle spillere lære dette. Fra nu af kan du nominere to gange pr. dag og stemme to gange pr. nominering.",
+      "flavor": "Gorm do shúile, dearg do ghruaig, ní bheidh sé i bhfad, is a mbeidh tú san uaigh.",
+      "name": "Banshee"
+    },
+    "barber": {
+      "ability": "Hvis du døde i dag eller i nat, kan Dæmonen vælge 2 spillere (ikke en anden Dæmon), der bytter karakterer.",
+      "flavor": "Viste du, at barbering og kirurgi engang var den samme profession? Nej? Nå, det gør du nu.",
+      "name": "Frisør",
+      "other": "Hvis Frisøren døde i dag eller i nat, vis Dæmonen *DENNE KARAKTER VALGTE DIG*- og Frisør-brikken. Hvis Dæmonen valgte 2 spillere, væk dem én ad gangen. Vis dem *DU ER*-brikken og deres nye karakterbrik."
+    },
+    "barista": {
+      "ability": "Hver nat, indtil skumring, 1) en spiller bliver ædru, rask og får sand info, eller 2) deres evne virker to gange. De lærer hvilken.",
+      "flavor": "En kop kaffe uden fløde, Monsieur? Jeg beklager meget, men vi er løbet tør for fløde — hvad med uden mælk?",
+      "name": "Barista"
+    },
+    "baron": {
+      "ability": "Der er ekstra Fremmede i spil. [+2 Fremmede]",
+      "flavor": "Den her by er gået til hundene, hva'? Billig udenlandsk arbejdskraft... det er vejen frem. Klem dem ind i minen, siger jeg. En smule hårdt arbejde har aldrig gjort ondt på nogen, og et klap over ørerne til enhver røver der siger anderledes. Det handler om bundlinjen, hva'?",
+      "name": "Baron"
+    },
+    "beggar": {
+      "ability": "Du skal bruge en stemmebrik for at stemme. Hvis en død spiller giver dig deres, lærer du deres fraktion. Du er ædru & rask.",
+      "flavor": "Almisse til de fattige, gode herre? Spare en mønt, frue? Mange tak. Gud velsigne! Du er en rigtigt venlig sjæl og ingen tvivl! Jeg skal ha' noget lækkert at spise i aften, det skal jeg!",
+      "name": "Tigger"
+    },
+    "bishop": {
+      "ability": "Kun Fortælleren kan nominere. Mindst 1 modspiller skal nomineres hver dag.",
+      "flavor": "In nomine Patris, et Filii, et Spiritus Sancti… Nos mos Dei. Deus vult de nobis.",
+      "name": "Biskop"
+    },
+    "boffin": {
+      "ability": "Dæmonen (selv hvis de er fulde eller forgiftet) har en god karakters evne (der ikke er i spil). I ved begge hvilken.",
+      "flavor": "Stjernernes hydrogen, enormt, inert; carbon, oxygen, neongasser, alt ødelagt. Molekylært kaos, entropi, frembringer nye kosmiske fænomener, genfødsel fra atomisk kaos, tæt stof kollapser. Alt i en lillebitte flaske.",
+      "name": "Æggehoved"
+    },
+    "bonecollector": {
+      "ability": "Én gang pr. spil, om natten*, vælg en død spiller: de får deres evne tilbage indtil skumring.",
+      "flavor": "Jeg samler mange ting. Hår. Tænder. Tøj. Brudstykker af digte. Fortabte elskeres drømme. Mine metoder behøver du ikke kende til, men mit honorar er blot en slant. Bring mig bloddet fra en adelskvinde, som døde af hjertesorg under en fuldmåne, og jeg skal give dig dine svar.",
+      "name": "Knoglesamler"
+    },
+    "boomdandy": {
+      "ability": "Hvis du bliver henrettet, dør alle spillere undtagen 3. Efter en nedtælling fra 10 til 1, dør den spiller der er flest der peger på.",
+      "flavor": "Tik... Tik... Tik... TAK.",
+      "name": "Krudtkarl"
+    },
+    "bootlegger": {
+      "ability": "Dette manuskript har hjemmebryggede karakterer eller regler.",
+      "flavor": "Da jeg blev født, blev jeg døbt 'Hjemmebrygger Hjemmebryggersen', opkaldt efter min far. Et respektabelt navn for en værdig alder.",
+      "name": "Smugler"
+    },
+    "bountyhunter": {
+      "ability": "Du starter med at kende 1 ond spiller. Hvis den spiller du kender dør, vil du lære en ny ond spiller i nat. [1 Borger er ond]",
+      "flavor": "Alene går jeg på disse gader, med dens syge stank af korruption. Ubudent, snor det sig ind i mine næsebor, brændende af afsky. Og forventning. Denne elendighedens sygdom vokser hver nat. Og jeg... jeg er kuren.",
+      "name": "Dusørjæger"
+    },
+    "buddhist": {
+      "ability": "I de første 2 minutter hver dag, må erfarne spillere ikke tale.",
+      "flavor": "Du kaster torne. I min stilhed falder de, og bliver til blomster.",
+      "name": "Buddhist"
+    },
+    "bureaucrat": {
+      "ability": "Hver nat, vælg en spiller (ikke dig selv): deres stemme tæller som 3 stemmer i morgen.",
+      "first": "Bureaukratten vælger en spiller. :reminder:",
+      "flavor": "Skriv venligst under her. Og her. Og her. Oooooog her. Dette burde være opklaret inden dagen er omme, forudsat at alles underskrifter er læselige. Vi har ikke haft forvirring i papirarbejdet i en evighed. I går eftermiddag, hvis jeg husker rigtigt...",
+      "name": "Bureaukrat",
+      "other": "Bureaukratten vælger en spiller. :reminder:"
+    },
+    "butcher": {
+      "ability": "Hver dag, efter den første henrettelse, kan du nominere igen.",
+      "flavor": "Det smager som kylling. Mere tak.",
+      "name": "Slagter"
+    },
+    "butler": {
+      "ability": "Hver nat, vælg en spiller (ikke dig selv): i morgen må du kun stemme hvis de også stemmer.",
+      "first": "Butleren vælger en spiller. :reminder:",
+      "flavor": "Ja, hr. ... Nej, hr. ... Bestemt, hr.",
+      "name": "Butler",
+      "other": "Butleren vælger en spiller. :reminder:"
+    },
+    "cannibal": {
+      "ability": "Du har samme evne som spilleren senest død ved henrettelse. Hvis de er onde, er du forgiftet indtil en god spiller dør ved henrettelse.",
+      "flavor": "Jeg kan ikke lide klovne. De smager sjovt.",
+      "name": "Kannibal"
+    },
+    "cerenovus": {
+      "ability": "Hver nat, vælg en spiller og en god karakter: de er \"gale\" at de er den karakter i morgen, ellers bliver de måske henrettet.",
+      "first": "Cerenovusen vælger en spiller og en karakter. :reminder: Læg Cerenovusen til at sove. Væk målet. Vis dem *DENNE KARAKTER VALGTE DIG*-brikken, Cerenovus-brikken, og derefter den valgte karakterbrik.",
+      "flavor": "Virkeligheden er blot en mening. Specifikt, min mening.",
+      "name": "Cerenovus",
+      "other": "Cerenovusen vælger en spiller og en karakter. :reminder: Læg Cerenovusen til at sove. Væk målet. Vis dem *DENNE KARAKTER VALGTE DIG*-brikken, Cerenovus-brikken, og derefter den valgte karakterbrik."
+    },
+    "chambermaid": {
+      "ability": "Hver nat, vælg 2 levende spillere (ikke dig selv): du lærer hvor mange vågnede i nat, på grund af deres egen evne.",
+      "first": "Stuepigen vælger 2 levende spillere. Giv et fingersignal.",
+      "flavor": "Jeg har ik' set noget mistænkeligt, Frøken. Undskyld, men hvis jeg havde set noget, var det bestemt ik' husets herre, der sneg sig ind i professorens laboratorium ved ellevetiden og rodede med fine eliksirer, ligesom De sagde, Frøken.",
+      "name": "Stuepige",
+      "other": "Stuepigen vælger 2 levende spillere. Giv et fingersignal."
+    },
+    "chef": {
+      "ability": "Du starter med at vide hvor mange par af onde spillere der er.",
+      "first": "Giv et fingersignal.",
+      "flavor": "Aftenens reservationer virker mærkelige. Aldrig før har fru Mayweather holdt selskab med den slyngel fra Hudson Lane. Men i aften har de et bord til to. Mærkværdigt.",
+      "name": "Kok"
+    },
+    "choirboy": {
+      "ability": "Hvis Dæmonen dræber Kongen, lærer du hvilken spiller er Dæmonen. [+Kongen]",
+      "flavor": "Jeg så det, det gjorde jeg. Jeg var ved kirkebænkene for at rydde op i salmebøgerne, da en forfærdelig melodi lød fra orglet. Organisten havde en lang kappe på, og lange fingre på tangenterne. Og en hat der... lignede... din.",
+      "name": "Kordreng",
+      "other": "Hvis Dæmonen dræbte Kongen, peg på spilleren der er Dæmonen."
+    },
+    "clockmaker": {
+      "ability": "Du starter med at vide, hvor mange trin der er fra Dæmonen til dens nærmeste Håndlanger.",
+      "first": "Giv et fingersignal.",
+      "flavor": "Forstyr mig ikke. Tikket skal fortsætte, for cirklen er et symbol på livet og rummer alt - alle svar - i sin guddommelige maskineri. Jeg skal arbejde.",
+      "name": "Urmager"
+    },
+    "courtier": {
+      "ability": "Én gang pr. spil, om natten, vælg en karakter: de er fulde i 3 nætter og 3 dage.",
+      "first": "Hofdamen kan vælge en karakter. :reminder: :reminder:",
+      "flavor": "Jeg er mere bange for en hær på hundrede får anført af en løve, end en hær på hundrede løver anført af et får.",
+      "name": "Hofdame",
+      "other": "Hofdamen kan vælge en karakter. :reminder: :reminder:"
+    },
+    "cultleader": {
+      "ability": "Hver nat, bliver du samme fraktion som en levende nabo. Hvis alle gode spillere vælger at slutte sig til din kult, vinder dit hold.",
+      "flavor": "Idet de mente sig vise, blev de tåber.",
+      "name": "Kultleder"
+    },
+    "damsel": {
+      "ability": "Alle Håndlangerne ved, at en Ungmø er i spil. Hvis en Håndlanger offentligt gætter dig (ét forsøg), taber dit hold.",
+      "flavor": "Fingrene fra håret, skat.",
+      "name": "Ungmø"
+    },
+    "dawn": {
+      "first": "Vent et par sekunder. Afslut Natfasen.",
+      "other": "Vent et par sekunder. Afslut Natfasen."
+    },
+    "deusexfiasco": {
+      "ability": "Mindst én gang pr. spil vil Fortælleren lave en fejl, rette den og indrømme det offentligt.",
+      "flavor": "Det er ikke en fejl, det er en funktion. Det er ikke en misforståelse, det er en finjustering. Det er ikke fejlbehæftet, det er finurligt.",
+      "name": "Deus ex Fiasko"
+    },
+    "deviant": {
+      "ability": "Hvis du var morsom i dag, kan du ikke dø ved forvisning.",
+      "flavor": "Sandelig, det var damens spøg.",
+      "name": "Lømmel"
+    },
+    "devilsadvocate": {
+      "ability": "Hver nat, vælg en levende spiller (en anden end sidste nat): hvis de henrettes i morgen, dør de ikke.",
+      "first": "Djævelens Advokat vælger en levende spiller. :reminder:",
+      "flavor": "Skulle indsigelsen blive tilsidesat, erklærer min klient sig uskyldig i kraft af anklagerens manglende overholdelse af vedtægt 27.B – ukorrekt eller vildledende bøjning af et verbum. Det faktum, at ni fra juryen døde i nat, er simpelthen prima facie, hvilket, som Wills vs. Thule satte præcedens for, er yderligere grund til frikendelse.",
+      "name": "Djævelens Advokat",
+      "other": "Djævelens Advokat vælger en levende spiller. :reminder:"
+    },
+    "djinn": {
+      "ability": "Brug den speciale Jinn-regel. Alle spillere ved hvad den er.",
+      "flavor": "نحن لسنا هنا. انت لست حقيقي. كل شيء هو وهم. أسئلتك هي جبل نار في يوم صافٍ.",
+      "name": "Jinn"
+    },
+    "doomsayer": {
+      "ability": "Hvis 4 eller flere spillere er i live, må hver levende spiller offentligt vælge (én gang pr. spil), at en spiller fra deres egen fraktion dør.",
+      "flavor": "Og på den syvende dag skal der være en stor oversvømmelse og en pest over folket fra Ravnenes By! De døde skal rejse sig og de levende skal angre! O ve! O uhellige dag! Kun ved store ofre vil de sejre! Således taler de Vise fra Nostros og således taler jeg.",
+      "name": "Dommedagsprofet"
+    },
+    "dreamer": {
+      "ability": "Hver nat, vælg en spiller (ikke dig selv eller Rejsende): du lærer 1 god og 1 ond karakter. 1 af dem er korrekt.",
+      "first": "Drømmeren peger på en spiller. Vis 1 god og 1 ond karakterbrik. 1 af dem er deres karakter.",
+      "flavor": "Jeg husker Urmageren. Himlen var rød og det regnede med fraktale trekanter. Der var en lugt af violer og en boblende lyd. En kvinde med glødende øjne og et rodet skæg hvæsede af himlen. Derefter vågnede jeg.",
+      "name": "Drømmer",
+      "other": "Drømmeren peger på en spiller. Vis 1 god og 1 ond karakterbrik. 1 af dem er deres karakter."
+    },
+    "drunk": {
+      "ability": "Du ved ikke at du er Drukkenbolten. Du tror at du er en Borger, men det er du ikke.",
+      "flavor": "Jeg drikker kun *hik* til fester, min kære. Ganske vist går jeg til mange *bøvs* fester.",
+      "name": "Drukkenbolt"
+    },
+    "duchess": {
+      "ability": "Hver dag, kan 3 spillere vælge at besøge dig. Om natten*, lærer hver besøgende hvor mange besøgende er onde, men 1 får falsk info.",
+      "flavor": "Vi skal modtage visitter mellem 6 og 7 præcis. Te klokken 6.15. Kage klokken 6.45. Kom ikke for sent. Festtøj gælder som altid.",
+      "name": "Hertuginde"
+    },
+    "dusk": {
+      "first": "Start Natfasen.",
+      "other": "Start Natfasen."
+    },
+    "empath": {
+      "ability": "Hver nat lærer du hvor mange af dine 2 levende naboer er onde.",
+      "first": "Giv et fingersignal.",
+      "flavor": "Min hud prikker. Noget er forkert her. Jeg kan mærke det.",
+      "name": "Empat",
+      "other": "Giv et fingersignal."
+    },
+    "engineer": {
+      "ability": "Vælg én gang pr. spil, om natten, hvilke Håndlangere eller hvilken Dæmon der er i spil.",
+      "flavor": "Hvis det bøjer, fint. Hvis det går i stykker, tja, så trængte det nok til at blive fikset alligevel.",
+      "name": "Ingeniør"
+    },
+    "eviltwin": {
+      "ability": "Du og en modspiller kender hinanden. Hvis den gode spiller bliver henrettet, vinder det onde hold. Det gode hold kan ikke vinde, hvis i begge er i live.",
+      "first": "Væk begge tvillinger. Tillad øjenkontakt. Vis den gode tvillings karakterbrik til den Onde Tvilling og omvendt.",
+      "flavor": "Jeg er ikke Sara! Jeg er Clara! HUN er Sara! Sara er den onde! Ikke mig!",
+      "name": "Ond Tvilling"
+    },
+    "exorcist": {
+      "ability": "Hver nat*, vælg en spiller (en anden end sidste nat): hvis Dæmonen vælges, lærer de hvem du er og vågner ikke i nat.",
+      "flavor": "Vi driver jer ud, hver urene ånd, hver sataniske magt, hvert angreb fra den infernalske modstander, hver legion, hver djævelske gruppe og sekt, i vor Herre Jesu Kristi navn og ved hans kraft. Vi befaler jer, forsvind og flygt fjernt fra Guds Kirke, fra hver sjæl skabt af Gud i Hans billede og forløst ved det guddommelige Lams dyrebare blod.",
+      "name": "Eksorcist",
+      "other": "Eksorcisten vælger en spiller. :reminder: Læg Eksorcisten til at sove. Hvis Eksorcisten valgte Dæmonen: Væk Dæmonen. Vis dem *DENNE KARAKTER VALGTE DIG* og Eksorcistbrikken. Peg på Eksorcisten."
+    },
+    "fanggu": {
+      "ability": "Hver nat*, vælg en spiller: de dør. Den første Fremmede dette dræber, bliver en ond Fang Gu og du dør i stedet. [+1 Fremmed]",
+      "flavor": "Dine mure og dine våben er blot røg i drømme.",
+      "name": "Fang Gu",
+      "other": "Fang Guen vælger en spiller. :reminder: Hvis de valgte en Fremmed (kun én gang): Erstat den Fremmedes brik med den ekstra Fang Gu brik. Læg Fang Guen til at sove. Væk deres mål. Vis dem *DU ER* og Fang Gu-brikken og giv dem en tommel ned. :reminder:"
+    },
+    "farmer": {
+      "ability": "Hvis du dør om natten, bliver en levende god spiller en Landmand.",
+      "flavor": "Selv de rige og magtfulde har behov for mad på bordet. Uden os vil byen sulte.",
+      "name": "Landmand"
+    },
+    "fearmonger": {
+      "ability": "Hver nat, vælg en spiller: hvis du nominerer og henretter dem, taber deres hold. Alle spillere ved, hvis du vælger en ny spiller.",
+      "flavor": "Vogt dig for at stirre længe ned i Afgrunden, thi Afgrunden stirrer også ind i dig.",
+      "name": "Frygtmager"
+    },
+    "ferryman": {
+      "ability": "På den sidste dag, får alle døde spillere deres stemmebrik tilbage.",
+      "flavor": "Når retfærdige drømme kommer, bærer de sandhedens vægt.",
+      "name": "Færgemand"
+    },
+    "fibbin": {
+      "ability": "Én gang pr. spil, kan 1 god spiller få forkert information.",
+      "flavor": "Ti-hi-hi. Ti. Hi. Hi.",
+      "name": "Løgner"
+    },
+    "fiddler": {
+      "ability": "Én gang pr. spil, vælger Dæmonen hemmeligt en modspiller: alle spillere vælger hvilken af disse 2 spillere vinder.",
+      "flavor": "Jeg tør væd’ med, du ik’ ka’ slå mig i en fiol-dyst, din skævøjed’ slask! Vi ta'r ud og drik', får krofolk'ne me' og ha’r et ordentligt halløj. I mor'n skal jeg sørge for du får en over snud'n, din rumlende tump'.",
+      "name": "Violinist"
+    },
+    "fisherman": {
+      "ability": "Én gang pr. spil, om dagen, kan du besøge Fortælleren for et råd, som hjælper dit hold med at vinde.",
+      "flavor": "Dette var min yndlingsdel af floden... kan du se hvordan solskinnet laver en regnbue fra klosteret til markedet? Dette var det bedste sted for store fisk. Og jo ældre jeg bliver, jo større var de.",
+      "name": "Fisker"
+    },
+    "flowergirl": {
+      "ability": "Hver nat*, lærer du om en Dæmon stemte i dag.",
+      "flavor": "Gårsdagens violer er visnet og døde, men i dag blomstrer mine valmuer.",
+      "name": "Blomsterpige",
+      "other": "Enten nik eller ryst på hovedet."
+    },
+    "fool": {
+      "ability": "Den første gang du dør, overlever du.",
+      "flavor": "...og Kongen sagde 'Hvad?! Jeg har aldrig ejet et par gummibukser, og da slet ikke en vaniljecreme-kanon!' Ha-ha! Muntre tider!",
+      "name": "Nar"
+    },
+    "fortuneteller": {
+      "ability": "Hver nat, vælg 2 spillere: du lærer om en af dem er en Dæmon. Der er en god spiller, der registrerer som en Dæmon til dig.",
+      "first": "Spåkonen vælger 2 spillere. Nik hvis en af dem er en Dæmon (eller *VILDSPOR*).",
+      "flavor": "Jeg fornemmer stor ondskab i din sjæl! Men... det kan bare være din parfume. Jeg er allergisk over for hyldebær.",
+      "name": "Spåkone",
+      "other": "Spåkonen vælger 2 spillere. Nik hvis en af dem er en Dæmon (eller *VILDSPOR*)."
+    },
+    "gambler": {
+      "ability": "Hver nat*, vælg en spiller og gæt deres karakter: hvis du gætter forkert, dør du.",
+      "flavor": "Plat, jeg vinder. Krone, du taber.",
+      "name": "Spillefugl",
+      "other": "Spillefuglen vælger en spiller og en karakter. :reminder:"
+    },
+    "gangster": {
+      "ability": "Én gang pr. dag, kan du vælge at dræbe en levende nabo, hvis din anden levende nabo er enig.",
+      "flavor": "Jeg kan godt lide dine sko. Det ville være en skam, hvis du var ude for et lille uheld og de blev ødelagt. Når nu du nævner det, så kan jeg også lide dine manchetknapper.",
+      "name": "Gangster"
+    },
+    "gardener": {
+      "flavor": "Når sofisteri bliver til dumhed og hykleri til grusomhed, træk da tilbage til haven. Ældre mænds endelige kærlighed er blomster og sten.",
+      "name": "Gartner"
+    },
+    "general": {
+      "ability": "Hver nat, lærer du hvilken fraktion Fortælleren mener vinder: de gode, de onde eller hverken.",
+      "first": "Giv tegn med tommelfingeren.",
+      "flavor": "Jeg har ikke tid til citater.",
+      "name": "General",
+      "other": "Giv tegn med tommelfingeren."
+    },
+    "gnome": {
+      "ability": "Alle spillere starter med at kende en spiller fra din fraktion. Du kan vælge at dræbe enhver, der nominerer dem.",
+      "flavor": "Fire pointen og syv bajere, ingen shows er går for mig og mine. En spøg for at knække knarker og brædder i gulvets fundamentlængt, så uimodsigelubbelt mini. De store essayser ned ad glædens strømme, ej større end selv scene, ej arvet. Ha-urrumph.",
+      "name": "Gnom"
+    },
+    "goblin": {
+      "ability": "Hvis du offentligt erklærer at være Goblinen, når du bliver nomineret og bliver henrettet samme dag, vinder dit hold.",
+      "flavor": "Du har ikke lyst til at fornærme goblinerne. Det har du virkelig ikke. I øvrigt... må jeg få endnu et stykke kage?",
+      "name": "Goblin"
+    },
+    "godfather": {
+      "ability": "Du starter med at vide hvilke Fremmede der er i spil. Hvis 1 døde i dag, vælg en spiller i nat: de dør. [-1 eller +1 Fremmed]",
+      "first": "Vis karakterbrikkerne for alle Fremmede der er i spil.",
+      "flavor": "Normalt er det blot forretning. Men når du fornærmer min datter, fornærmer du mig. Og når du fornærmer mig, fornærmer du min familie. Du burde virkelig passe mere på - det ville være en skam, hvis der skete dig noget uheldigt.",
+      "name": "Gudfader",
+      "other": "Hvis en Fremmed døde i dag, vælger Gudfaderen en spiller. :reminder:"
+    },
+    "golem": {
+      "ability": "Du kan kun nominere én gang pr. spil. Når du gør, hvis den nominerede ikke er Dæmonen, dør de.",
+      "flavor": "Golem hjælpe? Golem smadre! Golem hjælpe.",
+      "name": "Golem"
+    },
+    "goon": {
+      "ability": "Hver nat, den første spiller der vælger dig med deres evne, bliver fuld indtil skumring. Du skifter til deres fraktion.",
+      "flavor": "Ja, chef. Jeg forklard' det ret godt til ham fyren der. Han vil ik' ha' mig til at sig' det igen. Nej, chef, jeg ska' ik' til lægen - det er bare et knivstik. Det ska' soves væk",
+      "name": "Slyngel"
+    },
+    "gossip": {
+      "ability": "Hver dag, kan du lave en offentlig erklæring. I nat, hvis det var sandt, dør en spiller.",
+      "flavor": "Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla. Bla.",
+      "name": "Sladrehank",
+      "other": "Hvis Sladrehanken talte sandt, dør en spiller. :reminder:"
+    },
+    "grandmother": {
+      "ability": "Du starter med at kende en god spiller og deres karakter. Hvis Dæmonen dræber dem, dør du også.",
+      "first": "Peg på den spiller som er barnebarnet og vis deres karakterbrik.",
+      "flavor": "Tag en jakke på, hvis du går ud, skatter. Og dine støvler. Og dit halstørklæde. Jeg har et svagt hjerte, ved du nok. Hvad skulle jeg dog gøre, hvis du blev forkølet... eller værre?",
+      "name": "Bedstemor",
+      "other": "Hvis barnebarnet blev dræbt af Dæmonen, dør Bedstemoren også. :reminder:"
+    },
+    "gunslinger": {
+      "ability": "Hver dag, efter den første afstemning er blevet talt op, kan du vælge en spiller der stemte: de dør.",
+      "flavor": "Det er på tide, at nogen tager sagen i egen hånd. Denne nogen... er mig.",
+      "name": "Revolvermand"
+    },
+    "harlot": {
+      "ability": "Hver nat*, vælg en levende spiller: hvis de tillader det, lærer du deres karakter, men i dør måske begge.",
+      "flavor": "Vær hilset, Sømand. Du ligner en, der har brug for nogen til virkelig at lytte til dine sorger. Jeg lægger gerne øre til. Og måske andet.",
+      "name": "Skøge"
+    },
+    "harpy": {
+      "ability": "Hver nat, vælg 2 spillere: i morgen, den første spiller er \"gal\" at den anden spiller er ond, ellers vil én eller begge af dem måske dø.",
+      "flavor": "Aldrig så jeg så smuk en dag, aldrig fløj så fæl en skæbne så lavt over mig.",
+      "name": "Harpy"
+    },
+    "hatter": {
+      "ability": "Hvis du døde i dag eller i nat, kan Håndlangere og Dæmoner vælge at blive nye Håndlanger- og Dæmon-karakterer.",
+      "flavor": "En hat. To hat. Tre hat. Tehat. Fire hat. Fyre hat. Fem hat. Heksehat.",
+      "name": "Hattemager"
+    },
+    "hellslibrarian": {
+      "ability": "Noget dårligt kan ske for dem der taler når Fortælleren har bedt som stilhed.",
+      "flavor": "Shhhhhh. Vær stille. Det er bedst ikke at forstyrre Bibliotekaren. Jeg har hørt, de kan blive hidsig.",
+      "name": "Helvedes Bibliotekar"
+    },
+    "heretic": {
+      "ability": "Dem som vinder, taber og dem som taber, vinder, selv hvis du er død.",
+      "flavor": "Efter hagl har knust taget og splintret Katedralens glasvinduer, smelter de igen ned i jorden, ganske som et døende lam i ørkenens sol. Det var lignelsen om galningen.",
+      "name": "Kætter"
+    },
+    "hermit": {
+      "ability": "Du har alle Fremmed-evner. [-0 eller -1 Fremmed]",
+      "flavor": "Sjælens lys kalder i de fortabte og glemte steder på jord.",
+      "name": "Eremit"
+    },
+    "highpriestess": {
+      "ability": "Hver nat, lærer du hvilken spiller Fortælleren mener, du bør tale med mest.",
+      "first": "Peg på en spiller.",
+      "flavor": "Der er liv bag den personlighed, som bruger personligheder som masker. Der er tidspunkter, hvor livet lader masken falde, og dybet svarer dybet.",
+      "name": "Ypperstepræstinde",
+      "other": "Peg på en spiller."
+    },
+    "huntsman": {
+      "ability": "Én gang pr. spil, om natten, kan du vælge en levende spiller: vælges Ungmøen, bliver de til en Borger, der ikke er i spil. [+Ungmøen]",
+      "flavor": "Min hytte er varm og robust. Min økse klar ved døren, mine støvler tørrer ved ilden, i gryden simrer elgekødet... Hør! Et skrig giver genlyd i dalen! Regnen, mudderet og den isnende vind tilslører ulvenes lugtesans, men jeg kender stien og holder en god fart. Jeg kommer.",
+      "name": "Jæger"
+    },
+    "imp": {
+      "ability": "Hver nat* skal du vælge en spiller: de dør. Hvis du dræber dig selv på denne måde, bliver en Håndlanger til Djævelen.",
+      "flavor": "Vi må holde sindet skarpt og sværdet skarpere. Det onde er iblandt os, og vil ikke stoppe for noget for at tilintetgøre os gode, simple mennesker, og lægge vores smukke by i ruiner. Stol ikke på nogen. Men, hvis du skal stole på én, så stol på mig.",
+      "name": "Djævel",
+      "other": "Djævelen vælger en spiller. :reminder: Hvis Djævelen vælger sig selv: Erstat 1 levende Håndlangers brik med en ekstra Djævel-brik. Læg den gamle Djævel til at sove. Væk den nye Djævel. Vis dem *DU ER*-brikken og derefter Djævel-brikken."
+    },
+    "innkeeper": {
+      "ability": "Hver nat*, vælg 2 spillere: de kan ikke dø i nat, men 1 er fuld indtil skumring.",
+      "flavor": "Kom indenfor, gode rejsende, og hvil det trætte legeme. Drik og vær glad, for Den Ondes legioner skal ikke plage Dem i nat.",
+      "name": "Krovært",
+      "other": "Kroværten vælger 2 spillere. :reminder: :reminder: :reminder:"
+    },
+    "investigator": {
+      "ability": "Du starter med at vide, at 1 ud af 2 spillere er en specifik Håndlanger.",
+      "first": "Vis Håndlangerens karakterbrik. Peg på spillerene markeret *HÅNDLANGER* og *FORKERT*.",
+      "flavor": "Dejlig aften til en spadseretur, synes De ikke, Hr. Morozov? Eller skulle jeg sige... BARON Morozov?",
+      "name": "Efterforsker"
+    },
+    "judge": {
+      "ability": "Én gang pr. spil, hvis en anden spiller nominerede, kan du vælge at tvinge den nuværende henrettelse til at blive gennemført eller fejle.",
+      "flavor": "Jeg kender tiltalte skyldig i anklagerne om mord, bedrag, ildspåsættelse, tyveri, at udgive sig for at være en lovens embedsmand, at praktisere medicin uden ydernummer, bagvaskelse, kongemord og henkastning af affald.",
+      "name": "Dommer"
+    },
+    "juggler": {
+      "ability": "På din første dag, offentligt gæt op til 5 spilleres karakterer. Den nat, lærer du hvor mange du fik rigtigt.",
+      "flavor": "Til mit næste nummer, efter anmodning, skal jeg bruge en blomst, en pose bønner, en legetøjsslange, en malerpensel og et motoriseret, benzindrevet, hækkeklippende apparat. Jeg advarer jer. Dette nummer kan meget vel være mit sidste. Uha.",
+      "name": "Jonglør",
+      "other": "Giv et fingersignal."
+    },
+    "kazali": {
+      "ability": "Hver nat*. vælg en spiller: de dør. [Du vælger hvilke spillere er hvilke Håndlangere. -? til +? Fremmede]",
+      "name": "Kazali"
+    },
+    "king": {
+      "ability": "Hver nat, hvis antallet af døde er lig med eller flere end de levende, lærer du 1 levende karakter. Dæmonen ved at du er Kongen.",
+      "flavor": "Mellem dødeliges ukendte genvordigheder / Og sygelighedens nat, sødmefuld af mystik og smerte / Ligger den uhæmmede glædes lange og kulørte liv / Hvis have blomstrer i en udstilling af hvert malet ansigt.",
+      "name": "Konge"
+    },
+    "klutz": {
+      "ability": "Når du lærer at du er død, offentligt vælg 1 levende spiller: hvis de er onde, taber dit hold.",
+      "flavor": "Ups.",
+      "name": "Klodsmajor"
+    },
+    "knight": {
+      "ability": "Du starter med at kende 2 spillere der ikke er Dæmonen.",
+      "flavor": "Når en mand lyver, myrder han en del af verden.",
+      "name": "Ridder"
+    },
+    "legion": {
+      "ability": "Hver nat*, kan en spiller dø. Henrettelser fejler hvis kun onde stemmer. Du registrerer også som en Håndlanger. [De fleste spillere er Legion]",
+      "flavor": "Vi er vinterdages isnende vind. Vi er måneløse nætters skygger. Vi er giften i din tekop og den sagte hvisken i dit øre. Vi er overalt.",
+      "name": "Legion",
+      "other": "En spiller kan dø. :reminder:"
+    },
+    "leviathan": {
+      "ability": "Hvis mere end 1 god spiller bliver henrettet, vinder det onde hold. Alle spillere ved at du er i spil. Efter dag 5, vinder det onde hold.",
+      "flavor": "Til de sidste, bryder jeg med dig. Fra Helvedes hjerte støder jeg mit spyd imod dig. Af hadets skyld spytter jeg mit sidste åndedrag imod dig.",
+      "name": "Livjatan"
+    },
+    "librarian": {
+      "ability": "Du starter med at vide, at 1 ud af 2 spillere er en bestemt Fremmed. (Eller at nul er i spil.)",
+      "first": "Vis den Fremmedes karakterbrik. Peg på spillerene markeret *FREMMED* og *FORKERT*.",
+      "flavor": "Naturligvis frue, måtte De under normale omstændigheder gerne låne Heksehammeren fra bibliotekkælderen. Dog, det ser ikke ud til at De er medlem.",
+      "name": "Bibliotekar"
+    },
+    "lilmonsta": {
+      "ability": "Hver nat, vælger Håndlangerne hvem der passer Lillemonstret og \"er Dæmonen\". Hver nat*, kan en spiller dø. [+1 Håndlanger]",
+      "flavor": "Trin 1: Vær nuttet. Trin 2: Verdensherredømme. Trin 3: Morgenmam.",
+      "name": "Lillemonster"
+    },
+    "lleech": {
+      "ability": "Hver nat*, vælg en spiller: de dør. Du starter med at vælge en spiller: de er forgiftet. Du dør hvis, og kun hvis, de dør.",
+      "first": "Iiglen vælger en spiller. :reminder:",
+      "flavor": "Lækker, lækker, lækker, lækker, lækker, lækker, lækker, lækker hjern... jeg mener tærte! Ja. Lækker tærte. Det var det, jeg ville sige.",
+      "name": "Iigle",
+      "other": "Iiglen vælger en spiller. :reminder:"
+    },
+    "lordoftyphon": {
+      "ability": "Hver nat*, vælg en spiller: de dør. [Onde karakterer er på linje. Du er i midten. +1 Minion. -? til +? Fremmede]",
+      "flavor": "I de skyggede og glemte hjørner af kosmos, hvor stjernerne hvisker hemmeligheder til tomrummet, hviler en sandhed så dybtgående, at blot et glimt af den kan rive dødelige sind itu.",
+      "name": "Tyfonherre",
+      "other": "Tyfonherren vælger en spiller. :reminder:"
+    },
+    "lunatic": {
+      "ability": "Du tror at du er Dæmonen, men det er du ikke. Dæmonen ved hvem du er, og hvem du vælger om natten.",
+      "first": "Hvis der er 7 eller flere spillere, væk Særlingen: Vis *DISSE ER DINE HÅNDLANGERE*-brikken. Peg på vilkårlige spillere. Vis *DISSE KARAKTERE ER IKKE I SPIL*-brikken. Vis 3 gode karakterbrikker. Læg Særlingen til at sove. Væk Dæmonen. Vis *DU ER*-infobrikken og Dæmonbrikken. Vis *DENNE SPILLER ER*-infobrikken og Særlingens brik, derefter peg på Særlingen.",
+      "flavor": "Jeg er natten... tror jeg.",
+      "name": "Særling",
+      "other": "Gør hvad end der skal gøres for at simulere Dæmonens opførsel. Læg Særlingen til at sove. Væk Dæmonen. Vis Særlingens brik og peg på dem, derefter deres mål."
+    },
+    "lycanthrope": {
+      "ability": "Hver nat*, vælg en levende spiller. Hvis god, dør de og Dæmonen dræber ikke i nat. Én god spiller registerer som ond.",
+      "flavor": "Under civilisationens tynde finér, skjuler sig en hylende galskab.",
+      "name": "Varulv",
+      "other": "Varulven vælger en spiller :reminder:"
+    },
+    "magician": {
+      "ability": "Dæmonen tror at du er en Håndlanger. Håndlangere tror at du er Dæmonen.",
+      "flavor": "1... 2... Abra... 3... 4... Cadabra... *poof!* Og, som i kan se, mine damer og herrer, er Kaptajn Farnsværs pose med guld forsvundet! Væk! Uden et spor! Mange tak, og godnat!",
+      "name": "Tryllekunstner"
+    },
+    "marionette": {
+      "ability": "Du tror at du er en god karakter, men det er du ikke. Dæmonen ved hvem du er. [Du er nabo til Dæmonen]",
+      "flavor": "Ord, ord. Det er alt vi har at gå på.",
+      "name": "Marionet"
+    },
+    "mastermind": {
+      "ability": "Hvis Dæmonen dør ved henrettelse (så spillet slutter), spil 1 dag mere. Hvis en spiller der bliver henrettet, taber deres hold.",
+      "flavor": "Tentaklerne fra det monster er sømmet til kirkens dør. Mødre og børn danser på gaderne. Fremragende. Alting går nøjagtigt som jeg har planlagt.",
+      "name": "Overmand"
+    },
+    "mathematician": {
+      "ability": "Hver nat, lærer du hvor mange spilleres evner virkede unormalt (siden daggry), på grund af en anden karakters evne.",
+      "first": "Giv et fingersignal.",
+      "flavor": "Ethvert konsekvent formelt system x, inden for hvilket en vis mængde elementær aritmetik kan udføres, er ufuldstændigt; det vil sige, der er udsagn i sproget x, som hverken kan bevises eller gendrives i x. Ergo, du er fuld.",
+      "name": "Matematiker",
+      "other": "Giv et fingersignal."
+    },
+    "matron": {
+      "ability": "Hver dag må du vælge op til 3 sæt af 2 spillere, som skal bytte plads. Spillere må ikke forlade deres plads for at tale privat.",
+      "flavor": "Frøken Featherbottom, vær stille. Hr. Rutherford, husk venligst, at en tekop kun kræver fire fingre. Jeg ved, at De er far til ni, men alder, eller mangel på samme, er aldrig en undskyldning for dårlige manerer.",
+      "name": "Forstanderinde"
+    },
+    "mayor": {
+      "ability": "Hvis kun 3 spillere er i live og ingen henrettelse sker, vinder dit hold. Hvis du dør om natten, kan en anden spiller dø i stedet.",
+      "flavor": "Vi må tilsidesætte vores forskelligheder og høre op med disse meningsløse drab. Trods alt betaler vi alle skat. Altså, de fleste af os.",
+      "name": "Borgmester"
+    },
+    "mezepheles": {
+      "ability": "Du starter med at kende et hemmeligt ord. Den første gode spiller som siger dette ord, bliver ond den nat.",
+      "flavor": "Det, som udgår alene fra hjertet, vil få andres hjerter til at følge dit.",
+      "name": "Mezefeles"
+    },
+    "minstrel": {
+      "ability": "Når en Håndlanger dør ved henrettelse, er alle andre spillere (undtagen Rejsende) fulde indtil skumring i morgen.",
+      "flavor": "Skønt dine trin er lette, hører jeg dig… I drømme er jeg varmt og sødt hos dig… Hvis du hvisker elskovs ord i nat til mig… Jeg sover trygt og fredfyldt til du er hos mig.",
+      "name": "Skjald"
+    },
+    "monk": {
+      "ability": "Hver nat*, vælg en spiller (ikke dig selv): de er i sikkerhed fra Dæmonen i nat.",
+      "flavor": "Der blæser en ond og dødelig vind i nat. Kom, min broder, søg ly i klosteret, mens stormen raser. På mit ord, eller på mit liv, er du i sikkerhed.",
+      "name": "Munk",
+      "other": "Munken vælger en spiller. :reminder:"
+    },
+    "moonchild": {
+      "ability": "Når du lærer at du er død, skal du offentligt vælge 1 levende spiller. Hvis det var en god spiller, dør de i nat.",
+      "flavor": "Skorpionen skæver til de elskende, og du skal træffe et valg. Med sølv hen over min åbne hånd vil din skæbne blive åbenbaret. Med stål hen over min hals vil du ved stjernerne fortryde det.",
+      "name": "Månebarn",
+      "other": "Hvis Månebarnet valgte en god spiller, dør de. :reminder:"
+    },
+    "mutant": {
+      "ability": "Hvis du er \"gal\" om at være en Fremmed, bliver du måske henrettet.",
+      "flavor": "Jeg er ikke skør! Jeg er et menneske! Forbarm jer!",
+      "name": "Mutant"
+    },
+    "nightwatchman": {
+      "ability": "Én gang pr. spil, om natten, må du vælge en spiller: de lærer at du er Vægteren.",
+      "flavor": "Natten er kold og ensom, men månen, stjernerne, den friske vind og læderstøvlernes bløde bump mod brostenene gør mig selskab. Derovre flakker stearinlys bag de dunkle ruder...",
+      "name": "Vægter"
+    },
+    "noble": {
+      "ability": "Du starter med at kende 3 spillere, hvoraf 1, og kun 1, er ond.",
+      "flavor": "Sarkasme er ganske vist den laveste form for humor. Men jeg vil sige, som svar på Deres kritik, min Herre, at den ikke desto mindre ér en form for humor.",
+      "name": "Adelsmand"
+    },
+    "nodashii": {
+      "ability": "Hver nat*, vælg en spiller: de dør. Dine 2 Borger-naboer er forgiftet.",
+      "flavor": "Ved Arnochs synder fornemmer jeg din tunge stank. Ved den forbandede sol og hendes fæle hær af små, grinende guder fordærver jeg dig. Ved den velsignede nat og det uhellige og forfærdelige havs skjulte dybder gør jeg en ende på dit usle liv i denne verden.",
+      "name": "No Dashii",
+      "other": "No Dashiien vælger en spiller. :reminder:"
+    },
+    "ogre": {
+      "ability": "På din første nat skal du vælge en spiller (ikke dig selv): du tilhører nu deres fraktion (du ved ikke hvilken), selvom du er fuld eller forgiftet.",
+      "name": "Trold"
+    },
+    "ojo": {
+      "ability": "Hver nat*, vælg en karakter: de dør. Hvis de ikke er i spil, bestemmer Fortælleren hvem der dør.",
+      "flavor": "Som et brændende bål i en måneløs nat... jeg ser dig, dødelige.",
+      "name": "Ojo"
+    },
+    "oracle": {
+      "ability": "Hver nat*, lærer du hvor mange døde spillere er onde.",
+      "flavor": "Kun de udvalgte må se bag sløret. De døde er hvileløse og de peger stumt mod det isnende nord.",
+      "name": "Orakel",
+      "other": "Giv et fingersignal."
+    },
+    "organgrinder": {
+      "ability": "Alle spillere holder deres øjne lukkede når de stemmer, og stemmeantallet er hemmeligt. Hver nat, vælg om du er fuld indtil skumring.",
+      "first": "Lirekassemanden nikker ja med hovedet for at være fuld, eller ryster nej på hovedet for at være ædru. :reminder:",
+      "flavor": "Rundt og rundt svinger håndtaget. Jo mere du danser, desto mindre forstår du.",
+      "name": "Lirekassemand",
+      "other": "Lirekassemanden nikker ja med hovedet for at være fuld, eller ryster nej på hovedet for at være ædru. :reminder:"
+    },
+    "pacifist": {
+      "ability": "Henrettede gode spiller dør måske ikke.",
+      "flavor": "Vær mistroisk over for alle, i hvem straffens indskydelse er mægtig.",
+      "name": "Pacifist"
+    },
+    "philosopher": {
+      "ability": "Én gang pr. spil, om natten, vælg en god karakter: få den evne. Hvis denne karakter er i spil, er de fulde.",
+      "first": "Filosoffen kan vælge en karakter. Hvis det er nødvendigt, udskift deres karakter brik. :reminder:",
+      "flavor": "Hvis alt er virkeligt, er øl virkeligt. Drik, for i morgen kan vi dø.",
+      "name": "Filosof",
+      "other": "Filosoffen kan vælge en karakter. Hvis det er nødvendigt, udskift deres karakter brik. :reminder:"
+    },
+    "pithag": {
+      "ability": "Hver nat*, vælg en spiller og en karakter de bliver (hvis ikke i spil). Hvis en Dæmon bliver skabt, vil dødsfald i nat være vilkårlige.",
+      "flavor": "Først om kedlen rundt i ring; Smid forgiftede indvolde ind; Tudsen, kold som sten derned; Giften varmer søvnens sved; Enogtredive dage koger; Heksekedlens vilde tåger.",
+      "name": "Mosekone",
+      "other": "Mosekonen vælger en spiller og en karakter. Hvis de valgte en karakter, som ikke er i spil: Læg Mosekonen til at sove. Væk den valgte. Vis dem *DU ER*-brikken og deres nye karakterbrik."
+    },
+    "pixie": {
+      "ability": "Du starter med at kende 1 Borger der er i spil. Hvis du var \"gal\" at du var denne karakter, får du den evne når de dør.",
+      "first": "Vis karakterbrikken for Borgeren markeret med *GAL*.",
+      "name": "Alf"
+    },
+    "plaguedoctor": {
+      "ability": "Når du dør, får Fortælleren en Håndlanger evne.",
+      "flavor": "Vehnlis' fohrbli' shtil… ting’ ska ha tid te’ heeeling… myrrh-myrrh.",
+      "name": "Pestdoktor"
+    },
+    "po": {
+      "ability": "Hver nat*, kan du vælge en spiller: de dør. Hvis dit sidste valg var ingen, vælg 3 spillere i nat.",
+      "flavor": "Vil du have en blomst? Jeg er så ensom.",
+      "name": "Po",
+      "other": "Poen kan vælge en spiller ELLER vælge 3 spillere hvis de valgte ingen igår. :reminder: eller :reminder: :reminder: :reminder:"
+    },
+    "poisoner": {
+      "ability": "Hver nat, vælg en spiller: de er forgiftet i nat og dagen i morgen.",
+      "first": "Forgifteren vælger en spiller. :reminder:",
+      "flavor": "Tilføj komponent Alfa til komponent Beta... IKKE FOR MEGET!",
+      "name": "Forgifter",
+      "other": "Forgifteren vælger en spiller. :reminder:"
+    },
+    "politician": {
+      "ability": "Hvis du var den spiller mest ansvarlig for at dit hold tabte, skifter du fraktion og vinder, selv hvis du er død.",
+      "flavor": "Jeg er glad for du stillede det spørgsmål. Det er jeg virkelig. Men jeg tror det rigtige spørgsmål her er...",
+      "name": "Politiker"
+    },
+    "poppygrower": {
+      "ability": "Håndlangerne og Dæmonerne kender ikke hinanden. Hvis du dør, lærer de hvem hinanden er den nat.",
+      "flavor": "I skjulte lunde i den dybe skov vokser den sorte valmue. Dens larmende skønhed fortryller. Den tykke aromas duft sender dig bort i evigheden som slave af lysets og mørkets guder.",
+      "name": "Valmueavler"
+    },
+    "preacher": {
+      "ability": "Hver nat, vælg en spiller: hvis en Håndlanger bliver valgt, lærer de dette. Alle valgte Håndlangere har ingen evne.",
+      "flavor": "Det er bedre at være rig og sund end fattig og syg.",
+      "name": "Prædikant"
+    },
+    "princess": {
+      "ability": "Hvis du nominerede og henrettede en spiller på din første dag, dræber Dæmonen ikke i nat.",
+      "flavor": "Vore ord er hunde, bundne af silketråde, mine herrer. Lad venlighed væve dem sande, så ikke kongerigets tøjler optrævles og river hoffet itu.",
+      "name": "Prinsesse"
+    },
+    "professor": {
+      "ability": "Én gang pr. spil, om natten, må du vælge en død spiller: hvis de er en Borger, bliver de genoplivet.",
+      "flavor": "Metoden er simpel. Fastgør den hydrauliske konfabulator til den modificerede chi-matrix-forstærker, tilføj 20 ml pseudodorafin, hold hans Z-niveauer over 20%, og så vil din mand få det godt. Nu mangler vi kun et lynnedslag.",
+      "name": "Professor",
+      "other": "Professoren kan vælge en død spiller. :reminder: :reminder:"
+    },
+    "psychopath": {
+      "ability": "Hver dag, inden nomineringerne, kan du offentligt vælge en spiller: de dør. Hvis du bliver henrettet, dør du kun hvis du taber sten-saks-papir.",
+      "flavor": "Overraskelse!",
+      "name": "Psykopat"
+    },
+    "pukka": {
+      "ability": "Hver nat, vælg en spiller: de er forgiftet. Den forrige forgiftede spiller dør og bliver så rask.",
+      "first": "Pukkaen vælger en spiller. :reminder:",
+      "flavor": "Du har virkelig været venlig og gæstfri mod mig her i dit smukke hjem. Jeg er så ked af, at jeg kom til at kradse dig. Det var en lille ting. Ingen sag. Men tag nu denne gyldne tandstik som et plaster på såret.",
+      "name": "Pukka",
+      "other": "Pukkaen vælger en spiller. :reminder: Den forrige forgiftede spiller dør og bliver så rask. :reminder:"
+    },
+    "puzzlemaster": {
+      "ability": "1 spiller er fuld, selv hvis du dør. Hvis du gætter (ét forsøg) hvem det er, lærer du Dæmon-spilleren, men gæt forkert og få falsk info.",
+      "flavor": "Når man begynder at tro, at noget blot er noget andet, er man som regel på randen af en fejltagelse. Tålmodighed, tålmodighed. Du må ikke forveksle bare og burde med er og ikke.",
+      "name": "Gådemester"
+    },
+    "ravenkeeper": {
+      "ability": "Hvis du dør om natten, bliver du vækket for at vælge en spiller: du lærer deres karakter.",
+      "flavor": "Mine fugle hævner mig! Flyv! Flyv, mine kære og pligtopfyldende kæledyr! Til herregården og til floden! Til dalene og til salonerne! Flyv!",
+      "name": "Ravnevogter",
+      "other": "Hvis Ravnevogteren døde i nat, vælger Ravnevogteren en spiller. Vis dem den spillers karakterbrik."
+    },
+    "recluse": {
+      "ability": "Du kan registrere som ond og som en Håndlanger eller Dæmon, selv hvis du er død.",
+      "flavor": "Kan I så se at få fingrene væk fra min ejendom. Grr. Åndssvage folk, der kommer derovrefra, jeg skal komme efter jer! Forsvind! Mig er der sgu aldrig nogen dæmoner, der kommer efter. Forsvind sagde jeg!",
+      "name": "Eneboer"
+    },
+    "revolutionary": {
+      "ability": "2 nabospillere er kendt for at være den samme fraktion. Én gang pr. spil, kan 1 af dem registrere forkert.",
+      "flavor": "Forenede foregav vi. Delte gik vi i stå.",
+      "name": "Revolutionær"
+    },
+    "riot": {
+      "ability": "På dag 3, bliver Håndlangere til Oprør og nominerede dør men nominerer øjeblikkeligt en levende spiller. Dette skal ske.",
+      "flavor": "Larga vida a la revolución! Mi revolucion!",
+      "name": "Oprør"
+    },
+    "sage": {
+      "ability": "Hvis Dæmonen dræber dig, lærer du at det er 1 af 2 spillere.",
+      "flavor": "Disse monumentale værker vogter hemmeligheden, det er jeg sikker på! Gemt blandt ord ligger den på lur. Flere stearinlys, min dreng! Mere blæk! Disse noter ser måske mystiske ud, men den infernalske gåde er ved at blive afsløret.",
+      "name": "Vismand",
+      "other": "Hvis Dæmonen dræbte Vismanden, væk Vismanden og peg på 2 spillere, hvoraf 1 er Dæmonen."
+    },
+    "sailor": {
+      "ability": "Hver nat, vælg en levende spiller: enten du eller de er fuld indtil skumring. Du kan ikke dø.",
+      "first": "Sømanden vælger en levende spiller. :reminder:",
+      "flavor": "Jeg kan drikke jer alle sammen under bordet! Dig! Sludrechatollet! Tror du, du kan klare mig? Nej? Hvad med dig, Bedstemor? Har du nogensinde prøvet Gamle McKillys Ekstrakrydrede Rom før? Det giver med garanti hår på brystet! Alle ombord!",
+      "name": "Sømand",
+      "other": "Sømanden vælger en levende spiller. :reminder:"
+    },
+    "saint": {
+      "ability": "Hvis du dør ved henrettelse, taber dit hold.",
+      "flavor": "Visdom avler fred. Tålmodighed avler visdom. Frygt ikke, for den tid skal komme, hvor frygten også forsvinder. Lad os bede, og må vores visions enhed gøre os alle til helgener.",
+      "name": "Helgen"
+    },
+    "savant": {
+      "ability": "Hver dag, kan du privat besøge Fortælleren for at lære 2 ting: 1 er sand og 1 er falsk.",
+      "flavor": "Tooghalvfjerds tændstikker på gulvet... solen går tidligt ned, men månen er uændret... et revet stykke stof... ondskab på herregården... tre gange tre... ham, vi stolede på, er ikke, som det så ud... grønt lys betyder magnesium... rester, men mønsteret er forkert... tooghalvfjerds tændstikker på gulvet...",
+      "name": "Savant"
+    },
+    "scapegoat": {
+      "ability": "Hvis en spiller af din fraktion bliver henrettet, kan du blive henrettet i stedet.",
+      "flavor": "Godaften! Tak for at invitere mig til ballet. Jeg er ikke herfra, men I ser ud til at være en venlig flok, minsandten. Jeg er sikker på, vi kommer godt ud af det med hinanden. Hvad skal alt det reb bruges til?",
+      "name": "Syndebuk"
+    },
+    "scarletwoman": {
+      "ability": "Hvis der er 5 eller flere spillere i live og Dæmonen dør, bliver du Dæmonen. (Rejsende tæller ikke.)",
+      "flavor": "Du har vist mig hemmelighederne i Den Lilla Flammes Råd. Vi har ligget sammen i ild og lyst og i bestialsk samkvem, og jeg er for evigt din tjener. Men i nat, min kære, er jeg din hersker.",
+      "name": "Skarlagenkvinde",
+      "other": "Hvis Skarlagenkvinden blev til Dæmonen i dag, vis dem *DU ER*-brikken, derefter Dæmonbrikken."
+    },
+    "seamstress": {
+      "ability": "Èn gang pr. spil, om natten, vælg 2 spillere (ikke dig selv): du lærer hvis de er af samme fraktion.",
+      "first": "Syersken kan vælge 2 spillere. Nik eller ryst på hovedet. :reminder:",
+      "flavor": "Har du hørt, at den fremmede i kashmirfrakken friede til den unge Belle? Og at hun sagde ja? Men, det er ingenting i forhold til, hvad Harry og den dér jonglør havde gang i til markedsdagen. De ting, jeg kunne fortælle, hvis jeg var en sladretante... åh ja.",
+      "name": "Syerske",
+      "other": "Syersken kan vælge 2 spillere. Nik eller ryst på hovedet. :reminder:"
+    },
+    "sentinel": {
+      "ability": "Der kan være 1 ekstra eller 1 færre Fremmed i spil.",
+      "flavor": "Navn, tak. Papirer, tak. Våben, tak.",
+      "name": "Vagtpost"
+    },
+    "shabaloth": {
+      "ability": "Hver nat*, vælg 2 spillere: de dør. En død spiller du valgte i går, kan blive gylpet op.",
+      "flavor": "Blarg f'taag nm mataan! No sho gumtha m'sik na yuuu. Fluuuuuuuuurg h-sikkkh.",
+      "name": "Shabaloth",
+      "other": "En tidligere valgt spiller kan blive gylpet op. :reminder: Shabalothen vælger 2 spillere. :reminder: :reminder:"
+    },
+    "shugenja": {
+      "ability": "Du starter med at vide, om den nærmeste onde spiller er med eller mod urets retning. Hvis der er lige langt, er informationen vilkårlig.",
+      "flavor": "これは夢。それも夢。すべて夢です。",
+      "name": "Shugenja"
+    },
+    "slayer": {
+      "ability": "Én gang pr. spil, om dagen, offentligt vælg en spiller: hvis de er Dæmonen, dør de.",
+      "flavor": "Dø.",
+      "name": "Dræber"
+    },
+    "snakecharmer": {
+      "ability": "Hver nat, vælg en levende spiller: en valgt Dæmon bytter karakterer og fraktion med dig, og er derefter forgiftet.",
+      "first": "Slangetæmmeren vælger en spiller. Hvis de vælger Dæmonen: Vis dem *DU ER*- og Dæmon-brikkerne. Giv dem tommel ned. Byt om på Slangetæmmerens og Dæmonens brikker. Læg den gamle Slangetæmmer til at sove. Væk den gamle Dæmon. Vis dem *DU ER*- og Slangetæmmer-brikkerne og giv dem tommel op. :reminder:",
+      "flavor": "Effendi... Jeg er blot en ydmyg mand, men min fløjte er af guld og en enkel melodi vil tæmme selv den vildeste djinn, Inshallah. De siger, at grådighed hænger flere mænd end reb. Men ikke jeg, Effendi... ikke jeg.",
+      "name": "Slangetæmmer",
+      "other": "Slangetæmmeren vælger en spiller. Hvis de vælger Dæmonen: Vis dem *DU ER*- og Dæmon-brikkerne. Giv dem tommel ned. Byt om på Slangetæmmerens og Dæmonens brikker. Læg den gamle Slangetæmmer til at sove. Væk den gamle Dæmon. Vis dem *DU ER*- og Slangetæmmer-brikkerne og giv dem tommel op. :reminder:"
+    },
+    "snitch": {
+      "ability": "Hver Håndlanger får 3 bluffs.",
+      "flavor": "Det var John.",
+      "name": "Stikker"
+    },
+    "soldier": {
+      "ability": "Du er i sikkerhed fra Dæmonen.",
+      "flavor": "Som David sagde til Goliat, som Theseus sagde til Minotauren, som Arjuna sagde til Bhagadatta... Nej.",
+      "name": "Soldat"
+    },
+    "spiritofivory": {
+      "ability": "Der kan ikke være mere end 1 ekstra ond spiller.",
+      "flavor": "Ødemarken kalder. Knogler stiger op som kød, men falder som støv. Den store ånd vokser. Den store ånd betragter. Den store ånd vejleder. Mennesket lytter, eller mennesket er ikke mere.",
+      "name": "Elfenbensånd"
+    },
+    "spy": {
+      "ability": "Hver nat, ser du Grimoiren. Du kan registrere som god og som en Borger eller Fremmed, selv hvis du er død.",
+      "first": "Vis Grimoiren til Spionen så længe som de har brug for.",
+      "flavor": "Enhver brygmester, som er deres vægt værd i spiritus, ved, at ingen blanding fører hurtigere til ballade end den, hvor man ser dobbelte spioner.",
+      "name": "Spion",
+      "other": "Vis Grimoiren til Spionen så længe som de har brug for."
+    },
+    "steward": {
+      "ability": "Du starter med at kende 1 god spiller.",
+      "flavor": "Hvor VOVER du at anklage Fruen for forseelser? Jeg har kendt hende hele mit liv! Alle ni år!",
+      "name": "Forvalter"
+    },
+    "stormcatcher": {
+      "ability": "Nævn en god karakter. Hvis den er i spil, kan de kun dø ved henrettelse, men onde spillere lærer hvilken spiller det er.",
+      "flavor": "Ved daggry kryber templets lange skygge mod springvandet. Ved skumringstid skærmer obelisken for det skarpe, røde lys og køler det varme vand under buegangen. Alle linjer samler sig her. En storm er på vej, og dette, det frodige og hellige sted mellem æbletræerne, er øjet.",
+      "name": "Stormfanger"
+    },
+    "summoner": {
+      "ability": "Du får 3 bluffs. På den tredje nat, vælg en spiller: de bliver en ond Dæmon efter dit valg. [Ingen Dæmon]",
+      "first": "Vis *DISSE KARAKTERER ER IKKE I SPIL*-brikken. Vis brikkerne for 3 gode karakterer, der ikke er i spil.",
+      "name": "Hidkalder"
+    },
+    "sweetheart": {
+      "ability": "Når du dør, 1 spiller er fuld fra nu af.",
+      "flavor": "Jeg vil aldrig glemme hende. Aldrig.",
+      "name": "Kæreste",
+      "other": "Hvis Kæresten døde, blev en spiller med det samme fuld. Hvis du ikke har gjort det endnu, så gør det nu. :reminder:"
+    },
+    "tealady": {
+      "ability": "Hvis begge dine levende naboer er gode, kan de ikke dø.",
+      "flavor": "Hvis du fryser, vil te varme dig op. Hvis du har det varmt, vil te køle dig af. Hvis du er deprimeret, vil te muntre dig op. Hvis du er ophidset, vil te berolige dig.",
+      "name": "Tedame"
+    },
+    "thief": {
+      "ability": "Hver nat, vælg en spiller (ikke dig selv): deres stemmer tæller negativt i morgen.",
+      "first": "Tyven vælger en spiller. :reminder:",
+      "flavor": "Jeg gjor' ik' no'et. Jeg var ik' engang i den gyde i går! Det var ik' mig, der stjal Borgmester Brunos taske med alle dem fine dokkementer i den. Og forresten var'n oss' for tung at slæb'.",
+      "name": "Tyv",
+      "other": "Tyven vælger en spiller. :reminder:"
+    },
+    "tinker": {
+      "ability": "Du kan dø når som helst.",
+      "flavor": "Jeg tror, jeg forstår problemet. Heldigvis har jeg en idé! Den her katapult vil skyde dobbelt så langt med en lille justering...",
+      "name": "Opfinder",
+      "other": "Opfinderen kan dø. :reminder:"
+    },
+    "towncrier": {
+      "ability": "Hver nat*, lærer du hvis en Håndlanger nominerede i dag.",
+      "flavor": "Hører alle! Hører alle! Heksekunst i labyrinten! Genial savant afslører alt! By i fare! Hører alle!",
+      "name": "Udråber",
+      "other": "Enten nik eller ryst på hovedet."
+    },
+    "toymaker": {
+      "ability": "Dæmonen kan vælge at ikke angribe og skal gøre dette mindst én gang pr. spil. Onde spillere får normal startinfo.",
+      "flavor": "Den summer! Den går på trapper! Den holder dig varm om natten! Den smager som sukker! Ungerne elsker den! Vi præsenterer... den helt nye... Varme-summe-vandreomkring-smagegodt-tingest! Sjov for alle aldersgrupper!",
+      "name": "Legetøjsmager"
+    },
+    "undertaker": {
+      "ability": "Hver nat*, lærer du hvilken karakter der døde ved henrettelse i dag.",
+      "flavor": "Hmmm... Hvad har vi her? Den venstre støvle er slidt helt ned og der er flintspåner under tungen. Det er en militærmands beklædning.",
+      "name": "Bedemand",
+      "other": "Hvis en spiller var henrettet i dag, vis deres karakterbrik."
+    },
+    "vigormortis": {
+      "ability": "Hver nat*, vælg en spiller: de dør. Håndlangere du dræber beholder deres evne og forgifter 1 Borger-nabo. [-1 Fremmed]",
+      "flavor": "Alle døre er en dør. Alle nøgler er en nøgle. Alle kopper er en kop, men den som drikker af det vand, jeg giver, skal aldrig tørste, men vandet skal være i ham en kilde til evigt liv.",
+      "name": "Vigormortis",
+      "other": "Vigormortisen vælger en spiller. :reminder: Hvis den spiller er en Håndlanger, forgiftes en Borger de har som nabo. :reminder: :reminder:"
+    },
+    "villageidiot": {
+      "ability": "Hver nat, vælg en spiller: du lærer deres fraktion. [+0 til +2 Landsbytosser. 1 af de ekstra er fuld]",
+      "flavor": "Roser er blå, violer er røde, byt rundt på dem, så er I søde.",
+      "name": "Landsbytosse"
+    },
+    "virgin": {
+      "ability": "Første gang du bliver nomineret, hvis nominatoren er en Borger, bliver de omgående henrettet.",
+      "flavor": "Jeg er ren. Lad dem, som er uden synd kastes ned og lide i mit sted. Mit ry skal ikke sværtes til af jeres giftige beskyldninger.",
+      "name": "Jomfru"
+    },
+    "vizier": {
+      "ability": "Alle spillere ved at du er Vesiren. Du kan ikke dø om dagen. Hvis de gode har stemt, må du vælge at henrette omgående.",
+      "flavor": "En fremragende beslutning, som altid, min herre. Småkriminalitet som at støde ind i Biskoppen fortjener sandelig Deres \"retfærdighed\" og \"nåde\". Gå en tur i haven. Besøg galleriet og nyd Von Straufs skulpturer, min herre. Overlad alting... til mig.",
+      "name": "Vesir"
+    },
+    "vortox": {
+      "ability": "Hver nat*, vælg en spiller: de dør. Borgerevner giver falsk info. Hver dag, hvis ingen bliver henrettet, vinder det onde hold.",
+      "flavor": "Sort er hvid, ret er vrang. Venstre er højre, op er lang. Ned er syn, kort er blind. Følg mig, følg mig, svaret find.",
+      "name": "Vortox",
+      "other": "Vortoxen vælger en spiller. :reminder:"
+    },
+    "voudon": {
+      "ability": "Kun du og de døde kan stemme. De behøver ingen stemmebrik. Et 50% flertal er ikke nødvendigt.",
+      "flavor": "Bien venu. Sæt dig. Træk vejret dybt. Træd ind i de dødes land. Se med deres øjne. Tal med deres tunge. Yon sel lang se janm ase.",
+      "name": "Voudon"
+    },
+    "washerwoman": {
+      "ability": "Du starter med at vide, at 1 ud af 2 spillere er en bestemt Borger.",
+      "first": "Vis Borgerens karakterbrik. Peg på spillerene markeret *BORGER* og *FORKERT*.",
+      "flavor": "Blodpletter på en smokingjakke? Nej, det er madsherry. Hvor uforsigtigt.",
+      "name": "Vaskekone"
+    },
+    "widow": {
+      "ability": "På din første nat ser du Grimoiren og vælger en spiller: de er forgiftet. 1 god spiller ved, at en Enke er i spil.",
+      "flavor": "Mere vin? Château d'Ergot '07 er en helt særlig årgang. Åh ja, meget særlig endda.",
+      "name": "Enke"
+    },
+    "witch": {
+      "ability": "Hver nat, vælg en spiller: hvis de nominerer i morgen, dør de. Hvis kun 3 spillere lever, mister du denne evne.",
+      "first": "Heksen vælger en spiller. :reminder:",
+      "flavor": "Tre dråber gedeblod. En tot hår, vredt afrevet. Navnet siges, skyggen kastes. Gå med venstre fod først ad den brombærbevoksede sti, og se dig ikke tilbage.",
+      "name": "Heks",
+      "other": "Heksen vælger en spiller. :reminder:"
+    },
+    "wizard": {
+      "ability": "Én gang pr. spil må du komme med et ønske. Hvis det bliver opfyldt, kan det have en pris og efterlade et spor om dets natur.",
+      "flavor": "Enhver mand og enhver kvinde er en stjerne. Kærlighed er loven, kærlighed under vilje.",
+      "name": "Troldmand"
+    },
+    "wraith": {
+      "ability": "Du må vælge at åbne dine øjne om natten. Du vågner, når andre onde spillere også gør.",
+      "first": "Væk Genfærdet, når andre onde spillere vågner.",
+      "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
+      "name": "Genfærd",
+      "other": "Væk Genfærdet, når andre onde spillere vågner."
+    },
+    "xaan": {
+      "ability": "På nat X er alle Borgere forgiftet indtil skumring. [X Fremmede]",
+      "flavor": "Ned falder de. En efter en. Efter to, efter tre, efter fem.",
+      "name": "Xaan",
+      "other": "Skift Xaan-huskebrikken til den relevante nat. Hvis det er nat X, markér Xaan med *X*-huskebrikken. :reminder: :reminder:"
+    },
+    "yaggababble": {
+      "ability": "Du starter med at kende en hemmelig sætning. For hver gang du sagde det offentligt i dag, kan en spiller dø.",
+      "flavor": "Mord på Rue Morgue? Фальшивые новости! Gået i Baskerville-hundene? Фальшивые новости! Død under sejlads på Nilen? Фальшивые новости!",
+      "name": "Yaggababbel"
+    },
+    "zealot": {
+      "ability": "Hvis der er 5 eller flere spillere i live, skal du stemme ved hver eneste nominering.",
+      "flavor": "Jeg nyder at tale med dig. Dit sind tiltaler mig. Det ligner mit eget sind, bortset fra at du tilfældigvis er sindsyg.",
+      "name": "Fanatiker"
+    },
+    "zombuul": {
+      "ability": "Hver nat*, hvis ingen døde i dag, vælg en spiller: de dør. Den første gang du dør, overlever du, men registerer som død.",
+      "flavor": "Jeg kan ikke. Forstå. Dine metoder. Medmenneske. Vis mig. Jorden. Hvor de hellige. Ligger. Sovende. Jeg også. Må sove. Snart.",
+      "name": "Zombuul",
+      "other": "Hvis ingen døde i dag, vælger Zombuulen en spiller. :reminder:"
+    }
+  },
+  "teams": {
+    "demon": "Dæmoner",
+    "fabled": "Sagnhelte",
+    "minion": "Håndlangere",
+    "outsider": "Fremmede",
+    "townsfolk": "Landsbyboere",
+    "traveller": "Rejsende"
+  },
+  "nightMarkers": {
+    "dawn": "Daggry",
+    "demoninfo": "Dæmoninfo",
+    "dusk": "Skumring",
+    "minioninfo": "Håndlangerinfo"
+  },
+  "reminders": {
+    "2nd": "2.",
+    "3attacks": "3 Angreb",
+    "3votes": "3 Stemmer",
+    "abnormal": "Unormalt",
+    "abouttodie": "Ved at dø",
+    "actstwice": "Agerer to gange",
+    "aligned": "Samme fraktion",
+    "alive": "Levende",
+    "amigo": "Amigo",
+    "cannotdie": "Kan ikke dø",
+    "chosen": "Valgt",
+    "claimed": "Hævdede",
+    "correct": "Korrekt",
+    "cursed": "Forbandet",
+    "day1": "Dag 1",
+    "day2": "Dag 2",
+    "day3": "Dag 3",
+    "day4": "Dag 4",
+    "day5": "Dag 5",
+    "dead": "Død",
+    "demonnotvoted": "Dæmon stemte ikke",
+    "demonvoted": "Dæmon stemte",
+    "diedtoday": "Døde i dag",
+    "doesntkill": "Dræber ikke",
+    "drunk": "Fuld",
+    "drunk1": "Fuld 1",
+    "drunk2": "Fuld 2",
+    "drunk3": "Fuld 3",
+    "everyoneisdrunk": "Alle er fulde",
+    "evil": "Ond",
+    "evilwakes": "Onde vågner",
+    "falseinfo": "Falsk info",
+    "fauxpaw": "Faux Paw",
+    "fear": "Frygt",
+    "finalnightnoattack": "Sidste nat: Intet angreb",
+    "friend": "Ven",
+    "good": "God",
+    "goodplayerexecuted": "God spiller henrettet",
+    "grandchild": "Barnebarn",
+    "guessused": "Gæt brugt",
+    "haircutstonight": "Klipper i nat",
+    "hasability": "Har evne",
+    "isthealchemist": "Er Alkymisten",
+    "istheapprentice": "Er Lærlingen",
+    "isthedemon": "Er Dæmonen",
+    "isthedrunk": "Er Drukkenbolten",
+    "isthemarionette": "Er Marionetten",
+    "isthephilosopher": "Er Filosoffen",
+    "know": "Ved",
+    "lunch": "Frokost",
+    "mad": "Gal",
+    "master": "Herre",
+    "maynotnominate": "Kan ikke nominere",
+    "minion": "Håndlanger",
+    "minionnominated": "Håndlanger nominerede",
+    "minionsnotnominated": "Håndlangere nominerede ikke",
+    "negativevote": "Negativ stemme",
+    "night1": "Nat 1",
+    "night2": "Nat 2",
+    "night3": "Nat 3",
+    "noability": "Ingen evne",
+    "nominateevil": "Nominér ond",
+    "nominategood": "Nominér god",
+    "nomoreevil": "Ikke flere onde",
+    "once": "Én gang",
+    "outsider": "Fremmed",
+    "poisoned": "Forgiftet",
+    "protected": "Beskyttet",
+    "redherring": "Vildspor",
+    "registerfalsely": "Registrer falsk?",
+    "safe": "Sikker",
+    "soberhealthy": "Ædru & Rask",
+    "somethingbad": "Noget dårligt",
+    "storytellerability": "Fortællerevne",
+    "survivesexecution": "Overlever henrettelse",
+    "teapartytonight": "Teselskab i nat",
+    "townsfolk": "Borger",
+    "turnsevil": "Bliver ond",
+    "twin": "Tvilling",
+    "visitor": "Besøgende",
+    "whoopsie": "Hovsa",
+    "wrong": "Forkert"
+  },
+  "jinxes": {
+    "alchemist-boffin": "Hvis Alkymisten har Æggehoved-evnen, lærer Alkymisten ikke hvilken evne Dæmonen har.",
+    "alchemist-marionette": "En Alkymist-Marionet har ingen Marionetevne, og Marionetten er i spil.",
+    "alchemist-mastermind": "En Alkymist-Mastermind har ingen Mastermind-evne, og Masterminden er ikke i spil.",
+    "alchemist-organgrinder": "Hvis Alkymisten har Organkværner-evnen, er Organkværneren i spil. Hvis begge er ædru, er begge fulde.",
+    "alchemist-spy": "En Alkymist-Spion har ingen Spion-evne, og en Spion er i spil. Efter hver henrettelse, kan en levende Alkymist-Spion offentligt gætte en levende spiller som Spionen. Gættes korrekt, skal Dæmonen vælge Spionen i nat.",
+    "alchemist-summoner": "Alkymist-Hidkalderen får ikke bluffs, og vælger hvilken Dæmon der er i spil, men ikke hvilken spiller. Hvis de dør før dette sker, vinder det onde hold. [Ingen Dæmon]",
+    "alchemist-widow": "En Alkymist-Enke har ingen Enke-evne, og der er en Enke i spil. Efter hver henrettelse kan en levende Alkymist-Enke offentligt gætte en levende spiller som Enken. Gættes korrekt, skal Dæmonen vælge Enken i nat.",
+    "alchemist-wraith": "Et Alkymist-Genfærd har ingen Genfærd-evne, og et Genfærd er i spil. Efter hver henrettelse, et levende Alkymist-Genfærd kan offentligt gætte en levende spiller som Genfærdet. Hvis rigtigt, skal Dæmonen vælge Genfærdet i nat.",
+    "alhadikhia-mastermind": "Hvis Al-Hadikhiaen dør til henrettelse, og Overmanden er i live, vælger Al-Hadikhiaen 3 gode spillere i nat: hvis alle 3 vælger at leve, vinder det onde hold. Ellers, vinder det gode hold.",
+    "alhadikhia-princess": "Hvis Prinsessen nominerede og henrettede en spiller på deres 1. dag, dør ingen til Al-Hadikhiaen i nat.",
+    "alhadikhia-scarletwoman": "Hvis der ville være to Dæmoner, og en af dem var Skarlagenkvinden, bliver Skarlagenkvinden til Skarlagenkvinden igen.",
+    "alsaahir-vizier": "Fortælleren erklærer ikke at Vesiren er i spil.",
+    "atheist-riot": "Under et oprør, hvis Fortælleren bliver nomineret, holdes en afstemning. Hvis de er \"ved at dø,\" slutter spillet. Hvis ikke, nominerer de igen.",
+    "balloonist-marionette": "Hvis Marionetten tror de er Ballonfareren, kan en Fremmed være blevet tilføjet ved opsætning.",
+    "banshee-leviathan": "Hver nat*, vælger Livjatanen en levende, god spiller (anderledes end tidligere nætter): en valgt Banshee dør, og får deres evne.",
+    "banshee-riot": "Hver nat*, vælger Oprøret en levende, god spiller (anderledes end tidligere nætter): en valgt Banshee dør, og får deres evne.",
+    "banshee-vortox": "Hvis Vortoxen dræber Bansheen, lærer alle spillere at Bansheen er død.",
+    "baron-heretic": "Kun 1 Jinxet karakter kan være i spil.",
+    "baron-plaguedoctor": "Hvis fortælleren får Baronens evne, op til to spillere bliver til fremmede.",
+    "boffin-cultleader": "Hvis Dæmonen har Kultleder-evnen, kan de ikke blive gode som følge af denne evne.",
+    "boffin-drunk": "Dæmonen kan ikke have Drukkenboltens evne.",
+    "boffin-goon": "Hvis Dæmonen har Slyngel-even, kan de ikke blive gode på grund af denne evne.",
+    "boffin-heretic": "Dæmonen kan ikke have Kætter-evnen.",
+    "boffin-ogre": "Dæmon kan ikke have Trold-evnen.",
+    "boffin-politician": "Dæmonen kan ikke have Politikker-evnen.",
+    "boffin-villageidiot": "Hvis der er en ekstra brik, kan Æggehovedet give Dæmonen Landsbytosse-evnen.",
+    "boomdandy-plaguedoctor": "Hvis Fortælleren ville få Krudtkarl-evnen, bliver en spiller til Krudtkarlen.",
+    "bountyhunter-kazali": "Hvis Kazalien gør Dusørjægeren til en Håndlanger, bliver en Borger ikke gjort ond.",
+    "bountyhunter-philosopher": "Hvis filosoffen får dusør jægerens evne kan en borger muligvis blive ond.",
+    "butler-cannibal": "Hvis kanibalen får butlerens evne vil kanibalen lære dette.",
+    "butler-organgrinder": "Hvis Lirekassemanden tvinger øjne til at være lukkede under afstemning, må Butleren rejse deres hånd for at stemme, men deres stemme tæller kun hvis deres herre også stemte.",
+    "cannibal-juggler": "Hvis Jongløren gætter på deres første dag, og dør til henrettelse, lærer den levende Kannibal i nat, hvor mange gæt Jongløren fik rigtigt.",
+    "cannibal-princess": "Hvis Kannibalen nominerede, henrettede, og dræbte Prinsessen i dag, dræber Dæmonen ikke i nat.",
+    "cannibal-zealot": "Hvis Kannibalen får Fanatiker-evnen, lærer Kannibalen dette.",
+    "cerenovus-goblin": "Cerenovussen må vælge at gøre en spiller gal som Nissen.",
+    "chambermaid-mathematician": "Stuepigen kan opdage om Matematikeren vil vågne i nat.",
+    "clockmaker-summoner": "Hidkalderen registrerer som Dæmonen til Urmageren.",
+    "courtier-summoner": "Hvis den levende hidkalder ikke har nogen evne, vil fortælleren have hidkalerens evne.",
+    "courtier-vizier": "Hvis Vesirren mister deres evne, lærer de dette, og kan ikke dø om dagen.",
+    "cultleader-pithag": "Hvis Mosekonen forvandler en ond spiller til Kultlederen, kan de ikke blive gode på grund af deres egen evne.",
+    "damsel-pithag": "Hvis Mosekonen skaber en Ungmø, vælger Fortælleren hvilken spiller det er.",
+    "damsel-spy": "Hvis Spionen er (eller har været) i spil, er Frøkenen forgiftet.",
+    "damsel-widow": "Hvis Enken er (eller har været) i spil, er Frøkenen forgiftet.",
+    "drunk-mathematician": "Matematikeren kan lære hvis Drukkenboltens evne gav falsk info, eller ikke virkede korrekt.",
+    "engineer-legion": "Hvis Legion bliver skabt, bliver alle onde spillere til Legion. Hvis Legion er i spil, starter Ingeniøren med at vide dette, men har ingen evne.",
+    "engineer-summoner": "Hvis den levende hidkalder er taget ud af spil, vil fortælleren have hidkalerens evne.",
+    "eviltwin-plaguedoctor": "Hvis Fortælleren ville få Ond Tvilling-evnen, bliver en spiller til Ond Tvilling.",
+    "exorcist-leviathan": "Hvis Livjatan nominerer og henretter den Eksorcist-valgte spiller, vinder det gode hold.",
+    "exorcist-riot": "Hvis Oprøret nominerer og henretter den Eksorcist-valgte spiller, vinder de gode.",
+    "exorcist-yaggababble": "Hvis Eksorcisten vælger Yaggababble, dræber Yaggababble ikke i nat.",
+    "fanggu-scarletwoman": "Hvis der ville være to Dæmoner, og en af dem var Forføreren, forbliver Forføreren som Forføreren.",
+    "farmer-leviathan": "Hver nat*, vælger Livjatanen en levende, god spiller (anderledes end tidligere nætter): en valgt Landmand bruger deres evne, men dør ikke.",
+    "farmer-riot": "Hver nat*, vælger Oprøret en levende, god spiller (anderledes end tidligere nætter): en valgt Landmand bruger deres evne, men dør ikke.",
+    "fearmonger-plaguedoctor": "Hvis Fortælleren ville få Frygtmager-evnen, får en Håndlanger den, og lærer dette.",
+    "fearmonger-vizier": "Vesirren vækkes sammen med Frygtmageren, lærer hvem de vælger, and kan ikke vælge at øjeblikkeligt henrette den spiller.",
+    "goblin-plaguedoctor": "Hvis Fortælleren ville få Nisse-evnen, får en Håndlanger den og lærer dette.",
+    "godfather-heretic": "Kun 1 jinxed karakter kan være i spil.",
+    "goon-pithag": "Hvis Mosekonen gør en ond spiller til Slynglen, kan de ikke blive gode på grund af deres egen evne.",
+    "grandmother-leviathan": "Hvis Livjatan er i spil, og Barnebarnet dør til henrettelse, vinder det onde hold.",
+    "grandmother-riot": "Hvis Oprøret er i spil, og Barnebarnet dør til henrettelse, vinder de onde.",
+    "hatter-legion": "Hvis Legion bliver skabt, bliver alle onde spillere til Legion. Hvis Legion er i spil, har Hattemageren ingen evne.",
+    "hatter-leviathan": "Livjatan kan ikke komme i spil efter dag 5.",
+    "hatter-lilmonsta": "Hvis Hattemageren dør, og Dæmonen vælger Lillemonstret, vælger de også en Håndlanger at blive.",
+    "hatter-summoner": "Hvis Hidkalderen skaber en anden levende Dæmon, er dødsfald vilkårlige i nat.",
+    "heretic-lleech": "Kun 1 jinxet karakter kan være i spil.",
+    "heretic-pithag": "Kun 1 jinxet karakter kan være i spil.",
+    "heretic-spy": "Kun 1 jinxet karakter kan være i spil.",
+    "heretic-widow": "Kun 1 jinxet karakter kan være i spil.",
+    "huntsman-marionette": "Hvis Marionetten tror, at de er Jægeren, blev en Ungmø tilføjet ved opsætning.",
+    "innkeeper-leviathan": "Hvis Livjatanen nominerer og henretter en Krovært-beskyttet spiller, vinder det gode hold.",
+    "innkeeper-riot": "Hvis Oprøret nominerer og henretter en Krovært-beskyttet spiller, vinder de gode.",
+    "investigator-vizier": "Fortælleren erklærer ikke at Vesirren er i spil.",
+    "kazali-marionette": "Hvis der ville være en Marionet i spil, kommer de i spil efter Dæmonen gør, og skal starte som deres nabo.",
+    "kazali-summoner": "Hvis Hidkalderen skaber en anden levende Dæmon, er dødsfald vilkårlige i nat.",
+    "king-leviathan": "Hvis Livjatan er i spil, og mindst 1 spiller er død, lærer Kongen en levende karakter hver nat.",
+    "king-riot": "Hvis Oprøret er i spil, og mindst 1 spiller er død, lærer Kongen en levende spiller hver nat.",
+    "legion-magician": "Tryllekunstneren vækkes sammen med Legion og kan registreres som ond. Legion ved, at der er en Tryllekunstner i spil men ikke, hvilken spiller det er.",
+    "legion-minstrel": "Hvis Legion døde til henrettelse i dag, beholder Legion deres evne, men Skjalden kan lære, at de er Legion.",
+    "legion-politician": "Politikeren kan registreres som ond for Legion.",
+    "legion-preacher": "Hvis Prædikanten vælger Legion, beholder Legion deres evne, men Prædikanten kan lære, at de er Legion.",
+    "legion-summoner": "Hvis Legion bliver hidkaldt, bliver alle onde spillere til Legion.",
+    "legion-zealot": "Fanatikeren kan registreres som ond for Legion.",
+    "leviathan-mayor": "Hvis Livjatanen og Borgmesteren er i live på dag 5, og der ingen henrettelse sker, vinder det gode hold.",
+    "leviathan-monk": "Hvis Livjatanen nominerer og henretter den Munk-beskyttede spiller, vinder det gode hold.",
+    "leviathan-pithag": "Livjatanen kan ikke komme i spil efter dag 5.",
+    "leviathan-ravenkeeper": "Hver nat* vælger Livjatanen en levende spiller (en anden end tidligere nætter): en valgt Ravnevogter bruger deres evne men dør ikke.",
+    "leviathan-sage": "Hver nat* vælger Livjatanen en levende, god spiller (en anden end tidligere nætter): en valgt Vismand bruger deres evne men dør ikke.",
+    "leviathan-soldier": "Hvis Livjatanen nominerer og henretter Soldaten, vinder det gode hold.",
+    "lilmonsta-magician": "Hvis Tryllekunstneren er i live, vælger Fortælleren, hvilken Håndlanger der babysitter Lillemonsteret.",
+    "lilmonsta-marionette": "Hvis der ville være en Marionet i spil, kommer de i spil, efter Dæmonen gør, og skal starte som deres nabo.",
+    "lilmonsta-poppygrower": "Hvis Lillemonsteret og Valmueavleren er i live, vækkes Håndlangere én ad gangen, indtil en af dem vælger at tage Lillemonster-brikken.",
+    "lilmonsta-psychopath": "Hvis Psykopaten babysitter Lillemonsteret, dør de, når de bliver henrettet.",
+    "lilmonsta-scarletwoman": "Hvis Lillemonsteret dør, mens der er 5 eller flere spillere i live, babysitter Skarlagenkvinden Lillemonsteret resten af spillet.",
+    "lilmonsta-vizier": "Hvis Vesiren babysitter Lillemonsteret, dør de, når de bliver henrettet.",
+    "lleech-mastermind": "Hvis Overmanden er i live, og Iigle-værten dør ved henrettelse, vil Iiglen overleve men miste sin evne.",
+    "lleech-slayer": "Hvis Dræberen skyder Iigle-værten, dør værten.",
+    "lordoftyphon-summoner": "Hvis Tyfonherren bliver hidkaldt, skal de være nabo til en Håndlanger, og deres anden nabo bliver til en ond Håndlanger.",
+    "lunatic-mathematician": "Matematikeren kan lære, om Særlingen angriber en anden spiller, end den rigtige Dæmon gjorde.",
+    "magician-marionette": "Hvis Tryllekunstneren er i live, ved Dæmonen ikke, hvilken nabo der er Marionetten.",
+    "magician-spy": "Når Spionen ser Grimoiren, er Dæmonens og Tryllekunstnerens brikker fjernet.",
+    "magician-vizier": "Hvis Vesiren er i spil, har Tryllekunstneren ingen evne men er immun over for Vesirens evne.",
+    "magician-widow": "Når Enken ser Grimoiren, er Dæmonens og Tryllekunstnerens brikker fjernet.",
+    "magician-wraith": "Efter hver henrettelse må den levende Tryllekunstner offentligt gætte en levende spiller som Genfærdet. Gættes rigtigt, skal Dæmonen vælge Genfærdet i nat.",
+    "marionette-mathematician": "Matematikeren kan lære, om Marionettens evne gav falsk info eller ikke virkede korrekt.",
+    "marionette-plaguedoctor": "Hvis Fortælleren ville få Marionet-evnen, bliver en af Dæmonens gode naboer til Marionetten.",
+    "marionette-summoner": "Hvis der ville være en Marionet i spil, kommer de i spil, efter Dæmonen gør, og skal starte som deres nabo.",
+    "mastermind-vigormortis": "En Overmand, der har sin evne, beholder den, hvis Vigormortisen dør.",
+    "mayor-riot": "Borgmesteren kan vælge at stoppe oprøret. Hvis de gør det, når der kun er 1 levende Oprør, vinder det gode hold. Ellers vinder det onde hold.",
+    "monk-riot": "Hvis Oprøret nominerer og henretter den Munk-beskyttede spiller, vinder det gode hold.",
+    "ogre-pithag": "Hvis Mosekonen forvandler en ond spiller til Trolden, kan de ikke blive god som følge af deres egen evne.",
+    "ogre-recluse": "Hvis Eneboeren registreres som ond for Trolden, lærer Trolden, at de er ond.",
+    "ogre-spy": "Spionen registreres som ond for Trolden.",
+    "pithag-politician": "Hvis Mosekonen forvandler en ond spiller til Politikeren, kan de ikke blive god som følge af deres egen evne.",
+    "pithag-summoner": "Hvis Hidkalderen skaber en anden levende Dæmon, er dødsfald vilkårlige i nat.",
+    "pithag-villageidiot": "Hvis der er en ekstra brik, kan Mosekonen skabe en ekstra Landsbytosse. I så fald kan den fulde Landsbytosse ændre sig.",
+    "plaguedoctor-scarletwoman": "Hvis Fortælleren ville få Skarlagenkvinde-evnen, får en Håndlanger den og lærer dette.",
+    "plaguedoctor-spy": "Hvis Fortælleren ville få Spion-evnen, får en Håndlanger den og lærer dette.",
+    "plaguedoctor-wraith": "Hvis Fortælleren ville få Genfærd-evnen, får en Håndlanger den og lærer dette.",
+    "politician-vizier": "Politikeren kan registreres som ond for Vesiren.",
+    "poppygrower-spy": "Hvis Valmueavleren har sin evne, kan Spionen ikke se Grimoiren.",
+    "poppygrower-summoner": "Hvis Valmueavleren er i live den tredje nat, vælger Hidkalderen hvilken Dæmon, men ikke hvilken spiller.",
+    "poppygrower-widow": "Hvis Valmueavleren har sin evne, kan Enken ikke se Grimoiren.",
+    "preacher-summoner": "Hvis den levende Hidkalder ikke har nogen evne, har Fortælleren Hidkalder-evnen.",
+    "preacher-vizier": "Hvis Vesiren mister sin evne, lærer de dette og kan ikke dø om dagen.",
+    "pukka-summoner": "Hidkalderen kan hidkalde en Pukka på den anden nat i stedet for den tredje.",
+    "ravenkeeper-riot": "Hver nat* vælger Oprøret en levende, god spiller (en anden end tidligere nætter): en valgt Ravnevogter bruger sin evne men dør ikke.",
+    "recluse-sage": "Eneboeren kan registreres som Dæmonen for Vismanden.",
+    "riot-sage": "Hver nat* vælger Oprøret en levende, god spiller (en anden end tidligere nætter): en valgt Vismand bruger sin evne men dør ikke.",
+    "riot-soldier": "Hvis Oprøret nominerer og henretter Soldaten, vinder det gode hold.",
+    "summoner-zombuul": "Hvis Hidkalderen hidkalder en død spiller som Zombuulen, er Zombuulen allerede \"død én gang\".",
+    "vizier-zealot": "Fanatikeren kan registreres som ond for Vesiren."
+  },
+  "ui": {
+    "firstNight": "Første Nat",
+    "otherNights": "Andre Nætter",
+    "players": "Spillere"
+  }
+}

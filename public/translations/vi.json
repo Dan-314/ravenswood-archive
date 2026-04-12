@@ -1,0 +1,1336 @@
+{
+  "roles": {
+    "acrobat": {
+      "ability": "Mỗi đêm*, chọn một người: nếu họ đang hoặc trở nên say rượu hoặc trúng độc tối nay, bạn chết.",
+      "flavor": "Chào mừng quý khán giả đến với buổi diễn tuyệt vời nhất quá đất.",
+      "name": "Acrobat",
+      "other": "Acrobat chọn 1 người. :reminder:"
+    },
+    "alchemist": {
+      "ability": "Bạn có năng lực của Tay sai. Khi dùng nó, Người kể truyện có thể nhắc bạn đưa ra lựa chọn khác.",
+      "first": "Cho xem token *BẠN LÀ* và một token của Tay sai.",
+      "flavor": "Cùng ta đi sâu vào lòng đất. Bằng sự tinh luyện, ngươi có thể tìm được viên đá ẩn. Trên là vàng, dưới là đỏ. Kether trong Malkuth.",
+      "name": "Alchemist"
+    },
+    "alhadikhia": {
+      "ability": "Mỗi đêm*, bạn có thể chọn 3 người (mọi biết là những ai): mỗi người bí mật chọn được sống hay chết, nhưng nếu tất cả sống, tất cả chết.",
+      "flavor": "Alsukut min dhahab.",
+      "name": "Al-Hadikhia",
+      "other": "Al-Hadikhia chọn 3 người. :reminder: :reminder: :reminder: Lần lượt gọi từng mục tiêu. Họ gật hoặc lắc đầu. Cho họ ngủ rồi gọi mục tiêu tiếp theo."
+    },
+    "alsaahir": {
+      "ability": "Mỗi ngày, nếu bạn công khai đoán (những) ai là Tay sai và (những) ai là Ác quỷ, phe tốt thắng.",
+      "flavor": "Ta ở đây vì ngươi, và ngươi ở đây vì ta.",
+      "name": "Alsaahir"
+    },
+    "amnesiac": {
+      "ability": "Bạn không biết bạn có năng lực gì. Mỗi ngày, bí mật đoán nó là gì: bạn biết độ chính xác của suy đoán đó.",
+      "first": "Làm cái gì đó để dùng cho năng lực của Amnesiac.",
+      "flavor": "Khoan. Ủa. Từ từ? À, ok. Ủa. Khoan?",
+      "name": "Amnesiac",
+      "other": "Làm cái gì đó để dùng cho năng lực của Amnesiac."
+    },
+    "angel": {
+      "ability": "Điều xấu có thể xảy ra với người chịu trách nhiệm cho cái chết của người mới.",
+      "first": "Thông báo những ai được bảo vệ bởi Angel. :reminder:",
+      "flavor": "Để những kẻ vô tâm đụng tay đến người ta chọn, và ta sẽ đánh họ bằng hàng ngàn trận sấm của sự tức giận và công lý.",
+      "name": "Angel"
+    },
+    "apprentice": {
+      "ability": "Trong đêm đầu tiên của bạn, bạn nhận được năng lực của Dân làng (nếu là người tốt), hoặc năng lực của Tay sai (nếu là người xấu).",
+      "first": "Cho xem token *BẠN LÀ*, và token Dân làng hoặc Tay sai. Thay thế token Apprentice với Dân làng hoặc Tay Sai. :reminder:",
+      "flavor": "Nhiều năm qua, ta đã đi và tìm hiểu Kỹ sảo đó. Bạn có thể hỏi \"Kỹ xảo nào?\". Chỉ có thể thôi với người suy nghĩ giản đơn. Không cần phải để ý điều đó. Không phải bây giờ.",
+      "name": "Apprentice"
+    },
+    "artist": {
+      "ability": "Một lần trong trò chơi, trong ngày, bí mật hỏi Người kể truyện bất kỳ câu hỏi đúng/sai.",
+      "flavor": "Mon Dieu! C'est lumineux! Tác phẩm của tôi, cổ ấy... phải nói thể nào... Thât Lộng lẫy! Dieu est révélé! Oui.",
+      "name": "Artist"
+    },
+    "assassin": {
+      "ability": "Một lần trong trò chơi, trong đêm*, chọn một người: họ chết, ngay cả khi có lý do họ không chết được.",
+      "flavor": "...",
+      "name": "Assassin",
+      "other": "Assassin có thể chọn một người chơi. :reminder: :reminder:"
+    },
+    "atheist": {
+      "ability": "Người kể truyện có thể phá vỡ luật chơi, và nếu bị hành quyết, phe tốt thắng, ngay cả khi bạn chết. [Không có nhân vật phe xấu]",
+      "flavor": "Hãy bỏ qua hết mọi phỏng đoán không cần thiết và sự hoang đường vô lý đi . Mọi thứ đều có lý do hợp lý cả. Đúng, cái chén có thể đang quay quanh hành tinh, quá nhỏ để thẩy, nhưng ta sẽ uống trà bằng cái chén cực kì thật này bằng bàn tay cực kì thật này.",
+      "name": "Atheist"
+    },
+    "balloonist": {
+      "ability": "Mỗi đêm, bạn biết một người chơi khác loại nhân vật với người đêm trước. [+0 hoặc +1 Ngoại lai]",
+      "first": "Chỉ vào người chơi bất kỳ. :reminder:",
+      "flavor": "Thêm lửa! Cao lên! Cao lên nữa! Più alto! Ahhh... nó trông thật tuyệt ở trên này, đúng không? Anh có thấy bọn trẻ con đang câu cá bên hồ gần gốc cây liễu? Anh có thấy ánh nắng đang chiếu trên rạp xiếc? Cái gì kia? Một ông già cô đơn, đang ngủ ở vườn nho? Hạ lửa xuống! Xuống đi! Xuống đi nào! Vai più in basso!",
+      "name": "Balloonist",
+      "other": "Chỉ vào người có loại nhân vật khác với người được chỉ trước đó. :reminder:"
+    },
+    "banshee": {
+      "ability": "Nếu Ác quỷ giết bạn, mọi người biết điều này. Từ bây giờ, bạn có thể biểu quyết hai lần mỗi ngày và bỏ hai phiếu cho mỗi biểu quyết.",
+      "flavor": "Gorm do shúile, dearg do ghruaig, ní bheidh sé i bhfad, is a mbeidh tú san uaigh.",
+      "name": "Banshee",
+      "other": "Nếu Banshee bị giết bởi Ác quỷ tối nay, thông báo là Banshee đã chết. :reminder:"
+    },
+    "barber": {
+      "ability": "Nếu bạn chết sáng hoặc tối nay, Ác quỷ có thể chọn hoán đổi nhân vật hai người (không phải Ác quỷ khác).",
+      "flavor": "Bạn có biết, cắt tóc và giải phẫu từng là cùng một nghề nghiệp? Không à? Vậy thì, bây giờ bạn biết rồi đấy.",
+      "name": "Barber",
+      "other": "Nếu Barber chết sáng hoặc tối nay, cho Ác quỷ thấy token *NHÂN VẬT NÀY CHỌN BẠN* & token Barber. Nếu Ác quỷ chọn 2 người, gọi từng người dậy. Cho thấy token *BẠN LÀ* & token nhân vật mới của họ."
+    },
+    "barista": {
+      "ability": "Mỗi đêm, đến hoàng hôn, 1) một người chơi trở nên tỉnh táo, khỏe mạnh & nhận thông tin đúng, hoặc 2) năng lực của họ hoạt động hai lần. Họ biết là cái nào.",
+      "first": "Chọn một người. Gọi họ dậy, cho xem token *NHÂN VẬT NÀY CHỌN BẠN* & Barista, rồi giơ một số. :reminder:",
+      "flavor": "Một cốc cà phê không kem, đúng không Ngài? Tôi xin lỗi, nhưng chúng tôi vừa hết kem rồi — hay là không sữa có được không?",
+      "name": "Barista",
+      "other": "Chọn một người. Gọi họ dậy, cho xem token *NHÂN VẬT NÀY CHỌN BẠN* & Barista, rồi giơ một số. :reminder:"
+    },
+    "baron": {
+      "ability": "Có thêm Ngoại lai trong trò chơi. [+2 Ngoại lai]",
+      "flavor": "Thị trấn này đúng là tồi tàn thật, cái gì? Ngoại nhân công giá rẻ... đúng là điều tuyệt vời. Đưa họ hết đến chỗ ta đi. Một tí công việc nặng không giết ai đâu, và ta sẽ véo tai nhưng thằng nào nói ngược lại. Nó cũng chỉ là cái chung thôi, đúng không?",
+      "name": "Baron"
+    },
+    "beggar": {
+      "ability": "Bạn phải dùng dấu phiếu để bỏ phiếu. Nếu người chết đưa phiếu của họ cho bạn, bạn biết phe của họ. Bạn luôn tính táo và khỏe mạnh.",
+      "flavor": "Giúp đỡ người nghèo được không Ngài? Phiền Quý bà để cho tôi một đồng không? Cảm ơn, Ta ơn Trời! Quý bà đúng là một con người tốt đẹp! Tôi sẽ mua một chút đồ ăn cho tối nay, tôi chắc chắn vậy!",
+      "name": "Beggar"
+    },
+    "bishop": {
+      "ability": "Chỉ có Người kể truyện có quyền biểu quyết. Ít nhất 1 người chơi khác phe phải bị biểu quyết mỗi ngày.",
+      "flavor": "In nomine Patris, et Filii, et Spiritus Sancti… Nos mos Dei. Deus vult de nobis.",
+      "name": "Bishop"
+    },
+    "boffin": {
+      "ability": "Ác quỷ (ngay cả khi say rượu hoặc trúng độc) có năng lực của nhân vật tốt ngoài trò chơi. Hai bạn biết là năng lực nào.",
+      "first": "Gọi Boffin và Ác quỷ dậy. Cho xem token *NHÂN VẬT NÀY CHỌN BẠN* và Boffin, và token một nhân vật tốt không có trong trò chơi.",
+      "flavor": "Chóm hydro, rộng lớn, hỗn loạn; khí cacbon, oxy, neon đều bị phá hủy. Hỗn loạn của nguyên tử, entropy, cho thấy hiện tượng thiên văn, tái sinh từ sự hỗn loạn nguyên tử, chất đặc tự phá hủy. Tất cả chỉ trong một cái chai bé xíu này.",
+      "name": "Boffin"
+    },
+    "bonecollector": {
+      "ability": "Một lần trong trò chơi, trong đêm*, chọn một người chết: họ được hồi năng lực của họ đến hoàng hôn.",
+      "flavor": "Tôi sưu tầm nhiều thứ. Tóc. răng. Quần áo. Mảnh thơ. Ước mơ của người yêu đã mất. Nghệ thuật bí ẩn của tôi không để ngươi biết nhưng giá của nó cũng tương đối nhỏ. Mang cho tôi máu của bả quý tộc chết vì đau lòng dưới trăng tròn, và ngươi sẽ có đáp án ngươi cần.",
+      "name": "Bone Collector",
+      "other": "Bone Collector có thể chọn một người chết. :reminder: Nếu cần, gọi người được chọn để dùng năng lực."
+    },
+    "boomdandy": {
+      "ability": "Nếu bạn bị hành quyết, tất cả trừ 3 người chơi chết. Sau khi đếm ngược từ 10 xuống 1, người có nhiều người chỉ nhất, chết.",
+      "flavor": "Tíc...tíc...tíc...TOCK.",
+      "name": "Boomdandy"
+    },
+    "bootlegger": {
+      "ability": "Kịch bản này có nhân vật hoặc luật tự chế.",
+      "flavor": "Khi ta được sinh ra, ta được đặt tên là 'Homebrewey McHomebrewface', giống như tên của cha ta. Một cái tên đáng kính, cho thời kỳ đáng giá.",
+      "name": "Bootlegger"
+    },
+    "bountyhunter": {
+      "ability": "Bạn bắt đầu biết 1 người xấu. Nếu người bạn biết chết, bạn biết một người xấu khác tối nay. [1 Dân làng là người xấu]",
+      "first": "Chỉ vào người được đánh dấu *BIẾT*.",
+      "flavor": "Cô độc, tôi đi bộ trên con đường này, bốc lên là mùi thối của tham nhũng. Mùi đặc của nó xộc lên mũi tôi, không mời, rực cháy với sự ghê tởm. Và sự mong đợi. Bệnh tật tại nơi tồi tàn này trải rộng mỗi đêm. Và ta... ta chính là thuốc giải.",
+      "name": "Bounty Hunter",
+      "other": "Nếu người được đánh dấu *BIẾT* chết sáng hoặc tối nay, chỉ vào người được đánh dấu *BIẾT* mới."
+    },
+    "buddhist": {
+      "ability": "Trong 2 phút đầu mỗi ngày, người chơi gạo cội không được nói.",
+      "first": "Thông báo những ai bị ảnh hưởng bởi Buddhist.",
+      "flavor": "Người ném gai. Rơi vào sự tĩnh lặng của ta, nó sẽ biến thành bông hoa.",
+      "name": "Buddhist"
+    },
+    "bureaucrat": {
+      "ability": "Mỗi đêm, chọn một người (không phải bạn): phiếu của họ được đếm là 3 phiếu ngày mai.",
+      "first": "Bureaucrat chọn một người. :reminder:",
+      "flavor": "Hãy ký vào đây. Và đây. Và đây. Vààààààààà đây. Tất cả những cái này sẽ được lọc và đếm lúc cuối ngày, giả sử chữ ký của mọi người đều rõ ràng. Chúng tôi lâu nay chưa bao giờ gặp lỗi. Trưa qua, nếu tôi nhớ không nhầm...",
+      "name": "Bureaucrat",
+      "other": "Bureaucrat chọn một người. :reminder:"
+    },
+    "butcher": {
+      "ability": "Mỗi ngày, sau hành quyết đầu tiên, bạn có thể biểu quyết lần nữa.",
+      "flavor": "Nó có vị như gà. Cho thêm cái nữa.",
+      "name": "Butcher"
+    },
+    "butler": {
+      "ability": "Mỗi đêm, chọn một người (không phải bạn): ngày mai, bạn chỉ có quyền bỏ phiếu khi họ bỏ phiếu cùng.",
+      "first": "Butler chọn một người. :reminder:",
+      "flavor": "Đúng rồi, thưa ngài... Không, thưa ngài... Chắc chắn rồi, thưa ngài.",
+      "name": "Butler",
+      "other": "Butler chọn một người. :reminder:"
+    },
+    "cannibal": {
+      "ability": "Bạn có năng lực của người bị chết vì hành quyết gần nhất. Nếu họ là người xấu, bạn bị trúng độc cho đến khi có người tốt chết vì hành quyết.",
+      "flavor": "Tôi không thích hề. Bọn họ vị hơi hài hài.",
+      "name": "Cannibal"
+    },
+    "cerenovus": {
+      "ability": "Mỗi đêm, chọn một người & một nhân vật tốt: họ phải \"điên\" họ là nhân vật đó sáng mai, hoặc họ có thể bị hành quyết.",
+      "first": "Cerenovus chọn một người và một nhân vật. :reminder: Cho Cerenovus đi ngủ. Gọi người được chọn dậy. Cho xem token *NHÂN VẬT NÀY CHỌN BẠN*, token Cerenovus, và token nhân vật cần điên.",
+      "flavor": "Thực tế chỉ là một ý kiến. Chính xác hơn là ý kiến của ta.",
+      "name": "Cerenovus",
+      "other": "Cerenovus chọn một người và một nhân vật. :reminder: Cho Cerenovus đi ngủ. Gọi người được chọn dậy. Cho xem token *NHÂN VẬT NÀY CHỌN BẠN*, token Cerenovus, và token nhân vật cần điên."
+    },
+    "chambermaid": {
+      "ability": "Mỗi đêm, chọn 2 người sống (không phải bạn): bạn biết có bao nhiêu người dậy tối nay vì năng lực của họ.",
+      "first": "Chambermaid chọn 2 người sống. Giơ một số.",
+      "flavor": "Tôi chưa thấy gì bất tiện, thưa Quý bà. Xin thứ lỗi nhưng nếu tôi thấy gì, nó chắc chắn không phải là chủ biệt thự này bước vào phòng thí nghiệm của giáo sư lúc tầm mười một giờ và trộn các thuốc với nhau, giống như bà nói, thưa Bà.",
+      "name": "Chambermaid",
+      "other": "Chambermaid chọn 2 người sống. Giơ một số."
+    },
+    "chef": {
+      "ability": "Bạn bắt đầu biết có bao nhiêu cặp người xấu cạnh nhau.",
+      "first": "Giơ một số.",
+      "flavor": "Bàn đặt tối nay trông hơi lạ. Chưa bao giờ thấy bà Mayweather đi cùng với gã đến từ Hudson Lane. Vậy mà tối nay, bọn họ lại đặt bàn đôi. Lạ thật.",
+      "name": "Chef"
+    },
+    "choirboy": {
+      "ability": "Nếu Ác quỷ giết King, bạn biết người nào là Ác quỷ. [+ King]",
+      "flavor": "Tôi đã thấy nó, đúng vậy. Tôi ở ghế dài, sắp xếp mấy cuốn thành ca, khi một âm thanh ghê rợn phát ra từ đàn ống. Người đánh đàn có một cái áo choàng dài, và ngòn tay dài trên phím. Và cái mũ trông... giống như... của ngươi.",
+      "name": "Choirboy",
+      "other": "Nếu Ác quỷ giết King, chỉ vào người chơi Ác quỷ."
+    },
+    "clockmaker": {
+      "ability": "Bạn bắt đầu biết có bao nhiêu bước từ Ác quỷ đến Tay sai gần nhất.",
+      "first": "Giơ một số.",
+      "flavor": "Đừng làm phiền ta. Tiếng tíc phải tiếp diễn, vì hình tròn là biểu tượng cho sự sống và chứa tất cả mọi thứ - mọi câu trả lời - trong bộ máy thần. Ta phải làm việc.",
+      "name": "Clockmaker"
+    },
+    "courtier": {
+      "ability": "Một lần trong trò chơi, trong đêm, chọn một nhân vật: họ bị say trong 3 đêm & 3 ngày.",
+      "first": "Courtier có thể chọn một nhân vật. :reminder: :reminder:",
+      "flavor": "Tôi sợ con hổ cầm đầu đội quân trăm cừu hơn con cừu cầm đầu đội quân trăm hổ.",
+      "name": "Courtier",
+      "other": "Courtier có thể chọn một nhân vật. :reminder: :reminder:"
+    },
+    "cultleader": {
+      "ability": "Mỗi đêm, bạn trờ thành phe của một hàng xóm còn sống. Nếu tất cả người tốt theo giáo hội của bạn, đội của bạn thắng.",
+      "first": "Cult Leader có thể đổi phe. Nếu vậy, cho xem token *BẠN LÀ* & giơ ngón cái lên hoặc xuống.",
+      "flavor": "Họ tự nghĩ mình khôn rồi khắc họ sẽ tự biến thành thằng ngốc.",
+      "name": "Cult Leader",
+      "other": "Cult Leader có thể đổi phe. Nếu vậy, cho xem token *BẠN LÀ* & giơ ngón cái lên hoặc xuống."
+    },
+    "damsel": {
+      "ability": "Tất cả Tay sai biết có Damsel trong trò chơi. Nếu một Tay sai công khai đoán bạn (một lần), đội của bạn thua.",
+      "first": "Trong Thông tin Tay sai, cho Tay sai xem token Damsel. Nếu bạn chưa làm điều này, làm vậy ngay. Nếu Damsel được chọn bởi Huntsman, cho xem token *BẠN LÀ* & nhân vật mới của họ.",
+      "flavor": "Đừng chạm vào tóc chị nhé em.",
+      "name": "Damsel",
+      "other": "Nếu Damsel được chọn bởi Huntsman, cho xem token *BẠN LÀ* & nhân vật mới của họ."
+    },
+    "dawn": {
+      "first": "Đợi vài giây. Kết thúc Giai đoạn Ban đêm.",
+      "other": "Đợi vài giây. Kết thúc Giai đoạn Ban đêm."
+    },
+    "demoninfo": {
+      "first": "Nếu có 7 người chơi trở lên, gọi Ác quỷ dậy: Cho xem token *ĐÂY LÀ TAY SAI CỦA BẠN*. Chỉ vảo tất cả Tay sai. Cho xem token *NHỮNG NHÂN VẬT SAU KHÔNG CÓ TRONG TRÒ CHƠI*. Cho xem 3 token nhân vật tốt không có trong trò chơi."
+    },
+    "deusexfiasco": {
+      "ability": "Ít nhất một lần trong trò chơi, Người kể truyện sẽ mắc lỗi, chỉnh sửa nó, và công khai nhận lỗi.",
+      "flavor": "Đây không phải là bug, đấy là tính năng. Đây không phải là lỗi, đẩy là kế hoạch có sẵn. Chỗ này không hỏng, nó là cái đặc biệt.",
+      "name": "Deus ex Fiasco"
+    },
+    "deviant": {
+      "ability": "Nếu bạn gây hài sáng nay, bạn không thể chết vì lưu đày.",
+      "flavor": "Twây là lời chọc phu nhân, thật đó.",
+      "name": "Deviant"
+    },
+    "devilsadvocate": {
+      "ability": "Mỗi ngày, chọn một người sống (khác đêm trước): nếu sáng mai bị hành quyết, họ không chết.",
+      "first": "Devil's Advocate chọn một người sống. :reminder:",
+      "flavor": "Thân chủ của tôi, khi phản đối được bác bỏ, được phán vô tội do bên công tố không tuân thủ điều luật 27.B - chia động từ sai hoặc gây hiểu lầm. Sự việc 9 người trong bồi thẩm đoàn chết tối qua chỉ là thoáng qua, chính là, như vụ giữa Wills và Thule đã đặt ra, lý do để được tha bổng.",
+      "name": "Devil's Advocate",
+      "other": "Devil's Advocate chọn một người sống. :reminder:"
+    },
+    "djinn": {
+      "ability": "Sử dụng luật đặc biệt của Djinn. Mọi người biết luật đó là gì.",
+      "flavor": "(Tiếng Ả Rập) Chúng tôi không có ở đây. Ngươi không có thật. Câu hỏi của người giống như ánh đèn giữa trời quang.",
+      "name": "Djinn"
+    },
+    "doomsayer": {
+      "ability": "Nếu còn 4 người sống trở lên, mỗi người sống có thể công khai chọn (một lần trong trò chơi) để một người cùng phe mình chết.",
+      "flavor": "Và đến Ngày thứ Bảy, sẽ có một trận lũ lụt lớn và bệnh dịch bùng phát lên Người của Ngôi làng Quạ! Người chết sẽ trỗi dậy và người sống sẽ hối hận! Ơi khổ đau! Ơi những ngày trời phạt! Chỉ khi có sự hy sinh thì mới chiến thắng! Như lời các Hiền Nhân tại Nostros và lời của Ta.",
+      "name": "Doomsayer"
+    },
+    "dreamer": {
+      "ability": "Mỗi đêm, chọn một người (không phải bạn hoặc Du khách): bạn biết 1 nhân vật tốt & 1 nhân vật xấu, 1 trong số đó là đúng.",
+      "first": "Dreamer chỉ một người. Cho xem 1 token nhân vật tốt & 1 token nhân vật xấu, 1 trong số đó là nhân vật của họ.",
+      "flavor": "Tôi mơ thấy Thợ đồng hồ. Trời đỏ và mưa lác đác rơi. Ở đó có mùi cây đồng thảo cùng với tiếng sôi sùng sục. Một cụ bà với 2 đôi bắt đỏ và râu lởm chởm nhìn lên bầu trời. Và rồi, tôi tỉnh dậy.",
+      "name": "Dreamer",
+      "other": "Dreamer chỉ một người. Cho xem 1 token nhân vật tốt & 1 token nhân vật xấu, 1 trong số đó là nhân vật của họ."
+    },
+    "drunk": {
+      "ability": "Bạn không biết bạn là Drunk. Bạn nghĩ mình là một nhân vật Dân làng, nhưng bạn không phải là nó.",
+      "flavor": "Tôi chỉ *hic* uống để giao lưu thôi. Nói thật, tôi *ợ* giao lưu cũng hơi nhiều chút.",
+      "name": "Drunk"
+    },
+    "duchess": {
+      "ability": "Mỗi ngày, 3 người có thể được thăm bạn. Trong đêm*, mỗi khách thăm được biết bao nhiêu vị khách là người xấu, nhưng 1 trong số đó nhận thông tin sai.",
+      "flavor": "Tôi chỉ tiếp đón trong khoảng thời gian chính xác từ 6 đến 7 giờ. Trà tiếp lúc 6h15. Bánh kẹo lúc 6h45. Đừng đến muộn. Trang phục vẫn phải lịch sự như thường lệ.",
+      "name": "Duchess",
+      "other": "Từng người một: Gọi từng người được đánh dấu *ĐẾN THĂM* hoặc *THÔNG TIN SAI*. Cho xem token *NHÂN VẬT NÀY CHỌN BẠN* & Duchess, rồi giơ một số."
+    },
+    "dusk": {
+      "first": "Bắt đầu Giai Đoạn Ban Đêm.",
+      "other": "Bắt đầu Giai Đoạn Ban Đêm."
+    },
+    "empath": {
+      "ability": "Mỗi đêm, bạn biết có bao nhiêu trong số 2 hàng xóm còn sống của bạn là người xấu.",
+      "first": "Giơ một số.",
+      "flavor": "Tôi bắt đầu nổi da gà. Có cái gì không đúng ở đây. Tôi cảm thấy điều đó.",
+      "name": "Empath",
+      "other": "Giơ một số."
+    },
+    "engineer": {
+      "ability": "Một lần trong trò chơi, trong đêm, chọn những Tay sai nào hoặc Ác quỷ nào có trong trò chơi.",
+      "first": "Engineer có thể chọn những Tay sai hoặc Ác quỷ. Cho Engineer đi ngủ. Lần lượt gọi (những) mục tiêu dậy. Cho xem token *BẠN LÀ* & nhân vật mới của họ. :reminder:",
+      "flavor": "Nếu nó cong, được. Nếu nó gãy, thực ra nó thể nào cũng cần phải sửa thôi.",
+      "name": "Engineer",
+      "other": "Engineer có thể chọn những Tay sai hoặc Ác quỷ. Cho Engineer đi ngủ. Gọi (những) mục tiêu dậy. Cho xem token *BẠN LÀ* & nhân vật mới của họ. :reminder:"
+    },
+    "eviltwin": {
+      "ability": "Bạn & một người khác phe biết nhau. Nếu người phe tốt bị hành quyết, phe xấu thắng. Phe tốt không thể thắng nếu hai bạn cùng sống.",
+      "first": "Gọi cả hai sinh đôi dậy. Cho hai người nhìn nhau. Cho sinh đôi tốt thấy token nhân vật của Evil Twin và ngược lại.",
+      "flavor": "Tôi không phải là Sara! Tôi là Clara! CÔ TA mới là Sara! Sara là người xấu! Không phải tôi!",
+      "name": "Evil Twin"
+    },
+    "exorcist": {
+      "ability": "Mỗi đêm*, chọn một người (khác đêm trước): Ác quỷ, nếu được chọn, biết bạn là ai rồi không được dậy nữa.",
+      "flavor": "Ta sẽ khiến ngươi rời đi, những linh hồn tà ác, những thế lực ác quỷ, những cuộc tấn công từ địa ngục, những đội quân, những giáo hội ác độc, trong tên và bằng sức mạnh của Chúa Jesus. Ta ra lệnh cho ngươi, hãy biến đi và bay xa khỏi Nhà thời của Chúa, khỏi những linh hồn tạo bởi Chúa và chuộc lại bằng máu của Cừu thần thánh.",
+      "name": "Exorcist",
+      "other": "Exorcist chọn một người. :reminder: Cho Exorcist đi ngủ. Nếu Exorcist chọn Ác quỷ: Gọi Ác quỷ dậy. Cho xem token *NHÂN VẬT NÀY CHỌN BẠN* & nhân vật Exorcist. Chỉ vào Exorcist."
+    },
+    "fanggu": {
+      "ability": "Mỗi đêm*, chọn một người: họ chết. Ngoại lai đầu tiên nhân vật này giết biến thành Fang Gu & bạn chết thay họ. [+1 Ngoại lai]",
+      "flavor": "Bức tường và vũ khí của các ngươi cũng chỉ là làn khói trong giấc mơ thôi.",
+      "name": "Fang Gu",
+      "other": "Fang Gu chọn một người. :reminder: Nếu họ chọn Ngoại lai (chỉ một lần): Thay thế token Ngoại lai đó với token Fang Gu còn lại. Cho Fang Gu đi ngủ. Gọi mục tiêu dậy. Cho xem token *BẠN LÀ* và Fang Gu & giơ ngón cái xuống. :reminder:"
+    },
+    "farmer": {
+      "ability": "Khi bạn chết trong đêm, một người tốt còn sống biến thành Farmer.",
+      "flavor": "Ngay cả người cấp cao cũng cần có bàn ăn. Không có chúng tôi, cả thành phố sẽ chịu đói.",
+      "name": "Farmer",
+      "other": "Nếu Farmer chết tối nay, gọi một người tốt còn sống dậy. Cho xem token *BẠN LÀ* và token Farmer."
+    },
+    "fearmonger": {
+      "ability": "Mỗi đêm, chọn một người: nếu bạn biểu quyết & hành quyết họ, đội của họ thua. Tất cả người chơi biết khi bạn chọn một người mới.",
+      "first": "Fearmonger chọn một người. :reminder: Thông báo rằng Fearmonger đã chọn một người.",
+      "flavor": "Cẩn thận khi nhìn chằm vào Đáy vực, kẻo Đáy vực cũng sẽ nhìn chằm vào ngươi.",
+      "name": "Fearmonger",
+      "other": "Fearmonger chọn một người. :reminder: Nếu mục tiêu khác với tối qua, thông báo rằng Fearmonger đã chọn một người."
+    },
+    "ferryman": {
+      "ability": "Vào ngày cuối cùng, tất cả người chết được hồi lại dấu phiếu của họ.",
+      "flavor": "Khi ước mơ chính nghĩa đến, nó sẽ mang đến sức nặng của sự thật.",
+      "name": "Ferryman"
+    },
+    "fibbin": {
+      "ability": "Một lần trong trò chơi, một người tốt có thể nhận thông tin sai.",
+      "flavor": "Tee-hee-hee. Tee. Hee. Hee.",
+      "name": "Fibbin"
+    },
+    "fiddler": {
+      "ability": "Một lần trong trò chơi, Ác quỷ bí mật chọn một người khác phe: tất cả người chơi chọn ai là người thắng trong hai người.",
+      "flavor": "Ta cá là ngươi sẽ không thể thắng ta trong cuộc thi vĩ cầm, cái thằng nhóc kia! Ta sẽ chơi tất tay, khiến cho cả quán rượu này phải nhảy múa tưng bừng. Ta sẽ đá bay ngươi khi chúng ta gặp nhau sáng mai nhé thằng nhóc.",
+      "name": "Fiddler"
+    },
+    "fisherman": {
+      "ability": "Một lần trong trò chơi, trong ngày, gặp Người kể truyện để được nhận vài lời khuyên để giúp đội của bạn thắng.",
+      "flavor": "Đây là phần sông ta thích nhất... thấy ánh nắng tạo thành cầu vồng từ tu viện đến phiên chợ không? Đây là nơi tuyệt nhất để bắt cá lớn. Và ta càng già, cá càng lớn.",
+      "name": "Fisherman"
+    },
+    "flowergirl": {
+      "ability": "Mỗi đêm*, bạn biết Ác quỷ có bỏ phiếu sáng nay không.",
+      "flavor": "Hoa đồng thảo hôm qua đã héo và chết rồi, nhưng hôm nay hoa anh túc đã nở rộ.",
+      "name": "Flowergirl",
+      "other": "Gật hoặc lắc đầu của bạn."
+    },
+    "fool": {
+      "ability": "Lần đầu bạn chết, bạn không chết.",
+      "flavor": "...và Nhà vua nói 'Cái gì?! Ta chưa bao giờ có cái quần cao su, nữa là một cái pháo kem!' Ho-ho! Đúng là ngày vui!",
+      "name": "Fool"
+    },
+    "fortuneteller": {
+      "ability": "Mỗi đêm, chọn 2 người: bạn biết trong hai người có Ác quỷ không. Có một người tốt được bạn nhìn thấy là Ác quỷ.",
+      "first": "Fortune Teller chọn 2 người. Gật đầu nếu trong 2 người có Ác quỷ (hoặc *ĐIỂM MÙ*).",
+      "flavor": "Tôi có một thấy có ác cảm trong tâm hồn của ngươi! Nhưng... cũng có thể là mùi nước hoa của ngươi. Tôi bị dị ứng với Quả cơm cháy.",
+      "name": "Fortune Teller",
+      "other": "Fortune Teller chọn 2 người. Gật đầu nếu trong 2 người có Ác quỷ (hoặc *ĐIỂM MÙ*)."
+    },
+    "gambler": {
+      "ability": "Mỗi đêm*, chọn một người & đoán nhân vật của họ: nếu bạn đoán sai, bạn chết.",
+      "flavor": "Ngửa, tôi thắng. Úp, anh thua.",
+      "name": "Gambler",
+      "other": "Gambler chọn một người & một nhân vật. :reminder:"
+    },
+    "gangster": {
+      "ability": "Một lần trong trò chơi, bạn có thể chọn để giết một hàng xóm còn sống, nếu hàng xóm còn lại của bạn đồng ý.",
+      "flavor": "Tôi thích giầy của anh, Tôi sẽ rất tiếc nếu như anh gặp một tai nạn nhỏ, và nó bị hư hỏng. Bây giờ mới để ý, tôi cũng thích cái khuy măng sét của anh.",
+      "name": "Gangster"
+    },
+    "gardener": {
+      "ability": "Người kể truyện chỉ định nhân vật của tất cả người chơi.",
+      "flavor": "Ôi, thế này không ổn đâu. Hình như cây ô dầu lại lẫn với cây ban sói và cây độc cần đang che kín cây hạnh chi! Ôi trời đất tôi ơi, ta cần phải làm lại từ đầu thôi. Đưa tôi cái kéo.",
+      "name": "Gardener"
+    },
+    "general": {
+      "ability": "Mỗi đêm, bạn biết phe Người kể truyện nghĩ là đang thắng: phe tốt, phe xấu, hay không phe nào.",
+      "first": "Giơ ngón cái.",
+      "flavor": "Tôi không rảnh để trích dẫn.",
+      "name": "General",
+      "other": "Giơ ngón cái."
+    },
+    "gnome": {
+      "ability": "Tất cả người chơi bắt đầu biết một người cùng phe bạn. Bạn có thể chọn để giết bất kỳ người nào biểu quyết họ.",
+      "flavor": "Bốn điểm hay 7 cốc bia, không cái nào hay với tôi và cốc tôi. Một trò đùa để bật hết cả từng miếng gỗ sàn này, rất nhỏ. Một bài viết dài vô tật về tiếng cười, không bằng ta thật sự chứng kiến nó, không thể chối cãi. Ha-urrumph.",
+      "name": "Gnome"
+    },
+    "goblin": {
+      "ability": "Nếu bạn công khai nhận là Goblin khi bị biểu quyết & bị hành quyết hôm đó, đội của bạn thắng.",
+      "flavor": "Ngươi không được xúc phạm yêu tinh. Ngươi thật sự không nên làm vậy. Mà đổi sang chủ để mới... ngươi có thể cho ta xin miếng bánh khác không?",
+      "name": "Goblin"
+    },
+    "godfather": {
+      "ability": "Bạn bắt đầu biết những Ngoại lai có trong trò chơi. Nếu 1 trong số đó chết sáng nay, chọn một người tối nay: họ chết. [-1 hoặc +1 Ngoại lai]",
+      "first": "Cho xem token nhân vật của tất cả Ngoại lai có trong trò chơi.",
+      "flavor": "Thông thường, nó chỉ là kinh doanh. Nhưng nếu ngươi dám xúc phạm con gái ta, thì ngươi xúc phạm ta. Và khi ngươi xúc phạm ta, ngươi xúc phạm cả gia đình ta. Ngươi nên cẩn thận - ta sẽ thấy tội nghiệp nếu như ngươi gặp tai nạn đáng tiếc.",
+      "name": "Godfather",
+      "other": "Nếu Ngoại lai chết sáng nay, Godfather chọn một người chơi. :reminder:"
+    },
+    "golem": {
+      "ability": "Bạn chỉ có thể biểu quyết một lần trong trò chơi. Khi bạn làm vậy, nếu người bị biểu quyết không phải là Ác quỷ, họ chết.",
+      "flavor": "Người đá giúp? Người đá phá! Người đá giúp.",
+      "name": "Golem"
+    },
+    "goon": {
+      "ability": "Mỗi đêm, người đầu tiên chọn bạn bằng năng lực của họ bị say rượu đến hoàng hôn. Bạn biến thành phe của họ.",
+      "flavor": "Đúng vậy sếp. Tôi đã giải thích rất cẩn thận cho gã đó. Gã không muốn tôi phải nói lại. Không thưa sếp, tôi không cần bác sĩ - đây chỉ là vết dao. Sáng hôm sau sẽ ổn ngay.",
+      "name": "Goon"
+    },
+    "gossip": {
+      "ability": "Mỗi ngày, bạn có thể đưa ra mệnh đề công khai. Tối nay, nếu nó đúng, một người chết.",
+      "flavor": "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah. Blah.",
+      "name": "Gossip",
+      "other": "Nếu Gossip phải giết một người, họ chết. :reminder:"
+    },
+    "grandmother": {
+      "ability": "Bạn bắt đầu biết một người tốt & nhân vật của họ. Nếu Ác quỷ giết họ, bạn chết theo.",
+      "first": "Chỉ vào người cháu & cho xem token nhân vật của họ.",
+      "flavor": "Cháu phải mặc áo ấm trước khi ra ngoài. Và cầm theo ấm nước. Và khăn, Tim ta yếu lắm mà cháu. Bà phải làm sao nếu cháu bị ốm... hay tệ hơn?",
+      "name": "Grandmother",
+      "other": "Nếu cháu bị giết bởi Ác quỷ, Grandmother chết theo. :reminder:"
+    },
+    "gunslinger": {
+      "ability": "Mỗi ngày, sau lần đếm phiếu đầu tiên, bạn có thể chọn một người bỏ phiếu: họ chết.",
+      "flavor": "Đến lúc phải đó người trực tiếp xử lý việc này. Người đó... là ta.",
+      "name": "Gunslinger"
+    },
+    "harlot": {
+      "ability": "Mỗi đêm*, chọn một người sống: nếu họ đồng ý, bạn biết nhân vật của họ, nhưng hai bạn có thể cùng chết.",
+      "flavor": "Enchanté, Thủy thủ. Anh trông như là người cần nói chuyện về vấn đề của chính mình. Tôi là người giỏi lắng nghe mà. Rất, rất giỏi.",
+      "name": "Harlot",
+      "other": "Harlot chọn một người sống. Cho Harlot đi ngủ. Gọi người được chọn dậy, cho ho xem token *NHÂN VẬT NÀY CHỌN BẠN*, và token Harlot. Nếu người đó gật đầu, gọi Harlor dậy và cho họ thấy token nhân vật của người được chọn. Cả hai người có thể chết. :reminder: :reminder:"
+    },
+    "harpy": {
+      "ability": "Mỗi đêm, chọn 2 người: sáng mai, người đầu tiên phải điên rằng người thứ hai là người xấu, hoặc một hoặc cả hai bạn chết.",
+      "first": "Harpy chọn 2 người. :reminder: :reminder: Cho Harpy đi ngủ. Gọi mục tiêu đầu tiên dậy. Cho xem token *NHÂN VẬT NÀY CHỌN BẠN*, token Harpy, và chỉ vào mục tiêu thứ hai.",
+      "flavor": "Một ngày yên bình mà ta không bao giờ thấy, cũng như một ngày không có kẻ nào ở trên đầu ta.",
+      "name": "Harpy",
+      "other": "Harpy chọn 2 người. :reminder: :reminder: Cho Harpy đi ngủ. Gọi mục tiêu đầu tiên dậy. Cho xem token *NHÂN VẬT NÀY CHỌN BẠN*, token Harpy, và chỉ vào mục tiêu thứ hai."
+    },
+    "hatter": {
+      "ability": "Nếu bạn chết sáng hoặc tối nay, Tay sai & Ác quỷ có thể chọn Tay sai & Ác quỷ mới để biến thành.",
+      "flavor": "Một mũ. Hai mũ. Ba mũ. Báo mũ. Tu mũ. Nam mũ. Sau mũ. Mãy bủ.",
+      "name": "Hatter",
+      "other": "Nếu Hatter chết, gọi Tay sai & Ác quỷ dậy. Từng người có thể chọn nhân vật mới. Nếu vậy, cho xem token *BẠN LÀ* & token nhân vật mới của họ."
+    },
+    "hellslibrarian": {
+      "ability": "Điềm xấu có thể xảy ra với người nào nói khi Người kể truyện cần im lặng.",
+      "flavor": "Shhhhhh. Xin hãy im lặng. Tốt nhất là không nên làm phiền Quản thư. Tôi nghe nói nó rất nóng tính.",
+      "name": "Hell's Librarian"
+    },
+    "heretic": {
+      "ability": "Phe nào đáng lẽ thắng sẽ thua và phe nào đáng lẽ thua sẽ thắng, ngay cả khi bạn đã chết.",
+      "flavor": "Sau khi cơn mua đá phá nát mái vòm và làm vỡ vụn những cái kính cửa sổ của Nhà thờ, nó hòa tan vào lòng đất, như một còn cừu hấp hối giữa lòng sa mạc. Quả là ngụ ngôn của một người điên.",
+      "name": "Heretic"
+    },
+    "hermit": {
+      "ability": "Bạn có năng lực của tất cả Ngoại lai. [-0 hoặc -1 Ngoại lai]",
+      "flavor": "Ở một nơi dường như thất lạc và dần bị lãng quên, ánh sáng chập chờn của tâm hồn vẫn đang vẫy gọi.",
+      "name": "Hermit"
+    },
+    "highpriestess": {
+      "ability": "Mỗi đêm, biết được người chơi nào Người kể truyện nghĩ là bạn nên nói chuyện với nhất.",
+      "first": "Chỉ tay vào một người chơi.",
+      "flavor": "Có một sự sống nhen nhỏi ẩn nấp sau bức màn đa nhân cách được dựng lên như từng lớp mặt nạ khác nhau. Nhưng cuộc sống đôi khi có những khoảnh khác khi bức màn được hạ xuống để đáp lại một cách sâu sắc cho những điều sâu sắc.",
+      "name": "High Priestess",
+      "other": "Chỉ vào một người chơi."
+    },
+    "huntsman": {
+      "ability": "Một lần trong trò chơi, vào ban đêm, chọn một người chơi còn sống: Damsel, nếu được chọn, trở thành một Dân làng không có trong ván chơi. [+Damsel]",
+      "first": "Huntsman có thể chọn một người chơi. :reminder: Nếu người chơi đó là Damsel: Cho Huntsman đi ngủ. Đánh thức Damsel and cho họ thấy token *BẠN LÀ* và token nhân vật mới của họ.",
+      "flavor": "Căn chòi của tôi thật ấm áp và vững trãi. Rìu ở cạnh cửa, giày tôi thì đang hong khô bên lửa, và nai kho đang sôi sùng sục... Hark! Một tiếng hét vọng ra từ thung lũng! Trong cơn mưa, bùn lầy và cái lạnh, rất lạnh của gió che đi mùi hương của bầy sói, nhưng ta biết đường và mọi thứ chuẩn bị xong. Ta đến ngay đây.",
+      "name": "Huntsman",
+      "other": "Huntsman có thể chọn một người chơi. :reminder: Nếu người chơi đó là Damsel: Cho Huntsman đi ngủ. Đánh thức Damsel and cho họ thấy token thông tin *BẠN LÀ* và token nhân vật mới của họ."
+    },
+    "imp": {
+      "ability": "Mỗi đêm*, chọn một người chơi: họ sẽ chết. Nếu bạn giết bản thân bằng cách này, một Tay sai sẽ trở thành Imp.",
+      "flavor": "Chúng ta phải giữ đầu óc sắc bén và thanh kiếm sắc bén hơn. Tà ác ở giữa chúng ta, và sẽ không ngừng cho đến khi những người dân làng lương thiện như chúng ta bị tiêu diệt hoàn toàn, và ngôi làng bình yên này chỉ còn đống đổ nát. Đừng tin ai cả. Nhưng, nếu bạn cần đặt niềm tin vào ai, đừng ngại mà hãy tin tưởng tôi.",
+      "name": "Imp",
+      "other": "Imp chọn một người chơi. :reminder: Nếu Imp chọn bản thân: Thay token của một Tay sai còn sống với một token Imp còn lại. Cho Imp đi ngủ. Đánh thức Imp mới. Cho họ thấy token *BẠN LÀ*, và token Imp."
+    },
+    "innkeeper": {
+      "ability": "Mỗi đêm*, chọn 2 người chơi: họ không thể chết đêm nay, nhưng 1 người sẽ bị say rượu cho đến hoàng hôn.",
+      "flavor": "Vào trong đi những người lữ hành trẻ và cho tấm thân mệt mỏi đó được nghỉ ngơi. Hãy cụng ly và liên hoan, vì quân đoàn của Kẻ Hắc Ám sẽ không quấy rối các bạn đêm nay.",
+      "name": "Innkeeper",
+      "other": "Innkeeper chọn 2 người chơi. :reminder: :reminder: :reminder:"
+    },
+    "investigator": {
+      "ability": "Bạn bắt đầu biết 1 trong 2 người chơi đang là một Tay sai cụ thể.",
+      "first": "Cho thấy token nhân vật Tay sai. Chỉ tay vào người chơi hiện là nhân vật *TAY SAI* và người chơi *SAI*.",
+      "flavor": "Quả là một đêm tuyệt vời để đi dạo, phải không, Ngài Morozov? Hay tôi nên gọi là ... BÁ TƯỚC Morozov?",
+      "name": "Investigator"
+    },
+    "judge": {
+      "ability": "Một lần trong trò chơi, nếu một người chơi khác bị biểu quyết, bạn có thể chọn để cho phép hành quyết hiện tại thông qua hay thất bại.",
+      "flavor": "Tôi phán quyết bị cáo có tội giết người, lừa đảo, đốt nhà, trộm cắp, mạo danh viên chức thi hành luật pháp, hành nghề y không có giấy phép, phỉ báng, giết người và xả rác.",
+      "name": "Judge"
+    },
+    "juggler": {
+      "ability": "Vào ngày đầu tiên của bạn, công khai đoán nhận vật của tối đa 5 người chơi. Vào đêm đó, bạn biết có bao nhiêu dự đoán của bạn là chính xác.",
+      "flavor": "Màn trình diễn tiếp theo, như lời yêu cầu của quý khán giả, tôi sẽ cần một bông hoa, một bao đậu, một con rắn đồ chơi, một cây cọ vẽ, và một cái máy tỉa cành vận hành bằng xăng có động cơ. Nhưng tôi phải cảnh báo trước, đây có thể là màn trình diễn cuối cùng của tôi. Lạy trời.",
+      "name": "Juggler",
+      "other": "Giơ một số."
+    },
+    "kazali": {
+      "ability": "Mỗi đêm*, chọn một người: họ chết. [Bạn chọn người chơi và nhân vật Tay sai họ trở thành. -? đến +? Ngoại lai]",
+      "first": "Kazali chọn những ai là Tay sai nào. Gọi từng mục tiêu dậy. Cho xem token *BẠN LÀ* và nhân vật Tay sai & giơ ngón cái xuống.",
+      "flavor": "Gon(z)a7les6. Hãy c4n th4n. Sự cơ kh1 h0á đã bị đẢ0 ngu06. Lỗ1 trongh3th0ng. Tính \\{7\\}oán lại.",
+      "name": "Kazali",
+      "other": "Kazali chọn một người. :reminder:"
+    },
+    "king": {
+      "ability": "Mỗi đêm, nếu số người chết bằng hoặc nhiều hơn số người còn sống, bạn sẽ biết được một nhân vật còn sống. Ác quỷ biết bạn là King.",
+      "first": "Đánh thức Ác quỷ: Cho xem token *NGƯỜI NÀY LÀ* và token nhân vật King, và chỉ tay vào King.",
+      "flavor": "Giữa ẩn chiến trên cái đất gian trần / Đêm kinh hoàng, ngọt với ẩn và đau / Lời nói dối giữa rải màu số thần / Khu vườn ai tựa Mặt với Tuyết phau.",
+      "name": "King",
+      "other": "Nếu số người chết bằng hoặc nhiều hơn số người còn sống, cho xem token nhân vật của một người còn sống."
+    },
+    "klutz": {
+      "ability": "Khi bạn biết được bạn đã chết, công khai chọn một người sống: nếu họ là người xấu, đội của bạn thua.",
+      "flavor": "Ôi không.",
+      "name": "Klutz"
+    },
+    "knight": {
+      "ability": "Bạn bắt đầu biết 2 người chơi không phải là Ác quỷ.",
+      "first": "Chỉ tay vào hai người được đánh dấu *BIẾT*.",
+      "flavor": "Khi một người đàn ông bắt đầu nói dối, anh ta đã giết chết một phần nào đó của thế giới.",
+      "name": "Knight"
+    },
+    "legion": {
+      "ability": "Mỗi đêm*, một người có thể chết. Hành quyết thất bại khi tất cả người xấu bỏ phiếu. Bạn cũng được tính là Tay sai. [Hầu hết nguời chơi sẽ là Legion]",
+      "flavor": "Chúng tôi là cơn gió độc vào ngày đông lạnh lẽo. Chúng tôi là hình bóng giữa đêm không trăng. Chúng tôi là chất độc trong tách trà của bạn, và là lời thì thầm bên tai. Chúng tôi ở khắp mọi nơi.",
+      "name": "Legion",
+      "other": "Một người bất kỳ có thể chết. :reminder:"
+    },
+    "leviathan": {
+      "ability": "Nếu nhiều hơn 1 người tốt bị hành quyết, phe xấu thắng. Tất cả người chơi biết có bạn trong ván chơi. Sau ngày thứ 5, phe xấu thắng.",
+      "first": "Thông báo có Leviathan trong trò chơi. :reminder:",
+      "flavor": "Ta vật lộn với y đến tận cùng. Từ trái tim địa ngục, ta đâm y. Vì hận thù, ta khạc hơi thở cuối cùng vào y.",
+      "name": "Leviathan",
+      "other": "Thay thế token ghi chú tới ngày tương ứng. :reminder: Bạn có thể thông báo có Leviathan trong trò chơi."
+    },
+    "librarian": {
+      "ability": "Bạn bắt đầu biết 1 trong 2 người là một Ngoại lai cụ thể. (Hoặc là không có Ngoại lai nào.)",
+      "first": "Cho thấy token nhân vật Ngoại lai. Chỉ tay vào người có dấu *NGOẠI LAI* và người chơi *SAI*.",
+      "flavor": "Tất nhiên rồi quý bà, trong những trường hợp bình thường, quý bà có thể mượn Codex Malificarium từ kho lưu trữ của thư viện. Tuy nhiên, có vẻ như bà không phải là thành viên của chúng tôi.",
+      "name": "Librarian"
+    },
+    "lilmonsta": {
+      "ability": "Mỗi đêm, Tay sai chọn người trông Lil' Monsta & \"chính là Ác quỷ\". Mỗi đêm*, một người có thể chết. [+1 Tay sai]",
+      "first": "Gọi Tay sai dậy. Họ chọn một người. :reminder: Cho Tay sai ngủ. Gọi mục tiêu dậy. Cho xem token *BẠN LÀ* & Lil' Monsta.",
+      "flavor": "Bước 1: Tỏ vẻ dễ xương. Bước 2: Thống trị thế giới. Bước 3: Ăn séng.",
+      "name": "Lil' Monsta",
+      "other": "Gọi Tay sai dậy. Họ chọn một người. :reminder: Cho Tay sai ngủ. Gọi mục tiêu dậy. Cho xem token *BẠN LÀ* & Lil' Monsta. Một người có thể chết. :reminder:"
+    },
+    "lleech": {
+      "ability": "Mỗi đêm*, chọn một người: họ chết. Bạn bắt đầu bằng việc chọn một người: họ bị trúng độc. Bạn chết khi & chỉ khi người đó chết.",
+      "first": "Lleech chọn một người. :reminder:",
+      "flavor": "Rất ngon, ngon, ngon, ngon, ngon, ngon, ngon, ngon, ôi cái nã- ý tôi là bánh. Chiếc bánh ngon lành. Phải, đó là điều tôi muốn nói.",
+      "name": "Lleech",
+      "other": "Lleech chọn một người. :reminder:"
+    },
+    "lordoftyphon": {
+      "ability": "Mỗi đêm*, chọn một người: họ chết. [Nhân vật phe xấu ngồi cạnh nhau thành. Bạn ngồi ở giữa. +1 Tay sai. -? đến +? Ngoại lai]",
+      "first": "Gọi hàng xóm của Lord of Typhon. Cho xem token *BẠN LÀ* và nhân vật Tay sai & giơ ngón cái xuống.",
+      "flavor": "Ở những góc tối và bị lãng quên của vũ trụ, nơi các vì sao thì thầm những bí mật vào hư không, ẩn chứa một sự thật sâu sắc đến nỗi chỉ cần thoáng nhìn cũng có thể làm sáng tỏ sự sáng suốt của tâm trí phàm trần.",
+      "name": "Lord of Typhon",
+      "other": "Lord of Typhon chọn một người. :reminder:"
+    },
+    "lunatic": {
+      "ability": "Bạn nghĩ bạn là Ác quỷ, nhưng bạn không phải. Ác quỷ biết bạn là ai & người bạn chọn vào ban đêm.",
+      "first": "Nếu có 7 người chơi trở lên, đánh thức Lunatic: Cho xem token *ĐÂY LÀ NHỮNG TAY SAI CỦA BẠN*. Chỉ vào người bất kỳ. Cho xem token *NHỮNG NHÂN VẬT SAU KHÔNG CÓ TRONG VÁN CHƠI*. Cho xem 3 token nhân vật tốt. Cho Lunatic đi ngủ. Đánh thức Ác quỷ. Cho xem token thông tin \"BẠN LÀ\" và token Ác quỷ. Cho xem token *NGƯỜI ĐÓ LÀ* và token Lunatic, rồi chỉ vào Lunatic.",
+      "flavor": "Ta là bóng đêm... hình như vậy.",
+      "name": "Lunatic",
+      "other": "Làm bất kỳ hành động để đóng giả là Ác quỷ. Cho Lunatic đi ngủ. Đánh thức Ác quỷ. Cho xem token Lunatic & chỉ vào họ, và (những) mục tiêu của họ."
+    },
+    "lycanthrope": {
+      "ability": "Mỗi đêm*, chọn một người sống. Nếu là phe tốt, họ chết & Ác quỷ không giết người tối nay. Một người tốt bị nhìn thấy là phe xấu.",
+      "flavor": "Ẩn sau lớp phủ của nền văn minh hú lên sự điên cuồng kinh hoàng.",
+      "name": "Lycanthrope",
+      "other": "Lycanthrope chọn một người. :reminder:"
+    },
+    "magician": {
+      "ability": "Ác quỷ nghĩ bạn là một Tay sai. Tay sai nghĩ bạn là một Ác quỷ.",
+      "first": "Trong Thông tin Tay sai, chỉ vào Ác quỷ và Magician. Trong Thông tin Ác Quỷ, chỉ vào Tay sai và Magician.",
+      "flavor": "1... 2... Úm ba la... 3... 4... Xì bùa... *poof!* Kính thưa quý ông và quý bà, như các vị đã thấy, túi vàng của Đại úy Farnsworth đã biến mất! Tan vào hư không! Không còn gì còn sót lại! Xin cảm ơn và chúc tất cả một bữa tối tốt đẹp!",
+      "name": "Magician"
+    },
+    "marionette": {
+      "ability": "Bạn nghĩ bạn là nhân vật phe tốt, nhưng bạn không phải. Ác quỷ biết bạn là ai. [Bạn ngồi kế bên Ác quỷ]",
+      "first": "Đánh thức Ác quỷ. Cho xem token *NGƯỜI NÀY LÀ* & Marionette. Chỉ vào Marionette.",
+      "flavor": "Lời nói. Đó là những gì chúng ta có để tiếp tục.",
+      "name": "Marionette"
+    },
+    "mastermind": {
+      "ability": "Nếu Ác quỷ chết bởi hành quyết (kết thúc trò chơi), chơi thêm 1 ngày. Nếu một người chơi bị hành quyết lúc đó, phe của họ thua.",
+      "flavor": "Xúc tu của con quái vật đó được đóng cọc lên cánh cửa của nhà thờ. Các bà mẹ và những đứa trẻ đang nhảy hát, vui mừng trên đường phố. Hoàn hảo. Mọi thứ diễn ra đúng như ta dự đoán.",
+      "name": "Mastermind"
+    },
+    "mathematician": {
+      "ability": "Mỗi đêm, bạn biết bao nhiêu năng lực của người chơi hoạt động bất thường (kể từ bình minh) do năng lực của nhân vật khác.",
+      "first": "Đưa dấu hiệu bằng ngón tay.",
+      "flavor": "Bất kỳ hệ thống chính thức nhất quán x nào, trong đó có thể thực hiện một lượng phép tính số học cơ bản nhất định, đều không nhất quán; nghĩa là, có những phát biểu trong ngôn ngữ của x không thể được chứng minh hoặc bác bỏ trong x. Do đó, bạn say rồi, Ergo ạ.",
+      "name": "Mathematician",
+      "other": "Đưa dấu hiệu bằng ngón tay."
+    },
+    "matron": {
+      "ability": "Mỗi ngày, bạn có thể chọn đến tối đa 3 cặp 2 người chơi để hoán đổi chỗ ngồi. Người chơi không thể rời khỏi chỗ ngồi để nói riêng.",
+      "flavor": "Cô Featherbottom, im lặng nào. Ngài Rutherford, tách trà chỉ cần bốn ngón tay là đủ rồi, làm ơn. Tôi biết ông có chín người con, nhưng dù già hay trẻ, không phải là lời bào chữa cho cách cư xử kém như thế.",
+      "name": "Matron"
+    },
+    "mayor": {
+      "ability": "Nếu chỉ còn 3 người chơi còn sống & không có hành quyết nào diễn ra, phe của bạn thắng. Nếu bạn chết vào ban đêm, một người chơi khác có thể chết thay.",
+      "flavor": "Chúng ta phải đặt mối bất đồng qua một bên, và dừng việc giết chóc lẫn nhau vô nghĩa này. Sau cùng, tất cả mọi người cũng đều là những người đóng thuế. Hừm, hầu hết mọi người.",
+      "name": "Mayor"
+    },
+    "mezepheles": {
+      "ability": "Bạn bắt đầu biết một từ bí mật. Người tốt đầu tiên nói từ này sẽ chuyển qua phe xấu đêm đó.",
+      "first": "Cho xem từ bí mật.",
+      "flavor": "Những gì xuất phát từ trái tim sẽ khiến trái tim người khác hướng về bạn.",
+      "name": "Mezepheles",
+      "other": "Nếu người tốt nói từ bí mật, gọi người đó dậy. Cho xem token *BẠN LÀ* & giơ ngón cái xuống. :reminder: :reminder:"
+    },
+    "minioninfo": {
+      "first": "Nếu có nhiều hơn 7 người chơi, đánh thức tất cả Tay sai: Cho thấy token *ĐÂY LÀ ÁC QUỶ*. Chỉ vào Ác quỷ. Cho thấy token *ĐÂY LÀ TAY SAI CỦA BẠN*. Chỉ vào các Tay sai khác."
+    },
+    "minstrel": {
+      "ability": "Khi một Tay sai chết bởi hành quyết, tất cả người chơi (trừ Du khách) sẽ bị say rượu cho bên hoàng hôn hôm sau.",
+      "flavor": "Và em sẽ nghe thấy, dù anh bước đi nhẹ nhàng trên cao... Và mọi giấc mơ của em sẽ ấm áp và ngọt ngào hơn... Nếu anh không quên nói với em rằng anh yêu em... Em sẽ ngủ yên bình cho đến khi anh đến với em.",
+      "name": "Minstrel"
+    },
+    "monk": {
+      "ability": "Mỗi đêm*, chọn một người chơi (trừ bản thân): họ sẽ an toàn khỏi tác động của Ác quỷ đêm nay.",
+      "flavor": "Đêm nay đúng là một cơn gió dễ gây ốm và nguy hiểm. Vào đi, con trai ta, hãy trú tại nơi tu viện này trong khi cơn bão nổi lên. Bằng lới nói của ta, ngay cả mạng sống của ta, con sẽ đươc an toàn.",
+      "name": "Monk",
+      "other": "Monk chọn một người chơi. :reminder:"
+    },
+    "moonchild": {
+      "ability": "Khi bạn biết bạn đã chết, công khai chọn một người chơi còn sống. Đêm nay, nếu theo phe tốt, họ sẽ chết.",
+      "flavor": "Chòm sao Bọ Cạp nhìn nghiêng đôi tình nhân, và bạn phải đưa ra lựa chọn. Với sợi bạc vắt ngang lòng bàn tay, số phận bạn sẽ được hé lộ. Với sợi thép vắt ngang cổ họng, và dưới những vì sao, bạn sẽ phải hối hận.",
+      "name": "Moonchild",
+      "other": "Nếu năng lực Moonchild giết một người chơi phe tốt, họ sẽ chết. :reminder:"
+    },
+    "mutant": {
+      "ability": "Nếu bạn \"điên\" rằng bạn là Ngoại lai, bạn có thể bị hành quyết.",
+      "flavor": "Tôi không phải là quái vật! Tôi là một con người! Xin hãy rộng lượng!",
+      "name": "Mutant"
+    },
+    "nightwatchman": {
+      "ability": "Một lần trong ván chơi, vào ban đêm, chọn một người: họ biết bạn là Nightwatchman.",
+      "first": "Nightwatchman có thể chọn một người. Cho Nightwatchman đi ngủ. Gọi mục tiêu dậy. Cho xem token *NGƯỜI NÀY LÀ* & Nightwatchman, và chỉ vào Nightwatchman. :reminder:",
+      "flavor": "Đêm lạnh lẽo và cô đơn, nhưng tôi có trăng, có sao, có gió mát và tiếng giày da nện nhẹ trên đá cuội làm bạn. Đằng kia, ánh nến lung linh sau khung cửa sổ mờ ảo...",
+      "name": "Nightwatchman",
+      "other": "Nightwatchman có thể chọn một người. Cho Nightwatchman đi ngủ. Gọi mục tiêu dậy. Cho xem token *NGƯỜI NÀY LÀ* & Nightwatchman, và chỉ vào Nightwatchman. :reminder:"
+    },
+    "noble": {
+      "ability": "Bạn bắt đầu biết 3 người chơi, 1 và chỉ 1 trong số đó theo phe xấu.",
+      "first": "Chỉ vào ba người được đánh dấu *BIẾT*.",
+      "flavor": "Mỉa mai quả thực là hình thức dí dỏm thấp kém nhất. Nhưng để đáp lại lời chỉ trích của ngài, thưa ngài, dù sao thì nó cũng là một hình thức dí dỏm.",
+      "name": "Noble"
+    },
+    "nodashii": {
+      "ability": "Mỗi đêm*, chọn một người: họ chết. 2 hàng xóm là Dân làng của bạn bị trúng độc.",
+      "flavor": "Nhân danh tội lỗi của Arnoch, ta cảm nhận được mùi hôi thối nồng nặc của ngươi. Nhân danh mặt trời bị nguyền rủa và đoàn quân những vị thần nhỏ bé nhăn nhở, ta tàn phá ngươi. Nhân danh màn đêm thiêng liêng và vực sâu bí ẩn của biển cả kinh hoàng và tội lỗi, ta kết liễu cuộc đời bẩn thỉu của ngươi trên cõi đời này.",
+      "name": "No Dashii",
+      "other": "No Dashii chọn một người chơi. :reminder:"
+    },
+    "ogre": {
+      "ability": "Vào đêm đầu tiên của bạn, chọn một người (trừ bản thân): bạn sẽ theo phe của họ (bạn không biết phe nào) kể cả khi bị say rượu hay trúng độc.",
+      "first": "Ogre chỉ vào một người. :reminder:",
+      "flavor": "<càu nhàu><mỉm cười><càu nhàu>",
+      "name": "Ogre"
+    },
+    "ojo": {
+      "ability": "Mỗi đêm*, chọn một nhân vật: họ chết. Nếu họ không có trong ván chơi, Người kể truyện chọn người chết.",
+      "flavor": "Giống như đống lửa trong đêm không trăng… Ta thấy ngươi, lũ phàm nhân.",
+      "name": "Ojo",
+      "other": "Ojo chọn một nhân vật. :reminder:"
+    },
+    "oracle": {
+      "ability": "Mỗi đêm*, bạn biết có bao nhiêu người chết theo phe xấu.",
+      "flavor": "Chỉ những người được chọn mới có thể nhìn thấy bên kia bức màn. Người chết bồn chồn, im lặng chỉ tay về phía bắc băng giá.",
+      "name": "Oracle",
+      "other": "Đưa dấu hiệu bằng ngón tay."
+    },
+    "organgrinder": {
+      "ability": "Tất cả người chơi phải nhắm mắt khi bỏ phiếu và tổng số phiếu được giữ bí mật. Mỗi đêm, chọn bạn có bị say rượu cho đến hoàng hôn không.",
+      "first": "Organ Grinder có thể gật đầu chọn bị say rượu, hay lắc đầu chọn được tỉnh táo. :reminder:",
+      "flavor": "Tay cầm quay đều và quay đều. Càng nhảy theo tiếng nhạc, càng khó ngươi nhận ra.",
+      "name": "Organ Grinder",
+      "other": "Organ Grinder có thể gật đầu chọn bị say rượu, hay lắc đầu chọn được tỉnh táo. :reminder:"
+    },
+    "pacifist": {
+      "ability": "Người tốt bị hành quyết có thể sẽ không chết.",
+      "flavor": "Những người có ham muốn mạnh mẽ để trừng phát người khác sẽ không tinh tưởng ai cả.",
+      "name": "Pacifist"
+    },
+    "philosopher": {
+      "ability": "Một lần trong trò chơi, vào ban đêm, chọn một nhân vật phe tốt: nhận năng lực đó. Nếu có nhân vật này trong ván chơi, họ sẽ bị say rượu.",
+      "first": "Philosopher có thể chọn một nhân vật. Nếu cần, thay token nhân vật của họ. :reminder:",
+      "flavor": "Tôi không biết gì là thật chứ bia rượu, tất cả đều là thât. Hãy uống đi mọi người vì ngày mai có thể sẽ không còn nữa.",
+      "name": "Philosopher",
+      "other": "Philosopher có thể chọn một nhân vật. Nếu cần, thay token nhân vật của họ. :reminder:"
+    },
+    "pithag": {
+      "ability": "Mỗi đêm*, chọn một người & một nhân vật họ biến thành (nếu không có trong ván chơi). Nếu Ác quỷ được tạo ra, cái chết đêm nay là ngẫu nhiên.",
+      "flavor": "Quanh vạc lửa, lượn vòng tròn; Ruột độc, ném xuống đáy lòng vạc sâu; Con cóc nằm dưới đá lâu; Ba mươi mốt buổi đêm thâu ngày dài; Chất nọc nó toát mồ hôi; Hãy là thứ nấu đầu nồi bùa thiêng.",
+      "name": "Pit-Hag",
+      "other": "Pit-Hag chọn một người chơi & một nhân vật. Nếu nhân vật họ chọn không có trong ván chơi: Cho Pit-Hag đi ngủ. Đánh thức người được chọn. Cho thấy token *BẠN LÀ* & token nhân vật mới của họ."
+    },
+    "pixie": {
+      "ability": "Bạn bắt đầu biết một nhân vật Dân làng đang có trong ván chơi. Nếu bạn điên rằng bạn là nhân vật này, bạn sẽ nhận được năng lực của họ khi họ chết.",
+      "first": "Cho thấy token nhân vật Dân làng được đánh dấu *ĐIÊN*.",
+      "flavor": "Vòng quanh khu vườn, đi nào. Các bé gái chạy tới chạy vào. Các bé trai trèo lên cây. Pixie nên là ai trong số đây? Các quý cô mỉm cười và đi vào thị trấn. Các lãnh chúa chặt rừng theo từng tấn. Cái gì của bạn là của tôi. Của tôi, thần thánh không thôi . Pixie ngốc nghếch là tôi.",
+      "name": "Pixie"
+    },
+    "plaguedoctor": {
+      "ability": "Khi bạn chết, Người kể truyện nhận được một năng lực của Tay sai.",
+      "flavor": "Hẽi dwungs iên. Nghĩ kan tho giaan dể nhĩ. Myrhh-myrhh.",
+      "name": "Plague Doctor",
+      "other": "Nếu Plague Doctor chết, Người kể truyện nhận được năng lực của một Tay sai. Nếu bạn chưa làm điều này, làm vậy ngay. :reminder:"
+    },
+    "po": {
+      "ability": "Mỗi đêm*, bạn có thể chọn một người: họ chết. Nếu lựa chọn trước bạn không chọn ai, chọn 3 người đêm nay.",
+      "flavor": "Bạn muốn một bông hoa không? Tôi cô đơn quá.",
+      "name": "Po",
+      "other": "Po có thể chọn một người chơi HOẶC 3 người chơi nếu đêm trước họ không chọn ai. :reminder: hoặc :reminder: :reminder: :reminder:"
+    },
+    "poisoner": {
+      "ability": "Mỗi đêm, chọn một người chơi: họ bị trúng độc trong đêm nay và sáng mai.",
+      "first": "Poisoner chọn một người chơi. :reminder:",
+      "flavor": "Thêm hợp chất Alpha vào hợp chất Beta... KHÔNG QUÁ NHIỀU!",
+      "name": "Poisoner",
+      "other": "Poisoner chọn một người chơi. :reminder:"
+    },
+    "politician": {
+      "ability": "Nếu bạn là người chơi gây ảnh hưởng nhiều nhất dẫn đến đội bạn thua, bạn đổi phe & thắng, kể cả khi bạn chết.",
+      "flavor": "Tôi rất vui vì bạn đã hỏi câu hỏi đó. Thật sự là vậy. Nhưng tôi nghĩ câu hỏi THỰC SỰ ở đây là...",
+      "name": "Politician"
+    },
+    "poppygrower": {
+      "ability": "Tay sai & Ác quỷ không biết nhau. Nếu bạn chết, họ sẽ biết nhau ngay đêm đó.",
+      "first": "Bỏ qua thông tin Tay sai và Ác quỷ. Đánh thức Ác quỷ, cho xem token *NHỮNG NHÂN VẬT NÀY KHÔNG CÓ TRONG VÁN CHƠI*. Cho xem 3 token nhân vật tốt không có trong ván chơi.",
+      "flavor": "Trong những lùm cây ẩn mình giữa rừng sâu, hoa anh túc đen ngự trị. Chứng kiến cảnh tượng ấy thật mê hoặc. Ngửi thấy hương thơm nồng nàn của nó, ta như lạc vào chốn bồng lai, trở thành nô lệ của các vị thần ánh sáng và bóng tối.",
+      "name": "Poppy Grower",
+      "other": "Nếu Poppy Grower chết sáng hoặc tối nay, đánh thức tất cả Tay sai. Cho xem token *ĐÂY LÀ ÁC QUỶ*. Chỉ vào Ác quỷ. Cho các Tay sai đi ngủ. Đánh thức Ác quỷ. Cho xem token *ĐÂY LÀ TAY SAI CỦA BẠN*. Chỉ vào các Tay sai."
+    },
+    "preacher": {
+      "ability": "Mỗi đêm, chọn một người: Tay sai được chọn sẽ biết được điều này. Tất cả Tay sai được chọn sẽ mất đi năng lực của mình.",
+      "first": "Preacher chọn một người. :reminder: Nếu họ chọn trúng Tay sai: Cho Preacher đi ngủ. Gọi mục tiêu dậy. Cho xem token *NHÂN VẬT NÀY CHỌN BẠN* & Preacher.",
+      "flavor": "Thà giàu và khỏe mạnh hơn là nghèo và dính bệnh.",
+      "name": "Preacher",
+      "other": "Preacher chọn một người. :reminder: Nếu họ chọn trúng Tay sai: Cho Preacher đi ngủ. Gọi mục tiêu dậy. Cho xem token *NHÂN VẬT NÀY CHỌN BẠN* & Preacher."
+    },
+    "princess": {
+      "ability": "Vào ngày đầu tiên của bạn, nếu bạn biểu quyết và hành quyết một người, Ác quỷ sẽ không giết đêm nay.",
+      "flavor": "Lời nói của chúng ta như những con chó săn, được buộc bằng những sợi tơ, thưa các lãnh chúa. Hãy để lòng nhân từ dệt chúng thành sự thật, kẻo triều đình sẽ tan rã và tan nát.",
+      "name": "Princess",
+      "other": "Nếu Princess biểu quyết người bị hành quyết sáng nay, gọi Ác quỷ dậy như bình thường, nhưng sẽ không ai chết bởi năng lực của Ác quỷ. :reminder:"
+    },
+    "professor": {
+      "ability": "Một lần trong ván chơi, vào ban đêm*, chọn một người chết: Nếu họ là Dân làng, họ được hồi sinh.",
+      "flavor": "Quy trình rất đơn giản. Gắn bộ điều khiển thủy lực vào bộ khuếch đại ma trận chi đã được sửa đổi, thêm 20 CC pseudodorafine, giữ mức Z của anh ấy trên 20%, và chồng bạn sẽ ổn. Giờ thì, tất cả những gì chúng ta cần là một cú sét đánh.",
+      "name": "Professor",
+      "other": "Professor có thể chọn một người đã chết. : reminder: :reminder:"
+    },
+    "psychopath": {
+      "ability": "Mỗi ngày, trước khi biểu quyết, bạn có thể công khai chọn một người: họ chết. Nếu bị hành quyết, bạn chỉ chết nếu bạn thua trò oản tù xì.",
+      "flavor": "Ngạc nhiên chưa!",
+      "name": "Psychopath"
+    },
+    "pukka": {
+      "ability": "Mỗi đêm, chọn một người: họ bị đầu độc. Người chơi bị đầu độc trước đó sẽ chết rồi trở nên tỉnh tảo.",
+      "first": "Pukka chọn một người chơi. :reminder:",
+      "flavor": "Bạn thật sự đã tử tế chào đón tôi vào ngôi nhà xinh đẹp của bạn. Tôi rất xin lỗi vì đã vô tình làm bạn bị thương. Chỉ là một chút thôi. Không sao cả. Nhưng xin hãy nhận lấy cây tăm vàng này như một lời xin lỗi khiêm nhường của tôi.",
+      "name": "Pukka",
+      "other": "Pukka chọn một người chơi. :reminder: Người chơi bị đầu độc đêm trước sẽ chết rồi trở nên tỉnh tảo. :reminder:"
+    },
+    "puzzlemaster": {
+      "ability": "Có 1 người bị say rượu, kể cả khi bạn chết. Nếu bạn đoán (một lần) đúng người đó là ai, biết ai là Ác quỷ, nhưng đoán sai thì sẽ nhận thông tin sai.",
+      "flavor": "Khi một người nghĩ rằng thứ này cũng chỉ như thứ khác, họ thường sẽ chuẩn bị gặp lỗi. Bình tĩnh đi, bình tĩnh đi. Đừng hiểu lộn giữa chỉ và nên với có và không.",
+      "name": "Puzzlemaster"
+    },
+    "ravenkeeper": {
+      "ability": "Nếu bạn chết trong đêm, bạn được dậy để chọn một người: bạn biết được nhân vật của họ.",
+      "flavor": "Những con chim của ta sẽ trả thù cho ta! Bay đi! Bay đi, những thú cưng ngoan ngoãn và đáng yêu của ta! Đến dinh thự và bờ sông! Đến những con hẻm và những tiệm làm đẹp! Bay đi!",
+      "name": "Ravenkeeper",
+      "other": "Nếu Ravenkeeper chết đêm nay, họ chọn một người chơi. Cho xem token nhân vật của người chơi đó."
+    },
+    "recluse": {
+      "ability": "Bạn có thể được tính là theo phe xấu & là Tay sai hoặc Ác quỷ, kể cả khi chết.",
+      "flavor": "Tách gươi gám gục tay rẩn lỉu rào rồ rủa a ró. Gừ. Ruốn rấy gồ gẩn ỉu ủa nươi hì uống hía am! Diến i! A hông hể gể ràn hay gẩn rỉu ày ránh ay rôi rới ủy rần là rao râu. Ra lã rói gà út ri!",
+      "name": "Recluse"
+    },
+    "revolutionary": {
+      "ability": "2 người hàng xóm của nhau được biết là cùng phe nhau. Một lần trong ván chơi, 1 trong 2 sẽ được nhìn thấy sai.",
+      "flavor": "Đoàn kết, ta giả vờ. Chia cắt, ta đình trệ.",
+      "name": "Revolutionary"
+    },
+    "riot": {
+      "ability": "Vào ngày thứ 3, tất cả Tay sai trở thành Riot & người được biểu quyết chết nhưng phải biểu quyết một người sống ngay lập tức. Điều này là bắt buộc.",
+      "flavor": "(Tiếng Tây Bạn Nha) Cách mạng muôn năm! Cách mạng của tôi!",
+      "name": "Riot",
+      "other": "Thay thế token ghi chú của Riot tới ngày tương ứng. :reminder: Nếu đây là đêm 3, bạn có thể gọi Tay sai dậy. Cho xem token *BẠN LÀ* & Riot."
+    },
+    "sage": {
+      "ability": "Nếu Ác quỷ giết bạn, bạn biết 1 trong 2 người chơi là Ác quỷ.",
+      "flavor": "Những khối núi sách này cất giữ bí mật, ta chắc chắn điều đó! Từng chữ một, nó đang rình rập. Thêm nến nào, cậu bé! Thêm mực nào! Những ghi chú này trông có vẻ bí ẩn, nhưng câu đố địa ngục đang dần hé lộ.",
+      "name": "Sage",
+      "other": "Nếu Ác quỷ giết Sage, đánh thức họ và chỉ tay vào 2 người chơi trong đó 1 người là Ác quỷ."
+    },
+    "sailor": {
+      "ability": "Mỗi đêm, chọn một người sống: bạn hoặc người đó bị say rượu cho đến hoàng hôn. Bạn không thể chết.",
+      "first": "Sailor chọn một người chơi còn sống. :reminder:",
+      "flavor": "Ta sẽ uống với bất kỳ ai trong số các người dưới gầm bàn! Mày! Đồ lắm lời! Mày nghĩ mày có thể hạ gục ta sao? Không à? Còn mày thì sao, bà già? Bà đã từng thử rượu Rum Old McKilly Extra Spiced chưa? Đảm bảo sẽ làm bà nổi cả lông ngực! Lên tàu nào, được chứ!",
+      "name": "Sailor",
+      "other": "Sailor chọn một người chơi còn sống. :reminder:"
+    },
+    "saint": {
+      "ability": "Nếu bạn chết bởi hành quyết, phe bạn thua.",
+      "flavor": "Trí tuệ sinh ra bình an. Kiên nhẫn sinh ra trí tuệ. Đừng sợ hãi, vì sẽ đến lúc nỗi sợ hãi cũng sẽ qua đi. Chúng ta hãy cầu nguyện, và xin cho sự hiệp nhất trong tầm nhìn của chúng ta sẽ biến tất cả chúng ta thành những vị thánh.",
+      "name": "Saint"
+    },
+    "savant": {
+      "ability": "Mỗi ngày, bạn có thể bí mật thăm Người kể truyện để biết 2 điều: 1 là đúng & 1 là sai.",
+      "flavor": "Bảy mươi hai que diêm trên sàn nhà... mặt trời lặn sớm nhưng mặt trăng vẫn không thay đổi... một mảnh vải rách... điều xấu xa trong dinh thự... ba que diêm... người mà chúng ta tin tưởng không phải là người như vẻ bề ngoài... ánh sáng xanh lá cây có nghĩa là magiê... cặn bã, nhưng hoa văn thì sai... Bảy mươi hai que diêm trên sàn nhà...",
+      "name": "Savant"
+    },
+    "scapegoat": {
+      "ability": "Nếu một người chơi cùng phe với bạn bị hành quyết, bạn có thể bị hành quyết thay họ.",
+      "flavor": "Chào buổi tối! Cảm ơn đã mời tôi đến dự vũ hội. Tôi không phải người ở đây, nhưng trông các bạn có vẻ thân thiện lắm đấy. Chắc chắn chúng ta sẽ hợp nhau lắm đây. Dây thừng kia để làm gì thế?",
+      "name": "Scapegoat"
+    },
+    "scarletwoman": {
+      "ability": "Nếu còn từ 5 người sống trở lên & Ác quỷ chết, bạn trở thành Ác quỷ. (Du khách không tính)",
+      "flavor": "Ngươi đã cho ta thấy bí mật của Hội đồng Ngọn lửa Tím. Chúng ta đã cùng nhau nằm trong lửa, trong dục vọng và trong giao tiếp thú tính, và ta mãi mãi là tôi tớ của ngươi. Nhưng đêm nay, hỡi người yêu dấu, ta là chủ nhân của ngươi.",
+      "name": "Scarlet Woman",
+      "other": "Nếu Scarlet Woman trở thành Ác quỷ hôm nay, cho thấy token *BẠN LÀ*, và token của Ác quỷ."
+    },
+    "seamstress": {
+      "ability": "Một lần trong ván chơi, vào ban đêm, chọn 2 người (trừ bản thân): bạn biết họ có cùng phe hay không.",
+      "first": "Seamstress có thể chọn 2 người chơi. Gật hoặc lắc đầu. :reminder:",
+      "flavor": "Bạn có nghe thấy người lạ mặc áo khoác cashmere đã ngỏ lời với Belle của chúng ta không? Và cô ấy đã đồng ý? Chà, điều đó chẳng là gì so với những gì Harry và gã tung hứng kia đã làm ở hội chợ! Những điều tôi có thể nói nếu tôi là một kẻ mách lẻo... ôi, đúng vậy.",
+      "name": "Seamstress",
+      "other": "Seamstress có thể chọn 2 người chơi. Gật hoặc lắc đầu. :reminder:"
+    },
+    "sentinel": {
+      "ability": "Có thể thêm 1 hoặc bớt 1 Ngoại lai trong ván chơi.",
+      "flavor": "Xin vui lòng cho biết tên. Xin vui lòng cho biết giấy tờ. Xin vui lòng cho biết vũ khí.",
+      "name": "Sentinel"
+    },
+    "shabaloth": {
+      "ability": "Mỗi đêm*, chọn 2 người: họ chết. Một người chết mà bạn chọn đêm trước có thể được nôn ra.",
+      "flavor": "Blarg f'taag nm mataan! No sho gumtha m'sik na yuuu. Fluuuuuuuuurg h-sikkkh.",
+      "name": "Shabaloth",
+      "other": "Một người chơi được chọn đêm trước có thể được hồi sinh. :reminder: Shabaloth chọn 2 người chơi. :reminder: :reminder:"
+    },
+    "shugenja": {
+      "ability": "Bạn bắt đầu biết người xấu gần bạn nhất theo hướng thuận hay ngược chiều kim đồng hồ. Nếu bằng, thông tin này là ngẫu nhiên.",
+      "first": "Chỉ hướng thuận hay ngược chiều đồng hồ.",
+      "flavor": "(tiếng Nhật) Đây là một giấc mơ. Đó là một giấc mơ. Tất cả đều là một giấc mơ.",
+      "name": "Shugenja"
+    },
+    "slayer": {
+      "ability": "Một lần trong ván chơi, vào ban ngày, công khai chọn một người: nếu họ là Ác quỷ, họ chết.",
+      "flavor": "Chết đi.",
+      "name": "Slayer"
+    },
+    "snakecharmer": {
+      "ability": "Mỗi đêm, chọn một người sống: Ác quỷ nếu được chọn sẽ hoán đổi nhân vật & phe với bạn & sau đó bị đầu độc.",
+      "first": "Snake Charmer chọn một người chơi. Nếu họ chọn phải Ác quỷ: Cho thấy token *BẠN LÀ* & token Ác quỷ. Cho thấy ngón cái hướng xuống. Hoán đổi token Snake Charmer & Ác quỷ. Cho Snake Charmer cũ đi ngủ. Đánh thức Ác quỷ cũ. Cho thấy token *BẠN LÀ* và token Snake Charmer & cho thấy ngón cái hướng lên. :reminder:",
+      "flavor": "Kính thưa Đức Cha... Con chỉ là một người khiêm nhường, nhưng chiếc tẩu của con bằng vàng ròng, và chỉ một giai điệu cũng đủ để chế ngự được cả thần đèn Inshallah hung dữ nhất. Người ta nói rằng lòng tham trói buộc con người hơn cả dây thừng. Nhưng con thì không, thưa Đức Cha... con không.",
+      "name": "Snake Charmer",
+      "other": "Snake Charmer chọn một người chơi. Nếu họ chọn phải Ác quỷ: Cho thấy token *BẠN LÀ* & token Ác quỷ. Cho thấy ngón cái hướng xuống. Hoán đổi token Snake Charmer & Ác quỷ. Cho Snake Charmer cũ đi ngủ. Đánh thức Ác quỷ cũ. Cho thấy token *BẠN LÀ* và token Snake Charmer & cho thấy ngón cái hướng lên. :reminder:"
+    },
+    "snitch": {
+      "ability": "Mỗi Tay sai nhận được 3 nhân vật không có trong ván chơi.",
+      "first": "Đánh thức từng Tay sai. Cho xem token *NHỮNG NHÂN VẬT NÀY KHÔNG CÓ TRONG VÁN CHƠI*. Cho xem ba token nhân vật không có trong ván chơi.",
+      "flavor": "Thằng John làm đó.",
+      "name": "Snitch"
+    },
+    "soldier": {
+      "ability": "Bạn an toàn khỏi tác động của Ác quỷ.",
+      "flavor": "Như David đã nói với Goliath, như Theseus đã nói với Minotaur, như Arjuna đã nói với Bhagadatta... Không.",
+      "name": "Soldier"
+    },
+    "spiritofivory": {
+      "ability": "Không thể có thêm quá 1 người xấu.",
+      "flavor": "Vùng đất hoang vu vẫy gọi. Xương hóa thành thịt, rồi tan thành bụi. Linh hồn vĩ đại lớn lên. Linh hồn vĩ đại dõi theo. Linh hồn vĩ đại dẫn đường. Con người lắng nghe, hoặc con người sẽ không còn nữa.",
+      "name": "Spirit of Ivory"
+    },
+    "spy": {
+      "ability": "Mỗi đêm, bạn có thể nhìn vào Cấm thư. Bạn có thể được tính như theo phe tốt & là một Dân làng hay Ngoại lai, kể cả khi chết.",
+      "first": "Cho Spy nhìn vào Cấm thư bao lâu tùy họ.",
+      "flavor": "Bất kỳ chuyên gia pha chế đều đáng giá đồ uống của họ, không biết công thức và đổ ra rắc rối, hơn một người khiến gián điệp phải hoa mắt say.",
+      "name": "Spy",
+      "other": "Cho Spy nhìn vào Cấm thư bao lâu tùy họ."
+    },
+    "steward": {
+      "ability": "Bạn bắt đầu biết một người phe tốt.",
+      "first": "Chỉ tay vào người được đánh dấu *BIẾT*.",
+      "flavor": "Sao ngươi DÁM cáo buộc Phu nhân làm điều sai trái? Ta đã biết bà ấy cả đời rồi! Chín năm ròng!",
+      "name": "Steward"
+    },
+    "stormcatcher": {
+      "ability": "Nêu tên một nhân vật tốt. Nếu có trong ván chơi, họ chỉ có thể chết khi bị hành quyết, nhưng những người xấu biết đó là ai.",
+      "first": "Thông báo nhân vật nào bị bắt bão. Nếu nhân vật đó có trong trò chơi, đánh dấu người chơi đó là *BẮT BÃO*. Đánh thức từng người chơi phe xấu và cho họ xem token nhân vật, và người được đánh dấu.  Nếu không có trong trò chơi, gọi từng người xấu dậy, cho họ thấy token *NHỮNG NHÂN VẬT NÀY KHÔNG CÓ TRONG VÁN CHƠI* & token nhân vật tương ứng.",
+      "flavor": "Bình minh lên, bóng dài của ngôi đền trải dài đến tận đài phun nước. Hoàng hôn buông xuống, cột tháp chặn ánh sáng đỏ rực, làm mát dòng nước ấm áp dưới vòm cổng. Mọi đường nét đều hội tụ tại đây. Một cơn bão đang đến, và nơi đây, chốn linh thiêng, xanh tươi và đầy sỏi đá giữa những cây táo, chính là con mắt.",
+      "name": "Storm Catcher"
+    },
+    "summoner": {
+      "ability": "Bạn biết được 3 nhân vật không có trong ván chơi. Vào đêm thứ 3, chọn một người chơi: họ trở thành một Ác quỷ xấu do bạn chọn. [Không có Ác quỷ]",
+      "first": "Cho thấy token *NHỮNG NHÂN VẬT NÀY KHÔNG CÓ TRONG VÁN CHƠI*. Cho thấy 3 token những nhân vật đó.",
+      "flavor": "Chào mừng những người bảo vệ phương Bắc; bởi trí tuệ của ta, ngươi đã bị cắt đứt. Chào mừng những người bảo vệ phương Đông; bởi ý chí của ta, ngươi đã bị chế ngự. Chào mừng những người bảo vệ phương Nam; bởi những gì nằm ở phía bên kia, bí ẩn đã được hé lộ. Chào mừng những người bảo vệ phương Tây; một lá chắn trong bóng tối.",
+      "name": "Summoner",
+      "other": "Thay thế token ghi chú của Summoner đến đêm tương ứng. :reminder: Nếu đây là đêm 3, Summoner chọn một người & nhân vật Ác quỷ. Cho Summoner đi ngủ. Gọi mục tiêu dậy. Cho xem token *BẠN LÀ* và nhân vật Ác quỷ & giơ ngón cái xuống."
+    },
+    "sweetheart": {
+      "ability": "Khi bạn chết, 1 người chơi bị say rượu từ giờ trở đi.",
+      "flavor": "Tôi sẽ không bao giờ quên cô ấy. Không bao giờ.",
+      "name": "Sweetheart",
+      "other": "Khi Sweetheart chết, một người bị say rượu ngay lập tức. Nếu bạn chưa làm điều này, hãy làm ngay bây giờ. :reminder:"
+    },
+    "tealady": {
+      "ability": "Nếu cả hai người hàng xóm còn sống của bạn đều là người tốt, họ không thể chết.",
+      "flavor": "Nếu bạn lạnh, trà sẽ làm bạn ấm lên. Nếu bạn quá nóng, trà sẽ làm bạn mát hơn. Nếu bạn chán nản, trà sẽ làm bạn phấn chấn. Nếu bạn phấn khích, trà sẽ làm bạn bình tĩnh.",
+      "name": "Tea Lady"
+    },
+    "thief": {
+      "ability": "Mỗi đêm, chọn một người (trừ bản thân): phiếu của họ tính là âm vào ngày mai.",
+      "first": "Thief chọn một người chơi. :reminder:",
+      "flavor": "Tôi hông làm dì cả. Tối qua tôi còn chẳng ở cái hẻm đó! Không phải tôi lấy chộm chiếc cặp của Thị trưởng Bruno cùn với tất cả những dấy tờ càu kì đó đâu. Hơn nữa, nó qá nặng để mang đi xa.",
+      "name": "Thief",
+      "other": "Thief chọn một người chơi. :reminder:"
+    },
+    "tinker": {
+      "ability": "Bạn có thể chết bất cứ lúc nào.",
+      "flavor": "Tôi nghĩ mình đã hiểu vấn đề rồi. May mắn thay, tôi có một ý tưởng! Chiếc máy bắn đá này sẽ bắn xa gấp đôi chỉ với một chút điều chỉnh nhỏ...",
+      "name": "Tinker",
+      "other": "Tinker có thể chết. :reminder:"
+    },
+    "towncrier": {
+      "ability": "Mỗi đêm*, bạn biết có Tay sai biểu quyết ngày hôm nay không.",
+      "flavor": "Nghe đây! Nghe đây! Ma thuật trong mê cung! Nhà thông thái thiên tài tiết lộ tất cả! Thị trấn đang gặp nguy hiểm! Nghe đây!",
+      "name": "Town Crier",
+      "other": "Gật hay lắc đầu."
+    },
+    "toymaker": {
+      "ability": "Ác quỷ có thể chọn không tấn công & phải làm điều này ít nhất một lần. Người xấu nhận được thông tin ban đầu bình thường.",
+      "first": "Xử lý Thông tin Tay sai và Thông tin Ác quỷ, ngay cả khi có ít hơn 7 người chơi.",
+      "flavor": "Nó biết kêu vo vo! Nó biết đi xuống cầu thang! Nó giữ ấm cho bạn vào ban đêm! Nó có vị như đường! Trẻ em rất thích! Xin giới thiệu... sản phẩm hoàn toàn mới... Robot biết kêu vo vo, biết đi lại! Thú vị cho mọi lứa tuổi!",
+      "name": "Toymaker",
+      "other": "Nếu đêm nay là đêm mà Ác quỷ giết có thể kết thúc trò chơi, và Ác quỷ được đánh dấu *ĐÊM CUỐI: KHÔNG GIẾT*, thì không gọi Ác quỷ dậy."
+    },
+    "undertaker": {
+      "ability": "Mỗi đêm*, bạn biết nhân vật nào đã chết vì hành quyết hôm nay.",
+      "flavor": "Hừm....cái gì đây nhỉ? Chiếc ủng bên trái mòn đến tận gót, có vụn đá lửa dưới lưỡi giày. Đây là trang phục của một quân nhân.",
+      "name": "Undertaker",
+      "other": "Nếu một người chơi bị hành quyết hôm nay, cho thấy token nhân vật của họ."
+    },
+    "vigormortis": {
+      "ability": "Mỗi đêm*, chọn một người: họ chết. Tay sai bạn giết sẽ giữ năng lực của họ & đầu độc 1 hàng xóm Dân làng. [-1 Ngoại lai]",
+      "flavor": "Mọi cánh cửa đều là một cánh cửa. Mọi chìa khóa đều là một chìa khóa. Mọi chén đều là một chén. Nhưng ai uống nước Ta ban cho sẽ không bao giờ khát nữa, nhưng nước trong người ấy sẽ là mạch nước vọt lên đến sự sống đời đời.",
+      "name": "Vigormortis",
+      "other": "Vigormortis chọn một người chơi. :reminder: Nếu người đó là Tay sai, đầu độc một Dân làng kế bên. :reminder: :reminder:"
+    },
+    "villageidiot": {
+      "ability": "Mỗi đêm, chọn một người: bạn biết phe của họ. [+0 đến +2 Village Idiot. 1 trong số được thêm sẽ bị say rượu]",
+      "first": "Nếu có nhiều Village Idiot, đánh dấu một trong số đó là *SAY RƯỢU*. :reminder: Lần lượt gọi từng Village Idiot dậy để chọn một người. Giơ ngón cái lên hoặc xuống.",
+      "flavor": "Hoa hồng màu xanh, và hoa tím màu đỏ, Hãy đảo lại những gì tôi vừa nói.",
+      "name": "Village Idiot",
+      "other": "Lần lượt gọi từng Village Idiot dậy để chọn một người. Giơ ngón cái lên hoặc xuống."
+    },
+    "virgin": {
+      "ability": "Lần đầu tiên bạn bị biểu quyết, nếu người biểu quyết bạn là Dân làng, họ bị hành quyết ngay lập tức.",
+      "flavor": "Ta trong sạch. Những ai vô tội hãy quỳ xuống và chịu khổ thay ta. Danh tiếng của ta sẽ không bị vấy bẩn bởi những lời buộc tội độc địa của các ngươi.",
+      "name": "Virgin"
+    },
+    "vizier": {
+      "ability": "Tất cả người chơi biết bạn là Vizier. Bạn không thể chết vào ban ngày. Nếu phe tốt bỏ phiếu, bạn có thể chọn để hành quyết ngay lâp tức.",
+      "first": "Thông báo ai là Vizier.",
+      "flavor": "Một quyết định tuyệt vời, như mọi khi, thưa bệ hạ. Một tội nhỏ nhặt như đụng độ Giám mục quả thực xứng đáng được \"công lý\" và \"lòng thương xót\" của ngài. Hãy dạo bước trong vườn. Ghé thăm phòng trưng bày và chiêm ngưỡng các tác phẩm điêu khắc của Von Strauf. Thư giãn đi, bệ hạ. Cứ để mọi việc... cho thần.",
+      "name": "Vizier"
+    },
+    "vortox": {
+      "ability": "Mỗi đêm*, chọn một người: họ chết. Năng lực của Dân làng luôn cho thông tin sai. Mỗi ngày, nếu không ai bị hành quyết, phe xấu thắng.",
+      "flavor": "Đen là trắng. Đúng là sai. Trái là phải. Lên là dài. Xuống là Ánh nhìn. Ngắn là Mù. Hãy theo tôi. Tìm câu trả lời.",
+      "name": "Vortox",
+      "other": "Vortox chọn một người chơi. :reminder:"
+    },
+    "voudon": {
+      "ability": "Chỉ bạn & người chết có thể bỏ phiếu. Họ không cần token phiếu để bầu. Đa số 50% cũng không cần thiết.",
+      "flavor": "Bien venu. Ngồi xuống. Hít thở sâu. Bước vào vùng đất của người chết. Nhìn bằng mắt họ. Nói bằng giọng nói của họ. Yon sel lang se janm ase.",
+      "name": "Voudon"
+    },
+    "washerwoman": {
+      "ability": "Bạn bắt đầu biết 1 trong 2 người là một Dân làng cụ thể.",
+      "first": "Cho thấy token nhân vật Dân làng. Chỉ vào người chơi *DÂN LÀNG* và người chơi *SAI*.",
+      "flavor": "Vết máu trên áo khoác dạ hội ư? Không, đây là rượu sherry nấu ăn. Thật bất cẩn.",
+      "name": "Washerwoman"
+    },
+    "widow": {
+      "ability": "Vào đêm đầu tiên của bạn, nhìn vào Cấm thư & chọn một người: họ bị đầu độc. 1 người tốt biết có Widow trong ván chơi.",
+      "first": "Cho Widow xem Cấm Thư bao lâu tùy họ. Widow chọn một người. :reminder: Cho Widow đi ngủ. Gọi người được đánh dấu *BIẾT* dậy & cho xem token Widow. :reminder:",
+      "flavor": "Thêm rượu nữa chứ? Château d’Ergot ’07 là một loại rượu vang rất đặc biệt. Vâng, thực sự rất đặc biệt.",
+      "name": "Widow"
+    },
+    "witch": {
+      "ability": "Mỗi đêm, chọn một người: nếu họ biểu quyết vào ngày mai, họ chết. Nếu chỉ còn 3 người sống, bạn mất đi năng lực này.",
+      "first": "Witch chọn một người chơi. :reminder:",
+      "flavor": "Ba giọt máu dê. Một lọn tóc xé tan vì giận dữ. Tên đã được xướng lên, bóng tối phủ xuống. Bước chân trái trước trên con đường đầy gai góc kia, và đừng ngoảnh lại.",
+      "name": "Witch",
+      "other": "Witch chọn một người chơi. :reminder:"
+    },
+    "wizard": {
+      "ability": "Một lần trong ván chơi, chọn để nêu một điều ước. Nếu được ban, nó có thể có một giá phải trả & để lại một gợi ý về tính chất của nó.",
+      "first": "Làm bất cứ thứ gì để thực hiện năng lực của Wizard.",
+      "flavor": "Mỗi người đàn ông và mỗi người phụ nữ đều là một ngôi sao. Tình yêu là luật lệ, tình yêu theo ý chí.",
+      "name": "Wizard",
+      "other": "Làm bất cứ thứ gì để thực hiện năng lực của Wizard."
+    },
+    "wraith": {
+      "ability": "Bạn có thể chọn mở mắt vào ban đêm. Bạn dậy khi những người xấu khác dậy.",
+      "first": "Đánh thức Wraith bất cứ khi nào người chơi phe xấu khác thức dậy.",
+      "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
+      "name": "Wraith",
+      "other": "Đánh thức Wraith bất cứ khi nào người chơi phe xấu khác thức dậy."
+    },
+    "xaan": {
+      "ability": "Vào đêm thứ X, tất cả Dân làng bị đầu độc cho đến hoàng hôn. [X Ngoại lai]",
+      "first": "Nếu X băng 1, đánh dấu Xaan bằng token ghi chú *X*. :reminder: :reminder:",
+      "flavor": "Ngã xuống. Từng người một. Tiếp đến hai người, ba người, năm người.",
+      "name": "Xaan",
+      "other": "Thay thế token ghi chú của Xaan tương ứng với đêm hiện tại. Nếu đến đêm thứ X, đánh dấu Xaan bằng token ghi chú *X*. :reminder: :reminder:"
+    },
+    "yaggababble": {
+      "ability": "Bạn bắt đầu biết một câu nói bí mật. Với mỗi lần bạn nói công khai câu đó ngày hôm nay, một người chơi có thể chết.",
+      "first": "Cho Yaggababble thấy câu bí mật của họ.",
+      "flavor": "Giết người bên trong phố Morgue? Tin giả (tiếng Nga)! Bầy chó săn ở đồng cỏ Baskerville? Tin giả (tiếng Nga)! Chết khi đang đi thuyền trên sông Nile? Tin giả (tiếng Nga)!",
+      "name": "Yaggababble",
+      "other": "Với mỗi lần Yaggababble nói câu của họ sáng nay, một người có thể chết. :reminder:"
+    },
+    "zealot": {
+      "ability": "Nếu còn 5 hay nhiều người sống, bạn phải bỏ phiếu cho mỗi lần biểu quyết.",
+      "flavor": "Tôi thích nói chuyện với anh. Tâm trí anh hấp dẫn tôi. Nó giống hệt tâm trí tôi, chỉ khác là anh bị điên.",
+      "name": "Zealot"
+    },
+    "zombuul": {
+      "ability": "Mỗi đêm*, nếu không ai chết sáng nay, chọn một người: họ chết. Lần đầu tiên bạn chết, bạn sống nhưng được nhìn thấy là đã chết.",
+      "flavor": "Tôi không. Hiểu. Cách của anh. Đồng loại. Chỉ cho tôi. Đất. Nơi thánh. Nằm. Ngủ. Tôi cũng vậy. Phải ngủ thôi. Sớm thôi.",
+      "name": "Zombuul",
+      "other": "Nếu không ai chết hôm nay, Zombuul chọn một người chơi. :reminder:"
+    },
+    "bigwig": {
+      "ability": "Mỗi người bị biểu quyết chọn một người: đến khi bỏ phiếu, chỉ họ có quyền nói & họ điên người bị biểu quyết đó là người tốt hoặc họ có thể chết.",
+      "flavor": "Ảo ảnh hỏi 'Nó có nổi bật không?' Hèn nhát hỏi 'Nó có an toàn không?' Lương tâm hỏi 'Nó có đúng không?' Ai trong số trúng ta sẽ hỏi: 'Nó có đúng không?'",
+      "name": "Big Wig"
+    },
+    "tor": {
+      "ability": "Người chơi không biết nhân vật hoặc phe của họ. Họ biết nó sau khi họ chết.",
+      "flavor": "Với tiếng thét như sấm và cây kiếm như sét của ta, ta, thần hộ mệnh, chứng kiến những kẻ đã dám đến gần với thiên cổng của ta. Hãy xem đây, mục đích của ta! Là diệt trừ những con sâu bọ khỏi lòng đất đá, là giam cầm nó trong mạng lưới vì sao, trên đỉnh núi nơi thiên đường gặp mặt đất.",
+      "name": "Tor",
+      "other": "Nếu có người chết tối nay, cho xem token *BẠN LÀ*, token nhân vật của họ, & ngón cái lên hoặc xuống."
+    },
+    "zenomancer": {
+      "ability": "Một hoặc nhiều người chơi có nhiệm vụ riêng. Khi hoàn thành nó, người chơi đó biết một thông tin đúng.",
+      "flavor": "Họ nói, vũ trụ là động từ không phải là danh từ, và nó là những con rùa, những con rùa ở khắp mọi nơi. Những con rùa ở khắp mọi nơi, đúng vậy, khắp mọi nơi.",
+      "name": "Zenomancer"
+    },
+    "hindu": {
+      "ability": "4 người chết đầu tiên sẽ được hồi sinh làm Du khách giữ nguyên phe ngay lập tức.",
+      "flavor": "(Tiếng Phạn) Bốn người đã chết, bốn người hồi sinh, bốn người ngay thẳng, bốn người bất tử: ||",
+      "name": "Hindu"
+    },
+    "pope": {
+      "ability": "Có các nhân vật tốt bị trùng lặp trong trò chơi. Nó cũng có thể là nhân vật không trong ván chơi.",
+      "flavor": "...Đẹp thật.",
+      "name": "Pope"
+    },
+    "cacklejack": {
+      "ability": "Mỗi ngày, chọn một người: một người khác đổi nhân vật tối nay.",
+      "flavor": "Dây α Nối dây β. SáNg ĐèN. TắT cÒi. GAzOinks! ThẲn6 TaY. ChỈ vÀ0 Mũ1. ĐứuuuuNg YêN. BiNgO-BaNgO! Ha-Ha-Ha!",
+      "name": "Cacklejack",
+      "other": "Trước bình minh, chọn 1 người không được đánh dấu *KHÔNG PHẢI TÔI*. Gọi mục tiêu dậy. Cho xem token *BẠN LÀ* & nhân vật mới của họ."
+    },
+    "ventriloquist": {
+      "ability": "Nếu một người điên mình là một nhân vật mới trong lúc họ đang bị biểu quyết, họ có thể không chết nếu bị hành quyết hôm nay.",
+      "flavor": "Tập trung lại nào mọi người ơi! Đây là bạn của tôi Charlie, và anh ấy có cái miệng có thể khiến cả con ngựa đỏ mặt. Nhưng đừng lo, chỉ có tôi là người nói thôi... đúng không?",
+      "name": "Ventriloquist"
+    },
+    "godofug": {
+      "ability": "Một mũ Ug. Khi đội mũ Ug, chỉ nói một âm một lúc và giơ hai. Nếu sai, đổi mũ Ug.",
+      "flavor": "Người nhận phước là con của ta, vì họ thấy vẻ đẹp từ những điều giản dị nhất.",
+      "name": "God of Ug"
+    },
+    "knaves": {
+      "ability": "Có 2 Người kể truyện: một nói thật & một nói dối. Một lần trong trò chơi, vào hoàng hôn, họ có thể tráo đổi.",
+      "flavor": "Mỗi bức tường là cánh cửa. Mỗi bữa ăn là bữa tiệc.",
+      "name": "Knaves"
+    }
+  },
+  "teams": {
+    "demon": "Các Ác Quỷ",
+    "fabled": "Các Thần Thoại",
+    "minion": "Các Tay Sai",
+    "outsider": "Các Ngoại Lai",
+    "townsfolk": "Các Dân Làng",
+    "traveller": "Các Du Khách",
+    "loric": "Truyền Thuyết"
+  },
+  "nightMarkers": {
+    "dawn": "Bình minh",
+    "demoninfo": "Thông Tin Ác Quỷ",
+    "dusk": "Hoàng hôn",
+    "minioninfo": "Thông tin Tay sai"
+  },
+  "reminders": {
+    "2nd": "Nhì",
+    "3attacks": "Giết 3",
+    "3votes": "3 Phiếu",
+    "abnormal": "Bất thường",
+    "abouttodie": "Sắp Chết",
+    "actstwice": "Làm 2 Lần",
+    "aligned": "Cùng Phe",
+    "alive": "Sống",
+    "amigo": "Bạn Thân",
+    "cannotdie": "Không Thế Chết",
+    "chosen": "Chọn",
+    "claimed": "Nhận",
+    "correct": "Đúng",
+    "cursed": "Bị Nguyền",
+    "day1": "Ngày 1",
+    "day2": "Ngày 2",
+    "day3": "Ngày 3",
+    "day4": "Ngày 4",
+    "day5": "Ngày 5",
+    "dead": "Chết",
+    "demonnotvoted": "Ác Quỷ Không Bỏ Phiếu",
+    "demonvoted": "Ác Quỷ Bỏ Phiếu",
+    "diedtoday": "Chết Sáng Nay",
+    "doesntkill": "Không Giết",
+    "drunk": "Say Rượu",
+    "drunk1": "Say Rượu 1",
+    "drunk2": "Say Rượu 2",
+    "drunk3": "Say Rượu 3",
+    "everyoneisdrunk": "Mọi Người Say Rượu",
+    "evil": "Xấu",
+    "evilwakes": "Xấu Thức Dậy",
+    "falseinfo": "Thông Tin Sai",
+    "fauxpaw": "Vuốt Giả",
+    "fear": "Sợ Hãi",
+    "finalnightnoattack": "Đêm Cuối: Không Giết",
+    "friend": "Bạn",
+    "good": "Tốt",
+    "goodplayerexecuted": "Hành Quyết Người Tốt",
+    "grandchild": "Cháu Ngoại",
+    "guessused": "Đã Đoán",
+    "haircutstonight": "Cắt Tóc Tối Nay",
+    "hasability": "Có Chức Năng",
+    "isthealchemist": "Là Alchemist",
+    "istheapprentice": "Là Apprentice",
+    "isthedemon": "Là Ác Quỷ",
+    "isthedrunk": "Là Drunk",
+    "isthemarionette": "Là Marionette",
+    "isthephilosopher": "Là Philosopher",
+    "know": "Biết",
+    "lunch": "Bữa Trưa",
+    "mad": "Điên",
+    "master": "Chủ Nhân",
+    "maynotnominate": "Không Được Biểu Quyết",
+    "minion": "Tay Sai",
+    "minionnominated": "Tay Sai Biểu Quyết",
+    "minionsnotnominated": "Tay Sai Không Biểu Quyết",
+    "negativevote": "Âm Phiếu",
+    "night1": "Đêm 1",
+    "night2": "Đêm 2",
+    "night3": "Đêm 3",
+    "noability": "Hết Chức Năng",
+    "nominateevil": "Biểu Quyết Người Xấu",
+    "nominategood": "Biểu Quyết Người Tốt",
+    "nomoreevil": "Không Còn Người Xấu",
+    "once": "Một Lần",
+    "outsider": "Ngoại Lai",
+    "poisoned": "Trúng Độc",
+    "protected": "Bảo Vệ",
+    "redherring": "Điểm Mù",
+    "registerfalsely": "Được Thấy Sai?",
+    "safe": "An Toàn",
+    "soberhealthy": "Tỉnh Táo & Khỏe Mạnh",
+    "somethingbad": "Điềm Xấu",
+    "storytellerability": "Chức Năng Người Kể Truyện",
+    "survivesexecution": "Sống Sót Hành Quyết",
+    "teapartytonight": "Uống Trà Tối Nay",
+    "townsfolk": "Dân Làng",
+    "turnsevil": "Thành Người Xấu",
+    "twin": "Sinh Đôi",
+    "visitor": "Đến Thăm",
+    "whoopsie": "Chết Dở",
+    "wrong": "Sai",
+    "stormcaught": "Bắt Bão",
+    "goal": "Nhiệm vụ",
+    "notme": "Không phải tôi",
+    "hat": "Mũ"
+  },
+  "jinxes": {
+    "alchemist-boffin": "Nếu Alchemist có năng lực của Boffin, Alchemist sẽ không biết năng lực mà Ác quỷ nhận được.",
+    "alchemist-marionette": "Alchemist-Marionette không có năng lực của Marionette & có Marionette trong trò chơi.",
+    "alchemist-mastermind": "Alchemist-Mastermind không có năng lực của Mastermind & không có Mastermind trong trò chơi.",
+    "alchemist-organgrinder": "Nếu Alchemist có năng lực của Organ Grinder, Organ Grinder cũng có trong trò chơi. Nếu cả hai đều tỉnh táo, cả hai sẽ bị say.",
+    "alchemist-spy": "Alchemist-Spy không có năng lực của Spy và Spy có trong trò chơi. Sau mỗi hành quyết, Alchemist-Spy còn sống có thể đoán công khai một người chơi còn sống là Spy. Nếu đoán đúng, Ác quỷ phải chọn Spy vào đêm nay.",
+    "alchemist-summoner": "Alchemist-Summoner không biết được 3 nhận vật không có tham gia ván chơi, được chọn Ác quỷ là gì nhưng không được chọn Ác quỷ là ai. Nếu chết trước khi điều đó xảy ra, phe xấu thắng. [Không có Ác quỷ]",
+    "alchemist-widow": "Alchemist-Widow không có năng lực của Widow & có Widow trong trò chơi. Sau mỗi hành quyết, Alchemist-Widow còn sống có thể đoán công khai một người chơi còn sống là Widow. Nếu đoán đúng, Ác quỷ phải chọn Widow vào đêm nay.",
+    "alchemist-wraith": "Alchemist-Wraith không có năng lực của Wraith & có Wraith trong trò chơi. Sau mỗi hành quyết, Alchemist-Wraith còn sống có thể đoán công khai một người chơi còn sống là Wraith. Nếu đoán đúng, Ác quỷ phải chọn Wraith vào đêm nay.",
+    "alhadikhia-mastermind": "Nếu Al-Hadikhia chết bởi hành quyết, và Mastermind còn sống, Al-Hadikhia chọn 3 người chơi phe tốt đêm nay: nếu cả 3 chọn sống, phe xấu thắng. Nếu không, phe tốt thắng.",
+    "alhadikhia-princess": "Nếu Princess biểu quyết và hành quyết một người chơi vào ngày đầu tiên của họ, không ai sẽ chết bởi Al-Hadikhia đêm nay.",
+    "alhadikhia-scarletwoman": "Nếu rơi vào trường hợp có hai Ác quỷ, và một trong hai đã từng là Scarlet Woman, nhân vật đó sẽ quay trở lại làm Scarlet Woman.",
+    "alsaahir-vizier": "Người kể truyện không tuyên bố Vizier có tham gia ván chơi.",
+    "atheist-riot": "Trong lúc nổi dậy (do Riot), nếu Người kể truyện bị biểu quyết, tất cả người chơi sẽ bỏ phiếu. Nếu Người kể truyện trờ thành người \"sắp chết\", trò chơi kết thúc. Nếu không, người đó được biểu quyết lại.",
+    "balloonist-marionette": "Nếu Marionette nghĩ họ là Balloonist, một Ngoại lai có thể đã được thêm vào trong lúc Người kể truyện bố trí nhân vật.",
+    "banshee-leviathan": "Mỗi đêm*, Leviathan chọn một người chơi phe tốt còn sống (khác với những đêm trước): Banshee được chọn sẽ chết và kích hoạt năng lực của họ.",
+    "banshee-riot": "Mỗi đêm*, Riot sẽ chọn một người chơi phe tốt còn sống (khác với những đêm trước): Banshee được chọn sẽ chết và kích hoạt năng lực của họ.",
+    "banshee-vortox": "Nếu Vortox giết Banshee, tất cả người chơi sẽ biết được Banshee đã chết.",
+    "baron-heretic": "Chỉ có một nhân vật ngoại lệ có thể tham gia ván chơi.",
+    "baron-plaguedoctor": "Nếu Người kể truyện nhận được năng lực của Baron, tối đa hai người chơi sẽ trở thành Ngoại lai.",
+    "boffin-cultleader": "Nếu Ác quỷ nhận được năng lực của Cult Leader, họ không chuyển qua phe tốt bởi năng lực này.",
+    "boffin-drunk": "Ác quỷ không thể có năng lực của Drunk.",
+    "boffin-goon": "Nếu Ác quỷ nhận được năng lực của Goon, họ không thể chuyển qua phe tốt bởi năng lực này.",
+    "boffin-heretic": "Ác quỷ không thể nhận được năng lực của Heretic.",
+    "boffin-ogre": "Ác quỷ không thể nhận được năng lực của Ogre.",
+    "boffin-politician": "Ác quỷ không thể nhận được năng lực của Politician.",
+    "boffin-villageidiot": "Nếu còn dư token, Boffin có thể truyền cho Ác quỷ năng lực của Village Idiot.",
+    "boomdandy-plaguedoctor": "Nếu Người kể truyện nhận được năng lực của Boomdandy, một người chơi sẽ trở thành Boomdandy.",
+    "bountyhunter-kazali": "Nếu Kazali biến Bounty Hunter thành một Tay sai, không có Dân làng phe xấu nào được tạo ra.",
+    "bountyhunter-philosopher": "Nếu Philosopher chọn năng lực của Bounty Hunter, một Dân làng có thể chuyển qua phe xấu.",
+    "butler-cannibal": "Nếu Cannibal nhận được nặng lực của Butler, Cannibal sẽ được biết điều này.",
+    "butler-organgrinder": "Nếu Organ Grinder yêu cầu mọi người nhắm mắt khi bỏ phiếu, Butler có thể giơ tay bỏ phiếu nhưng phiếu của họ chỉ tính khi chủ nhân của họ cũng bỏ phiếu.",
+    "cannibal-juggler": "Nếu Juggler đoán vào ngày đầu tiên và chết bởi hành quyết, Cannibal nếu còn sống sẽ nhận được số dự đoán mà Juggler đoán đúng.",
+    "cannibal-princess": "Nếu Cannibal biểu quyết, hành quyết và thành công giết Princess hôm nay, Ác quỷ sẽ không giết đêm nay.",
+    "cannibal-zealot": "Nếu Cannibal nhận được năng lực của Zealot, Cannibal sẽ được biết điều này.",
+    "cerenovus-goblin": "Cerenovus có thể khiến một người chơi điên họ là Goblin.",
+    "chambermaid-mathematician": "Chambermaid có thể biết Mathematician sẽ thức dậy đêm nay không.",
+    "clockmaker-summoner": "Summoner được tính là Ác quỷ theo như năng lực của Clockmaker.",
+    "courtier-summoner": "Nếu Summoner còn sống mất đi năng lực, Người kể truyện sẽ nhận được năng lực này.",
+    "courtier-vizier": "Nếu Vizier mất đi năng lực của họ, họ sẽ biết điều này, và không thể chết vào ban ngày.",
+    "cultleader-pithag": "Nếu Pit-Hag biến một người chơi phe xấu thành Cult Leader, họ không thể chuyển qua phe tốt bởi năng lực của họ.",
+    "damsel-pithag": "Nếu Pit-Hag tạo ra một Damsel, Người kể truyện sẽ chọn ai sẽ trở thành nhân vật này.",
+    "damsel-spy": "Nếu Spy đang (hay đã) tham gia ván chơi, Damsel sẽ bị trúng độc.",
+    "damsel-widow": "Nếu Widow đang (hay đã) tham gia ván chơi, Damsel sẽ bị trúng độc.",
+    "drunk-mathematician": "Mathematician có thể biết được năng lực của Drunk cho thông tin sai hoặc không hoạt động được.",
+    "engineer-legion": "Nếu Legion được tạo ra, tất cả người chơi phe xấu sẽ trở thành Legion. Nếu có Legion trong ván chơi, Engineer bắt đầu biết điều này nhưng không có năng lực.",
+    "engineer-summoner": "Nếu Summoner còn sống nhưng bị loại bỏ khỏi trò chơi, Người kể truyện sẽ nhận được năng lực của Summoner.",
+    "eviltwin-plaguedoctor": "Nếu Người kể truyện nhận được năng lực của Evil Twin, một người chơi sẽ trở thành Evil Twin.",
+    "exorcist-leviathan": "Nếu Leviathan biểu quyết và hành quyết một người chơi được chọn bởi Exorcist, phe tốt thắng.",
+    "exorcist-riot": "Nếu Riot biểu quyết và hành quyết một người chơi được chọn bởi Exorcist, phe tốt thắng.",
+    "exorcist-yaggababble": "Nếu Exorcist chọn Yaggababble, Yaggababble sẽ không giết đêm nay.",
+    "fanggu-scarletwoman": "Nếu rơi vào trường hợp sẽ có hai Ác quỷ, và một trong hai đang là Scarlet Woman, họ vẫn sẽ tiếp tục là Scarlet Woman.",
+    "farmer-leviathan": "Mỗi đêm*, Leviathan chọn một người chơi phe tốt còn sống (khác với những đêm trước): Farmer được chọn sẽ kích hoạt năng lực của họ nhưng không chết.",
+    "farmer-riot": "Mỗi đêm*, Riot chọn một người chơi phe tốt còn sống (khác với những đêm trước): Farmer được chọn sẽ kích hoạt năng lực nhưng không chết.",
+    "fearmonger-plaguedoctor": "Nếu Người kể truyện nhận được năng lực của Fearmonger, một Tay sai sẽ nhận được năng lực này và biết được điều này.",
+    "fearmonger-vizier": "Vizier sẽ thức dậy cùng với Fearmonger, biết được họ chọn ai và không thể khiến người đó bị hành quyết ngay lập tức.",
+    "goblin-plaguedoctor": "Nếu Người kể truyện nhận được năng lực của Goblin, một Tay sai sẽ nhận được năng lực này và biết được điều này.",
+    "godfather-heretic": "Chỉ có một nhân vật ngoại lệ có thể tham gia ván chơi.",
+    "goon-pithag": "Nếu Pit-Hag biến một người chơi phe xấu thành Goon, họ không thể chuyển qua phe tốt bởi năng lực này.",
+    "grandmother-leviathan": "Nếu Leviathan tham gia ván chơi, và cháu của Grandmother chết bởi hành quyết, phe xấu thắng.",
+    "grandmother-riot": "Nếu Riot tham gia ván chơi và cháu của Grandmother chết bởi hành quyết, phe xấu thắng.",
+    "hatter-legion": "Nếu Legion được tạo thành, tất cả người chơi phe xấu sẽ trở thành Legion. Nếu Legion đã tham gia ván chơi, Hatter không có năng lực nào.",
+    "hatter-leviathan": "Leviathan không thể được tạo thành sau khi qua ngày thứ 5.",
+    "hatter-lilmonsta": "Nếu Hatter chết & Ác quỷ chọn Lil' Monsta, họ cũng sẽ chọn một Tay sai để biến thành.",
+    "hatter-summoner": "Nếu Summoner chọn tạo ra một Ác quỷ còn sống thứ hai, ai chết đêm nay sẽ do Người kể truyện quyết định.",
+    "heretic-lleech": "Chỉ có một nhân vật ngoại lệ có thể tham gia ván chơi.",
+    "heretic-pithag": "Chỉ có một nhân vật ngoại lệ có thể tham gia ván chơi.",
+    "heretic-spy": "Chỉ có một nhân vật ngoại lệ có thể tham gia ván chơi.",
+    "heretic-widow": "Chỉ có một nhân vật ngoại lệ có thể tham gia ván chơi.",
+    "huntsman-marionette": "Nếu Marionette nghĩ họ là Huntsman, Damsel đã được thêm vào khi Người kể truyện bố trí nhân vật.",
+    "innkeeper-leviathan": "Nếu Leviathan biểu quyết và hành quyết người chơi được bảo vệ bởi Innkeeper, phe tốt thắng.",
+    "innkeeper-riot": "Nếu Riot biểu quyết và hành quyết một người chơi được bảo vệ bởi Innkeeper, phe tốt thắng.",
+    "investigator-vizier": "Người kể truyện sẽ không tuyến bố có Vizier tham gia ván chơi.",
+    "kazali-marionette": "Nếu Marionette được chọn để tham gia ván chơi, họ sẽ tham gia sau Ác quỷ & phải là hàng xóm của Ác quỷ.",
+    "kazali-summoner": "Nếu Summoner chọn tạo ra một Ác quỷ còn sống thứ hai, ai chết đêm nay sẽ do Người kể truyện quyết định.",
+    "king-leviathan": "Nếu Leviathan có tham gia ván chơi và ít nhất một người chơi đã chết, thì mỗi đêm, King được biết một nhân vật còn sống.",
+    "king-riot": "Nếu Riot có tham gia ván chơi, và ít nhất một người chơi đã chết, thì mỗi đêm, King sẽ biết được một nhân vật còn sống.",
+    "legion-magician": "Magician sẽ dậy cùng với tất cả Legion và có thể được nhìn thấy là theo phe xấu. Legion sẽ biết là một trong số họ là Magician nhưng không biết họ là ai.",
+    "legion-minstrel": "Nếu Legion chết bởi hành quyết hôm nay, Legion vẫn giữ năng lực của họ nhưng Minstrel có thể biết họ là Legion.",
+    "legion-politician": "Politician có thể được tính là phe xấu đối với năng lực của Legion.",
+    "legion-preacher": "Nếu Preacher chọn Legion, họ vẫn giữ năng lực, nhưng Preacher có thể biết họ là Legion.",
+    "legion-summoner": "Nếu Legion được triệu hồi, tất cả người chơi theo phe xấu sẽ trở thành Legion.",
+    "legion-zealot": "Zealot có thể được tính là phe xấu đối với năng lực của Legion.",
+    "leviathan-mayor": "Nếu Leviathan và Mayor đều còn sống vào ngày thứ 5 & không có hành quyết nào xảy ra, phe tốt thắng.",
+    "leviathan-monk": "Nếu Leviathan biểu quyết và hành quyết người chơi được bảo vệ bởi Monk, phe tốt thắng.",
+    "leviathan-pithag": "Leviathan không thể được thêm vào ván chơi sau ngày thứ 5.",
+    "leviathan-ravenkeeper": "Mỗi đêm*, Leviathan chọn một người chơi còn sống (khác với những đêm trước): Ravenkeeper được chọn sẽ kích hoạt năng lực nhưng không chết.",
+    "leviathan-sage": "Mỗi đêm*, Leviathan chọn một người chơi phe tốt còn sống ( khác với những đêm trước): Sage nếu được chọn sẽ kich hoạt năng lực nhưng không chết.",
+    "leviathan-soldier": "Nếu Leviathan biểu quyết và hành quyết Soldier, phe tốt thắng.",
+    "lilmonsta-magician": "Nếu Magician còn sống, Người kể truyện chọn một Tay sai để trông Lil' Monsta.",
+    "lilmonsta-marionette": "Nếu Marionette được chọn để tham gia ván chơi, họ sẽ tham gia sau Ác quỷ & phải là hàng xóm của Ác quỷ.",
+    "lilmonsta-poppygrower": "Nếu Lil' Monsta & Poppy Grower còn sống, Tay sai sẽ thức dậy lần lượt cho đến khi một người chọn để giữ token Lil' Monsta.",
+    "lilmonsta-psychopath": "Nếu Psychopath trông Lil' Monsta, họ sẽ chết nếu bị hành quyết.",
+    "lilmonsta-scarletwoman": "Nếu Lil' Monsta chết khi có 5 hay nhiều người còn sống, Scarlet Woman sẽ trông Lil' Monsta cho đến hết ván chơi.",
+    "lilmonsta-vizier": "Nếu Vizier trông Lil' Monsta, họ sẽ chết nếu bị hành quyết.",
+    "lleech-mastermind": "Nếu Mastermind còn sống và người mà Lleech kí sinh chết bởi hành quyết, Lleech sẽ sống nhưng mất đi năng lực của họ.",
+    "lleech-slayer": "Nếu Slayer bắn người mà Lleech kí sinh, người đó sẽ chết.",
+    "lordoftyphon-summoner": "Nếu Lord of Typhon được triệu hồi, họ phải là hàng xóm của Tay sai & hàng xóm còn lại của họ sẽ trở thành một Tay sai theo phe xấu.",
+    "lunatic-mathematician": "Mathematician có thể biết khi Lunatic tấn công một người chơi khác với người mà Ác quỷ chọn.",
+    "magician-marionette": "Nếu Magician còn sống, Ác quỷ không biết hàng xóm nào là Marionette.",
+    "magician-spy": "Khi Spy nhìn vào Cấm thư, token của Ác quỷ và Magician sẽ được bỏ ra.",
+    "magician-vizier": "Nếu Vizier có tham gia ván chơi, Magician không có năng lực nhưng miễn nhiễm với năng lực của Vizier.",
+    "magician-widow": "Khi Widow nhìn vào Cấm thư, token của Ác quỷ và Magician sẽ được bỏ ra.",
+    "magician-wraith": "Sau mỗi hành quyết, Magician còn sống có thể công khai đoán một người chơi còn sống là Wraith. Nếu đoán đúng, Ác quỷ phải chọn Wraith đêm nay.",
+    "marionette-mathematician": "Mathematician có thể biết khi tay sai Marionette nhận thông tin sai hoặc không hoạt động được.",
+    "marionette-plaguedoctor": "Nếu Người kể truyện nhận được năng lực của Marionette, một trong hai hàng xóm tốt của Ác quỷ trở thành Marionette.",
+    "marionette-summoner": "Nếu Marionette tham gia ván chơi, họ tham gia sau Ác quỷ & phải là hàng xóm của Ác quỷ.",
+    "mastermind-vigormortis": "Mastermind vẫn sẽ tiếp tục giữ năng lực của họ ngay cả khi Vigormortis chết.",
+    "mayor-riot": "Mayor có thể chọn dừng sự nổi dậy (bởi Riot). Nếu họ chọn làm thế khi chỉ có một Riot còn sống, phe tốt thắng. Nếu không, phe xấu thắng.",
+    "monk-riot": "Nếu Riot biểu quyết và hành quyết người chơi được bảo vệ bởi Monk, phe tốt thắng.",
+    "ogre-pithag": "Nếu Pit-Hag chọn biến một người chơi phe xấu thành Ogre, họ không thể chuyển sang phe tốt bởi năng lực của họ.",
+    "ogre-recluse": "Nếu Recluse được tính là theo phe xấu đối với Ogre, Ogre sẽ biết là họ theo phe xấu.",
+    "ogre-spy": "Spy được tính là theo phe xấu đối với Ogre.",
+    "pithag-politician": "Nếu Pit-Hag chọn biến một người chơi phe xấu thành Politician, họ không thể chuyển sang phe tốt bởi năng lực của họ.",
+    "pithag-summoner": "Nếu Summoner chọn tạo ra một Ác quỷ còn sống thứ hai, ai chết đêm nay sẽ do Người kể truyện quyết định.",
+    "pithag-villageidiot": "Nếu còn dư token, Pit-Hag có thể tạo ra thêm một Village Idiot. Nếu làm vậy, Village Idiot nào bị say rượu có thể thay đổi.",
+    "plaguedoctor-scarletwoman": "Nếu Người kể truyện nhận được năng lực của Scarlet Woman, một Tay sai sẽ nhận được năng lực này và biết được điều này.",
+    "plaguedoctor-spy": "Nếu Người kể truyện nhận được năng lực của Spy, một Tay sai sẽ nhận được năng lực này và biết được điều này.",
+    "plaguedoctor-wraith": "Nếu Người kể truyện nhận được năng lực của Wraith, một Tay sai nhận được năng lực này và biết được điều này.",
+    "politician-vizier": "Politician có thể được tính là theo phe xấu đối với Vizier.",
+    "poppygrower-spy": "Nếu Poppy Grower vẫn có năng lực của họ, Spy không được nhìn Cấm thư.",
+    "poppygrower-summoner": "Nếu Poppy Grower còn sống vào đêm thứ 3, Summoner được chọn Ác quỷ là gì nhưng không được chọn Ác quỷ là ai.",
+    "poppygrower-widow": "Nếu Poppy Grower vẫn có năng lực của họ, Widow sẽ không được nhìn Cấm thư.",
+    "preacher-summoner": "Nếu Summoner mất đi năng lực của họ, Người kể truyện sẽ nhận được năng lực này.",
+    "preacher-vizier": "Nếu Vizier mất đi năng lực của họ, họ biết được điều này, và không thể chết vào ban ngày.",
+    "pukka-summoner": "Summoner có thể triệu hồi Pukka vào đêm thứ 2 thay vì đêm thứ 3.",
+    "ravenkeeper-riot": "Mỗi đêm*, Riot chọn một người tốt còn sống (khác với những đêm trước): Ravenkeeper nếu được chọn sẽ kích hoạt năng lực của họ nhưng không chết.",
+    "recluse-sage": "Recluse có thể được tính là Ác quỷ đối với Sage.",
+    "riot-sage": "Mỗi đêm*, Riot chọn một người phe tốt còn sống (khác với những đêm trước): Sage nếu được chọn sẽ kích hoạt năng lực của họ nhưng không chết.",
+    "riot-soldier": "Nếu Riot biểu quyết và hành quyết Soldier, phe tốt thắng.",
+    "summoner-zombuul": "Nếu Summoner triệu hồi một người đã chết thành Zombuul, họ sẽ được xem như đã \"chết một lần\".",
+    "vizier-zealot": "Zealot có thể được tính là phe xấu đối với Vizier."
+  },
+  "ui": {
+    "firstNight": "Đêm Đầu Tiên",
+    "otherNights": "Đêm Còn Lại",
+    "players": "Những người chơi"
+  }
+}

@@ -1,0 +1,28 @@
+/* Ported from botc-character-sheet by John Forster (MIT License) */
+/* Copyright (c) 2025 John Forster */
+
+.printable-page {
+  width: var(--page-width);
+  min-height: var(--page-height);
+  max-height: var(--page-height);
+  padding: var(--print-margin);
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: white;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+.print-guides-overlay {
+  position: absolute;
+  height: var(--print-guide-size);
+  width: var(--print-guide-size);
+}
+
+@media print {
+  .printable-page {
+    margin: 0;
+  }
+}

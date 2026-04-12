@@ -1,0 +1,379 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Ravenswood Archive API",
+    "description": "Search Blood on the Clocktower scripts from the Ravenswood Archive.",
+    "version": "1.0.0",
+    "contact": {
+      "name": "the developer",
+      "email": "dan@ravenswoodarchive.com"
+    }
+  },
+  "servers": [
+    {
+      "url": "/"
+    }
+  ],
+  "security": [
+    {
+      "ApiKeyAuth": []
+    }
+  ],
+  "paths": {
+    "/api/search": {
+      "get": {
+        "operationId": "searchScripts",
+        "summary": "Search scripts",
+        "description": "Search and filter approved Blood on the Clocktower scripts.\nSupports fuzzy name/author search, character filtering, type filtering, and more.\n",
+        "parameters": [
+          {
+            "name": "q",
+            "in": "query",
+            "description": "Fuzzy search on script name or author",
+            "schema": {
+              "type": "string"
+            },
+            "example": "trouble"
+          },
+          {
+            "name": "type",
+            "in": "query",
+            "description": "Filter by script type",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "full",
+                "teensy",
+                "all"
+              ],
+              "default": "all"
+            }
+          },
+          {
+            "name": "base3",
+            "in": "query",
+            "description": "Set to `true` to exclude scripts with carousel characters (base 3 only)",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "true"
+              ]
+            }
+          },
+          {
+            "name": "homebrew",
+            "in": "query",
+            "description": "Filter by homebrew content.\n`true` = only scripts with homebrew characters.\n`false` = exclude scripts with homebrew characters.\n",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "true",
+                "false"
+              ]
+            }
+          },
+          {
+            "name": "include",
+            "in": "query",
+            "description": "Comma-separated character IDs. Scripts must contain **all** listed characters.",
+            "schema": {
+              "type": "string"
+            },
+            "example": "washerwoman,librarian"
+          },
+          {
+            "name": "exclude",
+            "in": "query",
+            "description": "Comma-separated character IDs. Scripts must contain **none** of the listed characters.",
+            "schema": {
+              "type": "string"
+            },
+            "example": "drunk,baron"
+          },
+          {
+            "name": "collections",
+            "in": "query",
+            "description": "Comma-separated collection UUIDs. Scripts must be in at least one of the listed collections.",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "sort",
+            "in": "query",
+            "description": "Sort order for results",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "newest",
+                "downloads",
+                "favourites"
+              ],
+              "default": "newest"
+            }
+          },
+          {
+            "name": "asc",
+            "in": "query",
+            "description": "Set to `true` for ascending sort order (default is descending)",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "true"
+              ]
+            }
+          },
+          {
+            "name": "page",
+            "in": "query",
+            "description": "Page number (1-indexed)",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "default": 1
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "description": "Results per page (max 100)",
+            "schema": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100,
+              "default": 24
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Search results",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "data": {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/Script"
+                      }
+                    },
+                    "count": {
+                      "type": "integer",
+                      "description": "Total number of matching scripts"
+                    },
+                    "page": {
+                      "type": "integer"
+                    },
+                    "pageSize": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                "example": {
+                  "data": [
+                    {
+                      "id": "550e8400-e29b-41d4-a716-446655440000",
+                      "name": "Trouble Brewing",
+                      "author": "The Pandemonium Institute",
+                      "description": null,
+                      "script_type": "full",
+                      "has_carousel": false,
+                      "has_homebrew": false,
+                      "character_ids": [
+                        "washerwoman",
+                        "librarian",
+                        "investigator",
+                        "chef",
+                        "empath"
+                      ],
+                      "download_count": 42,
+                      "favourite_count": 10,
+                      "version_label": "1.0.0",
+                      "created_at": "2025-03-01T00:00:00Z",
+                      "updated_at": "2025-03-01T00:00:00Z",
+                      "collections": [
+                        {
+                          "id": "660e8400-e29b-41d4-a716-446655440000",
+                          "name": "Official Scripts",
+                          "description": "Scripts by The Pandemonium Institute",
+                          "created_at": "2025-03-01T00:00:00Z"
+                        }
+                      ]
+                    }
+                  ],
+                  "count": 1,
+                  "page": 1,
+                  "pageSize": 24
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid parameters",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "error": "Invalid type. Must be one of: full, teensy, all"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Missing or invalid API key",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "error": "Missing X-API-Key header"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Rate limit exceeded (60 requests/minute)",
+            "headers": {
+              "Retry-After": {
+                "description": "Seconds until the rate limit resets",
+                "schema": {
+                  "type": "integer"
+                }
+              }
+            },
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                },
+                "example": {
+                  "error": "Rate limit exceeded"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Error"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "ApiKeyAuth": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "X-API-Key",
+        "description": "API key provided by the Ravenswood Archive team"
+      }
+    },
+    "schemas": {
+      "Script": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "type": "string"
+          },
+          "author": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "script_type": {
+            "type": "string",
+            "enum": [
+              "full",
+              "teensy"
+            ]
+          },
+          "has_carousel": {
+            "type": "boolean"
+          },
+          "has_homebrew": {
+            "type": "boolean"
+          },
+          "character_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "raw_json": {
+            "description": "Original BotC script JSON"
+          },
+          "download_count": {
+            "type": "integer"
+          },
+          "favourite_count": {
+            "type": "integer"
+          },
+          "version_label": {
+            "type": "string"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "updated_at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "collections": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Collection"
+            }
+          }
+        }
+      },
+      "Collection": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      "Error": {
+        "type": "object",
+        "properties": {
+          "error": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

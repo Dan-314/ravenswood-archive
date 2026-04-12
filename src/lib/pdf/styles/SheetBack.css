@@ -1,0 +1,101 @@
+/* Ported from botc-character-sheet by John Forster (MIT License) */
+/* Copyright (c) 2025 John Forster */
+
+.sheet-backing {
+  position: relative;
+  flex: 1;
+}
+
+.sheet-background {
+  --height: calc(var(--page-height) - 2 * var(--print-margin));
+  min-height: var(--height);
+  max-height: var(--height);
+  background-repeat: repeat;
+  background-size: 105mm;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sheet-back-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: multiply;
+  pointer-events: none;
+}
+
+.sheet-backing h1 {
+  font-family: var(--title-font), serif;
+  mix-blend-mode: normal;
+  font-weight: 100;
+  font-size: 30mm;
+  text-wrap: wrap;
+  z-index: 1;
+  flex-shrink: 1;
+  text-align: center;
+  padding: 10mm;
+
+  filter: drop-shadow(0.5mm 0.5mm black) drop-shadow(0mm 0mm 1mm black);
+  letter-spacing: var(--title-letter-spacing);
+  word-spacing: var(--title-word-spacing);
+  line-height: var(--title-line-height);
+  margin-top: var(--title-margin-top);
+  margin-bottom: var(--title-margin-bottom);
+  flex: 0 1 130mm;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.sheet-backing h1 .title-text {
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 100mm;
+}
+
+.sheet-backing h1 .ampersand {
+  font-size: 45mm;
+  line-height: 30mm;
+  vertical-align: -5mm;
+}
+
+.back-attribution {
+  position: absolute;
+  bottom: 3mm;
+  right: 3mm;
+  text-align: right;
+  z-index: 2;
+}
+
+.back-info-container {
+  position: absolute;
+  display: flex;
+  gap: 10mm;
+  align-items: center;
+  bottom: 0;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  padding: 20mm;
+}
+
+.title-container {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.minor-word {
+  padding: 0 8mm;
+  font-size: 15mm;
+  word-spacing: -6mm;
+  display: flex;
+}

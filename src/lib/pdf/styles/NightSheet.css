@@ -1,0 +1,152 @@
+/* Ported from botc-character-sheet by John Forster (MIT License) */
+/* Copyright (c) 2025 John Forster */
+
+.night-sheet-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.night-sheet-heading .night-title {
+  font-family: Dumbledor;
+  font-size: 7mm;
+  margin: 0;
+}
+
+.night-sheet-heading .script-title {
+  font-family: var(--title-font), serif;
+  font-weight: lighter;
+  font-size: 11mm;
+  line-height: 1.1;
+  margin: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  overflow: visible;
+  text-align: center;
+  letter-spacing: var(--title-letter-spacing);
+  word-spacing: var(--title-word-spacing);
+  filter: drop-shadow(0.2mm 0.1mm 0 #222d) drop-shadow(0mm 0mm 0.1mm #2228);
+}
+
+.night-sheet-heading .script-title .title-text {
+  background: var(--header-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.night-sheet-order {
+  display: flex;
+  flex-direction: column;
+  gap: 1mm;
+}
+
+.night-sheet-entry {
+  display: flex;
+  align-items: center;
+  min-height: 10mm;
+}
+
+.reminder-name {
+  font-family: Goudy Old Style, Goudy Oldstyle, Goudy, Georgia, serif;
+  font-weight: 700;
+  font-size: 3.3mm;
+}
+
+.reminder-text {
+  font-family: "Trade Gothic";
+  font-size: 3mm;
+}
+
+.night-sheet-entry p {
+  margin: 0;
+}
+
+.night-sheet-entry p strong {
+  font-family: Trade Gothic Bold;
+}
+
+.night-sheet-entry > img {
+  width: 7mm;
+  height: 7mm;
+  object-fit: contain;
+  flex-shrink: 0;
+  scale: calc(2 * var(--icon-scale, 1));
+  margin-right: 3mm;
+}
+
+.night-sheet-entry > img.marker-icon {
+  scale: 2;
+}
+
+.reminder-icon {
+  display: inline;
+  width: 10px;
+  height: auto;
+  max-width: none;
+  scale: 1;
+  opacity: 0.8;
+  margin-right: 4px;
+  margin-bottom: -1px;
+}
+
+/* Night compact appearance */
+.night-appearance-compact .night-sheet-order {
+  gap: 0.5mm;
+}
+.night-appearance-compact .night-sheet-entry {
+  min-height: 8.5mm;
+}
+.night-appearance-compact .night-sheet-entry > img {
+  width: 6mm;
+  height: 6mm;
+  margin-right: 2.5mm;
+}
+.night-appearance-compact .reminder-name {
+  font-size: 3mm;
+}
+.night-appearance-compact .reminder-text {
+  font-size: 2.7mm;
+}
+
+/* Night super-compact appearance */
+.night-appearance-super-compact .night-sheet-order {
+  gap: 0.3mm;
+}
+.night-appearance-super-compact .night-sheet-entry {
+  min-height: 7mm;
+}
+.night-appearance-super-compact .night-sheet-entry > img {
+  width: 5mm;
+  height: 5mm;
+  margin-right: 2mm;
+}
+.night-appearance-super-compact .reminder-name {
+  font-size: 2.7mm;
+}
+.night-appearance-super-compact .reminder-text {
+  font-size: 2.4mm;
+}
+
+/* Night mega-compact appearance */
+.night-appearance-mega-compact .night-sheet-order {
+  gap: 0.2mm;
+}
+.night-appearance-mega-compact .night-sheet-entry {
+  min-height: 6mm;
+}
+.night-appearance-mega-compact .night-sheet-entry > img {
+  width: 4.5mm;
+  height: 4.5mm;
+  margin-right: 1.5mm;
+}
+.night-appearance-mega-compact .reminder-name {
+  font-size: 2.4mm;
+}
+.night-appearance-mega-compact .reminder-text {
+  font-size: 2.2mm;
+}
+.night-appearance-mega-compact .night-sheet-heading .night-title {
+  font-size: 5.5mm;
+}

@@ -1,0 +1,515 @@
+/* Ported from botc-character-sheet by John Forster (MIT License) */
+/* Copyright (c) 2025 John Forster */
+
+.character-sheet {
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #2d3748;
+  display: flex;
+  overflow: hidden;
+  isolation: isolate;
+  flex: 1;
+}
+
+.character-sheet-background {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.sidebar-container {
+  position: relative;
+}
+
+.sidebar-background {
+  background-size: 105mm;
+  background-repeat: repeat;
+  width: calc(var(--sidebar-width) + var(--print-bleed));
+  height: 100%;
+  flex-shrink: 0;
+}
+
+.sidebar-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(var(--sidebar-width) + var(--print-bleed));
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  pointer-events: none;
+  mix-blend-mode: multiply;
+}
+
+.background-attribution {
+  font-family: "Trade Gothic", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.8mm;
+  color: #fff;
+  opacity: 0.45;
+  pointer-events: none;
+  line-height: 1.2;
+}
+
+.sidebar-attribution {
+  position: absolute;
+  bottom: 2mm;
+  left: 1mm;
+  writing-mode: horizontal-tb;
+  max-width: calc(var(--sidebar-width) - 2mm);
+}
+
+.sidebar-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  padding: 3mm 0;
+}
+
+.sidebar-label {
+  font-size: 3.5mm;
+  font-weight: 600;
+  letter-spacing: 0.5mm;
+  color: #eeeeee;
+  text-shadow: 0.3mm 0.3mm 0.5mm rgba(0, 0, 0, 0.3);
+}
+
+.character-sheet .sheet-content {
+  position: relative;
+  padding: calc(5mm + var(--print-bleed)) var(--print-bleed)
+    calc(3mm + var(--print-bleed)) 0;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.character-column-spacer {
+  min-height: 13mm;
+}
+
+.sheet-header-container {
+  display: flex;
+  align-items: center;
+}
+
+.sheet-header {
+  text-align: center;
+  margin: 0 0 4mm 0;
+  padding: 0 10mm;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  align-self: center;
+}
+
+.sheet-header .title-wrap {
+  font-weight: lighter;
+  letter-spacing: var(--title-letter-spacing);
+  filter: drop-shadow(2px 0px 0px #cb8b);
+  word-spacing: var(--title-word-spacing);
+  line-height: var(--title-line-height);
+  margin-top: var(--title-margin-top);
+  margin-bottom: var(--title-margin-bottom);
+  font-family: var(--title-font), serif;
+  font-weight: 100;
+  font-size: 14mm;
+  padding: 4mm 8mm;
+  margin-left: -8mm;
+  margin-right: -8mm;
+  mix-blend-mode: multiply;
+}
+
+.sheet-header .title-text {
+  background: var(--header-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.swirl-divider {
+  width: 35mm;
+  mix-blend-mode: soft-light;
+}
+
+.flip {
+  transform: scaleX(-1);
+}
+
+.script-logo {
+  max-width: 35mm;
+  max-height: 23mm;
+  margin-right: 1mm;
+  margin-top: -2mm;
+  margin-bottom: -2mm;
+}
+
+.sheet-author {
+  font-family: "Goudy Old Style", "Goudy Oldstyle", "Goudy", Georgia, serif;
+  font-size: 3.5mm;
+  font-weight: bold;
+  text-align: center;
+  margin: -5mm 0 3mm 0;
+  color: #333;
+}
+
+.characters-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5mm;
+  flex: 1;
+  padding: 0 10mm 0 0;
+}
+
+.character-section {
+  display: flex;
+  break-inside: avoid;
+  min-height: 20mm;
+}
+
+.section-title {
+  font-family: "Dumbledor", serif;
+  font-weight: lighter;
+  padding: 0 calc(0.25 * var(--sidebar-width));
+  color: #eeeeee;
+  margin: -2mm 0 -2mm calc(-1 * var(--sidebar-width));
+  min-width: var(--sidebar-width);
+  text-align: center;
+  z-index: 1;
+  text-orientation: upright;
+  writing-mode: vertical-lr;
+  letter-spacing: -0.6mm;
+  font-size: 4mm;
+  line-height: 2;
+  filter: drop-shadow(0.1mm 0.1mm 0.3mm #222a)
+    drop-shadow(-0.1mm 0.1mm 0.3mm #2228) drop-shadow(0.1mm -0.1mm 0.3mm #222a)
+    drop-shadow(-0.1mm -0.1mm 0.3mm #222a);
+}
+
+.section-divider {
+  height: 0.8mm;
+  max-width: none;
+  opacity: 1;
+  margin-top: 1%;
+  margin-left: -50%;
+  width: 150%;
+  mix-blend-mode: soft-light;
+}
+
+.character-list {
+  display: flex;
+  margin-left: 8mm;
+  gap: 5mm;
+}
+
+.character-column {
+  flex: 1 1 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.character-card {
+  display: flex;
+  align-items: center;
+  gap: 2.5mm;
+  break-inside: avoid;
+  margin-bottom: 2.5mm;
+}
+
+.character-info {
+  padding-left: 2mm;
+  display: flex;
+  flex-direction: column;
+}
+
+.character-icon-wrapper {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.character-icon,
+.character-icon-placeholder {
+  width: 13mm;
+  max-height: 13mm;
+  object-fit: contain;
+  filter: drop-shadow(1px 1px 2px #0004);
+  scale: calc(1.7 * var(--icon-scale, 1));
+}
+
+.character-icon-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #eeeeee;
+  font-weight: bold;
+  font-size: 6mm;
+}
+
+.character-name {
+  font-family: "Goudy Old Style", "Goudy Oldstyle", "Goudy", Georgia, serif;
+  font-size: 3.5mm;
+  font-weight: 700;
+  margin: 0 0 0.5mm 0;
+  color: #1a202c;
+  display: flex;
+  align-items: center;
+  gap: 1mm;
+}
+
+.inline-jinx-icons {
+  display: inline-flex;
+  gap: 0.5mm;
+  align-items: center;
+  margin-left: 1mm;
+  margin-top: -1mm;
+}
+
+.inline-jinx-icon,
+.inline-jinx-icon-placeholder {
+  width: 5mm;
+  height: 5mm;
+  object-fit: contain;
+  filter: drop-shadow(0.5px 0.5px 0.5px #0004);
+  scale: calc(1.7 * var(--icon-scale, 1));
+}
+
+.inline-jinx-icon-placeholder {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #eeeeee;
+  font-weight: bold;
+  font-size: 1.8mm;
+  border-radius: 50%;
+  background-color: #666;
+}
+
+.character-ability {
+  font-family: "Trade Gothic", "Trade Gothic Next", "Helvetica Neue", Arial, sans-serif;
+  font-size: 3.1mm;
+  line-height: 1.2;
+  margin: 0;
+  color: #222;
+  display: inline-block;
+}
+
+/* Compact appearance */
+.appearance-compact .character-card {
+  margin-bottom: 1mm;
+}
+
+.appearance-compact .sheet-header .title-wrap {
+  font-size: 13mm;
+}
+
+.appearance-compact .script-logo {
+  max-width: 33mm;
+  max-height: 21mm;
+}
+
+/* Super-compact appearance */
+.appearance-super-compact .character-ability {
+  font-size: 2.7mm;
+}
+
+.appearance-super-compact .character-name {
+  font-size: 3.2mm;
+}
+
+.appearance-super-compact .character-icon,
+.appearance-super-compact .character-icon-placeholder {
+  width: 12mm;
+  max-height: 12mm;
+}
+
+.appearance-super-compact .character-card {
+  margin-bottom: 0.5mm;
+}
+
+.appearance-super-compact .sheet-header .title-wrap {
+  font-size: 12mm;
+}
+
+.appearance-super-compact .script-logo {
+  max-width: 31mm;
+  max-height: 19.5mm;
+}
+
+/* Mega-compact appearance */
+.appearance-mega-compact .character-ability {
+  font-size: 2.4mm;
+}
+
+.appearance-mega-compact .character-name {
+  font-size: 2.8mm;
+}
+
+.appearance-mega-compact .sheet-header .title-wrap {
+  font-size: 11mm;
+}
+
+.appearance-mega-compact .character-icon,
+.appearance-mega-compact .character-icon-placeholder {
+  width: 11mm;
+  max-height: 11mm;
+}
+
+.appearance-mega-compact .character-card {
+  margin-bottom: 0.3mm;
+}
+
+.appearance-mega-compact .inline-jinx-icon,
+.appearance-mega-compact .inline-jinx-icon-placeholder {
+  width: 4mm;
+  height: 4mm;
+  font-size: 1.3mm;
+}
+
+.appearance-mega-compact .script-logo {
+  max-width: 29mm;
+  max-height: 18mm;
+}
+
+.sheet-footer {
+  text-align: center;
+  font-family: "Goudy Old Style", "Goudy Oldstyle", "Goudy", Georgia, serif;
+  font-size: 3.5mm;
+  color: #222;
+  opacity: 0.7;
+}
+
+.asterisk {
+  font-size: 5mm;
+}
+
+.author-credit {
+  position: absolute;
+  bottom: 3mm;
+  right: 3mm;
+  font-family: "Goudy Old Style", "Goudy Oldstyle", "Goudy", Georgia, serif;
+  font-size: 3.2mm;
+  color: #222;
+  opacity: 0.6;
+  text-align: right;
+  padding: var(--print-bleed);
+}
+
+.author-credit p {
+  font-size: 2.5mm;
+  margin: 0;
+}
+
+.setup-ability {
+  display: inline-block;
+  white-space: normal;
+  font-family: "Goudy Old Style", "Goudy Oldstyle", "Goudy", Georgia, serif;
+}
+
+.jinxes-section {
+  display: flex;
+  break-inside: avoid;
+  margin-top: 1mm;
+}
+
+.jinxes-list {
+  margin-left: 8mm;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.jinxes-two-columns {
+  flex-direction: row;
+  gap: 5mm;
+}
+
+.jinx-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.jinx-item {
+  display: flex;
+  gap: 2.5mm;
+  align-items: center;
+  break-inside: avoid;
+  margin-bottom: 2mm;
+}
+
+.jinx-icons {
+  display: flex;
+  gap: 1mm;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.jinx-icon-wrapper {
+  display: flex;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.jinx-icon,
+.jinx-icon-placeholder {
+  width: 3.5mm;
+  height: 3.5mm;
+  object-fit: contain;
+  scale: calc(2.8 * var(--icon-scale, 1));
+}
+
+.jinx-icon-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #eeeeee;
+  font-weight: bold;
+  font-size: 2mm;
+}
+
+.jinx-divider {
+  font-family: "Dumbledor", serif;
+  font-size: 4.6mm;
+  color: #1a202c;
+  line-height: 3.5mm;
+  margin: 0 0.5mm;
+}
+
+.jinx-text {
+  font-family: "Trade Gothic", "Trade Gothic Next", "Helvetica Neue", Arial, sans-serif;
+  font-size: 2.6mm;
+  line-height: 1.2;
+  margin: 0;
+  color: #222;
+  padding-top: 0.5mm;
+}
+
+.jinx-text.loric-text {
+  padding-top: 0;
+}
+
+.jinx-item.loric {
+  margin-bottom: 1mm;
+}
+
+.jinx-icon.loric,
+.jinx-icon-placeholder.loric {
+  width: 10mm;
+  height: 10mm;
+  scale: calc(1.7 * var(--icon-scale, 1));
+}
+
+.loric-name {
+  font-family: "Goudy Old Style";
+  font-size: 3mm;
+  padding-top: 0;
+}
+
+.loric-spacer {
+  min-width: 0;
+}

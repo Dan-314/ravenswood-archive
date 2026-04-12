@@ -1,0 +1,35 @@
+name: Update translations
+
+on:
+  schedule:
+    - cron: '0 9 * * *' # Daily at 9am UTC (1hr after roles)
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-translations:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch translations from Weblate
+        run: node scripts/fetch-translations.mjs
+        env:
+          WEBLATE_API_TOKEN: ${{ secrets.WEBLATE_API_TOKEN }}
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet public/translations/ 2>/dev/null; then
+            echo "No changes"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add public/translations/
+            git commit -m "update translations from Weblate"
+            git push
+          fi
