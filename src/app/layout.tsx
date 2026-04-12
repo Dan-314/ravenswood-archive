@@ -68,11 +68,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             {children}
           </main>
           <footer className="border-t mt-8 py-6">
-            <div className="mx-auto max-w-7xl px-4 relative flex items-center justify-center">
-              <a href="https://github.com/Dan-314/ravenswood-archive-stacks" target="_blank" rel="noopener noreferrer" className="absolute left-4 text-sm text-muted-foreground hover:text-foreground transition-colors">
-                The Stacks - Public Archive Project
-              </a>
-              <a href="https://release.botc.app/resources/" target="_blank" rel="noopener noreferrer">
+            <div className="mx-auto max-w-7xl px-4 flex flex-col gap-4 items-center md:grid md:grid-cols-3 md:gap-0">
+              <div className="hidden md:flex flex-col items-start gap-1">
+                <a href="https://github.com/Dan-314/ravenswood-archive" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                  Source on GitHub
+                </a>
+                <a href="https://github.com/Dan-314/ravenswood-archive-stacks" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                  The Stacks - Public Archive Project
+                </a>
+              </div>
+              <a href="https://release.botc.app/resources/" target="_blank" rel="noopener noreferrer" className="md:justify-self-center">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="https://release.botc.app/resources/community/ccc-parchment.png"
@@ -81,12 +86,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   className="hover:brightness-125"
                 />
               </a>
-              <div className="absolute right-4 flex flex-col items-end gap-1">
+              <div className="flex flex-col items-center md:items-end gap-1">
                 <a href="/api/docs" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                   API Docs
                 </a>
                 <a href="mailto:dan@ravenswoodarchive.com" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
                   Contact
+                </a>
+                <a href="https://github.com/Dan-314/ravenswood-archive" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors md:hidden">
+                  Source on GitHub
+                </a>
+                <a href="https://github.com/Dan-314/ravenswood-archive-stacks" target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-foreground transition-colors md:hidden">
+                  The Stacks - Public Archive Project
                 </a>
               </div>
             </div>
