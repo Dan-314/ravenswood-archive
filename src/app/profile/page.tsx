@@ -73,9 +73,10 @@ export default async function ProfilePage() {
             <thead>
               <tr className="border-b text-muted-foreground text-left">
                 <th className="pb-2 pr-4 font-medium">Name</th>
-                <th className="pb-2 pr-4 font-medium">Author</th>
+                <th className="pb-2 pr-4 font-medium hidden sm:table-cell">Author</th>
                 <th className="pb-2 pr-4 font-medium">Type</th>
-                <th className="pb-2 font-medium">Collections</th>
+                <th className="pb-2 pr-4 font-medium hidden md:table-cell">Downloads</th>
+                <th className="pb-2 font-medium hidden md:table-cell">Favourites</th>
               </tr>
             </thead>
             <tbody>

@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { createClient } from '@/lib/supabase/client'
 
-export function AuthButton() {
+export function AuthButton({ mobile = false }: { mobile?: boolean } = {}) {
   const supabase = React.useMemo(() => createClient(), [])
   const [user, setUser] = React.useState<{ email?: string; user_metadata?: Record<string, unknown>; app_metadata?: Record<string, unknown> } | null>(null)
   const [loading, setLoading] = React.useState(true)
@@ -32,13 +32,14 @@ export function AuthButton() {
   if (user) {
     const username = user.user_metadata?.full_name ?? user.user_metadata?.name ?? user.email
     const isAdmin = user.app_metadata?.role === 'admin'
+    const linkVisibility = mobile ? '' : 'hidden sm:block'
     return (
-      <div className="flex items-center gap-2">
+      <div className={mobile ? 'flex flex-col gap-2 items-start' : 'flex items-center gap-2'}>
         {isAdmin && (
-          <Link href="/admin" className="text-sm text-muted-foreground hover:text-foreground transition-colors hidden sm:block">Admin</Link>
+          <Link href="/admin" className={`text-sm text-muted-foreground hover:text-foreground transition-colors ${linkVisibility}`}>Admin</Link>
         )}
-        <Link href="/profile" className="text-sm text-muted-foreground hover:text-foreground transition-colors hidden sm:block">{username as string}</Link>
-        <Button variant="ghost" size="sm" onClick={signOut}>Sign out</Button>
+        <Link href="/profile" className={`text-sm text-muted-foreground hover:text-foreground transition-colors ${linkVisibility}`}>{username as string}</Link>
+        <Button variant="ghost" size="sm" onClick={signOut} className={mobile ? 'px-0 h-auto py-0 font-normal text-sm text-muted-foreground hover:text-foreground hover:bg-transparent' : ''}>Sign out</Button>
       </div>
     )
   }

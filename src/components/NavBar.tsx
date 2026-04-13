@@ -97,7 +97,7 @@ export function NavBar() {
               Favourites
             </Link>
           </nav>
-          <AuthButton />
+          <AuthButton mobile />
         </div>
       )}
     </header>
