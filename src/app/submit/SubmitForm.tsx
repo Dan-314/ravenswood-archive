@@ -166,8 +166,6 @@ export default function SubmitForm() {
           )}
         </div>
 
-        {parsed && <ScriptImageManager jsonText={jsonText} onJsonChange={applyJsonText} />}
-
         <div className="flex flex-col gap-2">
           <Label htmlFor="name">Script name</Label>
           <Input
@@ -233,6 +231,8 @@ export default function SubmitForm() {
           />
           <Label htmlFor="hasHomebrew" className="cursor-pointer">Contains homebrew characters</Label>
         </div>
+
+        {parsed && <ScriptImageManager jsonText={jsonText} onJsonChange={applyJsonText} />}
 
         {status === 'error' && (
           <p className="text-sm text-destructive">{errorMsg}</p>

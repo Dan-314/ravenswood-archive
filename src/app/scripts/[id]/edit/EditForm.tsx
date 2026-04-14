@@ -266,6 +266,8 @@ export function EditForm({ script }: EditFormProps) {
           <Label htmlFor="hasHomebrew" className="cursor-pointer">Contains homebrew characters</Label>
         </div>
 
+        <ScriptImageManager jsonText={jsonText} onJsonChange={applyJsonText} />
+
         <div className="flex flex-col gap-2">
           <Label htmlFor="json">Script JSON</Label>
           <Textarea
@@ -278,8 +280,6 @@ export function EditForm({ script }: EditFormProps) {
           />
           {parseError && <p className="text-sm text-destructive">{parseError}</p>}
         </div>
-
-        <ScriptImageManager jsonText={jsonText} onJsonChange={applyJsonText} />
 
         {error && <p className="text-sm text-destructive">{error}</p>}
 

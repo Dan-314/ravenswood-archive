@@ -2,6 +2,7 @@
 
 import * as React from 'react'
 import { Button } from '@/components/ui/button'
+import { Checkbox } from '@/components/ui/checkbox'
 import { Label } from '@/components/ui/label'
 
 interface CharacterWithImage {
@@ -42,6 +43,10 @@ function extractImageSlots(jsonText: string): CharacterWithImage[] {
   return slots
 }
 
+function hostnameOf(url: string): string {
+  try { return new URL(url).hostname.replace(/^www\./, '') } catch { return url }
+}
+
 function rewriteImageUrl(jsonText: string, index: number, newUrl: string): string {
   const parsed = JSON.parse(jsonText)
   if (!Array.isArray(parsed)) return jsonText
@@ -58,6 +63,7 @@ function rewriteImageUrl(jsonText: string, index: number, newUrl: string): strin
 
 export function ScriptImageManager({ jsonText, onJsonChange }: ScriptImageManagerProps) {
   const slots = React.useMemo(() => extractImageSlots(jsonText), [jsonText])
+  const [enabled, setEnabled] = React.useState(false)
   const [busyIndex, setBusyIndex] = React.useState<number | null>(null)
   const [errorByIndex, setErrorByIndex] = React.useState<Record<number, string>>({})
 
@@ -85,13 +91,24 @@ export function ScriptImageManager({ jsonText, onJsonChange }: ScriptImageManage
 
   return (
     <div className="flex flex-col gap-3">
-      <div>
-        <Label>Character images</Label>
-        <p className="text-xs text-muted-foreground mt-1">
-          Replace externally-hosted images with uploads so they load reliably. Uploads are re-encoded to WebP and hosted on this site.
-        </p>
+      <div className="flex items-start gap-2">
+        <Checkbox
+          id="replaceImages"
+          checked={enabled}
+          onCheckedChange={(checked) => setEnabled(checked === true)}
+          className="mt-0.5"
+        />
+        <div className="flex flex-col gap-1">
+          <Label htmlFor="replaceImages" className="cursor-pointer">
+            Upload & replace character icons
+          </Label>
+          <p className="text-xs text-muted-foreground">
+            Host the character images on this site so they load reliably. Uploads are re-encoded to WebP and are publically accessible.
+          </p>
+        </div>
       </div>
-      <ul className="flex flex-col gap-2">
+      {enabled && (
+      <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
         {slots.map((slot) => {
           const err = errorByIndex[slot.index]
           const busy = busyIndex === slot.index
@@ -107,7 +124,14 @@ export function ScriptImageManager({ jsonText, onJsonChange }: ScriptImageManage
               />
               <div className="flex-1 min-w-0">
                 <div className="text-sm font-medium truncate">{slot.name}</div>
-                <div className="text-xs text-muted-foreground truncate">{slot.currentUrl}</div>
+                <a
+                  href={slot.currentUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-muted-foreground truncate block hover:underline hover:text-foreground"
+                >
+                  {hostnameOf(slot.currentUrl)}
+                </a>
                 {err && <div className="text-xs text-destructive mt-1">{err}</div>}
               </div>
               <input
@@ -135,6 +159,7 @@ export function ScriptImageManager({ jsonText, onJsonChange }: ScriptImageManage
           )
         })}
       </ul>
+      )}
     </div>
   )
 }
