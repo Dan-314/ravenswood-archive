@@ -19,9 +19,6 @@ export type TranscodeResult = {
   height: number
 }
 
-// Re-encode user-supplied image bytes to a safe webp.
-// Strips metadata, caps dimensions, rejects non-raster formats (SVG, GIF, AVIF, ...).
-// Content of `input` is trusted only to be bytes; format is sniffed by sharp, not by filename.
 export async function transcodeImage(
   input: Buffer,
 ): Promise<{ ok: true; value: TranscodeResult } | { ok: false; error: TranscodeError }> {
@@ -46,7 +43,7 @@ export async function transcodeImage(
   let out: Buffer
   try {
     out = await pipeline
-      .rotate() // honour EXIF orientation, then strip it on re-encode
+      .rotate()
       .resize({
         width: MAX_OUTPUT_DIMENSION,
         height: MAX_OUTPUT_DIMENSION,

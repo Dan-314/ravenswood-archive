@@ -8,8 +8,6 @@ export const maxDuration = 30
 
 const BUCKET = 'script-images'
 
-// Per-user sliding window: 50 uploads / 24h. In-memory; leaky across instances but
-// matches the existing api-auth rate limiter pattern. Good enough for v1.
 const WINDOW_MS = 24 * 60 * 60 * 1000
 const MAX_UPLOADS = 50
 const windows = new Map<string, number[]>()
