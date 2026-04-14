@@ -77,7 +77,11 @@ export async function renderToHtml(
 
   const docProps = { script: parsed, options, nightOrders, assetsUrl, translations };
 
-  const bodyHtml = renderToStaticMarkup(createElement(FancyDoc, docProps));
+  // React rejects string event handlers, so inject the onerror attribute after render.
+  const bodyHtml = renderToStaticMarkup(createElement(FancyDoc, docProps)).replace(
+    /<img([^>]*class="[^"]*character-icon[^"]*"[^>]*?)\/?>/g,
+    `<img$1 onerror="this.style.visibility='hidden'"/>`,
+  );
 
   const css = loadCSS();
   const fontFaces = getFontFaces(appUrl);
