@@ -77,7 +77,15 @@ export async function renderToHtml(
 
   const docProps = { script: parsed, options, nightOrders, assetsUrl, translations };
 
-  const bodyHtml = renderToStaticMarkup(createElement(FancyDoc, docProps));
+  const rawBodyHtml = renderToStaticMarkup(createElement(FancyDoc, docProps));
+
+  // Inject an inline onerror fallback on every character icon so a broken URL
+  // (expired SSL, geo-blocked host, etc.) hides the image instead of leaving a
+  // broken-image placeholder in the PDF.
+  const bodyHtml = rawBodyHtml.replace(
+    /<img([^>]*class="[^"]*character-icon[^"]*"[^>]*?)\/?>/g,
+    `<img$1 onerror="this.style.visibility='hidden'"/>`,
+  );
 
   const css = loadCSS();
   const fontFaces = getFontFaces(appUrl);

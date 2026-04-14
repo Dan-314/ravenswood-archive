@@ -11,6 +11,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Checkbox } from '@/components/ui/checkbox'
 import { createClient } from '@/lib/supabase/client'
 import { parseScriptJson } from '@/lib/search'
+import { ScriptImageManager } from '@/components/ScriptImageManager'
 import type { Script } from '@/lib/supabase/types'
 
 interface EditFormProps {
@@ -34,8 +35,7 @@ export function EditForm({ script }: EditFormProps) {
   const [saving, setSaving] = React.useState(false)
   const [error, setError] = React.useState('')
 
-  function handleJsonChange(e: React.ChangeEvent<HTMLTextAreaElement>) {
-    const val = e.target.value
+  function applyJsonText(val: string) {
     setJsonText(val)
     setParseError('')
     if (!val.trim()) return
@@ -46,6 +46,10 @@ export function EditForm({ script }: EditFormProps) {
     } catch {
       setParseError('Invalid JSON')
     }
+  }
+
+  function handleJsonChange(e: React.ChangeEvent<HTMLTextAreaElement>) {
+    applyJsonText(e.target.value)
   }
 
   async function handleSave(e: React.FormEvent) {
@@ -274,6 +278,8 @@ export function EditForm({ script }: EditFormProps) {
           />
           {parseError && <p className="text-sm text-destructive">{parseError}</p>}
         </div>
+
+        <ScriptImageManager jsonText={jsonText} onJsonChange={applyJsonText} />
 
         {error && <p className="text-sm text-destructive">{error}</p>}
 

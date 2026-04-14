@@ -11,6 +11,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Checkbox } from '@/components/ui/checkbox'
 import { createClient } from '@/lib/supabase/client'
 import { parseScriptJson } from '@/lib/search'
+import { ScriptImageManager } from '@/components/ScriptImageManager'
 
 type Status = 'idle' | 'loading' | 'success' | 'error'
 
@@ -30,8 +31,7 @@ export default function SubmitForm() {
   const [parsed, setParsed] = React.useState<ReturnType<typeof parseScriptJson> | null>(null)
   const [parseError, setParseError] = React.useState('')
 
-  function handleJsonChange(e: React.ChangeEvent<HTMLTextAreaElement>) {
-    const val = e.target.value
+  function applyJsonText(val: string) {
     setJsonText(val)
     setParseError('')
     setParsed(null)
@@ -46,6 +46,10 @@ export default function SubmitForm() {
     } catch {
       setParseError('Invalid JSON — please paste a valid BotC script.')
     }
+  }
+
+  function handleJsonChange(e: React.ChangeEvent<HTMLTextAreaElement>) {
+    applyJsonText(e.target.value)
   }
 
   async function handleSubmit(e: React.FormEvent) {
@@ -161,6 +165,8 @@ export default function SubmitForm() {
             </p>
           )}
         </div>
+
+        {parsed && <ScriptImageManager jsonText={jsonText} onJsonChange={applyJsonText} />}
 
         <div className="flex flex-col gap-2">
           <Label htmlFor="name">Script name</Label>
