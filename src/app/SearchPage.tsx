@@ -18,9 +18,11 @@ interface SearchPageProps {
   collections: Collection[]
   favouritedBy?: string
   lockedCollectionId?: string
+  initialScripts?: ScriptWithCollections[]
+  initialCount?: number
 }
 
-export function SearchPage({ characters, collections, favouritedBy, lockedCollectionId }: SearchPageProps) {
+export function SearchPage({ characters, collections, favouritedBy, lockedCollectionId, initialScripts, initialCount }: SearchPageProps) {
   const router = useRouter()
   const pathname = usePathname()
   const searchParams = useSearchParams()
@@ -30,6 +32,9 @@ export function SearchPage({ characters, collections, favouritedBy, lockedCollec
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [] // read URL only on mount
   )
+
+  const hasInitialServerData = initialScripts !== undefined
+  const hasURLSearchState = searchParams.toString().length > 0
 
   const [query, setQuery] = React.useState(initialQuery)
   const [filters, setFilters] = React.useState<SearchParams>(initialFilters)
@@ -46,10 +51,14 @@ export function SearchPage({ characters, collections, favouritedBy, lockedCollec
     },
     [router, pathname, lockedCollectionId]
   )
-  const [scripts, setScripts] = React.useState<ScriptWithCollections[]>([])
-  const [count, setCount] = React.useState(0)
+  const [scripts, setScripts] = React.useState<ScriptWithCollections[]>(
+    hasInitialServerData && !hasURLSearchState ? initialScripts! : []
+  )
+  const [count, setCount] = React.useState(
+    hasInitialServerData && !hasURLSearchState ? (initialCount ?? 0) : 0
+  )
   const [page, setPage] = React.useState(1)
-  const [loading, setLoading] = React.useState(true)
+  const [loading, setLoading] = React.useState(!(hasInitialServerData && !hasURLSearchState))
 
   const supabase = React.useMemo(() => createClient(), [])
 
@@ -78,6 +87,7 @@ export function SearchPage({ characters, collections, favouritedBy, lockedCollec
 
   // Initial load
   React.useEffect(() => {
+    if (hasInitialServerData && !hasURLSearchState) return
     runSearch({ ...filters, query })
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])

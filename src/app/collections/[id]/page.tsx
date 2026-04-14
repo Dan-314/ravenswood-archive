@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation'
 import Link from 'next/link'
 import { ArrowLeft } from 'lucide-react'
 import { SearchPage } from '@/app/SearchPage'
+import { searchScripts } from '@/lib/search'
 import type { Metadata } from 'next'
 
 export const revalidate = 300
@@ -33,9 +34,10 @@ export default async function CollectionPage({ params }: Props) {
   const { id } = await params
   const supabase = createAnonClient()
 
-  const [{ data: collection }, { data: characters }] = await Promise.all([
+  const [{ data: collection }, { data: characters }, initial] = await Promise.all([
     supabase.from('collections').select('*').eq('id', id).single(),
     supabase.from('characters').select('*').order('name'),
+    searchScripts(supabase, { collectionIds: [id], page: 1, pageSize: 24 }),
   ])
 
   if (!collection) notFound()
@@ -61,6 +63,8 @@ export default async function CollectionPage({ params }: Props) {
           characters={characters ?? []}
           collections={[]}
           lockedCollectionId={id}
+          initialScripts={initial.data}
+          initialCount={initial.count}
         />
       </Suspense>
     </div>

@@ -1,6 +1,4 @@
-'use client'
-
-import { useRouter } from 'next/navigation'
+import Link from 'next/link'
 import { Badge } from '@/components/ui/badge'
 import type { ScriptWithCollections } from '@/lib/supabase/types'
 
@@ -9,26 +7,18 @@ interface ScriptRowProps {
 }
 
 export function ScriptRow({ script }: ScriptRowProps) {
-  const router = useRouter()
-
   return (
-    <tr
-      className="border-b transition-colors hover:bg-muted/50 focus-visible:bg-muted/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring cursor-pointer"
-      role="link"
-      tabIndex={0}
-      onClick={() => router.push(`/scripts/${script.id}`)}
-      onKeyDown={(e) => {
-        if (e.key === 'Enter' || e.key === ' ') {
-          e.preventDefault()
-          router.push(`/scripts/${script.id}`)
-        }
-      }}
-    >
+    <tr className="relative border-b transition-colors hover:bg-muted/50 focus-within:bg-muted/50">
       <td className="py-3 pr-4 font-medium">
-        {script.name}
-        {script.version_label && script.version_label !== '0' && (
-          <span className="ml-1.5 text-xs font-normal text-muted-foreground">{script.version_label}</span>
-        )}
+        <Link
+          href={`/scripts/${script.id}`}
+          className="before:absolute before:inset-0 before:content-[''] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring rounded-sm"
+        >
+          {script.name}
+          {script.version_label && script.version_label !== '0' && (
+            <span className="ml-1.5 text-xs font-normal text-muted-foreground">{script.version_label}</span>
+          )}
+        </Link>
       </td>
       <td className="py-3 pr-4 text-sm text-muted-foreground hidden sm:table-cell">
         {script.author ?? '—'}
