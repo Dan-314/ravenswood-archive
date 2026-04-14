@@ -12,6 +12,7 @@ const description = 'Browse, search and download Blood on the Clocktower scripts
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
+  alternates: { canonical: '/' },
   title: {
     default: 'Ravenswood Archive — Blood on the Clocktower Script Finder',
     template: '%s — Ravenswood Archive',

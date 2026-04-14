@@ -5,6 +5,7 @@ import { CompetitionList } from './CompetitionList'
 export const metadata: Metadata = {
   title: 'Script Competitions',
   description: 'Blood on the Clocktower script competitions and brackets. Vote on your favourite BotC scripts.',
+  alternates: { canonical: '/competitions' },
 }
 
 export const revalidate = 3600

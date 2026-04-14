@@ -6,6 +6,7 @@ import { Badge } from '@/components/ui/badge'
 export const metadata: Metadata = {
   title: 'Script Collections',
   description: 'Browse curated collections of Blood on the Clocktower scripts. Find themed BotC script packs for your next Clocktower game.',
+  alternates: { canonical: '/collections' },
 }
 
 export const revalidate = 300

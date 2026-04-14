@@ -23,7 +23,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const supabase = createAnonClient()
   const { data } = await supabase.from('collections').select('name').eq('id', id).single()
   if (!data) return { title: 'Collection not found' }
-  return { title: data.name }
+  return {
+    title: data.name,
+    alternates: { canonical: `/collections/${id}` },
+  }
 }
 
 export default async function CollectionPage({ params }: Props) {

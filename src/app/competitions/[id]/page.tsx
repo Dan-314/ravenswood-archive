@@ -2,8 +2,14 @@ import { createClient } from '@/lib/supabase/server'
 import { notFound } from 'next/navigation'
 import { CompetitionDetail } from './CompetitionDetail'
 import type { Script, Competition, CompetitionEntry } from '@/lib/supabase/types'
+import type { Metadata } from 'next'
 
 export const dynamic = 'force-dynamic'
+
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
+  const { id } = await params
+  return { alternates: { canonical: `/competitions/${id}` } }
+}
 
 export default async function CompetitionPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params

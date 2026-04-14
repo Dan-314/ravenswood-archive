@@ -27,7 +27,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!data) return { title: 'Version not found' }
   const vLabel = data.version_label === '0' ? `#${data.version_number}` : data.version_label
   const title = `${data.name}${data.author ? ` by ${data.author}` : ''} (${vLabel})`
-  return { title, openGraph: { title } }
+  return {
+    title,
+    openGraph: { title },
+    alternates: { canonical: `/scripts/${id}/versions/${version}` },
+  }
 }
 
 export default async function ScriptVersionPage({ params }: Props) {
