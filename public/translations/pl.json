@@ -397,7 +397,7 @@
     },
     "goon": {
       "ability": "Każdej nocy pierwszy gracz, który wybierze cię w wyniku swojej umiejętności jest pijany do zmierzchu. Przechodzisz na jego stronę.",
-      "flavor": "Ta szefie. Pogadałem z tym typem jak należy. Drugi raz nie będzie trzeba, gwarantuję. Nie szefie, nie trza doktora - to tylko mała rana od noża. Do rana się zagoi.",
+      "flavor": "Ta szefie. Pogadałem z tym typem jak należy. Drugi raz nie będzie trzeba, gwarantuję. Nie szefie, nie trza doktora - to tylko rana od noża. Do rana się zagoi.",
       "name": "Zbir"
     },
     "gossip": {
@@ -943,7 +943,7 @@
       "first": "Wykonaj krok Informacje dla Sługusów i Informacje dla Demona nawet gdy jest mniej niż 7 graczy.",
       "flavor": "Bzyczy! Schodzi po schodach! Zapewnia ciepło w nocy! Smakuje jak cukier! Dzieciaki je kochają! Przedstawiam... całkiem nowe... Bzycząco-schodzące-ciepło-słodkie-ustrojstwo! Zabawa dla całej rodziny!",
       "name": "Lalkarz",
-      "other": "Jeżeli jest to noc gdy atak Demona zakończył by grę, a Demon jest oznaczony *OSTATNIA NOC: BRAK ATAKU*, to Demon nie wykonuje swojej akcji. (Nie budzić go.)"
+      "other": "Jeżeli jest to noc gdy atak Demona zakończyłby grę, a Demon jest oznaczony *OSTATNIA NOC: BRAK ATAKU*, nie budź Demona."
     },
     "undertaker": {
       "ability": "Każdej nocy* dowiadujesz się, jaka postać zmarła dziś w wyniku egzekucji.",
@@ -1063,7 +1063,7 @@
     "hindu": {
       "ability": "Pierwsi 4 gracze, którzy umrą natychmiast reinkarnują się jako Podróżnicy tej samej przynależności.",
       "flavor": "चत्वारो मृत्युमध्ये पतन्ति, चत्वारो यात्री पुनरुद्गताः। चत्वारो धर्मे स्थितचित्तवृत्तेः, चत्वार एषां न पुनः क्षयः॥",
-      "name": "Hindu"
+      "name": "Hindus"
     },
     "pope": {
       "ability": "W grze występują duplikaty dobrych umiejętności. Mogą być także blefami.",
@@ -1140,7 +1140,7 @@
     "evil": "Zły",
     "evilwakes": "Zło się budzi",
     "falseinfo": "Fałszywe informacje",
-    "fauxpaw": "Faux Paw",
+    "fauxpaw": "Fałszywy trop",
     "fear": "Zastraszony",
     "finalnightnoattack": "Ostatnia noc: brak ataku",
     "friend": "Przyjaciel",
