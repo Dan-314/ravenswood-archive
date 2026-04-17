@@ -67,7 +67,7 @@
     },
     "banshee": {
       "ability": "Jos Demoni tappaa sinut, kaikki pelaajat saavat tietää tämän. Voit tästä lähin nimittää kahdesti päivässä ja äänestää kahdesti per nimitys.",
-      "flavor": "Gorm do shúile, dearg do ghruaig, ní bheidh sé i bhfad, is a mbeidh tú san uaigh.",
+      "flavor": "Silmäs on siniset, hiukses on punaiset, kauaa ei kestä, kunnes haudas jo makaat.",
       "name": "Aave",
       "other": "Jos Demoni tappoi Aaveen tänä yönä, ilmoita julkisesti, että Aave on kuollut. :reminder:"
     },
@@ -113,7 +113,7 @@
     },
     "boomdandy": {
       "ability": "Jos sinut teloitetaan, kolme pelaajaa jää henkiin. Pelaaja jota kohti osoittaa eniten sormia kuolee 10-9-8...1 laskennan jälkeen.",
-      "flavor": "Tik... Tik... Tik... TOK.",
+      "flavor": "Tik... Tak... Tik... TOK.",
       "name": "Ruutikeikari"
     },
     "bootlegger": {
@@ -221,7 +221,7 @@
     "deusexfiasco": {
       "ability": "Tarinankertoja tekee ainakin kerran pelissä virheen, korjaa sen ja myöntää asian julkisesti.",
       "flavor": "Se ei ole bugi, se on piirre. Se ei ole virhe, se on säätö. Se ei ole rikki, se on erilainen.",
-      "name": "Deus ex Fiasco"
+      "name": "Jumalainen Fiasko"
     },
     "deviant": {
       "ability": "Jos olit hauska tänään, sinua ei voi karkottaa.",
@@ -764,10 +764,10 @@
     },
     "pukka": {
       "ability": "Joka yö, valitse pelaaja: tämä on myrkytetty. Aiemmin myrkytetty pelaaja kuolee ja tervehtyy sitten.",
-      "first": "Pukka valitsee pelaajan. :reminder:",
+      "first": "Pooka valitsee pelaajan. :reminder:",
       "flavor": "Olet todella ollut ystävällinen kutsuessasi minut kauniiseen kotiisi. Olen todella pahoillani, että raapaisin sinua vahingossa. Pikku juttu. Ei haittaa. Mutta ole hyvä, ota tämä kultahammastikku nöyrästä katumuksestani.",
-      "name": "Pukka",
-      "other": "Pukka valitsee pelaajan. :reminder: Aiemmin myrkytetty pelaaja kuolee ja tervehtyy sitten. :reminder:"
+      "name": "Pooka",
+      "other": "Pooka valitsee pelaajan. :reminder: Aiemmin myrkytetty pelaaja kuolee ja tervehtyy sitten. :reminder:"
     },
     "puzzlemaster": {
       "ability": "1 pelaaja on juopunut, vaikka kuolisit. Jos arvaat (kerran) kuka se on, saat tietää, kuka Demoni on, muuten saat väärää tietoa.",
@@ -851,7 +851,7 @@
     "shugenja": {
       "ability": "Aloitat tietäen, sijaitseeko lähin paha pelaaja sinusta myötä- vai vastapäivään. Jos etäisyys on sama, tieto on sattumanvarainen.",
       "first": "Osoita myötä- tai vastapäivään.",
-      "flavor": "これは夢。それも夢。すべて夢です。",
+      "flavor": "Unessa. Kuuntele maata. Juurakko osoittaa suunnan.",
       "name": "Shugenja"
     },
     "slayer": {
@@ -1021,10 +1021,10 @@
     },
     "xaan": {
       "ability": "Yönä X, kaikki Kyläläiset ovat myrkytettyjä iltaan asti. [X Hylkiötä]",
-      "first": "Jos X on 1, merkitse Xaan *X* -muistutuksella. :reminder: :reminder:",
+      "first": "Jos X on 1, merkitse Tavaton *X* -muistutuksella. :reminder: :reminder:",
       "flavor": "Alas he putoavat. Yksi toisensa jälkeen. Kaksin, kolmin, viisin.",
-      "name": "Xaan",
-      "other": "Vaihda Xaan-muistutus asiaankuuluvaan yöhön. Jos on yö X, merkitse Xaan *X* -merkillä. :reminder: :reminder:"
+      "name": "Tavaton",
+      "other": "Vaihda Tavaton-muistutus asiaankuuluvaan yöhön. Jos on yö X, merkitse Tavaton *X* -merkillä. :reminder: :reminder:"
     },
     "yaggababble": {
       "ability": "Aloitat tietäen salaisen fraasin. Jokaista julkisesti sanomaasi kertaa kohden, saattaa pelaaja kuolla.",
@@ -1320,7 +1320,7 @@
     "poppygrower-widow": "Jos Unikkotarhurilla on kykynsä, Leski ei näe Loitsukirjaa.",
     "preacher-summoner": "Jos elävällä Rienaajalla ei ole kykyä, on Rienaaja-kyky Tarinankertojalla.",
     "preacher-vizier": "Jos Visiiri menettää kykynsä, hän saa tietää tästä, eikä voi kuolla päivällä.",
-    "pukka-summoner": "Rienaaja voi rienata Pukkan peliin 2. päivänä, 3. sijaan.",
+    "pukka-summoner": "Rienaaja voi rienata Pookan peliin 2. päivänä, 3. sijaan.",
     "ravenkeeper-riot": "Joka yö*, Mellakka valitsee elävän hyvän pelaajan (eri kuin aiempina öinä): valittu Korpinkesyttäjä käyttää kykyään, muttei kuole.",
     "recluse-sage": "Rastuli saattaa näyttäytyä Demonina Tietäjälle.",
     "riot-sage": "Joka yö*, Mellakka valitsee elävän hyvän pelaajan (eri kuin aiempina öinä): valittu Tietäjä käyttää kykyään, muttei kuole.",
