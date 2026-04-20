@@ -1174,6 +1174,7 @@
   "ui": {
     "firstNight": "Перша ніч",
     "otherNights": "Інші ночі",
-    "players": "Гравці"
+    "players": "Гравці",
+    "notFirstNight": "Окрім першої ночі"
   }
 }

@@ -1331,6 +1331,7 @@
   "ui": {
     "firstNight": "첫날 밤",
     "otherNights": "다른 밤",
-    "players": "플레이어"
+    "players": "플레이어",
+    "notFirstNight": "첫날 제외"
   }
 }

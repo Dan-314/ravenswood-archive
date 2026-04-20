@@ -1327,6 +1327,7 @@
   "ui": {
     "firstNight": "Primeira Noite",
     "otherNights": "Outras Noites",
-    "players": "Jogadores"
+    "players": "Jogadores",
+    "notFirstNight": "Não na primeira noite"
   }
 }

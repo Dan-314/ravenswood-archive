@@ -1244,6 +1244,7 @@
   "ui": {
     "firstNight": "最初の夜",
     "otherNights": "他の夜",
-    "players": "プレイヤー"
+    "players": "プレイヤー",
+    "notFirstNight": " "
   }
 }

@@ -1307,6 +1307,7 @@
   "ui": {
     "firstNight": "首个夜晚",
     "otherNights": "其他夜晚",
-    "players": "玩家"
+    "players": "玩家",
+    "notFirstNight": "除了首个夜晚以外的每个夜晚"
   }
 }

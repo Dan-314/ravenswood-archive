@@ -1317,6 +1317,7 @@
   "ui": {
     "firstNight": "New Moon",
     "otherNights": "Waxing Moons",
-    "players": "Mateys"
+    "players": "Mateys",
+    "notFirstNight": "Not under a new moon"
   }
 }
