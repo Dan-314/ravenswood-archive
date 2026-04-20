@@ -98,7 +98,8 @@ export function translateUiLabel(
   translations: TranslationData | null,
 ): string {
   if (!translations) return fallback;
-  return translations.ui?.[key] ?? fallback;
+  const value = translations.ui?.[key];
+  return value && value.trim() ? value : fallback;
 }
 
 const TPI_CDN_BASE = "https://release.botc.app/resources/characters";
