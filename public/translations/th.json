@@ -1332,6 +1332,6 @@
     "firstNight": "คืนแรก",
     "otherNights": "คืนต่อๆ ไป",
     "players": "ผู้เล่น",
-    "notFirstNight": "ไม่ใช่คืนแรก"
+    "notFirstNight": "* ไม่ใช่คืนแรก"
   }
 }

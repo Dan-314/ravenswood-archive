@@ -1318,6 +1318,6 @@
     "firstNight": "New Moon",
     "otherNights": "Waxing Moons",
     "players": "Mateys",
-    "notFirstNight": "Not under a new moon"
+    "notFirstNight": "* Not under a new moon"
   }
 }
