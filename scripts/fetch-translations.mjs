@@ -54,11 +54,16 @@ const NATIVE_NAMES = {
 // grimoire.* keys in app-interface that contain team labels ("Singular|Plural")
 const TEAM_GRIMOIRE_KEYS = ["townsfolk", "outsider", "minion", "demon", "traveller", "fabled", "loric"];
 
-// grimoire.phases.* and grimoire.players keys for UI labels
-const UI_GRIMOIRE_KEYS = {
-  "grimoire.phases.first_night": "firstNight",
-  "grimoire.phases.other_nights": "otherNights",
-  "grimoire.players": "players",
+// Weblate context keys mapped to our ui.* field names, grouped by component
+const UI_CONTEXT_KEYS_BY_COMPONENT = {
+  "app-interface": {
+    "grimoire.phases.first_night": "firstNight",
+    "grimoire.phases.other_nights": "otherNights",
+    "grimoire.players": "players",
+  },
+  "script-tool": {
+    "print.not-first-night": "notFirstNight",
+  },
 };
 
 // Night marker role keys
@@ -117,14 +122,19 @@ async function getLanguages() {
   return translations;
 }
 
-async function fetchAppInterfaceLabels(langCode) {
+async function fetchComponentLabels(langCode, component, contextMap, includeTeams) {
   const teams = {};
   const ui = {};
-  const uiContexts = Object.keys(UI_GRIMOIRE_KEYS);
-  const teamQuery = TEAM_GRIMOIRE_KEYS.map((k) => `context:grimoire.${k}`).join("+OR+");
-  const uiQuery = uiContexts.map((k) => `context:${k}`).join("+OR+");
-  const query = `${teamQuery}+OR+${uiQuery}`;
-  const url = `${BASE_URL}/translations/${PROJECT}/app-interface/${langCode}/units/?format=json&page_size=100&q=${query}`;
+  const uiContexts = Object.keys(contextMap);
+  const queryParts = [];
+  if (includeTeams) {
+    queryParts.push(TEAM_GRIMOIRE_KEYS.map((k) => `context:grimoire.${k}`).join("+OR+"));
+  }
+  if (uiContexts.length > 0) {
+    queryParts.push(uiContexts.map((k) => `context:${k}`).join("+OR+"));
+  }
+  const query = queryParts.join("+OR+");
+  const url = `${BASE_URL}/translations/${PROJECT}/${component}/${langCode}/units/?format=json&page_size=100&q=${query}`;
   try {
     const data = await fetchJson(url);
     for (const unit of data.results) {
@@ -133,20 +143,38 @@ async function fetchAppInterfaceLabels(langCode) {
       if (!target) continue;
 
       // Team labels (grimoire.townsfolk, etc.)
-      const teamKey = ctx.replace("grimoire.", "");
-      if (TEAM_GRIMOIRE_KEYS.includes(teamKey)) {
-        const parts = target.split("|");
-        teams[teamKey] = parts.length > 1 ? parts[1] : parts[0];
-        continue;
+      if (includeTeams) {
+        const teamKey = ctx.replace("grimoire.", "");
+        if (TEAM_GRIMOIRE_KEYS.includes(teamKey)) {
+          const parts = target.split("|");
+          teams[teamKey] = parts.length > 1 ? parts[1] : parts[0];
+          continue;
+        }
       }
 
-      // UI labels (grimoire.phases.first_night, etc.)
-      if (UI_GRIMOIRE_KEYS[ctx]) {
-        ui[UI_GRIMOIRE_KEYS[ctx]] = target;
+      // UI labels — strip a leading "* " since CharacterSheet renders the asterisk separately
+      if (contextMap[ctx]) {
+        ui[contextMap[ctx]] = target.replace(/^\*\s*/, "");
       }
     }
   } catch {
-    // app-interface may not have this language — fall back to game-content reminders
+    // Component may not have this language — skip silently
+  }
+  return { teams, ui };
+}
+
+async function fetchAppInterfaceLabels(langCode) {
+  const teams = {};
+  const ui = {};
+  for (const [component, contextMap] of Object.entries(UI_CONTEXT_KEYS_BY_COMPONENT)) {
+    const result = await fetchComponentLabels(
+      langCode,
+      component,
+      contextMap,
+      component === "app-interface",
+    );
+    Object.assign(teams, result.teams);
+    Object.assign(ui, result.ui);
   }
   return { teams, ui };
 }
