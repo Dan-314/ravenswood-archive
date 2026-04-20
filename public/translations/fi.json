@@ -1331,6 +1331,7 @@
   "ui": {
     "firstNight": "Ensimmäinen Yö",
     "otherNights": "Muut yöt",
-    "players": "Pelaajat"
+    "players": "Pelaajat",
+    "notFirstNight": "* Ei ensimmäisenä yönä"
   }
 }

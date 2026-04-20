@@ -10,7 +10,7 @@ import {
 } from "../utils/colours";
 import type { GroupedCharacters, Jinx, PdfOptions } from "@/lib/botc/types";
 import type { TranslationData } from "@/lib/botc/translations";
-import { translateTeamName } from "@/lib/botc/translations";
+import { translateTeamName, translateUiLabel } from "@/lib/botc/translations";
 import type { FabledOrLoric } from "../utils/fabledOrLoric";
 import { JinxesAndSpecial } from "../components/JinxesAndSpecial";
 import { CharacterSection } from "./CharacterSection";
@@ -174,7 +174,7 @@ export function CharacterSheet({
           </div>
 
           <div className="sheet-footer">
-            <span className="asterisk">*</span>Not the first night
+            {translateUiLabel("notFirstNight", "* Not the first night", translations ?? null)}
           </div>
           <div className="author-credit">
             <p>&copy; Steven Medway bloodontheclocktower.com</p>
