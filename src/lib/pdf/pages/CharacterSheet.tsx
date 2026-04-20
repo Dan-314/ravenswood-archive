@@ -174,7 +174,7 @@ export function CharacterSheet({
           </div>
 
           <div className="sheet-footer">
-            <span className="asterisk">*</span>{translateUiLabel("notFirstNight", "Not the first night", translations ?? null)}
+            {translateUiLabel("notFirstNight", "* Not the first night", translations ?? null)}
           </div>
           <div className="author-credit">
             <p>&copy; Steven Medway bloodontheclocktower.com</p>
