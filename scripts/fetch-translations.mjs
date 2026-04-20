@@ -152,9 +152,9 @@ async function fetchComponentLabels(langCode, component, contextMap, includeTeam
         }
       }
 
-      // UI labels — strip a leading "* " since CharacterSheet renders the asterisk separately
+      // UI labels
       if (contextMap[ctx]) {
-        ui[contextMap[ctx]] = target.replace(/^\*\s*/, "");
+        ui[contextMap[ctx]] = target;
       }
     }
   } catch {
