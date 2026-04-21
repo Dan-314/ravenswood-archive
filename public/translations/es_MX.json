@@ -1052,8 +1052,7 @@
     "tor": {
       "ability": "Jugadores no conocen su personaje ni su alineamiento. Lo aprenden cuando mueran.",
       "flavor": "Con el trueno como mi voz y el rayo como mi espada, yo, le guardián eterne, me deleito con los insensatos que osan acercarse a la puerta prohibida. ¡He aquí mi sagrado objetivo! Purgar al escarabajo del vientre de la tierra rocosa, atraparlo en una red de estrellas, en la cima de la colina donde el cielo se une con la tierra.",
-      "name": "Tor",
-      "other": "Si un jugador muere esta noche, muestre la ficha de información de *USTED ES*, su ficha de personaje y un pulgar hacia arriba o hacia abajo."
+      "name": "Tor"
     },
     "zenomancer": {
       "ability": "Uno o más jugadores tienen una meta cada uno. Cuando lo logran, ese jugador aprende una pieza de información verdadera.",
