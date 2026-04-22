@@ -78,6 +78,12 @@
     "completion": 100
   },
   {
+    "code": "ru",
+    "name": "Russian",
+    "nativeName": "Русский",
+    "completion": 96
+  },
+  {
     "code": "sr",
     "name": "Serbian",
     "nativeName": "Српски",

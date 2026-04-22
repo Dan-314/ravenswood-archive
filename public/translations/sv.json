@@ -1053,7 +1053,8 @@
       "ability": "Spelare vet inte sin roll eller sitt lag. De får veta det när de har dött.",
       "flavor": "Med åskan som min röst och blixten som mitt svärd ska jag, den eviga väktaren, frossa på de dårar som vågar närma sig den förbjudna porten. Skåda mitt heliga mål! Att utrota skalbaggen från den steniga jordens buk, att snärja den i ett nät av stjärnor, på kullen där himmel möter jord.",
       "name": "Väktaren",
-      "other": "Om en spelare dog inatt, visa infokortet *DU ÄR*, spelarens rollbricka och tummen upp eller ner."
+      "other": "Om en spelare dog inatt, visa infokortet *DU ÄR*, spelarens rollbricka och ge en tumsignal.",
+      "first": "Hoppa över Kumpan-info och Demon-info."
     },
     "zenomancer": {
       "ability": "En eller flera spelare har varsitt mål. När man uppnått sitt mål får man någon sann info.",

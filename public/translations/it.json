@@ -1052,7 +1052,9 @@
     "tor": {
       "ability": "I giocatori non conoscono il loro personaggio o allineamento. Li scoprono quando muoiono.",
       "flavor": "Con il tuono per la voce e il lampo per la lama, io, il guardiano eterno, banchetto con gli idioti che osano avvicinarsi al cancello proibito. Osservate, il mio sacro obiettivo! Ripulire lo scarafaggio dallo stomaco della terra rocciosa, intrappolarlo in una rete di stelle, sulla cima della collina dove il cielo incontra la terra.",
-      "name": "Tor"
+      "name": "Tor",
+      "other": "Se un giocatore è morto stanotte, mostragli la tessera informazioni *TU SEI*, il suo gettone personaggio, e fai un segno col pollice.",
+      "first": "Salta le informazioni del Demone e dei Tirapiedi."
     },
     "zenomancer": {
       "ability": "Uno o più giocatori hanno un obiettivo. Quando è raggiunto, quel giocatore apprende un'informazione vera.",

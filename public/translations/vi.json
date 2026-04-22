@@ -7,7 +7,7 @@
       "other": "Acrobat chọn 1 người. :reminder:"
     },
     "alchemist": {
-      "ability": "Bạn có năng lực của Tay sai. Khi dùng nó, Người kể truyện có thể nhắc bạn đưa ra lựa chọn khác.",
+      "ability": "Bạn có năng lực của Tay sai. Khi dùng nó, Người kể chuyện có thể nhắc bạn đưa ra lựa chọn khác.",
       "first": "Cho xem token *BẠN LÀ* và một token của Tay sai.",
       "flavor": "Cùng ta đi sâu vào lòng đất. Bằng sự tinh luyện, ngươi có thể tìm được viên đá ẩn. Trên là vàng, dưới là đỏ. Kether trong Malkuth.",
       "name": "Alchemist"
@@ -43,7 +43,7 @@
       "name": "Apprentice"
     },
     "artist": {
-      "ability": "Một lần trong trò chơi, trong ngày, bí mật hỏi Người kể truyện bất kỳ câu hỏi đúng/sai.",
+      "ability": "Một lần trong trò chơi, trong ngày, bí mật hỏi Người kể chuyện bất kỳ câu hỏi đúng/sai.",
       "flavor": "Mon Dieu! C'est lumineux! Tác phẩm của tôi, cổ ấy... phải nói thể nào... Thât Lộng lẫy! Dieu est révélé! Oui.",
       "name": "Artist"
     },
@@ -54,7 +54,7 @@
       "other": "Assassin có thể chọn một người chơi. :reminder: :reminder:"
     },
     "atheist": {
-      "ability": "Người kể truyện có thể phá vỡ luật chơi, và nếu bị hành quyết, phe tốt thắng, ngay cả khi bạn chết. [Không có nhân vật phe xấu]",
+      "ability": "Người kể chuyện có thể phá vỡ luật chơi, và nếu bị hành quyết, phe tốt thắng, ngay cả khi bạn chết. [Không có nhân vật phe xấu]",
       "flavor": "Hãy bỏ qua hết mọi phỏng đoán không cần thiết và sự hoang đường vô lý đi . Mọi thứ đều có lý do hợp lý cả. Đúng, cái chén có thể đang quay quanh hành tinh, quá nhỏ để thẩy, nhưng ta sẽ uống trà bằng cái chén cực kì thật này bằng bàn tay cực kì thật này.",
       "name": "Atheist"
     },
@@ -95,7 +95,7 @@
       "name": "Beggar"
     },
     "bishop": {
-      "ability": "Chỉ có Người kể truyện có quyền biểu quyết. Ít nhất 1 người chơi khác phe phải bị biểu quyết mỗi ngày.",
+      "ability": "Chỉ có Người kể chuyện có quyền biểu quyết. Ít nhất 1 người chơi khác phe phải bị biểu quyết mỗi ngày.",
       "flavor": "In nomine Patris, et Filii, et Spiritus Sancti… Nos mos Dei. Deus vult de nobis.",
       "name": "Bishop"
     },
@@ -219,7 +219,7 @@
       "first": "Nếu có 7 người chơi trở lên, gọi Ác quỷ dậy: Cho xem token *ĐÂY LÀ TAY SAI CỦA BẠN*. Chỉ vảo tất cả Tay sai. Cho xem token *NHỮNG NHÂN VẬT SAU KHÔNG CÓ TRONG TRÒ CHƠI*. Cho xem 3 token nhân vật tốt không có trong trò chơi."
     },
     "deusexfiasco": {
-      "ability": "Ít nhất một lần trong trò chơi, Người kể truyện sẽ mắc lỗi, chỉnh sửa nó, và công khai nhận lỗi.",
+      "ability": "Ít nhất một lần trong trò chơi, Người kể chuyện sẽ mắc lỗi, chỉnh sửa nó, và công khai nhận lỗi.",
       "flavor": "Đây không phải là bug, đấy là tính năng. Đây không phải là lỗi, đẩy là kế hoạch có sẵn. Chỗ này không hỏng, nó là cái đặc biệt.",
       "name": "Deus ex Fiasco"
     },
@@ -328,7 +328,7 @@
       "name": "Fiddler"
     },
     "fisherman": {
-      "ability": "Một lần trong trò chơi, trong ngày, gặp Người kể truyện để được nhận vài lời khuyên để giúp đội của bạn thắng.",
+      "ability": "Một lần trong trò chơi, trong ngày, gặp Người kể chuyện để được nhận vài lời khuyên để giúp đội của bạn thắng.",
       "flavor": "Đây là phần sông ta thích nhất... thấy ánh nắng tạo thành cầu vồng từ tu viện đến phiên chợ không? Đây là nơi tuyệt nhất để bắt cá lớn. Và ta càng già, cá càng lớn.",
       "name": "Fisherman"
     },
@@ -362,12 +362,12 @@
       "name": "Gangster"
     },
     "gardener": {
-      "ability": "Người kể truyện chỉ định nhân vật của tất cả người chơi.",
+      "ability": "Người kể chuyện chỉ định nhân vật của tất cả người chơi.",
       "flavor": "Ôi, thế này không ổn đâu. Hình như cây ô dầu lại lẫn với cây ban sói và cây độc cần đang che kín cây hạnh chi! Ôi trời đất tôi ơi, ta cần phải làm lại từ đầu thôi. Đưa tôi cái kéo.",
       "name": "Gardener"
     },
     "general": {
-      "ability": "Mỗi đêm, bạn biết phe Người kể truyện nghĩ là đang thắng: phe tốt, phe xấu, hay không phe nào.",
+      "ability": "Mỗi đêm, bạn biết phe Người kể chuyện nghĩ là đang thắng: phe tốt, phe xấu, hay không phe nào.",
       "first": "Giơ ngón cái.",
       "flavor": "Tôi không rảnh để trích dẫn.",
       "name": "General",
@@ -438,7 +438,7 @@
       "other": "Nếu Hatter chết, gọi Tay sai & Ác quỷ dậy. Từng người có thể chọn nhân vật mới. Nếu vậy, cho xem token *BẠN LÀ* & token nhân vật mới của họ."
     },
     "hellslibrarian": {
-      "ability": "Điềm xấu có thể xảy ra với người nào nói khi Người kể truyện cần im lặng.",
+      "ability": "Điềm xấu có thể xảy ra với người nào nói khi Người kể chuyện cần im lặng.",
       "flavor": "Shhhhhh. Xin hãy im lặng. Tốt nhất là không nên làm phiền Quản thư. Tôi nghe nói nó rất nóng tính.",
       "name": "Hell's Librarian"
     },
@@ -453,7 +453,7 @@
       "name": "Hermit"
     },
     "highpriestess": {
-      "ability": "Mỗi đêm, biết được người chơi nào Người kể truyện nghĩ là bạn nên nói chuyện với nhất.",
+      "ability": "Mỗi đêm, biết được người chơi nào Người kể chuyện nghĩ là bạn nên nói chuyện với nhất.",
       "first": "Chỉ tay vào một người chơi.",
       "flavor": "Có một sự sống nhen nhỏi ẩn nấp sau bức màn đa nhân cách được dựng lên như từng lớp mặt nạ khác nhau. Nhưng cuộc sống đôi khi có những khoảnh khác khi bức màn được hạ xuống để đáp lại một cách sâu sắc cho những điều sâu sắc.",
       "name": "High Priestess",
@@ -665,7 +665,7 @@
       "name": "Ogre"
     },
     "ojo": {
-      "ability": "Mỗi đêm*, chọn một nhân vật: họ chết. Nếu họ không có trong ván chơi, Người kể truyện chọn người chết.",
+      "ability": "Mỗi đêm*, chọn một nhân vật: họ chết. Nếu họ không có trong ván chơi, Người kể chuyện chọn người chết.",
       "flavor": "Giống như đống lửa trong đêm không trăng… Ta thấy ngươi, lũ phàm nhân.",
       "name": "Ojo",
       "other": "Ojo chọn một nhân vật. :reminder:"
@@ -708,10 +708,10 @@
       "name": "Pixie"
     },
     "plaguedoctor": {
-      "ability": "Khi bạn chết, Người kể truyện nhận được một năng lực của Tay sai.",
+      "ability": "Khi bạn chết, Người kể chuyện nhận được một năng lực của Tay sai.",
       "flavor": "Hẽi dwungs iên. Nghĩ kan tho giaan dể nhĩ. Myrhh-myrhh.",
       "name": "Plague Doctor",
-      "other": "Nếu Plague Doctor chết, Người kể truyện nhận được năng lực của một Tay sai. Nếu bạn chưa làm điều này, làm vậy ngay. :reminder:"
+      "other": "Nếu Plague Doctor chết, Người kể chuyện nhận được năng lực của một Tay sai. Nếu bạn chưa làm điều này, làm vậy ngay. :reminder:"
     },
     "po": {
       "ability": "Mỗi đêm*, bạn có thể chọn một người: họ chết. Nếu lựa chọn trước bạn không chọn ai, chọn 3 người đêm nay.",
@@ -815,7 +815,7 @@
       "name": "Saint"
     },
     "savant": {
-      "ability": "Mỗi ngày, bạn có thể bí mật thăm Người kể truyện để biết 2 điều: 1 là đúng & 1 là sai.",
+      "ability": "Mỗi ngày, bạn có thể bí mật thăm Người kể chuyện để biết 2 điều: 1 là đúng & 1 là sai.",
       "flavor": "Bảy mươi hai que diêm trên sàn nhà... mặt trời lặn sớm nhưng mặt trăng vẫn không thay đổi... một mảnh vải rách... điều xấu xa trong dinh thự... ba que diêm... người mà chúng ta tin tưởng không phải là người như vẻ bề ngoài... ánh sáng xanh lá cây có nghĩa là magiê... cặn bã, nhưng hoa văn thì sai... Bảy mươi hai que diêm trên sàn nhà...",
       "name": "Savant"
     },
@@ -1052,7 +1052,9 @@
     "tor": {
       "ability": "Người chơi không biết nhân vật hoặc phe của họ. Họ biết nó sau khi họ chết.",
       "flavor": "Với tiếng thét như sấm và cây kiếm như sét của ta, ta, thần hộ mệnh, chứng kiến những kẻ đã dám đến gần với thiên cổng của ta. Hãy xem đây, mục đích của ta! Là diệt trừ những con sâu bọ khỏi lòng đất đá, là giam cầm nó trong mạng lưới vì sao, trên đỉnh núi nơi thiên đường gặp mặt đất.",
-      "name": "Tor"
+      "name": "Tor",
+      "other": "Nếu có người chết tối nay, cho xem token *BẠN LÀ*, token nhân vật của họ, & giơ ngón cái lên hoặc xuống.",
+      "first": "Bỏ qua Thông tin cho Tay sai và Thông tin cho Ác Quỷ."
     },
     "zenomancer": {
       "ability": "Một hoặc nhiều người chơi có nhiệm vụ riêng. Khi hoàn thành nó, người chơi đó biết một thông tin đúng.",
@@ -1086,7 +1088,7 @@
       "name": "God of Ug"
     },
     "knaves": {
-      "ability": "Có 2 Người kể truyện: một nói thật & một nói dối. Một lần trong trò chơi, vào hoàng hôn, họ có thể tráo đổi.",
+      "ability": "Có 2 Người kể chuyện: một nói thật & một nói dối. Một lần trong trò chơi, vào hoàng hôn, họ có thể tráo đổi.",
       "flavor": "Mỗi bức tường là cánh cửa. Mỗi bữa ăn là bữa tiệc.",
       "name": "Knaves"
     }
@@ -1180,7 +1182,7 @@
     "safe": "An Toàn",
     "soberhealthy": "Tỉnh Táo & Khỏe Mạnh",
     "somethingbad": "Điềm Xấu",
-    "storytellerability": "Chức Năng Người Kể Truyện",
+    "storytellerability": "Chức Năng Người Kể Chuyện",
     "survivesexecution": "Sống Sót Hành Quyết",
     "teapartytonight": "Uống Trà Tối Nay",
     "townsfolk": "Dân Làng",
@@ -1206,14 +1208,14 @@
     "alhadikhia-mastermind": "Nếu Al-Hadikhia chết bởi hành quyết, và Mastermind còn sống, Al-Hadikhia chọn 3 người chơi phe tốt đêm nay: nếu cả 3 chọn sống, phe xấu thắng. Nếu không, phe tốt thắng.",
     "alhadikhia-princess": "Nếu Princess biểu quyết và hành quyết một người chơi vào ngày đầu tiên của họ, không ai sẽ chết bởi Al-Hadikhia đêm nay.",
     "alhadikhia-scarletwoman": "Nếu rơi vào trường hợp có hai Ác quỷ, và một trong hai đã từng là Scarlet Woman, nhân vật đó sẽ quay trở lại làm Scarlet Woman.",
-    "alsaahir-vizier": "Người kể truyện không tuyên bố Vizier có tham gia ván chơi.",
-    "atheist-riot": "Trong lúc nổi dậy (do Riot), nếu Người kể truyện bị biểu quyết, tất cả người chơi sẽ bỏ phiếu. Nếu Người kể truyện trờ thành người \"sắp chết\", trò chơi kết thúc. Nếu không, người đó được biểu quyết lại.",
-    "balloonist-marionette": "Nếu Marionette nghĩ họ là Balloonist, một Ngoại lai có thể đã được thêm vào trong lúc Người kể truyện bố trí nhân vật.",
+    "alsaahir-vizier": "Người kể chuyện không tuyên bố Vizier có tham gia ván chơi.",
+    "atheist-riot": "Trong lúc nổi dậy (do Riot), nếu Người kể chuyện bị biểu quyết, tất cả người chơi sẽ bỏ phiếu. Nếu Người kể chuyện trờ thành người \"sắp chết\", trò chơi kết thúc. Nếu không, người đó được biểu quyết lại.",
+    "balloonist-marionette": "Nếu Marionette nghĩ họ là Balloonist, một Ngoại lai có thể đã được thêm vào trong lúc Người kể chuyện bố trí nhân vật.",
     "banshee-leviathan": "Mỗi đêm*, Leviathan chọn một người chơi phe tốt còn sống (khác với những đêm trước): Banshee được chọn sẽ chết và kích hoạt năng lực của họ.",
     "banshee-riot": "Mỗi đêm*, Riot sẽ chọn một người chơi phe tốt còn sống (khác với những đêm trước): Banshee được chọn sẽ chết và kích hoạt năng lực của họ.",
     "banshee-vortox": "Nếu Vortox giết Banshee, tất cả người chơi sẽ biết được Banshee đã chết.",
     "baron-heretic": "Chỉ có một nhân vật ngoại lệ có thể tham gia ván chơi.",
-    "baron-plaguedoctor": "Nếu Người kể truyện nhận được năng lực của Baron, tối đa hai người chơi sẽ trở thành Ngoại lai.",
+    "baron-plaguedoctor": "Nếu Người kể chuyện nhận được năng lực của Baron, tối đa hai người chơi sẽ trở thành Ngoại lai.",
     "boffin-cultleader": "Nếu Ác quỷ nhận được năng lực của Cult Leader, họ không chuyển qua phe tốt bởi năng lực này.",
     "boffin-drunk": "Ác quỷ không thể có năng lực của Drunk.",
     "boffin-goon": "Nếu Ác quỷ nhận được năng lực của Goon, họ không thể chuyển qua phe tốt bởi năng lực này.",
@@ -1221,7 +1223,7 @@
     "boffin-ogre": "Ác quỷ không thể nhận được năng lực của Ogre.",
     "boffin-politician": "Ác quỷ không thể nhận được năng lực của Politician.",
     "boffin-villageidiot": "Nếu còn dư token, Boffin có thể truyền cho Ác quỷ năng lực của Village Idiot.",
-    "boomdandy-plaguedoctor": "Nếu Người kể truyện nhận được năng lực của Boomdandy, một người chơi sẽ trở thành Boomdandy.",
+    "boomdandy-plaguedoctor": "Nếu Người kể chuyện nhận được năng lực của Boomdandy, một người chơi sẽ trở thành Boomdandy.",
     "bountyhunter-kazali": "Nếu Kazali biến Bounty Hunter thành một Tay sai, không có Dân làng phe xấu nào được tạo ra.",
     "bountyhunter-philosopher": "Nếu Philosopher chọn năng lực của Bounty Hunter, một Dân làng có thể chuyển qua phe xấu.",
     "butler-cannibal": "Nếu Cannibal nhận được nặng lực của Butler, Cannibal sẽ được biết điều này.",
@@ -1232,25 +1234,25 @@
     "cerenovus-goblin": "Cerenovus có thể khiến một người chơi điên họ là Goblin.",
     "chambermaid-mathematician": "Chambermaid có thể biết Mathematician sẽ thức dậy đêm nay không.",
     "clockmaker-summoner": "Summoner được tính là Ác quỷ theo như năng lực của Clockmaker.",
-    "courtier-summoner": "Nếu Summoner còn sống mất đi năng lực, Người kể truyện sẽ nhận được năng lực này.",
+    "courtier-summoner": "Nếu Summoner còn sống mất đi năng lực, Người kể chuyện sẽ nhận được năng lực này.",
     "courtier-vizier": "Nếu Vizier mất đi năng lực của họ, họ sẽ biết điều này, và không thể chết vào ban ngày.",
     "cultleader-pithag": "Nếu Pit-Hag biến một người chơi phe xấu thành Cult Leader, họ không thể chuyển qua phe tốt bởi năng lực của họ.",
-    "damsel-pithag": "Nếu Pit-Hag tạo ra một Damsel, Người kể truyện sẽ chọn ai sẽ trở thành nhân vật này.",
+    "damsel-pithag": "Nếu Pit-Hag tạo ra một Damsel, Người kể chuyện sẽ chọn ai sẽ trở thành nhân vật này.",
     "damsel-spy": "Nếu Spy đang (hay đã) tham gia ván chơi, Damsel sẽ bị trúng độc.",
     "damsel-widow": "Nếu Widow đang (hay đã) tham gia ván chơi, Damsel sẽ bị trúng độc.",
     "drunk-mathematician": "Mathematician có thể biết được năng lực của Drunk cho thông tin sai hoặc không hoạt động được.",
     "engineer-legion": "Nếu Legion được tạo ra, tất cả người chơi phe xấu sẽ trở thành Legion. Nếu có Legion trong ván chơi, Engineer bắt đầu biết điều này nhưng không có năng lực.",
-    "engineer-summoner": "Nếu Summoner còn sống nhưng bị loại bỏ khỏi trò chơi, Người kể truyện sẽ nhận được năng lực của Summoner.",
-    "eviltwin-plaguedoctor": "Nếu Người kể truyện nhận được năng lực của Evil Twin, một người chơi sẽ trở thành Evil Twin.",
+    "engineer-summoner": "Nếu Summoner còn sống nhưng bị loại bỏ khỏi trò chơi, Người kể chuyện sẽ nhận được năng lực của Summoner.",
+    "eviltwin-plaguedoctor": "Nếu Người kể chuyện nhận được năng lực của Evil Twin, một người chơi sẽ trở thành Evil Twin.",
     "exorcist-leviathan": "Nếu Leviathan biểu quyết và hành quyết một người chơi được chọn bởi Exorcist, phe tốt thắng.",
     "exorcist-riot": "Nếu Riot biểu quyết và hành quyết một người chơi được chọn bởi Exorcist, phe tốt thắng.",
     "exorcist-yaggababble": "Nếu Exorcist chọn Yaggababble, Yaggababble sẽ không giết đêm nay.",
     "fanggu-scarletwoman": "Nếu rơi vào trường hợp sẽ có hai Ác quỷ, và một trong hai đang là Scarlet Woman, họ vẫn sẽ tiếp tục là Scarlet Woman.",
     "farmer-leviathan": "Mỗi đêm*, Leviathan chọn một người chơi phe tốt còn sống (khác với những đêm trước): Farmer được chọn sẽ kích hoạt năng lực của họ nhưng không chết.",
     "farmer-riot": "Mỗi đêm*, Riot chọn một người chơi phe tốt còn sống (khác với những đêm trước): Farmer được chọn sẽ kích hoạt năng lực nhưng không chết.",
-    "fearmonger-plaguedoctor": "Nếu Người kể truyện nhận được năng lực của Fearmonger, một Tay sai sẽ nhận được năng lực này và biết được điều này.",
+    "fearmonger-plaguedoctor": "Nếu Người kể chuyện nhận được năng lực của Fearmonger, một Tay sai sẽ nhận được năng lực này và biết được điều này.",
     "fearmonger-vizier": "Vizier sẽ thức dậy cùng với Fearmonger, biết được họ chọn ai và không thể khiến người đó bị hành quyết ngay lập tức.",
-    "goblin-plaguedoctor": "Nếu Người kể truyện nhận được năng lực của Goblin, một Tay sai sẽ nhận được năng lực này và biết được điều này.",
+    "goblin-plaguedoctor": "Nếu Người kể chuyện nhận được năng lực của Goblin, một Tay sai sẽ nhận được năng lực này và biết được điều này.",
     "godfather-heretic": "Chỉ có một nhân vật ngoại lệ có thể tham gia ván chơi.",
     "goon-pithag": "Nếu Pit-Hag biến một người chơi phe xấu thành Goon, họ không thể chuyển qua phe tốt bởi năng lực này.",
     "grandmother-leviathan": "Nếu Leviathan tham gia ván chơi, và cháu của Grandmother chết bởi hành quyết, phe xấu thắng.",
@@ -1258,17 +1260,17 @@
     "hatter-legion": "Nếu Legion được tạo thành, tất cả người chơi phe xấu sẽ trở thành Legion. Nếu Legion đã tham gia ván chơi, Hatter không có năng lực nào.",
     "hatter-leviathan": "Leviathan không thể được tạo thành sau khi qua ngày thứ 5.",
     "hatter-lilmonsta": "Nếu Hatter chết & Ác quỷ chọn Lil' Monsta, họ cũng sẽ chọn một Tay sai để biến thành.",
-    "hatter-summoner": "Nếu Summoner chọn tạo ra một Ác quỷ còn sống thứ hai, ai chết đêm nay sẽ do Người kể truyện quyết định.",
+    "hatter-summoner": "Nếu Summoner chọn tạo ra một Ác quỷ còn sống thứ hai, ai chết đêm nay sẽ do Người kể chuyện quyết định.",
     "heretic-lleech": "Chỉ có một nhân vật ngoại lệ có thể tham gia ván chơi.",
     "heretic-pithag": "Chỉ có một nhân vật ngoại lệ có thể tham gia ván chơi.",
     "heretic-spy": "Chỉ có một nhân vật ngoại lệ có thể tham gia ván chơi.",
     "heretic-widow": "Chỉ có một nhân vật ngoại lệ có thể tham gia ván chơi.",
-    "huntsman-marionette": "Nếu Marionette nghĩ họ là Huntsman, Damsel đã được thêm vào khi Người kể truyện bố trí nhân vật.",
+    "huntsman-marionette": "Nếu Marionette nghĩ họ là Huntsman, Damsel đã được thêm vào khi Người kể chuyện bố trí nhân vật.",
     "innkeeper-leviathan": "Nếu Leviathan biểu quyết và hành quyết người chơi được bảo vệ bởi Innkeeper, phe tốt thắng.",
     "innkeeper-riot": "Nếu Riot biểu quyết và hành quyết một người chơi được bảo vệ bởi Innkeeper, phe tốt thắng.",
-    "investigator-vizier": "Người kể truyện sẽ không tuyến bố có Vizier tham gia ván chơi.",
+    "investigator-vizier": "Người kể chuyện sẽ không tuyến bố có Vizier tham gia ván chơi.",
     "kazali-marionette": "Nếu Marionette được chọn để tham gia ván chơi, họ sẽ tham gia sau Ác quỷ & phải là hàng xóm của Ác quỷ.",
-    "kazali-summoner": "Nếu Summoner chọn tạo ra một Ác quỷ còn sống thứ hai, ai chết đêm nay sẽ do Người kể truyện quyết định.",
+    "kazali-summoner": "Nếu Summoner chọn tạo ra một Ác quỷ còn sống thứ hai, ai chết đêm nay sẽ do Người kể chuyện quyết định.",
     "king-leviathan": "Nếu Leviathan có tham gia ván chơi và ít nhất một người chơi đã chết, thì mỗi đêm, King được biết một nhân vật còn sống.",
     "king-riot": "Nếu Riot có tham gia ván chơi, và ít nhất một người chơi đã chết, thì mỗi đêm, King sẽ biết được một nhân vật còn sống.",
     "legion-magician": "Magician sẽ dậy cùng với tất cả Legion và có thể được nhìn thấy là theo phe xấu. Legion sẽ biết là một trong số họ là Magician nhưng không biết họ là ai.",
@@ -1283,7 +1285,7 @@
     "leviathan-ravenkeeper": "Mỗi đêm*, Leviathan chọn một người chơi còn sống (khác với những đêm trước): Ravenkeeper được chọn sẽ kích hoạt năng lực nhưng không chết.",
     "leviathan-sage": "Mỗi đêm*, Leviathan chọn một người chơi phe tốt còn sống ( khác với những đêm trước): Sage nếu được chọn sẽ kich hoạt năng lực nhưng không chết.",
     "leviathan-soldier": "Nếu Leviathan biểu quyết và hành quyết Soldier, phe tốt thắng.",
-    "lilmonsta-magician": "Nếu Magician còn sống, Người kể truyện chọn một Tay sai để trông Lil' Monsta.",
+    "lilmonsta-magician": "Nếu Magician còn sống, Người kể chuyện chọn một Tay sai để trông Lil' Monsta.",
     "lilmonsta-marionette": "Nếu Marionette được chọn để tham gia ván chơi, họ sẽ tham gia sau Ác quỷ & phải là hàng xóm của Ác quỷ.",
     "lilmonsta-poppygrower": "Nếu Lil' Monsta & Poppy Grower còn sống, Tay sai sẽ thức dậy lần lượt cho đến khi một người chọn để giữ token Lil' Monsta.",
     "lilmonsta-psychopath": "Nếu Psychopath trông Lil' Monsta, họ sẽ chết nếu bị hành quyết.",
@@ -1299,7 +1301,7 @@
     "magician-widow": "Khi Widow nhìn vào Cấm thư, token của Ác quỷ và Magician sẽ được bỏ ra.",
     "magician-wraith": "Sau mỗi hành quyết, Magician còn sống có thể công khai đoán một người chơi còn sống là Wraith. Nếu đoán đúng, Ác quỷ phải chọn Wraith đêm nay.",
     "marionette-mathematician": "Mathematician có thể biết khi tay sai Marionette nhận thông tin sai hoặc không hoạt động được.",
-    "marionette-plaguedoctor": "Nếu Người kể truyện nhận được năng lực của Marionette, một trong hai hàng xóm tốt của Ác quỷ trở thành Marionette.",
+    "marionette-plaguedoctor": "Nếu Người kể chuyện nhận được năng lực của Marionette, một trong hai hàng xóm tốt của Ác quỷ trở thành Marionette.",
     "marionette-summoner": "Nếu Marionette tham gia ván chơi, họ tham gia sau Ác quỷ & phải là hàng xóm của Ác quỷ.",
     "mastermind-vigormortis": "Mastermind vẫn sẽ tiếp tục giữ năng lực của họ ngay cả khi Vigormortis chết.",
     "mayor-riot": "Mayor có thể chọn dừng sự nổi dậy (bởi Riot). Nếu họ chọn làm thế khi chỉ có một Riot còn sống, phe tốt thắng. Nếu không, phe xấu thắng.",
@@ -1308,16 +1310,16 @@
     "ogre-recluse": "Nếu Recluse được tính là theo phe xấu đối với Ogre, Ogre sẽ biết là họ theo phe xấu.",
     "ogre-spy": "Spy được tính là theo phe xấu đối với Ogre.",
     "pithag-politician": "Nếu Pit-Hag chọn biến một người chơi phe xấu thành Politician, họ không thể chuyển sang phe tốt bởi năng lực của họ.",
-    "pithag-summoner": "Nếu Summoner chọn tạo ra một Ác quỷ còn sống thứ hai, ai chết đêm nay sẽ do Người kể truyện quyết định.",
+    "pithag-summoner": "Nếu Summoner chọn tạo ra một Ác quỷ còn sống thứ hai, ai chết đêm nay sẽ do Người kể chuyện quyết định.",
     "pithag-villageidiot": "Nếu còn dư token, Pit-Hag có thể tạo ra thêm một Village Idiot. Nếu làm vậy, Village Idiot nào bị say rượu có thể thay đổi.",
-    "plaguedoctor-scarletwoman": "Nếu Người kể truyện nhận được năng lực của Scarlet Woman, một Tay sai sẽ nhận được năng lực này và biết được điều này.",
-    "plaguedoctor-spy": "Nếu Người kể truyện nhận được năng lực của Spy, một Tay sai sẽ nhận được năng lực này và biết được điều này.",
-    "plaguedoctor-wraith": "Nếu Người kể truyện nhận được năng lực của Wraith, một Tay sai nhận được năng lực này và biết được điều này.",
+    "plaguedoctor-scarletwoman": "Nếu Người kể chuyện nhận được năng lực của Scarlet Woman, một Tay sai sẽ nhận được năng lực này và biết được điều này.",
+    "plaguedoctor-spy": "Nếu Người kể chuyện nhận được năng lực của Spy, một Tay sai sẽ nhận được năng lực này và biết được điều này.",
+    "plaguedoctor-wraith": "Nếu Người kể chuyện nhận được năng lực của Wraith, một Tay sai nhận được năng lực này và biết được điều này.",
     "politician-vizier": "Politician có thể được tính là theo phe xấu đối với Vizier.",
     "poppygrower-spy": "Nếu Poppy Grower vẫn có năng lực của họ, Spy không được nhìn Cấm thư.",
     "poppygrower-summoner": "Nếu Poppy Grower còn sống vào đêm thứ 3, Summoner được chọn Ác quỷ là gì nhưng không được chọn Ác quỷ là ai.",
     "poppygrower-widow": "Nếu Poppy Grower vẫn có năng lực của họ, Widow sẽ không được nhìn Cấm thư.",
-    "preacher-summoner": "Nếu Summoner mất đi năng lực của họ, Người kể truyện sẽ nhận được năng lực này.",
+    "preacher-summoner": "Nếu Summoner mất đi năng lực của họ, Người kể chuyện sẽ nhận được năng lực này.",
     "preacher-vizier": "Nếu Vizier mất đi năng lực của họ, họ biết được điều này, và không thể chết vào ban ngày.",
     "pukka-summoner": "Summoner có thể triệu hồi Pukka vào đêm thứ 2 thay vì đêm thứ 3.",
     "ravenkeeper-riot": "Mỗi đêm*, Riot chọn một người tốt còn sống (khác với những đêm trước): Ravenkeeper nếu được chọn sẽ kích hoạt năng lực của họ nhưng không chết.",
@@ -1329,7 +1331,7 @@
   },
   "ui": {
     "firstNight": "Đêm Đầu Tiên",
-    "otherNights": "Đêm Còn Lại",
+    "otherNights": "Những đêm Còn Lại",
     "players": "Những người chơi",
     "notFirstNight": "* Trừ đêm đầu tiên"
   }

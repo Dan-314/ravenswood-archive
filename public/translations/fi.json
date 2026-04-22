@@ -733,7 +733,7 @@
     },
     "poppygrower": {
       "ability": "Kätyrit ja Demonit eivät tiedä toisiaan. Jos kuolet, he saavat kuulla toisistaan tuona yönä.",
-      "first": "Ohita Kätyri- ja Demoni-tiedot. Herätä Demoni. Näytä *NÄMÄ HAHMOT EIVÄT OLE PELISSÄ* -merkkiä. Näytä 3 ei-pelissä-olevaa hyvää hahmoa.",
+      "first": "Ohita Kätyri- ja Demonitiedot. Herätä Demoni. Näytä *NÄMÄ HAHMOT EIVÄT OLE PELISSÄ* -merkkiä. Näytä 3 ei-pelissä-olevaa hyvää hahmoa.",
       "flavor": "Syvällä metsän piiloisimmista lehdoista asustaa musta unikko. Lumoavaa on sen juhlinnan todistaminen. Sen paksun tuoksun haistaminen tarkoittaa ikuisesti eksymistä, valon ja pimeyden jumalten orjaksi joutumista.",
       "name": "Unikkotarhuri",
       "other": "Jos Unikkotarhuri kuoli, herätä kaikki Kätyrit. Näytä *TÄMÄ ON DEMONI* -merkki. Osoita kohti Demonia. Laita Kätyrit nukkumaan. Herätä Demoni. Näytä *NÄMÄ OVAT KÄTYRISI* -merkki. Osoita kaikkia Kätyreitä."
@@ -971,7 +971,7 @@
     },
     "vizier": {
       "ability": "Kaikki tietävät, että olet Visiiri. Et voi kuolla päivän aikana. Jos hyvä pelaaja äänesti, voit teloittaa nimitetyn välittömästi.",
-      "first": "Ilmoita kuka on Visiiri .",
+      "first": "Ilmoita kuka pelaajista on Visiiri.",
       "flavor": "Oivallinen valinta, kuten aina, herra. Piispaan tömräämisen kaltainen pikkurikos tosiaan ansaitsee 'oikeudenmukaisuutesi' ja 'armosi'. Käy kävelyllä puutarhoissa. Käy galleriassa tutki Von Straufin veistoksia. Rentoudu, herra. Jätä kaikki... minulle.",
       "name": "Visiiri"
     },
@@ -1006,7 +1006,7 @@
       "other": "Noita valitsee pelaajan. :reminder:"
     },
     "wizard": {
-      "ability": "Kerran pelissä, toivo jotain. Toteutuessaan toiveella saattaa olla hintansa & jättää jäljen luonteestaan.",
+      "ability": "Kerran pelissä, toivo jotain. Toteutuessaan toiveella saattaa olla hintansa & se jättää jäljen luonteestaan.",
       "first": "Tee mitä vaan parhaaksi koet Velhon kyvyn tyydyttämiseksi.",
       "flavor": "Jokainen mies ja nainen on tähti. Rakkaus on laki, rakkaus tahdon alaisena.",
       "name": "Velho",
@@ -1027,14 +1027,14 @@
       "other": "Vaihda Tavaton-muistutus asiaankuuluvaan yöhön. Jos on yö X, merkitse Tavaton *X* -merkillä. :reminder: :reminder:"
     },
     "yaggababble": {
-      "ability": "Aloitat tietäen salaisen fraasin. Jokaista julkisesti sanomaasi kertaa kohden, saattaa pelaaja kuolla.",
+      "ability": "Aloitat tietäen salaisen fraasin. Pelaaja saattaa kuolla jokaista sen julkisesti sanomaasi kertaa kohden.",
       "first": "Näytä Hölösuulle salainen fraasi.",
       "flavor": "Murhat Rue Morguessa? Фальшивые новости! Vainukoirat Baskervillen nummella? Фальшивые новости! Kuolema Niilillä purjehtiessa? Фальшивые новости!",
       "name": "Hölösuu",
       "other": "Yksi pelaaja saattaa kuolla jokaista Hölösyyn tänään lausumaa fraasia kohden. :reminder:"
     },
     "zealot": {
-      "ability": "Mikäli pelaajia on 5 tai enemmän elossa, sinun täytyy äänestää joka nimityksessä.",
+      "ability": "Mikäli eläviä pelaajia on 5 tai enemmän, on sinun äänestettävä joka nimityksessä.",
       "flavor": "Pidän keskusteluistamme. Älysi viehättää minua. Se muistuttaa omaani paitsi että satut olemaan hullu.",
       "name": "Kiihkoilija"
     },
@@ -1053,7 +1053,8 @@
       "ability": "Pelaajat eivät tiedä hahmoaan tai puoltaan. He saavat tietää nämä kuollessaan.",
       "flavor": "Ukkonen äänenäni ja salama miekkanani, minä, iänkaikkinen vartija, herkuttelen niillä typeryksillä, jotka kehtaavat lähestyä kiellettyä porttia. Katso, pyhä päämääräni! Puhdistaa kuoriainen karun maan vatsasta, kietoa pauloihin tähtien verkon, kukkulalla jossa taivas kohtaa maan.",
       "name": "Tor",
-      "other": "Jos pelaaja kuoli tänä yönä, näytä *SINÄ OLET*, tämän hahmo & peukku -merkit."
+      "other": "Jos pelaaja kuoli tänä yönä, näytä *SINÄ OLET*, tämän hahmo & peukku -merkit.",
+      "first": "Ohita Kätyri- ja Demonitiedot."
     },
     "zenomancer": {
       "ability": "Yhdellä tai useammalla pelaajalla on tavoite. Sen saavuttaessaan pelaaja oppii jonkin tositiedon.",
@@ -1062,7 +1063,7 @@
     },
     "hindu": {
       "ability": "Neljä ensimmäisenä kuolevaa pelaajaa syntyy välittömästi takaisin samaa puolta edustaviksi Kulkureiksi.",
-      "flavor": "Kun neljä kuoleman syliin kaatuu, neljä matkaajaa ain tilalle nousee.",
+      "flavor": "Kun neljä kuoleman syliin kaatuu, neljä matkaajaa ain tilalle nousee",
       "name": "Hindulaine"
     },
     "pope": {
