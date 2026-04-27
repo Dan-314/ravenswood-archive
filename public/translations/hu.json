@@ -1,0 +1,1320 @@
+{
+  "roles": {
+    "acrobat": {
+      "ability": "Minden éjjel* válassz egy játékost: ha részeg vagy mérgezett, vagy ma éjjel azzá válik, meghalsz.",
+      "flavor": "Hölgyeim és uraim, készüljenek fel valami igazán rendkívülire, mert most a gravitáció törvényével dacolva fogok táncolni a levegőben, hogy a fürgeség és merészség csodájával kápráztassam el önöket!",
+      "name": "Akrobata",
+      "other": "Kiválaszt egy játékost. :reminder:"
+    },
+    "alchemist": {
+      "ability": "Van egy csatlós képességed. Amikor használod, a mesélő utasíthat, hogy másképp válassz.",
+      "first": "Mutasd meg az EZ VAGY MOSTANTÓL lapkát, majd egy csatlós jelölőjét.",
+      "flavor": "Szállj alá a Föld gyomrába. Tisztítás révén rálelhetsz a rejtett kőre. Az arany felett ott fekszik a vörös. Keter Malkhútban.",
+      "name": "Alkimista"
+    },
+    "alhadikhia": {
+      "ability": "Minden éjjel* választhatsz 3 játékost (mindenki megtudja, kik ők). Mind csendben jelzi, hogy élne vagy meghalna, de ha mind élne, mind meghal.",
+      "flavor": "Alsukut min dhahab.",
+      "name": "Al-Hadihia",
+      "other": "Az Al-Hadihia 3 játékost választ. :reminder: :reminder: :reminder: Egyesével ébreszd fel a kiválasztott játékosokat. Bólintanak, vagy megrázzák a fejüket. Altasd vissza az előzőt, mielőtt felébreszted a következőt."
+    },
+    "alsaahir": {
+      "ability": "Naponta egyszer nyilvánosan megtippelheted, ki(k) a a démon(ok) és ki(k) a csatlósa(i). Ha mind eltalálod, a jók győznek.",
+      "flavor": "Értetek vagyok itt, ti pedig értem.",
+      "name": "Al-sahir"
+    },
+    "amnesiac": {
+      "ability": "Nem tudod, mi a képességed. Minden nap megtippelheted privátban, és megtudod, mennyire voltál közel hozzá.",
+      "first": "Tegyél meg mindent, amit az amnéziás képessége miatt szükséges.",
+      "flavor": "Várj csak... Micsoda? Hogy ki? Ja, rendben. Várj csak... Micsoda?",
+      "name": "AMNÉZIÁS",
+      "other": "Tegyél meg mindent, amit az amnéziás képessége miatt szükséges."
+    },
+    "angel": {
+      "ability": "Valami rossz történhet azzal, aki a leginkább felelős egy új játékos haláláért.",
+      "first": "Jelentsd be, hogy mely játékosokat védi az angyal. :reminder:",
+      "flavor": "Kik maguk nem bűntelenek, ne merészeljenek kezet emelni az én választottaimra, mert ezernyi vihar haragjával sújtok le az ilyen ostobákra.",
+      "name": "Angyal"
+    },
+    "apprentice": {
+      "ability": "Az első éjszakádon jóként megkapod egy városlakó, gonoszként egy csatlós képességét.",
+      "first": "Mutasd meg neki az EZ VAGY MOSTANTÓL lapkát, majd egy városlakó vagy csatlós jelölőjét. Cseréld le a tanonc jelölőjét a városlakó vagy csatlós jelölőjére. :reminder:",
+      "flavor": "Évekig utazgattam, hogy tanulmányozzam a Szakma fogásait. Hogy melyik szakmáét, azt kérdezed? Ó, csakis az egyszerű emberekét. Semmi ok az aggodalomra. Egyelőre.",
+      "name": "Tanonc"
+    },
+    "artist": {
+      "ability": "Játékonként egyszer, nappal a mesélő privátban válaszol egy eldöntendő kérdésedre.",
+      "flavor": "Mon Dieu! C'est lumineux! A munkám, ő... mi is a szó... Magnifique! Dieu est révélé! Oui.",
+      "name": "Művész"
+    },
+    "assassin": {
+      "ability": "Játékonként egyszer, éjjel* válassz egy játékost: meghal még akkor is, ha valamiért nem halhatna meg.",
+      "flavor": "...",
+      "name": "Orgyilkos",
+      "other": "Választhat egy játékost. :reminder: :reminder:"
+    },
+    "atheist": {
+      "ability": "A mesélő megszegheti a játékszabályokat, és ha kivégzik, a jók győznek – akkor is, ha halott vagy. [Nincsenek gonosz karakterek]",
+      "flavor": "Hagyjunk fel az alaptalan feltevésekkel, és oszlassuk el az ostoba félelmeket. Mindennek van tökéletesen racionális magyarázata. Igen, elképzelhető, hogy egy teáscsésze egy szabad szemmel nem látható bolygó körül kering, de én mégis a nagyon is valóságos csészémből fogom meginni a nagyon is valóságos teámat.",
+      "name": "Ateista"
+    },
+    "balloonist": {
+      "ability": "Minden éjjel megismersz egy játékost, akinek más típusú a karaktere, mint az előző éjjel megismertnek. [+0 vagy +1 kívülálló]",
+      "first": "Mutass rá egy játékosra. :reminder:",
+      "flavor": "Nagyobb lángot! Még feljebb! Még feljebb! Più alto! Ahhh... minden olyan szép innen fentről, nem gondolod? Látod a horgászó gyerekeket a folyónál, a fűzfa alatt? Látod, ahogy a napfény megcsillan a cirkuszi sátor rúdjain? Hé, az meg ott micsoda? Egy ájult öregember egyedül a szőlőskertben? Tekerd le a lángot! Lejjebb! Még lejjebb! Vai più in basso!",
+      "name": "Hőlégballonos",
+      "other": "Mutass rá egy játékosra, akinek más típusú a karaktere, mint akire előzőleg mutattál. :reminder:"
+    },
+    "banshee": {
+      "ability": "Ha a démon megöl, arról minden játékos tudomást szerez. Ettől kezdve naponta kétszer gyanúsíthatsz, és duplán szavazhatsz.",
+      "flavor": "Gorm do shúile, dearg do ghruaig, ní bheidh sé i bhfad, egy mbeidh tú san uaigh.",
+      "name": "Banshee",
+      "other": "Ha a démon ezen az éjszakán megölte a Bansheet, jelentsd be, hogy a Banshee meghalt. :reminder:"
+    },
+    "barber": {
+      "ability": "A halálodat követő éjjelen a démon felcserélheti két játékos karakterét (másik démonét nem). ",
+      "flavor": "Tudtad, hogy a borbélyok régen műtöttek is? Nem? Na, hát most már tudod.",
+      "name": "Borbély",
+      "other": "Ha ma halt meg a borbély, mutasd meg a démonnak az Ő KIVÁLASZTOTT TÉGED lapkát és a borbély jelölőjét. Ha a démon kiválaszt 2 játékost, egyesével ébreszd fel őket. Mutasd meg nekik az EZ VAGY MOSTANTÓL lapkát és az új karakterük jelölőjét."
+    },
+    "barista": {
+      "ability": "Minden éjjeltől alkonyatig egy játékos vagy 1) józan lesz, egészséges, és valós információt kap, vagy 2) a képessége duplán működik. Megtudja, melyik.",
+      "first": "Válassz egy játékost. Ébreszd fel, mutasd meg neki az Ő KIVÁLASZTOTT TÉGED lapkát, a barista jelölőjét, és a megfelelő kézjelet. :reminder:",
+      "flavor": "Egy csésze kávét tejszín nélkül, Monsieur? Borzasztóan röstellem, de sajnos elfogyott a tejszínünk. Adhatnám inkább tej nélkül?",
+      "name": "Barista",
+      "other": "Válassz egy játékost. Ébreszd fel, mutasd meg neki az Ő KIVÁLASZTOTT TÉGED lapkát, a barista jelölőjét, és a megfelelő kézjelet. :reminder:"
+    },
+    "baron": {
+      "ability": "További kívülállók vannak a játékban. [+2 kívülálló]",
+      "flavor": "Egyre csak hanyatlik ez a város, nem tévedek? Olcsó külföldi munkaerő… ez a megoldás. Aztán a bányába velük, amondó vagyok. A verejtékes munka nem árt meg senkinek, aki ellenszegül, az meg majd megkapja a magáét. Lényeg, hogy nyereséges legyen az üzlet, nem igaz?",
+      "name": "Báró"
+    },
+    "beggar": {
+      "ability": "Csak szavazatjelölővel szavazhatsz. Ha egy halott játékos neked adja a sajátját, megtudod, hogy jó vagy gonosz. Józan és egészséges vagy.",
+      "flavor": "Alamizsnát a szegénynek, jó uram! Megszánna pár garassal, hölgyem? Köszönöm! A jó isten áldja meg a kedvességét, és fizesse vissza százszorosan! Ma este végre megtölthetem a bendőmet, úgy bizony!",
+      "name": "Koldus"
+    },
+    "bishop": {
+      "ability": "Csak a mesélő gyanúsíthat. Minden nap gyanúsítania kell legalább egy játékost az ellenfél csapatából.",
+      "flavor": "In nomine Patris, et Filii, et Spiritus Sancti… Nos mos Dei. Deus vult nobis.",
+      "name": "Püspök"
+    },
+    "boffin": {
+      "ability": "A démon rendelkezik egy játékban nem lévő jó karakter képességével (akkor is, ha részeg vagy mérgezett). Mindketten tudjátok, hogy mi ez a képesség.",
+      "first": "Ébreszd fel a dokit és a démont. Mutasd meg az Ő KIVÁLASZTOTT TÉGED lapkát, majd a doki jelölőjét, végül egy játékban nem lévő jó karakter jelölőjét.",
+      "flavor": "Csillagok hidrogénje, végtelen, inert; szén, oxigén, neon gázok, mind tönkrementek. Molekuláris zűrzavar, entrópia, új kozmikus jelenségek az atomok káoszából, sűrű anyag magába roskadása. Mindez egy aprócska üvegben.",
+      "name": "Doki"
+    },
+    "bonecollector": {
+      "ability": "Játékonként egyszer, éjjel* válassz egy halott játékost: alkonyatig visszanyeri a képességét.",
+      "flavor": "Sok mindent gyűjtök. Hajtincseket. Fogakat. Ruhákat. Verstöredékeket. Szerelmesek elveszett álmait. Mesterségem titkai nem tartoznak rád, de szolgálatom ára csak egy kis semmiség. Hozd el nekem egy olyan nemesasszony vérét, akinek teliholdkor megszakadt a szíve, és máris megkapod a választ.",
+      "name": "Csontgyűjtő",
+      "other": "Választhat egy halott játékost. :reminder: Szükség esetén ébreszd fel a kiválasztott játékost, hogy használhassa a képességét."
+    },
+    "boomdandy": {
+      "ability": "Ha kivégeznek, 3 játékos kivételével mindenki meghal. A mesélő 10-től visszaszámol, és akire a legtöbb játékos mutat, meghal.",
+      "flavor": "Tik-tak, tik-tak...Tik-tak, BUMM.",
+      "name": "Kanóc"
+    },
+    "bootlegger": {
+      "ability": "Ez a szkript házi készítésű karaktereket vagy szabályokat tartalmaz.",
+      "flavor": "Születésemkor a becses Lőreházi Pancslöttypofa nevet kaptam, akárcsak előttem apám. Tekintélyes név — egy igazán méltóságteljes korhoz illő.",
+      "name": "Csempész"
+    },
+    "bountyhunter": {
+      "ability": "Első éjjel megismersz egy gonosz játékost. Amikor meghal, azon az éjjelen megismersz egy újabb gonosz játékost. [1 városlakó gonosz]",
+      "first": "Mutass rá az ISMER emlékeztetővel megjelölt játékosra.",
+      "flavor": "Magányosan rovom utamat a korrupció beteges bűzével kikövezett utcákon. Az ocsmány bűz szinte a gyomromig hatol, és mélységes undorral tölt el. És várakozással. A nyomorúság pestise éjről éjre messzebbre hatol. És én... Én vagyok a gyógyír.",
+      "name": "Fejvadász",
+      "other": "Ha az ISMER emlékeztetővel megjelölt játékos meghalt a mai napon vagy ma éjjel, mutass rá az új, ISMER emlékeztetővel megjelölt játékosra."
+    },
+    "buddhist": {
+      "ability": "A tapasztalt játékosok nem szólalhatnak meg a nappalok első 2 percében.",
+      "first": "Jelentsd be, hogy mely játékosokra hat a buddhista képessége.",
+      "flavor": "Töviseket hintesz el, melyek csöndembe hullva virágként szökkennek szárba.",
+      "name": "Buddhista"
+    },
+    "bureaucrat": {
+      "ability": "Minden éjjel válassz egy játékost (ne magadat): a szavazata holnap 3 szavazatnak számít.",
+      "first": "Kiválaszt egy játékost. :reminder:",
+      "flavor": "Itt írja alá, kérem. És itt. És itt. És végül még itt is. A hivatali idő végére ezt mind rendszerezzük és összeszámoljuk – feltéve, hogy minden aláírás megfelelően olvasható. Emberemlékezet óta nem volt nálunk semmi kavarodás a papírmunkában. Vagyis tegnap dél óta, ha jól emlékszem...",
+      "name": "Hivatalnok",
+      "other": "Kiválaszt egy játékost. :reminder:"
+    },
+    "butcher": {
+      "ability": "Minden nap újra gyanúsíthatsz az első kivégzés után.",
+      "flavor": "Olyan íze van, mint a csirkének… Kérek még.",
+      "name": "Mészáros"
+    },
+    "butler": {
+      "ability": "Minden éjjel válassz egy játékost (ne magadat): holnap csak akkor szavazhatsz, ha ő is szavaz.",
+      "first": "Kiválaszt egy játékost. :reminder:",
+      "flavor": "Igen, uram... Nem, uram... Természetesen, uram.",
+      "name": "Komornyik",
+      "other": "Kiválaszt egy játékost. :reminder:"
+    },
+    "cannibal": {
+      "ability": "Megkapod a legutóbb kivégzésben meghalt karakter képességét. Ha gonosz volt, mérgezett vagy, amíg egy jó játékost ki nem végeznek. ",
+      "flavor": "Nem szeretem a bohócokat. Csiklandozzák a torkomat.",
+      "name": "Kannibál"
+    },
+    "cerenovus": {
+      "ability": "Minden éjjel válassz egy játékost és egy jó karaktert: másnap az lesz a rögeszméje, hogy ő ez a karakter, különben kivégezhetik. ",
+      "first": "Kiválaszt egy játékost és egy karaktert. :reminder: Altasd vissza. Ébreszd fel, a választott játékost. Mutasd meg az Ő KIVÁLASZTOTT TÉGED lapkát, az elmebontó jelölőjét, majd a karakterjelölőt, amivel kapcsolatban rögeszmésnek kell lennie. ",
+      "flavor": "A valóság csupán egy vélemény. Konkrétan az én véleményem.",
+      "name": "Elmebontó",
+      "other": "Kiválaszt egy játékost és egy karaktert. :reminder: Altasd vissza. Ébreszd fel a választott játékost. Mutasd meg az Ő KIVÁLASZTOTT TÉGED lapkát, az elmebontó jelölőjét, majd a karakterjelölőt, amivel kapcsolatban rögeszmésnek kell lennie."
+    },
+    "chambermaid": {
+      "ability": "Minden éjjel válassz 2 élő játékost (ne magadat): megtudod, közülük hányan ébredtek fel ma éjjel a képességük miatt.",
+      "first": "Kiválaszt 2 élő játékost. Mutasd fel annyi ujjadat, ahányan közülük felébredtek ma éjjel.",
+      "flavor": "Nem láttam semmi szokatlant, asszonyom. Már megbocsásson, de ha láttam is valamit, hát biztos nem azt, hogy a ház ura belopakodott a professzor laboratóriumába tizenegy körül, és puccos bájitalokat kevergetett, ahogy őnagysága mondja.",
+      "name": "Szobalány",
+      "other": "Kiválaszt 2 élő játékost. Mutasd fel annyi ujjadat, ahányan közülük felébredtek ma éjjel."
+    },
+    "chef": {
+      "ability": "Első éjjel megtudod, hogy hány gonosz páros van a játékban.",
+      "first": "Mutasd fel annyi ujjadat, ahány gonosz páros van a játékban.",
+      "flavor": "A ma esti foglalásaink elég különösek. Mrs. Mayweathert még soha nem láttam azzal a Hudson Lane-i csirkefogóval. Most mégis két személyre foglaltak asztalt. Furcsa.",
+      "name": "Séf"
+    },
+    "choirboy": {
+      "ability": "Ha a démon megöli a királyt, megtudod, hogy melyik játékos a démon. [+a király]",
+      "flavor": "Láttam, tényleg láttam. Épp a padok közt rendezgettem az énekeskönyveket, mikor egy rettenetes hang csendült fel az orgonán. Láttam az orgonista hosszú köpenyét, és hosszú ujjait a billentyűkön. És a fején a kalapot, ami pont olyan volt... mint a tiéd.",
+      "name": "Kórista",
+      "other": "Ha a démon ölte meg a királyt, mutass rá a démon játékosra."
+    },
+    "clockmaker": {
+      "ability": "Első éjjel megtudod, hogy a démon hány játékos távolságra ül a legközelebbi csatlósától.",
+      "first": "Mutasd fel annyi ujjadat, amennyi a legkisebb távolság a démon és egy csatlós között.",
+      "flavor": "Ne zavard meg munkámat! Az óra nem állhat meg, mert a mutatók mozgása maga az élet, és minden válasz benne foglaltatik isteni szerkezetében. Dolgoznom kell.",
+      "name": "Órásmester"
+    },
+    "courtier": {
+      "ability": "Játékonként egyszer, éjjel válassz egy karaktert: 3 éjjelre és 3 nappalra részeg lesz.",
+      "first": "Választhat egy karaktert. :reminder: :reminder:",
+      "flavor": "Jobban tartok egy száz birkából álló hadseregtől, melyet egy oroszlán vezet, mint egy száz oroszlánból álló hadseregtől, melyet egy birka vezet.",
+      "name": "Udvaronc",
+      "other": "Választhat egy karaktert. :reminder: :reminder:"
+    },
+    "cultleader": {
+      "ability": "Minden éjjel átállsz az egyik élő szomszédod oldalára. Ha minden jó játékos úgy dönt, hogy csatlakozik a szektádhoz, a csapatod győz.",
+      "first": "Lehet, hogy oldalt vált. Ha igen, mutasd meg neki az EZ VAGY MOSTANTÓL lapkát és a felfelé vagy lefelé fordított hüvelykujjadat.",
+      "flavor": "Bölcsnek hitték magukat, ám bolonddá váltak.",
+      "name": "Szektavezér",
+      "other": "Lehet, hogy oldalt vált. Ha igen, mutasd meg neki az EZ VAGY MOSTANTÓL lapkát és a felfelé vagy lefelé fordított hüvelykujjadat."
+    },
+    "damsel": {
+      "ability": "Minden csatlós tudja, hogy a királylány játékban van. Egyikük egyszer nyilvánosan tippelhet: ha eltalálja, hogy te vagy az, a csapatod veszít.",
+      "first": "A Csatlósok információja lépés során mutasd meg a csatlósoknak a királylány jelölőjét. Ha még nem tetted meg, tedd meg most. Ha a királylányt kiválasztotta a vadász, mutasd meg neki az EZ VAGY MOSTANTÓL lapkát és az új karaktere jelölőjét.",
+      "flavor": "Ne nyúlj a hajadhoz, édesem.",
+      "name": "Királylány",
+      "other": "Ha a királylányt kiválasztotta a vadász, mutasd meg neki az EZ VAGY MOSTANTÓL lapkát és az új karaktere jelölőjét."
+    },
+    "dawn": {
+      "first": "Várj egy kicsit, majd szólj, hogy mindenki nyissa ki a szemét.",
+      "other": "Várj egy kicsit, majd szólj, hogy mindenki nyissa ki a szemét."
+    },
+    "demoninfo": {
+      "first": "Ha 7 vagy több játékos van, ébreszd fel a démont. Mutasd meg az ŐK A CSATLÓSAID lapkát, és egyesével mutass rá a csatlósokra. Mutasd meg az EZEK A KARAKTEREK NINCSENEK JÁTÉKBAN lapkát és 3 jó karakter jelölőjét, amelyek nincsenek játékban."
+    },
+    "deusexfiasco": {
+      "ability": "Játékonként legalább egyszer a mesélő elkövet egy hibát, kijavítja, és nyilvánosan elismeri.",
+      "flavor": "Nem hibáztam, így terveztem, \nNem bug ez csak fícsör itten. \nGond egy szál se, zavar nincsen, \nSzavazz ránk a Board Game Geeken.",
+      "name": "Isteni benézés"
+    },
+    "deviant": {
+      "ability": "Ha vicces voltál ma, nem halhatsz meg, amikor száműznek.",
+      "flavor": "Jól replikázott a kisasszony, bizonyuccse!",
+      "name": "Különc"
+    },
+    "devilsadvocate": {
+      "ability": "Minden éjjel válassz egy élő játékost (mást, mint előző éjjel): ha holnap kivégzik, nem hal meg.",
+      "first": "Kiválaszt egy élő játékost. :reminder:",
+      "flavor": "Ügyfelem, ha ellenvetését elutasítják, ártatlannak vallja magát a vád törvényszegése, jelesül a 27/B paragrafus megsértését eredményező helytelen igeragozás miatt. Az a tény, hogy az esküdtszékből kilencen meghaltak tegnap éjjel, egyszerűen prima facie, ami – amint azt a Wills kontra Thule-ügy megmutatta – további ok a felmentésre.",
+      "name": "Az ördög ügyvédje",
+      "other": "Kiválaszt egy élő játékost. :reminder:"
+    },
+    "djinn": {
+      "ability": "Alkalmazd a dzsinn különleges szabályát, amit minden játékos megismert.",
+      "flavor": "نحن لسنا هنا.انت لست حقيقي.كل شيء هو وهم.أسئلتك هي جبل نار في يوم صافٍ.",
+      "name": "Dzsinn"
+    },
+    "doomsayer": {
+      "ability": "Ha legalább négy játékos él, minden élő játékos legfeljebb egyszer nyilvánosan kérheti, hogy haljon meg egy játékos a saját oldaláról.",
+      "flavor": "A hetedik napon pedig rettenetes özönvíz és döghalál éri el az Ármány kövének népét! A halottak feltámadnak, s az élők buzgó bűnbánatot tartanak. Ó, borzalom! Ó, szörnyűség! Csak hatalmas áldozattal győzedelmeskedhetnek! Eképpen szólottak vala bölcseink, és eképpen szólok én is.",
+      "name": "Ítéletmondó"
+    },
+    "dreamer": {
+      "ability": "Minden éjjel válassz egy játékost (ne magadat és ne utazót): megismersz egy jó és egy gonosz karaktert, az egyik a választott játékosé.",
+      "first": "Rámutat egy játékosra. Mutass meg 1 jó és 1 gonosz karakterjelölőt (az egyik a játékos karaktere legyen).",
+      "flavor": "Emlékszem az órásmesterre. Vörösen izzott az ég, miközben fraktálháromszögek hullottak alá. Bűbáj és téboly lengte be a levegőt. Egy ragyogó szemű, borostás állú nő sziszegett az ég felé. Aztán felébredtem.",
+      "name": "Álmodó",
+      "other": "Rámutat egy játékosra. Mutass meg 1 jó és 1 gonosz karakterjelölőt (az egyik a játékos karaktere legyen)."
+    },
+    "drunk": {
+      "ability": "Nem tudod, hogy te vagy a részeg. Azt hiszed, hogy városlakó vagy, pedig nem így van.",
+      "flavor": "Ó, hát tudod – hukk –, én csak a társaság kedvéért iszom. Jó, igazad van – hukk –, nagyon szeretem a társaságot.",
+      "name": "A részeg"
+    },
+    "duchess": {
+      "ability": "Minden nap felkereshet három játékos. Éjjel* megtudják, közülük hányan gonoszak, de egyikük hamis információt kap.",
+      "flavor": "A teapartit pontosan 6 és 7 óra között tartjuk. Tea 6:15-kor. Sütemény 6:45-kor. Késésnek helye nincs. Megjelenés alkalomhoz illő öltözetben.",
+      "name": "Grófnő",
+      "other": "Egyesével ébreszd fel a LÁTOGATÓ és TÉVES INFORMÁCIÓ emlékeztetőkkel megjelölt játékosokat. Mutasd meg az Ő KIVÁLASZTOTT TÉGED lapkát, a grófnő jelölőjét, és egy számot."
+    },
+    "dusk": {
+      "first": "Kezdd el az éjszakai fázist.",
+      "other": "Kezdd el az éjszakai fázist."
+    },
+    "empath": {
+      "ability": "Minden éjjel megtudod, hogy a két veled szomszédos élő játékos közül hányan gonoszak.",
+      "first": "Mutasd fel annyi ujjadat, ahány gonosz szomszédja van.",
+      "flavor": "A hideg futkos a hátamon. Itt valami nincs rendjén. Érzem...",
+      "name": "Empata",
+      "other": "Mutasd fel annyi ujjadat, ahány gonosz szomszédja van."
+    },
+    "engineer": {
+      "ability": "Játékonként egyszer, éjjel válaszd ki, hogy melyik csatlósok vagy melyik démon legyen játékban.",
+      "first": "A mérnök választhat csatlós karaktereket vagy egy démon karaktert, majd altasd vissza. Egyesével ébreszd fel a csatlósokat vagy a démont. Mutasd meg az EZ VAGY MOSTANTÓL lapkát és az új karaktere jelölőjét. :reminder:",
+      "flavor": "Ha meghajlik, nagyszerű. Ha eltörik, akkor már úgyis javításra szorult.",
+      "name": "Mérnök",
+      "other": "A mérnök választhat csatlós karaktereket vagy egy démon karaktert, majd altasd vissza. Egyesével ébreszd fel a csatlósokat vagy a démont. Mutasd meg az EZ VAGY MOSTANTÓL lapkát és az új karaktere jelölőjét. :reminder:"
+    },
+    "eviltwin": {
+      "ability": "Ismeritek egymást egy játékossal a másik csapatból. Ha a páros jó tagját kivégzik, a gonoszok győznek. A jók nem győzhetnek, ha mindketten éltek.",
+      "first": "Ébreszd fel az ikerpár mindkét tagját. Szemkontaktust teremtenek. Mutasd meg a jó iker karakterjelölőjét a gonosz ikernek, a gonoszét pedig a jónak.",
+      "flavor": "Nem vagyok Lilla! Én Csilla vagyok! Ő ott Lilla! Lilla a gonosz! Nem én!",
+      "name": "Gonosz ikertestvér"
+    },
+    "exorcist": {
+      "ability": "Minden éjjel* válassz egy játékost (mást, mint előző éjjel): ha ő a démon, megtudja, ki vagy, és utána nem ébred fel ma éjjel.",
+      "flavor": "A mi Urunk, Jézus Krisztus nevében és hatalma által kiűzünk titeket: minden tisztátalan lelket, az ördög minden erejét, a pokoli ellenség minden támadását, minden légiót, minden sátáni csoportot és szektát. Parancsoljuk, hogy távozzatok Isten egyházától és e lelkektől, kiket a Mindenható saját képmására teremtett, és kiket Isten Bárányának drága vére váltott meg.",
+      "name": "Ördögűző",
+      "other": "Az ördögűző kiválaszt egy játékost. :reminder: Altasd vissza. Ha a démonra mutatott: Ébreszd fel a démont. Mutasd meg neki az Ő KIVÁLASZTOTT TÉGED lapkát, az ördögűző jelölőjét, majd mutass rá arra a játékosra, aki az ördögűző."
+    },
+    "fanggu": {
+      "ability": "Minden éjjel* válassz egy játékost: meghal. Az első kívülálló, akit megölnél, gonosz Fang Gu lesz, te pedig meghalsz. [+1 kívülálló]",
+      "flavor": "Minden bástyád és fegyvered álombéli, tűnő füst csupán.",
+      "name": "Fang Gu",
+      "other": "Kiválaszt egy játékost. :reminder: Ha Kívülállót választ (csak egyszer): Cseréld ki a kívülálló jelölőjét egy tartalék Fang Gu jelölőre. Altasd vissza a Fang Gut. Ébreszd fel a választott játékost. Mutasd meg az EZ VAGY MOSTANTÓL lapkát, a Fang Gu jelölőjét és a lefelé fordított hüvelykujjad. :reminder:"
+    },
+    "farmer": {
+      "ability": "Ha éjjel meghalsz, egy élő jó játékosból földműves lesz. ",
+      "flavor": "Még a leghatalmasabb urak sem élhetnek táplálék nélkül. Nélkülünk a város éhezik.",
+      "name": "Földműves",
+      "other": "Ha a földműves meghalt ezen az éjszakán, ébressz fel egy élő jó játékost. Mutasd meg az EZ VAGY MOSTANTÓL lapkát, majd a földműves jelölőjét."
+    },
+    "fearmonger": {
+      "ability": "Minden éjjel válassz egy játékost: ha gyanúsítod és kivégzik, a csapata veszít.Mindenki megtudja, ha új játékost választasz. ",
+      "first": "Kiválaszt egy játékost. :reminder: Jelentsd be, hogy a vészmadár kiválasztott egy játékost.",
+      "flavor": "Vigyázzatok, mert ha elég sokáig bámulunk a mélységbe, a mélység is visszanézhet ránk.",
+      "name": "Vészmadár",
+      "other": "Kiválaszt egy játékost. :reminder: Ha mást választott, mint előző éjjel, jelentsd be, hogy a vészmadár kiválasztott egy játékost."
+    },
+    "ferryman": {
+      "ability": "Az utolsó napon minden halott játékos visszakapja a szavazatjelölőjét.",
+      "flavor": "Amikor igaz álmok jönnek, az igazság súlyát is magukkal hozzák.",
+      "name": "Révész"
+    },
+    "fibbin": {
+      "ability": "Játékonként egyszer 1 jó játékos téves információt kaphat.",
+      "flavor": "Be-bee. Bi-bi-bííí...",
+      "name": "Mókamester"
+    },
+    "fiddler": {
+      "ability": "Játékonként egyszer a démon titokban kiválaszt egy ellenfelet: a játékosok döntenek, hogy kettőjük közül ki győzzön.",
+      "flavor": "Pusztuljak meg, ha alul maradok a hegedűmmel egy ilyen kancsal fickó ellen! Átmegyünk a cimbikkel a csehóba, felöntünk a garatra, de cefetül, oszt mulatunk egy oltári nagyot. Reggelre meg péppé alázlak, te lármás tökfej.",
+      "name": "Hegedűs"
+    },
+    "fisherman": {
+      "ability": "Játékonként egyszer, napközben kérj tanácsot a mesélőtől, hogy hogyan győzhet a csapatod.",
+      "flavor": "Ez volt a kedvenc helyem a folyó mentén... látod, milyen szép szivárványt fest a napfény a kolostor és a piac közé? Itt lehetett a legnagyobb halakat fogni. És ahogy múlt az idő, egyre nagyobbak lettek.",
+      "name": "Halász"
+    },
+    "flowergirl": {
+      "ability": "Minden éjjel* megtudod, hogy a démon szavazott-e aznap.",
+      "flavor": "A tegnapi violák elhervadtak, de a pipacsaim ma gyönyörűen virítanak.",
+      "name": "Virágáruslány",
+      "other": "Bólints vagy rázd meg a fejed."
+    },
+    "fool": {
+      "ability": "Az első alkalommal, amikor meghalnál, életben maradsz.",
+      "flavor": "...mire a király: 'Micsoda?! Sose volt nekem gumibugyim, nemhogy pudingágyúm!' Ha-ha-ha! Vidám napot!",
+      "name": "Bolond"
+    },
+    "fortuneteller": {
+      "ability": "Minden éjjel válassz 2 játékost: megtudod, hogy egyikük démon-e. Van egy jó játékos, akit démonként észlelsz.",
+      "first": "Kiválaszt 2 játékost. Bólints, ha egyikük a démon (vagy a CSALI).",
+      "flavor": "Hatalmas gonoszságot érzek a lelkedben! Bár… az is lehet, hogy ez csak a parfümöd. Allergiás vagyok a bodzára.",
+      "name": "Jósnő",
+      "other": "Kiválaszt 2 játékost. Bólints, ha egyikük a démon (vagy a CSALI)."
+    },
+    "gambler": {
+      "ability": "Minden éjjel* válassz egy játékost, és tippeld meg a karakterét: ha nem találod el, meghalsz. ",
+      "flavor": "Ha fej, én nyerek. Ha írás, te vesztesz.",
+      "name": "Szerencsejátékos",
+      "other": "Kiválaszt egy játékost és egy karaktert. :reminder:"
+    },
+    "gangster": {
+      "ability": "Naponta egyszer megölheted az egyik élő szomszédodat, ha a másik élő szomszédod beleegyezik.",
+      "flavor": "Tetszik a cipőd. Kár lenne, ha valami baleset érne, és tönkremenne. Most, hogy mondod, mandzsettagombjaid is nagyon tetszenek.",
+      "name": "Gengszter"
+    },
+    "gardener": {
+      "ability": "A mesélő jelöli ki egy vagy több játékos karakterét.",
+      "flavor": "Amikor az álnok érvelés ostobasággá válik, a képmutatás pedig kegyetlenséggé, vonulj vissza a kertbe. A virágok és a kövek egy öregember végső vigaszai.",
+      "name": "Kertész"
+    },
+    "general": {
+      "ability": "Minden éjjel megtudod, hogy a mesélő szerint melyik csapat áll nyerésre: a jók, a gonoszok vagy egyik se.",
+      "first": "Mutasd meg a felfelé vagy lefelé fordított hüvelykujjadat.",
+      "flavor": "Nincs időm idézetekre.",
+      "name": "Tábornok",
+      "other": "Mutasd meg a felfelé vagy lefelé fordított hüvelykujjadat."
+    },
+    "gnome": {
+      "ability": "Mindenki megtudja az egyik játékosról, hogy a te oldaladhoz tartozik. Bárkit megölhetsz, aki gyanúsítja.",
+      "flavor": "Négy-húsz-hab s hét-sör múltán, nem-menet a menet nekem-énnek. Tréfa-repeszti palló-pokol alját, incontroverzibuborék-bambán. Esszé-ár örök-öröm-Örkény-örvény, nem lép túl árnyékán öröktelen-örök. Burrárumm.",
+      "name": "Gnóm"
+    },
+    "goblin": {
+      "ability": "Ha a gyanúsításodkor nyilvánosan bejelented, hogy te vagy a goblin, és még ezen a napon kivégeznek, a csapatod győz.",
+      "flavor": "Nem akarnál belekötni egy goblinba. Ebben egész biztos vagyok. Egyébként... kaphatok még egy szelet sütit?",
+      "name": "Goblin"
+    },
+    "godfather": {
+      "ability": "Első éjjel megtudod, melyik kívülállók vannak játékban. Ha nappal egyikük meghal, éjjel válassz egy játékost, ő is meghal. [-1 vagy +1 kívülálló]",
+      "first": "Mutasd meg neki az összes játékban lévő kívülálló karakterjelölőjét.",
+      "flavor": "Persze mindez csak üzlet. De ha megsérted a lányomat, engem sértesz meg. És ha megsértesz engem, megsérted a családomat. Igazán lehetnél körültekintőbb – kár lenne, ha hirtelen baleset érne.",
+      "name": "Keresztapa",
+      "other": "Ha egy kívülálló meghalt a legutóbbi nappal, kiválaszt egy játékost. :reminder:"
+    },
+    "golem": {
+      "ability": "A játék során csak egyszer gyanúsíthatsz. Ha az általad gyanúsított játékos nem a démon, meghal.",
+      "flavor": "Gólem segít? Gólem zúz! Gólem segít.",
+      "name": "Gólem"
+    },
+    "goon": {
+      "ability": "Minden éjjel az első játékos, aki a képességével kiválaszt téged, alkonyatig részeg lesz. Átállsz az ő oldalára.",
+      "flavor": "Így van, főnök. Nagyon világosan tudtára adtam a dolgot az ipsének. Nem kell még egyszer elmondjam neki. Nem, főnök, nem kell ide orvos, ez csak egy késszúrás. Reggelre kutya bajom se lesz.",
+      "name": "Melák"
+    },
+    "gossip": {
+      "ability": "Minden nap állíthatsz egy dolgot nyilvánosan. Ha igaz volt, éjjel egy játékos meghal.",
+      "flavor": "Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla. Bla-bla.",
+      "name": "Pletykafészek",
+      "other": "Ha a képessége miatt meg kell halnia valakinek, az most meghal :reminder:"
+    },
+    "grandmother": {
+      "ability": "Első éjjel megismersz egy jó játékost és a karakterét. Ha a démon megöli, te is meghalsz.",
+      "first": "Mutass rá a játékosra, akit unokának választottál, és mutasd meg a karakterjelölőjét a nagymamának.",
+      "flavor": "Vegyél fel kabátot, ha kimész, drágám! És itt a termoszod. Meg a sálad. Tudod, hogy gyenge a szívem. Nem is tudom, mi lenne velem, ha megfáznál... vagy valami még rosszabb történne veled...",
+      "name": "Nagymama",
+      "other": "Ha a démon megölte az unokát, a nagymama is meghal. :reminder:"
+    },
+    "gunslinger": {
+      "ability": "Minden nap az első szavazás összeszámlálása után választhatsz egy játékost, aki szavazott: meghal.",
+      "flavor": "Ideje, hogy valaki végre a kezébe vegye a dolgokat. És ez a valaki... én vagyok.",
+      "name": "Pisztolyhős"
+    },
+    "harlot": {
+      "ability": "Minden éjjel* válassz egy élő játékost: ha beleegyezik, megismered a karakterét, de mindketten meghalhattok.",
+      "flavor": "Bonjour, szépfiú! Úgy látom, nagy szükséged lenne valakire, akinek kiöntheted a szíved. Én igazán hálás hallgatóság vagyok. Nagyon, nagyon hálás.",
+      "name": "Kéjnő",
+      "other": "Kiválaszt egy élő játékost. Ezután altasd vissza. Ébreszd fel a kiválasztott játékost, mutasd meg neki az Ő KIVÁLASZTOTT TÉGED lapkát, majd a kéjnő jelölőjét. Ha a játékos bólint, ébreszd fel a kéjnőt, és mutasd meg neki a kiválasztott játékos karakterjelölőjét. Mindkét játékos meghalhat. :reminder: :reminder:"
+    },
+    "harpy": {
+      "ability": "Minden éjjel válassz két játékost: másnap az első játékosnak az lesz a rögeszméje, hogy a második gonosz, különben egyikük vagy mindkettőjük meghalhat.",
+      "first": "Kiválaszt 2 játékost. :reminder: :reminder: Altasd vissza a hárpiát. Ébreszd fel az 1. játékost. Mutasd meg neki az Ő KIVÁLASZTOTT TÉGED lapkát és a hárpia karakterjelölőjét, majd mutass rá a 2. játékosra.",
+      "flavor": "Nem láttam még ily szép napot, sem ily szörnyű szárnyas jelenést, melynek árnya ránk vetül.",
+      "name": "Hárpia",
+      "other": "Kiválaszt 2 játékost. :reminder: :reminder: Altasd vissza a hárpiát. Ébreszd fel az 1. játékost. Mutasd meg neki az Ő KIVÁLASZTOTT TÉGED lapkát és a hárpia karakterjelölőjét, majd mutass rá a 2. játékosra."
+    },
+    "hatter": {
+      "ability": "Ha meghalsz, a démon és csatlós játékosok új démon és csatlós karaktereket választhatnak maguknak.",
+      "flavor": "Egy kalap. Kép kalap. Három kalap.Nézd kalap. Öt kalap. Halld kalap. Hé kalap!",
+      "name": "Kalapos",
+      "other": "Ha a kalapos meghalt, ébreszd fel a csatlósokat és démonokat. Mindegyikük választhat egy új karaktert. Aki választ, annak mutasd meg az EZ VAGY MOSTANTÓL lapkát és az új karaktere jelölőjét."
+    },
+    "hellslibrarian": {
+      "ability": "Valami rossz történhet azzal, aki beszél, amikor a mesélő csendet kér.",
+      "flavor": "Pssszt. Maradj csendben, kérlek. Jobb, ha nem bosszantjuk fel a könyvtárost. Úgy hallottam, elég könnyen kijön a sodrából.",
+      "name": "A pokol könyvtárosa"
+    },
+    "heretic": {
+      "ability": "Aki győz, veszít és aki veszít, az győz – akkor is, ha halott vagy.",
+      "flavor": "Miután a jégeső beszakította a tetőt és szilánkokra zúzta a katedrális ablakait, elolvad és eggyé válik a földdel, mint a haldokló bárány a sivatagi napsütésben. Így szól az őrült példabeszéde.",
+      "name": "Eretnek"
+    },
+    "hermit": {
+      "ability": "Minden kívülálló képességével rendelkezel. [-0 vagy -1 kívülálló]",
+      "flavor": "A föld elveszett és elfeledett helyein a lélek fénye hívogat.",
+      "name": "Remete"
+    },
+    "highpriestess": {
+      "ability": "Minden éjjel megtudod, hogy a mesélő szerint melyik játékossal kellene leginkább beszélned.",
+      "first": "Mutass rá egy játékosra.",
+      "flavor": "A személyiség mögött egy élet rejtőzik, mely álarcként ölti magára a személyiségeket. Előfordul, hogy az élet leveszi az álarcot, és a mélység a mélységnek ad választ.",
+      "name": "Főpapnő",
+      "other": "Mutass rá egy játékosra."
+    },
+    "huntsman": {
+      "ability": "Játékonként egyszer, éjjel válassz egy élő játékost: ha a királylányt választod, játékon kívüli városlakóvá válik. [+a királylány]",
+      "first": "A vadász választhat egy játékost. :reminder: Ha a királylányt választja: Altasd vissza a vadászt. Ébreszd fel a királylányt, mutasd meg neki az EZ VAGY MOSTANTÓL lapkát és az új karaktere jelölőjét.",
+      "flavor": "A kunyhóm jól fűtött, biztonságos menedék. A fejszém az ajtónál, a csizmám a tűznél szárad, és gyöngyözve forr a jávorszarvas pörkölt... De mi ez? Egy sikoly visszhangzik végig a völgyön! Az eső, a sár és a metsző, hideg szél elfedi a farkasok szagát, de én jól ismerem az utat, és nem inognak meg a lépteim. Rögvest ott vagyok.",
+      "name": "Vadász",
+      "other": "A vadász választhat egy játékost. :reminder: Ha a királylányt választja: Altasd vissza a vadászt. Ébreszd fel a királylányt, mutasd meg neki az EZ VAGY MOSTANTÓL lapkát és az új karaktere jelölőjét."
+    },
+    "imp": {
+      "ability": "Minden éjjel* válassz egy játékost, aki meghal. Ha magadat ölöd meg, egy csatlós lesz az új ördögfióka.",
+      "flavor": "Egy pillanatra sem lankadhat a figyelmünk, készen kell állnunk a harcra.A gonosz itt ólálkodik köztünk, és nem riad vissza semmitől, hogy elpusztítson minket, egyszerű, becsületes embereket, és romba döntse szeretett városunkat. Senkiben se bízzatok! Ám, ha mégis meg kell bíznotok valakiben, akkor én legyek az!",
+      "name": "Ördögfióka",
+      "other": "Kiválaszt egy játékost. :reminder: Ha saját magát választja: Cseréld ki egy élő csatlós jelölőjét egy tartalék ördögfióka-jelölőre. Altasd vissza a régi ördögfiókát, majd ébreszd fel az újat. Mutasd meg az EZ VAGY MOSTANTÓL lapkát és az ördögfióka jelölőjét."
+    },
+    "innkeeper": {
+      "ability": "Minden éjjel* válassz két játékost: nem halhatnak meg ma éjjel, de az egyikük alkonyatig részeg lesz.",
+      "flavor": "Kerülj beljebb, derék utazó, pihentesd meg fáradt tagjaidat. Örvendj és vigadj, mert a gonosz seregei ma éjjel nem törhetnek a vesztedre.",
+      "name": "Fogadós",
+      "other": "Kiválaszt 2 játékost. :reminder: :reminder: :reminder:"
+    },
+    "investigator": {
+      "ability": "Első éjjel megtudod, hogy két játékos egyike egy adott csatlós.",
+      "first": "Mutasd meg egy csatlós karakterjelölőjét. Mutass rá a CSATLÓS és a TÉVES emlékeztetővel jelölt játékosokra.",
+      "flavor": "Csodás este ez egy sétához, nemde, Morozov úr? Vagy szólítsam inkább... Morozov BÁRÓNAK?",
+      "name": "Nyomozó"
+    },
+    "judge": {
+      "ability": "Játékonként egyszer határozhatsz úgy, hogy egy más játékos által gyanúsított játékost a szavazástól függetlenül kivégezzenek vagy felmentsenek.",
+      "flavor": "Bűnösnek találom a vádlottat emberölés, csalás, gyújtogatás, lopás, megtévesztés, engedély nélküli orvoslás, rágalmazás, királygyilkosság és szemetelés bűntettében.",
+      "name": "Bíró"
+    },
+    "juggler": {
+      "ability": "Az első napon tippeld meg nyilvánosan legfeljebb öt játékos karakterét. Aznap éjjel megtudod, hány tipped volt helyes.",
+      "flavor": "A következő trükkömhöz, a megbeszéltek szerint, szükségem lesz egy szál virágra, egy zsák babra, egy játékkígyóra, egy ecsetre és egy benzinmotoros sövénynyíróra. Figyelem, lehet, hogy ez lesz az utolsó mutatványom. Na lássuk.",
+      "name": "Zsonglőr",
+      "other": "Mutasd fel annyi ujjadat, ahány karakter mellett HELYES emlékeztető van."
+    },
+    "kazali": {
+      "ability": "Minden éjjel* válassz egy játékost, aki meghal. [Te döntesz, melyik játékos melyik csatlós lesz. -? vagy +? kívülálló]",
+      "first": "A Kazali dönti el, melyik játékos melyik csatlós lesz. Ébreszd fel a kiválasztott játékosokat. Mutasd meg az EZ VAGY MOSTANTÓL lapkát, a csatlósok jelölőjét és a lefelé fordított hüvelykujjad.",
+      "flavor": "Gon(z)a7les6! Óv8toSan! A mech4an4izmus megf0rdu10t. Hib4 a re{7}d52eRben. Újr8koNf{1}gurá10ás.",
+      "name": "Kazali",
+      "other": "Kiválaszt egy játékost. :reminder:"
+    },
+    "king": {
+      "ability": "Minden éjjel, ha a halottak legalább annyian vannak, mint az élők, tudomást szerzel egy élő karakterről. A démon tudja, hogy te vagy a király.",
+      "first": "Ébreszd fel a démont. Mutasd meg neki az EZ A JÁTÉKOS lapkát, a király jelölőjét, majd mutass rá a királyra. ",
+      "flavor": "A halálos viszály különös dallamai között, / A rejtély és fájdalom fűszerezte éjben / A sorshosszú színes élet bilincses örömei hevernek, / S kertjüket minden egyes festett arc felbukkanása virágba borítja.",
+      "name": "Király",
+      "other": "Ha a halottak legalább annyian vannak, mint az élők, mutasd meg egy élő játékos karakterjelölőjét."
+    },
+    "klutz": {
+      "ability": "Amikor megtudod, hogy meghaltál, nyilvánosan válassz egy élő játékost: ha gonosz, a csapatod veszít.",
+      "flavor": "Hoppá...",
+      "name": "Balfácán"
+    },
+    "knight": {
+      "ability": "Első éjjel megtudod 2 játékosról, hogy egyikük sem a démon.",
+      "first": "Mutass rá az ISMER emlékeztetővel megjelölt 2 játékosra.",
+      "flavor": "A hazugság labirintus, amelyben előbb-utóbb eltéved az odakeveredett bűnös lélek.",
+      "name": "Lovag"
+    },
+    "legion": {
+      "ability": "Minden éjjel* meghalhat egy játékos. Ha csak gonoszok szavaznak, a kivégzés sikertelen. Csatlósnak is tűnsz. [A legtöbb játékos légió]",
+      "flavor": "Mi vagyunk a jeges szél a zord télben. Mi vagyunk az árnyék a holdtalan éjszakán. Mi vagyunk a méreg a teádban és a suttogó hang a füledben. Mindenhol ott vagyunk.",
+      "name": "Légió",
+      "other": "Egy játékos meghalhat. :reminder:"
+    },
+    "leviathan": {
+      "ability": "Ha egynél több jó játékost kivégeznek, a gonoszok győznek. Minden játékos tudja, hogy játékban vagy. Az 5. nap után a gonoszok győznek.",
+      "first": "Jelentsd be, hogy a leviatán játékban van. :reminder:",
+      "flavor": "Az utolsókig birkózom veled; a pokol szívéből is feléd döfök; gyűlöletből utolsó leheletemet is rád köpöm.",
+      "name": "Leviatán",
+      "other": "Cseréld le a Leviatán emlékeztető jelölőjét az adott napnak megfelelően. :reminder: Ha kell jelentsd be, hogy a leviatán játékban van."
+    },
+    "librarian": {
+      "ability": "Első éjjel megtudod, hogy két játékos egyike egy adott kívülálló. (Vagy hogy nincs kívülálló a játékban.)",
+      "first": "Mutasd meg egy kívülálló karakterjelölőjét. Mutass rá a KÍVÜLÁLLÓ és a TÉVES emlékeztetővel jelölt játékosokra.",
+      "flavor": "Igenis, asszonyom, rendes körülmények között kikölcsönözhetné a Malificárium Kódexet a zárolt részlegből. Úgy tűnik azonban, hogy ön nincs beiratkozva.",
+      "name": "Könyvtáros"
+    },
+    "lilmonsta": {
+      "ability": "A csatlósok minden éjjel eldöntik, ki vigyázzon a szörnyecskére és legyen a démon. Minden éjjel* meghalhat egy játékos. [+1 csatlós]",
+      "first": "Ébreszd fel a csatlósokat. Választanak egy játékost. :reminder: Altasd vissza a csatlósokat. Ébreszd fel a választott játékost. Mutasd meg neki az EZ VAGY MOSTANTÓL lapkát és a szörnyecske jelölőjét.",
+      "flavor": "1. lépés: Legyél cuki. 2. lépés: Világuralom. 3. lépés: Kajcsi.",
+      "name": "Szörnyecske",
+      "other": "Ébreszd fel a csatlósokat. Választanak egy játékost. :reminder: Altasd vissza a csatlósokat. Ébreszd fel a választott játékost. Mutasd meg neki az EZ VAGY MOSTANTÓL lapkát és a szörnyecske jelölőjét. Egy játékos meghalhat. :reminder:"
+    },
+    "lleech": {
+      "ability": "Minden éjjel* válassz egy játékost, aki meghal. Az első éjjel válassz egy játékost: mérgezett lesz. Akkor és csak akkor halsz meg, ha ő halott.",
+      "first": "Kiválaszt egy játékost. :reminder:",
+      "flavor": "Fincsi, fincsi, fincsi, fincsi, fincsi, fincsi, fincsi, fincsi agy... akarom mondani fagy... fagyi! Igen. Fincsi fagyi. Ezt akartam mondani.",
+      "name": "Pióca",
+      "other": "Kiválaszt egy játékost. :reminder:"
+    },
+    "lordoftyphon": {
+      "ability": "Minden éjjel* válassz egy játékost, aki meghal. [A gonosz karakterek egymás mellett ülnek, te ülsz középen. +1 csatlós.-? vagy +? kívülálló]",
+      "first": "Ébreszd fel a Tüphón urának szomszédait.Mutasd meg az EZ VAGY MOSTANTÓL lapkát, a csatlósok jelölőjét és a lefelé fordított hüvelykujjad.",
+      "flavor": "A kozmosz árnyékos és elfeledett zugaiban, ahol a csillagok titkokat suttognak az ürességbe, olyan mély igazság rejlik, hogy az ebbe való legkisebb pillantás is összeomlaszthatja a halandó elmét.",
+      "name": "Tüphón ura",
+      "other": "Kiválaszt egy játékost. :reminder:"
+    },
+    "lunatic": {
+      "ability": "Azt hiszed, hogy démon vagy, pedig nem. A démon tudja, hogy ki vagy, és hogy kit választasz éjjel.",
+      "first": "Ha 7 vagy több játékos van, ébreszd fel az eszelőst. Mutasd meg az ŐK A CSATLÓSAID lapkát, és mutass rá tetszőleges játékosokra. Mutasd meg az EZEK A KARAKTEREK NINCSENEK JÁTÉKBAN lapkát és 3 jó karakter jelölőjét. Altasd vissza az eszelőst. Ébreszd fel a démont. Mutasd meg az EZ VAGY MOSTANTÓL lapkát és a démon jelölőjét. Mutasd meg az EZ A JÁTÉKOS lapkát, az eszelős jelölőjét, és mutass rá az eszelősre.",
+      "flavor": "Maga vagyok a sötétség... Azt hiszem.",
+      "name": "Eszelős",
+      "other": "Mindent úgy csinálj, mintha ő lenne a démon. Altasd vissza az eszelőst, és ébreszd fel a démont. Mutasd meg az eszelős jelölőjét és mutass rá, majd pedig a célpontjára/célpontjaira."
+    },
+    "lycanthrope": {
+      "ability": "Minden éjjel* válassz egy élő játékost. Ha jó, meghal, és a démon nem öl meg senkit ma éjjel. Egy jó játékos gonosznak tűnik.",
+      "flavor": "A civilizáció vékony máza alatt üvöltő őrület rejtőzik.",
+      "name": "Farkasember",
+      "other": "Kiválaszt egy játékost. :reminder:"
+    },
+    "magician": {
+      "ability": "A démon azt hiszi, hogy csatlós vagy. A csatlósok azt hiszik, hogy démon vagy.",
+      "first": "A Csatlósok információja lépés során mutass rá a szemfényvesztőre és a démonra. A Démon információja lépés során mutass rá a szemfényvesztőre és a csatlósokra.",
+      "flavor": "1...2... Abra...3... 4... kadabra...puff! És amint látják, hölgyeim és uraim, Farnsworth kapitány zsák aranya eltűnt!Köddé vált! Minden nyom nélkül! Köszönöm a figyelmüket, mindenkinek jó éjszakát!",
+      "name": "Szemfényvesztő"
+    },
+    "marionette": {
+      "ability": "Azt hiszed, hogy jó karakter vagy, pedig nem így van. A démon tudja, hogy ki vagy.[A démon a szomszédod]",
+      "first": "Ébreszd fel a démont. Mutasd meg neki az EZ A JÁTÉKOS lapkát, a marionett jelölőjét, és mutass rá a marionett játékosra.",
+      "flavor": "Szavak, üres szavak. Ez minden, amire támaszkodhatunk.",
+      "name": "Marionett"
+    },
+    "mastermind": {
+      "ability": "Ha a démont kivégzik, és emiatt meghal (vége lenne a játéknak), a játék még egy napig folytatódik. Ha ekkor kivégeznek egy játékost, a csapata veszít.",
+      "flavor": "A szörnyeteg csápjait kiszögezték a templomajtóra. Anyák lejtenek örömtáncot gyermekeikkel az utcákon. Nagyszerű. Minden pont úgy alakul, ahogy terveztem.",
+      "name": "Lángelme"
+    },
+    "mathematician": {
+      "ability": "Minden éjjel megtudod, hogy hány játékos képessége működött rendellenesen hajnal óta egy másik karakter képessége miatt.",
+      "first": "Mutasd fel annyi ujjadat, ahány karakter mellett RENDELLENES emlékeztető van.",
+      "flavor": "Bármely konzisztens formális x rendszer, amelyen belül egy bizonyos mennyiségű elemi aritmetikai művelet elvégezhető, nem teljes; azaz megfogalmazhatók x nyelven olyan állítások, melyeket nem lehet sem bizonyítani, sem megcáfolni x-ben. Tehát: részeg vagy.",
+      "name": "Matematikus",
+      "other": "Mutasd fel annyi ujjadat, ahány karakter mellett RENDELLENES emlékeztető van."
+    },
+    "matron": {
+      "ability": "Naponta egyszer felcserélheted legfeljebb három játékospár ülőhelyét. A játékosok nem hagyhatják el a helyüket, hogy privátban beszélgessenek.",
+      "flavor": "Sajtkukac kisasszony, kérem, nyugodjon le. Rutherford uram, a teáscsészét négy ujjal tartjuk, így. Jól tudom, hogy ön kilenc gyermek édesatyja, de az élettapasztalat vagy épp annak hiánya sosem mentség az illetlen viselkedésre.",
+      "name": "Matróna"
+    },
+    "mayor": {
+      "ability": "Ha csak 3 játékos él, és alkonyatig nincs kivégzés, a csapatod győz. Ha éjjel meghalnál, más halhat meg helyetted.",
+      "flavor": "Félre kell tennünk a nézeteltéréseinket, hogy véget vessünk ennek az értelmetlen öldöklésnek. Elvégre mindannyian tisztes adófizetők vagyunk. Legalábbis a legtöbben.",
+      "name": "Polgármester"
+    },
+    "mezepheles": {
+      "ability": "A játék kezdetén megismersz egy titkos jelszót. Az 1. jó játékos, aki ezt kimondja, a következő éjjel gonosszá válik.",
+      "first": "Mutasd meg a titkos jelszót.",
+      "flavor": "Ami szívből jön, csak arra dobbannak meg más szivek.",
+      "name": "Mefisztó",
+      "other": "Ha egy jó játékos kimondta a titkos jelszót, ébreszd fel ezt a játékost. Mutasd meg neki az EZ VAGY MOSTANTÓL lapkát, majd a lefelé fordított hüvelykujjadat. :reminder: :reminder:"
+    },
+    "minioninfo": {
+      "first": "Ha 7 vagy több játékos van, ébressz fel minden csatlóst. Mutasd meg nekik az Ő A DÉMON lapkát, és mutass rá a démonra. Mutasd meg az ŐK A CSATLÓSAID lapkát, és mutass rá a többi csatlósra."
+    },
+    "minstrel": {
+      "ability": "Amikor egy csatlóst kivégeznek és emiatt meghal, az összes többi játékos (az utazók kivételével) részeg lesz másnap alkonyatig.",
+      "flavor": "Te megkeresed őt, ha szíved éget, \nŐ muzsikál és megvigasztal téged. \nEgy nóta, és te boldog könnyet ejtesz, \nÉs minden rosszat elfelejtesz.",
+      "name": "Dalnok"
+    },
+    "monk": {
+      "ability": "Minden éjjel* válassz egy játékost (ne magadat): ma éjjel őt megvéded a démontól.",
+      "flavor": "Halál s veszedelem jő ma a szelek szárnyán. Jer, testvérem, az apátságban menedékre lelsz a tomboló vihar elől. Szavamat adom, s akár az életemet is, hogy biztonságban leszel.",
+      "name": "Szerzetes",
+      "other": "Kiválaszt egy játékost. :reminder:"
+    },
+    "moonchild": {
+      "ability": "Mikor megtudod, hogy meghaltál, nyilvánosan válassz ki egy élő játékost. Ha jó játékost választottál, éjjel meghal.",
+      "flavor": "A Skorpió a szerelmesekre tekint, s válaszút elé érsz. Simítsa ezüst tenyerem, és sorsodra fény derül. Simítsa acél torkomat, s a csillagokra esküszöm, bánod majd, míg élsz.",
+      "name": "Holdszülött",
+      "other": "Ha a holdszülött képessége miatt meg kell halnia egy jó játékosnak, az most meghal. :reminder:"
+    },
+    "mutant": {
+      "ability": "Ha rögeszmésen ragaszkodsz hozzá, hogy kívülálló vagy, kivégezhetnek.",
+      "flavor": "Nem vagyok szörnyszülött! Emberi lény vagyok! Könyörüljetek rajtam!",
+      "name": "Mutáns"
+    },
+    "nightwatchman": {
+      "ability": "Játékonként egyszer, éjszaka válassz egy játékost: megtudja, hogy te vagy az éjjeliőr.",
+      "first": "Választhat egy játékost. Ezután altasd vissza. Ébreszd fel a választott játékost. Mutasd meg neki az EZ A JÁTÉKOS lapkát, az éjjeliőr jelölőjét, majd mutass rá az éjjeliőr játékosra. :reminder:",
+      "flavor": "Hideg és magányos az éjszaka, de itt van nekem társaságnak a Hold, a csillagok, a friss, csípős szél és a csizmatalp halk nesze a kockaköveken. Nicsak, amott gyertyafény pislákol egy homályos ablakban…",
+      "name": "Éjjeliőr",
+      "other": "Választhat egy játékost. Ezután altasd vissza. Ébreszd fel a választott játékost. Mutasd meg neki az EZ A JÁTÉKOS lapkát, az éjjeliőr jelölőjét, majd mutass rá az éjjeliőr játékosra. :reminder:"
+    },
+    "noble": {
+      "ability": "Első éjjel megismersz 3 játékost, akik közül pontosan 1 gonosz.",
+      "first": "Mutass rá az ISMER emlékeztetővel megjelölt 3 játékosra.",
+      "flavor": "A szarkazmus valóban a szellemesség legalacsonyabb rendű formája. De a kritikájára válaszolva, uram, azért mégiscsak egyfajta szellemesség.",
+      "name": "Nemes"
+    },
+    "nodashii": {
+      "ability": "Minden éjjel* válassz egy játékost: meghal. A két városlakó szomszédod mérgezett.",
+      "flavor": "Arnoch bűneire mondom, érzem nyomasztó bűzödet. A kárhozott napra és vigyorgó kis isteneinek ocsmány seregére esküszöm, megrontalak téged. Az áldott éjszakára és a szörnyű, szentségtelen tenger rejtett mélységeire mondom, kioltom nyomorúságos életedet ezen a földön.",
+      "name": "No Dashii",
+      "other": "Kiválaszt egy játékost. :reminder:"
+    },
+    "ogre": {
+      "ability": "Az 1. éjjel válassz egy játékost (ne magadat): átállsz az oldalára (nem tudod, melyik oldalra), akkor is, ha részeg vagy mérgezett vagy.",
+      "first": "Kiválaszt egy játékost. :reminder:",
+      "flavor": "<grunt><grin></grunt>",
+      "name": "Ogre"
+    },
+    "ojo": {
+      "ability": "Minden éjjel* válassz egy karaktert, aki meghal. Ha nincs játékban, a mesélő választja ki, hogy ki hal meg.",
+      "flavor": "Mint egy máglyát a holdtalan éjszakán... látlak téged, halandó.",
+      "name": "Ojo",
+      "other": "Kiválaszt egy karaktert. :reminder:"
+    },
+    "oracle": {
+      "ability": "Minden éjjel* megtudod, hogy hány halott játékos gonosz.",
+      "flavor": "Csak a kiválasztottak láthatnak a felszín alá. A holtak nyugtalanok, és mind a jeges észak felé mutatnak.",
+      "name": "Halottlátó",
+      "other": "Mutasd fel annyi ujjadat, amennyi a halott gonosz játékosok száma."
+    },
+    "organgrinder": {
+      "ability": "A szavazás csukott szemmel, titkosan történik.Minden éjjel választhatsz, hogy részeg vagy-e alkonyatig vagy sem.",
+      "first": "Vagy bólint, ekkor részeg lesz, vagy megrázza a fejét, ekkor józan lesz. :reminder:",
+      "flavor": "Muzsikámra táncolj egyre, Homály boruljon szemedre.",
+      "name": "Kintornás",
+      "other": "Vagy bólint, ekkor részeg lesz, vagy megrázza a fejét, ekkor józan lesz. :reminder:"
+    },
+    "pacifist": {
+      "ability": "A kivégzett jó játékosok lehet, hogy életben maradnak.",
+      "flavor": "Ne bízzatok senkiben, aki túl buzgón vágyik megbüntetni másokat.",
+      "name": "Pacifista"
+    },
+    "philosopher": {
+      "ability": "Játékonként egyszer, éjjel válassz egy jó karaktert: megszerzed a képességét. Ha ez a karakter játékban van, részeg lesz.",
+      "first": "Választhat egy karaktert. Ha szükséges, cseréld fel a karakterjelölőiket. :reminder:",
+      "flavor": "Ha valami biztos az életben, hát a sör az. Igyál, mert holnap lehet, hogy meghalunk.",
+      "name": "Filozófus",
+      "other": "Választhat egy karaktert. Ha szükséges, cseréld fel a karakterjelölőiket. :reminder:"
+    },
+    "pithag": {
+      "ability": "Minden éjjel* válassz egy játékost és egy karaktert, amivé váljon (ha az nincs játékban). Ha démonná válik, ma éjjel a mesélő dönt a halálokról.",
+      "flavor": "Körűl, körűl, az üst körűl, Míg minden méreg egybe sűl. Ide veled, fagyos békám, Kő alatt mely, éj árnyékán, Három hétig gyűjtél mérget: Először doblak be téged!",
+      "name": "Lápi banya",
+      "other": "Kiválaszt egy játékost és egy karaktert. Ha a választott karakter nincs játékban: Altasd vissza a lápi banyát, és ébreszd fel a választott játékost. Mutasd meg az EZ VAGY MOSTANTÓL lapkát és a választott karakter jelölőjét."
+    },
+    "pixie": {
+      "ability": "Első éjjel megismersz egy játékban lévő városlakót. Ha rögeszmésen állítod, hogy ez a karakter vagy, a halála után megkapod a képességét.",
+      "first": "Mutasd meg a RÖGESZMÉS emlékeztetővel megjelölt városlakó karakterjelölőjét.",
+      "flavor": "Kertben játszani de jó, Lányok haja lobbanó, Fiúk füttye harsanó. Melyik a tündérmanó? Hölgyek, urak, mit kapok? Mi tiéd, azon osztozok, Mi enyém, abból nem adok, Tündérmanó én vagyok!",
+      "name": "Tündérmanó"
+    },
+    "plaguedoctor": {
+      "ability": "Ha meghalsz, a mesélő kap egy csatlós képességet.",
+      "flavor": "Csak nyugodtan feküdni, kérem. Gyógyulásra kelleni neki idő, én gondol azt. Khm, khmmm.",
+      "name": "Pestisdoktor",
+      "other": "Ha a pestisdoktor meghalt, a mesélő megkapta egy csatlós képességét. Ha ezt még nem tetted meg, tedd meg most. :reminder:"
+    },
+    "po": {
+      "ability": "Minden éjjel* választhatsz egy játékost: meghal. Ha legutóbb nem választottál senkit, ma éjjel 3 játékost válassz.",
+      "flavor": "Adhatok egy szál virágot? Olyan magányos vagyok.",
+      "name": "Po",
+      "other": "Választhat egy játékost, VAGY ha előző éjjel nem választott, akkor kiválaszt 3 játékost. :reminder: vagy :reminder: :reminder: :reminder:"
+    },
+    "poisoner": {
+      "ability": "Minden éjjel válassz egy játékost: a következő nappal végéig mérgezett lesz.",
+      "first": "Kiválaszt egy játékost. :reminder:",
+      "flavor": "Vegyíts egy kevés alfa oldatot a bétához... DE NE TÚL SOKAT!",
+      "name": "Méregkeverő",
+      "other": "Kiválaszt egy játékost. :reminder:"
+    },
+    "politician": {
+      "ability": "Ha a csapatod főleg neked köszönheti, hogy veszít, oldalt váltasz és győzöl, akkor is, ha halott vagy. ",
+      "flavor": "Örülök, hogy feltetted ezt a kérdést. De tényleg. A VALÓDI kérdés azonban az, hogy...",
+      "name": "Politikus"
+    },
+    "poppygrower": {
+      "ability": "A csatlósok és démonok nem ismerik egymást. Ha meghalsz, azon az éjszakán tudomást szereznek egymásról.",
+      "first": "Hagyd ki a Csatlósok információja és a Démon információja lépéseket. Ébreszd fel a démont. Mutasd meg az EZEK A KARAKTEREK NINCSENEK JÁTÉKBAN lapkát, és 3 jó karakter jelölőjét, amelyek nincsenek játékban.",
+      "flavor": "Az erdő mélyének titkos kertjében fekete mákra lelhetsz. Ha csak megpillantod, máris elvarázsol. S ha megérzed sűrű illatát, örökre a fény és sötétség isteneinek rabságába esel.",
+      "name": "Máktermesztő",
+      "other": "Ha a máktermesztő meghalt a mai napon vagy ma éjjel, ébressz fel minden csatlóst. Mutasd meg nekik az Ő A DÉMON lapkát, és mutass rá a démonra. Altasd vissza a csatlósokat. Ébreszd fel a démont, Mutasd meg az ŐK A CSATLÓSAID lapkát, és mutass rá a többi csatlósra. "
+    },
+    "preacher": {
+      "ability": "Minden éjjel válassz egy játékost: ha csatlós, megtudja, hogy kiválasztottad. A kiválasztott csatlósoknak nincs képességük.",
+      "first": "Kiválaszt egy játékost. :reminder: Ha csatlóst választott: Altasd vissza a prédikátort. Ébreszd fel a választott játékost. Mutasd meg neki az Ő KIVÁLASZTOTT TÉGED lapkát és a prédikátor jelölőjét.",
+      "flavor": "Jobb gazdagnak és egészségesnek lenni, mint szegénynek és betegnek.",
+      "name": "Prédikátor",
+      "other": "Kiválaszt egy játékost. :reminder: Ha csatlóst választott: Altasd vissza a prédikátort. Ébreszd fel a választott játékost. Mutasd meg neki az Ő KIVÁLASZTOTT TÉGED lapkát és a prédikátor jelölőjét."
+    },
+    "princess": {
+      "ability": "Ha az első napon gyanúsítasz egy játékost és kivégzik, a démon nem öl meg senkit aznap éjjel.",
+      "flavor": "Szavaink selyemszálakon tartott vadászebek, drága nagyurak. Hadd fonja e szálakat erős igazsággá a kedvesség, különben elszabadulva szétzilálják udvarunkat.",
+      "name": "Hercegnő",
+      "other": "Ha a hercegnő gyanúsította azt a játékost, akit ma kivégeztek, ébreszd fel a démont a szokásos módon, de senki sem hal meg a démon képessége miatt. :reminder:"
+    },
+    "professor": {
+      "ability": "Játékonként egyszer, éjjel* válassz egy halott játékost: ha városlakó, akkor feltámad.",
+      "flavor": "Az eljárás egyszerű. Csatlakoztasd a hidraulikus konfabulátort a módosított chi mátrix erősítőhöz, adj hozzá 20 köbcenti pszeudodorafint, tartsd a Z-szintjét 20% felett, és a férjed rendbe jön. Most már csak egy villámcsapásra van szükségünk.",
+      "name": "Professzor",
+      "other": "A professzor választhat egy halott játékost. :reminder: :reminder:"
+    },
+    "psychopath": {
+      "ability": "Minden nappal, a gyanúsítások előtt nyilvánosan választhatsz egy játékost, aki meghal. Ha kivégeznek, csak akkor halsz meg, ha veszítesz kő-papír-ollóban.",
+      "flavor": "Meglepetés!",
+      "name": "Pszichopata"
+    },
+    "pukka": {
+      "ability": "Minden éjjel válassz egy játékost: mérgezett lesz. Az előzőleg megmérgezett játékos meghal, majd egészséges lesz.",
+      "first": "Kiválaszt egy játékost. :reminder:",
+      "flavor": "Igazán kedves tőled, hogy vendégül látsz gyönyörű otthonodban. Sajnálom, hogy véletlenül megkarmoltalak. Csak egy kis karcolás. Semmiség. De kérlek, fogadd el ezt az arany fogpiszkálót bocsánatkérésem szerény zálogául.",
+      "name": "Pukka",
+      "other": "Kiválaszt egy játékost. :reminder: Az előzőleg megmérgezett játékos meghal, majd egészséges lesz. :reminder:"
+    },
+    "puzzlemaster": {
+      "ability": "1 játékos részeg, akkor is, ha meghalsz. Egyszer tippelhetsz, hogy ki az. Ha kitalálod, megtudod, ki a démon, de ha rosszul tippelsz, hamis információt kapsz.",
+      "flavor": "Ha valaki arra jut, hogy egy dolog pusztán egy másik dolog, az általában tévedéshez vezet. Csigavér, ne kapkodjunk. Ne keverjük össze az elvárásainkat a valósággal.",
+      "name": "Rejtvényfejtő"
+    },
+    "ravenkeeper": {
+      "ability": "Ha éjjel meghalsz, felébredsz, hogy válassz egy játékost, akinek megismered a karakterét.",
+      "flavor": "A madaraim bosszút állnak értem! Szálljatok! Szálljatok, drága hűséges jószágaim! A kastélyba és a folyóhoz! A sikátorokba és a szalonokba! Szálljatok!",
+      "name": "Hollóőr",
+      "other": "Ha ma éjjel halt meg, kiválaszt egy játékost. Mutasd meg neki a játékos karakterjelölőjét."
+    },
+    "recluse": {
+      "ability": "Tűnhetsz gonosznak, egy konkrét csatlósnak vagy démonnak is – akár még holtan is.",
+      "flavor": "Hinnyemá’ te! Takaroggyá a fűdemrű de izibe, mer’ rögvest miszlikbe nyeszetellek! Teee...! Hogy az öreganyád térgye kalácsát, há’ mit képzűsz te magadrú’?!  Mingyá a patás ördög rugdalja széjjel a valagadat, ha még eccő idetolod a nyüves lepénylesődet!",
+      "name": "Zsémbes öreg"
+    },
+    "revolutionary": {
+      "ability": "Két szomszédos játékosról ismert, hogy egy csapathoz tartoznak. Játékonként egyszer egyikük másnak tűnik.",
+      "flavor": "Egységben az erő, kétségben nem nyerő.",
+      "name": "Forradalmár"
+    },
+    "riot": {
+      "ability": "A 3. napon a csatlósok lázadóvá válnak, a gyanúsítottak meghalnak, de rögtön gyanúsítanak egy élő játékost. Ezt kötelező megtenni.",
+      "flavor": "Larga vida a la revolución! Mi revolucion!",
+      "name": "Lázadó",
+      "other": "Cseréld le a lázadó emlékeztető jelölőjét az adott napnak megfelelően. :reminder: Ha ez a 3. éjszaka, felébresztheted a csatlósokat. Mutasd meg az EZ VAGY MOSTANTÓL lapkát és a lázadó jelölőit."
+    },
+    "sage": {
+      "ability": "Ha a démon megöl, megtudod, hogy melyik két játékos egyike a démon.",
+      "flavor": "Ezek a vaskos kötetek rejtik a titkot, biztosan érzem! Ott lapul a sorok között, csak meg kell fejtenem. Hé, fiú, hozz még gyertyát! Tintát is! Ezek az írások tele vannak misztikus titkokkal, de hamarosan feltárul előttem e pokoli rejtvény nyitja.",
+      "name": "Bölcs",
+      "other": "Ha a démon megölte a bölcset, ébreszd fel őt, és mutass rá 2 játékosra (egyikük a démon legyen)."
+    },
+    "sailor": {
+      "ability": "Minden éjjel válassz egy élő játékost: vagy te, vagy ő részeg lesz alkonyatig. Nem halhatsz meg.",
+      "first": "Kiválaszt egy élő játékost. :reminder:",
+      "flavor": "Akárkit az asztal alá iszok! Hé, te ott! Te nagyszájú! Asziszed, te engem leiszol? Nem? Na és te, nagyi? Kóstoltad már az Old MacPurcant extra fűszeres rumot? Ettől tán még a szakállad is kinő! Na gyere, igyunk egyet!",
+      "name": "Tengerész",
+      "other": "Kiválaszt egy élő játékost. :reminder:"
+    },
+    "saint": {
+      "ability": "Ha kivégeznek és emiatt meghalsz, a csapatod veszít.",
+      "flavor": "A bölcsesség békét szül. A türelem bölcsességre vezet. Ne féljetek, mert eljő az idő, midőn a félelemnek vége szakad. Imádkozzunk, hogy közös látomásunk ereje által mindannyian megszentelődjünk.",
+      "name": "Szent"
+    },
+    "savant": {
+      "ability": "Minden nap kaphatsz két információt a mesélőtől privátban: az egyik igaz, a másik hamis.",
+      "flavor": "Hetvenkét gyufaszál a padlón... a nap korán nyugszik, de a hold változatlan... egy szakadt anyagdarab... gonosz a nagy házban... háromszor három... akiben megbíztunk, nem az, aminek látszik... a zöld fény magnéziumot jelent... érdekes maradvány, de a minta rossz... hetvenkét gyufaszál a padlón...",
+      "name": "Tudós"
+    },
+    "scapegoat": {
+      "ability": "Ha a te oldaladhoz tartozó játékost végeznek ki, lehet, hogy te halsz meg helyette.",
+      "flavor": "Jó estét! Köszönöm, hogy meghívtak ebbe a bálba. Nem vagyok idevalósi, de önök igazán barátságos társaságnak tűnnek. Biztos vagyok benne, hogy remekül ki fogunk jönni egymással. Hé, ezek a kötelek meg mire valók?",
+      "name": "Bűnbak"
+    },
+    "scarletwoman": {
+      "ability": "Ha öt vagy több játékos van életben, és a démon meghal, te leszel a démon. (Az utazók nem számítanak.)",
+      "flavor": "Feltártad előttem a Bíbor Láng Tanácsának titkait. Testünk buja és szenvedélyes vággyal egyesült a tűz hevében, s én immár mindörökké a szolgád vagyok. De ma éjjel, drágám, én parancsolok.",
+      "name": "Skarlátruhás nő",
+      "other": "Ha a mai napon démonná változott, mutasd meg az EZ VAGY MOSTANTÓL lapkát és a démon jelölőjét."
+    },
+    "seamstress": {
+      "ability": "Játékonként egyszer, éjjel válassz két játékost (ne magadat): megtudod, hogy egy oldalhoz tartoznak-e.",
+      "first": "Választhat 2 játékost. Bólints vagy rázd meg a fejed. :reminder:",
+      "flavor": "Hallottad, hogy az a kasmírkabátos idegen megkörnyékezte az ifjú Hannánkat? Ő pedig igent mondott? De ez még semmi ahhoz képest, amit Harry és az a zsonglőr műveltek a vásárban! Lenne mit mesélnem, ha csak egy kicsit is pletykás lennék... úgy bizony.",
+      "name": "Varrónő",
+      "other": "Választhat 2 játékost. Bólints vagy rázd meg a fejed. :reminder:"
+    },
+    "sentinel": {
+      "ability": "Eggyel több vagy eggyel kevesebb kívülálló lehet játékban.",
+      "flavor": "A nevét, legyen szíves. A papírjait, legyen szíves. A fegyvereit, legyen szíves.",
+      "name": "Őrszem"
+    },
+    "shabaloth": {
+      "ability": "Minden éjjel* válassz két játékost: meghalnak. Lehet, hogy visszaöklendezel egy játékost, akit előző éjjel választottál.",
+      "flavor": "Blarg f 'taag nm mataan! No sho gumtha m 'ik na yuuu-Fluuuuuuuurg h-sikkkh.",
+      "name": "Shabaloth",
+      "other": "Egy előzőleg kiválasztott játékos feléledhet. :reminder: A Shabaloth kiválaszt 2 játékost. :reminder: :reminder:"
+    },
+    "shugenja": {
+      "ability": "Első éjjel megtudod, melyik irányban van a hozzád legközelebbi gonosz játékos. Ha mindkét irányban egyenlő távolságra vannak, a mesélő választ..",
+      "first": "Mutass jobbra vagy balra.",
+      "flavor": "これは夢。それも夢。すべて夢です",
+      "name": "Sugendzsa"
+    },
+    "slayer": {
+      "ability": "Játékonként egyszer, nappal nyilvánosan válassz ki egy játékost: ha ő a démon, meghal.",
+      "flavor": "Pusztulj!",
+      "name": "Démonvadász"
+    },
+    "snakecharmer": {
+      "ability": "Minden éjjel válassz egy élő játékost: ha ő egy démon, karaktert és oldalt cserél veled, majd mérgezett lesz.",
+      "first": "Kiválaszt egy játékost. Ha a démont választja: Mutasd meg az EZ VAGY MOSTANTÓL lapkát és a démon jelölőjét. Mutasd meg a lefelé fordított hüvelykujjad. Cseréld fel a kígyóbűvölő és a démon jelölőjét. Altasd vissza a korábbi kígyóbűvölőt. Ébreszd fel a korábbi démont. Mutasd meg az EZ VAGY MOSTANTÓL lapkát és a kígyóbűvölő jelölőjét. Mutasd meg a felfelé fordított hüvelykujjad. :reminder:",
+      "flavor": "Effendi… Én csak egy szerény flótás vagyok, de a furulyám színarany, és egyetlen dallammal megszelídítem a legvadabb dzsinnt, inshallah. Azt mondják, a kapzsiság fojtogatóbb, mint az akasztófa kötele. De én nem vagyok kapzsi, effendi… nem én.",
+      "name": "Kígyóbűvölő",
+      "other": "Kiválaszt egy játékost. Ha a démont választja: Mutasd meg az EZ VAGY MOSTANTÓL lapkát és a démon jelölőjét. Mutasd meg a lefelé fordított hüvelykujjad. Cseréld fel a kígyóbűvölő és a démon jelölőjét. Altasd vissza a korábbi kígyóbűvölőt. Ébreszd fel a korábbi démont. Mutasd meg az EZ VAGY MOSTANTÓL lapkát és a kígyóbűvölő jelölőjét. Mutasd meg a felfelé fordított hüvelykujjad. :reminder:"
+    },
+    "snitch": {
+      "ability": "Minden csatlós kap 3 karaktert a blöfföléshez.",
+      "first": "Ébreszd fel a csatlósokat. Mutasd meg az EZEK A KARAKTEREK NINCSENEK JÁTÉKBAN lapkát, és 3 karakter jelölőjét, amelyek nincsenek játékban.",
+      "flavor": "Jani volt az.",
+      "name": "Besúgó"
+    },
+    "soldier": {
+      "ability": "Védve vagy a démontól.",
+      "flavor": "Ahogy Dávid mondta Góliátnak, ahogy Thészeusz mondta a Minótaurosznak, ahogy Ardzsuna mondta Bhagadattának: Nem.",
+      "name": "Katona"
+    },
+    "spiritofivory": {
+      "ability": "Legfeljebb egy extra gonosz játékos lehet.",
+      "flavor": "A Pusztaság szólít. A csontok élő hússá fejlődnek, majd porrá lesznek. A Nagy Szellem erősödik. A Nagy Szellem figyel. A Nagy Szellem utat mutat. Az ember hallgat rá, vagy elenyészik.",
+      "name": "Az elefántcsont szelleme"
+    },
+    "spy": {
+      "ability": "Minden éjjel belenézel a grimoárba. Tűnhetsz jónak és városlakónak vagy kívülállónak is (akár holtan is).",
+      "first": "Mutasd meg neki a grimoárt. Addig nézheti, ameddig szeretné.",
+      "flavor": "Rettegve gyűlik össze a nép, mert tudják,\nnincs annál baljósabb kép,\nmint ha a fellegből kémlelő szempár sötét.",
+      "name": "Kém",
+      "other": "Mutasd meg neki a grimoárt. Addig nézheti, ameddig szeretné."
+    },
+    "steward": {
+      "ability": "Első éjjel megismersz 1 jó játékost.",
+      "first": "Mutass rá az ISMER emlékeztetővel megjelölt játékosra.",
+      "flavor": "Hogy merészeled őnagyságát bármiféle törvénysértéssel vádolni?! Jól ismerem őt, mióta csak az eszemet tudom! Már kilenc éve!",
+      "name": "Inas"
+    },
+    "stormcatcher": {
+      "ability": "Nevezz meg egy jó karaktert. Ha játékban van, csak kivégzés által halhat meg, de a gonosz játékosok megtudják, hogy melyik játékos az.",
+      "first": "Jelentsd be, hogy melyik karakter lett viharvert. Ha ez a karakter játékban van, jelöld meg a játékost. Ébressz fel minden gonosz játékost, és mutasd meg nekik a karakter jelölőjét, majd a megjelölt játékost. Ha nincs játékban, ébressz fel minden gonosz játékost, mutasd meg nekik az EZEK A KARAKTEREK NINCSENEK JÁTÉKBAN lapkát és a karakter jelölőjét.",
+      "flavor": "Hajnalban a templom hosszú árnyéka a szökőkúthoz kúszik. Alkonyatkor az obeliszk elzárja a vörös ragyogást, hűsítve a meleg vizet az árkádok alatt. Minden vonal ide fut össze. Vihar van készülőben, és ez a zöldellő szent hely az almafák között, ez lesz a középpontja.",
+      "name": "Viharvadász"
+    },
+    "summoner": {
+      "ability": "Kapsz 3 karaktert a blöfföléshez. A 3. éjjel válassz egy játékost: egy általad választott gonosz démonná válik.[Nincs démon]",
+      "first": "Mutasd meg az EZEK A KARAKTEREK NINCSENEK JÁTÉKBAN lapkát, és 3 jó karakter jelölőjét, amelyek nincsenek játékban.",
+      "flavor": "Üdv, észak őrzői; elmém hatalma által el vagytok vágva. Üdv, kelet őrzői; akaratommal uralkodom felettetek. Üdv, dél őrzői; mi mögötte van, feltárul a misztérium. Üdv, nyugat őrzői, pajzs a sötétben.",
+      "name": "Démonidéző",
+      "other": "Cseréld le a démonidéző emlékeztető jelölőjét az adott éjszakának megfelelően. :reminder: Ha ez a 3. éjszaka, a démonidéző kiválaszt egy játékost és egy démon karaktert. Ezután altasd vissza. Ébreszd fel a választott játékost. Mutasd meg az EZ VAGY MOSTANTÓL lapkát, a démon jelölőjét és a lefelé fordított hüvelykujjad."
+    },
+    "sweetheart": {
+      "ability": "Ha meghalsz, onnantól kezdve egy játékos részeg lesz.",
+      "flavor": "Soha nem fogom őt elfelejteni. Soha.",
+      "name": "Szerető",
+      "other": "Ha meghal, egy játékos azonnal részeg lesz. Jelöld meg most, ha még nem tetted meg. :reminder:"
+    },
+    "tealady": {
+      "ability": "Ha mindkét élő szomszédod jó, nem halhatnak meg.",
+      "flavor": "Ha fázol, a tea felmelegít. \nHa meleged van, a tea hűsít. \nHa szomorú vagy, a tea felvidít. \nHa izgatott vagy, a tea megnyugtat.",
+      "name": "Teásnéni"
+    },
+    "thief": {
+      "ability": "Minden éjjel válassz egy játékost (ne magadat): a szavazata holnap negatívan számít.",
+      "first": "Kiválaszt egy játékost. :reminder:",
+      "flavor": "Há'de nem csináltam semmiccse! Nem is vótam ottan abba a sikártoba az este! Dehogy csakliztam én el Brúnó úr táskáját azzal a sok flancos irattal. Há'meg amilyen dög nehéz vót, nem is bírtam vóna elslisszolni vele.",
+      "name": "Tolvaj",
+      "other": "Kiválaszt egy játékost. :reminder:"
+    },
+    "tinker": {
+      "ability": "Bármikor meghalhatsz.",
+      "flavor": "Azt hiszem, látom, mi a gond. Szerencsére van egy ötletem! Csak egy kis igazítás, és kétszer olyan messzire fog lőni ez a katapult...",
+      "name": "Kontár",
+      "other": "Lehet, hogy meghal. :reminder:"
+    },
+    "towncrier": {
+      "ability": "Minden éjjel* megtudod, hogy aznap gyanúsított-e csatlós.",
+      "flavor": "Szenzáció! Szenzáció! Boszorkányság a labirintusban! A zseniális tudós mindent elárul! Veszélyben a város! Szenzáció!",
+      "name": "Kikiáltó",
+      "other": "Bólints vagy rázd meg a fejed."
+    },
+    "toymaker": {
+      "ability": "A démon dönthet úgy, hogy nem támad, és ezt játékonként legalább egyszer meg kell tennie. A gonosz játékosok szokásos kezdő információt kapnak.",
+      "first": "Hajtsd végre a Csatlósok információja és Démon információja lépéseket akkor is, ha hétnél kevesebb játékos van.",
+      "flavor": "Rezeg és mozog! Lesétál a lépcsőn! Éjszaka melegen tart! Édes, mint a méz! A gyerekek imádják! Ezennel bemutatjuk a vadonatúj... jó meleg rezgő-mozgó buzgóbot-féleséget! Remek szórakozás minden korosztálynak!",
+      "name": "Játékkészítő",
+      "other": "Ha a démon támadása véget vethetne a játéknak, és a démon meg van jelölve az UTOLSÓ ÉJSZAKÁN NEM TÁMAD emlékeztetővel, ne ébreszd fel a démont."
+    },
+    "undertaker": {
+      "ability": "Minden éjjel* megtudod, hogy melyik karakter halt meg az aznapi kivégzés során.",
+      "flavor": "Lássuk, ma kit ásunk? A bal csizma sarka erősen kopott, a nyelve alatt tűzkőmorzsalék... Ez egy katona öltözéke.",
+      "name": "Sírásó",
+      "other": "Ha kivégeztek ma valakit, mutasd meg a kivégzett játékos karakterjelölőjét."
+    },
+    "vigormortis": {
+      "ability": "Minden éjjel* válassz egy játékost: meghal. Az általad megölt csatlósok megőrzik képességüket és megmérgezik 1 városlakó szomszédjukat. [-1 kívülálló]",
+      "flavor": "Minden ajtó egy ajtó. Minden kulcs egy kulcs. Minden pohár egy pohár, de aki abból a vízből iszik, amelyet én adok neki, soha többé meg nem szomjazik, mert az örök életre buzgó víz forrásává lesz benne.",
+      "name": "Vigormortis",
+      "other": "Kiválaszt egy játékost. :reminder: Ha csatlóst választ, mérgezd meg a csatlóssal szomszédos egyik városlakót. :reminder: :reminder:"
+    },
+    "villageidiot": {
+      "ability": "Minden éjjel válassz egy játékost: megtudod, hogy jó vagy gonosz. [+0, +1 vagy +2 falu bolondja. A továbbiak egyike részeg.]",
+      "first": "Ha több falu bolondja van, jelöld meg az egyiket a RÉSZEG emlékeztetővel. :reminder: Ébreszd fel egyenként a falu bolondjait. Mind kiválaszt egy játékost. Mutasd meg a felfelé vagy lefelé fordított hüvelykujjadat.",
+      "flavor": "Kéken virít minden rózsa, \nVörös a nefelejcs szirma, \nCseréld fel, mit látsz leírva.",
+      "name": "Falu bolondja",
+      "other": "Ébreszd fel egyenként a falu bolondjait. Mind kiválaszt egy játékost. Mutasd meg a felfelé vagy lefelé fordított hüvelykujjadat."
+    },
+    "virgin": {
+      "ability": "Az első alkalommal, amikor meggyanúsítanak, és ezt egy városlakó teszi, azonnal kivégzik őt.",
+      "flavor": "Én tiszta vagyok. A bűntelenek vállalják a büntetést, és szenvedjenek helyettem. Az én becsületemet nem mocskolhatják be aljas rágalmak.",
+      "name": "Szűz"
+    },
+    "vizier": {
+      "ability": "Mindenki tudja, hogy te vagy a vezír. Nappal nem halhatsz meg. Ha jó is szavazott, azonnal kivégezheted a gyanúsítottat.",
+      "first": "Jelentsd be, hogy melyik játékos a vezír.",
+      "flavor": "Nagyszerű döntés, mint mindig, felség. Egy ilyen csekély bűn, mint a püspökkel való összeütközés, aztán tényleg igényli a te „igazságszogáltatásodat” és „kegyelmedet”. Sétálj egyet a kertben. Látogass el a galériába, és tekintsd meg Von Strauf szobrait. Lazíts, felség. Bízz mindent... énrám.",
+      "name": "Vezír"
+    },
+    "vortox": {
+      "ability": "Minden éjjel* válassz egy játékost: meghal. A városlakók képességeik révén hamis információkat kapnak. Ha egy nap nincs kivégzés, a gonoszok győznek.",
+      "flavor": "Fehér lesz a fekete. Gonosz lesz a jó. Kifele a befele. Égető a hó. Fent és át. Ütre csapsz. Kövess hát. Választ kapsz.",
+      "name": "Vortox",
+      "other": "Kiválaszt egy játékost. :reminder:"
+    },
+    "voudon": {
+      "ability": "Csak te és a halottak szavazhatnak. Ehhez nincs szükségük szavazatjelölőre. Nincs szükség 50%-os többségre.",
+      "flavor": "Bien venu. Foglalj helyet. Lélegezz mélyeket. Lépj be a holtak földjére. Láss az ő szemükkel. Szólj az ő hangjukon. Yon sel lang se janm ase.",
+      "name": "Vudupap"
+    },
+    "washerwoman": {
+      "ability": "Első éjjel megtudod, hogy két játékos egyike egy adott városlakó.",
+      "first": "Mutasd meg egy városlakó karakterjelölőjét. Mutass rá a VÁROSLAKÓ és a TÉVES emlékeztetővel jelölt játékosokra. ",
+      "flavor": "Vérfoltok a szmokingon? Ó, nem. Ez csak vörösbor. Micsoda ügyetlenség.",
+      "name": "Mosónő"
+    },
+    "widow": {
+      "ability": "Az első éjjel nézz bele a grimoárba és válassz egy játékost: mérgezett lesz. 1 jó játékos tudja, hogy egy özvegy játékban van.",
+      "first": "Mutasd meg neki a grimoárt. Addig nézheti, ameddig szeretné. Kiválaszt egy játékost. :reminder: Altasd vissza az özvegyet. Ébreszd fel az ISMER emlékeztetővel megjelölt játékost, és mutasd meg neki az özvegy jelölőjét. :reminder:",
+      "flavor": "Még egy kis bort? A Château d ’Ergot’ 07 egy nagyon különleges évjárat. Ó, de még milyen különleges.",
+      "name": "Özvegy"
+    },
+    "witch": {
+      "ability": "Minden éjjel válassz egy játékost: ha másnap gyanúsít, meghal. Ha csak három játékos van életben, elveszíted ezt a képességet.",
+      "first": "Kiválaszt egy játékost. :reminder:",
+      "flavor": "Három csepp kecskevér. Egy haraggal kitépett hajtincs. A név kimondatott, az árny rávetült. Indulj bal lábbal a tövises úton, és vissza ne tekints!",
+      "name": "Boszorkány",
+      "other": "Kiválaszt egy játékost. :reminder:"
+    },
+    "wizard": {
+      "ability": "Játékonként egyszer kívánj valamit. Ha teljesül, ára lehet és/vagy nyomot hagy a természetéről.",
+      "first": "Tegyél meg mindent, amit a varázsló képessége miatt szükséges.",
+      "flavor": "Minden férfi és minden nő egy csillag. A szeretet a törvény, a szeretet az akarat jármában.",
+      "name": "Varázsló",
+      "other": "Tegyél meg mindent, amit a varázsló képessége miatt szükséges."
+    },
+    "wraith": {
+      "ability": "Éjjel bármikor kinyithatod a szemed. Felébredsz a többi gonosz játékossal együtt.",
+      "first": "Amikor egy gonosz játékost felébresztesz, ébreszd fel a lidércet is.",
+      "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
+      "name": "Lidérc",
+      "other": "Amikor egy gonosz játékost felébresztesz, ébreszd fel a lidércet is."
+    },
+    "xaan": {
+      "ability": "Az X. éjjel minden városlakó mérgezett lesz alkonyatig. [X kívülálló]",
+      "first": "Ha X értéke 1, jelöld meg a Xaant az *X* emlékeztetővel. :reminder: :reminder:",
+      "flavor": "Elhullanak mind ezután,\naz egyik a másik után, harmadik az egyik után – számold csak, de ne ily bután.",
+      "name": "Xaan",
+      "other": "Cseréld le a Xaan emlékeztető jelölőjét az adott éjszakának megfelelően. Ha az X. éjszaka van, jelöld meg a Xaant az *X* emlékeztetővel. :reminder: :reminder:"
+    },
+    "yaggababble": {
+      "ability": "Az első éjjel megismersz egy titkos kifejezést. Ahányszor csak nap közben nyilvánosan kimondod, meghalhat egy játékos.",
+      "first": "Mutasd meg a lepcsesnek a titkos kifejezést.",
+      "flavor": "Gyilkosságok a Rue Morgue területén? Фальшивые новости! Kopók a Baskerville lápon? Фальшивые новости! Halál a Níluson? Hajózás közben? Фальшивые новости!",
+      "name": "Lepcses",
+      "other": "Ahányszor ma kimondta a titkos kifejezést, annyi játékos meghalhat. :reminder:"
+    },
+    "zealot": {
+      "ability": "Ha 5 vagy több játékos van életben, minden gyanúsítottra szavaznod kell.",
+      "flavor": "Szeretek veled beszélgetni. Nagyon megnyerőek a gondolataid. Hasonlítanak az enyémekre, azzal a különbséggel, hogy te őrült vagy.",
+      "name": "Fanatikus"
+    },
+    "zombuul": {
+      "ability": "Minden éjjel*, ha nappal senki sem halt meg, válassz egy játékost: meghal. Az első alkalommal, amikor meghalnál, életben maradsz, de onnantól halottnak tűnsz.",
+      "flavor": "Én nem. Értem. Az útjaidat. Ember. Mutasd meg. A földet. Melyben. A szent. Nyugszik. Én is. Ott nyugszom. Hamarosan.",
+      "name": "Zombuul",
+      "other": "Ha napközben senki sem halt meg, kiválaszt egy játékost. :reminder:"
+    },
+    "bigwig": {
+      "ability": "Minden gyanúsított választ egy játékost: a szavazásig csak ő beszélhet, és az a rögeszméje, hogy a gyanúsított jó, különben meghalhat.",
+      "flavor": "A hiúság azt kérdezi: 'Népszerű ez?' A gyávaság azt kérdezi: 'Biztonságos ez?' A lelkiismeret azt kérdezi: 'Helyes ez?' De vajon ki lesz az, aki megkérdezi: 'Igaz ez?'",
+      "name": "Parókás"
+    },
+    "tor": {
+      "ability": "A játékosok nem tudják, melyik oldalhoz tartoznak és mi a karakterük. Akkor ismerik meg ezeket, amikor meghalnak.",
+      "flavor": "Mennydörgés a hangom és villám a pengém. Én, az örök őrző, lakomát ülök azokon az ostobákon, kik a tiltott kapuhoz merészkednek. Ím, szent célom! Kiűzni a férget a sziklás föld gyomrából, s csillaghálóba fogni ama hegytetőn, hol az ég a földdel összeér.",
+      "name": "Tor",
+      "first": "Ha egy játékos meghalt ezen az éjszakán, ébreszd fel, mutasd meg neki az EZ VAGY MOSTANTÓL lapkát, a karakterjelölőjét, és a felfelé vagy lefelé fordított hüvelykujjadat."
+    },
+    "zenomancer": {
+      "ability": "Egy vagy több játékos mindegyike rendelkezik egy céllal. Ennek teljesítésekor az adott játékos kap egy igaz információt.",
+      "flavor": "A világegyetem nem dolog... hanem történés, azt mondják. S mi tartja? Teknősök. Mindig újabb teknősök odalent. Teknősök egymás alatt, barátom, teknősök egymás alatt mindörökké.",
+      "name": "Zenomanta"
+    },
+    "hindu": {
+      "ability": "Az első 4 játékos, aki meghal, azonnal újraéled egy ugyanazon oldalhoz tartozó utazóként.",
+      "flavor": "चत्वारो मृत्युमध्ये पतन्ति, चत्वारो यात्री पुनरुद्गताः। चत्वारो धर्मे स्थितचित्तवृत्तेः, चत्वार एषां न पुनः क्षयः॥",
+      "name": "Hindu"
+    },
+    "pope": {
+      "ability": "Vannak többször is előforduló jó karakterek a játékban. Ezek a démon blöfföléshez kapott karakterei között is szerepelhetnek.",
+      "flavor": "...Pulcherrimae.",
+      "name": "Pápa"
+    },
+    "cacklejack": {
+      "ability": "Minden nap válassz egy játékost: aznap éjjel megváltozik egy másik játékos karaktere. ",
+      "flavor": "α ve2eték a β-hoz. LámPák bE. CseNgő ki. GÁÁz. K4rok E1őre. Ujj az oRRhoz. Ne moooZdu1j! BiNgo-banGo! Ha-ha-ha!",
+      "name": "Cserebóca",
+      "other": "Hajnal előtt válassz egy játékost, aki nincs megjelölve a NE ENGEM emlékeztetővel. Ébreszd fel, mutasd meg neki az EZ VAGY MOSTANTÓL lapkát és az új karaktere jelölőjét."
+    }
+  },
+  "teams": {
+    "demon": "Démonok",
+    "fabled": "Legendás karakterek",
+    "minion": "Csatlósok",
+    "outsider": "Kívülállók",
+    "townsfolk": "Városiak",
+    "traveller": "Utazók"
+  },
+  "nightMarkers": {
+    "dawn": "Hajnal",
+    "demoninfo": "Démon információja",
+    "dusk": "Alkonyat",
+    "minioninfo": "Csatlósok információja"
+  },
+  "reminders": {
+    "2nd": "Másik",
+    "3attacks": "3 támadás",
+    "3votes": "3 szavazat",
+    "abnormal": "Rendellenes",
+    "abouttodie": "Halálraítélt",
+    "actstwice": "Duplán cselekszik",
+    "aligned": "Csapattárs",
+    "alive": "Élő",
+    "amigo": "Cimbora",
+    "cannotdie": "Nem halhat meg",
+    "chosen": "Kiválasztott / Kiválasztva",
+    "claimed": "Bejelentette",
+    "correct": "Helyes",
+    "cursed": "Megátkozott",
+    "day1": "1. nap",
+    "day2": "2. nap",
+    "day3": "3. nap",
+    "day4": "4. nap",
+    "day5": "5. nap",
+    "dead": "Halott",
+    "demonnotvoted": "Démon nem szavazott",
+    "demonvoted": "Démon szavazott",
+    "diedtoday": "Ma meghalt",
+    "doesntkill": "Nem öl",
+    "drunk": "Részeg",
+    "drunk1": "Részeg 1",
+    "drunk2": "Részeg 2",
+    "drunk3": "Részeg 3",
+    "everyoneisdrunk": "Mindenki részeg",
+    "evil": "Gonosz",
+    "evilwakes": "Gonosz ébred",
+    "falseinfo": "Téves információ",
+    "fauxpaw": "Tévmancs",
+    "fear": "Vész",
+    "finalnightnoattack": "Utolsó éjjel nem támad",
+    "friend": "Barát",
+    "good": "Jó",
+    "goodplayerexecuted": "Jó játékos kivégezve",
+    "grandchild": "Unoka",
+    "guessused": "Tipp elhasználva",
+    "haircutstonight": "Fazonigazítás",
+    "hasability": "Van képesség(e) / Ez a képessége",
+    "isthealchemist": "Ő az alkimista",
+    "istheapprentice": "Ő a tanonc",
+    "isthedemon": "Ő a démon",
+    "isthedrunk": "Ő a részeg",
+    "isthemarionette": "Ő a marionett",
+    "isthephilosopher": "Ő a filozófus",
+    "know": "Ismeri / Tud róla",
+    "lunch": "Kaja",
+    "mad": "Rögeszmés / Rögeszme",
+    "master": "Úr",
+    "maynotnominate": "Nem gyanúsíthat",
+    "minion": "Csatlós",
+    "minionnominated": "Csatlós gyanúsított",
+    "minionsnotnominated": "Csatlós nem gyanúsított",
+    "negativevote": "Negatív szavazat",
+    "night1": "1. éjszaka",
+    "night2": "2. éjszaka",
+    "night3": "3. éjszaka",
+    "noability": "Nincs képesség",
+    "nominateevil": "Gonoszt gyanúsíts",
+    "nominategood": "Jót gyanúsíts",
+    "nomoreevil": "Nincs több gonosz",
+    "once": "Egyszer",
+    "outsider": "Kívülálló",
+    "poisoned": "Mérgezett",
+    "protected": "Védett",
+    "redherring": "Csali",
+    "registerfalsely": "Másnak tűnik?",
+    "safe": "Védett",
+    "soberhealthy": "Józan és egészséges",
+    "somethingbad": "Valami rossz",
+    "storytellerability": "Mesélő képessége",
+    "survivesexecution": "Túléli a kivégzést",
+    "teapartytonight": "Este teaparti",
+    "townsfolk": "Városlakó",
+    "turnsevil": "Gonosszá válik",
+    "twin": "Iker",
+    "visitor": "Látogató",
+    "whoopsie": "Hoppá",
+    "wrong": "Téves",
+    "stormcaught": "Viharvert",
+    "goal": "Cél",
+    "notme": "Ne engem"
+  },
+  "jinxes": {
+    "alchemist-boffin": "Ha az alkimista a doki képességét kapja, akkor nem szerez róla tudomást, hogy a démon milyen képességet kapott általa.",
+    "alchemist-marionette": "A marionett alkimistának nincs marionett képessége, és a marionett játékban van.",
+    "alchemist-mastermind": "A lángelme alkimistának nincs lángelme képessége, és a lángelme nincs játékban.",
+    "alchemist-organgrinder": "Ha az alkimista a kintornás képességét kapja, a kintornás játékban van. Ha mindketten józanok, mindketten részegek lesznek.",
+    "alchemist-spy": "A kém alkimistának nincs kém képessége, és a kém játékban van. Az élő kém alkimista minden kivégzést követően nyilvánosan tippelhet, hogy melyik élő játékos a kém. Ha eltalálja, a démonnak ezen az éjszakán a kémet kell kiválasztania.",
+    "alchemist-summoner": "A démonidéző alkimista nem kap karaktereket a blöfföléshez. Csak démont választ, játékost nem. Ha meghal, mielőtt ezt megtenné, a gonoszok győznek. [Nincs démon]",
+    "alchemist-widow": "Az özvegy alkimistának nincs özvegy képessége, és az özvegy játékban van. Az élő özvegy alkimista minden kivégzést követően nyilvánosan tippelhet, hogy melyik élő játékos az özvegy. Ha eltalálja, a démonnak ezen az éjszakán az özvegyet kell kiválasztania.",
+    "alchemist-wraith": "A lidérc alkimistának nincs lidérc képessége, és a lidérc játékban van. Az élő lidérc alkimista minden kivégzést követően nyilvánosan tippelhet, hogy melyik élő játékos a lidérc. Ha eltalálja, a démonnak ezen az éjszakán a lidércet kell kiválasztania.",
+    "alhadikhia-mastermind": "Ha az Al-Hadihiát kivégzik, és emiatt meghal, és a lángelme életben van, az Al-Hadihia ezen az éjszakán 3 jó játékost választ: ha mindhárman az életet választják, a gonoszok csapata győz. Ellenkező esetben a jók csapata győz.",
+    "alhadikhia-princess": "Ha a hercegnő gyanúsított egy játékost az első napján, és azt kivégezték, senki sem hal meg az Al-Hadihia miatt ezen az éjszakán.",
+    "alhadikhia-scarletwoman": "Ha két élő démon lenne, akik közül az egyik a korábbi skarlátruhás nő, akkor ő újra skarlátruhás nővé változik.",
+    "alsaahir-vizier": "A mesélő nem jelenti be, hogy a vezír játékban van.",
+    "atheist-riot": "Ha egy lázadás során a mesélőt gyanúsítják, a játékosok szavaznak. Ha \"halálra ítélik\", a játék véget ér. Ha nem, akkor ő gyanúsít újra.",
+    "balloonist-marionette": "Ha a marionett a hőlégballonosnak hiszi magát, akkor a játék előkészületei során bekerülhetett egy további kívülálló.",
+    "banshee-leviathan": "A leviatán minden éjjel* kiválaszt egy élő, jó játékost (mást, mint az előző éjszakákon): ha ez a játékos a banshee, a banshee meghal, és működésbe lép a képessége.",
+    "banshee-riot": "A lázadó minden éjjel* kiválaszt egy élő, jó játékost (mást, mint az előző éjszakákon): ha ez a játékos a banshee, a banshee meghal, és működésbe lép a képessége.",
+    "banshee-vortox": "Ha a Vortox megöli a bansheet, minden játékos megtudja, hogy a banshee meghalt.",
+    "baron-heretic": "Csak 1 gubancos karakter lehet játékban.",
+    "baron-plaguedoctor": "Ha a mesélő a báró képességét kapná, akár két játékos is kívülállóvá válhat.",
+    "boffin-cultleader": "Ha a démon a szektavezér képességét kapja, nem válhat jóvá emiatt a képesség miatt.",
+    "boffin-drunk": "A démon nem kaphatja meg a részeg képességét.",
+    "boffin-goon": "Ha a démon a melák képességét kapja, nem válhat jóvá emiatt a képesség miatt.",
+    "boffin-heretic": "A démon nem kaphatja meg az eretnek képességét.",
+    "boffin-ogre": "A démon nem kaphatja meg az ogre képességét.",
+    "boffin-politician": "A démon nem kaphatja meg a politikus képességét.",
+    "boffin-villageidiot": "Ha van tartalék jelölő, a démon megkaphatja a dokitól a falu bolondja képességet.",
+    "boomdandy-plaguedoctor": "Ha a mesélő a kanóc képességét kapná, az egyik játékos lesz a kanóc.",
+    "bountyhunter-kazali": "Ha a Kazali csatlóssá változtatja a fejvadászt, nem jön létre gonosz városlakó.",
+    "bountyhunter-philosopher": "Ha a filozófus megszerzi a fejvadász képességet, az egyik városlakó gonosszá válhat.",
+    "butler-cannibal": "Ha a kannibál megszerzi a komornyik képességét, akkor erről tudomást szerez.",
+    "butler-organgrinder": "Ha a kintornás miatt a szavazás csukott szemmel történik, akkor a komornyik felemelheti a kezét a szavazáskor, de a szavazata csak akkor számít, ha az ura is szavazott.",
+    "cannibal-juggler": "Ha a zsonglőrt az első napi találgatása után kivégzik, az ezt követő éjszakán a kannibál megtudja, hogy a zsonglőr hány tippje volt helyes.",
+    "cannibal-princess": "Ha a kannibál gyanúsította a hercegnőt, akit kivégeztek és emiatt meghalt, a démon nem öl meg senkit az ezt követő éjjel.",
+    "cannibal-zealot": "Ha a kannibál megszerzi a fanatikus képességét, akkor erről tudomást szerez.",
+    "cerenovus-goblin": "Az elmebontó adhatja azt a rögeszmét egy játékosnak, hogy ő a goblin.",
+    "chambermaid-mathematician": "A szobalány érzékeli, ha a matematikus azon az éjszakán felébred.",
+    "clockmaker-summoner": "A démonidéző az órásmester számára a démonnak tűnik.",
+    "courtier-summoner": "Ha az élő démonidézőnek nincs képessége, a mesélő kapja meg a démonidéző képességét.",
+    "courtier-vizier": "Ha a vezír elveszíti a képességét, tudomást szerez róla, és nem halhat meg napközben.",
+    "cultleader-pithag": "Ha a lápi banya egy gonosz játékost szektavezérré változtat, az nem válhat jóvá a saját képessége miatt.",
+    "damsel-pithag": "Ha a lápi banya létrehoz egy királylányt, a mesélő dönti el, hogy melyik játékos lesz az.",
+    "damsel-spy": "Ha a kém játékban van (vagy volt), a királylány mérgezett.",
+    "damsel-widow": "Ha az özvegy játékban van (vagy volt), a királylány mérgezett.",
+    "drunk-mathematician": "A matematikus megtudhatja, hogy a részeg képessége hamis információt eredményezett-e, vagy nem működött megfelelően.",
+    "engineer-legion": "Ha légió jön létre, akkor az összes gonosz játékos légióvá válik. Ha a légió játékban van, a mérnök erről a játék elején tudomást szerez, de nincs képessége.",
+    "engineer-summoner": "Ha az élő démonidéző kikerül a játékból, a mesélő kapja meg a Démonidézőképességét.",
+    "eviltwin-plaguedoctor": "Ha a mesélő a gonosz ikertestvér képességét kapná, az egyik játékos lesz a gonosz ikertestvér.",
+    "exorcist-leviathan": "Ha az ördögűző által kiválasztott játékost a leviatán gyanúsítja, és azt ki is végzik, a jók győznek.",
+    "exorcist-riot": "Ha az ördögűző által kiválasztott játékost a lázadó gyanúsítja, és azt ki is végzik, a jók győznek.",
+    "exorcist-yaggababble": "Ha az ördögűző a lepcsest választja, az azt követő az éjszakán senki sem hal meg a lepcses által.",
+    "fanggu-scarletwoman": "Ha két élő démon lenne, akik közül az egyik a korábbi skarlátruhás nő, akkor ő újra skarlátruhás nővé változik.",
+    "farmer-leviathan": "A leviatán minden éjjel* kiválaszt egy élő, jó játékost (mást, mint az előző éjszakákon): ha ez a játékos földműves, használja a képességét, de nem hal meg.",
+    "farmer-riot": "A lázadó minden éjjel* kiválaszt egy élő, jó játékost (mást, mint az előző éjszakákon): ha ez a játékos földműves, használja a képességét, de nem hal meg.",
+    "fearmonger-plaguedoctor": "Ha a mesélő a vészmadár képességét kapná, azt az egyik csatlós kapja meg, és tudomást szerez erről.",
+    "fearmonger-vizier": "A vezír felébred a vészmadárral együtt, megtudja, kit választott, és ezt a játékost nem végezheti ki a képességével.",
+    "goblin-plaguedoctor": "Ha a mesélő a goblin képességét kapná, azt az egyik csatlós kapja meg, és tudomást szerez erről.",
+    "godfather-heretic": "Csak 1 gubancos karakter lehet játékban.",
+    "goon-pithag": "Ha a lápi banya egy gonosz játékost a melákká változtat, az nem változhat jóvá a saját képessége miatt.",
+    "grandmother-leviathan": "Ha a leviatán játékban van, és az unokát kivégzik és emiatt meghal, a gonoszok csapata győz.",
+    "grandmother-riot": "Ha a lázadó játékban van, és az unokát kivégzik és emiatt meghal, a gonoszok csapata győz.",
+    "hatter-legion": "Ha légió jön létre, akkor az összes gonosz játékos légióvá válik. Ha a légió játékban van, a kalaposnak nincs képessége.",
+    "hatter-leviathan": "Az 5. napot követően a leviatán nem léphet játékba.",
+    "hatter-lilmonsta": "Ha a kalapos meghal, és a démon a szörnyecskét választja, akkor egy csatlóst is választ, amivé válik.",
+    "hatter-summoner": "Ha a démonidéző létrehoz egy második élő démont, aznap éjjel a mesélő dönt a halálokról.",
+    "heretic-lleech": "Csak 1 gubancos karakter lehet játékban.",
+    "heretic-pithag": "Csak 1 gubancos karakter lehet játékban.",
+    "heretic-spy": "Csak 1 gubancos karakter lehet játékban.",
+    "heretic-widow": "Csak 1 gubancos karakter lehet játékban.",
+    "huntsman-marionette": "Ha a marionett azt hiszi, hogy ő a vadász, akkor az előkészületek során a királylány is játékba került.",
+    "innkeeper-leviathan": "Ha a leviatán olyan játékost gyanúsít, aki a fogadós védelme alatt áll, és ezt a játékost kivégzik, a jók győznek.",
+    "innkeeper-riot": "Ha a lázadó olyan játékost gyanúsít, aki a fogadós védelme alatt áll, és ezt a játékost kivégzik, a jók győznek.",
+    "investigator-vizier": "A mesélő nem jelenti be, hogy a vezír játékban van.",
+    "kazali-marionette": "Ha a marionett játékban lenne, a démon után kerül játékba, és közvetlenül a démon mellett kell ülnie.",
+    "kazali-summoner": "Ha a démonidéző létrehoz egy második élő démont, aznap éjjel a mesélő dönt a halálokról.",
+    "king-leviathan": "Ha a leviatán játékban van, és legalább egy játékos halott, a király minden éjjel megismer egy élő karaktert.",
+    "king-riot": "Ha a lázadó játékban van, és legalább egy játékos halott, a király minden éjjel megismer egy élő karaktert.",
+    "legion-magician": "A szemfényvesztő felébred a légióval együtt, és gonosznak tűnhet. A légió tudja, hogy a szemfényvesztő játékban van, de azt nem, hogy melyik játékos az.",
+    "legion-minstrel": "Ha egy légiót kivégeztek ezen a napon, és emiatt meghalt, a légió megtartja a képességét, de a dalnok megtudhatja, hogy egy légiót végeztek ki.",
+    "legion-politician": "A politikus gonosznak tűnhet a légió számára.",
+    "legion-preacher": "Ha a prédikátor egy légiót választ ki, a légió megtartja a képességét, de a prédikátor megtudhatja, hogy ez a játékos légió.",
+    "legion-summoner": "Ha a démonidéző légiót hoz létre, az összes gonosz játékos légióvá válik.",
+    "legion-zealot": "A fanatikus gonosznak tűnhet a légió számára.",
+    "leviathan-mayor": "Ha a leviatán és a polgármester is életben van az 5. napon, és nem kerül sor kivégzésre, a jók győznek.",
+    "leviathan-monk": "Ha a leviatán olyan játékost gyanúsít, aki a szerzetes védelme alatt áll, és ezt a játékost kivégzik, a jók győznek.",
+    "leviathan-pithag": "Az 5. napot követően a leviatán nem léphet játékba.",
+    "leviathan-ravenkeeper": "A leviatán minden éjjel* kiválaszt egy élő, jó játékost (mást, mint az előző éjszakákon): ha ez a játékos a hollóőr, használja a képességét, de nem hal meg.",
+    "leviathan-sage": "A leviatán minden éjjel* kiválaszt egy élő, jó játékost (mást, mint az előző éjszakákon): ha ez a játékos a bölcs, használja a képességét, de nem hal meg.",
+    "leviathan-soldier": "Ha a leviatán a katonát gyanúsítja, és azt ki is végzik, a jók győznek.",
+    "lilmonsta-magician": "Ha a szemfényvesztő életben van, a mesélő dönt arról, hogy melyik csatlós vigyáz a szörnyecskére.",
+    "lilmonsta-marionette": "Ha a marionett játékban lenne, a démon után kerül játékba, és kezdésként közvetlenül a démon mellett kell ülnie.",
+    "lilmonsta-poppygrower": "Ha a szörnyecske és a máktermesztő is életben van, a csatlósok egymás után ébrednek, amíg egyikük úgy nem dönt, hogy elveszi a szörnyecske jelölőjét.",
+    "lilmonsta-psychopath": "Ha a pszichopata vigyáz a szörnyecskére, akkor meghal, ha kivégzik.",
+    "lilmonsta-scarletwoman": "Ha a szörnyecske meghal, és öt vagy több játékos életben van, a játék hátralévő részében a skarlátruhás nő vigyáz a szörnyecskére.",
+    "lilmonsta-vizier": "Ha a vezír vigyáz a szörnyecskére, akkor meghal, ha kivégzik.",
+    "lleech-mastermind": "Ha a lángelme életben van, és azt a játékost, akin a pióca élősködik, kivégzik és emiatt meghal, a pióca életben marad, de elveszíti a képességét.",
+    "lleech-slayer": "Ha a démonvadász az ellen a játékos ellen használja a képességét, akin a pióca élősködik, az a játékos meghal.",
+    "lordoftyphon-summoner": "Ha a démonidéző a Tüphón urát hozza létre, az csak egy csatlós mellé kerülhet, a másik szomszédból pedig gonosz csatlós lesz.",
+    "lunatic-mathematician": "A matematikus megtudhatja, ha az eszelős más játékost támad meg, mint a valódi démon.",
+    "magician-marionette": "Ha a szemfényvesztő életben van, a démon nem tudja, melyik szomszédja a marionett.",
+    "magician-spy": "A démon és a szemfényvesztő karakterjelölőit el kell távolítani arra az időre, amíg a kém belenéz a grimoárba.",
+    "magician-vizier": "Ha a vezír játékban van, a szemfényvesztőnek nem működik a képessége, de immunis a vezír képességére.",
+    "magician-widow": "A démon és a szemfényvesztő karakterjelölőit el kell távolítani arra az időre, amíg az özvegy belenéz a grimoárba.",
+    "magician-wraith": "Az élő szemfényvesztő minden kivégzést követően nyilvánosan tippelhet, hogy melyik élő játékos a lidérc. Ha eltalálja, a démonnak aznap éjjel a lidércet kell kiválasztania.",
+    "marionette-mathematician": "A matematikus megtudhatja, ha a marionett képessége hamis információt eredményezett, vagy nem működött megfelelően.",
+    "marionette-plaguedoctor": "Ha a mesélő a marionett képességét kapná, a démon egyik jó szomszédja lesz a marionett.",
+    "marionette-summoner": "Ha a marionett játékban lenne, a démon után kerül játékba, és közvetlenül a démon mellett kell ülnie.",
+    "mastermind-vigormortis": "Ha a lángelmének van képessége, megtartja azt, amikor a Vigormortis meghal.",
+    "mayor-riot": "A polgármester dönthet úgy, hogy leállítja a lázadást. Ha ezt akkor teszi, amikor már csak 1 lázadó van életben, a jók csapata győz. Ellenkező esetben a gonoszok csapata győz.",
+    "monk-riot": "Ha a lázadó olyan játékost gyanúsít, aki a szerzetes védelme alatt áll, és ezt a játékost kivégzik, a jók győznek.",
+    "ogre-pithag": "Ha a lápi banya egy gonosz játékost a ogrévé változtat, az nem válhat jóvá a saját képessége miatt.",
+    "ogre-recluse": "Ha a zsémbes öreg gonosznak tűnik az ogre számára, az ogre megtudja, hogy gonosz.",
+    "ogre-spy": "A kém gonosznak tűnik az ogre számára.",
+    "pithag-politician": "Ha a lápi banya egy gonosz játékost politikussá változtat, az nem válhat jóvá a saját képessége miatt.",
+    "pithag-summoner": "Ha a démonidéző létrehoz egy második élő démont, aznap éjjel a mesélő dönt a halálokról.",
+    "pithag-villageidiot": "Ha van tartalék jelölő, a lápi banya létrehozhat egy további falu bolondját. Ebben az esetben megváltozhat, hogy közülük melyik részeg.",
+    "plaguedoctor-scarletwoman": "Ha a mesélő a skarlátruhás nő képességét kapná, azt az egyik csatlós kapja meg, és tudomást szerez erről.",
+    "plaguedoctor-spy": "Ha a mesélő a kém képességét kapná, azt az egyik csatlós kapja meg, és tudomást szerez erről.",
+    "plaguedoctor-wraith": "Ha a mesélő a lidérc képességét kapná, azt az egyik csatlós kapja meg, és tudomást szerez erről.",
+    "politician-vizier": "A politikus gonosznak tűnhet a vezír számára.",
+    "poppygrower-spy": "Ha a máktermesztőnek van képessége, a kém nem nézhet bele a grimoárba.",
+    "poppygrower-summoner": "Ha a máktermesztő életben van a 3. éjszakán, a démonidéző csak a démon karakterét választja ki, a játékost nem.",
+    "poppygrower-widow": "Ha a máktermesztőnek van képessége, az özvegy nem nézhet bele a grimoárba.",
+    "preacher-summoner": "Ha az élő démonidézőnek nincs képessége, a mesélő kapja meg a démonidéző képességét.",
+    "preacher-vizier": "Ha a vezír elveszíti a képességét, tudomást szerez róla, és nem halhat meg napközben.",
+    "pukka-summoner": "A démonidéző a 3. helyett a 2. éjszakán is megidézhet egy Pukkát.",
+    "ravenkeeper-riot": "A lázadó minden éjjel* kiválaszt egy élő, jó játékost (mást, mint az előző éjszakákon): ha ez a játékos a hollóőr, használja a képességét, de nem hal meg.",
+    "recluse-sage": "A zsémbes öreg a démonnak tűnhet a bölcs számára.",
+    "riot-sage": "A lázadó minden éjjel* kiválaszt egy élő, jó játékost (mást, mint az előző éjszakákon): ha ez a játékos a bölcs, használja a képességét, de nem hal meg.",
+    "riot-soldier": "Ha a lázadó a katonát gyanúsítja, és azt ki is végzik, a jók győznek.",
+    "summoner-zombuul": "Ha a démonidéző egy halott játékost változtat Zombuullá, akkor úgy kell tekinteni, hogy a Zombuul egyszer már meghalt.",
+    "vizier-zealot": "A fanatikus gonosznak tűnhet a vezír számára."
+  },
+  "ui": {
+    "firstNight": "Első éjjel",
+    "otherNights": "További éjjelek",
+    "players": "Játékosok",
+    "notFirstNight": "*Kivéve az első éjjel"
+  }
+}

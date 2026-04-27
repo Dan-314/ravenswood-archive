@@ -42,6 +42,12 @@
     "completion": 100
   },
   {
+    "code": "hu",
+    "name": "Hungarian",
+    "nativeName": "Magyar",
+    "completion": 99
+  },
+  {
     "code": "nl",
     "name": "Dutch",
     "nativeName": "Nederlands",
