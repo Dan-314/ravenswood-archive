@@ -1,19 +1,30 @@
 {
   "roles": {
     "acrobat": {
-      "flavor": "Meine Damen und Herren, halten Sie sich fest, denn ich werde mich über die Gesetze der Schwerkraft hinwegsetzen und in der Luft tanzen. Erleben Sie ein Wunderwerk an Beweglichkeit und Wagemut, ganz zu Ihrer Freude und Verwunderung!"
+      "ability": "Wähle jede Nacht* 1 Spieler: Falls er heute Nacht betrunken oder vergiftet ist oder wird, stirbst du.",
+      "flavor": "Meine Damen und Herren, halten Sie sich fest, denn ich werde mich über die Gesetze der Schwerkraft hinwegsetzen und in der Luft tanzen. Erleben Sie ein Wunderwerk an Beweglichkeit und Wagemut, ganz zu Ihrer Freude und Verwunderung!",
+      "name": "Akrobatin",
+      "other": "Der Akrobat wählt einen Spieler. :reminder:"
     },
     "alchemist": {
-      "flavor": "Besuche das Innere der Erde. Durch Berichtigung wirst du den verborgenen Stein finden. Über dem Gold wird das Rote liegen. Verbinde es mit Malkuth."
+      "ability": "Du hast eine Schergen-Fähigkeit. Wenn du diese einsetzt, kann der Erzähler dich auffordern, anders auszuwählen.",
+      "flavor": "Besuche das Innere der Erde. Durch Berichtigung wirst du den verborgenen Stein finden. Über dem Gold wird das Rote liegen. Verbinde es mit Malkuth.",
+      "name": "Alchemist"
     },
     "alhadikhia": {
-      "flavor": "Alsukut min dhahab."
+      "ability": "Jede Nacht* darfst du 3 Spieler auswählen (alle erfahren wer): Jeder davon wählt still “Leben” oder “Tod”, aber falls alle leben, sterben alle.",
+      "flavor": "Alsukut min dhahab.",
+      "name": "Al-Hadikhia"
     },
     "alsaahir": {
-      "flavor": "Ich bin wegen dir hier, und du bist wegen mir hier."
+      "ability": "Jeden Tag: Falls du öffentlich errätst, welche Spieler Scherge(n) und welche Dämon(en) sind, gewinnt Gut.",
+      "flavor": "Ich bin wegen dir hier, und du bist wegen mir hier.",
+      "name": "Alsaahir"
     },
     "amnesiac": {
-      "flavor": "Warte! Was? Wer? Oh, okay. Warte...Warte...Was?"
+      "ability": "Du weißt deine Fähigkeit nicht. Rate jeden Tag geheim, was sie ist: Du erfährst, wie nah du daran bist, sie zu erraten.",
+      "flavor": "Warte! Was? Wer? Oh, okay. Warte...Warte...Was?",
+      "name": "Vergessliche"
     },
     "angel": {
       "ability": "Etwas Schlimmes könnte demjenigen passieren, der am meisten für den Tod eines neuen Spielers verantwortlich ist.",
@@ -39,13 +50,19 @@
       "other": "Der Meuchelmörder wählt möglicherweise einen Spieler. :reminder: :reminder:"
     },
     "atheist": {
-      "flavor": "Lassen wir unnötige Spekulation und alberne Paranoia beiseite. Es gibt für alles eine vollkommen rationale Erklärung. Ja, vielleicht umkreist tatsächlich eine Teetasse unseren Planeten, aber ich werde meinen Tee lieber aus der sehr realen Tasse in meinen sehr realen Händen trinken."
+      "ability": "Der Erzähler kann die Spielregeln brechen, und falls er hingerichtet wird, gewinnt Gut, sogar wenn du tot bist. [Keine bösen Charaktere]",
+      "flavor": "Lassen wir unnötige Spekulation und alberne Paranoia beiseite. Es gibt für alles eine vollkommen rationale Erklärung. Ja, vielleicht umkreist tatsächlich eine Teetasse unseren Planeten, aber ich werde meinen Tee lieber aus der sehr realen Tasse in meinen sehr realen Händen trinken.",
+      "name": "Atheist"
     },
     "balloonist": {
-      "flavor": "Mehr Hitze! Höher! Höher! Più alto! Ahhh... es ist so schön von hier oben, findest du nicht auch? Kannst du die Kinder sehen, die am Fluss unter der Weide angeln? Kannst du das Glitzern der Sonne auf den Zirkuszelt-stangen sehen? Was ist das? Ein alter Mann, allein, ohnmächtig im Weinberg? Weniger Hitze! Tiefer! Tiefer! Vai più in basso!"
+      "ability": "Jede Nacht erfährst du von einem Spieler, der einen anderen Charaktertyp hat als der Spieler aus der Nacht davor. [+0 oder +1 Außenseiter]",
+      "flavor": "Mehr Hitze! Höher! Höher! Più alto! Ahhh... es ist so schön von hier oben, findest du nicht auch? Kannst du die Kinder sehen, die am Fluss unter der Weide angeln? Kannst du das Glitzern der Sonne auf den Zirkuszelt-stangen sehen? Was ist das? Ein alter Mann, allein, ohnmächtig im Weinberg? Weniger Hitze! Tiefer! Tiefer! Vai più in basso!",
+      "name": "Ballonfahrer"
     },
     "banshee": {
-      "flavor": "Gorm do shúile, dearg do ghruaig, ní bheidh sé i bhfad, is a mbeidh tú san uaigh."
+      "ability": "Falls der Dämon dich tötet, erfahren dies alle Spieler. Von nun an darfst du zweimal pro Tag nominieren und zweimal pro Nominierung abstimmen.",
+      "flavor": "Gorm do shúile, dearg do ghruaig, ní bheidh sé i bhfad, is a mbeidh tú san uaigh.",
+      "name": "Banshee"
     },
     "barber": {
       "ability": "Wenn du stirbst, darf der Dämon in dieser Nacht 2 Spieler (keinen anderen Dämon) auswählen, die ihre Charaktere tauschen.",
@@ -830,6 +847,7 @@
     "minioninfo": "Schergen-Info"
   },
   "reminders": {
+    "2nd": "Zweiter",
     "3attacks": "3 Angriffe",
     "3votes": "3 Stimmen",
     "abnormal": "Fehlerhaft",
@@ -857,18 +875,27 @@
     "everyoneisdrunk": "Alle sind betrunken",
     "evil": "Böse",
     "falseinfo": "Falsche Information",
+    "fauxpaw": "Falsche Pfote",
+    "fear": "Angst",
     "finalnightnoattack": "Letzte Nacht: Kein Angriff",
+    "friend": "Freund",
     "good": "Gut",
+    "goodplayerexecuted": "Guter Spieler hingerichtet",
     "grandchild": "Enkelkind",
+    "guessused": "Rateversuch verbraucht",
     "haircutstonight": "Haare schneiden",
     "hasability": "Hat Fähigkeit",
+    "isthealchemist": "Ist der Alchemist",
     "istheapprentice": "Ist der Lehrling",
     "isthedemon": "Ist der Dämon",
     "isthedrunk": "Ist der Trunkenbold",
     "isthemarionette": "Ist die Marionette",
     "isthephilosopher": "Ist der Philosoph",
+    "know": "Bekannt",
+    "lunch": "Zuletzt hingerichtet",
     "mad": "Besessen",
     "master": "Meister",
+    "maynotnominate": "Kann nicht nominieren",
     "minion": "Scherge",
     "minionnominated": "Scherge hat nominiert",
     "minionsnotnominated": "Scherge hat nicht nominiert",
@@ -889,12 +916,17 @@
     "safe": "Sicher",
     "soberhealthy": "Nüchtern & gesund",
     "somethingbad": "Etwas Schlimmes",
+    "storytellerability": "Erzählerfähigkeit",
     "survivesexecution": "Überlebt Hinrichtung",
+    "teapartytonight": "Teeparty heute Nacht",
     "townsfolk": "Bürger",
+    "turnsevil": "Wird böse",
     "twin": "Zwilling",
     "visitor": "Besucher",
     "whoopsie": "Ups",
-    "wrong": "Falsch"
+    "wrong": "Falsch",
+    "stormcaught": "Sicher",
+    "notme": "Ich nicht"
   },
   "jinxes": {
     "alchemist-boffin": "Falls der Alchemist die Fähigkeit der Laborratte hat, erfährt der Alchemist nicht, welche Fähigkeit der Dämon dadurch erhält.",

@@ -426,10 +426,10 @@
     },
     "harpy": {
       "ability": "Varje natt väljer du 2 spelare; imorgon är den första galen om att den andra är ond, annars kanske en eller båda dör.",
-      "first": "Vittran väljer två spelare. :reminder: :reminder: Söv Vittran. Väck den första spelaren. Visa kortet *DU PÅVERKAS AV* och Vittrans rollbricka, och peka sedan på den andra spelaren.",
+      "first": "Harpyan väljer två spelare. :reminder: :reminder: Söv Harpyan. Väck den första spelaren. Visa kortet *DU PÅVERKAS AV* och Harpyans rollbricka, och peka sedan på den andra spelaren.",
       "flavor": "En dag så skön jag än ej såg, ej heller en skugga så grym över mig hänga.",
-      "name": "Vittran",
-      "other": "Vittran väljer två spelare. :reminder: :reminder: Söv Vittran. Väck den första spelaren. Visa kortet *DU PÅVERKAS AV* och Vittrans rollbricka, och peka sedan på den andra spelaren."
+      "name": "Harpyan",
+      "other": "Harpyan väljer två spelare. :reminder: :reminder: Söv Harpyan. Väck den första spelaren. Visa kortet *DU PÅVERKAS AV* och Harpyans rollbricka, och peka sedan på den andra spelaren."
     },
     "hatter": {
       "ability": "Om du dör får Kumpanerna och Demonen välja nya Kumpan- och Demonroller att vara.",
@@ -935,7 +935,7 @@
     "towncrier": {
       "ability": "Varje natt* får du veta om en Kumpan nominerade idag.",
       "flavor": "Hör upp! Hör upp! Häxkonst i labyrinten! Savant avslöjar allt! Byn i fara! Hör upp!",
-      "name": "Härolden",
+      "name": "Utroparen",
       "other": "Nicka eller skaka på huvudet."
     },
     "toymaker": {

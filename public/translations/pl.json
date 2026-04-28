@@ -704,6 +704,7 @@
     "pixie": {
       "ability": "Zaczynasz grę wiedząc o Mieszczaninie będącym w grze. Jeżeli masz obsesję, że jesteś tą postacią, otrzymujesz jej umiejętność gdy ona umiera.",
       "first": "Pokaż żeton postaci Mieszczanina oznaczonego *OBSESJA*.",
+      "flavor": "W kółko, w kółko — ogród trwa,\nMała dziewczynka — tam i z powrotem gna.\nMały chłopiec — na drzewa wspina się wzwyż,\nKtórym z nich ma być skrzat — dziś?\n\nDamy się śmieją i w miasto mkną,\nPanowie siekierą lasy tną.\nCo twoje — moje, co moje — święte,\nJam głupi malutki skrzat — ty, bądź przeklęte.",
       "name": "Skrzat"
     },
     "plaguedoctor": {
@@ -1051,7 +1052,9 @@
     "tor": {
       "ability": "Gracze nie znają swojej postaci ani przynależności. Dowiaduję się o nich po śmierci.",
       "flavor": "Z głosem jak grom i ostrzem z błyskawicy, ja, strażnik wieczności, żywię się głupcami, którzy ważą się zbliżyć do zakazanej bramy. Spójrzcie, oto mój uświęcony cel! Aby wyplenić skarabeusza z wnętrzności kamienistej ziemi, zaplątać w sieci z gwiazd, na wzgórzu, gdzie spotykają się niebo i ziemia.",
-      "name": "Tor"
+      "name": "Tor",
+      "other": "Jeżeli gracz umarł tej nocy, pokaż kartę *JESTEŚ*, jego żeton postaci i kciukiem w górę/w dół jego przynależność.",
+      "first": "Pomiń info dla Sługusa i Demona."
     },
     "zenomancer": {
       "ability": "Jeden bądź więcej graczy ma swój cel. Gdy go osiągnie, gracz ten zdobywa prawdziwe informacje.",

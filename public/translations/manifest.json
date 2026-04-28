@@ -9,7 +9,7 @@
     "code": "de",
     "name": "German",
     "nativeName": "Deutsch",
-    "completion": 69
+    "completion": 73
   },
   {
     "code": "en@pirate",
@@ -57,7 +57,7 @@
     "code": "pl",
     "name": "Polish",
     "nativeName": "Polski",
-    "completion": 99
+    "completion": 100
   },
   {
     "code": "pt_PT",
@@ -99,7 +99,7 @@
     "code": "uk",
     "name": "Ukrainian",
     "nativeName": "Українська",
-    "completion": 84
+    "completion": 87
   },
   {
     "code": "th",
