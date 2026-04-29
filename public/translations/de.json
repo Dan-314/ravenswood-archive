@@ -4,7 +4,7 @@
       "ability": "Wähle jede Nacht* 1 Spieler: Falls er heute Nacht betrunken oder vergiftet ist oder wird, stirbst du.",
       "flavor": "Meine Damen und Herren, halten Sie sich fest, denn ich werde mich über die Gesetze der Schwerkraft hinwegsetzen und in der Luft tanzen. Erleben Sie ein Wunderwerk an Beweglichkeit und Wagemut, ganz zu Ihrer Freude und Verwunderung!",
       "name": "Akrobatin",
-      "other": "Der Akrobat wählt einen Spieler. :reminder:"
+      "other": "Die Akrobatin wählt einen Spieler. :reminder:"
     },
     "alchemist": {
       "ability": "Du hast eine Schergen-Fähigkeit. Wenn du diese einsetzt, kann der Erzähler dich auffordern, anders auszuwählen.",
@@ -93,7 +93,9 @@
       "name": "Bischof"
     },
     "boffin": {
-      "flavor": "Sternenwasserstoff, riesig, inert; Kohlenstoff, Sauerstoff, Neongase, alles ruiniert. Molekulares Chaos, Entropie, bringt neue kosmische Phänomene hervor, Wieder-geburt aus atomarem Chaos, dichte Materie kollabiert. Alles in einer winzigen kleinen Flasche."
+      "ability": "Der Dämon hat (sogar wenn er betrunken oder vergiftet ist) die Fähigkeit eines nicht im Spiel befindlichen guten Charakters. Ihr wisst beide welche.",
+      "flavor": "Sternenwasserstoff, riesig, inert; Kohlenstoff, Sauerstoff, Neongase, alles ruiniert. Molekulares Chaos, Entropie, bringt neue kosmische Phänomene hervor, Wieder-geburt aus atomarem Chaos, dichte Materie kollabiert. Alles in einer winzigen kleinen Flasche.",
+      "name": "Laborratte"
     },
     "bonecollector": {
       "ability": "Einmal im Spiel, in der Nacht*, wähle 1 toten Spieler: Er erhält bis zur Abenddämmerung seine Fähigkeit zurück.",
@@ -102,10 +104,14 @@
       "other": "The Bone Collector either shakes their head no or points at any dead player. If they pointed at any dead player, put the Bone Collector's 'Has Ability' reminder by the chosen player's character token. (They may need to be woken tonight to use it.)"
     },
     "boomdandy": {
-      "flavor": "Tick… Tick… Tick… TOCK."
+      "ability": "Falls du hingerichtet wirst, sterben alle bis auf 3 Spieler. Nach einem Countdown von 10 bis 1 stirbt der Spieler, auf den die meisten Spieler zeigen.",
+      "flavor": "Tick… Tick… Tick… TOCK.",
+      "name": "Bombenleger"
     },
     "bountyhunter": {
-      "flavor": "Allein gehe ich durch diese Straßen, die vom widerlichen Gestank der Korruption durchzogen sind. Seine Schwere dringt ungebeten in meine Nasenlöcher und lässt sie brennen vor Abscheu… und Vorfreude. Die Verderbtheit dieses elenden Ortes wächst jede Nacht. Und ich... Ich bin das Heilmittel."
+      "ability": "Du weißt zu Beginn, dass 1 Spieler böse ist. Wenn er stirbt, erfährst du heute Nacht von einem anderen bösen Spieler. [1 Bürger ist böse]",
+      "flavor": "Allein gehe ich durch diese Straßen, die vom widerlichen Gestank der Korruption durchzogen sind. Seine Schwere dringt ungebeten in meine Nasenlöcher und lässt sie brennen vor Abscheu… und Vorfreude. Die Verderbtheit dieses elenden Ortes wächst jede Nacht. Und ich... Ich bin das Heilmittel.",
+      "name": "Kopfgeldjäger"
     },
     "buddhist": {
       "ability": "In den ersten 2 Minuten jedes Tages dürfen erfahrene Spieler nicht reden.",
@@ -133,7 +139,9 @@
       "other": "Der Butler wählt einen Spieler. :reminder:"
     },
     "cannibal": {
-      "flavor": "Ich mag keine Clowns. Sie schmecken komisch."
+      "ability": "Du hast die Fähigkeit des zuletzt durch Hinrichtung Gestorbenen. Falls er böse ist, bist du vergiftet, bis ein Guter durch Hinrichtung stirbt.",
+      "flavor": "Ich mag keine Clowns. Sie schmecken komisch.",
+      "name": "Kannibale"
     },
     "cerenovus": {
       "ability": "Wähle jede Nacht 1 Spieler & 1 guten Charakter: Der Spieler ist morgen “besessen” davon, dass er der Charakter ist, oder könnte hingerichtet werden.",
@@ -156,7 +164,9 @@
       "name": "Koch"
     },
     "choirboy": {
-      "flavor": "Ich habe es gesehen. Wirklich! Ich saß in der Kirchenbank und ordnete die Gesangbücher, als eine schreckliche Melodie von der Orgel erklang. Der Organist trug einen langen Umhang und hatte lange Finger, die über die Tasten glitten. Und einen Hut, der aussah… genau wie… deiner."
+      "ability": "Falls der Dämon den König tötet, erfährst du, welcher Spieler der Dämon ist. [+König]",
+      "flavor": "Ich habe es gesehen. Wirklich! Ich saß in der Kirchenbank und ordnete die Gesangbücher, als eine schreckliche Melodie von der Orgel erklang. Der Organist trug einen langen Umhang und hatte lange Finger, die über die Tasten glitten. Und einen Hut, der aussah… genau wie… deiner.",
+      "name": "Chorknabe"
     },
     "clockmaker": {
       "ability": "Du weißt zu Beginn, wie viele Schritte es vom Dämon zum nächsten Schergen sind.",
@@ -172,10 +182,14 @@
       "other": "Der Höfling wählt möglicherweise einen Charakter. :reminder: :reminder:"
     },
     "cultleader": {
-      "flavor": "Sich selbst für weise haltend, machten sie sich zu Narren."
+      "ability": "Jede Nacht wird deine Fraktion zu der Fraktion eines deiner lebendigen Nachbarn. Falls alle guten Spieler deinem Kult beitreten, gewinnt dein Team.",
+      "flavor": "Sich selbst für weise haltend, machten sie sich zu Narren.",
+      "name": "Kultführer"
     },
     "damsel": {
-      "flavor": "Fass die Haare nicht an, Schätzchen."
+      "ability": "Alle Schergen wissen, dass die Unschuld im Spiel ist. Falls ein Scherge öffentlich errät (einmalig), dass du es bist, verliert dein Team.",
+      "flavor": "Fass die Haare nicht an, Schätzchen.",
+      "name": "Unschuld"
     },
     "dawn": {
       "first": "Warte ein paar Sekunden. Dann wecke alle Spieler.",
@@ -185,7 +199,9 @@
       "first": "Falls 7 oder mehr Spieler mitspielen, wecke den Dämon:\n\tZeige das *DIES SIND DEINE SCHERGEN* Plättchen. Zeige auf alle Schergen.\n\tZeige das *DIESE CHARAKTERE SIND NICHT IM SPIEL* Plättchen. Zeige 3 nicht im Spiel\nbefindliche gute Charakterplättchen."
     },
     "deusexfiasco": {
-      "flavor": "Es ist kein Fehler, es ist eine Funktion. Es ist kein Fehler, es ist eine Anpassung. Es ist nicht kaputt, es ist eigenwillig."
+      "ability": "Mindestens einmal im Spiel wird der Erzähler einen Fehler machen, ihn korrigieren und öffentlich zugeben.",
+      "flavor": "Es ist kein Fehler, es ist eine Funktion. Es ist kein Fehler, es ist eine Anpassung. Es ist nicht kaputt, es ist eigenwillig.",
+      "name": "Deus ex Fiasco"
     },
     "deviant": {
       "ability": "Falls du heute lustig warst, kannst du nicht durch Verbannung sterben.",
@@ -239,7 +255,9 @@
       "other": "Gib ein Fingerzeichen."
     },
     "engineer": {
-      "flavor": "Wenn es nachgibt, großartig. Wenn es daran zerbricht, nun ja, dann musste es sowieso repariert werden."
+      "ability": "Einmal im Spiel, in der Nacht, wähle welche Schergen oder welcher Dämon im Spiel ist.",
+      "flavor": "Wenn es nachgibt, großartig. Wenn es daran zerbricht, nun ja, dann musste es sowieso repariert werden.",
+      "name": "Ingenieur"
     },
     "eviltwin": {
       "ability": "Du & ein gegnerischer Spieler kennen einander. Wird der gute Spieler hingerichtet, gewinnt Böse. Gut kann nicht gewinnen, solange ihr beide lebt.",
@@ -260,13 +278,19 @@
       "other": "Der Fang Gu wählt einen Spieler. :reminder: Falls er einen Außenseiter wählt (passiert maximal einmal): Ersetze das Außenseiter-Plättchen durch das zusätzliche Fang Gu-Plättchen. Lasse den Fang Gu einschlafen. Wecke das Ziel. Zeige das *DU BIST* und das Fang Gu-Plättchen & zeige einen Daumen nach unten. :reminder:"
     },
     "farmer": {
-      "flavor": "Selbst die Edlen und Mächtigen brauchen Essen auf dem Tisch. Ohne uns würde die Stadt verhungern."
+      "ability": "Wenn du in der Nacht stirbst, wird 1 lebendiger guter Spieler ein Farmer.",
+      "flavor": "Selbst die Edlen und Mächtigen brauchen Essen auf dem Tisch. Ohne uns würde die Stadt verhungern.",
+      "name": "Farmer"
     },
     "fearmonger": {
-      "flavor": "Und wenn du lange in einen Abgrund blickst, blickt der Abgrund auch in dich hinein."
+      "ability": "Wähle jede Nacht 1 Spieler: Falls du ihn nominierst & er hingerichtet wird, verliert sein Team. Alle Spieler erfahren, wenn du einen neuen Spieler wählst.",
+      "flavor": "Und wenn du lange in einen Abgrund blickst, blickt der Abgrund auch in dich hinein.",
+      "name": "Angstmacher"
     },
     "ferryman": {
-      "flavor": "Wenn rechtschaffene Träume kommen, haben sie das Gewicht der Wahrheit."
+      "ability": "Am letzten Tag erhalten alle toten Spieler ihr Abstimmungsplättchen zurück.",
+      "flavor": "Wenn rechtschaffene Träume kommen, haben sie das Gewicht der Wahrheit.",
+      "name": "Fährmann"
     },
     "fibbin": {
       "ability": "Einmal im Spiel erhält 1 guter Spieler möglicherweise falsche Informationen.",
@@ -279,7 +303,9 @@
       "name": "Geiger"
     },
     "fisherman": {
-      "flavor": "Dies war mein Lieblingsabschnitt des Flusses… siehst du, wie das Sonnenlicht einen Regenbogen vom Kloster bis zum Markt erzeugt? Dies war der beste Ort für große Fische. Und je älter ich werde, desto größer werden sie."
+      "ability": "Einmal im Spiel, während des Tages, erbitte vom Erzähler einen Rat, der deinem Team hilft zu gewinnen.",
+      "flavor": "Dies war mein Lieblingsabschnitt des Flusses… siehst du, wie das Sonnenlicht einen Regenbogen vom Kloster bis zum Markt erzeugt? Dies war der beste Ort für große Fische. Und je älter ich werde, desto größer werden sie.",
+      "name": "Fischer"
     },
     "flowergirl": {
       "ability": "Jede Nacht* erfährst du, ob heute ein Dämon für eine Hinrichtung gestimmt hat.",
@@ -306,16 +332,24 @@
       "other": "Der Glücksspieler wählt einen Spieler & einen Charakter. :reminder:"
     },
     "gangster": {
-      "flavor": "Ich mag deine Schuhe. Es wäre wirklich eine Schande, wenn du einen kleinen Unfall hottest und sie ruiniert würden. Jetzt, wo du es sagst, ich mag auch deine Manschettenknöpfe."
+      "ability": "Einmal pro Tag darfst du 1 lebendigen Nachbarn töten, falls dein anderer lebendiger Nachbar zustimmt.",
+      "flavor": "Ich mag deine Schuhe. Es wäre wirklich eine Schande, wenn du einen kleinen Unfall hottest und sie ruiniert würden. Jetzt, wo du es sagst, ich mag auch deine Manschettenknöpfe.",
+      "name": "Gangster"
     },
     "general": {
-      "flavor": "Ich habe keine Zeit für Zitate."
+      "ability": "Jede Nacht erfährst du, von welcher Fraktion der Erzähler glaubt, dass sie gewinnt: Gut, Böse oder keine.",
+      "flavor": "Ich habe keine Zeit für Zitate.",
+      "name": "General"
     },
     "gnome": {
-      "flavor": "Four the score or seven beers, no shows are goes for me and my. A prank to crack the cranks and planks o’ the floor foundation length, so incontravertabubbilly mini. The large essays down streams of joyse, no greater than is scene, not inherdt. Ha-urrumph."
+      "ability": "Alle Spieler wissen zu Beginn von 1 Spieler, dass er in deiner Fraktion ist. Du darfst jeden töten, der ihn nominiert.",
+      "flavor": "Four the score or seven beers, no shows are goes for me and my. A prank to crack the cranks and planks o’ the floor foundation length, so incontravertabubbilly mini. The large essays down streams of joyse, no greater than is scene, not inherdt. Ha-urrumph.",
+      "name": "Gnom"
     },
     "goblin": {
-      "flavor": "Du solltest die Goblins nicht beleidigen. Das solltest du wirklich nicht tun. Aber mal ganz nebenbei... kann ich noch ein Stück Kuchen bekommen?"
+      "ability": "Falls du öffentlich behauptest, der Goblin zu sein, wenn du nominiert wirst & an diesem Tag hingerichtet wirst, gewinnt dein Team.",
+      "flavor": "Du solltest die Goblins nicht beleidigen. Das solltest du wirklich nicht tun. Aber mal ganz nebenbei... kann ich noch ein Stück Kuchen bekommen?",
+      "name": "Goblin"
     },
     "godfather": {
       "ability": "Du weißt zu Beginn, welche Außenseiter im Spiel sind. Falls 1 Außenseiter heute starb, wähle heute Nacht 1 Spieler: Er stirbt. [-1 oder +1 Außenseiter]",
@@ -325,7 +359,9 @@
       "other": "Falls heute ein Außenseiter gestorben ist, wählt der Pate einen Spieler. :reminder:"
     },
     "golem": {
-      "flavor": "Golem helfen? Golem zerschmettern! Golem geholfen."
+      "ability": "Du kannst nur einmal pro Spiel nominieren. Wenn du das tust, stirbt der Nominierte, falls er nicht der Dämon ist.",
+      "flavor": "Golem helfen? Golem zerschmettern! Golem geholfen.",
+      "name": "Golem"
     },
     "goon": {
       "ability": "Jede Nacht ist der 1. Spieler, der dich mit seiner Fähigkeit wählt, bis zur Abenddämmerung betrunken. Du wechselst zu seiner Fraktion.",
@@ -357,10 +393,14 @@
       "other": "The Harlot points at any living player. Then, put the Harlot to sleep. Wake the chosen player, show them the *THIS CHARACTER SELECTED YOU* token, then the Harlot token. That player either nods their head yes or shakes their head no. If they nodded their head yes, wake the Harlot and show them the chosen player's character token. Then, you may decide that both players die."
     },
     "harpy": {
-      "flavor": "Einen so schönen Tag habe ich noch nie gesehen, aber ich sah auch noch nie eine so hässliche Erscheinung, wie sie über mir schwebt."
+      "ability": "Wähle jede Nacht 2 Spieler: Morgen ist der 1. Spieler besessen davon, dass der 2. böse ist, oder einer davon oder beide könnten sterben.",
+      "flavor": "Einen so schönen Tag habe ich noch nie gesehen, aber ich sah auch noch nie eine so hässliche Erscheinung, wie sie über mir schwebt.",
+      "name": "Harpyie"
     },
     "hatter": {
-      "flavor": "Ein Hut. Zu Hut. Drei Hut. Teehut. Vorhut. Fingerhut. Sechs Hut. Stock und Hut."
+      "ability": "Wenn du stirbst, dürfen sich Schergen & Dämonen in dieser Nacht neue Schergen- & Dämonencharaktere aussuchen.",
+      "flavor": "Ein Hut. Zu Hut. Drei Hut. Teehut. Vorhut. Fingerhut. Sechs Hut. Stock und Hut.",
+      "name": "Hutmacher"
     },
     "hellslibrarian": {
       "ability": "Etwas Schlimmes könnte demjenigen passieren, der spricht, nachdem der Erzähler um Ruhe gebeten hat.",
@@ -368,16 +408,24 @@
       "name": "Höllenbibiothekar"
     },
     "heretic": {
-      "flavor": "Nachdem der Hagel das Dach zerschlagen und die Glasfenster der Kathedrale zersplittert hat, schmilzt er wieder und sickert in die Erde wie ein sterbendes Lamm in der Wüstensonne. Das ist die Parabel des Wahnsinnigen."
+      "ability": "Wer gewinnen würde, verliert & wer verlieren würde, gewinnt, sogar wenn du tot bist.",
+      "flavor": "Nachdem der Hagel das Dach zerschlagen und die Glasfenster der Kathedrale zersplittert hat, schmilzt er wieder und sickert in die Erde wie ein sterbendes Lamm in der Wüstensonne. Das ist die Parabel des Wahnsinnigen.",
+      "name": "Ketzer"
     },
     "hermit": {
-      "flavor": "An den verlorenen und vergessenen Orten der Erde, winkt das Licht der Seele."
+      "ability": "Du hast die Fähigkeiten aller Außenseiter. [-0 oder -1 Außenseiter]",
+      "flavor": "An den verlorenen und vergessenen Orten der Erde, winkt das Licht der Seele.",
+      "name": "Eremit"
     },
     "highpriestess": {
-      "flavor": "Es gibt Leben hinter der Persönlich-keit, die Persönlichkeiten als Masken benutzt. Es gibt Momente, in denen das Leben die Maske ablegt und Tiefe auf Tiefe antwortet."
+      "ability": "Jede Nacht erfährst du, von welchem Spieler der Erzähler glaubt, dass du am dringendsten mit ihm sprechen solltest.",
+      "flavor": "Es gibt Leben hinter der Persönlich-keit, die Persönlichkeiten als Masken benutzt. Es gibt Momente, in denen das Leben die Maske ablegt und Tiefe auf Tiefe antwortet.",
+      "name": "Hohepriesterin"
     },
     "huntsman": {
-      "flavor": "Meine Hütte ist warm und solide. Meine Axt nahe der Tür, meine Stiefel trocknen am Feuer und der Elcheintopf köchelt… Horch! Ein Schrei hallt durch das Tal! Der Regen, der Schlamm und der eiskalte Wind maskieren den Geruch der Wölfe, aber ich kenne den Weg und laufe geschwind. Ich komme."
+      "ability": "Einmal im Spiel, in der Nacht, wähle einen lebendigen Spieler: Die Unschuld, falls gewählt, wird ein Bürger, der nicht im Spiel ist. [+Unschuld]",
+      "flavor": "Meine Hütte ist warm und solide. Meine Axt nahe der Tür, meine Stiefel trocknen am Feuer und der Elcheintopf köchelt… Horch! Ein Schrei hallt durch das Tal! Der Regen, der Schlamm und der eiskalte Wind maskieren den Geruch der Wölfe, aber ich kenne den Weg und laufe geschwind. Ich komme.",
+      "name": "Jäger"
     },
     "imp": {
       "ability": "Wähle jede Nacht* 1 Spieler: Er stirbt. Falls du dich damit selbst tötest, wird ein Scherge zum Imp.",
@@ -409,10 +457,14 @@
       "other": "Gib ein Fingerzeichen."
     },
     "kazali": {
-      "flavor": "Gon(z)a7les6. 61b 8. D3r M3ch4n15mu5 157 iNvert13r7. E99ors insy6tum. Reco\\{7\\}fig."
+      "ability": "Wähle jede Nacht* 1 Spieler: Er stirbt. [Du wählst welche Spieler welche Schergen sind. -? bis +? Außenseiter]",
+      "flavor": "Gon(z)a7les6. 61b 8. D3r M3ch4n15mu5 157 iNvert13r7. E99ors insy6tum. Reco\\{7\\}fig.",
+      "name": "Kazali"
     },
     "king": {
-      "flavor": "Betwixt the unknown strains of mortal strife / And morbid night, sweet with mystery and woe / Lies unfettered joys of fate’s long and colored life / Who’s garden blooms with each painted Face to Show."
+      "ability": "Jede Nacht, falls es mindestens so viele Tote gibt wie Lebendige, erfährst du 1 lebendigen Charakter. Der Dämon weiß, dass du der König bist.",
+      "flavor": "Betwixt the unknown strains of mortal strife / And morbid night, sweet with mystery and woe / Lies unfettered joys of fate’s long and colored life / Who’s garden blooms with each painted Face to Show.",
+      "name": "König"
     },
     "klutz": {
       "ability": "Wenn du erfährst, dass du gestorben bist, wähle öffentlich 1 lebendigen Spieler: Falls er böse ist, verliert dein Team.",
@@ -420,13 +472,19 @@
       "name": "Tollpatsch"
     },
     "knight": {
-      "flavor": "Wenn ein Mensch lügt, tötet er einen Teil der Welt."
+      "ability": "Du weißt zu Beginn von 2 Spielern, dass sie nicht der Dämon sind.",
+      "flavor": "Wenn ein Mensch lügt, tötet er einen Teil der Welt.",
+      "name": "Ritter"
     },
     "legion": {
-      "flavor": "Wir sind der kalte Wind an einem Wintertag. Wir sind der Schatten in der mondlosen Nacht. Wir sind das Gift in deinem Tee und das Flüstern in deinem Ohr. Wir sind überall."
+      "ability": "Jede Nacht* könnte 1 Spieler sterben. Hinrichtungen scheitern, falls nur Böse abgestimmt haben. Du erscheinst auch als Scherge. [Die meisten Spieler sind Legion]",
+      "flavor": "Wir sind der kalte Wind an einem Wintertag. Wir sind der Schatten in der mondlosen Nacht. Wir sind das Gift in deinem Tee und das Flüstern in deinem Ohr. Wir sind überall.",
+      "name": "Legion"
     },
     "leviathan": {
-      "flavor": "Bis zum letzten Atemzug ringe ich mit dir; aus dem Herzen der Hölle stoße ich nach dir; aus Hass spucke ich dir meinen letzten Atemzug entgegen."
+      "ability": "Falls mehr als 1 guter Spieler hingerichtet wird, gewinnt Böse. Alle Spieler wissen, dass der Leviathan im Spiel ist. Nach Tag 5 gewinnt Böse.",
+      "flavor": "Bis zum letzten Atemzug ringe ich mit dir; aus dem Herzen der Hölle stoße ich nach dir; aus Hass spucke ich dir meinen letzten Atemzug entgegen.",
+      "name": "Leviathan"
     },
     "librarian": {
       "ability": "Du weißt zu Beginn, dass 1 von 2 Spielern ein bestimmter Außenseiter ist. (Oder dass keine mitspielen.)",
@@ -435,13 +493,19 @@
       "name": "Bibliothekar"
     },
     "lilmonsta": {
-      "flavor": "Schritt 1: Niedlich aussehen. Schritt 2: Weltherrschaft. Schritt 3: Vrühstück."
+      "ability": "Jede Nacht wählen die Schergen 1 Spieler: Er hütet Lil’ Monsta & “ist der Dämon”. Jede Nacht* könnte 1 Spieler sterben. [+1 Scherge]",
+      "flavor": "Schritt 1: Niedlich aussehen. Schritt 2: Weltherrschaft. Schritt 3: Vrühstück.",
+      "name": "Lil' Monsta"
     },
     "lleech": {
-      "flavor": "Lecker, lecker, lecker, lecker, lecker, lecker, lecker, leckeres Gehir- ich meine Gebäck! Ja. Leckeres Gebäck. Das wollte ich sagen."
+      "ability": "Wähle jede Nacht* 1 Spieler: Er stirbt. Du wählst zu Beginn 1 Spieler: Er ist vergiftet. Du stirbst, falls & nur falls er tot ist.",
+      "flavor": "Lecker, lecker, lecker, lecker, lecker, lecker, lecker, leckeres Gehir- ich meine Gebäck! Ja. Leckeres Gebäck. Das wollte ich sagen.",
+      "name": "Lleech"
     },
     "lordoftyphon": {
-      "flavor": "In den schattigen und vergessenen Winkeln des Kosmos, wo die Sterne der Leere Geheimnisse zuflüstern, liegt eine Wahrheit, die so tiefgründig ist, dass schon der kleinste Blick darauf den Verstand der Sterblichen in den Wahnsinn treibt."
+      "ability": "Wähle jede Nacht* 1 Spieler: Er stirbt. [Böse Charaktere sitzen in einer Reihe, mit dir in der Mitte. +1 Scherge. -? bis +? Außenseiter]",
+      "flavor": "In den schattigen und vergessenen Winkeln des Kosmos, wo die Sterne der Leere Geheimnisse zuflüstern, liegt eine Wahrheit, die so tiefgründig ist, dass schon der kleinste Blick darauf den Verstand der Sterblichen in den Wahnsinn treibt.",
+      "name": "Lord of Typhon"
     },
     "lunatic": {
       "ability": "Du denkst fälschlicherweise, dass du der Dämon bist. Der Dämon weiß, wer du bist & wen du in der Nacht gewählt hast.",
@@ -451,13 +515,19 @@
       "other": "Tue, was immer du tun musst, um das Handeln des Dämons zu simulieren. Lasse die Verrückte einschlafen. Wecke den Dämon. Zeige das Verrückteplättchen & zeige auf die Verrückte, zeige dann auf ihr(e) Ziel(e)."
     },
     "lycanthrope": {
-      "flavor": "Unter der dünnen Fassade der Zivilisation verbirgt sich ein heulender Wahnsinn."
+      "ability": "Wähle jede Nacht* 1 lebendigen Spieler. Falls er gut ist, stirbt er & der Dämon tötet heute Nacht nicht. 1 guter Spieler erscheint böse.",
+      "flavor": "Unter der dünnen Fassade der Zivilisation verbirgt sich ein heulender Wahnsinn.",
+      "name": "Werwolf"
     },
     "magician": {
-      "flavor": "1… 2… Abra… 3… 4… Cadabra… <puff!> Und wie Sie sehen können, meine Damen und Herren, ist Captain Farnsworths Goldbeutel verschwunden! Weg! Ohne irgendeine Spur! Vielen Dank und gute Nacht!"
+      "ability": "Der Dämon hält dich für einen Schergen. Die Schergen halten dich für einen Dämon.",
+      "flavor": "1… 2… Abra… 3… 4… Cadabra… <puff!> Und wie Sie sehen können, meine Damen und Herren, ist Captain Farnsworths Goldbeutel verschwunden! Weg! Ohne irgendeine Spur! Vielen Dank und gute Nacht!",
+      "name": "Magierin"
     },
     "marionette": {
-      "flavor": "Worte, Worte. Sie sind alles, worauf wir uns stützen können."
+      "ability": "Du denkst, dass du ein guter Charakter bist, aber das stimmt nicht. Der Dämon weiß, wer du bist. [Du sitzt neben dem Dämon]",
+      "flavor": "Worte, Worte. Sie sind alles, worauf wir uns stützen können.",
+      "name": "Marionette"
     },
     "mastermind": {
       "ability": "Falls der Dämon durch eine Hinrichtung stirbt (& das Spiel enden würde), spiele 1 weiteren Tag. Falls dann ein Spieler hingerichtet wird, verliert sein Team.",
@@ -482,7 +552,9 @@
       "name": "Bürgermeister"
     },
     "mezepheles": {
-      "flavor": "Was aus dem Herzen kommt, wird die Herzen anderer zu deinem eigenen beugen."
+      "ability": "Du weißt zu Beginn ein geheimes Wort. Der 1. gute Spieler, der dieses Wort sagt, wird in der folgenden Nacht böse.",
+      "flavor": "Was aus dem Herzen kommt, wird die Herzen anderer zu deinem eigenen beugen.",
+      "name": "Mezepheles"
     },
     "minioninfo": {
       "first": "Falls 7 oder mehr Spieler mitspielen, wecke alle Schergen:\nZeige das *DIES IST DER DÄMON* Plättchen. Zeige auf den Dämon."
@@ -510,10 +582,14 @@
       "name": "Mutant"
     },
     "nightwatchman": {
-      "flavor": "Die Nacht ist kalt und einsam, aber ich habe den Mond, die Sterne, den frischen Wind und das leise Geräusch von Lederstiefeln auf Kopfsteinpflaster als Gesellschaft. Dort drüben flackert Kerzenlicht hinter einem trüben Fenster…"
+      "ability": "Einmal im Spiel, in der Nacht, wähle 1 Spieler: Er erfährt, dass du der Nachtwächter bist.",
+      "flavor": "Die Nacht ist kalt und einsam, aber ich habe den Mond, die Sterne, den frischen Wind und das leise Geräusch von Lederstiefeln auf Kopfsteinpflaster als Gesellschaft. Dort drüben flackert Kerzenlicht hinter einem trüben Fenster…",
+      "name": "Nachtwächter"
     },
     "noble": {
-      "flavor": "Sarkasmus ist in der Tat die geringste Form von Geisteskraft. Aber um auf ihre Kritik einzugehen, Sir, ist er dennoch eine Form von Geisteskraft."
+      "ability": "Du weißt zu Beginn von 3 Spielern, dass genau 1 von ihnen böse ist.",
+      "flavor": "Sarkasmus ist in der Tat die geringste Form von Geisteskraft. Aber um auf ihre Kritik einzugehen, Sir, ist er dennoch eine Form von Geisteskraft.",
+      "name": "Adlige"
     },
     "nodashii": {
       "ability": "Wähle jede Nacht* 1 Spieler: Er stirbt. Deine 2 benachbarten Bürger sind vergiftet.",
@@ -522,10 +598,14 @@
       "other": "Die No Dashii wählt einen Spieler. :reminder:"
     },
     "ogre": {
-      "flavor": "“<grunz> <grins> </grunz>"
+      "ability": "Wähle in deiner 1. Nacht 1 Spieler (nicht dich selbst): Du wechselst zu seiner Fraktion (du erfährst sie nicht), sogar wenn du betrunken oder vergiftet bist.",
+      "flavor": "“<grunz> <grins> </grunz>",
+      "name": "Oger"
     },
     "ojo": {
-      "flavor": "Wie ein Lagerfeuer in einer mondlosen Nacht… sehe ich dich, Sterblicher."
+      "ability": "Wähle jede Nacht* 1 Charakter: Er stirbt. Falls der Charakter nicht im Spiel ist, entscheidet der Erzähler, wer stirbt.",
+      "flavor": "Wie ein Lagerfeuer in einer mondlosen Nacht… sehe ich dich, Sterblicher.",
+      "name": "Ojo"
     },
     "oracle": {
       "ability": "Jede Nacht* erfährst du, wie viele tote Spieler böse sind.",
@@ -534,7 +614,9 @@
       "other": "Gib ein Fingerzeichen."
     },
     "organgrinder": {
-      "flavor": "Die Orgel dreht sich immer weiter. Je mehr du tanzt, desto weniger weißt du."
+      "ability": "Alle Spieler schließen für Abstimmungen die Augen & das Ergebnis ist geheim. Wähle jede Nacht, ob du bis zur Abenddämmerung betrunken bist.",
+      "flavor": "Die Orgel dreht sich immer weiter. Je mehr du tanzt, desto weniger weißt du.",
+      "name": "Drehorgelspieler"
     },
     "pacifist": {
       "ability": "Hingerichtete gute Spieler sterben möglicherweise nicht.",
@@ -555,10 +637,14 @@
       "other": "Das Grubenweib wählt 1 Spieler & 1 Charakter. Falls es einen Charakter wählt, der nicht im Spiel ist: Lasse das Grubenweib einschlafen. Wecke sein Ziel. Zeige ihm das *DU BIST* Plättchen & sein neues Charakterplättchen."
     },
     "pixie": {
-      "flavor": "Round and round the garden, go. Little girls run to and fro. Little boys climb up the tree. Which of these should Pixie be? Ladies smile and go to town. Lords with axe chop forest down. What’s yours is mine. What’s mine, divine. Silly little Pixie, me."
+      "ability": "Du weißt zu Beginn 1 Bürger, der im Spiel ist. Falls du besessen davon warst, dieser Charakter zu sein, erhältst du seine Fähigkeit, wenn er stirbt.",
+      "flavor": "Round and round the garden, go. Little girls run to and fro. Little boys climb up the tree. Which of these should Pixie be? Ladies smile and go to town. Lords with axe chop forest down. What’s yours is mine. What’s mine, divine. Silly little Pixie, me.",
+      "name": "Feenkind"
     },
     "plaguedoctor": {
-      "flavor": "Halt nu pitte schtill. Hailung brauchts sai Zait. Myrhh-myrhh."
+      "ability": "Wenn du stirbst, erhält der Erzähler eine Schergen-Fähigkeit.",
+      "flavor": "Halt nu pitte schtill. Hailung brauchts sai Zait. Myrhh-myrhh.",
+      "name": "Pestdoktor"
     },
     "po": {
       "ability": "Jede Nacht* darfst du 1 Spieler wählen: Er stirbt. Falls du letzte Nacht niemanden gewählt hast, wähle heute Nacht 3 Spieler.",
@@ -574,16 +660,24 @@
       "other": "Der Giftmischer wählt einen Spieler. :reminder:"
     },
     "politician": {
-      "flavor": "Ich bin froh, dass Sie diese Frage gestellt haben. Das bin ich wirklich. Aber ich denke, die WIRKLICHE Frage hier lautet…"
+      "ability": "Falls du hauptverantwortlich für die Niederlage deines Teams warst, wechselst du die Fraktion & gewinnst, sogar wenn du tot bist.",
+      "flavor": "Ich bin froh, dass Sie diese Frage gestellt haben. Das bin ich wirklich. Aber ich denke, die WIRKLICHE Frage hier lautet…",
+      "name": "Politiker"
     },
     "poppygrower": {
-      "flavor": "In den versteckten Hainen des tiefen Waldes wächst der schwarze Mohn. Wer sein Festmahl sieht, wird verzaubert. Wer seinen intensiven Duft riecht, ist für immer verloren, ein Sklave der Götter des Lichts und der Dunkelheit."
+      "ability": "Schergen & Dämonen kennen einander nicht. Falls du stirbst, lernen sie sich heute Nacht kennen.",
+      "flavor": "In den versteckten Hainen des tiefen Waldes wächst der schwarze Mohn. Wer sein Festmahl sieht, wird verzaubert. Wer seinen intensiven Duft riecht, ist für immer verloren, ein Sklave der Götter des Lichts und der Dunkelheit.",
+      "name": "Mohnzüchter"
     },
     "preacher": {
-      "flavor": "Es ist besser reich und gesund zu sein als arm und krank."
+      "ability": "Wähle jede Nacht 1 Spieler: Falls er ein Scherge ist, erfährt er, dass er gewählt wurde. Alle gewählten Schergen haben keine Fähigkeit.",
+      "flavor": "Es ist besser reich und gesund zu sein als arm und krank.",
+      "name": "Prediger"
     },
     "princess": {
-      "flavor": "Unsere Worte sind Hunde, gehalten von seidenen Fäden, ehrenwerte Herren. Möge Güte sie wahrhaftig verweben, damit sich die Zügel nicht auflösen und unseren Hof zerreißen."
+      "ability": "Falls du an deinem 1. Tag einen Spieler nominiert hast & er hingerichtet wurde, tötet der Dämon heute Nacht nicht.",
+      "flavor": "Unsere Worte sind Hunde, gehalten von seidenen Fäden, ehrenwerte Herren. Möge Güte sie wahrhaftig verweben, damit sich die Zügel nicht auflösen und unseren Hof zerreißen.",
+      "name": "Prinzessin"
     },
     "professor": {
       "ability": "Einmal im Spiel, in der Nacht*, wähle 1 toten Spieler: Falls er ein Bürger ist, wird er wiederbelebt.",
@@ -592,7 +686,9 @@
       "other": "Der Professor wählt möglicherweise einen toten Spieler. :reminder: :reminder:"
     },
     "psychopath": {
-      "flavor": "Überraschung!"
+      "ability": "Jeden Tag vor den Nominierungen darfst du öffentlich 1 Spieler wählen: Er stirbt. Falls du hingerichtet wirst, stirbst du nur, falls du bei Schere-Stein-Papier verlierst.",
+      "flavor": "Überraschung!",
+      "name": "Psychopath"
     },
     "pukka": {
       "ability": "Wähle jede Nacht 1 Spieler: Er wird vergiftet. Der zuvor vergiftete Spieler stirbt & ist dann nicht mehr vergiftet.",
@@ -602,11 +698,13 @@
       "other": "Die Pukka wählt einen Spieler. :reminder: Der zuvor vergiftete Spieler stirbt und ist dann nicht mehr vergiftet. :reminder:"
     },
     "puzzlemaster": {
-      "flavor": "Wenn man anfängt zu denken, dass etwas lediglich etwas anderes ist, steht man in der Regel kurz vor einem Irrtum. Geduld, Geduld. Verwechsle nicht gerecht und sollte mit ist und ist nicht."
+      "ability": "1 Spieler ist betrunken, sogar wenn du stirbst. Falls du (einmalig) errätst, wer es ist, erfährst du den Dämon-Spieler, ansonsten erhältst du falsche Info.",
+      "flavor": "Wenn man anfängt zu denken, dass etwas lediglich etwas anderes ist, steht man in der Regel kurz vor einem Irrtum. Geduld, Geduld. Verwechsle nicht gerecht und sollte mit ist und ist nicht.",
+      "name": "Puzzlemeister"
     },
     "ravenkeeper": {
       "ability": "Falls du in der Nacht stirbst, wirst du aufgeweckt & wählst 1 Spieler: Du erfährst seinen Charakter.",
-      "flavor": "Meine Vögel werden mich rächen! Fliegt! Fliegt, meine süßen und pflichtbewussten Haustiere! Zum Herrenhaus und zum Fluss!  Auf die Gassen und in die Salons! Fliegt!",
+      "flavor": "Meine Vögel werden mich rächen! Fliegt! Fliegt, meine süßen und pflichtbewussten Haustiere! Zum Herrenhaus und zum Fluss! Auf die Gassen und in die Salons! Fliegt!",
       "name": "Rabenhüter",
       "other": "Falls der Rabenhüter heute Nacht gestorben ist, wählt er einen Spieler. Zeige das Charakterplättchen dieses Spielers."
     },
@@ -621,7 +719,9 @@
       "name": "Revolutionär"
     },
     "riot": {
-      "flavor": "Larga vida a la revolución! Mi revolucion!"
+      "ability": "An Tag 3 werden alle Schergen zu Riot & Nominierte sterben, aber nominieren sofort 1 lebendigen Spieler. Dies muss geschehen.",
+      "flavor": "Larga vida a la revolución! Mi revolucion!",
+      "name": "Riot"
     },
     "sage": {
       "ability": "Falls der Dämon dich tötet, erfährst du, dass er 1 von 2 bestimmten Spielern ist.",
@@ -676,7 +776,9 @@
       "other": "Ein zuvor gewählter Spieler könnte wieder auferstehen. :reminder: Der Shabaloth wählt 2 Spieler. :reminder: :reminder:"
     },
     "shugenja": {
-      "flavor": "これは夢。それも夢。すべて夢です。"
+      "ability": "Du weißt zu Beginn, ob der dir nächste böse Spieler im oder gegen den Uhrzeigersinn sitzt. Bei gleicher Entfernung ist diese Info willkürlich.",
+      "flavor": "これは夢。それも夢。すべて夢です。",
+      "name": "Shugenja"
     },
     "slayer": {
       "ability": "Einmal im Spiel, während des Tages, wähle öffentlich 1 Spieler: Falls er der Dämon ist, stirbt er.",
@@ -691,7 +793,9 @@
       "other": "Der Schlangenbeschwörer wählt einen Spieler. Falls er den Dämon gewählt hat: Zeige das *DU BIST* & das Dämonplättchen. Zeige einen Daumen nach unten. Vertausche das Schlangenbeschwörer- & das Dämonplättchen im Grimoire. Lasse den vorherigen Schlangenbeschwörer einschlafen. Wecke den vorherigen Dämon. Zeige das *DU BIST* und das Schlangenbeschwörerplättchen & zeige einen Daumen nach oben. :reminder:"
     },
     "snitch": {
-      "flavor": "Es war John."
+      "ability": "Jeder Scherge erhält 3 Bluffs.",
+      "flavor": "Es war John.",
+      "name": "Petze"
     },
     "soldier": {
       "ability": "Du bist sicher vor dem Dämon.",
@@ -711,13 +815,19 @@
       "other": "Zeige dem Spion das Grimoire so lange, wie er es braucht."
     },
     "steward": {
-      "flavor": "Wie können Sie es WAGEN, ihre Ladyschaft eines Fehlverhaltens zu bezichtigen? Ich kenne sie schon mein ganzes Leben lang!"
+      "ability": "Du weißt zu Beginn von 1 Spieler, dass er gut ist.",
+      "flavor": "Wie können Sie es WAGEN, ihre Ladyschaft eines Fehlverhaltens zu bezichtigen? Ich kenne sie schon mein ganzes Leben lang!",
+      "name": "Gutsverwalter"
     },
     "stormcatcher": {
-      "flavor": "Im Morgengrauen kriecht der lange Schatten des Tempels zum Brunnen. In der Dämmerung blockt der Obelisk das rote Glühen ab und kühlt das warme Wasser unter dem Torbogen. Alle Linien laufen hier zusammen. Ein Sturm zieht auf, und dieser üppige und heilige Ort zwischen den Apfelbäumen ist sein Auge."
+      "ability": "Nenne 1 guten Charakter. Falls er im Spiel ist, kann er nur durch Hinrichtung sterben, aber böse Spieler erfahren den Spieler des Charakters.",
+      "flavor": "Im Morgengrauen kriecht der lange Schatten des Tempels zum Brunnen. In der Dämmerung blockt der Obelisk das rote Glühen ab und kühlt das warme Wasser unter dem Torbogen. Alle Linien laufen hier zusammen. Ein Sturm zieht auf, und dieser üppige und heilige Ort zwischen den Apfelbäumen ist sein Auge.",
+      "name": "Sturmfänger"
     },
     "summoner": {
-      "flavor": "Hail the guardians of the north; by my intellect, thou art cut. Hail the guardians of the east; by my will, thou art dominated. Hail the guardians of the south; by that which lies beyond, the mystery is revealed. Hail the guardians of the west; a shield in the darkness."
+      "ability": "Du erhältst 3 Bluffs. Wähle in der 3. Nacht 1 Spieler: Er wird zu einem bösen Dämon deiner Wahl. [Kein Dämon]",
+      "flavor": "Hail the guardians of the north; by my intellect, thou art cut. Hail the guardians of the east; by my will, thou art dominated. Hail the guardians of the south; by that which lies beyond, the mystery is revealed. Hail the guardians of the west; a shield in the darkness.",
+      "name": "Beschwörer"
     },
     "sweetheart": {
       "ability": "Wenn du stirbst, ist 1 Spieler ab jetzt betrunken.",
@@ -752,7 +862,7 @@
     "toymaker": {
       "ability": "Der Dämon kann wählen, niemanden anzugreifen & muss dies mindestens einmal im Spiel. Böse Spieler erhalten normale Startinformationen.",
       "first": "Resolve the Minion Info and Demon Info steps even though there are fewer than 7 players.",
-      "flavor": "Es summt! Es geht die Treppen hinunter! Es hält dich nachts warm! Es schmeckt nach Zucker! Die Kleinen lieben es!  Ich stelle vor... die brandneue... Warm'o-brummiwuschel-gang'dingens-Konstruktion! Spaß für alle Altersgruppen!",
+      "flavor": "Es summt! Es geht die Treppen hinunter! Es hält dich nachts warm! Es schmeckt nach Zucker! Die Kleinen lieben es! Ich stelle vor... die brandneue... Warm'o-brummiwuschel-gang'dingens-Konstruktion! Spaß für alle Altersgruppen!",
       "name": "Spielzeugmacher",
       "other": "If it is a night when a Demon attack could end the game, and the Demon is marked *FINAL NIGHT: NO ATTACK*, then the Demon does not act tonight. (Do not wake them.)"
     },
@@ -769,7 +879,9 @@
       "other": "Der Vigormortis wählt einen Spieler. :reminder: Falls dieser Spieler ein Scherge ist, vergifte einen  benachbarten Bürger. :reminder: :reminder:"
     },
     "villageidiot": {
-      "flavor": "Veilchen sind rot. Rosen sind blau. Bitte drehe das um, dann stimmt es genau."
+      "ability": "Wähle jede Nacht 1 Spieler: Du erfährst seine Fraktion. [+0 bis +2 Dorftrottel. 1 der zusätzlichen ist betrunken]",
+      "flavor": "Veilchen sind rot. Rosen sind blau. Bitte drehe das um, dann stimmt es genau.",
+      "name": "Dorftrottel"
     },
     "virgin": {
       "ability": "Wenn du zum 1. Mal nominiert wirst: Falls der Nominierende ein Bürger ist, wird er sofort hingerichtet.",
@@ -777,7 +889,9 @@
       "name": "Jungfrau"
     },
     "vizier": {
-      "flavor": "Eine ausgezeichnete Entscheidung, wie immer, Sir. Ein so geringfügi-ges Vergehen, wie das Anrempeln des Bischoffs verdient in der Tat Eure ‘Gerechtigkeit’ und ‘Gnade’. Spaziert durch die Gärten. Besucht die Gallerie, betrachtet die Von Strauf Skulptur. Entspannt Euch, Sir. Überlasst alles … mir."
+      "ability": "Alle Spieler wissen, dass du der Wesir bist. Du kannst am Tag nicht sterben. Falls Gut abgestimmt hat, darfst du die Hinrichtung sofort erzwingen.",
+      "flavor": "Eine ausgezeichnete Entscheidung, wie immer, Sir. Ein so geringfügi-ges Vergehen, wie das Anrempeln des Bischoffs verdient in der Tat Eure ‘Gerechtigkeit’ und ‘Gnade’. Spaziert durch die Gärten. Besucht die Gallerie, betrachtet die Von Strauf Skulptur. Entspannt Euch, Sir. Überlasst alles … mir.",
+      "name": "Wesir"
     },
     "vortox": {
       "ability": "Wähle jede Nacht* 1 Spieler: Er stirbt. Fähigkeiten von Bürgern liefern falsche Informationen. Falls an irgendeinem Tag keiner hingerichtet wird, gewinnt Böse.",
@@ -787,7 +901,7 @@
     },
     "voudon": {
       "ability": "Nur du & die Toten können abstimmen. Dafür brauchen sie kein Abstimmungsplättchen. Eine 50% Mehrheit ist nicht erforderlich.",
-      "flavor": "Byen venu. Bitte setzen Sie sich. Atmen Sie tief durch. Betreten Sie das Land der Toten. Sehen Sie mit ihren Augen.  Sprechen Sie mit ihrer Stimme. Yon sel lang se janm ase.",
+      "flavor": "Byen venu. Bitte setzen Sie sich. Atmen Sie tief durch. Betreten Sie das Land der Toten. Sehen Sie mit ihren Augen. Sprechen Sie mit ihrer Stimme. Yon sel lang se janm ase.",
       "name": "Voudon"
     },
     "washerwoman": {
@@ -797,7 +911,9 @@
       "name": "Waschweib"
     },
     "widow": {
-      "flavor": "Noch etwas Wein? Château d’Ergot ’07 ist ein ganz besonderer Jahrgang. Ja, in der Tat, ein ganz besonderer."
+      "ability": "In deiner 1. Nacht, schau ins Grimoire & wähle 1 Spieler: Er ist vergiftet. 1 guter Spieler weiß, dass eine Witwe im Spiel ist.",
+      "flavor": "Noch etwas Wein? Château d’Ergot ’07 ist ein ganz besonderer Jahrgang. Ja, in der Tat, ein ganz besonderer.",
+      "name": "Witwe"
     },
     "witch": {
       "ability": "Wähle jede Nacht 1 Spieler: Falls er morgen nominiert, stirbt er. Falls nur noch 3 Spieler leben, verlierst du diese Fähigkeit.",
@@ -807,19 +923,29 @@
       "other": "Die Hexe wählt einen Spieler. :reminder:"
     },
     "wizard": {
-      "flavor": "Jeder Mann und jede Frau ist ein Stern. Liebe ist das Gesetz, Liebe unter Willen."
+      "ability": "Einmal im Spiel kannst du dir etwas wünschen. Falls gewährt, wird es möglicherweise einen Preis haben & einen Hinweis auf die Art des Wunsches hinterlassen.",
+      "flavor": "Jeder Mann und jede Frau ist ein Stern. Liebe ist das Gesetz, Liebe unter Willen.",
+      "name": "Zauberer"
     },
     "wraith": {
-      "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti."
+      "ability": "Du darfst während der Nacht beliebig die Augen öffnen. Du wachst auf, wenn andere böse Spieler aufwachen.",
+      "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
+      "name": "Geist"
     },
     "xaan": {
-      "flavor": "Hinunter fallen sie. Einer nach dem anderen. Zu zweit, zu dritt, zu fünft."
+      "ability": "In Nacht X werden alle Bürger vergiftet bis zur Abenddämmerung. [X Außenseiter]",
+      "flavor": "Hinunter fallen sie. Einer nach dem anderen. Zu zweit, zu dritt, zu fünft.",
+      "name": "Xaan"
     },
     "yaggababble": {
-      "flavor": "Doppelmord in der Rue Morgue? Фальшивые новости! Der Hund von Baskerville? Фальшивые новости! Der Tod auf dem Nil? Фальшивые новости!"
+      "ability": "Du weißt zu Beginn 1 geheime Phrase. Für jedes Mal, dass du sie heute öffentlich gesagt hast, könnte 1 Spieler sterben.",
+      "flavor": "Doppelmord in der Rue Morgue? Фальшивые новости! Der Hund von Baskerville? Фальшивые новости! Der Tod auf dem Nil? Фальшивые новости!",
+      "name": "Yaggababble"
     },
     "zealot": {
-      "flavor": "Ich unterhalte mich gerne mit dir. Deine Denkweise gefällt mir. Sie ähnelt meiner eigenen, nur dass du zufällig verrückt bist."
+      "ability": "Falls 5 oder mehr Spieler lebendig sind, musst du für jede Nominierung abstimmen.",
+      "flavor": "Ich unterhalte mich gerne mit dir. Deine Denkweise gefällt mir. Sie ähnelt meiner eigenen, nur dass du zufällig verrückt bist.",
+      "name": "Eiferer"
     },
     "zombuul": {
       "ability": "Jede Nacht*, falls heute kein Spieler starb, wähle 1 Spieler: Er stirbt. Wenn du zum 1. Mal stirbst, überlebst du, aber erscheinst tot.",
@@ -828,7 +954,9 @@
       "other": "Falls heute niemand gestorben ist, wählt der Zombuul einen Spieler. :reminder:"
     },
     "cacklejack": {
-      "flavor": "Kabel α An Kabel β. LicHt aN. BuZZer aus. GAzOinks! Arme G3r4d3. FingER zUr nase. hAaaLt stiLL. BoiNgo-banGo! Ha-ha-ha!"
+      "ability": "Wähle jeden Tag 1 Spieler: Heute Nacht wechselt 1 anderer Spieler den Charakter.",
+      "flavor": "Kabel α An Kabel β. LicHt aN. BuZZer aus. GAzOinks! Arme G3r4d3. FingER zUr nase. hAaaLt stiLL. BoiNgo-banGo! Ha-ha-ha!",
+      "name": "Kicherjeck"
     }
   },
   "teams": {
@@ -851,12 +979,14 @@
     "3attacks": "3 Angriffe",
     "3votes": "3 Stimmen",
     "abnormal": "Fehlerhaft",
+    "abouttodie": "Im Begriff zu sterben",
     "actstwice": "Handelt zweimal",
     "aligned": "Verbündet",
     "alive": "Lebendig",
     "amigo": "Amigo",
     "cannotdie": "Kann nicht sterben",
     "chosen": "Gewählt",
+    "claimed": "Behauptet",
     "correct": "Korrekt",
     "cursed": "Verflucht",
     "day1": "Tag 1",
@@ -868,12 +998,14 @@
     "demonnotvoted": "Dämon hat nicht abgestimmt",
     "demonvoted": "Dämon hat abgestimmt",
     "diedtoday": "Heute gestorben",
+    "doesntkill": "Tötet nicht",
     "drunk": "Betrunken",
     "drunk1": "Betrunken 1",
     "drunk2": "Betrunken 2",
     "drunk3": "Betrunken 3",
     "everyoneisdrunk": "Alle sind betrunken",
     "evil": "Böse",
+    "evilwakes": "Böse erwacht",
     "falseinfo": "Falsche Information",
     "fauxpaw": "Falsche Pfote",
     "fear": "Angst",
@@ -939,9 +1071,9 @@
     "alchemist-wraith": "Ein Alchemisten-Geist hat keine Geist-Fähigkeit & ein Geist ist im Spiel. Nach jeder Hinrichtung darf ein lebendiger Alchemisten-Geist öffentlich einen lebendigen Spieler als den Geist raten. Falls er richtig rät, muss der Dämon heute Nacht den Geist wählen.",
     "alhadikhia-mastermind": "Falls der Al-Hadikhia durch Hinrichtung stirbt und der Strippenzieher lebendig ist, wählt der Al-Hadikhia heute Nacht 3 gute Spieler: Falls alle 3 \"leben\" wählen, gewinnt Böse. Ansonsten gewinnt Gut.",
     "alhadikhia-princess": "Falls die Prinzessin an ihrem ersten Tag einen Spieler nominiert hat, der hingerichtet wurde, stirbt heute Nacht niemand durch den Al-Hadikhia.",
-    "alhadikhia-scarletwoman": "Falls es zwei lebendige Dämonen geben würde, von denen einer die Scharlachrote Frau war, wird die ehemalige Scharlachrote Frau wieder zur Scharlachroten Frau.",
+    "alhadikhia-scarletwoman": "Falls es zwei lebendige Dämonen geben würde, von denen einer vorher die Scharlachrote Frau war, wird die ehemalige Scharlachrote Frau wieder zur Scharlachroten Frau.",
     "alsaahir-vizier": "Der Erzähler verkündet nicht, dass der Wesir im Spiel ist.",
-    "atheist-riot": "Falls der Erzähler während einer Riot-Nominierungskette nominiert wird, stimmen die Spieler ab. Falls er genug Stimmen erhält, um \"im Begriff zu sterben\" zu sein, endet das Spiel. Falls nicht, nominiert er wieder.",
+    "atheist-riot": "Falls der Erzähler während einer Riot-Nominierungskette nominiert wird, stimmen die Spieler wie bei einer Verbannung ab. Falls mindestens die Hälfte aller Spieler dafür stimmen, endet das Spiel. Falls nicht, nominiert der Erzähler wieder.",
     "balloonist-marionette": "Falls die Marionette glaubt, dass sie der Ballonfahrer ist, kann im Aufbau ein Außenseiter hinzugefügt worden sein.",
     "banshee-leviathan": "Jede Nacht* wählt der Leviathan einen lebendigen guten Spieler (einen anderen als in vorherigen Nächten): Eine gewählte Banshee stirbt & erhält ihre Fähigkeit.",
     "banshee-riot": "Jede Nacht* wählt Riot einen lebendigen guten Spieler (einen anderen als in vorherigen Nächten): Eine gewählte Banshee stirbt & erhält ihre Fähigkeit.",
@@ -1008,7 +1140,7 @@
     "legion-magician": "Die Magierin erwacht mit der Legion und erscheint möglicherweise als böse. Die Legion weiß, dass eine Magierin im Spiel ist, aber nicht welcher Spieler es ist.",
     "legion-minstrel": "Falls heute eine Legion durch Hinrichtung gestorben ist, behalten andere Legion-Spieler ihre Fähigkeit, aber der Minnesänger könnte erfahren, dass sie Legion sind.",
     "legion-politician": "Der Politiker erscheint möglicherweise als böse für Legion bei der Abstimmung.",
-    "legion-preacher": "Falls der Prediger eine Legion wählt, behält sie ihre Fähigkeit, aber der Prediger könnte erfahren, dass sie Legion ist.",
+    "legion-preacher": "Falls der Prediger einen Legion-Spieler wählt, behält er seine Fähigkeit, aber der Prediger könnte erfahren, dass der Spieler Legion ist.",
     "legion-summoner": "Falls eine Legion beschworen wird, werden alle bösen Spieler Legion.",
     "legion-zealot": "Der Eiferer erscheint möglicherweise als böse für die Legion bei der Abstimmung.",
     "leviathan-mayor": "Falls der Leviathan und der Bürgermeister an Tag 5 lebendig sind & keine Hinrichtung erfolgt, gewinnt Gut.",
@@ -1018,7 +1150,7 @@
     "leviathan-sage": "Jede Nacht* wählt der Leviathan einen lebendigen Spieler (einen anderen als in vorherigen Nächten): Eine gewählte Weise benutzt ihre Fähigkeit, aber stirbt nicht.",
     "leviathan-soldier": "Falls der Leviathan den Soldaten nominiert und dieser hingerichtet wird, gewinnt Gut.",
     "lilmonsta-magician": "Falls die Magierin lebendig ist, wählt der Erzähler, welcher Scherge das Lil' Monsta hütet.",
-    "lilmonsta-marionette": "Falls eine Marionette im Spiel wäre, kommt sie nach dem Dämon ins Spiel & muss als sein Nachbar ins Spiel starten.",
+    "lilmonsta-marionette": "Falls eine Marionette im Spiel wäre, kommt sie ins Spiel, nachdem entschieden wurde, wer der erste Dämon ist, & sie muss als sein Nachbar ins Spiel starten.",
     "lilmonsta-poppygrower": "Falls Lil' Monsta & der Mohnzüchter lebendig sind, erwachen die Schergen einzeln nacheinander, bis einer von ihnen wählt, das Lil' Monsta-Plättchen zu nehmen.",
     "lilmonsta-psychopath": "Falls der Psychopath das Lil' Monsta hütet, stirbt er, wenn er hingerichtet wird.",
     "lilmonsta-scarletwoman": "Falls das Lil' Monsta stirbt während 5 oder mehr Spieler lebendig sind, hütet die Scharlachrote Frau das Lil' Monsta für den Rest des Spiels.",
@@ -1034,7 +1166,7 @@
     "magician-wraith": "Nach jeder Hinrichtung darf die lebendige Magierin öffentlich einen lebendigen Spieler als den Geist raten. Falls sie ihn errät, muss der Dämon heute Nacht den Geist wählen.",
     "marionette-mathematician": "Der Mathematiker könnte es erfahren, falls die Fähigkeit der Marionette falsche Informationen geliefert oder nicht richtig funktioniert hat.",
     "marionette-plaguedoctor": "Falls der Erzähler die Fähigkeit der Marionette erhalten würde, wird stattdessen einer der guten Nachbarn des Dämons zur Marionette.",
-    "marionette-summoner": "Falls eine Marionette im Spiel wäre, kommt sie nach dem Dämon ins Spiel & muss als sein Nachbar ins Spiel starten.",
+    "marionette-summoner": "Falls eine Marionette im Spiel wäre, kommt sie ins Spiel, nachdem entschieden wurde, wer der Dämon ist, & sie muss als sein Nachbar ins Spiel starten.",
     "mastermind-vigormortis": "Ein toter Strippenzieher, der über seine Fähigkeit verfügt, behält sie, falls der Vigormortis stirbt.",
     "mayor-riot": "Der Bürgermeister kann wählen, die Nominierungskette des Riots abzubrechen. Falls er dies tut, während nur 1 Riot lebendig ist, gewinnt Gut. Ansonsten gewinnt Böse.",
     "monk-riot": "Falls der Riot den vom Mönch beschützten Spieler nominiert und dieser hingerichtet wird, gewinnt Gut.",
