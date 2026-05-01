@@ -15,7 +15,8 @@
     "alhadikhia": {
       "ability": "Jede Nacht* darfst du 3 Spieler auswählen (alle erfahren wer): Jeder davon wählt still “Leben” oder “Tod”, aber falls alle leben, sterben alle.",
       "flavor": "Alsukut min dhahab.",
-      "name": "Al-Hadikhia"
+      "name": "Al-Hadikhia",
+      "other": "Der Al-Hadikhia wählt 3 Spieler. :reminder: :reminder: :reminder: Wecke die gewählten Spieler der Reihe nach auf. Sie nicken oder schütteln den Kopf. Lasse sie einschlafen, bevor du das nächste Ziel weckst."
     },
     "alsaahir": {
       "ability": "Jeden Tag: Falls du öffentlich errätst, welche Spieler Scherge(n) und welche Dämon(en) sind, gewinnt Gut.",
@@ -270,8 +271,10 @@
     },
     "engineer": {
       "ability": "Einmal im Spiel, in der Nacht, wähle welche Schergen oder welcher Dämon im Spiel ist.",
+      "first": "Der Ingenieur wählt möglicherweise Schergen oder Dämonen. Lasse den Ingenieur einschlafen. Wecke einzeln jeden Spieler, der den Charakter gewechselt hat. Zeige das Infoplättchen *DU BIST* & sein neues Charakterplättchen. :reminder:",
       "flavor": "Wenn es nachgibt, großartig. Wenn es daran zerbricht, nun ja, dann musste es sowieso repariert werden.",
-      "name": "Ingenieur"
+      "name": "Ingenieur",
+      "other": "Der Ingenieur wählt möglicherweise Schergen oder Dämonen. Lasse den Ingenieur einschlafen. Wecke einzeln jeden Spieler, der den Charakter gewechselt hat. Zeige das Infoplättchen *DU BIST* & sein neues Charakterplättchen. :reminder:"
     },
     "eviltwin": {
       "ability": "Du & ein gegnerischer Spieler kennen einander. Wird der gute Spieler hingerichtet, gewinnt Böse. Gut kann nicht gewinnen, solange ihr beide lebt.",
@@ -299,8 +302,10 @@
     },
     "fearmonger": {
       "ability": "Wähle jede Nacht 1 Spieler: Falls du ihn nominierst & er hingerichtet wird, verliert sein Team. Alle Spieler erfahren, wenn du einen neuen Spieler wählst.",
+      "first": "Der Angstmacher wählt einen Spieler. :reminder: Verkünde, dass der Angstmacher einen Spieler gewählt hat.",
       "flavor": "Und wenn du lange in einen Abgrund blickst, blickt der Abgrund auch in dich hinein.",
-      "name": "Angstmacher"
+      "name": "Angstmacher",
+      "other": "Der Angstmacher wählt einen Spieler. :reminder: Falls er einen anderen Spieler wählt als in der letzten Nacht, verkünde, dass der Angstmacher einen neuen Spieler gewählt hat."
     },
     "ferryman": {
       "ability": "Am letzten Tag erhalten alle toten Spieler ihr Abstimmungsplättchen zurück.",
@@ -414,8 +419,10 @@
     },
     "harpy": {
       "ability": "Wähle jede Nacht 2 Spieler: Morgen ist der 1. Spieler besessen davon, dass der 2. böse ist, oder einer davon oder beide könnten sterben.",
+      "first": "Die Harpyie wählt 2 Spieler. :reminder: :reminder: Lasse die Harpyie einschlafen. Wecke den ersten Spieler. Zeige ihm das Infoplättchen *DIESER CHARAKTER HAT DICH AUSGEWÄHLT*, dann das Harpyien-Plättchen, dann zeige auf den zweiten Spieler.",
       "flavor": "Einen so schönen Tag habe ich noch nie gesehen, aber ich sah auch noch nie eine so hässliche Erscheinung, wie sie über mir schwebt.",
-      "name": "Harpyie"
+      "name": "Harpyie",
+      "other": "Die Harpyie wählt 2 Spieler. :reminder: :reminder: Lasse die Harpyie einschlafen. Wecke den ersten Spieler. Zeige ihm das Infoplättchen *DIESER CHARAKTER HAT DICH AUSGEWÄHLT*, dann das Harpyien-Plättchen, dann zeige auf den zweiten Spieler."
     },
     "hatter": {
       "ability": "Wenn du stirbst, dürfen sich Schergen & Dämonen in dieser Nacht neue Schergen- & Dämonencharaktere aussuchen.",
@@ -447,8 +454,10 @@
     },
     "huntsman": {
       "ability": "Einmal im Spiel, in der Nacht, wähle einen lebendigen Spieler: Die Unschuld, falls gewählt, wird ein Bürger, der nicht im Spiel ist. [+Unschuld]",
+      "first": "Der Jäger wählt möglicherweise einen Spieler. :reminder: Falls er die Unschuld gewählt hat: Lasse den Jäger einschlafen. Wecke die Unschuld, zeige ihr das Infoplättchen *DU BIST* & ihr neues Charakterplättchen.",
       "flavor": "Meine Hütte ist warm und solide. Meine Axt nahe der Tür, meine Stiefel trocknen am Feuer und der Elcheintopf köchelt… Horch! Ein Schrei hallt durch das Tal! Der Regen, der Schlamm und der eiskalte Wind maskieren den Geruch der Wölfe, aber ich kenne den Weg und laufe geschwind. Ich komme.",
-      "name": "Jäger"
+      "name": "Jäger",
+      "other": "Der Jäger wählt möglicherweise einen Spieler. :reminder: Falls er die Unschuld gewählt hat: Lasse den Jäger einschlafen. Wecke die Unschuld, zeige ihr das Infoplättchen *DU BIST* & ihr neues Charakterplättchen."
     },
     "imp": {
       "ability": "Wähle jede Nacht* 1 Spieler: Er stirbt. Falls du dich damit selbst tötest, wird ein Scherge zum Imp.",
@@ -483,7 +492,8 @@
       "ability": "Wähle jede Nacht* 1 Spieler: Er stirbt. [Du wählst welche Spieler welche Schergen sind. -? bis +? Außenseiter]",
       "first": "Die Kazali wählt, welche Spieler welche Schergen werden. Wecke jeden gewählten Spieler. Zeige ihm das Infoplättchen *DU BIST* und das Charakterplättchen des Schergen & zeige ihm einen Daumen nach unten.",
       "flavor": "Gon(z)a7les6. 61b 8. D3r M3ch4n15mu5 157 iNvert13r7. E99ors insy6tum. Reco\\{7\\}fig.",
-      "name": "Kazali"
+      "name": "Kazali",
+      "other": "Die Kazali wählt einen Spieler. :reminder:"
     },
     "king": {
       "ability": "Jede Nacht, falls es mindestens so viele Tote gibt wie Lebendige, erfährst du 1 lebendigen Charakter. Der Dämon weiß, dass du der König bist.",
@@ -506,12 +516,15 @@
     "legion": {
       "ability": "Jede Nacht* könnte 1 Spieler sterben. Hinrichtungen scheitern, falls nur Böse abgestimmt haben. Du erscheinst auch als Scherge. [Die meisten Spieler sind Legion]",
       "flavor": "Wir sind der kalte Wind an einem Wintertag. Wir sind der Schatten in der mondlosen Nacht. Wir sind das Gift in deinem Tee und das Flüstern in deinem Ohr. Wir sind überall.",
-      "name": "Legion"
+      "name": "Legion",
+      "other": "Ein Spieler könnte sterben. :reminder:"
     },
     "leviathan": {
       "ability": "Falls mehr als 1 guter Spieler hingerichtet wird, gewinnt Böse. Alle Spieler wissen, dass der Leviathan im Spiel ist. Nach Tag 5 gewinnt Böse.",
+      "first": "Verkünde, dass der Leviathan im Spiel ist. :reminder:",
       "flavor": "Bis zum letzten Atemzug ringe ich mit dir; aus dem Herzen der Hölle stoße ich nach dir; aus Hass spucke ich dir meinen letzten Atemzug entgegen.",
-      "name": "Leviathan"
+      "name": "Leviathan",
+      "other": "Ändere die Erinnerung des Leviathans auf den richtigen Tag. :reminder: Du kannst verkünden, dass der Leviathan im Spiel ist."
     },
     "librarian": {
       "ability": "Du weißt zu Beginn, dass 1 von 2 Spielern ein bestimmter Außenseiter ist. (Oder dass keine mitspielen.)",
@@ -521,19 +534,24 @@
     },
     "lilmonsta": {
       "ability": "Jede Nacht wählen die Schergen 1 Spieler: Er hütet Lil’ Monsta & “ist der Dämon”. Jede Nacht* könnte 1 Spieler sterben. [+1 Scherge]",
+      "first": "Wecke die Schergen. Sie wählen einen Spieler :reminder: Lasse die Schergen einschlafen. Wecke den gewählten Spieler. Zeige das Infoplättchen *DU BIST* & das Lil' Monsta-Plättchen.",
       "flavor": "Schritt 1: Niedlich aussehen. Schritt 2: Weltherrschaft. Schritt 3: Vrühstück.",
-      "name": "Lil' Monsta"
+      "name": "Lil' Monsta",
+      "other": "Wecke die Schergen. Sie wählen einen Spieler :reminder: Lasse die Schergen einschlafen. Wecke den gewählten Spieler. Zeige das Infoplättchen *DU BIST* & das Lil' Monsta-Plättchen. Ein Spieler könnte sterben. :reminder:"
     },
     "lleech": {
       "ability": "Wähle jede Nacht* 1 Spieler: Er stirbt. Du wählst zu Beginn 1 Spieler: Er ist vergiftet. Du stirbst, falls & nur falls er tot ist.",
+      "first": "Der Lleech wählt einen Spieler. :reminder:",
       "flavor": "Lecker, lecker, lecker, lecker, lecker, lecker, lecker, leckeres Gehir- ich meine Gebäck! Ja. Leckeres Gebäck. Das wollte ich sagen.",
-      "name": "Lleech"
+      "name": "Lleech",
+      "other": "Der Lleech wählt einen Spieler. :reminder:"
     },
     "lordoftyphon": {
       "ability": "Wähle jede Nacht* 1 Spieler: Er stirbt. [Böse Charaktere sitzen in einer Reihe, mit dir in der Mitte. +1 Scherge. -? bis +? Außenseiter]",
       "first": "Wecke die Nachbarn des Lord of Typhon. Zeige jedem dieser Spieler *DU BIST* und ein eigenes Schergen-Plättchen & einen Daumen nach unten.",
       "flavor": "In den schattigen und vergessenen Winkeln des Kosmos, wo die Sterne der Leere Geheimnisse zuflüstern, liegt eine Wahrheit, die so tiefgründig ist, dass schon der kleinste Blick darauf den Verstand der Sterblichen in den Wahnsinn treibt.",
-      "name": "Lord of Typhon"
+      "name": "Lord of Typhon",
+      "other": "Der Lord of Typhon wählt einen Spieler. :reminder:"
     },
     "lunatic": {
       "ability": "Du denkst fälschlicherweise, dass du der Dämon bist. Der Dämon weiß, wer du bist & wen du in der Nacht gewählt hast.",
@@ -545,7 +563,8 @@
     "lycanthrope": {
       "ability": "Wähle jede Nacht* 1 lebendigen Spieler. Falls er gut ist, stirbt er & der Dämon tötet heute Nacht nicht. 1 guter Spieler erscheint böse.",
       "flavor": "Unter der dünnen Fassade der Zivilisation verbirgt sich ein heulender Wahnsinn.",
-      "name": "Werwolf"
+      "name": "Werwolf",
+      "other": "Der Werwolf wählt einen Spieler. :reminder:"
     },
     "magician": {
       "ability": "Der Dämon hält dich für einen Schergen. Die Schergen halten dich für einen Dämon.",
@@ -585,7 +604,8 @@
       "ability": "Du weißt zu Beginn ein geheimes Wort. Der 1. gute Spieler, der dieses Wort sagt, wird in der folgenden Nacht böse.",
       "first": "Zeige das geheime Wort.",
       "flavor": "Was aus dem Herzen kommt, wird die Herzen anderer zu deinem eigenen beugen.",
-      "name": "Mezepheles"
+      "name": "Mezepheles",
+      "other": "Falls ein guter Spieler das geheime Wort gesagt hat, wecke diesen Spieler. Zeige ihm das Infoplättchen *DU BIST* & Daumen nach unten. :reminder: :reminder:"
     },
     "minioninfo": {
       "first": "Falls 7 oder mehr Spieler mitspielen, wecke alle Schergen:\nZeige das *DIES IST DER DÄMON* Plättchen. Zeige auf den Dämon."
@@ -614,8 +634,10 @@
     },
     "nightwatchman": {
       "ability": "Einmal im Spiel, in der Nacht, wähle 1 Spieler: Er erfährt, dass du der Nachtwächter bist.",
+      "first": "Der Nachtwächter wählt möglicherweise einen Spieler. Schicke den Nachtwächter schlafen. Wecke den gewählten Spieler. Zeige ihm das Infoplättchen *DIESER SPIELER IST* & das Nachtwächter-Plättchen, dann zeige auf den Nachtwächter-Spieler. :reminder:",
       "flavor": "Die Nacht ist kalt und einsam, aber ich habe den Mond, die Sterne, den frischen Wind und das leise Geräusch von Lederstiefeln auf Kopfsteinpflaster als Gesellschaft. Dort drüben flackert Kerzenlicht hinter einem trüben Fenster…",
-      "name": "Nachtwächter"
+      "name": "Nachtwächter",
+      "other": "Der Nachtwächter wählt möglicherweise einen Spieler. Schicke den Nachtwächter schlafen. Wecke den gewählten Spieler. Zeige ihm das Infoplättchen *DIESER SPIELER IST* & das Nachtwächter-Plättchen, dann zeige auf den Nachtwächter-Spieler. :reminder:"
     },
     "noble": {
       "ability": "Du weißt zu Beginn von 3 Spielern, dass genau 1 von ihnen böse ist.",
@@ -681,7 +703,8 @@
     "plaguedoctor": {
       "ability": "Wenn du stirbst, erhält der Erzähler eine Schergen-Fähigkeit.",
       "flavor": "Halt nu pitte schtill. Hailung brauchts sai Zait. Myrhh-myrhh.",
-      "name": "Pestdoktor"
+      "name": "Pestdoktor",
+      "other": "Falls der Pestdoktor gestorben ist, hat der Erzähler eine Schergen-Fähigkeit erhalten. Falls du dies noch nicht gemacht hast, mache es jetzt. :reminder:"
     },
     "po": {
       "ability": "Jede Nacht* darfst du 1 Spieler wählen: Er stirbt. Falls du letzte Nacht niemanden gewählt hast, wähle heute Nacht 3 Spieler.",
@@ -867,6 +890,7 @@
     },
     "stormcatcher": {
       "ability": "Nenne 1 guten Charakter. Falls er im Spiel ist, kann er nur durch Hinrichtung sterben, aber böse Spieler erfahren den Spieler des Charakters.",
+      "first": "Verkünde, welcher Charakter vom Sturmfänger begünstigt wird. Falls dieser Charakter im Spiel ist, markiere ihn mit der Erinnerung *Sicher*. Wecke jeden bösen Spieler und zeige ihm das Charakter-Plättchen, dann den markierten Spieler. Falls nicht im Spiel, wecke jeden bösen Spieler und zeige das Infoplättchen *DIESE CHARAKTERE SIND NICHT IM SPIEL* und das Charakterplättchen.",
       "flavor": "Im Morgengrauen kriecht der lange Schatten des Tempels zum Brunnen. In der Dämmerung blockt der Obelisk das rote Glühen ab und kühlt das warme Wasser unter dem Torbogen. Alle Linien laufen hier zusammen. Ein Sturm zieht auf, und dieser üppige und heilige Ort zwischen den Apfelbäumen ist sein Auge.",
       "name": "Sturmfänger"
     },
@@ -874,7 +898,8 @@
       "ability": "Du erhältst 3 Bluffs. Wähle in der 3. Nacht 1 Spieler: Er wird zu einem bösen Dämon deiner Wahl. [Kein Dämon]",
       "first": "Zeige das Infoplättchen *DIESE CHARAKTERE SIND NICHT IM SPIEL*. Zeige 3 nicht im Spiel befindliche gute Charakterplättchen.",
       "flavor": "Hail the guardians of the north; by my intellect, thou art cut. Hail the guardians of the east; by my will, thou art dominated. Hail the guardians of the south; by that which lies beyond, the mystery is revealed. Hail the guardians of the west; a shield in the darkness.",
-      "name": "Beschwörer"
+      "name": "Beschwörer",
+      "other": "Ändere die Erinnerung des Beschwörers auf die richtige Nacht. :reminder: Falls es Nacht 3 ist, wählt der Beschwörer einen Spieler & einen Dämonen-Charakter. Lasse den Beschwörer einschlafen. Wecke den gewählten Spieler. Zeige das Infoplättchen *DU BIST* und das Dämon-Plättchen & zeige Daumen nach unten."
     },
     "sweetheart": {
       "ability": "Wenn du stirbst, ist 1 Spieler ab jetzt betrunken.",
@@ -962,6 +987,7 @@
     },
     "widow": {
       "ability": "In deiner 1. Nacht, schau ins Grimoire & wähle 1 Spieler: Er ist vergiftet. 1 guter Spieler weiß, dass eine Witwe im Spiel ist.",
+      "first": "Zeige das Grimoire so lange, wie die Witwe es braucht. Die Witwe wählt einen Spieler. :reminder: Lasse die Witwe einschlafen. Wecke den mit der “Bekannt”-Erinnerung markierten Spieler & zeige das Charakterplättchen der Witwe :reminder:",
       "flavor": "Noch etwas Wein? Château d’Ergot ’07 ist ein ganz besonderer Jahrgang. Ja, in der Tat, ein ganz besonderer.",
       "name": "Witwe"
     },
@@ -974,18 +1000,24 @@
     },
     "wizard": {
       "ability": "Einmal im Spiel kannst du dir etwas wünschen. Falls gewährt, wird es möglicherweise einen Preis haben & einen Hinweis auf die Art des Wunsches hinterlassen.",
+      "first": "Tue, was auch immer nötig ist, um die Fähigkeit des Zauberers zu erfüllen.",
       "flavor": "Jeder Mann und jede Frau ist ein Stern. Liebe ist das Gesetz, Liebe unter Willen.",
-      "name": "Zauberer"
+      "name": "Zauberer",
+      "other": "Tue, was auch immer nötig ist, um die Fähigkeit des Zauberers zu erfüllen."
     },
     "wraith": {
       "ability": "Du darfst während der Nacht beliebig die Augen öffnen. Du wachst auf, wenn andere böse Spieler aufwachen.",
+      "first": "Wecke den Geist jedes Mal, wenn du einen anderen bösen Spieler weckst.",
       "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
-      "name": "Geist"
+      "name": "Geist",
+      "other": "Wecke den Geist jedes Mal, wenn du einen anderen bösen Spieler weckst."
     },
     "xaan": {
       "ability": "In Nacht X werden alle Bürger vergiftet bis zur Abenddämmerung. [X Außenseiter]",
+      "first": "Falls X gleich 1 ist, markiere den Xaan mit der Erinnerung *X*. :reminder: :reminder:",
       "flavor": "Hinunter fallen sie. Einer nach dem anderen. Zu zweit, zu dritt, zu fünft.",
-      "name": "Xaan"
+      "name": "Xaan",
+      "other": "Ändere die Erinnerung des Xaan auf die richtige Nacht. Falls es Nacht X ist, markiere den Xaan mit der Erinnerung *X*. :reminder: :reminder:"
     },
     "yaggababble": {
       "ability": "Du weißt zu Beginn 1 geheime Phrase. Für jedes Mal, dass du sie heute öffentlich gesagt hast, könnte 1 Spieler sterben.",
@@ -1004,6 +1036,15 @@
       "flavor": "Ich verstehe. Nicht. Lieber Mensch. Zeig mir. Den Schmutz. Wo die Heiligen. Liegen. Schlafend. Auch ich. Muss schlafen. Bald.",
       "name": "Zombuul",
       "other": "Falls heute niemand gestorben ist, wählt der Zombuul einen Spieler. :reminder:"
+    },
+    "bigwig": {
+      "ability": "Jeder Nominierte wählt einen Spieler: bis zur Abstimmung darf nur dieser Spieler sprechen & er ist besessen davon, dass der Nominierte gut ist oder er könnte sterben.",
+      "flavor": "Die Eitelkeit fragt: „Ist es beliebt?“ Die Feigheit fragt: „Ist es sicher?“ Das Gewissen fragt: „Ist es richtig?“ Wer von uns wird fragen: „Ist es wahr?“",
+      "name": "Fürsprecher"
+    },
+    "hindu": {
+      "flavor": "चत्वारो मृत्युमध्ये पतन्ति, चत्वारो यात्री पुनरुद्गताः। चत्वारो धर्मे स्थितचित्तवृत्तेः, चत्वार एषां न पुनः क्षयः॥",
+      "name": "Hindu"
     },
     "cacklejack": {
       "ability": "Wähle jeden Tag 1 Spieler: Heute Nacht wechselt 1 anderer Spieler den Charakter.",
