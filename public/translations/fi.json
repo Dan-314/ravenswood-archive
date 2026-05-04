@@ -344,7 +344,7 @@
       "name": "Narri"
     },
     "fortuneteller": {
-      "ability": "Joka yö*, valitse 2 pelaajaa: saat tietää jos toinen näistä on demoni. Yksi hyvä pelaaja näyttäytyy Demonina.",
+      "ability": "Joka yö, valitse 2 pelaajaa: saat tietää jos toinen näistä on demoni. Yksi hyvä pelaaja näyttäytyy Demonina.",
       "first": "Ennustaja valitsee 2 pelaajaa. Nyökkää jos jompikumpi on Demoni (tai *HARHAUTUS*).",
       "flavor": "Aistin suurta pahuutta sielussasi! Mutta... se voi olla vain hajuvettäsi. Olen allerginen seljanmarjalle.",
       "name": "Ennustaja",
