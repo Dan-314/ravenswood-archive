@@ -32,13 +32,13 @@
     },
     "angel": {
       "ability": "Etwas Schlimmes könnte demjenigen passieren, der am meisten für den Tod eines neuen Spielers verantwortlich ist.",
-      "first": "Kündige an, welcher Spieler durch den Engel beschützt ist. Füge das *BESCHÜTZT* Plättchen dem Spieler hinzu.",
+      "first": "Kündige an, welche Spieler durch den Engel beschützt sind. :reminder:",
       "flavor": "Wenn diejenigen, die ohne Sünde sind, es wagen, ihre Hand gegen meine Auserwählten zu erheben, werde ich solch einen Narren mit der Wut und Gerechtigkeit von tausend Stürmen niederschlagen.",
       "name": "Engel"
     },
     "apprentice": {
       "ability": "In deiner 1. Nacht erhältst du die Fähigkeit eines Bürgers (falls du gut bist), oder die Fähigkeit eines Schergen (falls du böse bist).",
-      "first": "Show the Apprentice the *YOU ARE* card, then a Townsfolk or Minion token. In the Grimoire, replace the Apprentice token with that character token, and put the Apprentice's *IS THE APPRENTICE* reminder by that character token.",
+      "first": "Show the Apprentice the *YOU ARE* card, then a Townsfolk or Minion token. In the Grimoire, replace the Apprentice token with that character token, and put the Apprentice's *IS THE APPRENTICE* reminder by that character token. :reminder:",
       "flavor": "Jahrelang bin ich gereist und habe die Kunst des Handwerks studiert.Welches Handwerk, fragen Sie? Das des einfachen Volkes. Nichts, worüber man sich Sorgen machen müsste. Noch nicht.",
       "name": "Lehrling"
     },
@@ -115,6 +115,11 @@
       "ability": "Falls du hingerichtet wirst, sterben alle bis auf 3 Spieler. Nach einem Countdown von 10 bis 1 stirbt der Spieler, auf den die meisten Spieler zeigen.",
       "flavor": "Tick… Tick… Tick… TOCK.",
       "name": "Bombenleger"
+    },
+    "bootlegger": {
+      "ability": "Dieses Skript enthält selbst erstellte Charaktere oder Regeln.",
+      "flavor": "Als ich geboren wurde, erhielt ich den Namen „Homebrewy McHomebrewface“, genau wie mein Vater vor mir. Ein respektabler Name für ein ehrwürdiges Alter.",
+      "name": "Schwarzhändler"
     },
     "bountyhunter": {
       "ability": "Du weißt zu Beginn, dass 1 Spieler böse ist. Wenn er stirbt, erfährst du heute Nacht von einem anderen bösen Spieler. [1 Bürger ist böse]",
@@ -357,6 +362,8 @@
       "name": "Gangster"
     },
     "gardener": {
+      "ability": "Der Erzähler weist allen Spielern ihre Charaktere zu.",
+      "flavor": "Wenn die Sophisterei zur Dummheit und die Heuchelei zur Grausamkeit wird, zieh dich in den Garten zurück. Die letzte Liebe alter Männer gilt den Blumen und den Steinen.",
       "name": "Gärtner"
     },
     "general": {
@@ -1042,15 +1049,48 @@
       "flavor": "Die Eitelkeit fragt: „Ist es beliebt?“ Die Feigheit fragt: „Ist es sicher?“ Das Gewissen fragt: „Ist es richtig?“ Wer von uns wird fragen: „Ist es wahr?“",
       "name": "Fürsprecher"
     },
+    "tor": {
+      "ability": "Spieler kennen ihren Charakter und ihre Fraktion nicht. Sie erfahren beides, wenn sie sterben.",
+      "flavor": "Mit dem Donner als meiner Stimme und dem Blitz als meiner Klinge verschlinge ich, der ewige Wächter, die Narren, die es wagen, sich dem verbotenen Tor zu nähern. Seht, mein heiliges Ziel! Den Käfer aus dem Schoß der felsigen Erde zu vertreiben, ihn in einem Netz aus Sternen zu fangen, auf dem Hügel, wo Himmel und Erde sich treffen.",
+      "name": "Tor",
+      "other": "Falls heute Nacht ein Spieler gestorben ist, zeige ihm das Infoplättchen *DU BIST*, seinen Charakter & einen Daumen rauf oder runter.",
+      "first": "Lasse die Schritte Schergen-Info und Dämon-Info weg."
+    },
+    "zenomancer": {
+      "ability": "Ein oder mehr Spieler haben jeweils ein Ziel. Falls ein Ziel erreicht wird, erfährt dieser Spieler eine wahre Information.",
+      "flavor": "Man sagt, das Universum sei ein Verb, kein Substantiv, und es bestehe aus Schildkröten, Schildkröten bis in die Unendlichkeit. Schildkröten bis in die Unendlichkeit, mein Freund, Schildkröten bis in die Unendlichkeit.",
+      "name": "Zenomancer"
+    },
     "hindu": {
+      "ability": "Die ersten 4 Spieler, die sterben, werden sofort als Reisende derselben Fraktion wiedergeboren.",
       "flavor": "चत्वारो मृत्युमध्ये पतन्ति, चत्वारो यात्री पुनरुद्गताः। चत्वारो धर्मे स्थितचित्तवृत्तेः, चत्वार एषां न पुनः क्षयः॥",
       "name": "Hindu"
+    },
+    "pope": {
+      "ability": "Mindestens ein guter Charakter ist mehrfach im Spiel. Diese Charaktere sind möglicherweise auch Bluffs.",
+      "flavor": "...Pulcherrimae.",
+      "name": "Papst"
     },
     "cacklejack": {
       "ability": "Wähle jeden Tag 1 Spieler: Heute Nacht wechselt 1 anderer Spieler den Charakter.",
       "flavor": "Kabel α An Kabel β. LicHt aN. BuZZer aus. GAzOinks! Arme G3r4d3. FingER zUr nase. hAaaLt stiLL. BoiNgo-banGo! Ha-ha-ha!",
       "name": "Kicherjeck",
       "other": "Wähle vor der Morgendämmerung einen nicht mit “Ich nicht” markierten Spieler. Wecke diesen Spieler. Zeige das Infoplättchen “Du bist” & sein neues Charakterplättchen."
+    },
+    "ventriloquist": {
+      "ability": "Falls ein Spieler während seiner Nominierung besessen davon ist, ein neuer Charakter zu sein, stirbt er möglicherweise nicht, falls er heute hingerichtet wird.",
+      "flavor": "Na, Leute, kommt mal her! Das hier ist mein Kumpel Charlie, und der hat so ein großes Maul, dass sogar ein Maultier rot werden würde. Aber keine Sorge, Leute, ich übernehme das Reden … oder etwa nicht?",
+      "name": "Bauchredner"
+    },
+    "godofug": {
+      "ability": "Wenn 1-Laut-Hut trag, darf nur je 1 Laut sag & stimm 2 mal ab. Wenn nicht mach, 1-Laut-Hut reist weg.",
+      "flavor": "Gesegnet sind meine Kinder, denn sie erkennen die Schönheit in den einfachen Dingen.",
+      "name": "Gott der Ugs"
+    },
+    "knaves": {
+      "ability": "Es gibt 2 Erzähler: Einer lügt, der andere sagt die Wahrheit. Einmal im Spiel können sie in der Abenddämmerung die Rollen tauschen.",
+      "flavor": "Jede Wand ist eine Tür. Jede Mahlzeit ist ein Festmahl.",
+      "name": "Knappen"
     }
   },
   "teams": {
