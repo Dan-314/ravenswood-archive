@@ -18,6 +18,12 @@
     "completion": 92
   },
   {
+    "code": "es",
+    "name": "Spanish",
+    "nativeName": "Español",
+    "completion": 99
+  },
+  {
     "code": "es_419",
     "name": "Spanish (Latin America)",
     "nativeName": "Español (Latinoamérica)",
