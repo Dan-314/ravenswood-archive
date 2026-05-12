@@ -1330,9 +1330,9 @@
     "vizier-zealot": "Kiihkoilija saattaa näyttäytyä pahana Visiirille."
   },
   "ui": {
-    "firstNight": "Ensimmäinen Yö",
+    "firstNight": "Eka Yö",
     "otherNights": "Muut Yöt",
     "players": "Pelaajat",
-    "notFirstNight": "* Ei ensimmäisenä yönä"
+    "notFirstNight": "* Ei ekana yönä"
   }
 }
