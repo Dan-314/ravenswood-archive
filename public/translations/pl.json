@@ -306,7 +306,7 @@
       "other": "Jeżeli Rolnik umarł tej nocy, obudź żywego dobrego gracza. Pokaż mu kartę *JESTEŚ* i żeton Rolnika."
     },
     "fearmonger": {
-      "ability": "Każdej nocy wybierz gracza: jeżeli go nominujesz i zostanie stracony, jego drużyna umiera. Wszyscy gracze wiedzą, że wybrałeś nowego gracza.",
+      "ability": "Każdej nocy wybierz gracza: jeżeli go nominujesz i zostanie stracony, jego drużyna przegrywa. Wszyscy gracze wiedzą, że wybrałeś nowego gracza.",
       "first": "Siewca Strachu wybiera gracza. :reminder: Ogłoś, że \"Siewca Strachu wybrał gracza\".",
       "flavor": "Strzeż się patrzeć zbyt długo w Otchłań, aby Otchłań nie spojrzała w głąb ciebie.",
       "name": "Siewca Strachu",
