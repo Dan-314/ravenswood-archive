@@ -125,7 +125,7 @@
       "ability": "Aloitat pelin tietäen 1 pahan pelaajan. Jos tämä pelaaja kuolee, saat tietää toisen pahiksen tänä yönä. [1 Kyläläinen on paha]",
       "first": "Osoita \"TIEDÄT\" -merkittyä pelaajaa.",
       "flavor": "Yksin näitä, turmeluksen sairaalloisella löyhkällä päällystettyjä, katuja kävelen . Hajujen paksuus tunkeutuu sieraimiini, kutsumatta, inhosta polttaen. Ja odotuksesta. Tämän kurjan paikan sairaus kasvaa joka yö. Ja minä... olen parannuskeino.",
-      "name": "Palkkionmetsästäjä",
+      "name": "Palkkis",
       "other": "Jos *TIEDÄT* -merkitty pelaaja kuoli, osoita uutta *TIEDÄT* -merkittyä pelaajaa."
     },
     "buddhist": {
@@ -591,7 +591,7 @@
       "name": "Välkky"
     },
     "mathematician": {
-      "ability": "Joka yö, saat tietää, kuinka monen pelaajan kyvyt toimivat epänormaalisti (aamunkoitosta asti) toisen hahmon kyvyn vuoksi.",
+      "ability": "Joka yö, saat tietää, kuinka monen pelaajan kyky toimi epänormaalisti (sarastuksesta asti) toisen hahmon kyvyn vuoksi.",
       "first": "Anna sormimerkki.",
       "flavor": "Mikä tahansa johdonmukainen muodollinen systeemi x, jonka sisällä tietty määrä alkeellisia laskuja voidaan suorittaa, on epätäydellinen; toisin sanoen x-kielessä on lauseita, joita ei voida todistaa eikä kumota sen sisällä. Ergo, olet juopunut.",
       "name": "Matemaatikko",
@@ -792,7 +792,7 @@
     },
     "riot": {
       "ability": "Päivänä 3, Kätyreistä tulee Mellakka & nimitetyt kuolevat, nimeten välittömästi elävän pelaajan. Tämän on tapahduttava.",
-      "flavor": "Larga vida a la revolución! Mi revolucion!",
+      "flavor": "Eläköön vallankumous! Mi revolucion!",
       "name": "Mellakka",
       "other": "Vaihda Mellakan muistutusmerkki asiaankuuluvaan päivään. :reminder: Jos on 3. yö, voit herättää Kätyrit. Näytä *SINÄ OLET* & Mellakka -merkit."
     },
@@ -898,7 +898,7 @@
     "stormcatcher": {
       "ability": "Valitse hyvä hahmo. Jos se on pelissä, voi pelaaja kuolla vain teloitukseen, mutta pahat saavat tietää tämän.",
       "first": "Ilmoita, mikä hahmo on myrskynsieppaama. Jos hahmo on pelissä, merkitse pelaajaa *MYRSKYNSIEPPAAMA* -merkillä. Herätä pahat pelaajat ja näytä heille valittu hahmomerkki ja pelaaja. Jos hahmo ei ole pelissä, herätä pahat pelaajat, näytä heille *NÄMÄ HAHMOT EIVÄT OLE PELISSÄ* -merkki ja asiaankuuluva hahmomerkki.",
-      "flavor": "Temppelin pitkä varjo hiipi aamunkoitteessa suihkulähteelle. Obeliski peitti illan tullen punaisen häikäisyn, viilentäen holvikaaren alla lilluvaa vettä. Kaikki viivat yhtyvät tässä. Myrsky on tulossa, ja tämä, tämä kivinen, rehevä ja pyhä paikka omenapuiden välissä, on silmässä.",
+      "flavor": "Temppelin pitkä varjo hiipii aamun sarastaessa suihkulähteelle. Obeliski peittää iltaruskon punahehkun, viilentäen holvikaaren alla lilluvaa vettä. Kaikki viivat yhtyvät tässä. Myrsky on tulossa, ja tämä, tämä kivinen, rehevä ja pyhä paikka omenapuiden välissä, on kaiken silmässä.",
       "name": "Myrskynsieppaaja"
     },
     "summoner": {
@@ -984,7 +984,7 @@
     "voudon": {
       "ability": "Vain sinä & kuolleet voivat äänestää, ilman äänestysmerkin käyttöä. 50 % äänienemmistöä ei vaadita.",
       "flavor": "Bien venu. Istu alas. Hengitä syvään. Astu kuolleiden maahan. Näe heidän silmillään. Puhu heidän äänellään. Yon sel lang se janm ase.",
-      "name": "Voudon"
+      "name": "Voodoo"
     },
     "washerwoman": {
       "ability": "Aloitat tietäen, että 1 kahdesta pelaajasta on tietty Kyläläinen.",
@@ -1117,7 +1117,7 @@
     "actstwice": "Toimii Kahdesti",
     "aligned": "Liitossa",
     "alive": "Elossa",
-    "amigo": "Amigo",
+    "amigo": "Kamu",
     "cannotdie": "Kuolematon",
     "chosen": "Valittu",
     "claimed": "Väitetty",
@@ -1224,8 +1224,8 @@
     "boffin-politician": "Demonilla ei voi olla Poliitikon kykyä.",
     "boffin-villageidiot": "Jos käytettävissä on ylimääräinen hahmomerkki, Koekaniini voi antaa Demonille Kylähullun kyvyn.",
     "boomdandy-plaguedoctor": "Jos Tarinankertoja saisi Ruutikeikarin-kyvyn, yksi pelaajista muuttuu Ruutikeikariksi.",
-    "bountyhunter-kazali": "Jos Ronkeli muuttaa Palkkionmetsästäjän Kätyrikseen, ei pahaa Kyläläistä luoda.",
-    "bountyhunter-philosopher": "Jos Filosofi saa Palkkionmetsästäjän kyvyn, Kyläläinen saattaa muuttua pahaksi.",
+    "bountyhunter-kazali": "Jos Ronkeli muuttaa Palkkiksen Kätyrikseen, ei pahaa Kyläläistä luoda.",
+    "bountyhunter-philosopher": "Jos Filosofi saa Palkkiksen kyvyn, yksi Kyläläinen saattaa muuttua pahaksi.",
     "butler-cannibal": "Jos Kannibaali saa Hovimestarin kyvyn, kerro Kannibaalille tästä.",
     "butler-organgrinder": "Jos Posetiivari aiheuttaa silmät kiinni -äänestyksen, Hovimestari voi nostaa kätensä, mutta ääni lasketaan vain, mikäli isäntäkin äänesti.",
     "cannibal-juggler": "Jos Jonglööri arvaa ensimmäisenä päivänään ja kuolee teloitukseen, elävä Kannibaali saa tänä yönä tietää, kuinka moni Jonglöörin arvauksista osui oikeaan.",
