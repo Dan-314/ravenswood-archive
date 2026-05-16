@@ -2,7 +2,7 @@
   "roles": {
     "acrobat": {
       "ability": "Każdej nocy* wybierz gracza: jeżeli jest lub stanie się pijany lub zatruty tej nocy, umierasz.",
-      "flavor": "Witajcie, ty i wy wszyscy, na największym przedstawieniu na ziemi.",
+      "flavor": "Panie, panowie, i wy, drogie dzieci - witamy na najlepszym przedstawieniu na świecie.",
       "name": "Akrobata",
       "other": "Akrobata wybiera gracza. :reminder:"
     },
@@ -20,7 +20,7 @@
     },
     "alsaahir": {
       "ability": "Każdego dnia, jeżeli publicznie odgadniesz którzy gracze są Sługusami i którzy są Demonami, dobro wygrywa.",
-      "flavor": "Jestem tutaj dzięki tobie i ty jesteś tu dzięki mnie.",
+      "flavor": "Jestem tutaj dzięki tobie, a ty jesteś tu dzięki mnie.",
       "name": "Alsaahir"
     },
     "amnesiac": {
