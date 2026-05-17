@@ -33,7 +33,7 @@
     "angel": {
       "ability": "Coś złego może się stać osobie, która jest najbardziej odpowiedzialna za śmierć nowego gracza.",
       "first": "Ogłoś, którzy gracze są chronieni przez Anioła. :reminder:",
-      "flavor": "Niech ci, którzy są bez grzechu, odważą się podnieść rękę na moich wybrańców, albowiem powalę takich głupców z furią i sprawiedliwością tysiąca burz.",
+      "flavor": "Niech ci, którzy są bez grzechu, odważą się podnieść rękę na moich wybrańców, albowiem powalę takich głupców furią i sprawiedliwością tysiąca burz.",
       "name": "Anioł"
     },
     "apprentice": {
@@ -55,7 +55,7 @@
     },
     "atheist": {
       "ability": "Bajarz może łamać zasady gry i jeżeli zostanie poddany egzekucji to dobro wygrywa, nawet gdy nie żyjesz. [Brak złych postaci]",
-      "flavor": "Odrzućmy zbędne domysły i niedorzeczną paranoję. Dla wszystkiego istnieje całkowicie racjonalne wyjaśnienie. Tak, być może gdzieś wokół planety krąży filiżanka, zbyt mała, by ją dostrzec — ale ja napiję się herbaty z tej prawdziwej, porcelanowej, którą trzymam w dłoniach.",
+      "flavor": "Odrzućmy zbędne domysły i niedorzeczną paranoję. Wszystko można całkowicie racjonalnie wyjaśnić. Tak, być może gdzieś wokół planety krąży filiżanka, zbyt mała, by ją dostrzec — ale ja napiję się herbaty z tej prawdziwej, porcelanowej, którą trzymam w dłoniach.",
       "name": "Ateista"
     },
     "balloonist": {
@@ -73,14 +73,14 @@
     },
     "barber": {
       "ability": "Jeżeli zginąłeś tego dnia lub nocy, Demon może wybrać dwóch graczy (ale nie innego Demona) aby zamienili się postaciami.",
-      "flavor": "Czy wiesz, że fryzjerstwo i chirurgia były kiedyś częścią tej samej profesji? Nie? No to teraz już wiesz.",
+      "flavor": "A wiesz, że kiedyś balwierze zajmowali się też chirurgią? Nie? No to teraz już wiesz.",
       "name": "Balwierz",
       "other": "Jeżeli Balwierz umarł tego dnia lub nocy, pokaż Demonowi *TA POSTAĆ WYBRAŁA CIEBIE* i żeton Balwierza. Jeżeli Demon wybierze 2 graczy, obudź ich pojedynczo. Pokaż kartę *JESTEŚ* i ich nowy żeton postaci."
     },
     "barista": {
       "ability": "Każdej nocy, do zmierzchu: 1) gracz staje się trzeźwy, zdrowy i dostaje prawdziwe informacje, albo 2) jego umiejętność działa dwa razy. Dowiadują się który co.",
       "first": "Wybierz gracza. Obudź go, pokaż kartę *TA POSTAĆ WYBRAŁA CIEBIE* i żeton Baristy, następnie pokaż znak palcem. :reminder:",
-      "flavor": "Kawa bez śmietanki, Monsieur? Najserdeczniej przepraszam, ale właśnie skończyła nam się śmietanka - może bez mleka?",
+      "flavor": "Kawa bez śmietanki, Monsieur? Najserdeczniej przepraszam, ale właśnie skończyła nam się śmietanka - może być bez mleka?",
       "name": "Barista",
       "other": "Wybierz gracza. Obudź go, pokaż kartę *TA POSTAĆ WYBRAŁA CIEBIE* i żeton Baristy, następnie pokaż znak palcem. :reminder:"
     },
@@ -107,7 +107,7 @@
     },
     "bonecollector": {
       "ability": "Raz na grę w nocy*, wybierz gracza: ponownie otrzymują swoją umiejętność do zmroku.",
-      "flavor": "Kolekcjonuje wiele rzeczy. Włosy. Zęby. Ubrania. Fragmenty wierszy. Sny zaginionych kochanków. Tajemnice mojej sztuki nie są dla ciebie, ale zapłata to tylko drobnostka. Przynieś mi krwi szlachcianki, która umarła z powodu pękniętego serca pod pełnym księżycem, a otrzymasz swoje odpowiedzi.",
+      "flavor": "Kolekcjonuję wiele rzeczy. Włosy. Zęby. Ubrania. Fragmenty wierszy. Sny utraconych kochanków. Tajemnice mojej sztuki nie są dla ciebie, ale zapłata to tylko drobnostka. Przynieś mi krew szlachcianki, która umarła na złamane serce podczas pełni księżyca, a znajdziesz odpowiedzi na swoje pytania.",
       "name": "Kolekcjoner Kości",
       "other": "Kolekcjoner Kości może wybrać martwego gracza. :reminder: Jeśli trzeba, obudź wybranego gracza aby użył swojej umiejętności."
     },
@@ -118,13 +118,13 @@
     },
     "bootlegger": {
       "ability": "Ten scenariusz zawiera autorskie postacie lub zasady.",
-      "flavor": "Mam właśnie najnowszą dostawę z domu, coś co nazywają \"Księżycówką\". Chcesz spróbować?",
+      "flavor": "Mam właśnie najnowszą dostawę z domu, coś, co nazywają \"Księżycówką\". Chcesz spróbować?",
       "name": "Przemytnik"
     },
     "bountyhunter": {
       "ability": "Zaczynasz grę wiedząc o 1 złym graczu. Gdy gracz o którym wiesz umrze, poznajesz następnego złego gracza. [1 Mieszczanin jest zły]",
       "first": "Wskaż na gracza oznaczonego *ZNASZ*.",
-      "flavor": "Samotnie, przemierzam te ulice, wybrukowane chorobliwym smrodem zepsucia. Ten odór wpełza w moje nozdrza, pali obrzydzeniem... i żarem oczekiwania. Choroba jątrząca te plugawe miejsce rozrasta się co noc. Lecz ja... ja jestem lekarstwem.",
+      "flavor": "Samotnie przemierzam ulice wybrukowane chorobliwym smrodem zepsucia. Ten odór siłą wpełza w moje nozdrza, pali obrzydzeniem... i żarem oczekiwania. Choroba jątrząca to plugawe miejsce rozrasta się co noc. A ja... ja jestem lekarstwem.",
       "name": "Łowca Nagród",
       "other": "Jeżeli gracz oznaczony *ZNAM* umarł tego dnia lub nocy, wskaż nowego *ZNAM* gracza."
     },
@@ -137,7 +137,7 @@
     "bureaucrat": {
       "ability": "Każdej nocy wybierz gracza (nie siebie): jutro jego głos liczy się potrójnie.",
       "first": "Biurokrata wybiera gracza. :reminder:",
-      "flavor": "Podpisać tutaj. I tutaj. I tutaj. I tuuu. Ta, wszystko powinno być policzone i rozpatrzone do końca dnia, zakładając oczywiście że wszystkie podpisy są czytelne. Nie mieliśmy żadnej pomyłki w papierach od wieków. Wczorajszego popołudnia, jeśli mnie pamięć nie myli...",
+      "flavor": "Proszę podpisać tutaj. I tutaj. I tutaj. Iiiiii tu. Wszystko powinno być policzone i rozpatrzone do końca dnia, zakładając oczywiście, że wszystkie podpisy są czytelne. Od dawna nie mieliśmy żadnej pomyłki w papierach. Jeśli mnie pamięć nie myli, to od wczorajszego popołudnia...",
       "name": "Biurokrata",
       "other": "Biurokrata wybiera gracza. :reminder:"
     },
@@ -149,7 +149,7 @@
     "butler": {
       "ability": "Każdej nocy wybierz gracza (nie siebie): jutro możesz głosować tylko i wyłącznie gdy on też głosuje.",
       "first": "Rzeźnik wybiera gracza. :reminder:",
-      "flavor": "Tak, proszę Pana... Nie, proszę Pana... Oczywiście, proszę Pana.",
+      "flavor": "Tak, jaśnie panie... Nie, jaśnie panie... Oczywiście, jaśnie panie.",
       "name": "Lokaj",
       "other": "Lokaj wybiera gracza. :reminder:"
     },
@@ -168,7 +168,7 @@
     "chambermaid": {
       "ability": "Każdej nocy wybierz 2 żywych graczy (nie siebie): dowiadujesz się ilu z nich zostało obudzonych w wyniku swojej umiejętności.",
       "first": "Pokojówka wybiera 2 żywych graczy. Pokaż na palcach.",
-      "flavor": "Nie widziałam niczego osobliwego, Milady. Najmocniej przepraszam, ale gdybym coś widziała, to z całą pewnością nie był to pan domu zakradający się do laboratorium profesora około jedenastej i przyrządzający jakąś fikuśną miksturę, tak jak pani wspominała, Panienko.",
+      "flavor": "Ja, proszę pani, naprawdę nie widziałam niczego osobliwego. Najmocniej przepraszam, ale gdybym coś widziała, to z całą pewnością nie byłby to jaśnie pan zakradający się do laboratorium profesora około jedenastej i przyrządzający jakąś fikuśną miksturę, tak jak pani wspominała, Panienko.",
       "name": "Pokojówka",
       "other": "Pokojówka wybiera 2 żywych graczy. Pokaż na palcach."
     },
@@ -180,14 +180,14 @@
     },
     "choirboy": {
       "ability": "Jeżeli Demon zabije Króla, dowiadujesz się który gracz jest Demonem. [+Król]",
-      "flavor": "Widziałem to, naprawdę. Byłem za ławkami, układałem śpiewniki, gdy okropny dźwięk wydobył się z organ. Organista miał długą pelerynę, i długie palce spoczywające na klawiszach. I kapelusz który wyglądał... wyglądał zupełnie... jak twój.",
+      "flavor": "Widziałem to, naprawdę. Byłem za ławami, układałem śpiewniki, gdy organy zagrały okropną melodię. Organista miał długą pelerynę, i długie palce spoczywające na klawiszach. I kapelusz, który wyglądał... wyglądał zupełnie... jak twój.",
       "name": "Chórzysta",
       "other": "Jeżeli Demon zabił Króla wskaż gracza który jest Demonem."
     },
     "clockmaker": {
       "ability": "Zaczynasz grę wiedząc ile kroków jest od Demona do jego najbliższego Sługusa.",
       "first": "Pokarz palcem.",
-      "flavor": "Nie przeszkadzać. Tykanie musi trwać, bo okrąg jest symbolem życia i zawiera wszystko - każde odpowiedzi - w swej świętej machinacji. Musi działać.",
+      "flavor": "Nie przeszkadzać. Tykanie musi trwać, bo okrąg jest symbolem życia i zawiera wszystko - każdą odpowiedź - w swym świętym mechanizmie. Musi działać.",
       "name": "Zegarmistrz"
     },
     "courtier": {
@@ -225,7 +225,7 @@
     },
     "deviant": {
       "ability": "Jeżeli dzisiaj byłeś śmieszny, to nie można cię wygnać.",
-      "flavor": "Toż to był żart tej damy, zaprawdę.",
+      "flavor": "Toż to był żarcik tej damy, zaprawdę.",
       "name": "Dewiant"
     },
     "devilsadvocate": {
@@ -242,13 +242,13 @@
     },
     "doomsayer": {
       "ability": "Jeżeli 4 lub więcej graczy żyje, każdy żywy może publicznie wybrać (raz na grę) aby gracz z jego drużyny umarł.",
-      "flavor": "I Siódmego Dnia, nadejdzie wielka powódź i zaraza spadnie na ludzi miasteczka Kruków! Martwi powstaną, a żywi będą pokutować! O trwogo! O Przeklęty dniu! Tylko dzięki wielkiej ofierze przetrwają! Tako rzecze Mędrzec Nostrosa i tako rzecze Ja.",
+      "flavor": "A siódmego dnia nadejdzie wielka powódź i zaraza spadnie na ludność miasteczka kruków! Martwi powstaną, a żywi będą pokutować! Na trwogę! O przeklęty dniu! Tylko dzięki wielkiej ofierze zwyciężą! Tako rzeką Mędrcy z Nostros i tako rzekę ja.",
       "name": "Wieszcz Zagłady"
     },
     "dreamer": {
       "ability": "Każdej nocy wybierz gracza (nie siebie ani Podróżnika): dowiadujesz się 1 dobrą i 1 złą postać, 1 z nich jest prawdą.",
       "first": "Marzyciel Senny wskazuje na gracza. Pokaż żeton 1 dobrej i 1 złej postaci, 1 z nich jest żeton wskazanej osoby.",
-      "flavor": "Pamiętam zegarmistrza. Niebo było czerwone i padało fraktalnymi trójkątami. Czułem zapach fiołków i słyszałem, że coś bulgocze. Kobieta o świecących oczach i postrzępionej brodzie syczała na niebo. Wtedy się obudziłem.",
+      "flavor": "Pamiętam zegarmistrza. Niebo było czerwone i padało fraktalnymi trójkątami. Czuć było zapach fiołków i coś bulgotało. Kobieta o świecących oczach i postrzępionej brodzie syczała na niebo. Wtedy się obudziłam.",
       "name": "Senny Wędrowiec",
       "other": "Marzyciel Senny wskazuje na gracza. Pokaż żeton 1 dobrej i 1 złej postaci, 1 z nich jest żeton wskazanej osoby."
     },
@@ -295,20 +295,20 @@
     },
     "fanggu": {
       "ability": "Każdej nocy* wybierz gracza: umiera. Pierwszy Outsider, którego tak zabijesz, staje się złym Fang Gu, a ty umierasz zamiast niego. [+1 Outsider]",
-      "flavor": "Wasze ściany i wasza broń są jako dym we snach.",
+      "flavor": "Wasze ściany i wasza broń są jako dym w snach.",
       "name": "Fang Gu",
       "other": "Fang Gu wybiera gracza. :reminder: Jeżeli wybrał Outsidera (tylko raz): Zamień żeton Outsidera na dodatkowy żeton Fang Gu. Uśpij Fang Gu i obudź cel. Pokaż kartę *JESTEŚ* i żeton Fang Gu i kciuk w dół. :reminder:"
     },
     "farmer": {
       "ability": "Gdy umrzesz w nocy, żywy dobry gracz staje się Rolnikiem.",
-      "flavor": "Nawet wysoko urodzeni i potężni potrzebują jedzenia na swoich stołach. Bez nas, miasto umrze z głodu.",
+      "flavor": "Nawet najpotężniejsi władcy potrzebują jedzenia na stole. Bez nas miasto umrze z głodu.",
       "name": "Rolnik",
       "other": "Jeżeli Rolnik umarł tej nocy, obudź żywego dobrego gracza. Pokaż mu kartę *JESTEŚ* i żeton Rolnika."
     },
     "fearmonger": {
       "ability": "Każdej nocy wybierz gracza: jeżeli go nominujesz i zostanie stracony, jego drużyna przegrywa. Wszyscy gracze wiedzą, że wybrałeś nowego gracza.",
       "first": "Siewca Strachu wybiera gracza. :reminder: Ogłoś, że \"Siewca Strachu wybrał gracza\".",
-      "flavor": "Strzeż się patrzeć zbyt długo w Otchłań, aby Otchłań nie spojrzała w głąb ciebie.",
+      "flavor": "Strzeż się patrzenia zbyt długo w Otchłań, aby Otchłań nie spojrzała w głąb ciebie.",
       "name": "Siewca Strachu",
       "other": "Siewca Strachu wybiera gracza. :reminder: Jeżeli to inny gracz niż poprzedniej nocy, ogłoś że \"Siewca Strachu wybrał nowego gracza\"."
     },
@@ -319,28 +319,28 @@
     },
     "fibbin": {
       "ability": "Raz na grę 1 dobry gracz może otrzymać niepoprawne informacje.",
-      "flavor": "Ha-ha-ha. Ha-ha. Ha.",
+      "flavor": "Hi-hi-hi. Ha-ha. Ha.",
       "name": "Kłamczuszek"
     },
     "fiddler": {
       "ability": "Raz na grę Demon w sekrecie wybiera gracza przeciwnej drużyny: wszyscy gracze wybierają, który z tych graczy wygrywa.",
-      "flavor": "Zakładam się o własne życie, że nie dasz mi rady w konkursie na skrzypce, ty zezowaty pawianie! Pójdziemy na całość, zbierzemy knajpianych grajków i zrobimy tłum. Rano skopię ci tyłek, ty hałaśliwy gamoniu.",
+      "flavor": "Założę się o własne życie, że nie dasz mi rady w konkursie skrzypcowym, ty zezowaty pawianie! Pójdziemy na całość, zbierzemy knajpianych grajków i zrobimy tłum. Rano skopię ci tyłek, ty hałaśliwy gamoniu.",
       "name": "Skrzypek"
     },
     "fisherman": {
       "ability": "Raz na grę, podczas dnia, odwiedź Bajarza po jakąś radę, która pomoże twojej drużynie wygrać.",
-      "flavor": "To był mój ulubiony odcinek rzeki...widzisz jak słońce tworzy tęczę od klasztoru aż po rynek? To było najlepsze miejsce na grubą rybę. I im starszy się staję, tym i one były grubsze.",
+      "flavor": "To był mój ulubiony odcinek rzeki... widzisz jak słońce tworzy tęczę od klasztoru aż po rynek? To było najlepsze miejsce na grubą rybę. A im się robiłem starszy, tym większe były te ryby.",
       "name": "Rybak"
     },
     "flowergirl": {
       "ability": "Każdej nocy* dowiadujesz się czy Demon głosował za dnia.",
-      "flavor": "Wczorajsze fiołki uwiędły i umarły, jednak dzisiaj moje maki kwitną.",
+      "flavor": "Wczorajsze fiołki zwiędły i uschły, ale dzisiaj kwitną maki.",
       "name": "Kwiaciarka",
       "other": "Potaknij albo zaprzecz głową."
     },
     "fool": {
       "ability": "Gdy pierwszy raz umierasz, nie umierasz.",
-      "flavor": "...i Król powiedział: \"Co?! Nigdy nie posiadałem nawet gumowych pantalonów, a co dopiero armatę na budyń!\" Hej-ho! O wspaniały dniu!",
+      "flavor": "...a Król powiedział: \"Co?! Nigdy nie miałem nawet gumowych pantalonów, a co dopiero armatę na budyń!\" Hej-ho! Co za dzień!",
       "name": "Błazen"
     },
     "fortuneteller": {
@@ -358,7 +358,7 @@
     },
     "gangster": {
       "ability": "Raz dziennie, możesz zdecydować się na zabicie żywego sąsiada, jeżeli twój drugi żywy sąsiad się zgodzi.",
-      "flavor": "Podobają mi się twoje buty. Cóż za niepohamowana strata gdyby przydarzył ci się jakiś wypadek i miały by się uszkodzić. Jak już o tym mowa, to twoje spinki do mankietów też mi się podobają.",
+      "flavor": "Ładne masz buty. Szkoda by było, gdyby przydarzył ci się jakiś wypadek i się zniszczyły. Jak już o tym mowa, to spinki do mankietów też masz fajne.",
       "name": "Gangster"
     },
     "gardener": {
@@ -1073,7 +1073,7 @@
     },
     "cacklejack": {
       "ability": "Każdego dnia wybierz gracza: inny gracz zmienia postać tej nocy.",
-      "flavor": "Przewód α Do przewodu β. WłĄczyć. BrzĘczyK wyłĄczony. GAzOinks! Ramiona proSt0. Palęc do n0$a. tEraaaZz nie ru$ZaĆ siĘ. BoiNgo-banGo! Ha-ha-ha!",
+      "flavor": "Przewód α Do przewodu β. WłĄczyć. BrzĘczyK wyłĄczony. ŻEżkUrczę! Ramiona proSt0. Palęc do n0$a. tEraaaZz nie ru$ZaĆ siĘ. BoiNgo-banGo! Ha-ha-ha!",
       "name": "Cacklejack",
       "other": "Przed świtem, wybierz gracza nie oznaczonego *NIE JA*. Obudź go, pokaż kartę *JESTEŚ* i jego nowy żeton postaci."
     },
