@@ -409,18 +409,18 @@
     "grandmother": {
       "ability": "Zaczynasz grę wiedząc o dobrym graczu i jego postaci. Jeżeli zabije go Demon, to ty też umierasz.",
       "first": "Wskaż na gracza oznaczonego jako wnuczek i pokaż jego żeton postaci.",
-      "flavor": "Ubierz kurteczkę jak idziesz na dwór, skarbie. I jeszcze termos. I szaliczek. Mam słabe serce, jak wiesz. Co bym zrobiła gdybyś dostał kataru...albo gorzej?",
+      "flavor": "Ubierz kurteczkę jak idziesz na dwór, skarbie. I jeszcze termos. I szaliczek. Wiesz, że mam słabe serce. Co bym zrobiła, gdybyś złapał przeziębienie... albo coś gorszego?",
       "name": "Babcia",
       "other": "Jeżeli wnuczek został zabity przez Demona, Babcia umiera także. :reminder:"
     },
     "gunslinger": {
       "ability": "Każdego dnia, po podliczeniu pierwszego głosowania, możesz wybrać gracza który zagłosował: umiera.",
-      "flavor": "Najwyższy czas aby ktoś wziął sprawy w swoje ręce. Tym kimś...jestem ja.",
+      "flavor": "Najwyższy czas, aby ktoś wziął sprawy w swoje ręce. Tym kimś... jestem ja.",
       "name": "Rewolwerowiec"
     },
     "harlot": {
       "ability": "Każdej nocy* wybierz żywego gracza: jeżeli się zgodzą, poznajesz ich postać, ale oboje możecie zginąć.",
-      "flavor": "Enchanté, marynarzu. Wyglądasz na kogoś kto potrzebuje wysłuchania swoich trosk. Jestem dobrym słuchaczem. Bardzo, bardzo dobrym.",
+      "flavor": "Enchanté, marynarzu. Wyglądasz, jakbyś potrzebował się komuś wyżalić. A ja dobrze słucham. Bardzo, bardzo dobrze.",
       "name": "Nierządnica",
       "other": "Nierządnica wskazuje na żywego gracza. Uśpij ją. Obudź wybranego gracza i pokaż mu kartę *TA POSTAĆ CIĘ WYBRAŁA* i żeton Nierządnicy. Jeżeli ten gracz przytaknie (tak) to obudź Nierządnicę i pokaż jej żeton wybranego gracza. Następnie możesz zdecydować czy oboje umrą. :reminder: :reminder:"
     },
@@ -444,12 +444,12 @@
     },
     "heretic": {
       "ability": "Ktokolwiek wygra przegrywa, a kto przegra wygrywa, nawet jak jesteś martwy.",
-      "flavor": "Po tym jak grad roztrzaskał i rozsypał szkło okien katedry, roztapia się wnikając w ziemię, jak umierające jagnię w pustynnym słońcu. Taka jest metafora szaleńca.",
+      "flavor": "Rozstrzaskawszy dach i witraże katedry, grad roztapia się, wnikając w ziemię, jak jagnię umierające w pustynnym słońcu. Tak brzmi przypowieść o szaleńcu.",
       "name": "Heretyk"
     },
     "hermit": {
       "ability": "Posiadasz umiejętności wszystkich Outsiderów. [-0 albo -1 Outsider]",
-      "flavor": "W zaginionych i zapomnianych miejscach ziemi, duszy światło bije.",
+      "flavor": "W zaginionych i zapomnianych zakątkach ziemi, bije duszy światło.",
       "name": "Pustelnik"
     },
     "highpriestess": {
@@ -474,7 +474,7 @@
     },
     "innkeeper": {
       "ability": "Każdej nocy* wybierz 2 graczy: nie mogą umrzeć tej nocy, ale jeden z nich jest pijany do zmierzchu.",
-      "flavor": "Wejdź do środka, strudzony wędrowcze i pozwól odpocząć swoim zmęczonym kością. Pij i raduj się, bo legiony Czarnego Pana nie będą cię niepokoić tej nocy.",
+      "flavor": "Wejdź do środka, strudzony wędrowcze i pozwól odpocząć swoim zmęczonym kościom. Pij i raduj się, bo legiony Mrocznego Pana nie będą cię niepokoić tej nocy.",
       "name": "Karczmarz",
       "other": "Karczmarz wybiera 2 graczy. :reminder: :reminder: :reminder:"
     },
@@ -491,7 +491,7 @@
     },
     "juggler": {
       "ability": "Pierwszego dnia publicznie zgadnij do 5 postaci graczy. Tej nocy dowiadujesz się ilu zgadłeś poprawnie.",
-      "flavor": "Na potrzeby mojej następnej sztuczki, wedle zamówienia, będę potrzebował kwiatka, woreczka fasoli, węża zabawki, pędzel i zmotoryzowany napędzany paliwem przyrząd do skracania żywopłotów. Ostrzegam, ta sztuczka może być moją ostatnią. O rany.",
+      "flavor": "Na potrzeby mojej następnej sztuczki, wedle zamówienia, będę potrzebował kwiatka, woreczka fasoli, węża-zabawki, pędzel i zmotoryzowany napędzany paliwem przyrząd do skracania żywopłotów. Ostrzegam, ta sztuczka może być moją ostatnią. O rety.",
       "name": "Żongler",
       "other": "Pokarz palcem."
     },
