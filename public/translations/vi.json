@@ -904,7 +904,7 @@
     "summoner": {
       "ability": "Bạn biết được 3 nhân vật không có trong ván chơi. Vào đêm thứ 3, chọn một người chơi: họ trở thành một Ác quỷ xấu do bạn chọn. [Không có Ác quỷ]",
       "first": "Cho thấy token *NHỮNG NHÂN VẬT NÀY KHÔNG CÓ TRONG VÁN CHƠI*. Cho thấy 3 token những nhân vật đó.",
-      "flavor": "Chào mừng những người bảo vệ phương Bắc; bởi trí tuệ của ta, ngươi đã bị cắt đứt. Chào mừng những người bảo vệ phương Đông; bởi ý chí của ta, ngươi đã bị chế ngự. Chào mừng những người bảo vệ phương Nam; bởi những gì nằm ở phía bên kia, bí ẩn đã được hé lộ. Chào mừng những người bảo vệ phương Tây; một lá chắn trong bóng tối",
+      "flavor": "Chào mừng những người bảo vệ phương Bắc; bởi trí tuệ của ta, ngươi đã bị cắt đứt. Chào mừng những người bảo vệ phương Đông; bởi ý chí của ta, ngươi đã bị chế ngự. Chào mừng những người bảo vệ phương Nam; bởi những gì nằm ở phía bên kia, bí ẩn đã được hé lộ. Chào mừng những người bảo vệ phương Tây; một lá chắn trong bóng tối.",
       "name": "Summoner",
       "other": "Thay thế token ghi chú của Summoner đến đêm tương ứng. :reminder: Nếu đây là đêm 3, Summoner chọn một người & nhân vật Ác quỷ. Cho Summoner đi ngủ. Gọi mục tiêu dậy. Cho xem token *BẠN LÀ* và nhân vật Ác quỷ & giơ ngón cái xuống."
     },
