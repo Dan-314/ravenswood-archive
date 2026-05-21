@@ -173,7 +173,7 @@
       "other": "Sisäkkö valitsee 2 elävää pelaajaa. Anna sormimerkki."
     },
     "chef": {
-      "ability": "Aloitat tietäen, kuinka monta paria pahoja pelaajia on.",
+      "ability": "Aloitat tietäen, kuinka monta paria pahoja pelaajia istuu vierekkäin.",
       "first": "Anna sormimerkki.",
       "flavor": "Illan pöytävaraukset tuntuvat oudoilta. Rouva Mayweather ei ole ikuna kuunaan pitänyt seuraa tuolle Hudson Lane -lurjukselle. Silti, tänä iltana he jakavat pöydän kahdelle. Outoa.",
       "name": "Kokki"
