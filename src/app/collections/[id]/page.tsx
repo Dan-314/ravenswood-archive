@@ -7,13 +7,7 @@ import { SearchPage } from '@/app/SearchPage'
 import { searchScripts } from '@/lib/search'
 import type { Metadata } from 'next'
 
-export const revalidate = 300
-
-export async function generateStaticParams() {
-  const supabase = createAnonClient()
-  const { data } = await supabase.from('collections').select('id')
-  return (data ?? []).map((c) => ({ id: c.id }))
-}
+export const dynamic = 'force-dynamic'
 
 interface Props {
   params: Promise<{ id: string }>

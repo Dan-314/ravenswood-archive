@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   alternates: { canonical: '/collections' },
 }
 
-export const revalidate = 300
+export const dynamic = 'force-dynamic'
 
 export default async function CollectionsPage() {
   const supabase = createAnonClient()

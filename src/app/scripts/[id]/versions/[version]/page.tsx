@@ -7,7 +7,7 @@ import { ScriptSidebar } from '../../ScriptSidebar'
 import { UserScriptActions } from '../../UserScriptActions'
 import type { Metadata } from 'next'
 
-export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 interface Props {
   params: Promise<{ id: string; version: string }>
