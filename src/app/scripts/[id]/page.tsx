@@ -1,6 +1,8 @@
+import { Suspense } from 'react'
 import { createAnonClient } from '@/lib/supabase/anon'
 import { notFound } from 'next/navigation'
 import { BackToSearchLink } from '@/components/BackToSearchLink'
+import { UploadSuccessBanner } from './UploadSuccessBanner'
 import { ScriptDetailClient } from './ScriptDetailClient'
 import { ScriptSidebar } from './ScriptSidebar'
 import { UserScriptActions } from './UserScriptActions'
@@ -74,6 +76,9 @@ export default async function ScriptDetailPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <Suspense>
+        <UploadSuccessBanner id={id} />
+      </Suspense>
       <BackToSearchLink />
 
       <ScriptDetailClient
