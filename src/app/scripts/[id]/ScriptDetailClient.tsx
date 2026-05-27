@@ -12,12 +12,14 @@ import { DEFAULT_PDF_OPTIONS } from "@/lib/botc/types";
 interface ScriptDetailClientProps {
   rawJson: unknown;
   defaultColor?: string;
+  scriptType?: "full" | "teensy";
   sidebar: ReactNode;
 }
 
 export function ScriptDetailClient({
   rawJson,
   defaultColor,
+  scriptType,
   sidebar,
 }: ScriptDetailClientProps) {
   const { preferences, loading: prefsLoading } = useUserPreferences();
@@ -69,6 +71,7 @@ export function ScriptDetailClient({
     <ScriptPreviewLayout
       rawJson={rawJson}
       options={options}
+      scriptType={scriptType}
       sidebarPosition="left"
       sidebar={languageSidebar}
     />

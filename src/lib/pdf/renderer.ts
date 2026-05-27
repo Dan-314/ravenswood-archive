@@ -63,6 +63,7 @@ export async function renderToHtml(
   options: PdfOptions,
   appUrl: string,
   assetsUrl: string,
+  scriptType?: "full" | "teensy",
 ): Promise<string> {
   const { renderToStaticMarkup } = await import("react-dom/server");
 
@@ -73,7 +74,10 @@ export async function renderToHtml(
   if (translations) {
     parsed = applyTranslationsToScript(parsed, translations);
   }
-  const nightOrders = calculateNightOrders(parsed, rawJson as Script);
+  const nightOrders = calculateNightOrders(parsed, rawJson as Script, {
+    forceInfoSteps: options.showTeensyInfoSteps,
+    scriptType,
+  });
 
   const docProps = { script: parsed, options, nightOrders, assetsUrl, translations };
 

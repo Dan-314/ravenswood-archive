@@ -9,6 +9,7 @@ interface ScriptPreviewLayoutProps {
   options?: PdfOptions;
   defaultColor?: string;
   language?: string;
+  scriptType?: "full" | "teensy";
   onAppearanceChange?: (appearance: PdfOptions["appearance"], iconScale: number) => void;
   onNightAppearanceChange?: (nightAppearance: PdfOptions["nightAppearance"]) => void;
   sidebar: ReactNode;
@@ -21,6 +22,7 @@ export function ScriptPreviewLayout({
   options,
   defaultColor,
   language,
+  scriptType,
   onAppearanceChange,
   onNightAppearanceChange,
   sidebar,
@@ -34,6 +36,7 @@ export function ScriptPreviewLayout({
         options={options}
         defaultColor={defaultColor}
         language={language}
+        scriptType={scriptType}
         className="w-full"
         onAppearanceChange={onAppearanceChange}
         onNightAppearanceChange={onNightAppearanceChange}

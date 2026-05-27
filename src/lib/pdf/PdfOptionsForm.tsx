@@ -289,6 +289,11 @@ export function PdfOptionsForm({ options, onUpdate }: PdfOptionsFormProps) {
           </label>
 
           <label className="flex items-center gap-2 cursor-pointer">
+            <Checkbox checked={options.showTeensyInfoSteps} onCheckedChange={(checked) => update("showTeensyInfoSteps", !!checked)} />
+            <span className="text-sm">Keep Minion/Demon info on teensy scripts</span>
+          </label>
+
+          <label className="flex items-center gap-2 cursor-pointer">
             <Checkbox checked={options.includeMargins} onCheckedChange={(checked) => update("includeMargins", !!checked)} />
             <span className="text-sm">Include margins</span>
           </label>

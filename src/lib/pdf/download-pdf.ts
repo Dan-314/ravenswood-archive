@@ -3,17 +3,18 @@ interface DownloadPdfParams {
   options: unknown
   filename: string
   scriptId?: string
+  scriptType?: "full" | "teensy"
 }
 
 /**
  * Fetch a generated PDF from the API and trigger a browser download.
  * Throws on failure with a user-safe error message.
  */
-export async function downloadPdf({ rawJson, options, filename, scriptId }: DownloadPdfParams): Promise<void> {
+export async function downloadPdf({ rawJson, options, filename, scriptId, scriptType }: DownloadPdfParams): Promise<void> {
   const response = await fetch('/api/generate-pdf', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ rawJson, options, filename, scriptId }),
+    body: JSON.stringify({ rawJson, options, filename, scriptId, scriptType }),
   })
 
   if (!response.ok) {
