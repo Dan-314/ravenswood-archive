@@ -6,6 +6,7 @@ import { Settings2 } from 'lucide-react'
 import { VersionManager } from './VersionManager'
 import { MarkdownDescription } from '@/components/MarkdownDescription'
 import { TranslatedJsonButtons } from './TranslatedJsonButtons'
+import { OpenInScriptToolButton } from './OpenInScriptToolButton'
 import { DownloadCount } from './DownloadCount'
 import { FavouriteCount } from './FavouriteCount'
 
@@ -83,6 +84,7 @@ export function ScriptSidebar({
 
       <div className="flex flex-wrap gap-2">
         <TranslatedJsonButtons rawJson={rawJson} scriptId={scriptId} name={name} versionLabel={versionLabel} />
+        <OpenInScriptToolButton rawJson={rawJson} />
         {userActions}
         <Link href={`/scripts/${scriptId}/customise`}>
           <Button variant="outline" size="sm" className="gap-1.5">
