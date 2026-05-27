@@ -41,7 +41,7 @@ export function SearchPage({ characters, collections, favouritedBy, lockedCollec
 
   const syncURL = React.useCallback(
     (params: SearchParams & { query?: string }) => {
-      // Strip locked collection from URL — it's implicit in the route
+      // Strip locked collection from URL - it's implicit in the route
       const toSerialize = { ...params }
       if (lockedCollectionId && toSerialize.collectionIds) {
         toSerialize.collectionIds = toSerialize.collectionIds.filter((id) => id !== lockedCollectionId)
@@ -224,7 +224,7 @@ export function SearchPage({ characters, collections, favouritedBy, lockedCollec
       </form>
 
       <div className="flex gap-8">
-        {/* Filters sidebar — desktop only */}
+        {/* Filters sidebar - desktop only */}
         <div className="hidden md:block w-56 shrink-0">
           {filterPanel}
         </div>

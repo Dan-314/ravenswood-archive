@@ -39,7 +39,7 @@ create trigger script_downloads_after_insert
   after insert on script_downloads
   for each row execute function increment_download_count();
 
--- Atomic dedup insert — Supabase JS can't target functional indexes with .upsert()
+-- Atomic dedup insert - Supabase JS can't target functional indexes with .upsert()
 create or replace function track_download(p_script_id uuid, p_ip_hash text)
 returns void
 language plpgsql

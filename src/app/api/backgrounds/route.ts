@@ -21,7 +21,7 @@ export async function GET() {
           attribution = data.attribution;
         }
       } catch {
-        // No sidecar file — that's fine
+        // No sidecar file - that's fine
       }
       return {
         value: `backgrounds/${filename}`,

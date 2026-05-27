@@ -7,5 +7,5 @@ create table api_keys (
   last_used_at timestamptz
 );
 
--- No public access — only service role can read/write
+-- No public access - only service role can read/write
 alter table api_keys enable row level security;

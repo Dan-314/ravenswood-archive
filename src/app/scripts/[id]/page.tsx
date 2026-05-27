@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { data } = await supabase.from('scripts').select('name, author, description').eq('id', id).single()
   if (!data) return { title: 'Script not found' }
   const title = `${data.name}${data.author ? ` by ${data.author}` : ''}`
-  const description = data.description || `${data.name} — a Blood on the Clocktower script${data.author ? ` by ${data.author}` : ''}`
+  const description = data.description || `${data.name} - a Blood on the Clocktower script${data.author ? ` by ${data.author}` : ''}`
   return {
     title,
     description,

@@ -212,7 +212,7 @@ export function CompetitionDetail({ competition, entries, userScripts, userId, i
                   </td>
                   <td className="py-3 pr-4 text-muted-foreground hidden sm:table-cell">
                     <Link href={`/scripts/${entry.script_id}`} className="block" tabIndex={-1}>
-                      {entry.script.author ?? '—'}
+                      {entry.script.author ?? '-'}
                     </Link>
                   </td>
                   <td className="py-3">
@@ -272,7 +272,7 @@ function SubmitEntryForm({
       if (!scriptName) setScriptName(result.name)
       if (!scriptAuthor && result.author) setScriptAuthor(result.author)
     } catch {
-      setParseError('Invalid JSON — please paste a valid BotC script.')
+      setParseError('Invalid JSON - please paste a valid BotC script.')
     }
   }
 

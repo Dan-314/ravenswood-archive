@@ -92,7 +92,7 @@ export function getIconUrl(character: ResolvedCharacter): string {
     if (Array.isArray(character.image) && character.image.length > 0) return character.image[0];
   }
 
-  // Official character — use TPI CDN
+  // Official character - use TPI CDN
   const edition = character.edition ?? null;
   if (edition) {
     const alignment =

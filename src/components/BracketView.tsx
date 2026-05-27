@@ -206,7 +206,7 @@ function MatchupCard({
       entry_id: entryId,
     })
     setVoting(false)
-    // No router.refresh() needed — realtime subscription handles the update
+    // No router.refresh() needed - realtime subscription handles the update
   }
 
   return (

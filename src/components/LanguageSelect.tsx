@@ -14,7 +14,7 @@ interface LanguageSelectProps {
 }
 
 function formatLabel(lang: LanguageEntry) {
-  return `${lang.nativeName} — ${lang.completion}%`;
+  return `${lang.nativeName} - ${lang.completion}%`;
 }
 
 export function LanguageSelect({ value, onChange }: LanguageSelectProps) {

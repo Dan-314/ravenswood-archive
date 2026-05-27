@@ -160,7 +160,7 @@ export function parseScriptJson(json: unknown): {
   const name = typeof meta?.name === 'string' ? meta.name : 'Untitled'
   const author = typeof meta?.author === 'string' ? meta.author : null
 
-  // All other elements are characters — can be strings ("washerwoman") or objects ({ "id": "washerwoman" })
+  // All other elements are characters - can be strings ("washerwoman") or objects ({ "id": "washerwoman" })
   const characterIds = json
     .filter((el: unknown) => {
       if (typeof el === 'string') return true
@@ -180,7 +180,7 @@ export function parseScriptJson(json: unknown): {
   // Teensy scripts typically have 10 or fewer characters
   const scriptType: ScriptType = characterIds.length <= 10 ? 'teensy' : 'full'
 
-  // Carousel characters — checked against the known list from roles.json (edition: "carousel")
+  // Carousel characters - checked against the known list from roles.json (edition: "carousel")
   const CAROUSEL_IDS = new Set(["steward","knight","noble","shugenja","pixie","bountyhunter","highpriestess","balloonist","general","preacher","villageidiot","king","cultleader","acrobat","lycanthrope","alsaahir","engineer","nightwatchman","huntsman","fisherman","princess","alchemist","cannibal","amnesiac","farmer","choirboy","banshee","magician","poppygrower","atheist","hermit","ogre","golem","plaguedoctor","hatter","politician","zealot","damsel","snitch","heretic","puzzlemaster","mezepheles","harpy","fearmonger","psychopath","wizard","widow","xaan","marionette","wraith","summoner","goblin","boomdandy","vizier","organgrinder","boffin","yaggababble","lilmonsta","ojo","kazali","legion","lordoftyphon","lleech","alhadikhia","riot","leviathan","gangster","gnome"])
   const hasCarousel = characterIds.some((id) => CAROUSEL_IDS.has(id.toLowerCase().replace(/_/g, '')))
 

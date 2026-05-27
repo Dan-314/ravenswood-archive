@@ -14,8 +14,8 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   alternates: { canonical: '/' },
   title: {
-    default: 'Ravenswood Archive — Blood on the Clocktower Script Finder',
-    template: '%s — Ravenswood Archive',
+    default: 'Ravenswood Archive - Blood on the Clocktower Script Finder',
+    template: '%s - Ravenswood Archive',
   },
   description,
   keywords: [
@@ -31,12 +31,12 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     siteName: 'Ravenswood Archive',
-    title: 'Ravenswood Archive — Blood on the Clocktower Script Finder',
+    title: 'Ravenswood Archive - Blood on the Clocktower Script Finder',
     description,
   },
   twitter: {
     card: 'summary',
-    title: 'Ravenswood Archive — Blood on the Clocktower Script Finder',
+    title: 'Ravenswood Archive - Blood on the Clocktower Script Finder',
     description,
   },
 }

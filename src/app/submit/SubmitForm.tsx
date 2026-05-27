@@ -44,7 +44,7 @@ export default function SubmitForm() {
       if (!manualName) setManualName(result.name)
       if (!manualAuthor && result.author) setManualAuthor(result.author)
     } catch {
-      setParseError('Invalid JSON — please paste a valid BotC script.')
+      setParseError('Invalid JSON - please paste a valid BotC script.')
     }
   }
 
@@ -206,7 +206,7 @@ export default function SubmitForm() {
             placeholder="1.0.0"
           />
           <p className="text-xs text-muted-foreground">
-            <strong>Major</strong>.Minor.Patch — Major: redesign, Minor: character changes, Patch: description/metadata fixes
+            <strong>Major</strong>.Minor.Patch - Major: redesign, Minor: character changes, Patch: description/metadata fixes
           </p>
         </div>
 

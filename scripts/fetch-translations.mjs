@@ -158,7 +158,7 @@ async function fetchComponentLabels(langCode, component, contextMap, includeTeam
       }
     }
   } catch {
-    // Component may not have this language — skip silently
+    // Component may not have this language - skip silently
   }
   return { teams, ui };
 }

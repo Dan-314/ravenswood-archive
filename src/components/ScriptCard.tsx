@@ -21,7 +21,7 @@ export function ScriptRow({ script }: ScriptRowProps) {
         </Link>
       </td>
       <td className="py-3 pr-4 text-sm text-muted-foreground hidden sm:table-cell">
-        {script.author ?? '—'}
+        {script.author ?? '-'}
       </td>
       <td className="py-3 pr-4">
         <Badge variant={script.script_type === 'teensy' ? 'secondary' : 'outline'} className="text-xs">
