@@ -25,9 +25,12 @@ export default function SubmitForm() {
   const [description, setDescription] = React.useState('')
   const [versionLabel, setVersionLabel] = React.useState('1.0.0')
   const [scriptType, setScriptType] = React.useState<'full' | 'teensy'>('full')
+  const [typeTouched, setTypeTouched] = React.useState(false)
   const [status, setStatus] = React.useState<Status>('idle')
   const [errorMsg, setErrorMsg] = React.useState('')
   const [hasHomebrew, setHasHomebrew] = React.useState(false)
+  const [uploadAnother, setUploadAnother] = React.useState(false)
+  const [newScriptId, setNewScriptId] = React.useState<string | null>(null)
   const [parsed, setParsed] = React.useState<ReturnType<typeof parseScriptJson> | null>(null)
   const [parseError, setParseError] = React.useState('')
 
@@ -41,6 +44,8 @@ export default function SubmitForm() {
       const result = parseScriptJson(json)
       setParsed(result)
       setHasHomebrew(result.hasHomebrew)
+
+      if (!typeTouched) setScriptType(result.characterIds.length < 13 ? 'teensy' : 'full')
       if (!manualName) setManualName(result.name)
       if (!manualAuthor && result.author) setManualAuthor(result.author)
     } catch {
@@ -66,7 +71,7 @@ export default function SubmitForm() {
     }
     const finalType = scriptType
 
-    const { error } = await supabase.from('scripts').insert({
+    const { data, error } = await supabase.from('scripts').insert({
       name: manualName || parsed.name,
       author: manualAuthor || parsed.author || null,
       description: description.trim() || null,
@@ -78,7 +83,7 @@ export default function SubmitForm() {
       raw_json: JSON.parse(jsonText),
       submitted_by: user.id,
       status: 'approved',
-    })
+    }).select('id').single()
 
     if (error) {
       if (error.code === '23505' && error.message.includes('scripts_json_hash_unique')) {
@@ -89,8 +94,13 @@ export default function SubmitForm() {
         setErrorMsg('Something went wrong. Please try again.')
       }
       setStatus('error')
-    } else {
+    } else if (uploadAnother) {
+      resetForm()
+      setNewScriptId(data.id)
       setStatus('success')
+    } else {
+      router.push(`/scripts/${data.id}?uploaded=1`)
+      router.refresh()
     }
   }
 
@@ -101,30 +111,26 @@ export default function SubmitForm() {
     setDescription('')
     setVersionLabel('1.0.0')
     setScriptType('full')
+    setTypeTouched(false)
     setHasHomebrew(false)
     setStatus('idle')
     setErrorMsg('')
+    setNewScriptId(null)
     setParsed(null)
     setParseError('')
   }
 
-  if (status === 'success') {
-    return (
-      <div className="max-w-lg flex flex-col gap-4">
-        <h1 className="text-2xl font-bold">Script uploaded!</h1>
-        <p className="text-muted-foreground">
-          Your script has been uploaded for review. It will appear in search results once approved.
-        </p>
-        <div className="flex gap-2">
-          <Button onClick={resetForm}>Upload another</Button>
-          <Button onClick={() => router.push('/')} variant="outline">Back to search</Button>
-        </div>
-      </div>
-    )
-  }
-
   return (
     <div className="max-w-lg flex flex-col gap-6">
+      {status === 'success' && newScriptId && (
+        <div className="rounded-md border border-green-600/40 bg-green-600/10 px-3 py-2 text-sm flex items-center justify-between gap-3">
+          <span>Script uploaded!</span>
+          <a href={`/scripts/${newScriptId}`} className="underline font-medium hover:text-foreground">
+            View script
+          </a>
+        </div>
+      )}
+
       <div>
         <h1 className="text-2xl font-bold">Upload a script</h1>
         <p className="text-muted-foreground text-sm mt-1">
@@ -212,7 +218,13 @@ export default function SubmitForm() {
 
         <div className="flex flex-col gap-2">
           <Label>Script type</Label>
-          <Select value={scriptType} onValueChange={(v) => setScriptType(v as typeof scriptType)}>
+          <Select
+            value={scriptType}
+            onValueChange={(v) => {
+              setScriptType(v as typeof scriptType)
+              setTypeTouched(true)
+            }}
+          >
             <SelectTrigger>
               <SelectValue />
             </SelectTrigger>
@@ -221,6 +233,11 @@ export default function SubmitForm() {
               <SelectItem value="teensy">Teensy</SelectItem>
             </SelectContent>
           </Select>
+          {parsed && !typeTouched && scriptType === 'teensy' && (
+            <p className="rounded-md border border-amber-600/40 bg-amber-600/10 px-3 py-2 text-sm">
+              Set to <strong>Teensy</strong> because this script has {parsed.characterIds.length} characters. Please double-check this is correct before submitting.
+            </p>
+          )}
         </div>
 
         <div className="flex items-center gap-2">
@@ -238,9 +255,19 @@ export default function SubmitForm() {
           <p className="text-sm text-destructive">{errorMsg}</p>
         )}
 
-        <Button type="submit" disabled={!parsed || status === 'loading'}>
-          {status === 'loading' ? 'Uploading…' : 'Upload'}
-        </Button>
+        <div className="flex items-center gap-3">
+          <Button type="submit" disabled={!parsed || status === 'loading'}>
+            {status === 'loading' ? 'Uploading…' : 'Upload'}
+          </Button>
+          <div className="flex items-center gap-2">
+            <Checkbox
+              id="uploadAnother"
+              checked={uploadAnother}
+              onCheckedChange={(checked) => setUploadAnother(checked === true)}
+            />
+            <Label htmlFor="uploadAnother" className="cursor-pointer">Upload another</Label>
+          </div>
+        </div>
       </form>
     </div>
   )
