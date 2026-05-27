@@ -79,6 +79,7 @@ export default async function ScriptDetailPage({ params }: Props) {
       <ScriptDetailClient
         rawJson={script.raw_json}
         defaultColor={accentColor}
+        scriptType={script.script_type}
         sidebar={
           <ScriptSidebar
             scriptId={id}

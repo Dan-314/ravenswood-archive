@@ -18,6 +18,7 @@ interface PdfPreviewProps {
   defaultColor?: string;
   className?: string;
   language?: string;
+  scriptType?: "full" | "teensy";
   onAppearanceChange?: (appearance: PdfOptions["appearance"], iconScale: number) => void;
   onNightAppearanceChange?: (nightAppearance: PdfOptions["nightAppearance"]) => void;
 }
@@ -43,7 +44,7 @@ const NIGHT_APPEARANCE_LEVELS: PdfOptions["nightAppearance"][] = [
   "mega-compact",
 ];
 
-export function PdfPreview({ rawJson, options, defaultColor, className, language, onAppearanceChange, onNightAppearanceChange }: PdfPreviewProps) {
+export function PdfPreview({ rawJson, options, defaultColor, className, language, scriptType, onAppearanceChange, onNightAppearanceChange }: PdfPreviewProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const innerRef = useRef<HTMLDivElement>(null);
   const [scale, setScale] = useState(1);
@@ -103,8 +104,11 @@ export function PdfPreview({ rawJson, options, defaultColor, className, language
     [rawParsed, translations],
   );
   const nightOrders = useMemo(
-    () => calculateNightOrders(parsed, rawJson as Script),
-    [parsed, rawJson],
+    () => calculateNightOrders(parsed, rawJson as Script, {
+      forceInfoSteps: pdfOptions.showTeensyInfoSteps,
+      scriptType,
+    }),
+    [parsed, rawJson, pdfOptions.showTeensyInfoSteps, scriptType],
   );
 
   // Overflow detection: auto-bump appearance level if content overflows

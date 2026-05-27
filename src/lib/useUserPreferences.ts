@@ -28,6 +28,7 @@ const PREFERENCE_KEYS: (keyof UserPreferences)[] = [
   "displayTravellers",
   "showNightSheet",
   "nightSheetOnly",
+  "showTeensyInfoSteps",
   "iconScale",
   "formatMinorWords",
   "inlineJinxIcons",

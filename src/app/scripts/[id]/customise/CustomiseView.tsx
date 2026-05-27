@@ -16,6 +16,7 @@ interface CustomiseViewProps {
   scriptName: string;
   defaultColor?: string;
   scriptId?: string;
+  scriptType?: "full" | "teensy";
   initialPreferences?: Partial<UserPreferences> | null;
 }
 
@@ -32,7 +33,7 @@ function buildInitialOptions(defaultColor?: string, preferences?: Partial<UserPr
   };
 }
 
-export function CustomiseView({ rawJson, scriptName, defaultColor, scriptId, initialPreferences }: CustomiseViewProps) {
+export function CustomiseView({ rawJson, scriptName, defaultColor, scriptId, scriptType, initialPreferences }: CustomiseViewProps) {
   const [downloading, setDownloading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [options, setOptions] = useState<PdfOptions>(() =>
@@ -48,7 +49,7 @@ export function CustomiseView({ rawJson, scriptName, defaultColor, scriptId, ini
     setError(null);
 
     try {
-      await downloadPdf({ rawJson, options, filename: scriptName, scriptId });
+      await downloadPdf({ rawJson, options, filename: scriptName, scriptId, scriptType });
     } catch (err) {
       setError(err instanceof Error ? err.message : "Unknown error");
     } finally {
@@ -60,6 +61,7 @@ export function CustomiseView({ rawJson, scriptName, defaultColor, scriptId, ini
     <ScriptPreviewLayout
       rawJson={rawJson}
       options={options}
+      scriptType={scriptType}
       onAppearanceChange={(appearance: PdfOptions["appearance"], iconScale: number) => {
         setOptions((prev) => ({ ...prev, appearance, iconScale }));
       }}

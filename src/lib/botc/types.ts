@@ -135,6 +135,7 @@ export interface PdfOptions {
   displayTravellers: boolean;
   showNightSheet: boolean;
   nightSheetOnly: boolean;
+  showTeensyInfoSteps: boolean;
   iconScale: number;
   formatMinorWords: boolean;
   numberOfCharacterSheets: number;
@@ -166,6 +167,7 @@ export const DEFAULT_PDF_OPTIONS: PdfOptions = {
   displayTravellers: true,
   showNightSheet: true,
   nightSheetOnly: false,
+  showTeensyInfoSteps: false,
   iconScale: 1.7,
   formatMinorWords: false,
   numberOfCharacterSheets: 1,

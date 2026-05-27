@@ -3,6 +3,7 @@ import type { Script, ScriptCharacter } from "./types";
 import type { NightOrderEntry, NightOrders, ParsedScript, NightMarker } from "./types";
 
 const NIGHT_MARKERS: NightMarker[] = ["dawn", "dusk", "minioninfo", "demoninfo"];
+const INFO_STEP_MARKERS: NightMarker[] = ["minioninfo", "demoninfo"];
 
 type RawCharMap = Map<string, { firstNight?: number; otherNight?: number }>;
 
@@ -87,19 +88,31 @@ function parseCustomNightOrder(
   return entries;
 }
 
+function stripInfoSteps(order: NightOrderEntry[]): NightOrderEntry[] {
+  return order.filter(
+    (entry) => !(typeof entry === "string" && INFO_STEP_MARKERS.includes(entry)),
+  );
+}
+
 export function calculateNightOrders(
   parsedScript: ParsedScript,
   rawScript: Script,
+  options: { forceInfoSteps?: boolean; scriptType?: "full" | "teensy" } = {},
 ): NightOrders {
   const rawCharMap = createRawCharMap(rawScript);
 
-  const first = parsedScript.metadata?.firstNight?.length
+  let first = parsedScript.metadata?.firstNight?.length
     ? parseCustomNightOrder(parsedScript.metadata.firstNight, parsedScript.characters)
     : buildNightOrder(parsedScript.characters, "firstNight", rawCharMap);
 
-  const other = parsedScript.metadata?.otherNight?.length
+  let other = parsedScript.metadata?.otherNight?.length
     ? parseCustomNightOrder(parsedScript.metadata.otherNight, parsedScript.characters)
     : buildNightOrder(parsedScript.characters, "otherNight", rawCharMap);
+
+  if (!options.forceInfoSteps && options.scriptType === "teensy") {
+    first = stripInfoSteps(first);
+    other = stripInfoSteps(other);
+  }
 
   return { first, other };
 }

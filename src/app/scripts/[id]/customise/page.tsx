@@ -25,7 +25,7 @@ export default async function CustomisePage({ params }: Props) {
 
   const { data: script } = await supabase
     .from('scripts')
-    .select('id, name, raw_json')
+    .select('id, name, raw_json, script_type')
     .eq('id', id)
     .single()
 
@@ -47,6 +47,7 @@ export default async function CustomisePage({ params }: Props) {
         scriptName={script.name}
         defaultColor={accentColor}
         scriptId={script.id}
+        scriptType={script.script_type}
         initialPreferences={preferences}
       />
     </div>

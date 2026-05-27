@@ -13,7 +13,7 @@ const MAX_PAYLOAD_SIZE = 500 * 1024; // 500KB
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json();
-    const { rawJson, options: userOptions, scriptId } = body;
+    const { rawJson, options: userOptions, scriptId, scriptType } = body;
 
     if (!rawJson || !Array.isArray(rawJson)) {
       return NextResponse.json({ error: "Invalid script format" }, { status: 400 });
@@ -37,7 +37,7 @@ export async function POST(request: NextRequest) {
     const assetsUrl = process.env.NEXT_PUBLIC_PDF_ASSETS_URL || `${appUrl}/pdf-assets/images`;
 
     // Render HTML
-    const html = await renderToHtml(rawJson, options, appUrl, assetsUrl);
+    const html = await renderToHtml(rawJson, options, appUrl, assetsUrl, scriptType);
 
     // Generate PDF
     const pdfBuffer = await generatePdf(html, options);
