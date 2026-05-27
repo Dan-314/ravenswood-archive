@@ -25,6 +25,7 @@ export default function SubmitForm() {
   const [description, setDescription] = React.useState('')
   const [versionLabel, setVersionLabel] = React.useState('1.0.0')
   const [scriptType, setScriptType] = React.useState<'full' | 'teensy'>('full')
+  const [typeTouched, setTypeTouched] = React.useState(false)
   const [status, setStatus] = React.useState<Status>('idle')
   const [errorMsg, setErrorMsg] = React.useState('')
   const [hasHomebrew, setHasHomebrew] = React.useState(false)
@@ -43,6 +44,8 @@ export default function SubmitForm() {
       const result = parseScriptJson(json)
       setParsed(result)
       setHasHomebrew(result.hasHomebrew)
+
+      if (!typeTouched) setScriptType(result.characterIds.length < 13 ? 'teensy' : 'full')
       if (!manualName) setManualName(result.name)
       if (!manualAuthor && result.author) setManualAuthor(result.author)
     } catch {
@@ -108,6 +111,7 @@ export default function SubmitForm() {
     setDescription('')
     setVersionLabel('1.0.0')
     setScriptType('full')
+    setTypeTouched(false)
     setHasHomebrew(false)
     setStatus('idle')
     setErrorMsg('')
@@ -214,7 +218,13 @@ export default function SubmitForm() {
 
         <div className="flex flex-col gap-2">
           <Label>Script type</Label>
-          <Select value={scriptType} onValueChange={(v) => setScriptType(v as typeof scriptType)}>
+          <Select
+            value={scriptType}
+            onValueChange={(v) => {
+              setScriptType(v as typeof scriptType)
+              setTypeTouched(true)
+            }}
+          >
             <SelectTrigger>
               <SelectValue />
             </SelectTrigger>
@@ -223,6 +233,11 @@ export default function SubmitForm() {
               <SelectItem value="teensy">Teensy</SelectItem>
             </SelectContent>
           </Select>
+          {parsed && !typeTouched && scriptType === 'teensy' && (
+            <p className="rounded-md border border-amber-600/40 bg-amber-600/10 px-3 py-2 text-sm">
+              Set to <strong>Teensy</strong> because this script has {parsed.characterIds.length} characters. Please double-check this is correct before submitting.
+            </p>
+          )}
         </div>
 
         <div className="flex items-center gap-2">
