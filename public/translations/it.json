@@ -176,7 +176,7 @@
       "ability": "Inizi conoscendo quante coppie di giocatori malvagi ci sono (seduti accanto).",
       "first": "Dai un segnale con le dita.",
       "flavor": "Le prenotazioni di questa sera sembrano strane. Mai prima d'ora la Sig.ra Mayweather ha frequentato quella canaglia di Hudson Lane. Eppure stasera, hanno un tavolo per due. Bizzarro.",
-      "name": "Chef"
+      "name": "Cuoco"
     },
     "choirboy": {
       "ability": "Se il Demone uccide il Re, scopri quale giocatore è il Demone. [+il Re]",
@@ -641,7 +641,7 @@
     },
     "nightwatchman": {
       "ability": "Una volta a partita, durante la notte, scegli un giocatore: quest'ultimo scopre che tu sei il Guardiano Notturno.",
-      "first": "Il Guardiano Notturno potrebbe scegliere un giocatore. Addormenta il Guardiano Notturno. Sveglia il bersaglio. Mostragli la tessera *QUESTO GIOCATORE È* e il gettone del Guardiano Notturno, poi indica il Guardiano Notturno.",
+      "first": "Il Guardiano Notturno potrebbe scegliere un giocatore. Addormenta il Guardiano Notturno. Sveglia il bersaglio. Mostragli la tessera *QUESTO GIOCATORE È* e il gettone del Guardiano Notturno, poi indica il Guardiano Notturno. :reminder:",
       "flavor": "La notte è fredda e solitaria, ma io ho la luna, le stelle, il vento fresco e il lieve tonfo degli stivali di pelle sul lastricato in pietra a tenermi compagnia. Laggiù, il lume di una candela trema dietro una cupa finestra...",
       "name": "Guardiano Notturno",
       "other": "Il Guardiano Notturno potrebbe scegliere un giocatore. Addormenta il Guardiano Notturno. Sveglia il bersaglio. Mostragli la tessera *QUESTO GIOCATORE È* e il gettone del Guardiano Notturno, poi indica il Guardiano Notturno. :reminder:"
