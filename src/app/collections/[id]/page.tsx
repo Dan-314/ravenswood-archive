@@ -7,8 +7,6 @@ import { SearchPage } from '@/app/SearchPage'
 import { searchScripts } from '@/lib/search'
 import type { Metadata } from 'next'
 
-export const dynamic = 'force-dynamic'
-
 interface Props {
   params: Promise<{ id: string }>
 }

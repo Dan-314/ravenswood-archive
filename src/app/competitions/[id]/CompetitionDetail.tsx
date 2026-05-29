@@ -13,6 +13,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog'
 import { createClient } from '@/lib/supabase/client'
 import { parseScriptJson } from '@/lib/search'
+import { revalidatePages } from '@/app/actions/revalidate'
 import { BracketView } from '@/components/BracketView'
 import type { Competition, CompetitionEntry, Script, CompetitionStatus } from '@/lib/supabase/types'
 
@@ -67,6 +68,7 @@ export function CompetitionDetail({ competition, entries, userScripts, userId, i
     if (updateError) {
       setError('Failed to update competition status. Please try again.')
     } else {
+      await revalidatePages(['/competitions'])
       router.refresh()
     }
     setActionLoading(false)
@@ -339,6 +341,7 @@ function SubmitEntryForm({
       setError('Failed to submit entry. Please try again.')
       setLoading(false)
     } else {
+      await revalidatePages(['/', '/sitemap.xml'])
       onDone()
     }
   }

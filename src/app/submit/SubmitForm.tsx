@@ -10,6 +10,7 @@ import { MarkdownEditor } from '@/components/MarkdownEditor'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
 import { Checkbox } from '@/components/ui/checkbox'
 import { createClient } from '@/lib/supabase/client'
+import { revalidatePages } from '@/app/actions/revalidate'
 import { parseScriptJson } from '@/lib/search'
 import { ScriptImageManager } from '@/components/ScriptImageManager'
 
@@ -95,12 +96,13 @@ export default function SubmitForm() {
       }
       setStatus('error')
     } else if (uploadAnother) {
+      await revalidatePages(['/', '/sitemap.xml'])
       resetForm()
       setNewScriptId(data.id)
       setStatus('success')
     } else {
+      await revalidatePages(['/', '/sitemap.xml'])
       router.push(`/scripts/${data.id}?uploaded=1`)
-      router.refresh()
     }
   }
 

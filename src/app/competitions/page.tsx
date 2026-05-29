@@ -8,7 +8,6 @@ export const metadata: Metadata = {
   alternates: { canonical: '/competitions' },
 }
 
-export const dynamic = 'force-dynamic'
 
 export default async function CompetitionsPage() {
   const supabase = createAnonClient()
