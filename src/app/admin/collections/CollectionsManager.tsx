@@ -8,6 +8,7 @@ import { Label } from '@/components/ui/label'
 import { Textarea } from '@/components/ui/textarea'
 import { createClient } from '@/lib/supabase/client'
 import { searchScripts } from '@/lib/search'
+import { revalidatePages } from '@/app/actions/revalidate'
 import type { Collection } from '@/lib/supabase/types'
 
 type CollectionWithCount = Collection & { scriptCount: number }
@@ -81,6 +82,7 @@ export function CollectionsManager({ initial }: CollectionsManagerProps) {
     } else if (data) {
       setCollections((prev) => [{ ...data, scriptCount: 0 }, ...prev])
       setCreating(false)
+      await revalidatePages(['/collections', '/'])
     }
     setFormLoading(false)
   }
@@ -105,6 +107,7 @@ export function CollectionsManager({ initial }: CollectionsManagerProps) {
         prev.map((c) => (c.id === editing.id ? { ...data, scriptCount: c.scriptCount } : c))
       )
       setEditing(null)
+      await revalidatePages(['/collections', `/collections/${editing.id}`, '/'])
     }
     setFormLoading(false)
   }
@@ -114,6 +117,7 @@ export function CollectionsManager({ initial }: CollectionsManagerProps) {
     if (!error) {
       setCollections((prev) => prev.filter((c) => c.id !== id))
       if (managingId === id) setManagingId(null)
+      await revalidatePages(['/collections', '/'])
     }
   }
 
@@ -156,6 +160,7 @@ export function CollectionsManager({ initial }: CollectionsManagerProps) {
       setCollections((prev) =>
         prev.map((c) => (c.id === managingId ? { ...c, scriptCount: c.scriptCount + 1 } : c))
       )
+      await revalidatePages([`/collections/${managingId}`, '/collections'])
     }
     // Silently ignore unique-violation errors (script already in collection)
     setScriptLoading(false)
@@ -176,6 +181,7 @@ export function CollectionsManager({ initial }: CollectionsManagerProps) {
       setCollections((prev) =>
         prev.map((c) => (c.id === managingId ? { ...c, scriptCount: Math.max(0, c.scriptCount - 1) } : c))
       )
+      await revalidatePages([`/collections/${managingId}`, '/collections'])
     }
     setScriptLoading(false)
   }

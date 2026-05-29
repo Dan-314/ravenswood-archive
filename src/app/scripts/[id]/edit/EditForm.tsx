@@ -12,6 +12,7 @@ import { Checkbox } from '@/components/ui/checkbox'
 import { createClient } from '@/lib/supabase/client'
 import { parseScriptJson } from '@/lib/search'
 import { ScriptImageManager } from '@/components/ScriptImageManager'
+import { revalidatePages } from '@/app/actions/revalidate'
 import type { Script } from '@/lib/supabase/types'
 
 interface EditFormProps {
@@ -118,8 +119,8 @@ export function EditForm({ script }: EditFormProps) {
         return
       }
 
+      await revalidatePages([`/scripts/${script.id}`, '/'])
       router.push(`/scripts/${script.id}`)
-      router.refresh()
       return
     }
 
@@ -164,8 +165,8 @@ export function EditForm({ script }: EditFormProps) {
       return
     }
 
+    await revalidatePages([`/scripts/${script.id}`, '/'])
     router.push(`/scripts/${script.id}`)
-    router.refresh()
   }
 
   return (

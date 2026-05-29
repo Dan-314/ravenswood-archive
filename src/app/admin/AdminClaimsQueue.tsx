@@ -5,6 +5,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { createClient } from '@/lib/supabase/client'
+import { revalidatePages } from '@/app/actions/revalidate'
 import type { ScriptClaimWithScript } from '@/lib/supabase/types'
 
 interface AdminClaimsQueueProps {
@@ -48,6 +49,9 @@ export function AdminClaimsQueue({ claims: initial, adminId }: AdminClaimsQueueP
       .eq('id', claim.id)
 
     if (!error) {
+      if (action === 'approved') {
+        await revalidatePages([`/scripts/${claim.script_id}`])
+      }
       setClaims((prev) => prev.filter((c) => c.id !== claim.id))
     }
 

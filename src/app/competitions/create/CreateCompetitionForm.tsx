@@ -7,6 +7,7 @@ import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Textarea } from '@/components/ui/textarea'
 import { createClient } from '@/lib/supabase/client'
+import { revalidatePages } from '@/app/actions/revalidate'
 
 export function CreateCompetitionForm() {
   const router = useRouter()
@@ -52,6 +53,7 @@ export function CreateCompetitionForm() {
       setError(insertError.message)
       setLoading(false)
     } else {
+      await revalidatePages(['/competitions', '/sitemap.xml'])
       router.push(`/competitions/${data.id}`)
     }
   }
