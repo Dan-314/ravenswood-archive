@@ -1045,7 +1045,7 @@
       "other": "Jos kukaan ei tänään kuollut, Vainaja valitsee pelaajan. :reminder:"
     },
     "bigwig": {
-      "ability": "Jokainen nimetty valitsee pelaajan: vain tämä saa äänestykseen olla äänessä & on raivokkaasti sitä mieltä, että nimetty on hyvä, tai saattaa itse kuolla.",
+      "ability": "Nimetyt valitsevat puolustuspuhujansa: tämän on oltava raivokkaasti sitä mieltä, että nimetty on hyvä, tai saattaa itse kuolla.",
       "flavor": "Turhamaisuus kysyy: \"Onko se suosittua?\" Pelkuri kysyy: \"Onko se turvallista?\" Omatunto kysyy: \"Onko se oikein?\" Kuka meistä kysyy: \"Onko se totta?\"",
       "name": "Per-Uukki"
     },
