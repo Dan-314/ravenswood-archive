@@ -101,9 +101,9 @@
     },
     "boffin": {
       "ability": "Demonilla (vaikka hän olisi juopunut tai myrkytetty) on ei-pelissä-olevan hyvän hahmon kyky. Kumpikin tiedätte mikä.",
-      "first": "Herätä Koekaniini ja Demoni. Näytä *TÄMÄ HAHMO VALITSI SINUT* & Koekaniini -merkit, näytä sitten ei-pelissä-oleva hyvä hahmo.",
+      "first": "Herätä Propellipää ja Demoni. Näytä *TÄMÄ HAHMO VALITSI SINUT* & Propellipää -merkit, näytä sitten ei-pelissä-oleva hyvä hahmo.",
       "flavor": "Tähtivetyä, valtaisa, inertti; hiili, happi, neonkaasut, kaikki pilalla. Molekyylikaaos, entropia, luo uusia kosmisia ilmiöitä, uudestisyntymistä atomikaaoksesta, tiheän aineen romahtamista. Kaikki pikkuruisessa pullossa.",
-      "name": "Koekaniini"
+      "name": "Propellipää"
     },
     "bonecollector": {
       "ability": "Kerran pelissä, yöllä*, valitse kuollut pelaaja: tämä saa kykynsä takaisin iltaan saakka.",
@@ -125,7 +125,7 @@
       "ability": "Aloitat pelin tietäen 1 pahan pelaajan. Jos tämä pelaaja kuolee, saat tietää toisen pahiksen tänä yönä. [1 Kyläläinen on paha]",
       "first": "Osoita \"TIEDÄT\" -merkittyä pelaajaa.",
       "flavor": "Yksin näitä, turmeluksen sairaalloisella löyhkällä päällystettyjä, katuja kävelen . Hajujen paksuus tunkeutuu sieraimiini, kutsumatta, inhosta polttaen. Ja odotuksesta. Tämän kurjan paikan sairaus kasvaa joka yö. Ja minä... olen parannuskeino.",
-      "name": "Palkkis",
+      "name": "Palkkionmetsästäjä",
       "other": "Jos *TIEDÄT* -merkitty pelaaja kuoli, osoita uutta *TIEDÄT* -merkittyä pelaajaa."
     },
     "buddhist": {
@@ -497,10 +497,10 @@
     },
     "kazali": {
       "ability": "Joka yö*, valitse pelaaja: tämä kuolee. [Valitset, mitkä pelaajat ovat mitkäkin kätyrit. -? - +? Hylkiötä]",
-      "first": "Ronkeli valitsee keistä tulee Kätyreitä. Herätä kohteet. Näytä *SINÄ OLET* ja Kätyri -merkit & peukku alas.",
+      "first": "Kazali valitsee keistä tulee Kätyreitä. Herätä kohteet. Näytä *SINÄ OLET* ja Kätyri -merkit & peukku alas.",
       "flavor": "Gon(z)a7les6. Ole ta7kka. Koneellist4mi4en on kÄänne10y. Vi9he oir3ita. Uudel\\{7\\}äätö.",
-      "name": "Ronkeli",
-      "other": "Ronkeli valitsee pelaajan. :reminder:"
+      "name": "Kazali",
+      "other": "Kazali valitsee pelaajan. :reminder:"
     },
     "king": {
       "ability": "Joka yö, jos kuolleita on vähintään yhtä paljon kuin eläviä, opit 1 elävän hahmon. Demoni tietää, että olet kuningas.",
@@ -1154,7 +1154,7 @@
     "isthealchemist": "On Alkemisti",
     "istheapprentice": "On Oppipoika",
     "isthedemon": "On Demoni",
-    "isthedrunk": "On Juoppo",
+    "isthedrunk": "Juoppolalli",
     "isthemarionette": "On Sätkynukke",
     "isthephilosopher": "On Filosofi",
     "know": "Tietää",
@@ -1197,7 +1197,7 @@
     "hat": "Hattu"
   },
   "jinxes": {
-    "alchemist-boffin": "Jos Alkemistilla on Koekaniinin kyky, ei Alkemisti saa tietää, mikä kyky Demonilla on.",
+    "alchemist-boffin": "Jos Alkemistilla on Propellipään kyky, ei Alkemisti saa tietää, mikä kyky Demonilla on.",
     "alchemist-marionette": "Alkemisti-Sätkynukella ei ole Sätkynuken kykyä & Sätkynukke on pelissä.",
     "alchemist-mastermind": "Alkemisti-Välkyllä ei ole Välkyn kykyä, eikä Välkky ole pelissä.",
     "alchemist-organgrinder": "Jos Alkemistilla on Posetiivarin kyky, on Posetiivarikin pelissä. Jos molemmat ovat raittiita, molemmat ovatkin juopuneita.",
@@ -1222,9 +1222,9 @@
     "boffin-heretic": "Demonilla ei voi olla Kerettiläisen kykyä.",
     "boffin-ogre": "Demonilla ei voi olla Mörön kykyä.",
     "boffin-politician": "Demonilla ei voi olla Poliitikon kykyä.",
-    "boffin-villageidiot": "Jos käytettävissä on ylimääräinen hahmomerkki, Koekaniini voi antaa Demonille Kylähullun kyvyn.",
+    "boffin-villageidiot": "Jos käytettävissä on ylimääräinen hahmomerkki, Propellipää voi antaa Demonille Kylähullun kyvyn.",
     "boomdandy-plaguedoctor": "Jos Tarinankertoja saisi Ruutikeikarin-kyvyn, yksi pelaajista muuttuu Ruutikeikariksi.",
-    "bountyhunter-kazali": "Jos Ronkeli muuttaa Palkkiksen Kätyrikseen, ei pahaa Kyläläistä luoda.",
+    "bountyhunter-kazali": "Jos Kazali muuttaa Palkkionmetsästäjän Kätyrikseen, pahaa Kyläläistä ei luoda.",
     "bountyhunter-philosopher": "Jos Filosofi saa Palkkionmetsästäjän kyvyn, yksi Kyläläinen saattaa muuttua pahaksi.",
     "butler-cannibal": "Jos Kannibaali saa Hovimestarin kyvyn, kerro Kannibaalille tästä.",
     "butler-organgrinder": "Jos Posetiivari aiheuttaa silmät kiinni -äänestyksen, Hovimestari voi nostaa kätensä, mutta ääni lasketaan vain, mikäli isäntäkin äänesti.",
