@@ -176,6 +176,19 @@ export function EditForm({ script }: EditFormProps) {
       <h1 className="text-2xl font-bold">Edit script</h1>
 
       <form onSubmit={handleSave} className="flex flex-col gap-5">
+        <div className="flex flex-col gap-2">
+          <Label htmlFor="json">Script JSON</Label>
+          <Textarea
+            id="json"
+            rows={10}
+            value={jsonText}
+            onChange={handleJsonChange}
+            className="font-mono text-xs"
+            required
+          />
+          {parseError && <p className="text-sm text-destructive">{parseError}</p>}
+        </div>
+
         <ScriptFormFields
           name={name}
           onNameChange={setName}
@@ -244,19 +257,6 @@ export function EditForm({ script }: EditFormProps) {
         </ScriptFormFields>
 
         <ScriptImageManager jsonText={jsonText} onJsonChange={applyJsonText} />
-
-        <div className="flex flex-col gap-2">
-          <Label htmlFor="json">Script JSON</Label>
-          <Textarea
-            id="json"
-            rows={10}
-            value={jsonText}
-            onChange={handleJsonChange}
-            className="font-mono text-xs"
-            required
-          />
-          {parseError && <p className="text-sm text-destructive">{parseError}</p>}
-        </div>
 
         {error && <p className="text-sm text-destructive">{error}</p>}
 
