@@ -6,13 +6,13 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Textarea } from '@/components/ui/textarea'
-import { MarkdownEditor } from '@/components/MarkdownEditor'
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
 import { Checkbox } from '@/components/ui/checkbox'
 import { createClient } from '@/lib/supabase/client'
 import type { Json } from '@/lib/supabase/types'
 import { revalidatePages } from '@/app/actions/revalidate'
 import { parseScriptJson } from '@/lib/search'
+import { patchMeta, formatDbError } from '@/lib/scriptMeta'
+import { ScriptFormFields } from '@/components/ScriptFormFields'
 import { ScriptImageManager } from '@/components/ScriptImageManager'
 
 type Status = 'idle' | 'loading' | 'success' | 'error'
@@ -90,16 +90,7 @@ export default function SubmitForm() {
     }
 
     const scriptJson = JSON.parse(jsonText) as unknown[]
-    const metaIndex = scriptJson.findIndex(
-      (el) => typeof el === 'object' && el !== null && (el as Record<string, unknown>).id === '_meta'
-    )
-    if (metaIndex >= 0) {
-      const meta = scriptJson[metaIndex] as Record<string, unknown>
-      if (!meta.name) meta.name = finalName
-      if (!meta.author) meta.author = finalAuthor
-    } else {
-      scriptJson.unshift({ id: '_meta', name: finalName, author: finalAuthor })
-    }
+    patchMeta(scriptJson, finalName, finalAuthor)
 
     const { data, error } = await supabase.from('scripts').insert({
       name: finalName,
@@ -116,13 +107,7 @@ export default function SubmitForm() {
     }).select('id').single()
 
     if (error) {
-      if (error.code === '23505' && error.message.includes('scripts_json_hash_unique')) {
-        setErrorMsg('This script has already been uploaded.')
-      } else if (error.code === '42501' || error.message.includes('row-level security')) {
-        setErrorMsg('You must be signed in to submit a script.')
-      } else {
-        setErrorMsg('Something went wrong. Please try again.')
-      }
+      setErrorMsg(formatDbError(error))
       setStatus('error')
     } else if (uploadAnother) {
       await revalidatePages(['/', '/sitemap.xml'])
@@ -203,89 +188,41 @@ export default function SubmitForm() {
           )}
         </div>
 
-        <div className="flex flex-col gap-2">
-          <Label htmlFor="name">Script name</Label>
-          <Input
-            id="name"
-            value={manualName}
-            onChange={(e) => setManualName(e.target.value)}
-            placeholder="Auto-detected from JSON"
-            required
-          />
-        </div>
-
-        <div className="flex flex-col gap-2">
-          <Label htmlFor="author">Author</Label>
-          <Input
-            id="author"
-            value={manualAuthor}
-            onChange={(e) => setManualAuthor(e.target.value)}
-            placeholder="Auto-detected from JSON"
-            required
-          />
-        </div>
-
-        {parsed && parsed.author === null && (
-          <p className="rounded-md border border-amber-600/40 bg-amber-600/10 px-3 py-2 text-sm">
-            The name and author you enter here will be written into your script&apos;s <code className="text-xs bg-muted px-1 py-0.5 rounded">_meta</code> block. If you&apos;d prefer to manage the metadata yourself, include it in your JSON before pasting.
-          </p>
-        )}
-
-        <div className="flex flex-col gap-2">
-          <Label htmlFor="description">Description</Label>
-          <MarkdownEditor
-            id="description"
-            value={description}
-            onChange={setDescription}
-            placeholder="Describe the themes or mechanics of your script (optional)"
-          />
-        </div>
-
-        <div className="flex flex-col gap-2">
-          <Label htmlFor="version">Version</Label>
-          <Input
-            id="version"
-            value={versionLabel}
-            onChange={(e) => setVersionLabel(e.target.value)}
-            placeholder="1.0.0"
-          />
-          <p className="text-xs text-muted-foreground">
-            <strong>Major</strong>.Minor.Patch - Major: redesign, Minor: character changes, Patch: description/metadata fixes
-          </p>
-        </div>
-
-        <div className="flex flex-col gap-2">
-          <Label>Script type</Label>
-          <Select
-            value={scriptType}
-            onValueChange={(v) => {
-              setScriptType(v as typeof scriptType)
-              setTypeTouched(true)
-            }}
-          >
-            <SelectTrigger>
-              <SelectValue />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="full">Full</SelectItem>
-              <SelectItem value="teensy">Teensy</SelectItem>
-            </SelectContent>
-          </Select>
-          {parsed && !typeTouched && scriptType === 'teensy' && (
-            <p className="rounded-md border border-amber-600/40 bg-amber-600/10 px-3 py-2 text-sm">
-              Set to <strong>Teensy</strong> because this script has {parsed.characterIds.length} characters. Please double-check this is correct before submitting.
+        <ScriptFormFields
+          name={manualName}
+          onNameChange={setManualName}
+          author={manualAuthor}
+          onAuthorChange={setManualAuthor}
+          description={description}
+          onDescriptionChange={setDescription}
+          scriptType={scriptType}
+          onScriptTypeChange={(v) => { setScriptType(v); setTypeTouched(true) }}
+          hasHomebrew={hasHomebrew}
+          onHomebrewChange={setHasHomebrew}
+          showMetaNotice={!!parsed && parsed.author === null}
+          namePlaceholder="Auto-detected from JSON"
+          authorPlaceholder="Auto-detected from JSON"
+          afterScriptType={
+            parsed && !typeTouched && scriptType === 'teensy' ? (
+              <p className="rounded-md border border-amber-600/40 bg-amber-600/10 px-3 py-2 text-sm">
+                Set to <strong>Teensy</strong> because this script has {parsed.characterIds.length} characters. Please double-check this is correct before submitting.
+              </p>
+            ) : undefined
+          }
+        >
+          <div className="flex flex-col gap-2">
+            <Label htmlFor="version">Version</Label>
+            <Input
+              id="version"
+              value={versionLabel}
+              onChange={(e) => setVersionLabel(e.target.value)}
+              placeholder="1.0.0"
+            />
+            <p className="text-xs text-muted-foreground">
+              <strong>Major</strong>.Minor.Patch - Major: redesign, Minor: character changes, Patch: description/metadata fixes
             </p>
-          )}
-        </div>
-
-        <div className="flex items-center gap-2">
-          <Checkbox
-            id="hasHomebrew"
-            checked={hasHomebrew}
-            onCheckedChange={(checked) => setHasHomebrew(checked === true)}
-          />
-          <Label htmlFor="hasHomebrew" className="cursor-pointer">Contains homebrew characters</Label>
-        </div>
+          </div>
+        </ScriptFormFields>
 
         {parsed && <ScriptImageManager jsonText={jsonText} onJsonChange={applyJsonText} />}
 
