@@ -158,7 +158,7 @@ export function parseScriptJson(json: unknown): {
   }) as Record<string, unknown> | undefined
 
   const name = typeof meta?.name === 'string' ? meta.name : 'Untitled'
-  const author = typeof meta?.author === 'string' ? meta.author : null
+  const author = typeof meta?.author === 'string' && meta.author.trim() ? meta.author : null
 
   // All other elements are characters - can be strings ("washerwoman") or objects ({ "id": "washerwoman" })
   const characterIds = json
