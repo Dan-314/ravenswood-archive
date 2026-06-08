@@ -3,7 +3,6 @@ import { Geist } from 'next/font/google'
 import './globals.css'
 import { Providers } from '@/components/Providers'
 import { NavBar } from '@/components/NavBar'
-import { SiteNoticeBanner } from '@/components/SiteNoticeBanner'
 
 const geist = Geist({ subsets: ['latin'] })
 
@@ -66,7 +65,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
         <Providers>
           <NavBar />
-          <SiteNoticeBanner />
           <main className="mx-auto max-w-7xl px-4 py-8 w-full flex-1">
             {children}
           </main>
