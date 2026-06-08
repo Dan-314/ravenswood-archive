@@ -116,7 +116,7 @@ export default function SubmitForm() {
       setStatus('success')
     } else {
       await revalidatePages(['/', '/sitemap.xml'])
-      router.push(`/scripts/${data.id}?uploaded=1`)
+      router.replace(`/scripts/${data.id}?uploaded=1`)
     }
   }
 
