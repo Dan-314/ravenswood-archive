@@ -10,6 +10,7 @@ import { MarkdownEditor } from '@/components/MarkdownEditor'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
 import { Checkbox } from '@/components/ui/checkbox'
 import { createClient } from '@/lib/supabase/client'
+import type { Json } from '@/lib/supabase/types'
 import { revalidatePages } from '@/app/actions/revalidate'
 import { parseScriptJson } from '@/lib/search'
 import { ScriptImageManager } from '@/components/ScriptImageManager'
@@ -71,17 +72,45 @@ export default function SubmitForm() {
       return
     }
     const finalType = scriptType
+    const finalName = manualName || parsed.name
+    const finalAuthor = manualAuthor
+
+    const { data: existing } = await supabase
+      .from('scripts')
+      .select('id')
+      .eq('name', finalName)
+      .eq('author', finalAuthor)
+      .limit(1)
+      .maybeSingle()
+
+    if (existing) {
+      setErrorMsg('A script with this name and author already exists.')
+      setStatus('error')
+      return
+    }
+
+    const scriptJson = JSON.parse(jsonText) as unknown[]
+    const metaIndex = scriptJson.findIndex(
+      (el) => typeof el === 'object' && el !== null && (el as Record<string, unknown>).id === '_meta'
+    )
+    if (metaIndex >= 0) {
+      const meta = scriptJson[metaIndex] as Record<string, unknown>
+      if (!meta.name) meta.name = finalName
+      if (!meta.author) meta.author = finalAuthor
+    } else {
+      scriptJson.unshift({ id: '_meta', name: finalName, author: finalAuthor })
+    }
 
     const { data, error } = await supabase.from('scripts').insert({
-      name: manualName || parsed.name,
-      author: manualAuthor || parsed.author || null,
+      name: finalName,
+      author: finalAuthor,
       description: description.trim() || null,
       version_label: versionLabel.trim() || '1.0.0',
       script_type: finalType,
       has_carousel: parsed.hasCarousel,
       has_homebrew: hasHomebrew,
       character_ids: parsed.characterIds,
-      raw_json: JSON.parse(jsonText),
+      raw_json: scriptJson as Json[],
       submitted_by: user.id,
       status: 'approved',
     }).select('id').single()
@@ -192,8 +221,15 @@ export default function SubmitForm() {
             value={manualAuthor}
             onChange={(e) => setManualAuthor(e.target.value)}
             placeholder="Auto-detected from JSON"
+            required
           />
         </div>
+
+        {parsed && parsed.author === null && (
+          <p className="rounded-md border border-amber-600/40 bg-amber-600/10 px-3 py-2 text-sm">
+            The name and author you enter here will be written into your script&apos;s <code className="text-xs bg-muted px-1 py-0.5 rounded">_meta</code> block. If you&apos;d prefer to manage the metadata yourself, include it in your JSON before pasting.
+          </p>
+        )}
 
         <div className="flex flex-col gap-2">
           <Label htmlFor="description">Description</Label>

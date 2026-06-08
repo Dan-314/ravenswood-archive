@@ -15,6 +15,16 @@ import { ScriptImageManager } from '@/components/ScriptImageManager'
 import { revalidatePages } from '@/app/actions/revalidate'
 import type { Script } from '@/lib/supabase/types'
 
+function formatDbError(err: { code?: string; message: string }): string {
+  if (err.code === '23505' && err.message.includes('scripts_json_hash_unique')) {
+    return 'This script JSON already exists in the archive.'
+  }
+  if (err.code === '42501' || err.message.includes('row-level security')) {
+    return 'You do not have permission to edit this script.'
+  }
+  return 'Something went wrong. Please try again.'
+}
+
 interface EditFormProps {
   script: Script
 }
@@ -92,7 +102,7 @@ export function EditForm({ script }: EditFormProps) {
         .single()
 
       if (latestQueryError) {
-        setError(latestQueryError.message)
+        setError(formatDbError(latestQueryError))
         setSaving(false)
         return
       }
@@ -103,7 +113,7 @@ export function EditForm({ script }: EditFormProps) {
         .eq('id', latestVersion.id)
 
       if (updateVersionError) {
-        setError(updateVersionError.message)
+        setError(formatDbError(updateVersionError))
         setSaving(false)
         return
       }
@@ -114,7 +124,7 @@ export function EditForm({ script }: EditFormProps) {
         .eq('id', script.id)
 
       if (updateError) {
-        setError(updateError.message)
+        setError(formatDbError(updateError))
         setSaving(false)
         return
       }
@@ -134,7 +144,7 @@ export function EditForm({ script }: EditFormProps) {
       .single()
 
     if (versionQueryError && versionQueryError.code !== 'PGRST116') {
-      setError(versionQueryError.message)
+      setError(formatDbError(versionQueryError))
       setSaving(false)
       return
     }
@@ -148,7 +158,7 @@ export function EditForm({ script }: EditFormProps) {
       .insert({ script_id: script.id, version_number: nextVersion, edited_by: user?.id ?? null, ...versionPayload })
 
     if (insertError) {
-      setError(insertError.message)
+      setError(formatDbError(insertError))
       setSaving(false)
       return
     }
@@ -160,7 +170,7 @@ export function EditForm({ script }: EditFormProps) {
       .eq('id', script.id)
 
     if (updateError) {
-      setError(updateError.message)
+      setError(formatDbError(updateError))
       setSaving(false)
       return
     }
@@ -181,7 +191,7 @@ export function EditForm({ script }: EditFormProps) {
 
         <div className="flex flex-col gap-2">
           <Label htmlFor="author">Author</Label>
-          <Input id="author" value={author} onChange={(e) => setAuthor(e.target.value)} />
+          <Input id="author" value={author} onChange={(e) => setAuthor(e.target.value)} required />
         </div>
 
         <div className="flex flex-col gap-2">
