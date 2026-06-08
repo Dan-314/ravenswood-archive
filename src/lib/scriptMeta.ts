@@ -12,6 +12,9 @@ export function patchMeta(scriptJson: unknown[], name: string, author: string): 
 }
 
 export function formatDbError(err: { code?: string; message: string }): string {
+  if (err.code === '23505' && err.message.includes('scripts_name_author_unique')) {
+    return 'A script with this name and author already exists.'
+  }
   if (err.code === '23505' && err.message.includes('scripts_json_hash_unique')) {
     return 'This script JSON already exists in the archive.'
   }
