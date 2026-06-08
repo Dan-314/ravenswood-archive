@@ -1,24 +1,25 @@
 'use client'
 
-import { useRouter } from 'next/navigation'
+import Link from 'next/link'
 import { ArrowLeft } from 'lucide-react'
+import { useEffect, useState } from 'react'
 
-export function BackToSearchLink({ fallbackHref = '/', label = 'Back to search' }: { fallbackHref?: string; label?: string }) {
-  const router = useRouter()
+export function BackToSearchLink({ fallbackHref, label = 'Back to search' }: { fallbackHref?: string; label?: string }) {
+  const [href, setHref] = useState(fallbackHref || '/')
+
+  useEffect(() => {
+    if (!fallbackHref) {
+      setHref(sessionStorage.getItem('lastSearchUrl') || '/')
+    }
+  }, [fallbackHref])
 
   return (
-    <button
-      onClick={() => {
-        if (window.history.length > 1) {
-          router.back()
-        } else {
-          router.push(fallbackHref)
-        }
-      }}
+    <Link
+      href={href}
       className="flex items-center gap-1 text-sm text-muted-foreground hover:text-foreground w-fit"
     >
       <ArrowLeft className="h-4 w-4" />
       {label}
-    </button>
+    </Link>
   )
 }

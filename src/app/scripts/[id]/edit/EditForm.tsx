@@ -125,7 +125,7 @@ export function EditForm({ script }: EditFormProps) {
       }
 
       await revalidatePages([`/scripts/${script.id}`, '/'])
-      router.push(`/scripts/${script.id}`)
+      router.replace(`/scripts/${script.id}`)
       return
     }
 
@@ -168,7 +168,7 @@ export function EditForm({ script }: EditFormProps) {
     }
 
     await revalidatePages([`/scripts/${script.id}`, '/'])
-    router.push(`/scripts/${script.id}`)
+    router.replace(`/scripts/${script.id}`)
   }
 
   return (

@@ -39,6 +39,10 @@ export function SearchPage({ characters, collections, favouritedBy, lockedCollec
   const [query, setQuery] = React.useState(initialQuery)
   const [filters, setFilters] = React.useState<SearchParams>(initialFilters)
 
+  React.useEffect(() => {
+    sessionStorage.setItem('lastSearchUrl', `${pathname}${searchParams.toString() ? `?${searchParams}` : ''}`)
+  }, [pathname, searchParams])
+
   const syncURL = React.useCallback(
     (params: SearchParams & { query?: string }) => {
       // Strip locked collection from URL - it's implicit in the route
