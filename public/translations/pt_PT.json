@@ -2,7 +2,6 @@
   "roles": {
     "acrobat": {
       "ability": "Cada noite*, escolhe um jogador: se eles estão ou ficam bêbados ou envenenados esta noite, tu morres.",
-      "flavor": "Bem-vindos, cada um de vós, ao maior espectáculo do mundo.",
       "name": "Acrobata",
       "other": "O Acrobada escolhe o jogador. :reminder:"
     },

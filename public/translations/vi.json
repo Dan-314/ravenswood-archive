@@ -2,7 +2,6 @@
   "roles": {
     "acrobat": {
       "ability": "Mỗi đêm*, chọn một người: nếu họ đang hoặc trở nên say rượu hoặc trúng độc tối nay, bạn chết.",
-      "flavor": "Chào mừng quý khán giả đến với buổi diễn tuyệt vời nhất quá đất.",
       "name": "Acrobat",
       "other": "Acrobat chọn 1 người. :reminder:"
     },

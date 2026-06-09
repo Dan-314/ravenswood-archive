@@ -2,7 +2,7 @@
   "roles": {
     "acrobat": {
       "ability": "Ev'ry moon*, pick a matey: if'n they be or get tipsy or seasick this moon, ye be joining the Locker.",
-      "flavor": "Will someone stop swaying the boat? I'm trying to work up here.",
+      "flavor": "Arr, welcome, me hearties, to the greatest show on the seven seas.",
       "name": "Topsman",
       "other": "The Topsman picks a matey. :reminder:"
     },

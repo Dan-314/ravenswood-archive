@@ -2,7 +2,6 @@
   "roles": {
     "acrobat": {
       "ability": "Svake noći* izabereš igrača: ako je ili postane pijan ili otrovan, ti umreš.",
-      "flavor": "Dobrodošli, svi do jednog, na najbolju tačku na zemlji.",
       "name": "Akrobata",
       "other": "Akrobata izabere igrača. :reminder:"
     },
