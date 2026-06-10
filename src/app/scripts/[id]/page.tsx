@@ -6,6 +6,7 @@ import { UploadSuccessBanner } from './UploadSuccessBanner'
 import { ScriptDetailClient } from './ScriptDetailClient'
 import { SidebarWithComments } from './comments/SidebarWithComments'
 import { ScriptSidebar } from './ScriptSidebar'
+import { VersionHistorySection } from './VersionHistorySection'
 import { UserScriptActions } from './UserScriptActions'
 import type { Metadata } from 'next'
 
@@ -85,7 +86,11 @@ export default async function ScriptDetailPage({ params }: Props) {
         defaultColor={accentColor}
         scriptType={script.script_type}
         sidebar={
-          <SidebarWithComments scriptId={id} scriptOwnerId={script.submitted_by}>
+          <SidebarWithComments
+            scriptId={id}
+            scriptOwnerId={script.submitted_by}
+            footer={<VersionHistorySection scriptId={id} versions={versions ?? []} canEdit={false} />}
+          >
             <ScriptSidebar
               scriptId={id}
               name={script.name}
@@ -99,7 +104,6 @@ export default async function ScriptDetailPage({ params }: Props) {
               downloadCount={script.download_count}
               favouriteCount={script.favourite_count}
               userActions={<UserScriptActions scriptId={id} />}
-              versions={versions ?? undefined}
               versionLabel={script.version_label === '0' ? undefined : script.version_label}
             />
           </SidebarWithComments>

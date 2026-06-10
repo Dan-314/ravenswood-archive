@@ -82,7 +82,7 @@ export function CommentItem({
     <div className="flex flex-col gap-1.5">
       <div className="flex items-center gap-2 flex-wrap">
         <span className="text-sm font-medium">{comment.profiles?.display_name ?? 'Unknown'}</span>
-        {isScriptOwner && <Badge variant="secondary">Owner</Badge>}
+        {isScriptOwner && <Badge variant="secondary">Uploader</Badge>}
         <span className="text-xs text-muted-foreground" title={absoluteTime(comment.created_at)}>
           {timeAgo(comment.created_at)}
         </span>

@@ -11,9 +11,11 @@ interface Props {
   scriptOwnerId: string | null
   /** The regular sidebar content, replaced by the comment thread when open */
   children: React.ReactNode
+  /** Rendered below the comments band, hidden while the thread is open */
+  footer?: React.ReactNode
 }
 
-export function SidebarWithComments({ scriptId, scriptOwnerId, children }: Props) {
+export function SidebarWithComments({ scriptId, scriptOwnerId, children, footer }: Props) {
   const supabase = React.useMemo(() => createClient(), [])
   const [open, setOpen] = React.useState(false)
   const [count, setCount] = React.useState<number | null>(null)
@@ -87,6 +89,7 @@ export function SidebarWithComments({ scriptId, scriptOwnerId, children }: Props
           )
         )}
       </button>
+      {footer}
     </div>
   )
 }
