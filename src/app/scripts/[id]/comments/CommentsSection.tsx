@@ -2,6 +2,7 @@
 
 import * as React from 'react'
 import { Loader2 } from 'lucide-react'
+import { Button } from '@/components/ui/button'
 import { createClient } from '@/lib/supabase/client'
 import type { ScriptCommentWithProfile } from '@/lib/supabase/types'
 import { CommentForm } from './CommentForm'
@@ -18,22 +19,32 @@ interface Props {
   scriptOwnerId: string | null
 }
 
+/** Comments are fetched in pages so one heavily-commented script can't make
+ * visitors download the whole thread at once. Ascending created_at order
+ * guarantees a reply's parent is always in an earlier page. */
+const PAGE_SIZE = 100
+
 export function CommentsSection({ scriptId, scriptOwnerId }: Props) {
   const supabase = React.useMemo(() => createClient(), [])
   const [loading, setLoading] = React.useState(true)
+  const [loadingMore, setLoadingMore] = React.useState(false)
   const [comments, setComments] = React.useState<ScriptCommentWithProfile[]>([])
+  // Comments in the database but not fetched yet (drives the load-more button)
+  const [remaining, setRemaining] = React.useState(0)
+  const fetchedRef = React.useRef(0)
   const [currentUser, setCurrentUser] = React.useState<CurrentUser | null>(null)
 
   React.useEffect(() => {
     let cancelled = false
     async function load() {
-      const [{ data: { user } }, { data: commentData }] = await Promise.all([
+      const [{ data: { user } }, { data: commentData, count }] = await Promise.all([
         supabase.auth.getUser(),
         supabase
           .from('script_comments')
-          .select('*, profiles(display_name)')
+          .select('*, profiles(display_name)', { count: 'exact' })
           .eq('script_id', scriptId)
-          .order('created_at', { ascending: true }),
+          .order('created_at', { ascending: true })
+          .range(0, PAGE_SIZE - 1),
       ])
 
       let loadedUser: CurrentUser | null = null
@@ -51,7 +62,10 @@ export function CommentsSection({ scriptId, scriptOwnerId }: Props) {
       }
 
       if (cancelled) return
-      setComments((commentData ?? []) as ScriptCommentWithProfile[])
+      const rows = (commentData ?? []) as ScriptCommentWithProfile[]
+      fetchedRef.current = rows.length
+      setComments(rows)
+      setRemaining(Math.max(0, (count ?? rows.length) - rows.length))
       setCurrentUser(loadedUser)
       setLoading(false)
     }
@@ -60,6 +74,30 @@ export function CommentsSection({ scriptId, scriptOwnerId }: Props) {
       cancelled = true
     }
   }, [supabase, scriptId])
+
+  async function handleLoadMore() {
+    if (loadingMore) return
+    setLoadingMore(true)
+    const from = fetchedRef.current
+    const { data, count } = await supabase
+      .from('script_comments')
+      .select('*, profiles(display_name)', { count: 'exact' })
+      .eq('script_id', scriptId)
+      .order('created_at', { ascending: true })
+      .range(from, from + PAGE_SIZE - 1)
+    if (data) {
+      fetchedRef.current = from + data.length
+      // Dedupe against locally-posted comments, then restore creation order
+      setComments((prev) => {
+        const seen = new Set(prev.map((c) => c.id))
+        const merged = [...prev, ...(data as ScriptCommentWithProfile[]).filter((c) => !seen.has(c.id))]
+        merged.sort((a, b) => a.created_at.localeCompare(b.created_at))
+        return merged
+      })
+      setRemaining(Math.max(0, (count ?? fetchedRef.current) - fetchedRef.current))
+    }
+    setLoadingMore(false)
+  }
 
   const handlePosted = React.useCallback((comment: ScriptCommentWithProfile) => {
     setComments((prev) => [...prev, comment])
@@ -89,7 +127,7 @@ export function CommentsSection({ scriptId, scriptOwnerId }: Props) {
   return (
     <section className="flex flex-col gap-4">
       <h2 className="text-lg font-bold">
-        Comments{!loading && ` (${comments.length})`}
+        Comments{!loading && ` (${comments.length + remaining})`}
       </h2>
 
       {!loading && (
@@ -123,6 +161,18 @@ export function CommentsSection({ scriptId, scriptOwnerId }: Props) {
               onProfileCreated={handleProfileCreated}
             />
           ))}
+          {remaining > 0 && (
+            <Button
+              variant="ghost"
+              size="sm"
+              className="self-start gap-1.5 text-muted-foreground"
+              onClick={handleLoadMore}
+              disabled={loadingMore}
+            >
+              {loadingMore && <Loader2 className="h-3.5 w-3.5 animate-spin" />}
+              Load {Math.min(remaining, PAGE_SIZE)} more {remaining === 1 ? 'comment' : 'comments'}
+            </Button>
+          )}
         </div>
       )}
     </section>

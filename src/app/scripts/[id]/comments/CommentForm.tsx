@@ -92,7 +92,13 @@ export function CommentForm({
       .single()
 
     if (insertError || !data) {
-      setError('Could not post comment. Please try again.')
+      // P0001 = raise exception from our triggers (e.g. rate limit); those
+      // messages are written to be shown to the user
+      setError(
+        insertError?.code === 'P0001'
+          ? insertError.message
+          : 'Could not post comment. Please try again.'
+      )
       setSubmitting(false)
       return
     }

@@ -72,9 +72,11 @@ export default async function ScriptDetailPage({ params }: Props) {
 
   return (
     <div className="flex flex-col gap-4">
+      {/* Escape < so user-supplied name/description can't close the script
+          tag early and inject HTML (JSON.stringify leaves < as-is) */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }}
       />
       <Suspense>
         <UploadSuccessBanner id={id} />
