@@ -1,6 +1,7 @@
 "use client";
 
 import { type ReactNode } from "react";
+import { Loader2 } from "lucide-react";
 import { PdfPreview } from "./PdfPreview";
 import type { PdfOptions } from "@/lib/botc/types";
 
@@ -15,6 +16,9 @@ interface ScriptPreviewLayoutProps {
   sidebar: ReactNode;
   sidebarPosition?: "left" | "right";
   className?: string;
+  /** Show a spinner in the preview pane while keeping the sidebar mounted in
+   * a stable tree position (avoids useId hydration mismatches on swap). */
+  loading?: boolean;
 }
 
 export function ScriptPreviewLayout({
@@ -28,19 +32,26 @@ export function ScriptPreviewLayout({
   sidebar,
   sidebarPosition = "right",
   className,
+  loading = false,
 }: ScriptPreviewLayoutProps) {
   const preview = (
     <div className="flex-1 min-w-0 overflow-y-auto">
-      <PdfPreview
-        rawJson={rawJson}
-        options={options}
-        defaultColor={defaultColor}
-        language={language}
-        scriptType={scriptType}
-        className="w-full"
-        onAppearanceChange={onAppearanceChange}
-        onNightAppearanceChange={onNightAppearanceChange}
-      />
+      {loading ? (
+        <div className="flex items-center justify-center py-20">
+          <Loader2 className="h-6 w-6 animate-spin text-muted-foreground" />
+        </div>
+      ) : (
+        <PdfPreview
+          rawJson={rawJson}
+          options={options}
+          defaultColor={defaultColor}
+          language={language}
+          scriptType={scriptType}
+          className="w-full"
+          onAppearanceChange={onAppearanceChange}
+          onNightAppearanceChange={onNightAppearanceChange}
+        />
+      )}
     </div>
   );
 

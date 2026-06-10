@@ -448,6 +448,70 @@ export interface Database {
         }
         Relationships: []
       }
+      profiles: {
+        Row: {
+          user_id: string
+          display_name: string
+          created_at: string
+          updated_at: string
+        }
+        Insert: {
+          user_id: string
+          display_name: string
+          created_at?: string
+          updated_at?: string
+        }
+        Update: {
+          display_name?: string
+        }
+        Relationships: []
+      }
+      script_comments: {
+        Row: {
+          id: string
+          script_id: string
+          user_id: string
+          parent_id: string | null
+          content: string
+          created_at: string
+          updated_at: string
+        }
+        Insert: {
+          id?: string
+          script_id: string
+          user_id: string
+          parent_id?: string | null
+          content: string
+          created_at?: string
+          updated_at?: string
+        }
+        Update: {
+          content?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: 'script_comments_script_id_fkey'
+            columns: ['script_id']
+            isOneToOne: false
+            referencedRelation: 'scripts'
+            referencedColumns: ['id']
+          },
+          {
+            foreignKeyName: 'script_comments_user_id_fkey'
+            columns: ['user_id']
+            isOneToOne: false
+            referencedRelation: 'profiles'
+            referencedColumns: ['user_id']
+          },
+          {
+            foreignKeyName: 'script_comments_parent_id_fkey'
+            columns: ['parent_id']
+            isOneToOne: false
+            referencedRelation: 'script_comments'
+            referencedColumns: ['id']
+          }
+        ]
+      }
     }
   }
 }
@@ -476,3 +540,7 @@ export type MatchupWithEntries = BracketMatchup & {
 
 export type ScriptClaim = Database['public']['Tables']['script_claims']['Row']
 export type ScriptClaimWithScript = ScriptClaim & { scripts: Pick<Script, 'id' | 'name' | 'author'> }
+
+export type Profile = Database['public']['Tables']['profiles']['Row']
+export type ScriptComment = Database['public']['Tables']['script_comments']['Row']
+export type ScriptCommentWithProfile = ScriptComment & { profiles: Pick<Profile, 'display_name'> | null }

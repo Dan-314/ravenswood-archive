@@ -9,6 +9,7 @@ import { TranslatedJsonButtons } from './TranslatedJsonButtons'
 import { OpenInScriptToolButton } from './OpenInScriptToolButton'
 import { DownloadCount } from './DownloadCount'
 import { FavouriteCount } from './FavouriteCount'
+import { SidebarLanguageSelect } from './SidebarLanguageSelect'
 
 interface Version {
   id: string
@@ -93,6 +94,8 @@ export function ScriptSidebar({
           </Button>
         </Link>
       </div>
+
+      <SidebarLanguageSelect />
 
       {versions && versions.length > 1 && (
         <>

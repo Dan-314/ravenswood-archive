@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation'
 import { BackToSearchLink } from '@/components/BackToSearchLink'
 import { UploadSuccessBanner } from './UploadSuccessBanner'
 import { ScriptDetailClient } from './ScriptDetailClient'
+import { SidebarWithComments } from './comments/SidebarWithComments'
 import { ScriptSidebar } from './ScriptSidebar'
 import { UserScriptActions } from './UserScriptActions'
 import type { Metadata } from 'next'
@@ -84,22 +85,24 @@ export default async function ScriptDetailPage({ params }: Props) {
         defaultColor={accentColor}
         scriptType={script.script_type}
         sidebar={
-          <ScriptSidebar
-            scriptId={id}
-            name={script.name}
-            author={script.author}
-            description={script.description ?? null}
-            scriptType={script.script_type}
-            hasCarousel={script.has_carousel}
-            collections={collections}
-            rawJson={script.raw_json}
-            canEdit={false}
-            downloadCount={script.download_count}
-            favouriteCount={script.favourite_count}
-            userActions={<UserScriptActions scriptId={id} />}
-            versions={versions ?? undefined}
-            versionLabel={script.version_label === '0' ? undefined : script.version_label}
-          />
+          <SidebarWithComments scriptId={id} scriptOwnerId={script.submitted_by}>
+            <ScriptSidebar
+              scriptId={id}
+              name={script.name}
+              author={script.author}
+              description={script.description ?? null}
+              scriptType={script.script_type}
+              hasCarousel={script.has_carousel}
+              collections={collections}
+              rawJson={script.raw_json}
+              canEdit={false}
+              downloadCount={script.download_count}
+              favouriteCount={script.favourite_count}
+              userActions={<UserScriptActions scriptId={id} />}
+              versions={versions ?? undefined}
+              versionLabel={script.version_label === '0' ? undefined : script.version_label}
+            />
+          </SidebarWithComments>
         }
       />
     </div>
