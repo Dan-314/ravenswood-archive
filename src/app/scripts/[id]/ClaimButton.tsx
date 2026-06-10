@@ -19,37 +19,36 @@ import type { ClaimStatus } from '@/lib/supabase/types'
 interface ClaimButtonProps {
   scriptId: string
   isLoggedIn: boolean
-  displayName: string | null
   existingClaim: { status: ClaimStatus } | null
 }
 
-export function ClaimButton({ scriptId, isLoggedIn, displayName, existingClaim }: ClaimButtonProps) {
+export function ClaimButton({ scriptId, isLoggedIn, existingClaim }: ClaimButtonProps) {
   const supabase = React.useMemo(() => createClient(), [])
   const [open, setOpen] = React.useState(false)
   const [message, setMessage] = React.useState('')
   const [loading, setLoading] = React.useState(false)
+  const [error, setError] = React.useState<string | null>(null)
   const [claimStatus, setClaimStatus] = React.useState<ClaimStatus | null>(existingClaim?.status ?? null)
   const [confirmingRetract, setConfirmingRetract] = React.useState(false)
 
   async function handleSubmit() {
     setLoading(true)
-    const { data: { user } } = await supabase.auth.getUser()
-    if (!user) return
+    setError(null)
 
-    const name = displayName ?? user.user_metadata?.full_name ?? user.user_metadata?.name ?? user.email ?? 'Unknown'
-
-    const { error } = await supabase.from('script_claims').insert({
-      script_id: scriptId,
-      claimant_id: user.id,
-      claimant_display_name: name,
-      message: message.trim() || null,
-    })
+    const res = await fetch('/api/claims', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ scriptId, message: message.trim() || null }),
+    }).catch(() => null)
 
     setLoading(false)
-    if (!error) {
+    if (res?.ok) {
       setClaimStatus('pending')
 
       setOpen(false)
+    } else {
+      const body = await res?.json().catch(() => null)
+      setError(body?.error ?? 'Something went wrong. Please try again.')
     }
   }
 
@@ -133,6 +132,7 @@ export function ClaimButton({ scriptId, isLoggedIn, displayName, existingClaim }
               <p className="text-xs text-muted-foreground">An admin will review your claim before it&apos;s approved.</p>
               <p className="text-xs text-muted-foreground">Please include any evidence you may have to support your claim.</p>
             </div>
+            {error && <p className="text-xs text-destructive">{error}</p>}
             <div className="flex gap-2 justify-end">
               <Button variant="ghost" onClick={() => setOpen(false)} disabled={loading}>
                 Cancel

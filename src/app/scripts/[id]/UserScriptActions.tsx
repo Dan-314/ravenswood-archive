@@ -21,7 +21,6 @@ export function UserScriptActions({ scriptId }: Props) {
     isLoggedIn: boolean
     canEdit: boolean
     showClaim: boolean
-    displayName: string | null
     existingClaim: { status: ClaimStatus } | null
     isFavourited: boolean
   }>({
@@ -29,7 +28,6 @@ export function UserScriptActions({ scriptId }: Props) {
     isLoggedIn: false,
     canEdit: false,
     showClaim: false,
-    displayName: null,
     existingClaim: null,
     isFavourited: false,
   })
@@ -50,14 +48,12 @@ export function UserScriptActions({ scriptId }: Props) {
 
       const isAdmin = user.app_metadata?.role === 'admin'
       const isOwner = user.id === script?.submitted_by
-      const displayName = user.user_metadata?.full_name ?? user.user_metadata?.name ?? user.email ?? null
 
       setState({
         loaded: true,
         isLoggedIn: true,
         canEdit: isAdmin || isOwner,
         showClaim: !isOwner && !isAdmin,
-        displayName,
         existingClaim: claim as { status: ClaimStatus } | null,
         isFavourited: !!fav,
       })
@@ -85,7 +81,6 @@ export function UserScriptActions({ scriptId }: Props) {
         <ClaimButton
           scriptId={scriptId}
           isLoggedIn={state.isLoggedIn}
-          displayName={state.displayName}
           existingClaim={state.existingClaim}
         />
       )}
