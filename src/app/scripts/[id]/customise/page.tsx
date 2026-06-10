@@ -9,6 +9,7 @@ export const dynamic = 'force-dynamic'
 
 interface Props {
   params: Promise<{ id: string }>
+  searchParams: Promise<{ lang?: string }>
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -19,8 +20,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return { title: `Customise ${data.name}` }
 }
 
-export default async function CustomisePage({ params }: Props) {
+export default async function CustomisePage({ params, searchParams }: Props) {
   const { id } = await params
+  const { lang } = await searchParams
+  // Language codes only (e.g. "de", "pt-BR"); anything else is ignored
+  const initialLanguage = lang && /^[a-z]{2,3}(-[a-zA-Z]{2,4})?$/.test(lang) ? lang : undefined
   const supabase = await createClient()
 
   const { data: script } = await supabase
@@ -49,6 +53,7 @@ export default async function CustomisePage({ params }: Props) {
         scriptId={script.id}
         scriptType={script.script_type}
         initialPreferences={preferences}
+        initialLanguage={initialLanguage}
       />
     </div>
   )

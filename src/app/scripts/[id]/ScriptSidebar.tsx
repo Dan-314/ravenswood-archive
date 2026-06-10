@@ -1,9 +1,8 @@
 import { Badge } from '@/components/ui/badge'
-import { Button } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator'
 import Link from 'next/link'
-import { Settings2 } from 'lucide-react'
 import { CollapsibleDescription } from './CollapsibleDescription'
+import { CustomiseLink } from './CustomiseLink'
 import { VersionHistorySection, type Version } from './VersionHistorySection'
 import { TranslatedJsonButtons } from './TranslatedJsonButtons'
 import { OpenInScriptToolButton } from './OpenInScriptToolButton'
@@ -75,12 +74,7 @@ export function ScriptSidebar({
         <TranslatedJsonButtons rawJson={rawJson} scriptId={scriptId} name={name} versionLabel={versionLabel} />
         <OpenInScriptToolButton rawJson={rawJson} />
         {userActions}
-        <Link href={`/scripts/${scriptId}/customise`}>
-          <Button variant="outline" size="sm" className="gap-1.5">
-            <Settings2 className="h-4 w-4" />
-            Customise &amp; Download PDF
-          </Button>
-        </Link>
+        <CustomiseLink scriptId={scriptId} />
       </div>
 
       <SidebarLanguageSelect />

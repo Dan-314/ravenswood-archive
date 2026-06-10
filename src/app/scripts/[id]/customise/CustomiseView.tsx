@@ -18,26 +18,28 @@ interface CustomiseViewProps {
   scriptId?: string;
   scriptType?: "full" | "teensy";
   initialPreferences?: Partial<UserPreferences> | null;
+  /** Language carried over from the script page selector; overrides preferences */
+  initialLanguage?: string;
 }
 
-function buildInitialOptions(defaultColor?: string, preferences?: Partial<UserPreferences> | null): PdfOptions {
-  if (preferences) {
-    return {
-      ...mergePreferences(preferences),
-      color: defaultColor || preferences.color || DEFAULT_PDF_OPTIONS.color,
-    };
-  }
-  return {
-    ...DEFAULT_PDF_OPTIONS,
-    color: defaultColor || randomColor(),
-  };
+function buildInitialOptions(defaultColor?: string, preferences?: Partial<UserPreferences> | null, initialLanguage?: string): PdfOptions {
+  const base = preferences
+    ? {
+        ...mergePreferences(preferences),
+        color: defaultColor || preferences.color || DEFAULT_PDF_OPTIONS.color,
+      }
+    : {
+        ...DEFAULT_PDF_OPTIONS,
+        color: defaultColor || randomColor(),
+      };
+  return initialLanguage ? { ...base, language: initialLanguage } : base;
 }
 
-export function CustomiseView({ rawJson, scriptName, defaultColor, scriptId, scriptType, initialPreferences }: CustomiseViewProps) {
+export function CustomiseView({ rawJson, scriptName, defaultColor, scriptId, scriptType, initialPreferences, initialLanguage }: CustomiseViewProps) {
   const [downloading, setDownloading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [options, setOptions] = useState<PdfOptions>(() =>
-    buildInitialOptions(defaultColor, initialPreferences),
+    buildInitialOptions(defaultColor, initialPreferences, initialLanguage),
   );
 
   const update = <K extends keyof PdfOptions>(key: K, value: PdfOptions[K]) => {
