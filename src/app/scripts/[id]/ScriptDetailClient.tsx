@@ -1,9 +1,8 @@
 "use client";
 
 import { type ReactNode, useState } from "react";
-import { Loader2 } from "lucide-react";
-import { LanguageSelect } from "@/components/LanguageSelect";
 import { LanguageProvider } from "@/lib/contexts/LanguageContext";
+import { LanguageSelectContext } from "./SidebarLanguageSelect";
 import { ScriptPreviewLayout } from "./ScriptPreviewLayout";
 import { useUserPreferences, mergePreferences } from "@/lib/useUserPreferences";
 import type { PdfOptions } from "@/lib/botc/types";
@@ -39,34 +38,19 @@ export function ScriptDetailClient({
   }
 
   const languageSidebar = (
-    <LanguageProvider language={options.language}>
-      {sidebar}
-      <div className="flex items-center gap-2 mt-4">
-        <label className="text-sm text-muted-foreground shrink-0">Language:</label>
-        <div className="flex-1">
-          <LanguageSelect
-            value={options.language}
-            onChange={(lang) => setOptions((prev) => ({ ...prev, language: lang }))}
-          />
-        </div>
-      </div>
-    </LanguageProvider>
+    <LanguageSelectContext.Provider
+      value={{
+        language: options.language,
+        onChange: (lang) => setOptions((prev) => ({ ...prev, language: lang })),
+      }}
+    >
+      <LanguageProvider language={options.language}>{sidebar}</LanguageProvider>
+    </LanguageSelectContext.Provider>
   );
 
-  // Show skeleton for preview area while preferences load to avoid wrong-colors flash
-  if (prefsLoading) {
-    return (
-      <div className="flex flex-col md:flex-row">
-        <div className="shrink-0 overflow-y-auto p-4 md:w-80 md:border-r border-b md:border-b-0">
-          {languageSidebar}
-        </div>
-        <div className="flex-1 min-w-0 flex items-center justify-center py-20">
-          <Loader2 className="h-6 w-6 animate-spin text-muted-foreground" />
-        </div>
-      </div>
-    );
-  }
-
+  // While preferences load, ScriptPreviewLayout shows a spinner in the preview
+  // pane (avoids wrong-colors flash) while keeping the sidebar in a stable tree
+  // position so useId-based hydration doesn't break when loading flips.
   return (
     <ScriptPreviewLayout
       rawJson={rawJson}
@@ -74,6 +58,7 @@ export function ScriptDetailClient({
       scriptType={scriptType}
       sidebarPosition="left"
       sidebar={languageSidebar}
+      loading={prefsLoading}
     />
   );
 }

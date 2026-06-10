@@ -1,6 +1,7 @@
 import { createClient } from '@/lib/supabase/server'
 import { redirect } from 'next/navigation'
 import { ScriptRow } from '@/components/ScriptCard'
+import { DisplayNameEditor } from './DisplayNameEditor'
 import { Badge } from '@/components/ui/badge'
 import Link from 'next/link'
 import type { ScriptWithCollections, Collection, ScriptClaimWithScript } from '@/lib/supabase/types'
@@ -25,7 +26,7 @@ export default async function ProfilePage() {
 
   if (!user) redirect('/')
 
-  const [{ data: scriptsRaw }, { data: claimsRaw }] = await Promise.all([
+  const [{ data: scriptsRaw }, { data: claimsRaw }, { data: profile }] = await Promise.all([
     supabase
       .from('scripts')
       .select('*, collections:script_collections(collection:collections(*))')
@@ -36,6 +37,11 @@ export default async function ProfilePage() {
       .select('*, scripts(id, name, author)')
       .eq('claimant_id', user.id)
       .order('created_at', { ascending: false }),
+    supabase
+      .from('profiles')
+      .select('display_name')
+      .eq('user_id', user.id)
+      .maybeSingle(),
   ])
 
   const scripts: ScriptWithCollections[] = ((scriptsRaw ?? []) as unknown[]).map((row) => {
@@ -46,17 +52,18 @@ export default async function ProfilePage() {
 
   const claims = (claimsRaw ?? []) as unknown as ScriptClaimWithScript[]
 
-  const username = user.user_metadata?.full_name ?? user.user_metadata?.name ?? user.email
+  const username = profile?.display_name ?? user.user_metadata?.full_name ?? user.user_metadata?.name ?? user.email
 
   return (
     <div className="flex flex-col gap-8">
       <div className="flex flex-col gap-6">
         <div className="flex items-start justify-between">
-          <div>
+          <div className="flex flex-col gap-2">
             <h1 className="text-2xl font-bold">{username as string}</h1>
-            <p className="text-muted-foreground text-sm mt-1">
+            <p className="text-muted-foreground text-sm">
               {scripts.length} script{scripts.length !== 1 ? 's' : ''} submitted
             </p>
+            <DisplayNameEditor userId={user.id} initialDisplayName={profile?.display_name ?? null} />
           </div>
           <Link
             href="/preferences"
