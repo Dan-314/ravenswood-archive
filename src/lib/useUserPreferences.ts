@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState, useCallback, startTransition } from "react";
 import { createClient } from "@/lib/supabase/client";
 import type { PdfOptions } from "@/lib/botc/types";
 import { DEFAULT_PDF_OPTIONS } from "@/lib/botc/types";
@@ -66,7 +66,9 @@ export function useUserPreferences() {
       if (cancelled) return;
 
       if (!user) {
-        setLoading(false);
+        // Transition so the loading->loaded flip can't interrupt hydration
+        // (it restructures the tree, which corrupts useId positions mid-pass)
+        startTransition(() => setLoading(false));
         return;
       }
 
@@ -79,8 +81,10 @@ export function useUserPreferences() {
         .single();
 
       if (!cancelled) {
-        setPreferences(data?.preferences as Partial<UserPreferences> ?? null);
-        setLoading(false);
+        startTransition(() => {
+          setPreferences(data?.preferences as Partial<UserPreferences> ?? null);
+          setLoading(false);
+        });
       }
     }
 

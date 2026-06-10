@@ -2,7 +2,6 @@
   "roles": {
     "acrobat": {
       "ability": "Ogni notte*, scegli un giocatore: se quest'ultimo diventa o è ubriaco o avvelenato stanotte, muori.",
-      "flavor": "Benvenuti, tutti quanti, al più grande spettacolo sulla terra.",
       "name": "Acrobata",
       "other": "L'Acrobata sceglie un giocatore. :reminder:"
     },

@@ -2,7 +2,6 @@
   "roles": {
     "acrobat": {
       "ability": "Hver nat*, vælg en spiller: hvis de er eller bliver fuld eller forgiftet i nat, dør du.",
-      "flavor": "Velkommen, allesammen, til det største show på jorden.",
       "name": "Akrobat",
       "other": "Akrobaten vælger en spiller. :reminder:"
     },

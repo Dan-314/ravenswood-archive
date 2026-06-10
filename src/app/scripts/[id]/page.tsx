@@ -4,7 +4,9 @@ import { notFound } from 'next/navigation'
 import { BackToSearchLink } from '@/components/BackToSearchLink'
 import { UploadSuccessBanner } from './UploadSuccessBanner'
 import { ScriptDetailClient } from './ScriptDetailClient'
+import { SidebarWithComments } from './comments/SidebarWithComments'
 import { ScriptSidebar } from './ScriptSidebar'
+import { VersionHistorySection } from './VersionHistorySection'
 import { UserScriptActions } from './UserScriptActions'
 import type { Metadata } from 'next'
 
@@ -70,9 +72,11 @@ export default async function ScriptDetailPage({ params }: Props) {
 
   return (
     <div className="flex flex-col gap-4">
+      {/* Escape < so user-supplied name/description can't close the script
+          tag early and inject HTML (JSON.stringify leaves < as-is) */}
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }}
       />
       <Suspense>
         <UploadSuccessBanner id={id} />
@@ -84,22 +88,27 @@ export default async function ScriptDetailPage({ params }: Props) {
         defaultColor={accentColor}
         scriptType={script.script_type}
         sidebar={
-          <ScriptSidebar
+          <SidebarWithComments
             scriptId={id}
-            name={script.name}
-            author={script.author}
-            description={script.description ?? null}
-            scriptType={script.script_type}
-            hasCarousel={script.has_carousel}
-            collections={collections}
-            rawJson={script.raw_json}
-            canEdit={false}
-            downloadCount={script.download_count}
-            favouriteCount={script.favourite_count}
-            userActions={<UserScriptActions scriptId={id} />}
-            versions={versions ?? undefined}
-            versionLabel={script.version_label === '0' ? undefined : script.version_label}
-          />
+            scriptOwnerId={script.submitted_by}
+            footer={<VersionHistorySection scriptId={id} versions={versions ?? []} canEdit={false} />}
+          >
+            <ScriptSidebar
+              scriptId={id}
+              name={script.name}
+              author={script.author}
+              description={script.description ?? null}
+              scriptType={script.script_type}
+              hasCarousel={script.has_carousel}
+              collections={collections}
+              rawJson={script.raw_json}
+              canEdit={false}
+              downloadCount={script.download_count}
+              favouriteCount={script.favourite_count}
+              userActions={<UserScriptActions scriptId={id} />}
+              versionLabel={script.version_label === '0' ? undefined : script.version_label}
+            />
+          </SidebarWithComments>
         }
       />
     </div>
