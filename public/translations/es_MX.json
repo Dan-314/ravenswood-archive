@@ -2,6 +2,7 @@
   "roles": {
     "acrobat": {
       "ability": "Cada noche*, elige a un jugador: si está o se vuelve borrache o envenenade esta noche, usted muere.",
+      "flavor": "¡Damas y caballeros, agarren bien sus sombreros, porque desafiaré las leyes de la gravedad y bailaré en el aire, una maravilla de agilidad y audacia, todo para su deleite y asombro!",
       "name": "Acróbata",
       "other": "Le Acróbata elige a un jugador. :reminder:"
     },
