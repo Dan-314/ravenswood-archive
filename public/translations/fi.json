@@ -2,7 +2,7 @@
   "roles": {
     "acrobat": {
       "ability": "Joka yö*, valitse yksi pelaaja: kuolet, jos tämä on tänä yönä kertaakaan juopunut tai myrkytetty.",
-      "flavor": "Tervetuloa, jok'ikinen, kaikkien aikojen esitykseen.",
+      "flavor": "Hyvät naiset ja herrat, pitäkäähän tiukasti kiinni hatuistanne, sillä aion uhmata painovoiman lakeja, tanssia uskaliaasti kuin ilmassa, teidän iloksenne ja ihmetykseksenne!",
       "name": "Akrobaatti",
       "other": "Akrobaatti valitsee pelaajan. :reminder:"
     },
