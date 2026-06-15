@@ -23,8 +23,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function CustomisePage({ params, searchParams }: Props) {
   const { id } = await params
   const { lang } = await searchParams
-  // Language codes only (e.g. "de", "pt-BR"); anything else is ignored
-  const initialLanguage = lang && /^[a-z]{2,3}(-[a-zA-Z]{2,4})?$/.test(lang) ? lang : undefined
+  // Accept the locale codes our translations use, including region/script/
+  // numeric/variant suffixes (e.g. "de", "zh_Hans", "pt_PT", "es_419",
+  // "en@pirate"). Restricted to letters/digits and _ - @ so it stays path-safe
+  // when used as a translations filename in loadTranslations().
+  const initialLanguage = lang && /^[a-z]{2,3}([-_][A-Za-z0-9]{2,4})?(@[a-z]+)?$/.test(lang) ? lang : undefined
   const supabase = await createClient()
 
   const { data: script } = await supabase
