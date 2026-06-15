@@ -60,6 +60,12 @@
     "completion": 70
   },
   {
+    "code": "nb_NO",
+    "name": "Norwegian Bokmål",
+    "nativeName": "Norsk bokmål",
+    "completion": 100
+  },
+  {
     "code": "pl",
     "name": "Polish",
     "nativeName": "Polski",

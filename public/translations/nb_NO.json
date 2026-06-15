@@ -1,0 +1,1338 @@
+{
+  "roles": {
+    "acrobat": {
+      "ability": "Hver natt*, velg en spiller: du dør om de er eller blir full eller forgiftet i natt.",
+      "flavor": "Mine damer og herrer, hold fast på hatten, for jeg skal trosse selve tyngdekraftens lover og danse i luften, et vidunder av smidighet og dristighet, alt for deres glede og undring!",
+      "name": "Akrobat",
+      "other": "Akrobaten velger en spiller. :reminder:"
+    },
+    "alchemist": {
+      "ability": "Du har en Minion-evne. Når du bruker denne, kan fortelleren be deg om å velge annerledes.",
+      "first": "Vis *DU ER* infobrikken og en Undersåttbrikke.",
+      "flavor": "Besøk jordens indre. Ved rettelse skal du finne den skjulte steinen. Over gullet ligger den røde. Kether i Malkuth.",
+      "name": "Alkymist"
+    },
+    "alhadikhia": {
+      "ability": "Hver natt*, kan du velge 3 spillere (alle spillerne vet hvem): de velger i hemmelighet å leve eller å dø, men hvis alle velger å leve, dør alle.",
+      "flavor": "Alsukut min dhahab.",
+      "name": "al Hadikhia",
+      "other": "al Hadikhia velger 3 spillere. :reminder: :reminder: :reminder: Vekk hver valgte spiller i rekkefølge. De nikker eller rister på hodet. La de sove før du vekker den neste."
+    },
+    "alsaahir": {
+      "ability": "Hver dag, hvis du offentlig gjetter hvilke spillere som er Minion(er) og hvilke som er Demon(er), vinner du.",
+      "flavor": "Jeg er her på grunn av deg, og du er her på grunn av meg.",
+      "name": "al Saahir"
+    },
+    "amnesiac": {
+      "ability": "Du vet ikke hvilken egenskap du har. Hver dag kan du privat gjette hva den er: du lærer hvor nære du er.",
+      "first": "Gjør det som trengs for å oppfylle Surrehues egenskap.",
+      "flavor": "Vent. Hva. Hvem? Åh, ok. Vent. Hva?",
+      "name": "Surrehue",
+      "other": "Gjør det som må gjøres for å oppfylle Surrehues egenskap."
+    },
+    "angel": {
+      "ability": "Noe ille kan skje med den som er mest ansvarlig for at en ny spiller dør.",
+      "first": "Kunngjør hvilke spillere som er beskyttet av Engelen. :reminder:",
+      "flavor": "La de som er uten synd våge å løfte hånden sin mot mine utvalgte, for jeg skal slå slike dårer ned med tusen stormers raseri og rettferdighet.",
+      "name": "Engel"
+    },
+    "apprentice": {
+      "ability": "Din første natt får du en Landsbybeboer-evne (hvis du er god), eller en Minion-evne (hvis du er ond).",
+      "first": "Vis *DU ER*-infobrikken, deretter en Byfolk- eller Minion-brikke. Bytt Lærling- og Byfolk- eller Minion-brikkene. :reminder:",
+      "flavor": "I årevis har jeg reist og studert Håndverkets skikker. Hvilket håndverk, spør du? Ganske enkelt de alminnelige folks. Ingenting å bekymre seg for. Ikke ennå.",
+      "name": "Lærling"
+    },
+    "artist": {
+      "ability": "Én gang per spill, i løpet av dagen, still fortelleren et ja/nei-spørsmål privat.",
+      "flavor": "Mon Dieu! C'est lumineux! My work, she is... how you say... Magnifique! Dieu est révélé! Oui.",
+      "name": "Artist"
+    },
+    "assassin": {
+      "ability": "Én gang per spill, om natten*, velg en spiller: de dør, selv om de av en eller annen grunn ikke kunne det.",
+      "flavor": "…",
+      "name": "Snikmorder",
+      "other": "Snikmorderen kan velge en spiller. :reminder: :reminder:"
+    },
+    "atheist": {
+      "ability": "Fortelleren kan bryte spillereglene. Godt lag vinner om de henretter Fortelleren, selv om du er død. [Ingen onde rolle]",
+      "flavor": "La oss bryte ut med unødvendige spekulasjoner og tåpelig paranoia. Det finnes en fullstendig rasjonell forklaring på alt. Ja, en tekopp kan riktignok gå i bane rundt planeten, for liten til å se, men jeg skal drikke teen min fra det ekte porselenet i mine ekte hender.",
+      "name": "Ateist"
+    },
+    "balloonist": {
+      "ability": "Hver kveld lærer du en spiller med en annen rolletype enn i går kveld. [+0 eller +1 Outsider]",
+      "first": "Pek på en spiller. :reminder:",
+      "flavor": "Mer varme! Høyere! Høyere! Più alto! Ahhh ... det er så vakkert herfra, er du ikke enig? Kan du se barna fiske ved elven, under piletrærne? Kan du se solens glimt på sirkusteltstengene? Hva er dette? En gammel mann, alene, besvimt i vingården? Mindre varme! Lavere! Lavere! Vai più in basso!",
+      "name": "Ballongfarer",
+      "other": "Pek på en spiller med en annen rolletype enn den tidligere viste spilleren. :reminder:"
+    },
+    "banshee": {
+      "ability": "Hvis Demonen dreper deg, lærer alle spillerne dette. Fra nå av, kan du nominere to ganger per dag og stemme to ganger per nominasjon.",
+      "flavor": "Gorm do shúile, dearg do ghruaig, ní bheidh sé i bhfad, is a mbeidh tú san uaigh.",
+      "name": "Banshee",
+      "other": "Hvis Banshee ble drept av Demonen i natt, kunngjør at Banshee er død. :reminder:"
+    },
+    "barber": {
+      "ability": "Hvis du dør i dag eller i natt, kan Demonen velge 2 spillere (ikke en annen Demon) som bytter roller.",
+      "flavor": "Viste du at frisering og kirurgi var en gang det samme yrke? Nei? Nå vet du det.",
+      "name": "Barberer",
+      "other": "Hvis Frisøren døde i dag eller i natt, vis Demonen *DENNE ROLLEN VALGTE DEG* og Frisørbrikken. Hvis Demonen velger 2 spillere, vekk de en av gangen. Vis *DU ER* brikken og deres nye rollebrikke."
+    },
+    "barista": {
+      "ability": "Hver natt, fram til skumringen, 1) blir en spiller edru, frisk og får sann info, eller 2) dobler sin evne. De får vite hva.",
+      "first": "Velg en spiller. Vekk dem, vis *DENNE ROLLEN VALGTE DEG* og Barista-brikkene, og gi et fingersignal. :reminder:",
+      "flavor": "En kopp kaffe uten fløte, monsieur? Jeg beklager så mye, men vi er nettopp tomme for fløte – hva med uten melk?",
+      "name": "Barista",
+      "other": "Velg en spiller. Vekk dem, vis *DENNE ROLLEN VALGTE DEG*- og Barista-brikken, og gi deretter et fingersignal. :reminder:"
+    },
+    "baron": {
+      "ability": "Det er ekstra Outsiders i spill. [+2 Outsiders]",
+      "flavor": "Denne byen har gått til helvete, hva? Billig utenlandsk arbeidskraft ... det er løsningen. Putt dem i gruven, sier jeg. Litt hardt arbeid har aldri skadet noen, og en ørefik for enhver røver som sier noe annet. Det handler om bunnlinjen, hva?",
+      "name": "Baron"
+    },
+    "beggar": {
+      "ability": "Du må bruke en stemmebrikke for å stemme. Hvis en død spiller gir deg sin, får du vite hvilken rolle de har. Du er edru og frisk.",
+      "flavor": "Almisse til de fattige, gode herre? En mynt til overs, frue? Takk. Gud velsigne! De er en sann snill sjel, uten tvil! Jeg skal ha litt velsmakende godbiter i kveld, det skal jeg!",
+      "name": "Tigger"
+    },
+    "bishop": {
+      "ability": "Bare fortelleren kan nominere. Minst én motstander må nomineres hver dag.",
+      "flavor": "In nomine Patris, et Filii, et Spiritus Sancti… Nos mos Dei. Deus vult de nobis.",
+      "name": "Biskop"
+    },
+    "boffin": {
+      "ability": "Demonen (selv om de er fulle eller forgiftet) har en god rolles egenskap (som ikke er i spill). Dere vet begge hvilken.",
+      "first": "Vekk Boffin og Demonen. Vis *DENNE ROLLEN VALGTE DEG*- og Boffin-brikken, deretter brikken for den gode rollen som ikke er i spill.",
+      "flavor": "Stjernenes hydrogen, enormt, inert; karbon, oksygen, neongasser, alt ødelagt. Molekylært kaos, entropi, gir nye kosmiske fenomener, gjenfødelse fra atomkaos, tett materie som kollapser. Alt i en bitteliten flaske.",
+      "name": "Labrotte"
+    },
+    "bonecollector": {
+      "ability": "Én gang per spill, om natten*, velg en død spiller: de får tilbake evnen sin frem til skumringen.",
+      "flavor": "Jeg samler på mange ting. Hår. Tenner. Klær. Diktfragmenter. Drømmene til tapte elskere. Mine hemmelige kunster er ikke for at du skal vite, men honoraret mitt er bare en liten slant. Bring meg blodet til en adelskvinne som døde av hjertesorg under fullmåne, så skal du få svarene dine.",
+      "name": "Beinsamler",
+      "other": "Beinsamleren kan velge en død spiller. :reminder: Om nødvendig, vekk den valgte spilleren for å bruke evnen deres."
+    },
+    "boomdandy": {
+      "ability": "Hvis du blir henrettet, dør alle spillere unntatt 3. Etter en nedtelling fra 10 til 1, dør spilleren med flest spillere som peker på seg.",
+      "flavor": "Tikk… tikk… tikk… TAKK.",
+      "name": "Kruttlaps"
+    },
+    "bootlegger": {
+      "ability": "Dette skriptet har hjemmebryggede figurer eller regler.",
+      "flavor": "Da jeg ble født, ble jeg kalt «Hjemmebrygger Hjemmebryggersen», slik som faren min før meg. Et respektabelt navn, for en verdig alder.",
+      "name": "Hjemmebrenner"
+    },
+    "bountyhunter": {
+      "ability": "Du lærer innledningsvis 1 ond spiller. Om spilleren du vet dør, lær en ny ond spiller i natt. [1 Innbygger er ond]",
+      "first": "Pek på spilleren merket *VET*.",
+      "flavor": "Alene går jeg i disse gatene, brolagt med den syke stank av korrupsjon. Dens tykke stank sniker seg inn i neseborene mine, uoppfordret, brennende av avsky. Og forventning. Sykdommen på dette ynkelige stedet vokser for hver natt. Og jeg ... jeg er kuren.",
+      "name": "Dusørjeger",
+      "other": "Om spilleren markert med *KNOW* dør, pek mot en annen *KNOW* spiller."
+    },
+    "buddhist": {
+      "ability": "Erfarne spillere får ikke lov til å snakke de 2 første minuttene hver dag.",
+      "first": "Kunngjør hvilke spillere som er berørt av Buddhisten.",
+      "flavor": "Du kaster torner. De faller i min stillhet og blir til blomster.",
+      "name": "Buddist"
+    },
+    "bureaucrat": {
+      "ability": "Hver natt, velg en spiller (utenom deg selv): stemmen deres telles som 3 i morgen.",
+      "first": "Byråkraten peker mot en spiller. :reminder:",
+      "flavor": "Skriv under her, takk. Og her. Og her. Oooooooog her. Alt dette burde være ferdig og telt opp innen dagens slutt, forutsatt at alles underskrifter er lesbare. Vi har ikke hatt en forvirring i papirarbeidet på evigheter. I går middag, hvis jeg husker riktig...",
+      "name": "Byråkrat",
+      "other": "Byråkraten peker mot en spiller. :reminder:"
+    },
+    "butcher": {
+      "ability": "Hver dag, etter første henrettelse, kan du nominere igjen.",
+      "flavor": "Det smaker som kylling. Mer hver så snill.",
+      "name": "Slakter"
+    },
+    "butler": {
+      "ability": "Hver natt, velg en spiller utenom deg selv: i morgen kan du kun stemme der de også stemmer.",
+      "first": "Hovmesteren peker på en spiller. :reminder:",
+      "flavor": "Ja, herr ... Nei, herr ... Absolutt, herr.",
+      "name": "Hovmester",
+      "other": "Hovmesteren velger en spiller. :reminder:"
+    },
+    "cannibal": {
+      "ability": "Du har evnen til spilleren nyligst drept ved henrettelse. Om de er ond, forgiftes du til en god spiller dør ved henrettelse.",
+      "flavor": "Jeg liker ikke klovner. De smaker rart.",
+      "name": "Kannibal"
+    },
+    "cerenovus": {
+      "ability": "Hver natt, velg en spiller og en god rolle: de er \"gal\" om at de er den rollen, hvis ikke kan de bli henrettet.",
+      "first": "Cerenoven peker mot en spiller, så på en rolle på rollearket. :reminder: Vekk spilleren, vis dem *DENNE ROLLEN VALGTE DEG* kortet, så Cerenov-brikken. Vis dem den valgte rollebrikken. Om spilleren ikke er gal om at de er den rollen i morgen, kan de henrettes.",
+      "flavor": "Virkeligheten er bare en mening. Mer spesifikt, min mening.",
+      "name": "Cerenov",
+      "other": "Cerenoven peker mot en spiller, så på en rolle på rollearket. :reminder: Vekk spilleren, vis dem *DENNE ROLLEN VALGTE DEG* kortet, så Cerenov-brikken. Vis dem den valgte rollebrikken. Om spilleren ikke er gal om at de er den rollen i morgen, kan de henrettes."
+    },
+    "chambermaid": {
+      "ability": "Hver natt, velg 2 levende spillere (ikke deg selv): lær hvor mange av dem våknet i natt på grunn av evnen sin.",
+      "first": "Kammerpiken velger 2 levende spillere. Gi et fingersignal.",
+      "flavor": "Jeg har ikke sett noe upassende, frøken. Unnskyld meg, men hvis jeg så noe, så var det i hvert fall ikke husbonden som snek seg inn i professorens laboratorium rundt klokken elleve og blandet sammen fancy eliksirer, akkurat som du sa, frøken.",
+      "name": "Kammerpike",
+      "other": "Kammerpiken velger 2 levende spillere. Gi et fingersignal."
+    },
+    "chef": {
+      "ability": "Du starter med å vite hvor mange par med onde spillere det finnes.",
+      "first": "Gi et fingersignal.",
+      "flavor": "Kveldens reservasjoner virker merkelige. Aldri før har fru Mayweather hatt selskap med den skurken fra Hudson Lane. Likevel har de et bord for to i kveld. Merkelig.",
+      "name": "Kokk"
+    },
+    "choirboy": {
+      "ability": "Hvis Demonen dreper Kongen, får du vite hvilken spiller som er Demonen. [+Kongen]",
+      "flavor": "Jeg så det, det gjorde jeg. Jeg satt ved kirkebenkene og ryddet i salmebøkene da en forferdelig melodi startet fra pipeorgelet. Organisten hadde en lang kappe og lange fingre på tangentene. Og en hatt som så … akkurat ut som … din.",
+      "name": "Korgutt",
+      "other": "Hvis Demonen drepte Kongen, pek på spilleren som er Demonen."
+    },
+    "clockmaker": {
+      "ability": "Du starter med å vite hvor mange steg det er fra Demonen til dens nærmeste Minion.",
+      "first": "Gi et fingersignal.",
+      "flavor": "Ikke forstyrr meg. Tikkingen må fortsette, for sirkelen er et symbol på livet og inneholder alle ting – alle svar – i sitt guddommelige maskineri. Jeg må arbeide.",
+      "name": "Urmaker"
+    },
+    "courtier": {
+      "ability": "Én gang per spill, om natten, velg en rolle: den spilleren er full i 3 netter og 3 dager.",
+      "first": "Hoffmannen kan velge en rolle. :reminder: :reminder:",
+      "flavor": "Jeg er mer redd for en hær på hundre sauer ledet av en løve enn en hær på hundre løver ledet av en sau.",
+      "name": "Hoffmann",
+      "other": "Hoffmannen kan velge en rolle. :reminder: :reminder:"
+    },
+    "cultleader": {
+      "ability": "Hver natt får du samme lagtilhørighet som en levende nabo. Hvis alle gode spillere velger å bli med i kulten din, vinner laget ditt.",
+      "first": "Kultlederen kan endre lagtilhørighet. Vis i så fall *DU ER*-infobrikken og gi et tommelsignal.",
+      "flavor": "De trodde de var kloke, men ble dårer.",
+      "name": "Kultleder",
+      "other": "Kultlederen kan endre lagtilhørighet. Vis i så fall *DU ER*-infobrikken og gi et tommelsignal."
+    },
+    "damsel": {
+      "ability": "Alle Minioner vet at en Ungfrue er i spill. Hvis en Minion gjetter deg offentlig (én gang), taper laget ditt.",
+      "first": "Under Minion-info, vis Minionene Ungfrue-brikken. Hvis du ikke har gjort dette ennå, gjør det nå. Hvis Ungfruen ble valgt av Jegeren, vis *DU ER*-infobrikken og deres nye rollebrikke.",
+      "flavor": "Ikke rør håret, kjære.",
+      "name": "Ungfrue",
+      "other": "Hvis Ungfruen ble valgt av Jegeren, vis *DU ER*-infobrikken og deres nye rollebrikke."
+    },
+    "dawn": {
+      "first": "Vent noen sekunder. Avslutt nattfasen.",
+      "other": "Vent noen sekunder. Avslutt nattfasen."
+    },
+    "demoninfo": {
+      "first": "Hvis det er 7 eller flere spillere, vekk Demonen: Vis *DISSE ER DINE MINIONER*-brikken. Pek på alle Minionene. Vis *DISSE ROLLENE ER IKKE I SPILL*-brikken. Vis 3 gode rollebrikker som ikke er i spill."
+    },
+    "deusexfiasco": {
+      "ability": "Minst én gang per spill skal fortelleren gjøre en feil, rette den og offentlig innrømme den.",
+      "flavor": "Det er ikke en bug, det er en funksjon. Det er ikke en feil, det er en finjustering. Det er ikke ødelagt, det er finurlig.",
+      "name": "Deus ex Fiasko"
+    },
+    "deviant": {
+      "ability": "Hvis du var morsom i dag, kan du ikke dø av forvisning.",
+      "flavor": "Sannelig, det var damens spøk.",
+      "name": "Avviker"
+    },
+    "devilsadvocate": {
+      "ability": "Hver natt velger du en levende spiller (forskjellig fra sist natt): hvis de blir henrettet i morgen, dør de ikke.",
+      "first": "Djevelens advokat velger en levende spiller. :reminder:",
+      "flavor": "Dersom innsigelsen blir avvist, erkjenner klienten min uskyldig i kraft av påtalemyndighetens manglende overholdelse av lov 27.B – feil eller misvisende verbbøyning. Det faktum at ni av juryen døde i går kveld er rett og slett prima facie, som, slik Wills vs Thule satte presedens for, er ytterligere grunn til å frikjenne.",
+      "name": "Djevelens advokat",
+      "other": "Djevelens Advokat velger en levende spiller. :reminder:"
+    },
+    "djinn": {
+      "ability": "Bruk Djinnis spesialregel. Alle spillere vet hva den er.",
+      "flavor": "نحن لسنا هنا. انت لست حقيقي. كل شيء هو وهم. أسئلتك هي جبل نار في يوم صافٍ.",
+      "name": "Djinni"
+    },
+    "doomsayer": {
+      "ability": "Hvis 4 eller flere spillere lever, kan hver levende spiller åpent velge (én gang per spill) at en spiller med samme lagtilhørighet dør.",
+      "flavor": "Og på den syvende dag skal det komme en stor flom og pest over folket i Ravnelandsbyen! De døde skal oppstå, og de levende skal omvende seg! O Ve! O vanhellige dag! Bare ved stort offer skal de seire! Så sier Nostros' vismenn, og så sier jeg.",
+      "name": "Dommedagsprofet"
+    },
+    "dreamer": {
+      "ability": "Hver natt velger du en spiller (ikke deg selv eller Reisende): du lærer én god og én ond rolle, hvorav én er riktig.",
+      "first": "Drømmeren peker på en spiller. Vis 1 god og 1 ond rollebrikke, hvorav 1 er spillerens rolle.",
+      "flavor": "Jeg husker Urmakeren. Himmelen var rød, og det regnet fraktale trekanter. Det luktet fioler og det boblet. En kvinne med glødende øyne og et rufsete skjegg hveste mot himmelen. Så våknet jeg.",
+      "name": "Drømmer",
+      "other": "Drømmeren peker på en spiller. Vis 1 god og 1 ond rollebrikke, hvorav 1 er spillerens rolle."
+    },
+    "drunk": {
+      "ability": "Du vet ikke at du er Fylliken. Du tror du er en Landsbybeboer, men det er du ikke.",
+      "flavor": "Jeg drikker bare i *hikk* sosiale lag, kjære deg. Jeg er bare veldig *rap* sosial.",
+      "name": "Fyllik"
+    },
+    "duchess": {
+      "ability": "Hver dag kan 3 spillere velge å besøke deg. Om natten* får hver besøkende vite hvor mange besøkende som er onde, men 1 får falsk informasjon.",
+      "flavor": "Vi skal ha gjester presis mellom klokken 18 og 19. Te klokken 18:15. Scones klokken 18:45. Ikke kom for sent. Festantrekk gjelder, som alltid.",
+      "name": "Hertuginne",
+      "other": "Én om gangen: Vekk hver spiller merket med *BESØKENDE* eller *FALSK INFO*. Vis *DENNE ROLLEN VALGTE DEG*- og Hertuginne-brikkene, og gi deretter et fingersignal."
+    },
+    "dusk": {
+      "first": "Start nattfasen.",
+      "other": "Start nattfasen."
+    },
+    "empath": {
+      "ability": "Hver natt lærer du hvor mange av dine 2 levende naboer som er onde.",
+      "first": "Gi et fingersignal.",
+      "flavor": "Det prikker i huden min. Noe er ikke som det skal her. Jeg kan føle det.",
+      "name": "Empat",
+      "other": "Gi et fingersignal."
+    },
+    "engineer": {
+      "ability": "Én gang per spill, om natten, velg hvilke Minioner eller hvilken Demon som er i spill.",
+      "first": "Ingeniøren kan velge Minioner eller Demoner. La Ingeniøren sove. Vekk valgte spillere én om gangen. Vis *DU ER* og deres nye rollebrikke. :reminder:",
+      "flavor": "Hvis den bøyer seg, flott. Hvis den går i stykker, vel, den måtte nok fikses uansett.",
+      "name": "Ingeniør",
+      "other": "Ingeniøren kan velge Minioner eller Demoner. La Ingeniøren sove. Vekk de valgte spillerene én om gangen. Vis *DU ER* og deres nye rollebrikke. :reminder:"
+    },
+    "eviltwin": {
+      "ability": "Du og en motspiller vet om hverandre. Hvis den gode spilleren blir henrettet, vinner den onde. De gode kan ikke vinne hvis dere begge lever.",
+      "first": "Vekk begge tvillingene. La dem ha øyekontakt. Vis den gode tvillingens rollebrikke til den Onde Tvillingen og omvendt.",
+      "flavor": "Jeg er ikke Sara! Jeg er Klara! HUN er Sara! Sara er den onde! Ikke meg!",
+      "name": "Ond tvilling"
+    },
+    "exorcist": {
+      "ability": "Hver natt*, velg en spiller (forskjellig fra i sist natt): Hvis Demonen er valgt våkner den ikke i natt, men får vite hvem du er.",
+      "flavor": "Vi kaster dere ut, enhver uren ånd, enhver satanisk makt, ethvert angrep fra den infernalske motstanderen, enhver legion, enhver djevelsk gruppe og sekt, i vår Herre Jesu Kristi navn og ved hans kraft. Vi befaler dere: Gå og fly langt fra Guds kirke, fra sjelene som er skapt av Gud i hans bilde og forløst av Guds lams dyrebare blod.",
+      "name": "Eksorsist",
+      "other": "Eksorsisten velger en spiller. :reminder: La Eksorsisten sove. Hvis Eksorsisten velger Demonen: Vekk Demonen. Vis *DENNE ROLLEN VALGTE DEG* og Eksorsist-brikkene. Pek på Eksorsisten."
+    },
+    "fanggu": {
+      "ability": "Hver natt*, velg en spiller: de dør. Den første Outsideren dette dreper blir en ond Fang Gu, og du dør i stedet. [+1 Outsider]",
+      "flavor": "Dine vegger og dine våpen er bare røyk i drømmer.",
+      "name": "Fang Gu",
+      "other": "Fang Gu velger en spiller. :reminder: Hvis de velger en Outsider (kun én gang): Bytt ut Outsider-brikken med den ekstra Fang Gu-brikken. La Fang Gu sove. Vekk den valgte spilleren. Vis *DU ER*- og Fang Gu-brikkene og gi tommelen ned. :reminder:"
+    },
+    "farmer": {
+      "ability": "Når du dør om natten, blir en levende god spiller en Bonde.",
+      "flavor": "Selv de høye og mektige trenger mat på bordet. Uten oss sulter byen.",
+      "name": "Bonde",
+      "other": "Hvis Bonden døde i natt, vekk en levende god spiller. Vis *DU ER*-infobrikken og en Bonde-brikke."
+    },
+    "fearmonger": {
+      "ability": "Hver kveld velger du en spiller: Hvis du nominerer og henretter dem, taper laget deres. Alle spillere vet om du velger en ny spiller.",
+      "first": "Fryktsprederen velger en spiller. :reminder: Kunngjør at Fryktsprederen har valgt en spiller.",
+      "flavor": "Vokt deg for å stirre lenge inn i Avgrunnen, thi Avgrunnen stirrer også inn i deg.",
+      "name": "Fryktspreder",
+      "other": "Fryktsprederen velger en spiller. :reminder: Hvis målet er forskjellig fra i går kveld, kunngjør at Fryktsprederen har valgt en spiller."
+    },
+    "ferryman": {
+      "ability": "På den siste dagen får alle døde spillere tilbake stemmebrikken sin.",
+      "flavor": "Når rettferdige drømmer kommer, har de sannhetens tyngde.",
+      "name": "Fergemann"
+    },
+    "fibbin": {
+      "ability": "Én gang per spill kan 1 god spiller få feil informasjon.",
+      "flavor": "Tihihi. Ti. Hi. Hi.",
+      "name": "Løgnhals"
+    },
+    "fiddler": {
+      "ability": "Én gang per spill velger Demonen i hemmelighet en motstander: alle spillerne velger hvilken av disse 2 spillerne som vinner.",
+      "flavor": "Je vædder dæ dritfete live mitt på at du itte slår meg i felespæll, di skjæløgde gørrklyse! Nå dreg vi ut på rangel, fyller bøla dærså det bogner, og lager et fynderlig spetakkel. Men i mårrå tidlig kjem je tel å moke skoa mine så langt oppi rævva på dæ at du kjenner tåfisen, di rælete skravlebøtte!",
+      "name": "Spellemann"
+    },
+    "fisherman": {
+      "ability": "Besøk fortelleren én gang per spill, i løpet av dagen, for å få råd om hvordan du kan hjelpe laget ditt med å vinne.",
+      "flavor": "Dette var min favorittdel av elven ... ser du hvordan sollyset lager en regnbue fra klosteret til markedet? Dette var det beste stedet for stor fisk. Og jo eldre jeg blir, desto større var de.",
+      "name": "Fisker"
+    },
+    "flowergirl": {
+      "ability": "Hver natt* får du vite om en Demon stemte i dag.",
+      "flavor": "Gårsdagens fioler har visnet og dødd, men i dag blomstrer valmuene mine.",
+      "name": "Blomsterpike",
+      "other": "Enten nikk eller rist på hodet."
+    },
+    "fool": {
+      "ability": "Den første gangen du dør overlever du.",
+      "flavor": "...og kongen sa: «Hva?! Jeg har aldri eid et par gummibukser, langt mindre en vaniljesauskanon!» Ho-ho! God dag!",
+      "name": "Narr"
+    },
+    "fortuneteller": {
+      "ability": "Hver kveld velger du 2 spillere: du får vite om en av dem er en Demon. Det finnes en god spiller som registreres som en Demon for deg.",
+      "first": "Spåkonen velger 2 spillere. Nikk hvis en av dem er Demonen (eller *VILLSPOR*).",
+      "flavor": "Jeg aner stor ondskap i sjelen din! Men ... det kan jo bare være parfymen din. Jeg er allergisk mot hyllebær.",
+      "name": "Spåkone",
+      "other": "Spåkonen velger 2 spillere. Nikk hvis en av dem er Demonen (eller *VILLSPOR*)."
+    },
+    "gambler": {
+      "ability": "Hver natt*, velg en spiller og gjett rollen deres: hvis du gjetter feil, dør du.",
+      "flavor": "Kron, jeg vinner. Mynt, du taper.",
+      "name": "Lykkejeger",
+      "other": "Spilleren velger en spiller og en rolle. :reminder:"
+    },
+    "gangster": {
+      "ability": "Én gang hver dag kan du velge å drepe en levende nabo, hvis den andre levende naboen din samtykker.",
+      "flavor": "Jeg liker skoene dine. Det hadde vært så synd om du hadde en liten ulykke, og de ble ødelagt. Nå som du nevner det, liker jeg også mansjettknappene dine.",
+      "name": "Gangster"
+    },
+    "gardener": {
+      "ability": "Fortelleren tildeler alle spillernes roller.",
+      "flavor": "Når sofisteri blir til dumhet og hykleri til grusomhet, trekk deg tilbake til hagen. Gamle menns endelige kjærlighet er blomster og steiner.",
+      "name": "Gartner"
+    },
+    "general": {
+      "ability": "Hver natt får du vite hvilket lag fortelleren mener er på vei til å vinne: de gode, de onde eller ingen av dem.",
+      "first": "Gi et tommelsignal.",
+      "flavor": "Jeg har ikke tid til sitater.",
+      "name": "General",
+      "other": "Gi et tommelsignal."
+    },
+    "gnome": {
+      "ability": "Alle spillere starter med å lære en spiller fra din lagtilhørighet. Du kan velge å drepe alle som nominerer dem.",
+      "flavor": "Fire skåler eller sju øl, ingen opptredener er i boks for meg og mine. Et pek for å knekke grinebitere og plankverk i gulvets grunnvollslengde, så ubestridulig mini. De lange essayene nedover strømmer av fryd, ikke større enn det som sees, ikke uhørt. Ha-rrumf.",
+      "name": "Gnom"
+    },
+    "goblin": {
+      "ability": "Hvis du offentlig hevder å være Goblinen når du blir nominert og blir henrettet den dagen, vinner laget ditt.",
+      "flavor": "Du vil ikke fornærme goblinene. Det vil du virkelig, virkelig ikke. Apropos noe helt annet ... kan jeg få et kakestykke til?",
+      "name": "Goblin"
+    },
+    "godfather": {
+      "ability": "Du starter med å vite hvilke Outsidere som er i spill. Hvis 1 døde i dag, velg en spiller i kveld: de dør. [-1 eller +1 Outsider]",
+      "first": "Vis rollebrikkene til alle Outsiders i spillet.",
+      "flavor": "Vanligvis er det bare forretninger. Men når du fornærmer datteren min, fornærmer du meg. Og når du fornærmer meg, fornærmer du familien min. Du burde virkelig være mer forsiktig – det ville vært synd om du hadde en uheldig ulykke.",
+      "name": "Gudfar",
+      "other": "Hvis en Outsider døde i dag, velger Gudfaren en spiller. :reminder:"
+    },
+    "golem": {
+      "ability": "Du kan bare nominere én gang per spill. Når du gjør det, hvis den nominerte ikke er Demonen, dør de.",
+      "flavor": "Golem hjelp? Golem knus! Golem hjelp.",
+      "name": "Golem"
+    },
+    "goon": {
+      "ability": "Hver natt er den første spilleren som velger deg med sin egenskap full til skumringen. Du får samme lagtilhørighet som de.",
+      "flavor": "Ja, sjef. Jeg forklarte det veldig bra til den fyren. Han vil ikke at jeg skal forklare det igjen. Neida, sjef, jeg trenger ingen lege – det er bare et knivsår. Vær rask, kom i morgen.",
+      "name": "Bølle"
+    },
+    "gossip": {
+      "ability": "Hver dag kan du påstå noe offentlig. I natt dør en spiller hvis det var sant.",
+      "flavor": "Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla. Bla.",
+      "name": "Sladrekone",
+      "other": "Hvis Sladrekona snakket sant, dør en spiller. :reminder:"
+    },
+    "grandmother": {
+      "ability": "Du starter med å lære en god spiller og rollen deres. Hvis Demonen dreper dem, dør du også.",
+      "first": "Vis den valgte spillerens rollebrikke og vis spilleren.",
+      "flavor": "Ta med deg en jakke hvis du går ut, kjære. Og termosen din. Og skjerfet ditt. Jeg har et svakt hjerte, vet du. Hva skulle jeg gjort hvis du ble forkjølet ... eller verre?",
+      "name": "Bestemor",
+      "other": "Hvis barnebarnet ble drept av Demonen, dør Bestemoren også. :reminder:"
+    },
+    "gunslinger": {
+      "ability": "Hver dag, etter at den første avstemmingen er telt opp, kan du velge en spiller som stemte: de dør.",
+      "flavor": "Det er på tide at noen tar saken i egne hender. Den noen ... er meg.",
+      "name": "Skytter"
+    },
+    "harlot": {
+      "ability": "Hver natt*, velg en levende spiller: om de er enig, lær rollen deres, men dere kan begge dø.",
+      "flavor": "Enchanté, Sailor. Du ser ut som du trenger noen som virkelig lytter til problemene dine. Jeg er en god lytter. Veldig, veldig god.",
+      "name": "Skjøge",
+      "other": "Skjøgen peker mot en spiller, og faller så tilbake i søvn. Vekk den valgte spilleren, vis dem *THIS CHARACTER SELECTED YOU*-kortet, så Skjøge-brikken. Spilleren nikker enten for \"ja\" eller rister på hodet for \"nei\". Om de nikket, vekk Skjøgen og vis dem den valgte spillerens rollebrikke. Etterpå kan du velge at begge spillerne dør. :reminder: :reminder:"
+    },
+    "harpy": {
+      "ability": "Hver natt, velg 2 spillere: i morgen er den første spilleren gal om at den andre er ond, ellers kan det hende at én eller begge dør.",
+      "first": "Harpyen velger 2 spillere. :reminder: :reminder: La Harpyen sove. Vekk den første spilleren. Vis *DENNE ROLLEN VALGTE DEG*-brikken, Harpy-brikken, og pek deretter på den andre spilleren.",
+      "flavor": "Så vakker en dag jeg aldri så, og heller ikke en skygge så skummel som hang over meg.",
+      "name": "Harpy",
+      "other": "Harpyen velger 2 spillere. :reminder: :reminder: La Harpyen sove. Vekk den første spilleren. Vis *DENNE ROLLEN VALGTE DEG*-brikken, Harpy-brikken, og pek deretter på den andre spilleren."
+    },
+    "hatter": {
+      "ability": "Om du døde i dag eller i natt, kan Lakei- og Demonspillere velge å få andre Lakei- og Demon-roller.",
+      "flavor": "Én hatt. For hatt. Tre hatt. Tehatt. Forhatt. Triveshatt. Seks hatt. Pinnerhatt.",
+      "name": "Hattemaker",
+      "other": "Om Hattemakeren døde i dag: Vekk Minionene og Demonen. De får velge nye roller. Hvis de gjør det, vis dem *YOU ARE*-kortet og den nye rollen."
+    },
+    "hellslibrarian": {
+      "ability": "Noe ille kan hende dem som snakker når Fortelleren har bedt om stillhet.",
+      "flavor": "Hysj. Vær så snill å vær stille. Det er best å ikke forstyrre bibliotekaren. Jeg har hørt at den har et temperament.",
+      "name": "Helvetes bibliotekar"
+    },
+    "heretic": {
+      "ability": "Vinnerlaget taper og taperlaget vinner, selv om du er død.",
+      "flavor": "Etter at haglet har knust taket og splintret glasset i katedralvinduene, smelter det igjen inn i jorden, som et døende lam i ørkensolen. Slik er lignelsen om den gale mannen.",
+      "name": "Kjetter"
+    },
+    "hermit": {
+      "ability": "Du har alle Outsider-egenskaper. [-0 eller -1 Outsider]",
+      "flavor": "På jordens tapte og glemte steder vinker sjelens lys.",
+      "name": "Eremitt"
+    },
+    "highpriestess": {
+      "ability": "Hver natt, lær hvilken spiller Fortelleren synes du bør snakke med mest.",
+      "first": "Pek på en spiller.",
+      "flavor": "Det finnes liv bak personligheten som bruker personligheter som masker. Det finnes tider når livet legger av seg masken og dype svar på dype.",
+      "name": "Yppersteprestinne",
+      "other": "Pek på en spiller."
+    },
+    "huntsman": {
+      "ability": "Én gang per spill, om natten, velg en levende spiller: Hvis Ungfruen blir valgt, blir de til en Landsbybeboer som ikke er i spill. [+Jomfruen]",
+      "first": "Jegeren kan velge en spiller. :reminder: Hvis de valgte Ungfruen: La Jegeren sove. Vekk den valgte spilleren. Vis *DU ER*-infobrikken og deres nye rollebrikke.",
+      "flavor": "Hytta mi er varm og solid. Øksen min ved døren, støvlene mine tørker ved bålet, og elggryten koker … Hør! Et skrik runger gjennom dalen! Regnet og gjørmen og den kalde, kalde vinden maskerer lukten av ulvene, men jeg kjenner stien, og tempoet mitt er jevnt. Jeg kommer.",
+      "name": "Jeger",
+      "other": "Jegeren kan velge en spiller. :reminder: Hvis de valgte Ungfruen: La Jegeren sove. Vekk den valgte spilleren. Vis *DU ER*-infobrikken og deres nye rollebrikke."
+    },
+    "imp": {
+      "ability": "Hver natt*, velg en spiller: de dør. Hvis du dreper deg selv på denne måten, blir en Minion til Djevelen.",
+      "flavor": "Vi må holde vettet skarpt og sverdet skarpere. Ondskapen vandrer blant oss og vil ikke stoppe for noe som helst for å ødelegge oss gode, enkle folk og bringe vår fine by til ruiner. Stol ikke på noen. Men hvis du må stole på noen, stol på meg.",
+      "name": "Djevel",
+      "other": "Djevelen velger en spiller. :reminder: Hvis Djevelen valgte seg selv: Erstatt 1 levende Minion-brikke med en ekstra Djevel-brikke. La den gamle Djevelen sove. Vekk den nye Djevelen . Vis *DU ER*-brikke, og vis deretter Djevel-brikken."
+    },
+    "innkeeper": {
+      "ability": "Hver natt*, velg 2 spillere: de kan ikke dø i natt, men 1 er full frem til daggry.",
+      "flavor": "Kom inn, du gode reisende, og hvil dine trette bein. Drikk og vær glad, for den Mørkes legioner skal ikke plage deg i kveld.",
+      "name": "Gjestgiver",
+      "other": "Gjestgiveren velger 2 spillere. :reminder: :reminder: :reminder:"
+    },
+    "investigator": {
+      "ability": "Du starter med å vite at 1 av 2 spillere er en bestemt Minion.",
+      "first": "Vis Minion-rollebrikken. Pek på både *MINION*- og *WRONG*-spilleren.",
+      "flavor": "Det er en fin kveld for en spasertur, ikke sant, herr Morozov? Eller burde jeg si ... BARON Morozov?",
+      "name": "Etterforsker"
+    },
+    "judge": {
+      "ability": "Én gang per spill, hvis en annen spiller er nominert, kan du velge å tvinge henrettelsen til å bli gjennomført eller feile.",
+      "flavor": "Jeg finner tiltalte skyldig i forbrytelsene drap, bedrageri, brannstiftelse, tyveri, å utgi seg for å være en politibetjent, å praktisere medisin uten lisens, ærekrenkelse, kongedrap og forsøpling.",
+      "name": "Dommer"
+    },
+    "juggler": {
+      "ability": "På din første dag kan du offentlig gjette opptil 5 spilleres roller. Den natten får du vite hvor mange rette du hadde.",
+      "flavor": "Til mitt neste triks, som jeg har blitt bedt om, trenger jeg en blomst, en pose med bønner, en lekeslange, en pensel og en motorisert bensindrevet hekklipper. Jeg advarer deg, dette trikset kan bli mitt siste. Åh kjære.",
+      "name": "Sjonglør",
+      "other": "Gi et fingersignal."
+    },
+    "kazali": {
+      "ability": "Hver natt*, velg en spiller: de dør. [Du velger hvilke spillere som er hvilke Minioner. -? til +? Outsidere]",
+      "first": "Kazali velger hvilke spillere som er hvilke Minioner. Vekk hvert Minion. Vis *DU ER*- og Minion-brikken og gi tommelen ned.",
+      "flavor": "Gon(z)a7les6. Vær f0rsikt1g. Hele mek4an4sm1n = iNvert10ed. F3il isy6tem. Omko\\{7\\}fig.",
+      "name": "Kazali",
+      "other": "Kazali velger en spiller. :reminder:"
+    },
+    "king": {
+      "ability": "Hver natt, hvis antall døde er likt som eller flere enn antall levende, lærer du én levende rolle. Demonen vet at du er Kongen.",
+      "first": "Vekk Demonen: Vis *DENNE SPILLEREN ER*- og Konge-brikken, og pek deretter på Kongen.",
+      "flavor": "Mellom de ukjente stridighetenes linjer / Og den sykelige natten, søt av mystikk og sorg / Ligger de uhemmede gledene i skjebnens lange og fargerike liv / Hvis hage blomstrer med hvert malte ansikt.",
+      "name": "Konge",
+      "other": "Hvis det er likt eller flere døde enn levende, vis rollebrikken til en levende spiller."
+    },
+    "klutz": {
+      "ability": "Når du får vite at du er død, velg offentlig 1 levende spiller: hvis de er ond, taper laget ditt.",
+      "flavor": "Oj.",
+      "name": "Kløne"
+    },
+    "knight": {
+      "ability": "Du starter med å lære 2 spillere som ikke er Demonen.",
+      "first": "Pek på de 2 spillerne som er merket med *VET*.",
+      "flavor": "Når en mann lyver, myrder han en del av verden.",
+      "name": "Ridder"
+    },
+    "legion": {
+      "ability": "Hver natt* kan en spiller dø. Henrettelser mislykkes hvis bare de onde stemte. Du registreres også som en Minion. [De fleste spillere er Legion]",
+      "flavor": "Vi er den kjølige vinden på en vinterdag. Vi er skyggen i den måneløse natten. Vi er giften i teen din og hvisken i øret ditt. Vi er overalt.",
+      "name": "Legion",
+      "other": "En spiller kan dø. :reminder:"
+    },
+    "leviathan": {
+      "ability": "Hvis mer enn 1 god spiller blir henrettet, vinner de onde. Alle spillere vet at du er med i spillet. Etter dag 5 vinner de onde.",
+      "first": "Kunngjør at Leviatan er i spill. :reminder:",
+      "flavor": "Til det siste kjemper jeg med deg. Fra helvetes hjerte stikker jeg deg. For hatets skyld spytter jeg mitt siste åndedrag mot deg.",
+      "name": "Leviatan",
+      "other": "Endre Leviatan-påminnelsesbrikken til den aktuelle dagen. :reminder: Du kan annonsere at Leviatan er i spill."
+    },
+    "librarian": {
+      "ability": "Du starter med å vite at 1 av 2 spillere er en bestemt Outsider. (Eller at ingen er i spill.)",
+      "first": "Vis Outsider-rollebrikken. Pek på både *OUTSIDER*- og *FEIL*-spillerne.",
+      "flavor": "Selvfølgelig, frue, under normale omstendigheter kan De låne Codex Malificarium fra bibliotekets hvelver. Det ser imidlertid ikke ut til at De er medlem.",
+      "name": "Bibliotekar"
+    },
+    "lilmonsta": {
+      "ability": "Hver natt velger Minionene hvem som skal passe Lille Monster og \"er Demonen\". Hver natt* kan en spiller dø. [+1 Minion]",
+      "first": "Vekk Minionene. De velger en spiller. :reminder: La Minionene sove. Vekk den valgte spilleren. Vis *DU ER*- og Lille Monster-brikken.",
+      "flavor": "Steg 1: Vær søt. Steg 2: Verdensherredømme. Steg 3: Frokoth.",
+      "name": "Lille Monster",
+      "other": "Vekk Minionene. De velger en spiller. :reminder: La Minionene sove. Vekk den valgte spilleren. Vis *DU ER*- og Lille Monster-brikken. En spiller kan dø. :reminder:"
+    },
+    "lleech": {
+      "ability": "Hver natt*, velg en spiller: de dør. Du starter med å velge en spiller: de er forgiftet. Du dør hvis og bare hvis den dør.",
+      "first": "Iiglen velger en spiller. :reminder:",
+      "flavor": "Nam, nam, nam, nam, nam, nam, nam, nam, hjern– jeg mener pai! Ja. Nam, pai. Det var det jeg mente å si.",
+      "name": "Iigle",
+      "other": "Iiglen velger en spiller. :reminder:"
+    },
+    "lordoftyphon": {
+      "ability": "Hver natt*, velg en spiller: de dør. Onde roller sitter på rad. Du sitter i midten. +1 Minion. -? til +? Outsidere]",
+      "first": "Vekk naboene til Tyfonherren. Vis *DU ER*- og Minion-brikkene og gi tommelen ned.",
+      "flavor": "I kosmos' skyggefulle og glemte kroker, der stjernene hvisker hemmeligheter til tomrommet, ligger en sannhet så dyp at det minste glimt av den rakner til de dødelige sinns forstand.",
+      "name": "Tyfonherre",
+      "other": "Tyfonherren velger en spiller. :reminder:"
+    },
+    "lunatic": {
+      "ability": "Du tror du er en Demon, men det er du ikke. Demonen vet hvem du er og hvem du velger om natten.",
+      "first": "Hvis det er 7 eller flere spillere, vekk Gærningen: Vis *DETTE ER DINE MINIONER*-brikken. Pek på en hvilken som helst spiller. Vis *DISSE ROLLENE ER IKKE I SPILL*-brikke. Vis 3 gode rollebrikker. La Gærningen sove. Vekk Demonen. Vis *DU ER*-infobrikken og Demon-brikke. Vis *DENNE SPILLEREN ER*-infobrikken og Gærningen, og pek deretter på Gærningen.",
+      "flavor": "Jeg er natten… tror jeg.",
+      "name": "Gærning",
+      "other": "Gjør det som må gjøres for å simulere Demonens oppførsel. La Gærningen sove. Vekk Demonen. Vis Gærning-brikken og pek på dem, deretter deres mål."
+    },
+    "lycanthrope": {
+      "ability": "Hver natt*, velg en levende spiller. Hvis de er gode dør de, og Demonen dreper ikke i natt. Én god spiller registreres som ond.",
+      "flavor": "Under sivilisasjonens tynne ferniss ligger en hylende galskap.",
+      "name": "Varulv",
+      "other": "Lykantropen velger en spiller. :reminder:"
+    },
+    "magician": {
+      "ability": "Demonen tror du er en Minion. Minionene tror du er en Demon.",
+      "first": "Under Minion-info, pek på Magikeren og Demonen. Under Demon-info, pek på Magikeren og Minionene.",
+      "flavor": "1... 2... Abra... 3... 4... Kadabra... *poff!* Og, som dere ser, mine damer og herrer, er kaptein Farnsworths gullpose forsvunnet! Borte! Sporløst! Takk, og god natt!",
+      "name": "Tryllekunstner"
+    },
+    "marionette": {
+      "ability": "Du tror du er en god rolle, men det er du ikke. Demonen vet hvem du er. [Du er nabo til Demonen]",
+      "first": "Vekk Demonen. Vis *DENNE SPILLEREN ER*- og Marionette-brikken. Pek på Marionetten.",
+      "flavor": "Ord, ord. Det er alt vi har å gå på.",
+      "name": "Marionette"
+    },
+    "mastermind": {
+      "ability": "Hvis Demonen dør ved henrettelse (og dermed avslutter spillet), spill 1 dag til. Hvis en spiller da blir henrettet, taper laget deres.",
+      "flavor": "Monsterets tentakler er naglet til kirkedørene. Mødre og barn danser i gaten. Utmerket. Alt går akkurat som jeg har planlagt.",
+      "name": "Konspiratør"
+    },
+    "mathematician": {
+      "ability": "Hver natt lærer du hvor mange spilleres evner som har fungert unormalt (siden daggry) på grunn av en annen rolles evne.",
+      "first": "Gi et fingersignal.",
+      "flavor": "Ethvert konsistent formelt system x, der en viss mengde elementær aritmetikk kan utføres, er ufullstendig; det vil si at det finnes utsagn i språket til x som verken kan bevises eller motbevises i x. Ergo, du er full.",
+      "name": "Matematiker",
+      "other": "Gi et fingersignal."
+    },
+    "matron": {
+      "ability": "Hver dag kan du velge opptil 3 sett med 2 spillere som skal bytte plasser. Spillere kan ikke forlate plassene sine for å snakke privat.",
+      "flavor": "Frøken Featherbottom, vær stille. Mester Rutherford, en tekopp trenger bare fire fingre, takk. Jeg vet at du er far til ni, men alder, eller mangel på sådan, er aldri en unnskyldning for dårlig oppførsel.",
+      "name": "Matrone"
+    },
+    "mayor": {
+      "ability": "Hvis bare 3 spillere lever og ingen henrettelse skjer, vinner laget ditt. Hvis du dør om natten, kan en annen spiller dø i stedet.",
+      "flavor": "Vi må legge forskjellene våre til side og stoppe denne meningsløse drepingen. Vi er tross alt alle skattebetalere. Vel, de fleste av oss.",
+      "name": "Borgermester"
+    },
+    "mezepheles": {
+      "ability": "Du begynner å lære et hemmelig ord. Den første gode spilleren som sier dette ordet blir ond den natten.",
+      "first": "Vis det hemmelige ordet.",
+      "flavor": "Det som kun fra hjertet rinner, andres hjerter til ditt vinner.",
+      "name": "Mezefeles",
+      "other": "Hvis en god spiller sa det hemmelige ordet, vekk spilleren. Vis *DU ER*-infobrikken og gi tommelen ned. :reminder: :reminder:"
+    },
+    "minioninfo": {
+      "first": "Hvis det er 7 eller flere spillere, vekk alle Minioner: Vis *DETTE ER DEMONEN*-brikken. Pek på Demonen. Vis *DETTE ER DINE MINIONER*-brikken. Pek på de andre Minionene."
+    },
+    "minstrel": {
+      "ability": "Når en Minion dør ved henrettelse, er alle andre spillere (unntatt Reisende) fulle til skumringen i morgen.",
+      "flavor": "Og jeg skal høre, selv om du trår mykt over meg ... Og alle mine drømmer vil være varme og søtere ... Hvis du ikke unnlater å fortelle meg at du elsker meg ... Sover jeg bare i fred til du kommer til meg.",
+      "name": "Trubadur"
+    },
+    "monk": {
+      "ability": "Hver natt*, velg en spiller (ikke deg selv): de er trygge fra Demonen i natt.",
+      "flavor": "Det er en ond og dødelig vind som blåser i natt. Kom, min bror, søk ly i klosteret mens stormen raser. Ved mitt ord, eller ved mitt liv, vil du være trygg.",
+      "name": "Munk",
+      "other": "Munken velger en spiller. :reminder:"
+    },
+    "moonchild": {
+      "ability": "Når du får vite at du er død, velg offentlig én levende spiller. De dør i natt hvis de var en god spiller.",
+      "flavor": "Skorpionen ser sidelengs på de elskende, og du har et valg å fatte. Med sølv krysser jeg min håndflate, og din skjebne skal avsløres. Med stål krysser jeg min hals, og ved stjernene skal du angre.",
+      "name": "Månebarn",
+      "other": "Hvis Månebarnet skal drepe en god spiller, dør de. :reminder:"
+    },
+    "mutant": {
+      "ability": "Hvis du er gal om å være en Outsider kan du bli henrettet.",
+      "flavor": "Jeg er ikke et monster! Jeg er et menneske! Ha nåde!",
+      "name": "Mutant"
+    },
+    "nightwatchman": {
+      "ability": "Én gang per spill, om natten, velg en spiller: de får vite at du er Nattevakten.",
+      "first": "Nattevakten kan velge en spiller. La Nattevakten sove. Vekk den valgte spilleren. Vis *DENNE SPILLEREN ER*- og Nattevakt-brikken, og pek deretter på Nattevakten. :reminder:",
+      "flavor": "Natten er kald og ensom, men jeg har månen, stjernene, den friske vinden og den myke dunken av skinnstøvler på brostein som selskap. Der blafrer stearinlys bak et mørkt vindu ...",
+      "name": "Vekteren",
+      "other": "Nattevakten kan velge en spiller. La Nattevakten sove. Vekk den valgte spilleren. Vis *DENNE SPILLEREN ER*- og Nattevakt-brikken, og pek deretter på Nattevakten. :reminder:"
+    },
+    "noble": {
+      "ability": "Du starter med å lære 3 spillere, hvorav bare 1 er ond.",
+      "first": "Vis de 3 spillerne som er merket med *VET*.",
+      "flavor": "Sarkasme er sannelig den laveste formen for humor. Men som svar på din kritikk, herr taler, er det likevel en form for humor.",
+      "name": "Adelsmann"
+    },
+    "nodashii": {
+      "ability": "Hver natt*, velg en spiller: de dør. Dine 2 naboer i byen er forgiftet.",
+      "flavor": "Ved Arnochs synder, jeg føler din tunge stank. Ved den forbannede solen og hennes motbydelige legion av små, glisende guder, forderver jeg deg. Ved den velsignede natten og de skjulte dypene av det grufulle og uhellige havet, avslutter jeg ditt usle liv på dette planet.",
+      "name": "No Dashii",
+      "other": "No Dashii velger en spiller. :reminder:"
+    },
+    "ogre": {
+      "ability": "På din første natt, velg en spiller (ikke deg selv): du får deres lagtilhørighet (du vet ikke hvilken), selv om du er full eller forgiftet.",
+      "first": "Trollet velger en spiller. :reminder:",
+      "flavor": "<grynt><glis></grynt>",
+      "name": "Troll"
+    },
+    "ojo": {
+      "ability": "Hver natt*, velg en rolle: de dør. Hvis de ikke er i spill, velger fortelleren hvem som dør.",
+      "flavor": "Som et brennende bål på en måneløs natt ... Jeg ser deg, dødelig.",
+      "name": "Ojo",
+      "other": "Ojo velger en rolle. :reminder:"
+    },
+    "oracle": {
+      "ability": "Hver natt* lærer du hvor mange døde spillere som er onde.",
+      "flavor": "Bare de utvalgte får se forbi sløret. De døde er rastløse, og de peker i stillhet mot det iskalde nord.",
+      "name": "Orakel",
+      "other": "Gi et fingersignal."
+    },
+    "organgrinder": {
+      "ability": "Alle spillerne holder øynene lukket når de stemmer, og stemmeopptellingen er hemmelig. Hver natt velger du om du er full til skumringen.",
+      "first": "Lirekassemannen nikker enten ja for å være full, eller rister nei for å være edru. :reminder:",
+      "flavor": "Rundt og rundt går håndtaket. Jo mer du danser, desto mindre vet du.",
+      "name": "Lirekassemann",
+      "other": "Lirekassemannen nikker enten ja for å være full, eller rister nei for å være edru. :reminder:"
+    },
+    "pacifist": {
+      "ability": "Henrettede gode spillere kan overleve.",
+      "flavor": "Mistro alle som har sterk trang til å straffe.",
+      "name": "Pasifist"
+    },
+    "philosopher": {
+      "ability": "En gang per spill, om natten, velg en god rolle: få dens egenskap. Hvis denne rollen er i spill, er de full.",
+      "first": "Filosofen kan velge en rolle. Bytt rollebrikke hvis nødvendig. :reminder:",
+      "flavor": "Hvis det er noe som er ekte, så er det øl. Drikk, for i morgen kan vi være døde.",
+      "name": "Filosof",
+      "other": "Filosofen kan velge en rolle. Bytt rollebrikke hvis nødvendig. :reminder:"
+    },
+    "pithag": {
+      "ability": "Hver natt* velger du en spiller og en rolle de blir (hvis de ikke er i spill). Hvis en Demon blir skapt, er dødsfallene i natt tilfeldige.",
+      "flavor": "Rundt om gryten gå; i de forgiftede innvollene kaste; padde, som under kald stein; dager og netter har trettien; svettet gift sovende fikk; kok du først i den forheksede gryten.",
+      "name": "Trollkjerring",
+      "other": "Trollkjerringen velger en spiller og en rolle. Hvis de velger en rolle som ikke er i spill: La Trollkjerringen sove. Vekk den valgte spilleren. Vis *DU ER*-brikken og deres nye rollebrikke."
+    },
+    "pixie": {
+      "ability": "Du starter med å lære 1 Landsbybeboer i spill. Hvis du var gal om at du var denne rollen, får du egenskapen deres når de dør.",
+      "first": "Vis rollebrikken til Landsbybeboeren markert med *GAL*.",
+      "flavor": "Rundt og rundt i hagen, gå. Små jenter løper frem og tilbake. Små gutter klatrer opp i treet. Hvilken av disse skal Alven være? Damer smiler og drar til byen. Herrer med øks hogger ned skogen. Det som er ditt er mitt. Det som er mitt, guddommelige. Dumme lille Alven, meg.",
+      "name": "Alv"
+    },
+    "plaguedoctor": {
+      "ability": "Når du dør, får fortelleren en Minion-egenskap.",
+      "flavor": "Vær thå thnill og thtå thtille. Thing thar tiid å heelee. Myrhh-myrhh.",
+      "name": "Pestdoktor",
+      "other": "Hvis Pestdoktoren døde, fikk fortelleren en Minion-evne. Hvis du ikke har gjort dette ennå, gjør det nå. :reminder:"
+    },
+    "po": {
+      "ability": "Hver natt* kan du velge en spiller: de dør. Hvis ditt siste valg var ingen, velg 3 spillere i natt.",
+      "flavor": "Vil du ha en blomst? Jeg er så ensom.",
+      "name": "Po",
+      "other": "Po kan velge én spiller ELLER velge 3 spillere hvis de ikke valgte noen i går natt. :reminder: eller :reminder: :reminder: :reminder:"
+    },
+    "poisoner": {
+      "ability": "Hver natt, velg en spiller: de er forgiftet i natt og i morgen.",
+      "first": "Forgifteren velger en spiller. :reminder:",
+      "flavor": "Tilsett komponent Alfa til komponent Beta ... IKKE FOR MYE!",
+      "name": "Giftblander",
+      "other": "Forgifteren velger en spiller. :reminder:"
+    },
+    "politician": {
+      "ability": "Hvis du var spilleren som var mest ansvarlig for at laget ditt tapte, endrer du lagtilhørighet og vinner, selv om du er død.",
+      "flavor": "Jeg er glad du stilte det spørsmålet. Sannelig, det gjør jeg. Men jeg tror det VIRKELIGE spørsmålet her er...",
+      "name": "Politiker"
+    },
+    "poppygrower": {
+      "ability": "Minioner og Demoner kjenner ikke til hverandre. Hvis du dør, lærer de hvem hverandre er den natten.",
+      "first": "Hopp over Minion-info og Demon-info. Vekk demonen. Vis *DISSE FIGURENE ER IKKE I SPILL*-brikken. Vis 3 gode roller som ikke er i spill.",
+      "flavor": "Med torden som min røst og lynet som mitt blad, eter jeg, den evige vokter, dårene som våger å nærme seg den forbudte port. Skrekk og gru, mitt hellige mål! Å renske billen ut fra den steinete jordens buk, å fange den i et nett av stjerner, på bakketoppen der himmel møter jord.",
+      "name": "Valmuedyrker",
+      "other": "Hvis Valmuedyrkeren døde i dag eller i natt, vekk alle Minionene. Vis *DETTE ER DEMONEN*-brikke. Pek på Demonen. La Minionene sove. Vekk Demonen. Vis *DETTE ER DINE MINIONER*-brikke. Pek på Minionene."
+    },
+    "preacher": {
+      "ability": "Hver natt velger du en spiller: Hvis du valgte en Minion lærer de dette. Alle valgte Minioner har ikke lengre sin egenskap.",
+      "first": "Predikanten velger en spiller. :reminder: Hvis de velger en Minion: La Predikanten sove. Vekk den valgte spilleren. Vis *DENNE ROLLEN VALGTE DEG* og Predikanten-brikken.",
+      "flavor": "Det er bedre å være rik og frisk enn fattig og syk.",
+      "name": "Predikant",
+      "other": "Predikanten velger en spiller. :reminder: Hvis de velger en Minion: La Predikanten sove. Vekk den valgte spilleren. Vis *DENNE ROLLEN VALGTE DEG* og Predikanten-brikken."
+    },
+    "princess": {
+      "ability": "Hvis du nominerte og henrettet en spiller på din første dag, dreper ikke Demonen i natt.",
+      "flavor": "Våre ord er som hunder, bundet av silketråder, mine herrer. La vennlighet veve dem sanne, for at ikke tøylene skal rakne og rive i stykker vårt hoff.",
+      "name": "Prinsesse",
+      "other": "Hvis Prinsessen nominerte spilleren som ble henrettet i dag, vekk Demonen som normalt, men ingen dør på grunn av Demonens evne. :reminder:"
+    },
+    "professor": {
+      "ability": "Én gang per spill, om natten*, velg en død spiller: hvis de er en Landsbybeboer, gjenopplives de.",
+      "flavor": "Prosessen er enkel. Koble den hydrauliske konfabulatoren til den modifiserte chi-matriseforsterkeren, tilsett 20ml pseudodorafin, hold Z-nivåene hans over 20%, så blir mannen din bra. Nå trenger vi bare et lynnedslag.",
+      "name": "Professor",
+      "other": "Professoren kan velge en død spiller. :reminder: :reminder:"
+    },
+    "psychopath": {
+      "ability": "Hver dag, før nominasjonene, kan du offentlig velge en spiller: de dør. Hvis du blir henrettet, dør du bare hvis du taper stein, saks og papir.",
+      "flavor": "Overraskelse!",
+      "name": "Psykopat"
+    },
+    "pukka": {
+      "ability": "Hver natt velger du en spiller: de blir forgiftet. Den tidligere forgiftede spilleren dør og blir deretter frisk.",
+      "first": "Pukka velger en spiller. :reminder:",
+      "flavor": "Du har virkelig vært snill og ønsket meg velkommen inn i ditt vakre hjem. Jeg er så lei meg for at jeg ved et uhell klødde deg. En liten ting. Det spiller ingen rolle. Men vær så snill å ta denne gylne tannpirkeren som et ydmykt tegn på min anger.",
+      "name": "Pukka",
+      "other": "Pukka velger en spiller. :reminder: Den tidligere forgiftede spilleren dør og blir deretter frisk. :reminder:"
+    },
+    "puzzlemaster": {
+      "ability": "1 spiller er full, selv om du dør. Hvis du gjetter (én gang) hvem det er, lærer du hvem som er Demonen, men hvis du gjettet feil får du feil informasjon.",
+      "flavor": "Når man begynner å tro at noe bare er noe annet, er man vanligvis på randen av en feiltagelse. Tålmodighet, tålmodighet. Ikke forveksle bare og burde med er og ikke.",
+      "name": "Puslemester"
+    },
+    "ravenkeeper": {
+      "ability": "Hvis du dør om natten, blir du vekket for å velge en spiller: du lærer rollen deres.",
+      "flavor": "Mine fugler skal hevne meg! Fly! Fly, mine søte og pliktoppfyllende venner! Til godset og til elven! Til alléene og til salongene! Fly!",
+      "name": "Ravnvokter",
+      "other": "Hvis Ravnvokteren døde i natt, velger Ravnvokteren en spiller. Vis den spillerens rollebrikke."
+    },
+    "recluse": {
+      "ability": "Du kan registreres som ond og som en Minion eller Demon, selv om du er død.",
+      "flavor": "Kom dæ vekk, di jævla gørrklyse, pell lankene dine unna dæ som er mitt, skjønner’u! Grr. Det er stusselige greier å hente der nede i sør, og dæ kjem du til å få smake! Kom dæ vekk! Je vil itte ha no’ med juling og demoner å gjøre, og de slåss itte her i nærheten av mine folk. Pell dæ vekk, sier je!",
+      "name": "Enstøing"
+    },
+    "revolutionary": {
+      "ability": "2 nabospillere er kjent for å ha samme lagtilhørighet. Én gang per spill registreres 1 av dem feil.",
+      "flavor": "Sammen vi feiget. Splittet, vi sinket.",
+      "name": "Revolusjonær"
+    },
+    "riot": {
+      "ability": "På dag 3 blir Minioner til Opprører. De nominerte dør, og må deretter nominerer en gjenlevende spiller umiddelbart. Dette må skje.",
+      "flavor": "Larga vida a la revolución! Mi revolucion!",
+      "name": "Opprør",
+      "other": "Endre Opprører-påminnelsesbrikken til den aktuelle dagen. :reminder: Hvis det er natt 3, kan du vekke Minionene. Vis *DU ER*- og Opprører-brikken."
+    },
+    "sage": {
+      "ability": "Hvis Demonen dreper deg, får du vite at det er 1 av 2 spillere.",
+      "flavor": "Disse fjellrike bøkene vokter over hemmeligheten, det er jeg sikker på! Mellom ord og ord ligger den på lur. Flere lys, gutt! Mer blekk! Disse notatene kan se mystiske ut, men det infernalske gåten åpenbarer seg.",
+      "name": "Vismann",
+      "other": "Hvis Demonen drepte Vismannen, vekk Vismannen og pek på 2 spillere, hvorav 1 er Demonen."
+    },
+    "sailor": {
+      "ability": "Hver natt velger du en levende spiller: enten du eller de er fulle til skumringen. Du kan ikke dø.",
+      "first": "Sjømannen velger en levende spiller. :reminder:",
+      "flavor": "Jeg drikker hvilken som helst av dere under bordet! Du! Skravlebøtta! Regner med du kan ta meg? Ikke sant? Hva med deg, bestemor? Har du noen gang prøvd Old McKillys Extra Spiced Rum før? Garantert å få deg til å få hår på brystet! Gå om bord, ja!",
+      "name": "Sjømann",
+      "other": "Sjømannen velger en levende spiller. :reminder:"
+    },
+    "saint": {
+      "ability": "Hvis du dør ved henrettelse, taper laget ditt.",
+      "flavor": "Visdom avler fred. Tålmodighet avler visdom. Frykt ikke, for tiden skal komme da frykten også skal forsvinne. La oss be, og måtte enheten i vårt syn gjøre oss alle til helgener.",
+      "name": "Helgen"
+    },
+    "savant": {
+      "ability": "Hver dag kan du besøke fortelleren for å lære 2 ting privat: 1 er sant og 1 er usant.",
+      "flavor": "Syttito fyrstikker på gulvet ... solen går ned tidlig, men månen er uendret ... et revet tøystykke ... ondskap i herregården ... tre ganger tre ... den vi stolte på er ikke hva han ser ut til å være ... grønt lys betyr magnesium ... rester, men mønsteret er feil ... Syttito fyrstikker på gulvet ...",
+      "name": "Savant"
+    },
+    "scapegoat": {
+      "ability": "Hvis en spiller med samme lagtilhørighet som deg blir henrettet, kan du bli henrettet i stedet.",
+      "flavor": "God kveld! Takk for at du inviterte meg til ballet. Jeg er ikke herfra, men dere virker virkelig som en hyggelig gjeng. Jeg er sikker på at vi kommer til å komme godt overens. Hva er alt det tauet til for?",
+      "name": "Syndebukk"
+    },
+    "scarletwoman": {
+      "ability": "Hvis det er 5 eller flere spillere i live og Demonen dør, blir du Demonen. (Reisende teller ikke.)",
+      "flavor": "Du har vist meg hemmelighetene til den Lilla Flammens Råd. Vi har ligget sammen i ild og i begjær og i dyrisk fellesskap, og jeg er for alltid din tjener. Men i kveld, min kjære, er jeg din herre.",
+      "name": "Skarlagenskvinnen",
+      "other": "Hvis Skarlagenskvinnen ble Demonen i dag, vis dem *DU ER*-brikken, deretter Demon-brikken."
+    },
+    "seamstress": {
+      "ability": "Én gang per spill, om natten, velg 2 spillere (ikke deg selv): du får vite om de har samme lagtilhørighet.",
+      "first": "Syersken kan velge 2 spillere. Nikk eller rist på hodet. :reminder:",
+      "flavor": "Hørte du den fremmede i kasjmirfrakken si ordet til vår unge Belle? Og hun sa ja? Vel, det er ingenting sammenlignet med hva Harry og den sjongløren drev med på markedet! Tingene jeg kunne sagt hvis jeg var en sladrehank... du verden, ja.",
+      "name": "Syerske",
+      "other": "Syersken kan velge 2 spillere. Nikk eller rist på hodet. :reminder:"
+    },
+    "sentinel": {
+      "ability": "Det kan være 1 ekstra eller 1 færre Outsider i spill.",
+      "flavor": "Navn, takk. Papirer, takk. Våpen, takk.",
+      "name": "Portvakt"
+    },
+    "shabaloth": {
+      "ability": "Hver natt*, velg 2 spillere: de dør. En død spiller du valgte i går natt kan bli gjenopplivet.",
+      "flavor": "Blarg f'taag nm mataan! No sho gumtha m'sik na yuuu. Fluuuuuuuuurg h-sikkkh.",
+      "name": "Shabaloth",
+      "other": "En tidligere valgt spiller kan bli gjenopplivet. :reminder: Shabaloth velger 2 spillere. :reminder: :reminder:"
+    },
+    "shugenja": {
+      "ability": "Du starter med å vite om din nærmeste onde spiller er med eller mot klokken. Hvis den er like langt fra hverandre, er denne informasjonen tilfeldig.",
+      "first": "Pek med klokken eller mot klokken.",
+      "flavor": "これは夢。それも夢。すべて夢です。",
+      "name": "Shugenja"
+    },
+    "slayer": {
+      "ability": "Én gang per spill, i løpet av dagen, velg en spiller offentlig: hvis de er Demonen, dør de.",
+      "flavor": "Dø.",
+      "name": "Drapsmann"
+    },
+    "snakecharmer": {
+      "ability": "Hver natt velger du en levende spiller: en valgt Demon bytter roller og lagtilhørighet med deg og blir deretter forgiftet.",
+      "first": "Slangetemmeren velger en spiller. Hvis de velger Demonen: Vis *DU ER*- og Demon-brikken. Gi tommelen ned. Bytt Slangetemmer- og Demon-brikkene. La den gamle Slangetemmeren sove. Vekk den gamle Demonen. Vis *DU ER*- og Slangetemmer-brikken og gi tommelen opp. :reminder:",
+      "flavor": "Effendi ... jeg er bare en ydmyk mann, men pipen min er av gull, og en enkelt melodi vil temme den villeste djinni, Inshallah. De sier at grådighet henger flere menn enn tau. Men ikke jeg, Effendi ... ikke jeg.",
+      "name": "Slangetemmer",
+      "other": "Slangetemmeren velger en spiller. Hvis de velger Demonen: Vis *DU ER*- og Demon-brikken. Gi tommelen ned. Bytt Slangetemmer- og Demon-brikkene. La den gamle Slangetemmeren sove. Vekk den gamle Demonen. Vis *DU ER*- og Slangetemmer-brikken og gi tommelen opp. :reminder:"
+    },
+    "snitch": {
+      "ability": "Hver undersått får 3 bløffer.",
+      "first": "Vekk hver Minion. Vis *DISSE ROLLENE ER IKKE I SPILL*-brikken. Vis 3 brikker for roller som ikke er i spill.",
+      "flavor": "Det var Jonas.",
+      "name": "Sladrehank"
+    },
+    "soldier": {
+      "ability": "Du er trygg fra demonen.",
+      "flavor": "Som David sa til Goliat, som Theseus sa til Minotauren, som Arjuna sa til Bhagadatta ... Nei.",
+      "name": "Soldat"
+    },
+    "spiritofivory": {
+      "ability": "Det kan ikke være mer enn 1 ekstra ond spiller.",
+      "flavor": "Ødemarken kaller. Bein stiger til kjøtt og blod, og faller deretter til støv. Den store ånden vokser. Den store ånden våker. Den store ånden veileder. Mennesket lytter, ellers er mennesket ikke mer.",
+      "name": "Elfenbensånd"
+    },
+    "spy": {
+      "ability": "Hver natt ser du Grimoire. Du kan registreres som god og som en Landsbybeboer eller en Outsider, selv om du er død.",
+      "first": "Vis Grimoire så lenge Spionen trenger den.",
+      "flavor": "Enhver bryggemester med respekt for sin dram, vet at intet brygg skaper raskere skam, enn det hvor spioner ser dobbelt så fram.",
+      "name": "Spion",
+      "other": "Vis Grimoire så lenge Spionen trenger den."
+    },
+    "steward": {
+      "ability": "Du statrer med å vite 1 god spiller.",
+      "first": "Vis spilleren merket *VET*.",
+      "flavor": "Hvordan VÅGER du å anklage Hennes Nåde for å ha gjort noe galt? Jeg har kjent henne hele livet! Alle ni årene!",
+      "name": "Stuert"
+    },
+    "stormcatcher": {
+      "ability": "Nevn en god rolle. Hvis de er i spill, kan de bare dø ved henrettelse, men onde spillere lærer hvilken spiller det er.",
+      "first": "Kunngjør hvilken figur som er Stormfanget. Hvis figuren er i spill, merk spilleren som *STORMFANGET*. Vekk hver onde spiller og vis dem rollebrikken, deretter den merkede spilleren. Hvis den ikke er i spill, vekk hver onde spiller, vis dem *DISSE ROLLENE ER IKKE I SPILL*-brikken og den relevante rollebrikken.",
+      "flavor": "Ved daggry kryper tempelets lange skygge mot fontenen. I skumringen blokkerer obelisken det røde skinnet og kjøler ned det varme vannet under buen. Alle linjer møtes her. En storm er på vei, og dette, dette steinete, frodige og hellige stedet mellom epletrærne, er øyet.",
+      "name": "Stormfanger"
+    },
+    "summoner": {
+      "ability": "Du får 3 bløffer. På natt 3 velger du en spiller: de blir en ond Demon etter eget valg. [Ingen Demon]",
+      "first": "Vis *DISSE ROLLENE ER IKKE I SPILL*-brikken. Vis 3 gode roller som ikke er i spill.",
+      "flavor": "Hyll nordens voktere; ved mitt intellekt er du forvist. Hyll østens voktere; ved min vilje er du underkuet. Hyll søndens voktere; ved det som ligg hinsides er mysteriet åpenbart. Hyll vestens voktere; et skjold i mørket.",
+      "name": "Åndemaneren",
+      "other": "Endre påminnelsesbrikken for Åndemaneren til den aktuelle natten. :reminder: Hvis det er natt 3, velger Åndemaneren en spiller og en Demonrolle. La Åndemaneren sove. Vekk den valgte spilleren. Vis *DU ER*- og Demonbrikkene og gi tommelen ned."
+    },
+    "sweetheart": {
+      "ability": "Når du dør, er 1 spiller full fra nå av.",
+      "flavor": "Jeg kommer aldri til å glemme henne. Aldri.",
+      "name": "Kjæreste",
+      "other": "Hvis Kjæresten døde, blir en spiller umiddelbart full. Hvis du ikke har gjort dette ennå, gjør det nå. :reminder:"
+    },
+    "tealady": {
+      "ability": "Hvis begge dine levende naboer er gode, kan de ikke dø.",
+      "flavor": "Hvis du fryser, vil teen varme deg. Hvis du er for varm, vil teen kjøle deg ned. Hvis du er deprimert, vil teen muntre deg opp. Hvis du er anspent, vil teen roe deg ned.",
+      "name": "Tekoker"
+    },
+    "thief": {
+      "ability": "Hver natt velger du en spiller (ikke deg selv): stemmen deres teller negativt i morgen.",
+      "first": "Tyven velger en spiller. :reminder:",
+      "flavor": "Jeg har’ke gjort en dritt! Jeg var’ke i det smauet i går kveld en gang! Det var’ke meg som stjal stresskofferten til ordfører Bruno med alle de fete dokumenta oppi. Dessuten var’n altfor tung å bære særlig langt.",
+      "name": "Tyv",
+      "other": "Tyven velger en spiller. :reminder:"
+    },
+    "tinker": {
+      "ability": "Du kan dø når som helst.",
+      "flavor": "Jeg tror jeg skjønner problemet. Heldigvis har jeg en idé! Denne katapulten skyter dobbelt så langt med bare en liten justering ...",
+      "name": "Fikleren",
+      "other": "Fikleren kan dø. :reminder:"
+    },
+    "towncrier": {
+      "ability": "Hver natt* får du vite om en Minion nominerte i dag.",
+      "flavor": "Hør her! Hør her! Heksekunst i labyrinten! Genial vismann avslører alt! Landsbyen i fare! Hør her!",
+      "name": "Herold",
+      "other": "Enten nikk eller rist på hodet."
+    },
+    "toymaker": {
+      "ability": "Demonen kan velge å ikke angripe og må gjøre dette minst én gang per spill. Onde spillere får normal startinformasjon.",
+      "first": "Gi Minion- og Demon-info, selv om det er færre enn 7 spillere.",
+      "flavor": "Den summer! Den går ned trapper! Den holder deg varm om natta! Den smaker som sukker! Unga elsker den! La oss presentere... den splitter nye... Varme-summe-snuggle-gå-o-bot-dings-dingsen! Moro for folk i alle aldre!",
+      "name": "Leketøymaker",
+      "other": "Hvis et Demonangrep kan avslutte spillet, og Demonen er merket med *SISTE NATT: INGEN ANGREP*, må du ikke vekke Demonen."
+    },
+    "undertaker": {
+      "ability": "Hver natt*, lær hvilken rolle som døde av henrettelse i dag.",
+      "flavor": "Hmmm ... hva har vi her? Den venstre støvelen er slitt ned til hælen, med flintspon under pløsen. Dette er drakten til en militærmann.",
+      "name": "Gravlegger",
+      "other": "Hvis en spiller ble henrettet i dag, vis deres rollebrikke."
+    },
+    "vigormortis": {
+      "ability": "Hver natt*, velg en spiller: de dør. Minioner du dreper beholder egenskapen sin og forgifter 1 Landsbybeboer-nabo. [-1 Outsider]",
+      "flavor": "Alle dører er én dør. Alle nøkler er én nøkkel. Alle beger er ett beger. Men den som drikker av vannet jeg gir, skal aldri i evighet tørste, men vannet skal bli i ham en kilde som veller frem til evig liv.",
+      "name": "Vigormortis",
+      "other": "Vigormortis velger en spiller. :reminder: Hvis spilleren er en Minion, forgift en nabolandsbybeboer. :reminder: :reminder:"
+    },
+    "villageidiot": {
+      "ability": "Hver natt velger du en spiller: du lærer lagtilhørigheten deres. [+0 til +2 Landsbyidioter. 1 av de ekstra er full]",
+      "first": "Hvis det er flere Landsbyidioter, merk én som *FULL*. :reminder: Vekk Landsbyidiotene én om gangen for å velge en spiller. Gi et tommelsignal.",
+      "flavor": "Roser er blå, og fioler er røde, glem hvert et ord som jeg nettopp utstødte.",
+      "name": "Landsbyidiot",
+      "other": "Vekk Landsbyidiotene én om gangen for å velge en spiller. Gi et tommelsignal."
+    },
+    "virgin": {
+      "ability": "Første gang du blir nominert, blir den som nominerte henrettet umiddelbart hvis de er en Landsbybeboer.",
+      "flavor": "Jeg er ren. La de som er uten synd kaste seg ned og lide i mitt sted. Mitt rykte skal ikke bli besmittet av dine giftige anklager.",
+      "name": "Jomfru"
+    },
+    "vizier": {
+      "ability": "Alle spillere vet at du er Vesiren. Du kan ikke dø i løpet av dagen. Hvis en god spiller stemte, kan du velge å henrette umiddelbart.",
+      "first": "Kunngjør hvilken spiller som er Vesiren.",
+      "flavor": "En utmerket avgjørelse, som alltid, herre. En så ubetydelig forbrytelse som å støte på biskopen fortjener virkelig deres «rettferdighet» og «nåde». Ta en spasertur i hagene. Besøk galleriet og se på skulpturene til Von Strauf. Slapp av, herre. Overlat alt … til meg.",
+      "name": "Vesir"
+    },
+    "vortox": {
+      "ability": "Hver natt*, velg en spiller: de dør. Landsbyfolkets evner gir falsk informasjon. Hver dag, hvis ingen blir henrettet, vinner de onde.",
+      "flavor": "Svart er hvitt. rett er galt. Venstre er høyre. Opp er langt. Ned er syn. Kort er blind. Følg meg. Finn svar.",
+      "name": "Vortox",
+      "other": "Vortoxen velger en spiller. :reminder:"
+    },
+    "voudon": {
+      "ability": "Bare du og de døde kan stemme. De trenger ikke stemmebrikke for å gjøre det. 50% flertall er ikke nødvendig.",
+      "flavor": "Bien venu. Sitt ned. Pust dypt inn. Gå inn i de dødes land. Se med øynene deres. Snakk med stemmen deres. Yon sel lang se janm ase.",
+      "name": "Voodooprest"
+    },
+    "washerwoman": {
+      "ability": "Du starter med å vite at 1 av 2 spillere er en bestemt Landsbybeboer.",
+      "first": "Vis Landsbybeboer-rollebrikken. Pek på både *BYFOLK*- og *FEIL*-spillerne.",
+      "flavor": "Blodflekker på en smoking? Nei, dette er sherryeddik. Så uforsiktig.",
+      "name": "Vaskekone"
+    },
+    "widow": {
+      "ability": "På din første natt, se på Grimoire og velg en spiller: de er forgiftet. 1 god spiller vet at en Enke er i spill.",
+      "first": "Vis Grimoire så lenge Enken trenger den. Enken velger en spiller. :reminder: La Enken sove. Vekk spilleren merket *VET* og vis Enke-brikken. :reminder:",
+      "flavor": "Mer vin? Château d’Ergot ’07 er en helt spesiell årgang. Åh ja, virkelig helt spesiell.",
+      "name": "Enke"
+    },
+    "witch": {
+      "ability": "Hver natt velger du en spiller: hvis de nominerer i morgen, dør de. Hvis bare 3 spillere lever, mister du denne evnen.",
+      "first": "Heksa velger en spiller. :reminder:",
+      "flavor": "Tre dråper geiteblod. En hårlokk, revet i sinne. Navnet er sagt, skyggen kastet. Gå med venstre fot først ned den bulkete stien, og se deg ikke tilbake.",
+      "name": "Heks",
+      "other": "Heksa velger en spiller. :reminder:"
+    },
+    "wizard": {
+      "ability": "Én gang per spill kan du velge å ønske deg noe. Hvis det blir oppfylt, kan det ha en pris og gi deg en pekepinn på hva det er.",
+      "first": "Gjør det som trengs for å oppfylle Trollmannens ønske.",
+      "flavor": "Enhver mann og enhver kvinne er en stjerne. Kjærlighet er loven, kjærlighet under vilje.",
+      "name": "Trollmann",
+      "other": "Gjør det som trengs for å oppfylle Trollmannens ønske."
+    },
+    "wraith": {
+      "ability": "Du kan velge å åpne øynene om natten. Du våkner når andre onde spillere gjør det.",
+      "first": "Vekk Gjenferdet når andre onde spillere våkner.",
+      "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
+      "name": "Gjenferd",
+      "other": "Vekk Gjenferdet når andre onde spillere våkner."
+    },
+    "xaan": {
+      "ability": "Natt X blir alle innbyggerne forgiftet til skumringen. [X Outsidere]",
+      "first": "Hvis X er 1, merk Xaan med *X* påminnelsesbrikken. :reminder: :reminder:",
+      "flavor": "De faller ned. En etter en. Etter to, etter tre, etter fem.",
+      "name": "Xaan",
+      "other": "Endre Xaan-påminnelsestokenet til den relevante natten. Hvis det er natt X, merk Xaan med *X*-påminnelsesbrikken. :reminder: :reminder:"
+    },
+    "yaggababble": {
+      "ability": "Du starter med å lære en hemmelig frase. For hver gang du sier den offentlig i dag, kan en spiller dø.",
+      "first": "Vis Yaggababler den hemmelige frasen deres.",
+      "flavor": "Mord på Rue Morgue? Фальшивые новости! Hunder på Baskervillemyren? Фальшивые новости! Død mens du seiler på Nilen? Фальшивые новости!",
+      "name": "Yaggababler",
+      "other": "For hver gang Yaggababler sa frasen i dag, kan en spiller dø. :reminder:"
+    },
+    "zealot": {
+      "ability": "Hvis det er 5 eller flere spillere i live, må du stemme på alle nominasjonene.",
+      "flavor": "Jeg liker å snakke med deg. Tankene dine appellerer til meg. De ligner på mine egne, bortsett fra at du tilfeldigvis er gal.",
+      "name": "Fanatiker"
+    },
+    "zombuul": {
+      "ability": "Hver natt*, hvis ingen døde i dag, velg en spiller: de dør. Første gang du dør, lever du, men registreres som død.",
+      "flavor": "Jeg forstår ikke. Dine veier. Medmenneske. Vis meg. Skitten. Hvor det hellige. Sover. Jeg Må. Også sove. Snart.",
+      "name": "Zombuul",
+      "other": "Hvis ingen døde i dag, velger Zombuul en spiller. :reminder:"
+    },
+    "bigwig": {
+      "ability": "Nominerte velger en spiller: frem til avstemningen er det bare de som kan snakke, og de er gal om at den nominerte er god, ellers kan de dø.",
+      "flavor": "Forfengelighet spør: «Er det populært?» Feighet spør: «Er det trygt?» Samvittigheten spør: «Er det riktig?» Hvem av oss vil spørre: «Er det sant?»",
+      "name": "Talsmann"
+    },
+    "tor": {
+      "ability": "Spillere kjenner ikke rollen eller lagtilh;righeten sin. De lærer den når de dør.",
+      "flavor": "Med torden som min røst og lynet som mitt blad, eter jeg, den evige vokter, dårene som våger å nærme seg den forbudte port. Skrekk og gru, mitt hellige mål! Å renske billen ut fra den steinete jordens buk, å fange den i et nett av stjerner, på bakketoppen der himmel møter jord.",
+      "name": "Tor",
+      "other": "Hvis en spiller døde i natt, vis *DU ER*-infobrikken, rollebrikken deres og gi et tommelfingersignal.",
+      "first": "Hopp over Minion-info og Demon-info."
+    },
+    "zenomancer": {
+      "ability": "Én eller flere spillere har et mål hver. Når det er oppnådd, lærer spilleren noe sann informasjon.",
+      "flavor": "Universet er et verb, ikke et substantiv, sier de, og det er skilpadder, skilpadder helt ned. Skilpadder helt ned, min venn, skilpadder helt ned.",
+      "name": "Zenomanker"
+    },
+    "hindu": {
+      "ability": "De 4 første spillerne som dør blir umiddelbart gjenopplivet som Reisende med samme lagtilhørighet.",
+      "flavor": "चत्वारो मृत्युमध्ये पतन्ति, चत्वारो यात्री पुनरुद्गताः। चत्वारो धर्मे स्थितचित्तवृत्तेः, चत्वार एषां न पुनः क्षयः॥",
+      "name": "Hindu"
+    },
+    "pope": {
+      "ability": "Det er duplikater av gode roller i spill. De kan også være bløffer.",
+      "flavor": "...Pulcherrimae.",
+      "name": "Pave"
+    },
+    "cacklejack": {
+      "ability": "Hver dag velg en spiller: en annen spiller bytter rolle i kveld.",
+      "flavor": "Kabel α Til kabel β. LyS på. BuZZer av. GAzOinks! Armer StReKt Ut. FingER m0t nese. hOooLd stiLLe. BoiNgo-banGo! Ha-ha-ha!",
+      "name": "Kaklejack",
+      "other": "Før daggry, velg en spiller som ikke er merket med *IKKE MEG*. Vekk spilleren. Vis *DU ER*-infobrikken og deres nye rollebrikke."
+    },
+    "ventriloquist": {
+      "ability": "Hvis en spiller er gal om at de har en ny rolle under nominasjonen, kan det hende de ikke dør hvis de henrettes i dag.",
+      "flavor": "Vel, folkens, samles! Her er kompisen min Charlie, og han har en munn som ville fått et muldyr til å rødme. Men ikke bekymre dere, folkens, jeg tar meg av pratinga ... eller hva?",
+      "name": "Buktaler"
+    },
+    "godofug": {
+      "ability": "Få en hatt fra Ug. Ha på hatt fra Ug? Da må du si ett og ett ord, men stem to gang. Om du gjør feil, gi hatt til en venn.",
+      "flavor": "Velsignede er mine barn, for de ser skjønnheten i de enkle ting.",
+      "name": "Ugga Bugga"
+    },
+    "knaves": {
+      "ability": "Det er 2 fortellere: én lyver og én forteller sannheten. De kan bytte på én gang per spill, i skumringen.",
+      "flavor": "Hver vegg er en dør. Hvert måltid er et festmåltid.",
+      "name": "Knektene"
+    }
+  },
+  "teams": {
+    "demon": "Demoner",
+    "fabled": "Fabel",
+    "minion": "Undersåtter",
+    "outsider": "Outsiders",
+    "townsfolk": "Bygdefolk",
+    "traveller": "Reisere",
+    "loric": "Sagn"
+  },
+  "nightMarkers": {
+    "dawn": "Daggry",
+    "demoninfo": "Demon-info",
+    "dusk": "Skumring",
+    "minioninfo": "Undersått-info"
+  },
+  "reminders": {
+    "2nd": "Utpekt",
+    "3attacks": "3 angrep",
+    "3votes": "3 stemmer",
+    "abnormal": "Unormal",
+    "abouttodie": "Kommer til å dø",
+    "actstwice": "Dobbel egenskap",
+    "aligned": "Samme lagtilhørighet",
+    "alive": "Levende",
+    "amigo": "Kompis",
+    "cannotdie": "Kan ikke dø",
+    "chosen": "Valgt",
+    "claimed": "Hevded",
+    "correct": "Korrekt",
+    "cursed": "Forhekset",
+    "day1": "Dag 1",
+    "day2": "Dag 2",
+    "day3": "Dag 3",
+    "day4": "Dag 4",
+    "day5": "Dag 5",
+    "dead": "Død",
+    "demonnotvoted": "Demonen stemte ikke",
+    "demonvoted": "Demonen stemte",
+    "diedtoday": "Døde i dag",
+    "doesntkill": "Dreper ikke",
+    "drunk": "Full",
+    "drunk1": "Full 1",
+    "drunk2": "Full 2",
+    "drunk3": "Full 3",
+    "everyoneisdrunk": "Alle er fulle",
+    "evil": "Ond",
+    "evilwakes": "Onde våkner",
+    "falseinfo": "Falsk info",
+    "fauxpaw": "Skivepote",
+    "fear": "Frykt",
+    "finalnightnoattack": "Siste natt: Ingen angrep",
+    "friend": "Venn",
+    "good": "God",
+    "goodplayerexecuted": "God spiller henrettet",
+    "grandchild": "Barnebarn",
+    "guessused": "Har gjettet",
+    "haircutstonight": "Hårklipp i natt",
+    "hasability": "Har evne",
+    "isthealchemist": "Er Alkymisten",
+    "istheapprentice": "Er Lærlingen",
+    "isthedemon": "Er Demonen",
+    "isthedrunk": "Er Fylliken",
+    "isthemarionette": "Er Marionetten",
+    "isthephilosopher": "Er Filosofen",
+    "know": "Vet",
+    "lunch": "Lunsj",
+    "mad": "Gal",
+    "master": "Herre",
+    "maynotnominate": "Kan ikke nominere",
+    "minion": "Undersått",
+    "minionnominated": "Undersått nominerte",
+    "minionsnotnominated": "Undersåtter nominerte ikke",
+    "negativevote": "Negativ stemme",
+    "night1": "Natt 1",
+    "night2": "Natt 2",
+    "night3": "Natt 3",
+    "noability": "Ingen evne",
+    "nominateevil": "Nominer ond",
+    "nominategood": "Nominer god",
+    "nomoreevil": "Ingen flere onde",
+    "once": "Én gang",
+    "outsider": "Utenforstående",
+    "poisoned": "Forgiftet",
+    "protected": "Beskyttet",
+    "redherring": "Villspor",
+    "registerfalsely": "Registreres falskt?",
+    "safe": "Trygg",
+    "soberhealthy": "Edru og frisk",
+    "somethingbad": "Noe ille",
+    "storytellerability": "Fortellerevne",
+    "survivesexecution": "Overlever henrettelse",
+    "teapartytonight": "Teselskap i natt",
+    "townsfolk": "Innbygger",
+    "turnsevil": "Blir ond",
+    "twin": "Tvilling",
+    "visitor": "Besøkende",
+    "whoopsie": "Ups",
+    "wrong": "Feil",
+    "stormcaught": "Stormfanget",
+    "goal": "Mål",
+    "notme": "Ikke meg",
+    "hat": "Hatt"
+  },
+  "jinxes": {
+    "alchemist-boffin": "Hvis Alkymisten har Boffin-evnen, lærer ikke Alkymisten hvilken evne Demonen har.",
+    "alchemist-marionette": "En Alkymist-Marionette har ingen Marionette-egenskap, og Marionetten er i spill.",
+    "alchemist-mastermind": "En Alkymist-Mastermind har ingen Mastermind-evne, og Mastermind er ikke i spill.",
+    "alchemist-organgrinder": "Hvis Alkymisten har egenskapen Lirekassemannen, er Lirekassemannen i spill. Hvis begge er edru, er begge fulle.",
+    "alchemist-spy": "En Alkymist-Spion har ingen Spion-egenskap, og en Spion er i spill. Etter hver henrettelse kan en levende Alkymist-Spion offentlig gjette at en levende spiller er Spionen. Hvis det stemmer, må Demonen velge Spionen i kveld.",
+    "alchemist-summoner": "Alkymisten-Åndemaneren får ikke bløffer, og velger hvilken Demon, men ikke hvilken spiller. Hvis de dør før dette skjer, vinner de onde. [Ingen Demon]",
+    "alchemist-widow": "En Alkymist-Enke har ingen Enke-egenskap, og en Enke er i spill. Etter hver henrettelse kan en levende Alkymist-Enke offentlig gjette at en levende spiller er Enken. Hvis det stemmer, må Demonen velge Enken i kveld.",
+    "alchemist-wraith": "En Alkymist-Gjenferd har ingen Gjenferd-egenskap, og et Gjenferd er i spill. Etter hver henrettelse kan en levende Alkymist-Gjenferd offentlig gjette at en levende spiller er Gjenferdet. Hvis det stemmer, må Demonen velge Gjenferdet i kveld.",
+    "alhadikhia-mastermind": "Hvis al Hadikhia dør ved henrettelse, og Mastermind er i live, velger al Hadikhia 3 gode spillere i natt: hvis alle 3 velger å leve, vinner de onde. Ellers vinner de gode.",
+    "alhadikhia-princess": "Hvis Prinsessen nominerte og henrettet en spiller første dag, dør ingen i natt av al Hadikhia.",
+    "alhadikhia-scarletwoman": "Hvis det er to Demoner, og en av dem var Skarlagenskvinnen, går Skarlagenskvinnen tilbake til å bli Skarlagenskvinnen igjen.",
+    "alsaahir-vizier": "Fortelleren annonserer ikke at Vesir er i spill.",
+    "atheist-riot": "Hvis fortelleren blir nominert under et opprør, stemmer spillerne. Hvis de er \"i ferd med å dø\", avsluttes spillet. Hvis ikke, nominerer de på nytt.",
+    "balloonist-marionette": "Hvis Marionetten tror at de er Ballongføreren, kan det hende at en Outsider har blitt lagt til under oppsettet.",
+    "banshee-leviathan": "Hver natt* velger Leviatan en levende, god spiller (forskjellig fra tidligere netter): en valgt Banshee dør og får egenskapen deres.",
+    "banshee-riot": "Hver natt* velger Opprøreren en levende, god spiller (forskjellig fra tidligere netter): en valgt Banshee dør og får egenskapen deres.",
+    "banshee-vortox": "Hvis Vortox dreper Banshee, får alle spillerne vite at Banshee har dødd.",
+    "baron-heretic": "Bare 1 jinxet rolle kan være i spill.",
+    "baron-plaguedoctor": "Hvis fortelleren skulle få Baron-egenskapen, blir opptil to spillere Outsidere.",
+    "boffin-cultleader": "Hvis Demonen har egenskapen Kultleder, kan de ikke bli gode på grunn av denne egenskapen.",
+    "boffin-drunk": "Demonen kan ikke ha egenskapen Fylliken.",
+    "boffin-goon": "Hvis Demonen har Goon-egenskapen, kan de ikke bli gode på grunn av denne egenskapen.",
+    "boffin-heretic": "Demonen kan ikke ha Kjetterens evne.",
+    "boffin-ogre": "Demonen kan ikke ha Troll-egenskapen.",
+    "boffin-politician": "Demonen kan ikke ha Politikerens evne.",
+    "boffin-villageidiot": "Hvis det er en ekstra brikke, kan Boffin gi Demonen egenskapen Landsbyidiot.",
+    "boomdandy-plaguedoctor": "Hvis fortelleren skulle få Kruttlaps-egenskapen, blir en spiller Kruttlaps.",
+    "bountyhunter-kazali": "Hvis Kazali forvandler Dusørjegeren til en Minion, skapes ikke en ond Landsbybeboer.",
+    "bountyhunter-philosopher": "Hvis Filosofen får Dusørjeger-egenskapen, kan en Landsbybeboer bli ond.",
+    "butler-cannibal": "Hvis Kannibalen får Hovmester-egenskapen, lærer Kannibalen dette.",
+    "butler-organgrinder": "Hvis Lirekassemannen forårsaker avstemning med lukkede øyne, kan Hovmesteren rekke opp hånden for å stemme, men stemmen deres teller bare hvis deres herre også stemte.",
+    "cannibal-juggler": "Hvis Sjongløren gjetter på sin første dag og dør ved henrettelse, får den levende Kannibalen vite i kveld hvor mange gjetninger Sjongløren fikk riktig.",
+    "cannibal-princess": "Hvis Kannibalen nominerte, henrettet og drepte Prinsessen i dag, dreper ikke Demonen i natt.",
+    "cannibal-zealot": "Hvis Kannibalen får Fanatiker-egenskapen, lærer Kannibalen dette.",
+    "cerenovus-goblin": "Cerenov kan velge å gjøre en spiller gal om at de er Goblinen.",
+    "chambermaid-mathematician": "Kammerpiken kan oppdage om Matematikeren vil våkne i natt.",
+    "clockmaker-summoner": "Åndemaneren registreres som Demonen hos Urmakeren.",
+    "courtier-summoner": "Hvis den levende Åndemaneren ikke har noen egenskap, har fortelleren Åndemaner-egenskapen.",
+    "courtier-vizier": "Hvis Vesiren mister egenskapen sin, lærer de dette, og kan ikke dø i løpet av dagen.",
+    "cultleader-pithag": "Hvis Trollkjerringen forvandler en ond spiller til Kultleder, kan de ikke bli god på grunn av sine egne egenskaper.",
+    "damsel-pithag": "Hvis en Trollkjerring skaper en Ungfrue, velger fortelleren hvilken spiller det er.",
+    "damsel-spy": "Hvis Spionen er (eller har vært) i spill, er Ungfruen forgiftet.",
+    "damsel-widow": "Hvis Enken er (eller har vært) i spill, er Ungfruen forgiftet.",
+    "drunk-mathematician": "Matematikeren kan finne ut om Fyllikens egenskap ga falsk informasjon eller ikke fungerte som den skulle.",
+    "engineer-legion": "Hvis Legion opprettes, blir alle onde spillere til Legion. Hvis Legion er i spill, begynner Ingeniøren å vite dette, men har ingen egenskap.",
+    "engineer-summoner": "Hvis den levende Åndemaneren fjernes fra spillet, har fortelleren Åndemaner-egenskapen.",
+    "eviltwin-plaguedoctor": "Hvis fortelleren skulle få egenskapen til Den onde Tvillingen, blir en spiller Den onde Tvillingen.",
+    "exorcist-leviathan": "Hvis Leviatan nominerer og henretter den Eksorsist-valgte spilleren, vinner de gode.",
+    "exorcist-riot": "Hvis Opprøreren nominerer og henretter den Eksorsist-valgte spilleren, vinner de gode.",
+    "exorcist-yaggababble": "Hvis Eksorsisten velger Yaggababbler, dreper ikke Yaggababbler i kveld.",
+    "fanggu-scarletwoman": "Hvis det skulle være to Demoner, hvorav den ene var Skarlagenskvinnen, forblir Skarlagenskvinnen Skarlagenskvinnen.",
+    "farmer-leviathan": "Hver natt* velger Leviatan en levende, god spiller (forskjellig fra tidligere netter): en valgt Bonde bruker egenskapen sin, men dør ikke.",
+    "farmer-riot": "Hver natt* velger Opprøreren en levende, god spiller (forskjellig fra tidligere netter): en valgt Bonde bruker egenskapen sin, men dør ikke.",
+    "fearmonger-plaguedoctor": "Hvis fortelleren skulle få Fryktsprederen-egenskapen, vil en Minion få den og lære dette.",
+    "fearmonger-vizier": "Vesiren våkner med Fryktsprederen, får vite hvem de velger og kan ikke velge å henrette den spilleren.",
+    "goblin-plaguedoctor": "Hvis fortelleren skulle få Goblin-egenskapen, får en Minion den og lærer dette.",
+    "godfather-heretic": "Bare 1 jinxet rolle kan være i spill.",
+    "goon-pithag": "Hvis Trollkjerringen forvandler en ond spiller til en Bølle, kan de ikke bli god på grunn av sine egne egenskaper.",
+    "grandmother-leviathan": "Hvis Leviatan er i spill og barnebarnet dør ved henrettelse, vinner de onde.",
+    "grandmother-riot": "Hvis Opprøreren er i spill og barnebarnet dør ved henrettelse, vinner de onde.",
+    "hatter-legion": "Hvis Legion opprettes, blir alle onde spillere til Legion. Hvis Legion er i spill, har Hattemakeren ingen egenskap.",
+    "hatter-leviathan": "Leviatan kan ikke komme inn i spillet etter dag 5.",
+    "hatter-lilmonsta": "Hvis Hattemakeren dør og Demonen velger Lille Monster, velger de også en Minion som de blir.",
+    "hatter-summoner": "Hvis Åndemaneren skaper en ny levende Demon, er dødsfallene i kveld tilfeldige.",
+    "heretic-lleech": "Bare 1 jinxet rolle kan være i spill.",
+    "heretic-pithag": "Bare 1 jinxet rolle kan være i spill.",
+    "heretic-spy": "Bare 1 jinxet rolle kan være i spill.",
+    "heretic-widow": "Bare 1 jinxet rolle kan være i spill.",
+    "huntsman-marionette": "Hvis Marionetten tror at de er Jegeren, ble Ungfruen lagt til under oppsettet.",
+    "innkeeper-leviathan": "Hvis Leviatan nominerer og henretter en spiller som er beskyttet av Gjestgiveren, vinner de gode.",
+    "innkeeper-riot": "Hvis Opprøreren nominerer og henretter en spiller som er beskyttet av Gjestgiver, vinner de gode.",
+    "investigator-vizier": "Fortelleren erklærer ikke at Vesiren er i spill.",
+    "kazali-marionette": "Hvis det skulle være en Marionette i spill, kommer de inn i spill etter Demonen og må starte som deres nabo.",
+    "kazali-summoner": "Hvis Åndemaneren skaper en ny levende Demon, er dødsfallene i kveld tilfeldige.",
+    "king-leviathan": "Hvis Leviatan er i spill, og minst 1 spiller er død, lærer Kongen en levende rolle hver natt.",
+    "king-riot": "Hvis Opprøreren er i spill, og minst 1 spiller er død, lærer Kongen en levende rolle hver natt.",
+    "legion-magician": "Magikeren våkner med Legion og kan registreres som ond. Legion vet om en Magiker er i spill, men ikke hvilken spiller det er.",
+    "legion-minstrel": "Hvis Legion døde ved henrettelse i dag, beholder Legion egenskapen sin, men Trubaduren får kanskje vite at de er Legion.",
+    "legion-politician": "Politikeren kan registreres som ond for Legion.",
+    "legion-preacher": "Hvis Predikanten velger Legion, beholder Legion egenskapen sin, men Predikanten kan få vite at de er Legion.",
+    "legion-summoner": "Hvis Legion blir manet frem, blir alle onde spillere til Legion.",
+    "legion-zealot": "Fanatikeren kan registreres som ond for Legion.",
+    "leviathan-mayor": "Hvis Leviatan og Borgermesteren er i live på dag 5 og henrettelses, vinner de gode.",
+    "leviathan-monk": "Hvis Leviatan nominerer og henretter den Munk-beskyttede spilleren, vinner de gode.",
+    "leviathan-pithag": "Leviatan kan ikke komme inn i spillet etter dag 5.",
+    "leviathan-ravenkeeper": "Hver natt* velger Leviatan en levende spiller (forskjellig fra tidligere netter): en valgt Ravnvokter bruker egenskapen sin, men dør ikke.",
+    "leviathan-sage": "Hver natt* velger Leviatan en levende, god spiller (forskjellig fra tidligere netter): en valgt Vismann bruker egenskapen sin, men dør ikke.",
+    "leviathan-soldier": "Hvis Leviatan nominerer og henretter Soldaten, vinner de gode.",
+    "lilmonsta-magician": "Hvis Magikeren er i live, velger fortelleren hvilken Minion som skal passe Lille Monster.",
+    "lilmonsta-marionette": "Hvis det skulle være en Marionette i spill, kommer de inn i spill etter Demonen og må starte som deres nabo.",
+    "lilmonsta-poppygrower": "Hvis Lille Monster og Valmuedyrkeren er i live, vekkes Minionene én etter én, helt til en av dem velger å ta Lille Monster-brikken.",
+    "lilmonsta-psychopath": "Hvis Psykopaten passer på Lille Monster, dør de når de henrettes.",
+    "lilmonsta-scarletwoman": "Hvis Lille Monster dør med 5 eller flere spillere i live, passer Skarlagenskvinnen på Lille Monster resten av spillet.",
+    "lilmonsta-vizier": "Hvis Vesiren passer på Lille Monster, dør de når de henrettes.",
+    "lleech-mastermind": "Hvis Mastermind er i live og Iigle-verten dør ved henrettelse, lever Iiglen, men mister egenskapen sin.",
+    "lleech-slayer": "Hvis Drapsmannen dreper Iigle-verten, dør verten.",
+    "lordoftyphon-summoner": "Hvis en Tyfonherre blir manet frem, må de være nabo til en Minion, og den andre naboen blir en ond Minion.",
+    "lunatic-mathematician": "Matematikeren kan kanskje finne ut om Gærningen angriper en annen spiller enn den virkelige Demonen som ble angrepet.",
+    "magician-marionette": "Hvis Magikeren er i live, vet ikke Demonen hvilken nabo som er Marionetten.",
+    "magician-spy": "Når Spionen ser Grimoire, fjernes Demonens og Magikerens rollebrikker.",
+    "magician-vizier": "Hvis Vesiren er i spill, har Magikeren ingen egenskap, men er immun mot Vesirens egenskap.",
+    "magician-widow": "Når Enken ser Grimoire, fjernes Demonens og Magikerens rollebrikker.",
+    "magician-wraith": "Etter hver henrettelse kan den levende Magikeren offentlig gjette at en levende spiller er Gjenferdet. Hvis det stemmer, må Demonen velge Gjenferdet i kveld.",
+    "marionette-mathematician": "Matematikeren kan finne ut om Marionettens egenskap ga falsk informasjon eller ikke fungerte som den skulle.",
+    "marionette-plaguedoctor": "Hvis fortelleren skulle få Marionette-egenskapen, blir en av Demonens gode naboer Marionetten.",
+    "marionette-summoner": "Hvis det skulle være en Marionette i spill, kommer de inn i spill etter Demonen og må starte som deres nabo.",
+    "mastermind-vigormortis": "En Mastermind som har sin egenskap beholder den hvis Vigormortis dør.",
+    "mayor-riot": "Borgermesteren kan velge å stoppe opptøyene. Hvis de gjør det når bare 1 Opprører er i live, vinner de gode. Ellers vinner de onde.",
+    "monk-riot": "Hvis Opprøreren nominerer og henretter den Munk-beskyttede spilleren, vinner de gode.",
+    "ogre-pithag": "Hvis Trollkjerringen forvandler en ond spiller til Troll, kan de ikke bli god på grunn av sine egne egenskaper.",
+    "ogre-recluse": "Hvis Enstøingen registreres som ond for Trollet, lærer trollet at de er ond.",
+    "ogre-spy": "Spionen registreres som ond for Trollet.",
+    "pithag-politician": "Hvis Trollkjerringen forvandler en ond spiller til Politikeren, kan de ikke bli god på grunn av sine egne egenskaper.",
+    "pithag-summoner": "Hvis Åndemaneren skaper en ny levende Demon, er dødsfallene i kveld tilfeldige.",
+    "pithag-villageidiot": "Hvis det er en ekstra brikke, kan Trollkjerringen opprette en ekstra Landsbyidiot. I så fall kan det endres hvem som er den fulle Landsbyidioten.",
+    "plaguedoctor-scarletwoman": "Hvis fortelleren skulle få Skarlagenskvinnen-egenskapen, vil en Minion få den og lære dette.",
+    "plaguedoctor-spy": "Hvis fortelleren skulle få Spion-egenskapen, vil en Minion få den og lære dette.",
+    "plaguedoctor-wraith": "Hvis fortelleren skulle få Gjenferdet-egenskapen, vil en Miinion få den og lære dette.",
+    "politician-vizier": "Politikeren kan registreres som ond for Vesiren.",
+    "poppygrower-spy": "Hvis Valmuedyrkeren har egenskapen sin, ser ikke Spionen Grimoire.",
+    "poppygrower-summoner": "Hvis Valmuedyrkeren er i live den tredje natten, velger Åndemaneren hvilken Demon, men ikke hvilken spiller.",
+    "poppygrower-widow": "Hvis Valmuedyrkeren har egenskapen sin, ser ikke Enken Grimoire.",
+    "preacher-summoner": "Hvis den levende Åndemaneren ikke har noen egenskap, har fortelleren Åndemaner-egenskapen.",
+    "preacher-vizier": "Hvis Vesiren mister egenskapen sin, lærer de dette, og kan ikke dø i løpet av dagen.",
+    "pukka-summoner": "Åndemaneren kan mane frem en Pukka den andre natten i stedet for den tredje.",
+    "ravenkeeper-riot": "Hver natt* velger Opprøreren en levende, god spiller (forskjellig fra tidligere netter): en valgt Ravnvokter bruker egenskapen sin, men dør ikke.",
+    "recluse-sage": "Enstøingen kan registreres som Demonen for Vismannen.",
+    "riot-sage": "Hver natt* velger Opprører en levende, god spiller (forskjellig fra tidligere netter): en valgt Vismann bruker egenskapen sin, men dør ikke.",
+    "riot-soldier": "Hvis Opprøreren nominerer og henretter Soldaten, vinner de gode.",
+    "summoner-zombuul": "Hvis Åndemaneren maner frem en død spiller som Zombuul, har Zombuulen allerede \"dødd én gang\".",
+    "vizier-zealot": "Fanatikeren kan registreres som ond for Vesiren."
+  },
+  "ui": {
+    "firstNight": "Første natt",
+    "otherNights": "Andre netter",
+    "players": "Spillere",
+    "notFirstNight": "* Ikke første natten"
+  }
+}
