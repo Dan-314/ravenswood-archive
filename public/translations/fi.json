@@ -1302,7 +1302,7 @@
     "magician-wraith": "Taikuri voi jokaisen teloituksen jälkeen julkisesti arvata kuka Räyhähenki on. Jos arvaus osuu oikeaan, Demonin täytyy valita Räyhähenki tänä yönä.",
     "marionette-mathematician": "Matemaatikko saattaa saada tietää, jos Sätkynuken kyky tuotti väärää tietoa tai ei vain toiminut kunnolla.",
     "marionette-plaguedoctor": "Jos Tarinankertoja saisi Sätkynuken kyvyn, yksi Demonin hyvistä naapureista muuttuu Sätkynukeksi.",
-    "marionette-summoner": "Jos Sätkynukke on pelissä, tai tulee peliin, on tämän aloitettava aina Demonin naapurina.",
+    "marionette-summoner": "Jos Sätkynukke on määritelty peliin, ilmestyy tämä mukaan vasta rienatun Demonin naapuriksi.",
     "mastermind-vigormortis": "Välkky jolla on kykynsä, saa pitää sen jos Puhkikuolio kuolee.",
     "mayor-riot": "Pormestari voi pysäyttää mellakan. Jos tällöin vain 1 Mellakka on elossa, hyvä voittaa. Muuten paha voittaa.",
     "monk-riot": "Jos Mellakka nimeää ja teloituttaa Munkin suojeleman pelaajan, hyvä voittaa.",

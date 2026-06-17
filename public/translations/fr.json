@@ -1,0 +1,1321 @@
+{
+  "roles": {
+    "acrobat": {
+      "ability": "Chaque nuit*, choisissez un joueur : s’il est ou devient ivre ou empoisonné cette nuit, vous mourez.",
+      "flavor": "Mesdames et messieurs, ouvrez grand vos yeux, car je vais défier les lois de la gravité et danser dans les airs avec autant d’audace que de souplesse, pour le plus grand plaisir de l’assistance !",
+      "name": "Acrobate",
+      "other": "L’Acrobate choisit un joueur. :reminder:"
+    },
+    "alchemist": {
+      "ability": "Vous avez la capacité d’un Sbire. Lorsque vous l’utilisez, le Conteur peut vous demander de choisir différemment.",
+      "first": "Montrez la tuile *VOUS ÊTES* puis un jeton de rôle de Sbire.",
+      "flavor": "Va au cœur de la Terre. La rectification te dévoilera la pierre cachée. Au-dessus de l’or, le rouge apparaîtra. Kether en Malkhuth.",
+      "name": "Alchimiste"
+    },
+    "alhadikhia": {
+      "ability": "Chaque nuit*, vous pouvez choisir 3 joueurs (le Conteur les annonce) : chacun choisit en secret la vie ou la mort, mais s’ils vivent tous, tous meurent.",
+      "flavor": "Alsukut min dhahab.",
+      "name": "Al-Hadikhia",
+      "other": "L’Al-Hadikhia choisit 3 joueurs. :reminder: :reminder: :reminder: Dans l’ordre, réveillez chaque cible. Elle hoche la tête ou la secoue. Rendormez-la avant de réveiller la cible suivante."
+    },
+    "alsaahir": {
+      "ability": "Chaque jour, si vous devinez publiquement qui sont des Sbires et qui sont des Démons, le Bien gagne.",
+      "flavor": "Je suis ici à cause de toi, et tu es ici à cause de moi.",
+      "name": "Alsaahir"
+    },
+    "amnesiac": {
+      "ability": "Vous ne connaissez pas votre capacité. Chaque jour, devinez-la en privé: vous apprenez à quel point vous chauffez.",
+      "first": "Faites tout ce qui doit être fait pour satisfaire la capacité de l’Amnésique.",
+      "flavor": "Attendez. On se connaît ? Qui ? Oh, d'accord. Attendez… … On se connaît ?",
+      "name": "Amnesiac",
+      "other": "Faites tout ce qui doit être fait pour satisfaire la capacité de l’Amnésique."
+    },
+    "angel": {
+      "ability": "Quelque chose de terrible pourrait arriver à quiconque est le plus responsable de la mort d’un nouveau joueur.",
+      "first": "Annoncez le ou les joueurs protégés par l’Ange. :reminder:",
+      "flavor": "Que celui qui se croit vertueux ose lever la main contre les miens, et je l’abattrai avec la furie et la vertu d’un millier de tempêtes.",
+      "name": "Ange"
+    },
+    "apprentice": {
+      "ability": "Lors de votre première nuit, vous gagnez une capacité de Villageois (si bon) ou une capacité de Sbire (si maléfique).",
+      "first": "Montrez la tuile *VOUS ÊTES* puis un jeton de rôle Villageois ou Sbire. Échangez le jeton de rôle de l’Apprenti avec celui-ci. :reminder:",
+      "flavor": "Pendant des années, j'ai voyagé pour étudier les méthodes de L’Art avec un grand A. Quel Art, dites-vous ? L’Art des gens simples. Pas de quoi s’inquiéter. Du moins, pas encore.",
+      "name": "Apprenti"
+    },
+    "artist": {
+      "ability": "Une fois par partie, dans la journée, posez en privé une question fermée (oui/non) au Conteur.",
+      "flavor": "Mon Dieu ! C’est lumineux ! Mon œuvre est... comment dire... magnifique ! Dieu est révélé ! Oui.",
+      "name": "Artiste"
+    },
+    "assassin": {
+      "ability": "Une fois par partie, la nuit*, choisissez un joueur : il meurt, même s’il ne peut normalement pas mourir.",
+      "flavor": "Argh.",
+      "name": "Assassin",
+      "other": "L’Assassin peut choisir un joueur. :reminder: :reminder:"
+    },
+    "atheist": {
+      "ability": "Le Conteur peut enfreindre les règles. S’il est exécuté, le Bien gagne, même si vous êtes mort. [Aucun rôle maléfique]",
+      "flavor": "Ne nous perdons pas en conjectures et paranoïa ridicules. Tout a une explication parfaitement logique. Oui, il est possible qu’une tasse tourne en orbite autour de notre planète. Mais je continuerai de boire mon thé dans de la vraie porcelaine, avec mes vraies mains.",
+      "name": "Athée"
+    },
+    "balloonist": {
+      "ability": "Chaque nuit, vous apprenez un joueur d’un type de rôle différent de la nuit précédente. [+0 ou +1 Marginal]",
+      "first": "Désignez n’importe quel joueur. :reminder:",
+      "flavor": "Chauffe ! Plus haut ! Plus haut ! Piu alto ! Ahhh… la vue est magnifique d'ici, n'est-ce pas ? Tu vois les enfants qui pêchent au bord de la rivière, près du saule ? Tu vois les reflets du soleil sur les poteaux du cirque ? Et ça, c’est quoi ? Un type s’est évanoui au milieu des vignes. Baisse le feu ! Descends ! Descends ! Vai piu in basso !",
+      "name": "Aéronaute",
+      "other": "Désignez un joueur dont le type de rôle est différent de celui du joueur montré précédemment. :reminder:"
+    },
+    "banshee": {
+      "ability": "Si le Démon vous tue, tous les joueurs l’apprennent. Dès lors, vous pouvez nommer deux fois par jour et voter deux fois par nomination.",
+      "flavor": "Gorm do shuile, dearg do ghruaig, ni bheidh se i bhfad, is a mbeidh tu san uaigh.",
+      "name": "Banshee",
+      "other": "Si la Banshee a été tuée par le Démon cette nuit, annoncez que la Banshee est morte. :reminder:"
+    },
+    "barber": {
+      "ability": "Si vous êtes mort dans la journée ou cette nuit, le Démon peut choisir 2 joueurs (mais pas un autre Démon) qui échangent alors leur rôle.",
+      "flavor": "Saviez-vous qu’autrefois, barbier et chirurgien, c’était le même métier ? Non ? Eh bien maintenant, vous le savez.",
+      "name": "Barbier",
+      "other": "Si le Barbier est mort dans la journée ou cette nuit, montrez au Démon la tuile *CE RÔLE VOUS A CHOISI* et le jeton Barbier. Si le Démon a choisi 2 joueurs, réveillez-les un par un. Montrez à chacun la tuile *VOUS ÊTES* et leur nouveau jeton de rôle."
+    },
+    "barista": {
+      "ability": "Chaque nuit, jusqu’au crépuscule, 1) un joueur devient sobre, sain et obtient de vraies infos, ou 2) sa capacité fonctionne deux fois. Il apprend lequel des 2 effets il a reçu.",
+      "first": "Choisissez un joueur. Réveillez-le et montrez-lui la tuile *CE RÔLE VOUS A CHOISI* et le jeton de rôle du Barista, puis faites signe avec vos doigts. :reminder:",
+      "flavor": "Une tasse de café sans crème, Monsieur ? Je regrette, mais nous n’avons plus de crème. Sans lait, alors ?",
+      "name": "Barista",
+      "other": "Choisissez un joueur. Réveillez-le et montrez-lui la tuile *CE RÔLE VOUS A CHOISI* et le jeton de rôle du Barista, puis faites signe avec vos doigts. :reminder:"
+    },
+    "baron": {
+      "ability": "Il y a deux Marginaux supplémentaires en jeu. *[+2 Marginaux]*",
+      "flavor": "Tout va à vau-l’eau dans ce village. Un peu de main-d’œuvre bon marché lui fera le plus grand bien. Tout le monde à la mine, voilà ce que je dis. Rien de tel que la vertu du labeur pour se remettre dans le droit chemin. Ça n’a jamais tué personne, non ?",
+      "name": "Baron"
+    },
+    "beggar": {
+      "ability": "Vous devez utiliser un jeton de vote pour voter. Si un joueur mort vous donne le sien, vous apprenez son alignement. Vous êtes sobre et sain.",
+      "flavor": "À vot’bon cœur, Monsieur ! Une petite pièce, Madame ? Merci. Que Dieu vous bénisse ! Vous êtes quelqu’un de bien. Au moins, j’aurais à manger ce soir !",
+      "name": "Mendiant"
+    },
+    "bishop": {
+      "ability": "Seul le Conteur peut nommer des joueurs. Au moins 1 joueur d'alignement opposé doit être nommé chaque jour.",
+      "flavor": "In nomine Patris, et Filii, et Spiritus Sancti… Nos mos Dei. Deus vult de nobis.",
+      "name": "Évêque"
+    },
+    "boffin": {
+      "ability": "Le Démon (même ivre ou empoisonné) a la capacité d’un rôle bon pas en jeu. Vous savez tous les deux lequel.",
+      "first": "Réveillez le Laborantin et le Démon. Montrez la tuile *CE RÔLE VOUS A CHOISI* et le jeton de rôle Laborantin, puis le jeton d’un rôle bon qui n’est pas en jeu.",
+      "flavor": "L'hydrogène stellaire, vaste, inerte ; le carbone, l’oxygène, le néon… plus rien. Le chaos moléculaire et l’entropie produisent de nouveaux phénomènes cosmiques. Le chaos atomique renaît, la matière s’effondre. Tout cela dans un si petit flacon.",
+      "name": "Laborantin"
+    },
+    "bonecollector": {
+      "ability": "Une fois par partie, la nuit*, choisissez un joueur mort : il regagne sa capacité jusqu’au crépuscule.",
+      "flavor": "Je collecte beaucoup de choses. Des cheveux. Des dents. Des vêtements. Des bribes de poèmes. Les rêves des amants éplorés. Vous n’avez pas à connaître mon art secret, mais mon tarif est modeste. Amenez-moi le sang d’une femme de haute lignée morte d’une crise cardiaque une nuit de pleine lune, et vous aurez vos réponses.",
+      "name": "Collecteur d’os",
+      "other": "Le Collecteur d’os peut choisir un joueur mort. :reminder: Si nécessaire, réveillez le joueur cible pour qu’il utilise sa capacité."
+    },
+    "boomdandy": {
+      "ability": "Si vous êtes exécuté, tous, sauf 3, meurent. Après un décompte de 10 à 0, le joueur le plus désigné par les autres meurt.",
+      "flavor": "Tic… Tic… Tic… TOCK.",
+      "name": "Boumdandy"
+    },
+    "bootlegger": {
+      "ability": "Ce script contient des rôles ou des règles maison.",
+      "flavor": "Quand je suis né, on m'a appelé «Jean-Michel Contrebande», comme mon père avant moi. Un nom respectable, pour une époque pleine de dignité.",
+      "name": "Contrebandier"
+    },
+    "bountyhunter": {
+      "ability": "Lors de votre première nuit, vous apprenez 1 joueur maléfique. S’il meurt, vous apprenez un autre joueur maléfique cette nuit, et ainsi de suite. [1 Villageois est maléfique]",
+      "first": "Désignez le joueur *APPRIS*.",
+      "flavor": "Je marche seul dans ces rues, pavées de l’odeur infâme de la corruption. Elle force son chemin jusque dans mes narines, qui frémissent de dégoût. Et d’impatience. Le mal qui frappe cet endroit désolé s’étend chaque nuit. Et moi… Je suis l’antidote.",
+      "name": "Chasseur de primes",
+      "other": "Si le joueur *APPRIS* est mort aujourd’hui ou cette nuit, désignez le nouveau joueur *APPRIS*."
+    },
+    "buddhist": {
+      "ability": "Pendant les 2 premières minutes de chaque jour, les vétérans ne peuvent pas parler.",
+      "first": "Annoncez quels joueurs sont affectés par le Bouddhiste.",
+      "flavor": "Les épines que vous me lancez tombent dans mon silence, et deviennent des fleurs.",
+      "name": "Bouddhiste"
+    },
+    "bureaucrat": {
+      "ability": "Chaque nuit, choisissez un joueur (sauf vous-même) : son vote compte comme 3 votes le lendemain.",
+      "first": "Le Bureaucrate choisit un joueur. :reminder:",
+      "flavor": "Signez ici, je vous prie. Et là. Et là. Eeeeeeet là. Tout devrait être réglé d’ici ce soir, si tout le monde a signé correctement. Ça fait bien longtemps que nous n’avons pas eu de souci de paperasse. Depuis hier midi, je crois...",
+      "name": "Bureaucrate",
+      "other": "Le Bureaucrate choisit un joueur. :reminder:"
+    },
+    "butcher": {
+      "ability": "Chaque jour, après la première exécution, vous pouvez à nouveau nommer un joueur.",
+      "flavor": "Ça a un goût de poulet. Vous en avez encore ?",
+      "name": "Boucher"
+    },
+    "butler": {
+      "ability": "Chaque nuit, choisissez un joueur (sauf vous-même). Le lendemain, vous pouvez voter uniquement si ce joueur vote.",
+      "first": "Le Majordome choisit un joueur. :reminder:",
+      "flavor": "Oui, Monsieur. Non, Monsieur. Certainement, Monsieur.",
+      "name": "Majordome",
+      "other": "Le Majordome choisit un joueur. :reminder:"
+    },
+    "cannibal": {
+      "ability": "Vous avez la capacité du dernier mort exécuté. S’il est maléfique, vous êtes empoisonné jusqu’à ce qu’un joueur bon meure exécuté.",
+      "flavor": "Je n'aime pas les clowns. Ils ont un drôle de goût.",
+      "name": "Cannibale"
+    },
+    "cerenovus": {
+      "ability": "Chaque nuit, choisissez un joueur et un rôle bon : le lendemain, il doit être «fou» d’être ce rôle. Sinon, il pourrait être exécuté.",
+      "first": "Le Cerenovus choisit un joueur et un rôle. :reminder: Le Cerenovus se rendort. Réveillez la cible. Montrez la tuile *CE RÔLE VOUS A CHOISI*, le jeton Cerenovus, puis le jeton de rôle pour lequel le joueur cible doit manifester sa folie.",
+      "flavor": "La vérité n’est qu’une opinion. La mienne.",
+      "name": "Cerenovus",
+      "other": "Le Cerenovus choisit un joueur et un rôle. :reminder: Le Cerenovus se rendort. Réveillez la cible. Montrez la tuile *CE RÔLE VOUS A CHOISI*, le jeton Cerenovus, puis le jeton de rôle pour lequel le joueur cible doit manifester sa folie."
+    },
+    "chambermaid": {
+      "ability": "Chaque nuit, choisissez 2 joueurs en vie (sauf vous-même) : vous apprenez combien d’entre eux se sont réveillés cette nuit à cause de leur capacité.",
+      "first": "La Femme de chambre choisit 2 joueurs en vie. Faites signe avec vos doigts.",
+      "flavor": "Je n'ai rien vu d'anormal, Madame. Et certainement pas Monsieur, se faufilant vers onze heures, dans le laboratoire du professeur, pour préparer des potions bizarres, comme vous l'avez dit, Madame.",
+      "name": "Femme de chambre",
+      "other": "La Femme de chambre choisit 2 joueurs en vie. Faites signe avec vos doigts."
+    },
+    "chef": {
+      "ability": "Lors de votre première nuit, vous apprenez le nombre de paires de joueurs maléfiques.",
+      "first": "Faites signe avec vos doigts.",
+      "flavor": "Les réservations de ce soir sont bizarres. Je n’ai encore jamais vu Mlle Mayweather traîner avec ce garnement de Hudson Lane. Et pourtant, ils ont réservé une table pour deux. Étrange.",
+      "name": "Cuisinier"
+    },
+    "choirboy": {
+      "ability": "Si le Démon tue le Roi, vous apprenez quel joueur est le Démon. [+ Roi]",
+      "flavor": "Vois sur ton chemin, démons oubliés égarés, donne-leur la main pour les mener vers des jours sans lendemain.",
+      "name": "Choriste",
+      "other": "Si le Démon a tué le Roi, désignez le Démon."
+    },
+    "clockmaker": {
+      "ability": "Lors de votre première nuit, vous apprenez à combien de places du Démon est assis son Sbire le plus proche.",
+      "first": "Faites signe avec vos doigts.",
+      "flavor": "Ne me dérangez pas. L’horloge doit tourner. Son cercle est celui de la vie, et ses mécanismes divins apportent toutes les réponses. Je dois travailler.",
+      "name": "Horloger"
+    },
+    "courtier": {
+      "ability": "Une fois par partie, la nuit, choisissez un rôle : il est ivre pendant 3 nuits et 3 jours.",
+      "first": "Le Courtisan peut choisir un rôle. :reminder: :reminder:",
+      "flavor": "Je crains davantage une armée de cent moutons menée par un lion qu’une armée de cent lions menée par un mouton.",
+      "name": "Courtisan",
+      "other": "Le Courtisan peut choisir un rôle. :reminder: :reminder:"
+    },
+    "cultleader": {
+      "ability": "Chaque nuit, vous devenez de l’alignement d’un voisin en vie. Si tous les joueurs bons rejoignent votre secte, votre équipe gagne.",
+      "first": "Le Chef de secte peut changer d’alignement. Si c’est le cas, montrez-lui la tuile *VOUS ÊTES* et pointez le pouce vers le haut ou le bas.",
+      "flavor": "Ils se pensaient sages ; ils sont devenus fous.",
+      "name": "Chef de secte",
+      "other": "Le Chef de secte peut changer d’alignement. Si c’est le cas, montrez-lui la tuile *VOUS ÊTES* et pointez le pouce vers le haut ou le bas."
+    },
+    "damsel": {
+      "ability": "Tous les Sbires savent qu’une Demoiselle est en jeu. Si un Sbire devine publiquement votre rôle (1 essai), votre équipe perd.",
+      "first": "Pendant les infos des Sbires, montrez-leur le jeton de rôle de la Demoiselle. Si vous ne l’avez pas encore fait, faites-le maintenant. Si la Demoiselle a été choisie par le Chasseur, montrez-lui la tuile *VOUS ÊTES* et le jeton de son nouveau rôle.",
+      "flavor": "Ne touche pas les cheveux, chéri.",
+      "name": "Demoiselle",
+      "other": "Si la Demoiselle a été choisie par le Chasseur, montrez-lui la tuile *VOUS ÊTES* et le jeton de son nouveau rôle."
+    },
+    "dawn": {
+      "first": "Attendez quelques secondes. Faites ouvrir les yeux de tous les joueurs.",
+      "other": "Attendez quelques secondes. Faites ouvrir les yeux de tous les joueurs et annoncez immédiatement qui est mort."
+    },
+    "demoninfo": {
+      "first": "S’il y a au moins 7 joueurs, réveillez le Démon : Montrez la tuile *VOICI VOS SBIRES*. Désignez les Sbires. Montrez la tuile *CES RÔLES NE SONT PAS EN JEU*. Montrez 3 jetons de rôles bons qui ne sont pas en jeu."
+    },
+    "deusexfiasco": {
+      "ability": "Au moins une fois par partie, le Conteur va faire une erreur, la corriger, puis l’admettre publiquement.",
+      "flavor": "Ce n'est pas un bug, c'est une fonctionnalité. Ce n'est pas une erreur, c'est un ajustement. Ce n'est pas cassé, c'est astucieux. Votez pour nous sur Boardgamegeek.",
+      "name": "Deus ex Fiasco"
+    },
+    "deviant": {
+      "ability": "Si vous avez été drôle ce jour, vous ne pouvez pas mourir par exil.",
+      "flavor": "Qu’est-ce qui est jaune et qui attend ?",
+      "name": "Déviant"
+    },
+    "devilsadvocate": {
+      "ability": "Chaque nuit, choisissez un joueur en vie (différent de la nuit précédente) : s’il est exécuté le lendemain, il ne meurt pas.",
+      "first": "L’Avocat du diable choisit un joueur en vie. :reminder:",
+      "flavor": "Mon client, si l'objection est rejetée, plaide non coupable en vertu du non-respect de l'article 27.B par l'accusation — conjugaison incorrecte ou trompeuse d'un verbe. Le fait que neuf membres du jury soient morts la nuit dernière est simplement prima facie, ce qui, comme l'a établi la jurisprudence Wills C. Thule, constitue un motif d'acquittement.",
+      "name": "Avocat du diable",
+      "other": "L’Avocat du diable choisit un joueur en vie. :reminder:"
+    },
+    "djinn": {
+      "ability": "Utilisez la règle spéciale du Djinn. Tous les joueurs connaissent cette règle.",
+      "flavor": "نحن لسنا هنا. انت لست حقيقي. كل شيء هو وهم. أسئلتك هي جبل نار في يوم صافٍ.",
+      "name": "Djinn"
+    },
+    "doomsayer": {
+      "ability": "Si au moins 4 joueurs sont en vie, chaque joueur en vie peut publiquement choisir (une fois par partie) qu’un joueur de son propre alignement meurt.",
+      "flavor": "Et au septième jour, les grandes eaux et la peste frapperont le peuple du village des corbeaux ! Les morts se lèveront, et les vivants se repentiront ! Ô, Malheur ! Ô, Infamie ! Seul le sacrifice ultime sauvera les pécheurs ! Ainsi parlaient les Sages de Nostros, et ainsi parlai-je.",
+      "name": "Messager de malheur"
+    },
+    "dreamer": {
+      "ability": "Chaque nuit, choisissez un joueur (sauf vous-même, et sauf un Voyageur) : vous apprenez 1 rôle bon et 1 rôle maléfique. L’un des deux est correct.",
+      "first": "Le Rêveur désigne un joueur. Montrez 1 jeton de rôle bon et 1 jeton de rôle maléfique. L’un des deux doit être correct.",
+      "flavor": "J’ai vu l’Horloger. Le ciel était rouge, et il pleuvait des fractales. L’air sentait la violette, et j’entendais un bouillonnement. Une femme aux yeux luisants et à la barbe hirsute hurlait à la mort. Ensuite, je me suis réveillé.",
+      "name": "Rêveur",
+      "other": "Le Rêveur désigne un joueur. Montrez 1 jeton de rôle bon et 1 jeton de rôle maléfique. L’un des deux doit être correct."
+    },
+    "drunk": {
+      "ability": "Vous ne savez pas que vous êtes l’Ivrogne. Vous pensez que vous êtes un Villageois.",
+      "flavor": "Je bois pour oublier, et ça fonctionne. *hic*. J’ai oublié qui je suis..",
+      "name": "Ivrogne"
+    },
+    "duchess": {
+      "ability": "Chaque jour, 3 joueurs peuvent choisir de vous rendre visite. La nuit*, chaque visiteur apprend combien de visiteurs sont maléfiques, mais l’un d’entre eux reçoit une fausse information.",
+      "flavor": "Nous nous retrouverons entre 6 et 7 heures, précisément. Thé à 6h15. Scones à 6h45. Ne soyez pas en retard. Habillez-vous convenablement, je vous prie.",
+      "name": "Duchesse",
+      "other": "La nuit, réveillez un par un chaque joueur marqué *VISITEUR* ou *FAUSSE INFO*. Montrez la tuile *CE RÔLE VOUS A CHOISI* et le jeton de rôle de la Duchesse, puis faites signe avec vos doigts."
+    },
+    "dusk": {
+      "first": "Vérifiez que tout le monde ait bien fermé les yeux. Certains Voyageurs et Légendaires agissent.",
+      "other": "Vérifiez que tout le monde ait bien fermé les yeux. Certains Voyageurs et Légendaires agissent."
+    },
+    "empath": {
+      "ability": "Chaque nuit, vous apprenez combien de vos 2 voisins en vie sont maléfiques.",
+      "first": "Faites signe avec vos doigts.",
+      "flavor": "Des picotements dans la peau... Quelque chose n’est pas normal. Je le sens.",
+      "name": "Empathe",
+      "other": "Faites signe avec vos doigts."
+    },
+    "engineer": {
+      "ability": "Une fois par partie, la nuit, choisissez quels Sbires ou quel Démon est en jeu.",
+      "first": "L’Ingénieur peut choisir des Sbires ou des Démons. Rendormez l’Ingénieur. Réveillez les cibles une par une. Montrez-leur la tuile *VOUS ÊTES* et le jeton de leur nouveau rôle. :reminder:",
+      "flavor": "Je ne m’énerve pas ! J’explique pourquoi vous avez tort.",
+      "name": "Ingénieur",
+      "other": "L’Ingénieur peut choisir des Sbires ou des Démons. L’Ingénieur se rendort. Réveillez les cibles une par une. Montrez-leur la tuile *VOUS ÊTES* et le jeton de leur nouveau rôle. :reminder:"
+    },
+    "eviltwin": {
+      "ability": "Vous et un joueur d’alignement opposé vous connaissez mutuellement. Si le joueur bon est exécuté, le Mal gagne. Le Bien ne peut pas gagner si vous restez tous les deux en vie.",
+      "first": "Réveillez les deux jumelles. Les jumelles se reconnaissent du regard. Montrez le jeton de rôle de la *BONNE JUMELLE* à la Jumelle maléfique, et inversement.",
+      "flavor": "Je ne suis pas Sara ! Je suis Clara ! C’est elle, la méchante ! Pas moi !",
+      "name": "Jumelle maléfique"
+    },
+    "exorcist": {
+      "ability": "Chaque nuit*, choisissez un joueur (différent de la nuit précédente) : si c’est le Démon, il apprend qui vous êtes puis ne se réveille pas cette nuit.",
+      "flavor": "Nous vous chassons, tous les esprits impurs, toutes les puissances sataniques, toutes les attaques de l'adversaire infernal, toutes les légions, tous les groupes et sectes diaboliques, au nom et par la puissance de Notre Seigneur Jésus-Christ. Nous vous ordonnons de partir et de vous éloigner de l'Église de Dieu, des âmes créées par Dieu à son image et rachetées par le sang précieux de l'Agneau divin.",
+      "name": "Exorciste",
+      "other": "L’Exorciste choisit un joueur. :reminder: L’Exorciste se rendort. Si l’Exorciste choisit le Démon : Réveillez le Démon. Montrez la tuile *CE RÔLE VOUS A CHOISI* et le jeton Exorciste. Désignez l’Exorciste."
+    },
+    "fanggu": {
+      "ability": "Chaque nuit*, choisissez un joueur : il meurt. Le premier Marginal tué ainsi devient un Fang Gu maléfique et vous mourez à sa place. *[+1 Marginal]*",
+      "flavor": "Vos murs et vos armes ne sont qu’illusions.",
+      "name": "Fang Gu",
+      "other": "Le Fang Gu choisit un joueur. :reminder: S’il choisit un Marginal (une seule fois) : Remplacez le jeton Marginal par le jeton Fang Gu supplémentaire. Le Fang Gu se rendort. Réveillez la cible. Montrez la tuile *VOUS ÊTES* et le jeton Fang Gu, et pointez le pouce vers le bas. :reminder:"
+    },
+    "farmer": {
+      "ability": "Si vous mourez la nuit, un joueur bon en vie devient une Fermière.",
+      "flavor": "Même les princes ont besoin de nourriture. Sans nous, la ville meurt de faim.",
+      "name": "Fermière",
+      "other": "Si la Fermière est morte cette nuit, réveillez un joueur bon vivant. Montrez-lui la tuile *VOUS ÊTES* et un jeton de rôle Fermière."
+    },
+    "fearmonger": {
+      "ability": "Chaque nuit, choisissez un joueur : si vous le nommez et l’exécutez, son équipe perd. Tous les joueurs savent si vous choisissez un nouveau joueur.",
+      "first": "Le Tourmenteur choisit un joueur. :reminder: Annoncez que le Tourmenteur a choisi un joueur.",
+      "flavor": "Si vous regardez trop longtemps dans l’Abîme, c’est l’Abîme qui regardera en vous.",
+      "name": "Tourmenteur",
+      "other": "Le Tourmenteur choisit un joueur. :reminder: Si la cible est différente de celle de la nuit dernière, annoncez que le Tourmenteur a choisi un joueur."
+    },
+    "ferryman": {
+      "ability": "Le dernier jour, tous les joueurs morts regagnent leur jeton de vote.",
+      "flavor": "Les songes des justes ont le poids de la vérité.",
+      "name": "Passeur"
+    },
+    "fibbin": {
+      "ability": "Une fois par partie, 1 joueur bon pourrait recevoir une information incorrecte.",
+      "flavor": "La phrase suivante est fausse. La phrase précédente est vraie.",
+      "name": "Taquin"
+    },
+    "fiddler": {
+      "ability": "Une fois par partie, le Démon choisit secrètement un adversaire : tous les joueurs choisissent lequel de ces 2 joueurs gagne.",
+      "flavor": "Je te défie en duel ! Voyons qui de nous deux sera le meilleur au violon ! Sors ton instrument et prouve que tu sais t’en servir ! T’as aucune chance, mais ça promet d’être amusant.",
+      "name": "Violoniste"
+    },
+    "fisherman": {
+      "ability": "Une fois par partie, dans la journée, demandez conseil au Conteur pour aider votre équipe à gagner.",
+      "flavor": "C'était une belle rivière, avant… tu vois l’arc-en-ciel que dessine la lumière du soleil entre le monastère et le marché ? C’est là qu’il y avait les meilleures truites. Et plus je vieillissais, plus elles grossissaient.",
+      "name": "Pêcheur"
+    },
+    "flowergirl": {
+      "ability": "Chaque nuit*, vous apprenez si un Démon a voté dans la journée.",
+      "flavor": "Les violettes d’hier sont fanées, mais aujourd’hui, mes coquelicots fleurissent.",
+      "name": "Fleuriste",
+      "other": "Faites oui ou non de la tête."
+    },
+    "fool": {
+      "ability": "La première fois que vous mourez, vous ne mourez pas.",
+      "flavor": "… Et le roi dit, Quoi ?! » Je n'ai jamais possédé de pantalon en caoutchouc, et encore moins un canon à crème anglaise ! Ha ha ! Bonne journée !",
+      "name": "Fou du roi"
+    },
+    "fortuneteller": {
+      "ability": "Chaque nuit, choisissez 2 joueurs et apprenez si un Démon est parmi eux. Un des joueurs bons vous apparaît comme un Démon.",
+      "first": "La Voyante choisit 2 joueurs. Faites oui de la tête si l’un d’eux est le Démon (ou le *LEURRE*).",
+      "flavor": "Votre âme est habitée par le Mal ! Ou alors, c’est juste votre parfum. Je suis allergique à la cerise.",
+      "name": "Voyante",
+      "other": "La Voyante choisit 2 joueurs. Faites oui de la tête si l’un d’eux est le Démon (ou le *LEURRE*)."
+    },
+    "gambler": {
+      "ability": "Chaque nuit*, choisissez un joueur et devinez son rôle. Si vous vous trompez, vous mourez.",
+      "flavor": "Pile, je gagne. Face, tu perds.",
+      "name": "Parieur",
+      "other": "Le Parieur choisit un joueur et un rôle. :reminder:"
+    },
+    "gangster": {
+      "ability": "Une fois par journée, vous pouvez choisir de tuer un voisin en vie, si votre autre voisin en vie est d’accord.",
+      "flavor": "Jolies chaussures que vous avez là. Ce serait dommage qu’il vous arrive malheur et que vous les salissiez. Oh, et vos boutons de manchette ! Très jolis, eux aussi..",
+      "name": "Gangster"
+    },
+    "gardener": {
+      "ability": "Le Conteur attribue le rôle d'un ou plusieurs joueurs.",
+      "flavor": "Lorsque la sophistique tourne à la sottise et l'hypocrisie à la cruauté, réfugiez-vous dans le jardin. Les dernières passions des vieillards sont les fleurs et les pierres.",
+      "name": "Jardinier"
+    },
+    "general": {
+      "ability": "Chaque nuit, vous apprenez quel alignement est en train de gagner selon le Conteur : bon, maléfique, ou aucun.",
+      "first": "Faites signe pouce en haut, à l’horizontale ou en bas.",
+      "flavor": "Je n’ai pas le temps de vous donner une citation.",
+      "name": "Général",
+      "other": "Faites signe pouce en haut, à l’horizontale ou en bas."
+    },
+    "gnome": {
+      "ability": "Lors de votre première nuit, tous les joueurs apprennent un joueur de votre alignement. Vous pouvez choisir de tuer quiconque le nomme.",
+      "flavor": "Oh! Que de fois je l'ai entendu et vu, Scarbo, lorsqu'à minuit la lune brille dans le ciel comme un écu d’argent sur une bannière d'azur semée d'abeilles d’or ! Que de fois j'ai entendu bourdonner son rire dans l'ombre de mon alcôve, et grincer son ongle sur la soie des courtines de mon lit ! Que de fois je l'ai vu descendre du plancher, pirouetter sur un pied et rouler par la chambre comme le fuseau tombé de la quenouille d'une sorcière !",
+      "name": "Gnome"
+    },
+    "goblin": {
+      "ability": "Si vous affirmez publiquement être le Gobelin quand vous êtes nommé puis êtes exécuté ce jour-là, votre équipe gagne.",
+      "flavor": "Ne vexez jamais le Gobelin. Jamais, au grand jamais. Sinon, ça n’a rien à voir, mais… Puis-je avoir un autre morceau de gâteau ?",
+      "name": "Gobelin"
+    },
+    "godfather": {
+      "ability": "Lors de votre première nuit, vous apprenez quels Marginaux sont en jeu. Si un Marginal meurt dans la journée, choisissez un joueur cette nuit : il meurt. *[-1 ou +1 Marginal]*",
+      "first": "Montrez les jetons de rôle de tous les Marginaux en jeu.",
+      "flavor": "Normalement, ce sont juste des affaires. Mais si tu insultes ma fille, tu m’insultes. Et quand tu m’insultes, tu insultes la famille. Fais bien attention où tu mets les pieds. Ce serait dommage qu’ils finissent dans le ciment.",
+      "name": "Parrain",
+      "other": "Si un Marginal est mort dans la journée, le Parrain choisit un joueur. :reminder:"
+    },
+    "golem": {
+      "ability": "Vous pouvez faire une seule nomination dans la partie. Quand vous le faites, si le nommé n’est pas le Démon, il meurt.",
+      "flavor": "Golem aide ? Golem écrase ! Golem aide.",
+      "name": "Golem"
+    },
+    "goon": {
+      "ability": "Chaque nuit, le premier joueur à vous choisir avec sa capacité est ivre jusqu’au crépuscule. Vous devenez de son alignement.",
+      "flavor": " Ouais, patron. J’y ai expliqué les choses à ma façon. L’a son compte, pour sûr. Nan, j’ai pas b’soin d’un docteur. J’me soigne seul. À demain.",
+      "name": "Gros bras"
+    },
+    "gossip": {
+      "ability": "Chaque jour, vous pouvez faire une annonce publiquement. Cette nuit, si votre annonce était vraie, un joueur meurt.",
+      "flavor": "Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla. Bla.",
+      "name": "Commère",
+      "other": "Si un joueur doit mourir à cause de la capacité de la Commère, il meurt. :reminder:"
+    },
+    "grandmother": {
+      "ability": "Lors de votre première nuit, vous apprenez un joueur bon et son rôle. Si le Démon tue ce joueur, vous mourez également.",
+      "first": "Désignez le joueur *PETIT-ENFANT* et montrez son jeton de rôle.",
+      "flavor": "Si tu vas dehors, prends ton manteau, mon petit ! Et ton bonnet. Et ton écharpe. J’ai le cœur bien fragile... Je ne voudrais pas que tu attrapes la mort. Ça me tuerait !",
+      "name": "Grand-mère",
+      "other": "Si le *PETIT-ENFANT* a été tué par le Démon, la Grand-mère meurt également.   :reminder:"
+    },
+    "gunslinger": {
+      "ability": "Chaque jour, après le décompte du 1er vote, vous pouvez choisir un joueur qui a voté : il meurt. ",
+      "flavor": "Il est temps que quelqu'un prenne les choses en main. Ce quelqu’un... c'est moi.",
+      "name": "Franc-tireur"
+    },
+    "harlot": {
+      "ability": "Chaque nuit*, choisissez un joueur en vie : s’il est d’accord, vous apprenez son rôle, mais vous pourriez mourir tous les deux.",
+      "flavor": "Enchantée, fier marin. Tu as l’air d’avoir bien besoin de te confier à quelqu’un. Je suis une oreille attentive. Très attentive.",
+      "name": "Galante",
+      "other": "La Galante choisit un joueur vivant puis ferme les yeux. Réveillez le joueur cible et montrez-lui la tuile *CE RÔLE VOUS A CHOISI* puis le jeton de rôle de la Galante. Si le joueur hoche sa tête, réveillez la Galante et montrez lui le jeton de rôle de sa cible. Les deux joueurs pourraient mourir. :reminder: :reminder:"
+    },
+    "harpy": {
+      "ability": "Chaque nuit, choisissez 2 joueurs : le lendemain, le premier joueur est fou que le deuxième est maléfique, ou l’un des deux ou les deux pourraient mourir.",
+      "first": "La Harpie choisit deux joueurs. :reminder: :reminder: La Harpie se rendort. Réveillez la première cible, montrez-lui la tuile *CE RÔLE VOUS A CHOISI* et le jeton de rôle de la Harpie puis désignez-lui la seconde cible.",
+      "flavor": "Jamais je n’ai vu de si belle journée, ni jamais n’ai senti une présence si atroce.",
+      "name": "Harpie",
+      "other": "La Harpie choisit deux joueurs. :reminder: :reminder: La Harpie se rendort. Réveillez la première cible, montrez-lui la tuile *CE RÔLE VOUS A CHOISI* et le jeton de rôle de la Harpie puis désignez-lui la seconde cible."
+    },
+    "hatter": {
+      "ability": "Si vous êtes mort ce jour ou cette nuit, les Sbires et Démons peuvent choisir de nouveaux rôles de Sbire et Démon.",
+      "flavor": "Les rêves ne sont pas la réalité. Mais qui peut dire où commence l’un et où finit l’autre ?",
+      "name": "Chapelier",
+      "other": "Si le Chapelier est mort, réveillez les Sbires et les Démons. Chacun peut choisir un nouveau rôle. Si c’est le cas, montrez-lui la tuile *VOUS ÊTES* et le jeton de son nouveau rôle."
+    },
+    "hellslibrarian": {
+      "ability": "Quelque chose de terrible pourrait arriver à quiconque parle alors que le Conteur a demandé le silence.",
+      "flavor": "Chhhht ! Silence, je vous prie. Ne dérangez pas le Bibliothécaire. À ce qu’il paraît, c’est un faux calme.",
+      "name": "Bibliothécaire de l’enfer"
+    },
+    "heretic": {
+      "ability": "Quiconque gagne, perd, et quiconque perd, gagne, même si vous êtes mort.",
+      "flavor": "La grêle brisera le toit et les vitraux de la cathédrale, et fondra dans la terre comme l’agneau meurt dans le désert. Telle est la parabole que répète l’insensé.",
+      "name": "Hérétique"
+    },
+    "hermit": {
+      "ability": "Vous avez les capacités de tous les Marginaux. [-0 ou -1 Marginal]",
+      "flavor": "Dans les lieux perdus et oubliés de la terre, la lumière de l'âme brille comme un phare dans la nuit.",
+      "name": "Ermite"
+    },
+    "highpriestess": {
+      "ability": "Chaque nuit, apprenez à quel joueur vous devriez parler en priorité, selon le Conteur.",
+      "first": "Désignez un joueur.",
+      "flavor": "Il y a de la vie derrière la personnalité qui utilise les personnalités comme des masques. Il y a des moments où la vie fait tomber le masque et l’abîme répond à l’abîme.",
+      "name": "Grande Prêtresse",
+      "other": "Désignez un joueur."
+    },
+    "huntsman": {
+      "ability": "Une fois par partie, la nuit, choisissez un joueur en vie : si c’est la Demoiselle, elle devient un Villageois pas en jeu. [+ Demoiselle]",
+      "first": "Le Chasseur peut choisir un joueur. :reminder: S’il a choisi la Demoiselle : le Chasseur se rendort. Réveillez la cible. Montrez-lui la tuile *VOUS ÊTES* et le jeton de son nouveau rôle.",
+      "flavor": "Ma hutte est chaude et robuste. Voyez ma hache à la porte, mes bottes qui sèchent au coin du feu, et ce petit ragoût d’élan qui mijote… Écoutez ! Un cri dans la vallée ! La pluie, la boue et le vent glacial masquent l’odeur des loups, mais je connais tous les sentiers de cette forêt. J'arrive.",
+      "name": "Chasseur",
+      "other": "Le Chasseur peut choisir un joueur. :reminder: S’il a choisi la Demoiselle : le Chasseur se rendort. Réveillez la cible. Montrez-lui la tuile *VOUS ÊTES* et le jeton de son nouveau rôle."
+    },
+    "imp": {
+      "ability": "Chaque nuit *, choisissez un joueur : il meurt. Si vous vous tuez de cette façon, un Sbire devient le Diablotin.",
+      "flavor": "Nous devons garder l’esprit affûté, et nos lames prêtes. Le Mal est parmi nous et ne reculera devant rien pour nous détruire, nous, les bonnes gens, et notre beau village. Ne vous fiez à personne. Sauf à moi. Vous pouvez me faire confiance.",
+      "name": "Diablotin",
+      "other": "Le Diablotin choisit un joueur. :reminder: Si le Diablotin se choisit lui-même : Remplacez 1 jeton Sbire en vie par un jeton Diablotin de rechange. L’ancien Diablotin se rendort. Réveillez le nouveau Diablotin. Montre-lui la tuile *VOUS ÊTES*, puis le jeton Diablotin."
+    },
+    "innkeeper": {
+      "ability": "Chaque nuit*, choisissez 2 joueurs : ils ne peuvent pas mourir cette nuit, mais un d’entre eux est ivre jusqu’au crépuscule.",
+      "flavor": "Entrez, voyageur, et reposez-vous au coin du feu. Buvez et chassez vos soucis, car les légions de l’Obscur ne viendront pas vous troubler cette nuit.",
+      "name": "Aubergiste",
+      "other": "L’Aubergiste choisit 2 joueurs. :reminder: :reminder: :reminder:"
+    },
+    "investigator": {
+      "ability": "Lors de votre première nuit, vous apprenez un rôle de Sbire en jeu parmi 2 joueurs.",
+      "first": "Montrez le jeton de rôle du Sbire. Désignez le joueur *SBIRE* et le joueur *FAUSSE PISTE*.",
+      "flavor": "Beau temps pour faire une promenade, n’est-ce pas, Monsieur Morozov ? Ou devrais-je dire... Monsieur le Baron ?",
+      "name": "Détective"
+    },
+    "judge": {
+      "ability": "Une fois par partie, si un autre joueur nomme quelqu’un, vous pouvez choisir de forcer le succès ou l’échec de l’exécution.",
+      "flavor": "Je déclare l'accusé coupable des crimes de meurtre, de fraude, d'incendie criminel, de vol, d’usurpation d'identité d'un agent de la force publique, d’exercice illégal de la médecine, de diffamation, de régicide et de dépôt sauvage de déchets.",
+      "name": "Juge"
+    },
+    "juggler": {
+      "ability": "Lors de votre premier jour, devinez publiquement jusqu’à 5 rôles de joueurs. Cette nuit, vous apprenez combien étaient corrects.",
+      "flavor": "Voici mon prochain tour ! Il me faut une fleur, un sac de haricots, un serpent factice, un pinceau, et un taille-haie à moteur diesel. Je vous préviens, c’est peut-être mon dernier tour. Attention les yeux.",
+      "name": "Jongleur",
+      "other": "Faites signe avec vos doigts."
+    },
+    "kazali": {
+      "ability": "Chaque nuit*, choisissez un joueur : il meurt. [Vous choisissez quels joueurs sont quels Sbires. -? +? Marginaux]",
+      "first": "Le Kazali choisit quels joueurs sont quels Sbires. Réveillez chaque cible. Montrez-lui la tuile *VOUS ÊTES* et le jeton de rôle Sbire, puis un pouce vers le bas.",
+      "flavor": "Gon(z)a7les6. Fais attenti8n. Le méc4n1sme est iNvers10. E99eurs sy6tem3. Reco{7}fig.",
+      "name": "Kazali",
+      "other": "Le Kazali choisit un joueur. :reminder:"
+    },
+    "king": {
+      "ability": "Chaque nuit, s’il y a au moins autant de morts que de vivants, vous apprenez 1 rôle en vie. Le Démon sait que vous êtes le Roi.",
+      "first": "Réveillez le Démon et montrez-lui la tuile *CE JOUEUR EST* et le jeton de rôle du Roi, puis désignez le joueur Roi.",
+      "flavor": "À peine les ont-ils déposés sur les planches, Que ces rois de l'azur, maladroits et honteux, Laissent piteusement leurs grandes ailes blanches, Comme des avirons traîner à côté d'eux.",
+      "name": "Roi",
+      "other": "Si le nombre de joueurs morts est égal ou supérieur à celui des vivants, montrez un jeton de rôle d’un joueur en vie."
+    },
+    "klutz": {
+      "ability": "Lorsque vous apprenez que vous êtes mort, choisissez publiquement 1 joueur en vie. S’il est maléfique, votre équipe perd.",
+      "flavor": "Oups.",
+      "name": "Maladroit"
+    },
+    "knight": {
+      "ability": "Lors de votre première nuit, vous apprenez 2 joueurs qui ne sont pas le Démon.",
+      "first": "Désignez les deux joueurs marqués *APPRIS*.",
+      "flavor": "Lorsqu’un homme ment, il tue une partie du monde.",
+      "name": "Chevalier"
+    },
+    "legion": {
+      "ability": "Chaque nuit*, un joueur pourrait mourir. Toute exécution échoue si seul le Mal a voté. Vous apparaissez aussi comme Sbire. [La majorité des joueurs sont Légion]",
+      "flavor": "Nous sommes le blizzard d’une journée d’hiver. Nous sommes l'ombre dans une nuit sans lune. Nous sommes le poison dans votre thé et le murmure dans votre oreille. Nous sommes légion.",
+      "name": "Légion",
+      "other": "Un joueur pourrait mourir. :reminder:"
+    },
+    "leviathan": {
+      "ability": "Si plus d’un joueur bon est exécuté, le Mal gagne. Tous les joueurs savent que vous êtes en jeu. Après le jour 5, le Mal gagne.",
+      "first": "Annoncez que le Léviathan est en jeu. :reminder:",
+      "flavor": "Jusqu'à la fin, je te traque. Du cœur des enfers, je te poignarde. Par haine, je te crache mon dernier souffle.",
+      "name": "Léviathan",
+      "other": "Changez le jeton de rappel du Léviathan pour le jour concerné. :reminder: Vous pouvez annoncer que le Léviathan est en jeu."
+    },
+    "librarian": {
+      "ability": "Lors de votre première nuit, vous apprenez un rôle de Marginal en jeu parmi 2 joueurs (ou qu’aucun Marginal n’est en jeu).",
+      "first": "Montrez le jeton de rôle du Marginal. Désignez le joueur *MARGINAL* et le joueur *FAUSSE PISTE*.",
+      "flavor": "Oui, Madame, nous avons bien le Codex Malificarium dans nos archives. Mais pour le consulter, il vous faut une autorisation.",
+      "name": "Archiviste"
+    },
+    "lilmonsta": {
+      "ability": "Chaque nuit, les Sbires choisissent qui garde le Timonstre et « est le Démon ». Chaque nuit*, un joueur pourrait mourir. [+1 Sbire]",
+      "first": "Réveillez les Sbires. Ils choisissent un joueur. :reminder: Les Sbires se rendorment. Réveillez la cible et montrez-lui la tuile *VOUS ÊTES* et le jeton de rôle du Timonstre.",
+      "flavor": "Étape 1 : Être tromignon. Étape 2 : Dominer le monde. Étape 3 : Ti-déj.",
+      "name": "Timonstre",
+      "other": "Réveillez les Sbires. Ils choisissent un joueur. :reminder: Les Sbires se rendorment. Réveillez la cible et montrez-lui la tuile *VOUS ÊTES* et le jeton de rôle du Timonstre."
+    },
+    "lleech": {
+      "ability": "Chaque nuit*, choisissez un joueur : il meurt. Lors de votre première nuit, choisissez un joueur : il est empoisonné. Par la suite, vous mourez si et seulement si il est mort.",
+      "first": "Le Parasyte choisit un joueur. :reminder:",
+      "flavor": "Délicieux, délicieux, délicieux, délicieux, délicieux cerv… gâteau. Oui. Un gâteau. C'est ce que je voulais dire.",
+      "name": "Parasyte",
+      "other": "Le Parasyte choisit un joueur. :reminder:"
+    },
+    "lordoftyphon": {
+      "ability": "Chaque nuit*, choisissez un joueur : il meurt. [Les maléfiques forment une ligne. Vous êtes au milieu. +1 Sbire. -? à +? Marginaux]",
+      "first": "Réveillez les voisins du Seigneur de Typhon. Montrez à chacun d’eux la tuile *VOUS ÊTES*, un jeton de rôle Sbire et  pointez le pouce vers le bas.",
+      "flavor": "Dans les recoins sombres et oubliés du cosmos, là où les étoiles murmurent des secrets au néant, se cache une vérité si profonde que les esprits mortels perdent la raison à sa simple évocation.",
+      "name": "Seigneur de Typhon",
+      "other": "Le Seigneur de Typhon choisit un joueur. :reminder:"
+    },
+    "lunatic": {
+      "ability": "Vous pensez que vous êtes un Démon. Le Démon sait qui vous êtes et qui vous choisissez la nuit.",
+      "first": "S’il y a au moins 7 joueurs, réveillez le Lunatique : Montrez la tuile *VOICI VOS SBIRES*. Désignez n’importe quels joueurs. Montrez la tuile *CES RÔLES NE SONT PAS EN JEU*. Montrez 3 jetons de rôles bons. Le Lunatique se rendort. Réveillez le Démon. Montrez la tuile *VOUS ÊTES* et le jeton Démon. Montrez la tuile *CE JOUEUR EST* et le jeton Lunatique, puis désignez le Lunatique.",
+      "flavor": "Je suis la nuit ! Enfin, je crois",
+      "name": "Lunatique",
+      "other": "Faites ce qu’il faut pour simuler que le Démon agit. Le Lunatique se rendort. Réveillez le Démon. Montrez le jeton Lunatique et désignez-le, ainsi que sa ou ses cibles."
+    },
+    "lycanthrope": {
+      "ability": "Chaque nuit*, choisissez un joueur en vie. S’il est bon, il meurt et le Démon ne tue pas cette nuit. Un joueur bon apparaît comme maléfique.",
+      "flavor": "Derrière la fine couche de vernis de la civilisation, il y a une bête en furie.",
+      "name": "Lycanthrope",
+      "other": "Le Lycanthrope choisit un joueur. :reminder:"
+    },
+    "magician": {
+      "ability": "Le Démon pense que vous êtes un Sbire. Les Sbires pensent que vous êtes un Démon.",
+      "first": "Pendant l’étape Infos des Sbires, désignez le Magicien et le Démon. Pendant l’étape Infos du Démon, désignez le Magicien et les Sbires.",
+      "flavor": "1… 2… Abra… 3… 4… Cadabra… <Pouf !> Et, sous vos yeux ébahis, Mesdames et Messieurs, le sac plein d’or du Capitaine Farnsworth a disparu ! Parti ! Sans une trace ! Merci, et bonsoir !",
+      "name": "Magicien"
+    },
+    "marionette": {
+      "ability": "Vous pensez que vous êtes un rôle bon. Le Démon sait qui vous êtes. [Vous êtes voisin du Démon]",
+      "first": "Réveillez le Démon. Montrez-lui la tuile *CE JOUEUR EST* puis le jeton de rôle de la Marionnette. Désignez le joueur Marionnette.",
+      "flavor": "Des mots, des paroles. C’est tout ce que nous avons pour tenir.",
+      "name": "Marionnette"
+    },
+    "mastermind": {
+      "ability": "Si le Démon meurt par exécution (mettant fin à la partie), vous jouez 1 jour de plus. Si un joueur est exécuté ce jour-là, son équipe perd.",
+      "flavor": "Les tentacules de ce monstre ont été cloués aux portes de l'église. Les mères et les enfants dansent dans la rue. Excellent. Tout se déroule exactement comme je l'avais prévu.",
+      "name": "Conspirateur"
+    },
+    "mathematician": {
+      "ability": "Chaque nuit, vous apprenez combien de joueurs ont vu leur capacité dysfonctionner (depuis l’aube) à cause de la capacité d’un autre rôle.",
+      "first": "Faites signe avec vos doigts.",
+      "flavor": "Tout système formel cohérent x, dans lequel un certain nombre d'opérations arithmétiques élémentaires peuvent être effectuées, est incomplet ; c'est-à-dire qu'il existe des énoncés du langage de x qui ne peuvent être ni prouvés ni réfutés dans x. Donc, vous êtes ivre.",
+      "name": "Mathématicien",
+      "other": "Faites signe avec vos doigts."
+    },
+    "matron": {
+      "ability": "Chaque jour, vous pouvez choisir jusqu’à 3 groupes de 2 joueurs pour échanger de place. Les joueurs ne peuvent pas quitter leur chaise pour parler en privé.",
+      "flavor": "Mademoiselle Featherbottom ! Silence, je vous prie. Maître Rutherford, votre auriculaire ne doit pas toucher la tasse. Je sais que vous êtes père de neuf enfants, mais l'âge, ou plutôt le manque d'âge, n'est jamais une excuse pour avoir de mauvaises manières.",
+      "name": "Matrone"
+    },
+    "mayor": {
+      "ability": "S’il n’y a que 3 joueurs en vie et pas d’exécution, votre équipe gagne. Si vous mourez la nuit, un autre joueur pourrait mourir à votre place.",
+      "flavor": "Nous devons mettre nos différends de côté et cesser de nous entretuer. Tout le monde paie ses impôts ici, non ? Enfin presque.",
+      "name": "Maire"
+    },
+    "mezepheles": {
+      "ability": "Lors de votre première nuit, vous apprenez un mot secret. Le premier joueur bon qui dit ce mot devient maléfique cette nuit.",
+      "first": "Montrez le mot secret",
+      "flavor": "Ce qui vient du cœur pliera le cœur des autres à vos désirs.",
+      "name": "Mezepheles",
+      "other": "Si un joueur bon a prononcé le mot secret, réveillez-le. Montrez-lui la tuile *VOUS ÊTES* et pointez votre pouce vers le bas. :reminder: :reminder:"
+    },
+    "minioninfo": {
+      "first": "S’il y a au moins 7 joueurs, réveillez les Sbires : Montrez la tuile *VOICI LE DÉMON*. Désignez le Démon."
+    },
+    "minstrel": {
+      "ability": "Lorsqu’un Sbire meurt par exécution, tous les autres joueurs (sauf les Voyageurs) sont ivres jusqu’au crépuscule du lendemain.",
+      "flavor": " File la laine, File la laine, De mes moutons dondaine. Cousez mitaines, cousez mitaines, pour de belles capitaines.",
+      "name": "Ménestrel"
+    },
+    "monk": {
+      "ability": "Chaque nuit*, choisissez un joueur (sauf vous-même) : il est protégé du Démon cette nuit.",
+      "flavor": "C’est un vent mauvais qui souffle sur le village ce soir. Viens trouver refuge à l’abbaye, mon frère. Le Mal ne viendra pas t’y trouver, je m’en porte garant.",
+      "name": "Moine",
+      "other": "Le Moine choisit un joueur. :reminder:"
+    },
+    "moonchild": {
+      "ability": "Lorsque vous apprenez que vous êtes morte, choisissez publiquement 1 joueur en vie. Cette nuit, si c’était un joueur bon, il meurt.",
+      "flavor": "Le Scorpion regarde les Gémeaux. Vous avez un choix à faire. De l’argent contre ma paume ? Votre Destin sera révélé. De l’acier contre ma gorge ? Votre Destin est scellé.",
+      "name": "Sélénite",
+      "other": "Si un joueur doit mourir à cause de la capacité de la Sélénite, il meurt. :reminder:"
+    },
+    "mutant": {
+      "ability": "Si vous vous montrez « fou » d’être un Marginal, vous pourriez être exécuté.",
+      "flavor": "Je ne suis pas une bête ! Je suis un être humain ! Ayez pitié !",
+      "name": "Bête de foire"
+    },
+    "nightwatchman": {
+      "ability": "Une fois par partie, la nuit, choisissez un joueur : il apprend que vous êtes le Veilleur de nuit.",
+      "first": "Le Veilleur de nuit peut choisir un joueur. Le Veilleur de nuit se rendort. Réveillez la cible et montrez-lui la tuile *CE JOUEUR EST*, le jeton de rôle du Veilleur de nuit et désignez le joueur Veilleur de nuit. :reminder:",
+      "flavor": "La nuit est froide et solitaire, mais j’ai pour compagnons la lune, les étoiles, la brise nocturne et le bruit de mes pas sur les pavés. Là-bas, derrière un rideau, je vois une lueur vaciller…",
+      "name": "Veilleur de nuit",
+      "other": "Le Veilleur de nuit peut choisir un joueur. Le Veilleur de nuit se rendort. Réveillez la cible et montrez-lui la tuile *CE JOUEUR EST*, le jeton de rôle du Veilleur de nuit et désignez le joueur Veilleur de nuit. :reminder:"
+    },
+    "noble": {
+      "ability": "Lors de votre première nuit, vous apprenez 3 joueurs, dont 1 uniquement est maléfique.",
+      "first": "Désignez les 3 joueurs *APPRIS*.",
+      "flavor": "Je connais toute la bonne société. Y compris ses membres les moins fréquentables.",
+      "name": "Noble"
+    },
+    "nodashii": {
+      "ability": "Chaque nuit*, choisissez un joueur : il meurt. Vos 2 Villageois voisins sont empoisonnés.",
+      "flavor": "Par les péchés d'Arnoch, je perçois ton odeur nauséabonde. Par le soleil maudit et ses immondes légions de dieux trompeurs, que la corruption t’emporte. Par la nuit bénie et les abysses cachés de la mer profane, laisse-moi mettre un terme à la vie sordide que tu mènes ici-bas.",
+      "name": "No Dashii",
+      "other": "Le No Dashii choisit un joueur. :reminder:"
+    },
+    "ogre": {
+      "ability": "Lors de votre première nuit, choisissez un joueur (sauf vous-même) : vous devenez de son alignement (sans le connaître) même ivre ou empoisonné.",
+      "first": "L’Ogre choisit un joueur. :reminder:",
+      "flavor": "Broudaf zog zog.",
+      "name": "Ogre"
+    },
+    "ojo": {
+      "ability": "Chaque nuit*, choisissez un rôle : il meurt. S’il n’est pas en jeu, le Conteur choisit qui meurt.",
+      "flavor": "Comme un feu de joie par une nuit sans lune… Je te vois, mortel.",
+      "name": "Ojo",
+      "other": "L’Ojo choisit un joueur. :reminder:"
+    },
+    "oracle": {
+      "ability": "Chaque nuit*, vous apprenez combien de joueurs morts sont maléfiques.",
+      "flavor": "Seuls les élus peuvent voir à travers le voile. Les morts sont agités, et leurs mains indiquent le nord gelé.",
+      "name": "Oracle",
+      "other": "Faites signe avec vos doigts."
+    },
+    "organgrinder": {
+      "ability": "Les joueurs gardent les yeux fermés lors des votes et leur décompte est secret. Chaque nuit, choisissez si vous êtes ivre jusqu’au crépuscule.",
+      "first": "L’Organiste de rue hoche la tête pour dire oui et être ivre, ou la secoue pour dire non et être sobre. :reminder:",
+      "flavor": "Encore un petit tour, messieurs dames ? Capucin va passer parmi vous. À votre bon cœur !",
+      "name": "Organiste de rue",
+      "other": "L’Organiste de rue hoche la tête pour dire oui et être ivre, ou la secoue pour dire non et être sobre. :reminder:"
+    },
+    "pacifist": {
+      "ability": "Les joueurs bons exécutés pourraient ne pas mourir.",
+      "flavor": "Ne faites jamais confiance à ceux qui manient la punition comme seule arme.",
+      "name": "Pacifiste"
+    },
+    "philosopher": {
+      "ability": "Une fois par partie, la nuit, choisissez un rôle bon : gagnez cette capacité. Si ce rôle est en jeu, il est ivre.",
+      "first": "Le Philosophe peut choisir un rôle. Si nécessaire, échangez son jeton de rôle. :reminder:",
+      "flavor": "Si tout est réel, la bière est réelle. Buvez, mon ami ; qui sait de quoi sera fait demain.",
+      "name": "Philosophe",
+      "other": "Le Philosophe peut choisir un rôle. Si nécessaire, échangez son jeton de rôle. :reminder:"
+    },
+    "pithag": {
+      "ability": "Chaque nuit*, choisissez un joueur et le rôle qu’il devient (s’il n’est pas en jeu). Si un Démon naît de cette façon, les morts de cette nuit sont arbitraires.",
+      "flavor": "Quelques gouttes de ciguë, de la bave de sangsue, un scorpion coupé très fin, et un peu de poivre en grains.",
+      "name": "Guenaude",
+      "other": "La Guenaude choisit un joueur et un rôle. Si elle choisit un rôle qui n’est pas en jeu : La Guenaude se rendort. Réveillez la cible. Montrez la tuile *VOUS ÊTES* et son nouveau jeton de rôle."
+    },
+    "pixie": {
+      "ability": "Lors de votre première nuit, vous apprenez un rôle de Villageois en jeu. Si vous étiez fou d’être ce rôle, gagnez sa capacité à sa mort.",
+      "first": "Montrez le jeton de rôle Villageois *MAD*.",
+      "flavor": "La petite Pixie s’est cachée dans le jardin. Cherchez-moi, coucou coucou. Je suis cachée parmi vous. Tirant ses moustaches, le Démon passe et repasse mais ne trouve rien du tout. La Pixie l’envoie au trou.",
+      "name": "Pixie"
+    },
+    "plaguedoctor": {
+      "ability": "Lorsque vous mourez, le Conteur gagne une capacité de Sbire.",
+      "flavor": "Asseyez-vous, je vous prie. Dites : «Six cent soixante-six». Très bien.",
+      "name": "Docteur de peste",
+      "other": "Si le Docteur de Peste est mort, le Conteur a acquis la capacité d’un Sbire. Si vous ne l’avez pas encore fait, faites-le maintenant. :reminder:"
+    },
+    "po": {
+      "ability": "Chaque nuit*, vous pouvez choisir un joueur : il meurt. Si votre dernier choix était « personne », choisissez 3 joueurs cette nuit.",
+      "flavor": "Voulez-vous une fleur ? Je me sens si seul.",
+      "name": "Po",
+      "other": "Le Po peut choisir un joueur OU choisit 3 joueurs si son dernier choix était « personne » :reminder: ou :reminder: :reminder: :reminder:"
+    },
+    "poisoner": {
+      "ability": "Chaque nuit, choisissez un joueur. Il est empoisonné cette nuit et le jour suivant.",
+      "first": "L’Empoisonneur choisit un joueur. :reminder:",
+      "flavor": "Une pincée de cyanure... mais pas trop !",
+      "name": "Empoisonneur",
+      "other": "L’Empoisonneur choisit un joueur. :reminder:"
+    },
+    "politician": {
+      "ability": "Si vous êtes le plus responsable de la défaite de votre équipe, changez d’alignement et gagnez (même mort).",
+      "flavor": "Il y en a qui contestent, qui revendiquent et qui protestent. Moi, je ne fais qu’un seul geste…",
+      "name": "Politicien"
+    },
+    "poppygrower": {
+      "ability": "Sbires et Démons ne se connaissent pas. Si vous mourez, ils apprennent qui ils sont cette nuit.",
+      "first": "Sautez les étapes Infos des Sbires et Infos du Démon. Réveillez le Démon. Montrez la tuile *CES RÔLES NE SONT PAS EN JEU*. Montrez 3 jetons de rôles bons qui ne sont pas en jeu.",
+      "flavor": "C’est dans les bosquets cachés des profondeurs de la forêt que l’on trouve le pavot noir. Le voir pousser est un véritable enchantement. Une seule bouffée de son arôme intense suffit à vous perdre à jamais, esclave des divinités de la lumière et de l’obscurité.",
+      "name": "Planteur de pavot",
+      "other": "Si le Planteur de pavot est mort aujourd’hui ou cette nuit, réveillez tous les Sbires. Montrez la tuile *VOICI LE DÉMON*. Désignez le Démon. Rendormez les Sbires. Réveillez le Démon. Montrez la tuile *VOICI VOS SBIRES*. Désignez les Sbires."
+    },
+    "preacher": {
+      "ability": "Chaque nuit, choisissez un joueur : si c’est un Sbire, il l’apprend. Tous les Sbires choisis n’ont aucune capacité.",
+      "first": "Le Prédicateur choisit un joueur :reminder: S’il choisit un Sbire : le Prédicateur se rendort. Réveillez la cible et montrez-lui la tuile *CE RÔLE VOUS A CHOISI* et le jeton de rôle du Prédicateur.",
+      "flavor": "Il vaut mieux être riche et en bonne santé que pauvre et malade.",
+      "name": "Prédicateur",
+      "other": "Le Prédicateur choisit un joueur :reminder: S’il choisit un Sbire : le Prédicateur se rendort. Réveillez la cible et montrez-lui la tuile *CE RÔLE VOUS A CHOISI* et le jeton de rôle du Prédicateur."
+    },
+    "princess": {
+      "ability": "Lors de votre premier jour, si vous avez nommé et exécuté un joueur, le Démon ne tue pas cette nuit.",
+      "flavor": "Nos mots sont des molosses retenus par de simples fils de soie, Messieurs. Que la bienveillance en tisse de véritables cordes, de peur que ces liens ne rompent et ne déchirent la cour.",
+      "name": "Princesse",
+      "other": "Si la Princesse a nommé le joueur exécuté aujourd’hui, réveillez le Démon normalement, mais personne ne meurt à cause de la capacité du Démon. :reminder:"
+    },
+    "professor": {
+      "ability": "Une fois par partie, la nuit*, choisissez un joueur mort : si c’est un Villageois, il est ressuscité.",
+      "flavor": "Le processus est fort simple. Il suffit d’associer le confabulateur hydraulique à l’amplificateur matriciel chi, ajouter 20 cc de pseudodorafine tout en maintenant les niveaux Z de votre mari sous les 20%, et tout ira bien. À présent, il faut juste que la foudre tombe ici.",
+      "name": "Professeur",
+      "other": "Le Professeur peut choisir un joueur mort. :reminder: :reminder:"
+    },
+    "psychopath": {
+      "ability": "Chaque jour, avant les nominations, vous pouvez choisir publiquement un joueur : il meurt. Si exécuté, vous mourez uniquement si vous perdez au chifoumi.",
+      "flavor": "Surprise !",
+      "name": "Psychopathe"
+    },
+    "pukka": {
+      "ability": "Chaque nuit, choisissez un joueur : il est empoisonné. Le joueur précédemment empoisonné meurt, puis devient sain.",
+      "first": "Le Pukka choisit un joueur :reminder:",
+      "flavor": "Encore désolé pour cette petite griffure accidentelle. Un bête accident...",
+      "name": "Pukka",
+      "other": "Le Pukka choisit un joueur. :reminder: Le joueur précédemment empoisonné meurt, puis devient sain :reminder:"
+    },
+    "puzzlemaster": {
+      "ability": "Un joueur est ivre, même si vous mourez. Si vous devinez qui c’est  (1 essai), apprenez quel joueur est le Démon. (Si erreur, recevez une fausse info.)",
+      "flavor": "Une pièce seule n’est qu’une énigme. C’est l’ensemble des pièces qui forme la résolution.",
+      "name": "Maître des puzzles"
+    },
+    "ravenkeeper": {
+      "ability": "Si vous mourez la nuit, vous êtes réveillée pour choisir un joueur et apprendre son rôle.",
+      "flavor": "Mes oiseaux me vengeront ! Volez ! Volez, mes sœurs, et faites votre devoir ! Volez au manoir ! Volez à la rivière ! Que vos ailes soient l’instrument de ma vengeance ! Volez !",
+      "name": "Corneille",
+      "other": "Si la Corneille est morte cette nuit, la Corneille choisit un joueur. Montrez-lui le jeton de rôle de ce joueur."
+    },
+    "recluse": {
+      "ability": "Vous pourriez apparaître comme maléfique et comme Sbire ou Démon, même morte.",
+      "flavor": "Feriez ben d’pas m’estancer avec cte stoire de Démon. Grr. Gardez don vot’nez cheu vous où qu’ç’a vous r’gad. Git ! Mi, j’m’occupe point d’vos affaires. F’tez-moi l’camp.",
+      "name": "Recluse"
+    },
+    "revolutionary": {
+      "ability": "Les joueurs savent que 2 joueurs voisins sont du même alignement. Une fois par partie, l’un d’eux apparaît sous une fausse identité.",
+      "flavor": "Unis, nous avons feint. Divisés, nous avons stagné.",
+      "name": "Révolutionnaire"
+    },
+    "riot": {
+      "ability": "Le jour 3, les Sbires deviennent Émeute et les nommés meurent mais nomment immédiatement, et obligatoirement, un joueur en vie.",
+      "flavor": "Larga vida a la revolución ! Mi revolución !",
+      "name": "Émeute",
+      "other": "Changez le jeton de rappel de l’Émeute pour le jour concerné. :reminder: Si c’est la nuit 3, vous pouvez réveiller les Sbires. Montrez-leur la tuile *VOUS ÊTES* et le jeton de rôle Émeute."
+    },
+    "sage": {
+      "ability": "Si le Démon vous tue, vous apprenez qu’il est parmi 2 joueurs.",
+      "flavor": "Le secret se trouve quelque part dans ces énormes grimoires, j’en suis certain ! Il m’attend, bien caché entre deux lignes. Gamin ! Rapporte des bougies. Et de l’encre ! Ces notes peuvent paraître cryptiques, mais la clé de l’énigme s’y dessine.",
+      "name": "Sage",
+      "other": "Si le Démon a tué le Sage, réveillez le Sage et désignez 2 joueurs. L’un d’entre eux doit être le Démon."
+    },
+    "sailor": {
+      "ability": "Chaque nuit, choisissez un joueur en vie : lui ou vous être ivre jusqu’au crépuscule. Vous ne pouvez pas mourir.",
+      "first": "Le Marin choisit un joueur en vie. :reminder:",
+      "flavor": "Je couche tout le monde ici ! Vous ! Le beau parleur, là. Z’êtes de taille à descendre une pinte ? Non ? Et vous, mamie ? Z’avez déjà goûté le rhum épicé du vieux McKilly ? Ça vous donne du cœur au ventre, allez ! À l’abordage, la vieille !",
+      "name": "Marin",
+      "other": "Le Marin choisit un joueur en vie. :reminder:"
+    },
+    "saint": {
+      "ability": "Si vous mourez par exécution, votre équipe perd.",
+      "flavor": "La sagesse engendre la paix. La patience engendre la sagesse. Ne craignez pas, car la crainte elle-même finira par passer. Prions, et que l’unité de notre vision nous transcende tous.",
+      "name": "Saint"
+    },
+    "savant": {
+      "ability": "Chaque jour, vous pouvez rendre visite au Conteur pour apprendre 2 informations en privé : 1 est vraie et 1 est fausse.",
+      "flavor": "Soixante-douze allumettes sur le sol... le soleil se lève tôt, mais la lune reste inchangée... un morceau de tissu déchiré... le Mal rôde dans le manoir… trois fois trois… ne pas se fier aux apparences... une lueur verte, c’est du magnésium... du moins un résidu, mais ce modèle n’est pas conforme... soixante-douze allumettes sur le sol...",
+      "name": "Savant"
+    },
+    "scapegoat": {
+      "ability": "Si un joueur de votre alignement est exécuté, vous pourriez être exécuté à sa place.",
+      "flavor": "Bonsoir ! Merci de m'avoir invité au bal. Je ne suis pas d'ici, mais vous m’avez l’air fort sympathiques. Je suis sûr que nous allons bien nous entendre. La corde, là, c’est pour quoi faire ?",
+      "name": "Bouc émissaire"
+    },
+    "scarletwoman": {
+      "ability": "S’il y a au moins 5 joueurs en vie et que le Démon meurt, vous devenez le Démon. (Les Voyageurs ne comptent pas.)",
+      "flavor": "Vous m’avez montré les secrets du Conseil de la Flamme Pourpre. Nous avons communié ensemble dans le feu et la luxure, et je suis à jamais à votre service. Mais ce soir, mon cher, je suis votre maître.",
+      "name": "Femme écarlate",
+      "other": "Si la Femme écarlate est devenue le Diablotin dans la journée, montrez-lui la tuile *VOUS ÊTES*, puis le jeton Diablotin."
+    },
+    "seamstress": {
+      "ability": "Une fois par partie, la nuit, choisissez 2 joueurs (sauf vous-même) : vous apprenez s’ils sont du même alignement.",
+      "first": "La Couturière peut choisir 2 joueurs. Faites oui ou non de la tête. :reminder:",
+      "flavor": "Saviez-vous que l’inconnu avec le manteau de cachemire a fait sa déclaration à notre jeune Belle ? Et qu’elle a dit oui ? Et encore ! Ce n’est rien à côté de ce qu’ont préparé Harry et ce jongleur à la foire ! Heureusement que je ne suis pas une pipelette ! J’en sais, des choses...",
+      "name": "Couturière",
+      "other": "La Couturière peut choisir 2 joueurs. Faites oui ou non de la tête. :reminder:"
+    },
+    "sentinel": {
+      "ability": "Il pourrait y avoir 1 Marginal supplémentaire ou 1 de moins en jeu.",
+      "flavor": "Votre nom, je vous prie. Vos papiers, je vous prie. Vos armes, je vous prie.",
+      "name": "Sentinelle"
+    },
+    "shabaloth": {
+      "ability": "Chaque nuit*, choisissez 2 joueurs : ils meurent. Un joueur mort que vous avez choisi lors de la nuit précédente pourrait être recraché.",
+      "flavor": "Blarg f’taag nm mataan! No sho gumtha m’sik na yuuuFluuuuuuuuurg h-sikkkh.",
+      "name": "Shabaloth",
+      "other": "Un joueur précédemment choisi pourrait être recraché. :reminder: Le Shabaloth choisit 2 joueurs. :reminder: :reminder:"
+    },
+    "shugenja": {
+      "ability": "Lors de votre première nuit, vous apprenez si le joueur maléfique le plus proche de vous l’est en sens horaire ou antihoraire. À distance égale, cette info est arbitraire.",
+      "first": "Montrez la direction horaire ou antihoraire.",
+      "flavor": "これは夢。それも夢。この世の全ては夢である",
+      "name": "Shugenja"
+    },
+    "slayer": {
+      "ability": "Une fois par partie, dans la journée, choisissez publiquement un joueur : s’il est le Démon, il meurt.",
+      "flavor": "Meurs !",
+      "name": "Pourfendeuse"
+    },
+    "snakecharmer": {
+      "ability": "Chaque nuit, choisissez un joueur en vie : si c’est un Démon, il échange de rôle et d’alignement avec vous, puis est empoisonné.",
+      "first": "Le Charmeur de serpents choisit un joueur. S’il choisit le Démon : Montrez-lui la tuile *VOUS ÊTES* et le jeton Démon. Pointez le pouce vers le bas. Échangez les jetons Charmeur de serpents et Démon. L’ancien Charmeur de serpents se rendort. Réveillez l’ancien Démon. Montrez la tuile *VOUS ÊTES* et le jeton Charmeur de serpents, et pointez le pouce vers le haut :reminder:",
+      "flavor": "Effendi, je suis l’humilité même, mais un simple air de ma flûte est capable de dompter le plus enragé des Djinns.",
+      "name": "Charmeur de serpents",
+      "other": "Le Charmeur de serpents choisit un joueur. S’il choisit le Démon : Montrez-lui la tuile *VOUS ÊTES* et le jeton Démon. Pointez le pouce vers le bas. Échangez les jetons Charmeur de serpents et Démon. L’ancien Charmeur de serpents se rendort. Réveillez l’ancien Démon. Montrez la tuile *VOUS ÊTES* et le jeton Charmeur de serpents, et pointez le pouce vers le haut. :reminder:"
+    },
+    "snitch": {
+      "ability": "Chaque Sbire reçoit 3 bluffs.",
+      "first": "Réveillez chaque Sbire. Montrez la tuile *CES RÔLES NE SONT PAS EN JEU*. Montrez 3 jetons de rôles bons qui ne sont pas en jeu.",
+      "flavor": "C’est John qui a fait le coup.",
+      "name": "Balance"
+    },
+    "soldier": {
+      "ability": "Vous êtes protégé du Démon.",
+      "flavor": "Comme David a dit à Goliath, comme Thésée a dit au Minotaure, comme Arjuna a dit à Bhagadatta... Non.",
+      "name": "Soldat"
+    },
+    "spiritofivory": {
+      "ability": "Il ne peut pas y avoir plus d’un joueur maléfique supplémentaire.",
+      "flavor": "Le désert m'appelle. Les os se couvrent de chair pour s’élever, puis retombent en poussière. Le grand esprit grandit. Le grand esprit veille. Le grand esprit guide. L'humain écoute, ou l'humain disparaît.",
+      "name": "Esprit d’ivoire"
+    },
+    "spy": {
+      "ability": "Chaque nuit, vous voyez le Grimoire. Vous pourriez apparaître comme bonne et comme Villageois ou Marginal, même morte.",
+      "first": "Montrez le Grimoire aussi longtemps que nécessaire.",
+      "flavor": "Un agent double ? Je ne sers qu’une seule cause. Mais saurez-vous laquelle ?",
+      "name": "Espionne",
+      "other": "Montrez le Grimoire aussi longtemps que nécessaire."
+    },
+    "steward": {
+      "ability": "Lors de votre première nuit, vous apprenez 1 joueur bon.",
+      "first": "Désignez le joueur marqué *APPRIS*.",
+      "flavor": "Comment osez-vous l’accuser ? Quelle audace ! Je l’ai connue toute ma vie ! Cela fait bien… neuf ans !",
+      "name": "Intendante"
+    },
+    "stormcatcher": {
+      "ability": "Annoncez un rôle bon. Si en jeu, il ne peut mourir que par exécution, mais les maléfiques apprennent qui c’est.",
+      "first": "Annoncez quel rôle est pris dans l’orage. Si ce rôle est en jeu, marquez ce joueur comme *EN SÉCURITÉ*. Réveillez chaque joueur maléfique et montrez-lui le jeton de ce rôle, puis le joueur marqué. S’il n’est pas en jeu, réveillez chaque joueur maléfique, montrez-lui la tuile *CES RÔLES NE SONT PAS EN JEU* et le jeton du rôle concerné.",
+      "flavor": "Une tempête approchait, et je vis, en relevant la tête, un grand nuage obscur posé sur l’horizon ; aucun tonnerre encor ne grondait ; le gazon frissonnait près de moi ; les branches tremblaient toutes, et des passants lointains se hâtaient sur les routes.",
+      "name": "Chasseur d’orages"
+    },
+    "summoner": {
+      "ability": "Recevez 3 bluffs. La troisième nuit, choisissez qui devient un Démon maléfique de votre choix. [Aucun Démon]",
+      "first": "Montrez la tuile *CES RÔLES NE SONT PAS EN JEU*. Montrez 3 jetons de rôles bons qui ne sont pas en jeu.",
+      "flavor": "Gloire aux gardiens du Nord ! Que mon esprit vous brise. Gloire aux Gardiens de l’Est ! Que ma volonté vous abatte. Gloire aux Gardiens du Sud ! Qu’ils révèlent le mystère de l’au-delà. Gloire aux Gardiens de l’Ouest ! Que leur main nous protège des ténèbres.",
+      "name": "Invocatrice",
+      "other": "Changez le jeton de rappel de l’Invocatrice pour le jour concerné. :reminder: Si c’est la nuit 3, l’Invocatrice choisit un joueur et un rôle de Démon. L’Invocatrice se rendort. Réveillez la cible, montrez-lui la tuile *VOUS ÊTES*, le jeton de rôle choisi et pointez votre pouce vers le bas."
+    },
+    "sweetheart": {
+      "ability": "Lorsque vous mourez, 1 joueur est désormais ivre.",
+      "flavor": "Je ne l’oublierai jamais. Jamais. Hic !",
+      "name": "Dulcinée",
+      "other": "Si la Dulcinée est morte, un joueur est devenu immédiatement ivre. Si vous n’avez pas encore rendu ce joueur ivre, faites-le maintenant. :reminder:"
+    },
+    "tealady": {
+      "ability": "Si vos deux voisins en vie sont bons, ils ne peuvent pas mourir.",
+      "flavor": "Si vous avez froid, le thé vous réchauffera. Si vous avez chaud, le thé vous rafraîchira. Si vous êtes triste, le thé vous réjouira. Si vous êtes énervé, le thé vous calmera.",
+      "name": "Tisanière"
+    },
+    "thief": {
+      "ability": "Chaque nuit, choisissez un joueur (sauf vous-même) : son vote compte en négatif le lendemain.",
+      "first": "La Voleuse choisit un joueur. :reminder:",
+      "flavor": "J'ai rin fait. J'tais même pas dans c’te ruelle hier soir ! S’pas moi qu’a volé la mallette du maire avec tous ces papiers. En plus, c’était trop lourd.",
+      "name": "Voleuse",
+      "other": "La Voleuse choisit un joueur. :reminder:"
+    },
+    "tinker": {
+      "ability": "Vous pourriez mourir à tout moment.",
+      "flavor": "Je vois où est le problème. Heureusement, j’ai la solution ! Cette catapulte va pouvoir tirer deux fois plus loin, si je fais attention à... ",
+      "name": "Bricoleur",
+      "other": "Le Bricoleur pourrait mourir. :reminder:"
+    },
+    "towncrier": {
+      "ability": "Chaque nuit*, vous apprenez si un Sbire a nommé quelqu’un dans la journée.",
+      "flavor": "Oyez ! Oyez ! La sorcellerie est à l’œuvre ! Un savant de génie révèle tout ! Le village est en danger ! Oyez !",
+      "name": "Crieur public",
+      "other": "Faites oui ou non de la tête."
+    },
+    "toymaker": {
+      "ability": "Le Démon peut choisir de ne pas attaquer et doit faire cela au moins une fois par partie. Les joueurs maléfiques reçoivent normalement leurs infos de départ.",
+      "first": "Résolvez les étapes Info des Sbires et Info du Démon même si il y a moins de 7 joueurs.",
+      "flavor": "Il bourdonne ! Il descend les escaliers ! Il vous tient chaud la nuit ! Il a un petit goût sucré ! Les enfants l’adorent ! Voici... le tout nouveau… Cal’o-boogie-woogie-auto-trucmucho-robot ! Du plaisir pour tous les âges !",
+      "name": "Bibelotier",
+      "other": "Si l’attaque du Démon peut mettre un terme à la partie mais que le Démon est marqué du jeton *DERNIÈRE NUIT : AUCUNE ATTAQUE*, alors ne réveillez pas le Démon."
+    },
+    "undertaker": {
+      "ability": "Chaque nuit*, vous apprenez quel rôle est mort par exécution dans la journée.",
+      "flavor": "Alors, qu’est-ce qu’on a aujourd’hui ? Usure importante au talon de la botte gauche, des restes de pierre à fusil sous la langue... Un militaire, sans aucun doute.",
+      "name": "Fossoyeur",
+      "other": "Si un joueur est mort par exécution dans la journée, montrez son jeton de rôle au Fossoyeur."
+    },
+    "vigormortis": {
+      "ability": "Chaque nuit*, choisissez un joueur : il meurt. Les Sbires que vous tuez gardent leur capacité et empoisonnent 1 Villageois voisin. *[-1 Marginal]*",
+      "flavor": "Toutes les portes sont une seule porte. Toutes les clés sont une seule clé. Toutes les coupes sont une seule coupe, mais l’eau que j’y verse sera source de vie éternelle, et quiconque la boira n’aura plus jamais soif.",
+      "name": "Vigormortis",
+      "other": "Le Vigormortis choisit un joueur. :reminder: Si ce joueur est un Sbire, empoisonnez un Villageois voisin du Sbire. :reminder: :reminder:"
+    },
+    "villageidiot": {
+      "ability": "Chaque nuit, choisissez un joueur : vous apprenez son alignement. [+0 ou +1 à +2 Idiots du village dont un ivre]",
+      "first": "S’il y a plusieurs Idiots du Village, marquez-en un comme *IVRE*. :reminder: Réveillez les Idiots du Village un par un pour qu’ils choisissent un joueur. Pointez le pouce vers le haut ou le bas.",
+      "flavor": "Au clair de la plume, mon ami Pierrot, prête-moi ta lune, pour écrire un mot. Flûte, je me suis trompé.",
+      "name": "Idiot du village",
+      "other": "Réveillez les Idiots du Village un par un pour qu’ils choisissent un joueur. Pointez le pouce vers le haut ou le bas."
+    },
+    "virgin": {
+      "ability": "La première fois qu’un joueur vous nomme, il est exécuté immédiatement s’il s’agit d’un Villageois.",
+      "flavor": "Je suis pure. Vous qui êtes si droits, jetez-vous à terre et souffrez à ma place. Ma réputation ne saurait être entachée par le venin de vos accusations.",
+      "name": "Immaculée"
+    },
+    "vizier": {
+      "ability": "Votre rôle est connu de tous. Vous ne pouvez pas mourir dans la journée. Si le Bien a voté, vous pouvez exécuter immédiatement.",
+      "first": "Annoncez quel joueur est le Vizir",
+      "flavor": "Une excellente décision, comme toujours, Sire. Un délit aussi insignifiant que celui de faire trébucher l’Évêque par mégarde mérite votre «justice» et votre «pardon». Promenez-vous dans les jardins. Visitez la galerie et admirez les sculptures de Von Strauf. Détendez-vous, Sire. Laissez-moi m’occuper du reste.",
+      "name": "Vizir"
+    },
+    "vortox": {
+      "ability": "Chaque nuit*, choisissez un joueur : il meurt. Les capacités des Villageois donnent de fausses informations. Chaque jour, si personne n’est exécuté, le Mal gagne.",
+      "flavor": "Le noir est blanc. Le bien est le mal. La gauche est la droite. Le haut est le long. Le bas est la vue. Le court est aveugle. Suivez-moi. Trouver réponses.",
+      "name": "Vortox",
+      "other": "Le Vortox choisit un joueur. :reminder:"
+    },
+    "voudon": {
+      "ability": "Seuls vous et les morts pouvez voter. Ils n’ont pas besoin de jeton de vote pour cela. La majorité n’est pas requise.",
+      "flavor": "Byen venu. Asseyez-vous. Respirez profondément. Entrez dans le royaume des morts. Voyez avec leurs yeux. Parlez avec leur voix. Yon sel lang se janm ase.",
+      "name": "Voudon"
+    },
+    "washerwoman": {
+      "ability": "Lors de votre première nuit, vous apprenez un rôle de Villageois en jeu parmi 2 joueurs.",
+      "first": "Montrez le jeton de rôle du Villageois. Désignez le joueur *VILLAGEOIS* et le joueur *FAUSSE PISTE*.",
+      "flavor": "Il y a des taches de sang sur cette veste ! Ou alors, c’est de la sauce. C’est encore pire !",
+      "name": "Lavandière"
+    },
+    "widow": {
+      "ability": "Lors de votre première nuit, consultez le Grimoire et choisissez un joueur : il est empoisonné. 1 joueur bon sait qu’une Veuve est en jeu.",
+      "first": "Montrez le Grimoire aussi longtemps que nécessaire. La Veuve choisit un joueur. :reminder: La Veuve se rendort. Réveillez le joueur marqué *APPRIS* et montrez-lui le jeton de rôle de la Veuve. :reminder:",
+      "flavor": "Goûtez-moi ce vin. Du Château d'Ergot 2007 ! Une cuvée très spéciale. Trrèèèèèès spéciale, croyez-moi.",
+      "name": "Veuve"
+    },
+    "witch": {
+      "ability": "Chaque nuit, choisissez un joueur : s’il nomme quelqu’un le lendemain, il meurt. S’il ne reste que 3 joueurs en vie, vous perdez cette capacité.",
+      "first": "La Sorcière choisit un joueur. :reminder:",
+      "flavor": "Trois gouttes généreuses des veines du lézard. Une boucle de cheveux arrachés par la haine. Le nom est prononcé. L’ombre arrive tôt ou tard. Arpente le chemin, ne ménage pas ta peine.",
+      "name": "Sorcière",
+      "other": "La Sorcière choisit un joueur. :reminder:"
+    },
+    "wizard": {
+      "ability": "Une fois par partie, choisissez de faire un vœu. S’il est exaucé, vous pourriez en payer le prix et un indice à son sujet pourrait être donné.",
+      "first": "Faites tout ce qui doit être fait pour satisfaire la capacité du Mage.",
+      "flavor": "Chaque homme et chaque femme est une étoile. L'amour est la loi, l'amour sous la volonté.",
+      "name": "Mage",
+      "other": "Faites tout ce qui doit être fait pour satisfaire la capacité du Mage."
+    },
+    "wraith": {
+      "ability": "Vous pouvez choisir d’ouvrir les yeux la nuit. Vous vous réveillez en même temps que les autres joueurs maléfiques.",
+      "first": "Réveillez le Spectre à chaque fois qu’un joueur maléfique se réveille.",
+      "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
+      "name": "Spectre",
+      "other": "Réveillez le Spectre à chaque fois qu’un joueur maléfique se réveille."
+    },
+    "xaan": {
+      "ability": "La nuit X, tous les Villageois sont empoisonnés jusqu’au crépuscule. [X Marginaux]",
+      "first": "Si X égal 1, marqué le Xaan avec le jeton *X*. :reminder: :reminder:",
+      "flavor": "Tels des mouches, ils tombent. Un par un. Par deux, par trois, par cinq.",
+      "name": "Xaan",
+      "other": "Changez le jeton de rappel du Xaan pour la nuit concernée. Si c’est la nuit X, marqué le Xaan avec le jeton *X*. :reminder: :reminder:"
+    },
+    "yaggababble": {
+      "ability": "Lors de votre première nuit, vous apprenez une phrase secrète. Pour chaque fois que vous l’aurez dite publiquement en journée, un joueur pourrait mourir.",
+      "first": "Montrez au Yaggablabla sa phrase secrète.",
+      "flavor": "Un double assassinat dans la rue Morgue ? Фальшивые новости ! Des chiens dans la lande de Baskerville ? Фальшивые новости ! Un mort sur le Nil ? Фальшивые новости !",
+      "name": "Yaggablabla",
+      "other": "Pour chaque fois que le Yaggablabla a prononcé sa phrase secrète aujourd’hui, un joueur pourrait mourir cette nuit. :reminder:"
+    },
+    "zealot": {
+      "ability": "S’il y a au moins 5 joueurs en vie, vous devez voter pour chaque nomination.",
+      "flavor": "J'aime discuter avec vous. Votre esprit me plaît. Il ressemble à mon propre esprit, sauf que vous, vous êtes dingue.",
+      "name": "Zélote"
+    },
+    "zombuul": {
+      "ability": "Chaque nuit*, si personne n’est mort dans la journée, choisissez un joueur : il meurt. La première fois que vous mourez, vous restez en vie, mais apparaissez comme mort.",
+      "flavor": "Je ne. Comprends pas. Tes coutumes. Ami humain. Montre-moi. La terre. Où le sacré. Repose. En paix. Moi aussi. Je dois dormir. Bientôt.",
+      "name": "Zombuul",
+      "other": "Si personne n’est mort dans la journée, le Zombuul choisit un joueur. :reminder:"
+    },
+    "bigwig": {
+      "ability": "Chaque joueur nommé choisit un joueur : jusqu’au vote, seul ce joueur peut parler et il est «fou» que le joueur nommé soit bon. Sinon, il pourrait être exécuté.",
+      "flavor": "La vanité demande : « Est-ce populaire ? » La lâcheté demande : « Est-ce prudent ? » La conscience demande : « Est-ce juste ? » Mais qui parmi nous demandera : « Est-ce vrai ? »",
+      "name": "Big Wig"
+    },
+    "tor": {
+      "ability": "Les joueurs ne connaissent ni leur rôle ni leur alignement. Ils les apprennent lorsqu'ils meurent.",
+      "flavor": "Avec le tonnerre pour voix et la foudre pour épée, moi, gardien éternel, je dévore les insensés qui osent s'approcher de la porte interdite. Voici mon dessein sacré : arracher le scarabée aux entrailles de la terre rocheuse et l'enfermer dans un filet d'étoiles, sur la colline où le ciel rencontre la terre.",
+      "name": "Tor",
+      "first": "Si un joueur est mort cette nuit, montrez-lui la tuile *VOUS ÊTES*, son jeton de rôle et un pouce vers le haut ou le bas."
+    },
+    "zenomancer": {
+      "ability": "Un ou plusieurs joueurs ont chacun un objectif. Lorsqu’un joueur atteint le sien, il apprend une vraie info.",
+      "flavor": "L'univers est un verbe, pas un nom, dit-on. Et ce ne sont que des tortues, jusqu'au bout. Des tortues jusqu'au bout, mon ami, des tortues jusqu'au bout.",
+      "name": "Zénomancien"
+    },
+    "hindu": {
+      "ability": "Les 4 premiers joueurs à mourir sont immédiatement réincarnés en Voyageurs du même alignement.",
+      "flavor": "चत्वारो मृत्युमध्ये पतन्ति, चत्वारो यात्री पुनरुद्गताः। चत्वारो धर्मे स्थितचित्तवृत्तेः, चत्वार एषां न पुनः क्षयः॥",
+      "name": "Hindou"
+    },
+    "pope": {
+      "ability": "Plusieurs joueurs peuvent avoir les mêmes rôles bons. Des rôles bons en jeu peuvent également être des bluffs.",
+      "flavor": "...Pulcherrimae.",
+      "name": "Pape"
+    },
+    "cacklejack": {
+      "ability": "Chaque jour, choisissez un joueur : un joueur différent change de rôle cette nuit.",
+      "flavor": "Le fil α sur le fil β. Di0de allumÉe. BuZZer désactivé. GAzOinks ! Bras teNdus. DoiGT dans 2 nez. Aaaattendez. BoiNgo-banGo ! Ha-ha-ha !",
+      "name": "Déphasé",
+      "other": "Avant l’aube, choisissez un joueur qui n’est pas marqué du jeton *PAS MOI*. Réveillez la cible. Montrez-lui la tuile Info *VOUS ÊTES* et le jeton de son nouveau rôle."
+    }
+  },
+  "teams": {
+    "demon": "Démons",
+    "fabled": "Légendaires",
+    "minion": "Sbires",
+    "outsider": "Marginaux",
+    "townsfolk": "Villageois",
+    "traveller": "Voyageurs",
+    "loric": " Loric"
+  },
+  "nightMarkers": {
+    "dawn": "Aube",
+    "demoninfo": "Info du Démon",
+    "dusk": "Crépuscule",
+    "minioninfo": "Info des Sbires"
+  },
+  "reminders": {
+    "2nd": "2nd",
+    "3attacks": "3 attaques",
+    "3votes": "3 votes",
+    "abnormal": "Anormal",
+    "abouttodie": "Sur le point de mourir",
+    "actstwice": "Agit deux fois",
+    "aligned": "Aligné",
+    "alive": "En vie",
+    "amigo": "Amigo",
+    "cannotdie": "Ne peut pas mourir",
+    "chosen": "Choisi",
+    "claimed": "Annonce faite",
+    "correct": "Correct",
+    "cursed": "Maudit",
+    "day1": "Jour 1",
+    "day2": "Jour 2",
+    "day3": "Jour 3",
+    "day4": "Jour 4",
+    "day5": "Jour 5",
+    "dead": "Mort",
+    "demonnotvoted": "Le Démon n’a pas voté",
+    "demonvoted": "Le Démon a voté",
+    "diedtoday": "Mort aujourd’hui",
+    "doesntkill": "Ne tue pas",
+    "drunk": "Ivre",
+    "drunk1": "Ivre 1",
+    "drunk2": "Ivre 2",
+    "drunk3": "Ivre 3",
+    "everyoneisdrunk": "Tout le monde est ivre",
+    "evil": "Maléfique",
+    "evilwakes": "Le Mal s’éveille",
+    "falseinfo": "Fausse info",
+    "fauxpaw": "Fausse patte",
+    "fear": "Peur",
+    "finalnightnoattack": "Dernière nuit : Aucune attaque",
+    "friend": "Ami",
+    "good": "Bon",
+    "goodplayerexecuted": "Joueur bon exécuté",
+    "grandchild": "Petit-enfant",
+    "guessused": "Supposition utilisée",
+    "haircutstonight": "Cette nuit, on rase gratis",
+    "hasability": "A une capacité",
+    "isthealchemist": "Est l’Alchimiste",
+    "istheapprentice": "Est l’Apprenti",
+    "isthedemon": "Est le Démon",
+    "isthedrunk": "Est l’Ivrogne",
+    "isthemarionette": "Est la Marionnette",
+    "isthephilosopher": "Est le Philosophe",
+    "know": "Appris",
+    "lunch": "Miam",
+    "mad": "Fou",
+    "master": "Maître",
+    "maynotnominate": "Ne peut pas nominer",
+    "minion": "Sbire",
+    "minionnominated": "Les Sbires ont nominé",
+    "minionsnotnominated": "Les Sbires n’ont pas nominé",
+    "negativevote": "Vote négatif",
+    "night1": "Nuit 1",
+    "night2": "Nuit 2",
+    "night3": "Nuit 3",
+    "noability": "Sans capacité",
+    "nominateevil": "Nommer joueur maléfique",
+    "nominategood": "Nommer joueur bon",
+    "nomoreevil": "Maléfiques au maximum",
+    "once": "Une fois",
+    "outsider": "Marginal",
+    "poisoned": "Empoisonné",
+    "protected": "En sécurité",
+    "redherring": "Leurre",
+    "registerfalsely": "Fausse apparence ?",
+    "safe": "En sécurité",
+    "soberhealthy": "Sobre et sain",
+    "somethingbad": "Pénalité",
+    "storytellerability": "Capacité du Conteur",
+    "survivesexecution": "Survit à l’exécution",
+    "teapartytonight": "Ce soir, on prend le thé",
+    "townsfolk": "Villageois",
+    "turnsevil": "Devient maléfique",
+    "twin": "Jumelle",
+    "visitor": "Visiteur",
+    "whoopsie": "Oups",
+    "wrong": "Fausse piste",
+    "stormcaught": "En sécurité",
+    "goal": "Objectif",
+    "notme": "Pas moi"
+  },
+  "jinxes": {
+    "alchemist-boffin": "Si l’Alchimiste a la capacité du Laborantin, l’Alchimiste n’apprend pas quelle capacité possède le Démon.",
+    "alchemist-marionette": "Un Alchimiste-Marionnette n’a pas la capacité de Marionnette et une Marionnette est en jeu.",
+    "alchemist-mastermind": "Un Alchimiste-Conspirateur n’a pas la capacité de Conspirateur et le Conspirateur n’est pas en jeu.",
+    "alchemist-organgrinder": "Si l’Alchimiste a la capacité de l’Organiste de rue, l’Organiste de rue est en jeu. Si les deux sont sains, ils sont tous deux ivres.",
+    "alchemist-spy": "Un Alchimiste-Espionne n’a pas la capacité d’Espionne et une Espionne est en jeu. Après chaque exécution, un Alchimiste-Espionne vivant peut publiquement désigner un joueur vivant comme étant l’Espionne. Si c’est correct, le Démon doit choisir l’Espionne cette nuit.",
+    "alchemist-summoner": "L’Alchimiste-Invocatrice ne reçoit pas de bluffs et choisit quel Démon mais pas quel joueur. S’il meurt avant cela, le Mal gagne. [Pas de Démon]",
+    "alchemist-widow": "Un Alchimiste-Veuve n’a pas la capacité de Veuve et une Veuve est en jeu. Après chaque exécution, un Alchimiste-Veuve vivant peut publiquement désigner un joueur vivant comme étant la Veuve. Si c’est correct, le Démon doit choisir la Veuve cette nuit.",
+    "alchemist-wraith": "Un Alchimiste-Spectre n’a pas la capacité de Spectre et un Spectre est en jeu. Après chaque exécution, un Alchimiste-Spectre vivant peut publiquement désigner un joueur vivant comme étant le Spectre. Si c’est correct, le Démon doit choisir le Spectre cette nuit.",
+    "alhadikhia-mastermind": "Si l’Al-Hadikhia meurt par exécution et que le Conspirateur est vivant, l’Al-Hadikhia choisit 3 joueurs bons cette nuit : si les 3 choisissent de vivre, le Mal gagne. Sinon, l’équipe du Bien gagne.",
+    "alhadikhia-princess": "Si la Princesse a nommé et fait exécuter un joueur lors de son premier jour, personne ne meurt à cause de l’Al-Hadikhia cette nuit.",
+    "alhadikhia-scarletwoman": "S’il devait y avoir deux Démons, dont l’un serait la Femme écarlate, la Femme écarlate redevient la Femme écarlate.",
+    "alsaahir-vizier": "Le Conteur ne déclare pas que le Vizir est en jeu.",
+    "atheist-riot": "Pendant une émeute, si le Conteur est nommé, les joueurs votent. S’il est «sur le point de mourir», la partie se termine. Sinon, ils peuvent nommer à nouveau.",
+    "balloonist-marionette": "Si la Marionnette pense être l’Aéronaute, un Marginal a pu être ajouté lors de la mise en place.",
+    "banshee-leviathan": "Chaque nuit*, le Léviathan choisit un joueur bon vivant (différent des nuits précédentes) : une Banshee choisie meurt et obtient sa capacité.",
+    "banshee-riot": "Chaque nuit*, l’Émeute choisit un joueur bon vivant (différent des nuits précédentes) : une Banshee choisie meurt et obtient sa capacité.",
+    "banshee-vortox": "Si le Vortox tue la Banshee, tous les joueurs apprennent que la Banshee est morte.",
+    "baron-heretic": "Un seul rôle affecté par ce jinx peut être en jeu.",
+    "baron-plaguedoctor": "Si le Conteur devait obtenir la capacité du Baron, jusqu’à deux joueurs deviennent Marginal.",
+    "boffin-cultleader": "Si le Démon a la capacité du Chef de secte, il ne peut pas devenir bon à cause de cette capacité.",
+    "boffin-drunk": "Le Démon ne peut pas avoir la capacité de l’Ivrogne.",
+    "boffin-goon": "Si le Démon a la capacité de Gros bras, il ne peut pas devenir bon à cause de cette capacité.",
+    "boffin-heretic": "Le Démon ne peut pas avoir la capacité de l’Hérétique.",
+    "boffin-ogre": "Le Démon ne peut pas avoir la capacité de l’Ogre.",
+    "boffin-politician": "Le Démon ne peut pas avoir la capacité de Politicien.",
+    "boffin-villageidiot": "S’il y a un jeton disponible, le Boffin peut donner au Démon la capacité d’Idiot du village.",
+    "boomdandy-plaguedoctor": "Si le Conteur devait obtenir la capacité du Boumdandy, un joueur devient le Boumdandy.",
+    "bountyhunter-kazali": "Si le Kazali transforme le Chasseur de primes en Sbire, aucun rôle bon ne devient maléfique.",
+    "bountyhunter-philosopher": "Si le Philosophe obtient la capacité du Chasseur de primes, un rôle bon peut devenir maléfique.",
+    "butler-cannibal": "Si le Cannibale obtient la capacité de Majordome, le Cannibale l’apprend.",
+    "butler-organgrinder": "Si l’Organiste de rue force un vote les yeux fermés, le Majordome peut lever la main pour voter, mais son vote ne compte que si son maître a aussi voté.",
+    "cannibal-juggler": "Si le Jongleur fait ses prédictions lors de son premier jour et meurt par exécution, cette nuit, le Cannibale vivant apprend combien de prédictions étaient correctes.",
+    "cannibal-princess": "Si le Cannibale a nommé, fait exécuter et tué la Princesse aujourd’hui, le Démon ne tue pas cette nuit.",
+    "cannibal-zealot": "Si le Cannibale obtient la capacité du Zélote, le Cannibale l’apprend.",
+    "cerenovus-goblin": "Le Cerenovus peut choisir de rendre un joueur «fou» en lui faisant croire qu’il est le Gobelin.",
+    "chambermaid-mathematician": "La Femme de chambre peut détecter si le Mathématicien se réveillera cette nuit.",
+    "clockmaker-summoner": "L’Invocatrice est considérée comme le Démon pour l’Horloger.",
+    "courtier-summoner": "Si l’Invocatrice vivante n’a pas de capacité, le Conteur possède la capacité de l’Invocatrice.",
+    "courtier-vizier": "Si le Vizir perd sa capacité, il l’apprend et ne peut pas mourir pendant la journée.",
+    "cultleader-pithag": "Si la Guenaude transforme un joueur maléfique en Chef de secte, celui-ci ne peut pas devenir bon à cause de sa propre capacité.",
+    "damsel-pithag": "Si la Guenaude crée une Demoiselle, le Conteur choisit quel joueur c’est.",
+    "damsel-spy": "Si l’Espionne est (ou a été) en jeu, la Demoiselle est empoisonnée.",
+    "damsel-widow": "Si la Veuve est (ou a été) en jeu, la Demoiselle est empoisonnée.",
+    "drunk-mathematician": "Le Mathématicien peut apprendre si la capacité de l’Ivrogne a donné une information fausse ou n’a pas fonctionné correctement.",
+    "engineer-legion": "Si la Légion est créée, tous les joueurs maléfiques deviennent Légion. Si Légion est en jeu, l’Ingénieur commence en le sachant mais n’a pas de capacité.",
+    "engineer-summoner": "Si l’Invocatrice vivante est retirée du jeu, le Conteur possède la capacité de l’Invocatrice.",
+    "eviltwin-plaguedoctor": "Si le Conteur devait obtenir la capacité de la Jumelle maléfique, un joueur devient la Jumelle maléfique.",
+    "exorcist-leviathan": "Si le Léviathan nomme et fait exécuter le joueur choisi par l’Exorciste, le l’équipe du Bien gagne.",
+    "exorcist-riot": "Si l’Émeute nomme et fait exécuter le joueur choisi par l’Exorciste, l’équipe du Bien gagne..",
+    "exorcist-yaggababble": "Si l’Exorciste choisit le Yaggababble, le Yaggababble ne tue pas cette nuit.",
+    "fanggu-scarletwoman": "S’il devait y avoir deux Démons, dont l’un serait la Femme écarlate, la Femme écarlate reste la Femme écarlate.",
+    "farmer-leviathan": "Chaque nuit*, le Léviathan choisit un joueur bon vivant (différent des nuits précédentes) : une Fermière choisie utilise sa capacité mais ne meurt pas.",
+    "farmer-riot": "Chaque nuit*, l’Émeute choisit un joueur bon vivant (différent des nuits précédentes) : une Fermière choisie utilise sa capacité mais ne meurt pas.",
+    "fearmonger-plaguedoctor": "Si le Conteur devait obtenir la capacité du Tourmenteur, un Sbire l’obtient et l’apprend.",
+    "fearmonger-vizier": "Le Vizir se réveille avec le Tourmenteur, apprend qui il choisit et ne peut pas exécuter immédiatement ce joueur.",
+    "goblin-plaguedoctor": "Si le Conteur devait obtenir la capacité de Gobelin, un Sbire l’obtient et l’apprend.",
+    "godfather-heretic": "Un seul rôle affecté par ce jinx peut être en jeu.",
+    "goon-pithag": "Si la Guenaude transforme un joueur maléfique en Gros bras, celui-ci ne peut pas devenir bon à cause de sa propre capacité.",
+    "grandmother-leviathan": "Si le Léviathan est en jeu et que le Petit-enfant de la Grand-mère meurt par exécution, l’équipe du Mal gagne.",
+    "grandmother-riot": "Si l’Émeute est en jeu et que le Petit-enfant de la Grand-mère meurt par exécution, l’équipe du Mal gagne.",
+    "hatter-legion": "Si Légion est créée, tous les joueurs maléfiques deviennent Légion. Si Légion est en jeu, le Chapelier n’a pas de capacité.",
+    "hatter-leviathan": "Le Léviathan ne peut pas entrer en jeu après le jour 5.",
+    "hatter-lilmonsta": "Si le Chapelier meurt et que le Démon choisit Timonstre, il choisit aussi quel Sbire il devient.",
+    "hatter-summoner": "Si l’Invocatrice crée un second Démon vivant, les morts cette nuit sont arbitraires.",
+    "heretic-lleech": "Un seul rôle affecté par ce jinx peut être en jeu.",
+    "heretic-pithag": "Un seul rôle affecté par ce jinx peut être en jeu.",
+    "heretic-spy": "Un seul rôle affecté par ce jinx peut être en jeu.",
+    "heretic-widow": "Un seul rôle affecté par ce jinx peut être en jeu.",
+    "huntsman-marionette": "Si la Marionnette pense être le Chasseur, la Damoiselle a été ajoutée lors de la mise en place.",
+    "innkeeper-leviathan": "Si le Léviathan nomme et fait exécuter un joueur protégé par l’Aubergiste, l’équipe du Bien gagne.",
+    "innkeeper-riot": "Si l’Émeute nomme et fait exécuter un joueur protégé par l’Aubergiste, l’équipe du Bien gagne.",
+    "investigator-vizier": "Le Conteur ne déclare pas que le Vizir est en jeu.",
+    "kazali-marionette": "S’il devait y avoir une Marionnette en jeu, elle entre en jeu après le Démon et doit commencer en étant sa voisine.",
+    "kazali-summoner": "Si l’Invocatrice crée un second Démon vivant, les morts cette nuit sont arbitraires.",
+    "king-leviathan": "Si le Léviathan est en jeu et qu’au moins un joueur est mort, le Roi apprend chaque nuit un rôle vivant.",
+    "king-riot": "Si l’Émeute est en jeu et qu’au moins un joueur est mort, le Roi apprend chaque nuit un rôle vivant.",
+    "legion-magician": "Le Magicien se réveille avec Légion et peut être considéré comme maléfique. Légion sait si un Magicien est en jeu, mais pas quel joueur c’est.",
+    "legion-minstrel": "Si Légion meurt par exécution aujourd’hui, Légion conserve sa capacité, mais le Ménestrel peut apprendre que Légion est en jeu.",
+    "legion-politician": "Le Politicien peut être considéré comme maléfique par Légion.",
+    "legion-preacher": "Si le Prédicateur choisit Légion, Légion conserve sa capacité, mais le Prédicateur peut apprendre que Légion est en jeu.",
+    "legion-summoner": "Si Légion est invoquée, tous les joueurs maléfiques deviennent Légion.",
+    "legion-zealot": "Le Zélote peut être considéré comme maléfique par Légion.",
+    "leviathan-mayor": "Si le Léviathan et le Maire sont vivants au jour 5 et qu’aucune exécution n’a lieu, l’équipe du Bien gagne.",
+    "leviathan-monk": "Si le Léviathan nomme et fait exécuter un joueur protégé par le Moine, l’équipe du Bien gagne.",
+    "leviathan-pithag": "Le Léviathan ne peut pas entrer en jeu après le jour 5.",
+    "leviathan-ravenkeeper": "Chaque nuit*, le Léviathan choisit un joueur vivant (différent des nuits précédentes) : une Corneille choisie utilise sa capacité mais ne meurt pas.",
+    "leviathan-sage": "Chaque nuit*, le Léviathan choisit un joueur bon vivant (différent des nuits précédentes) : un Sage choisi utilise sa capacité mais ne meurt pas.",
+    "leviathan-soldier": "Si le Léviathan nomme et fait exécuter le Soldat, l’équipe du Bien gagne.",
+    "lilmonsta-magician": "Si le Magicien est vivant, le Conteur choisit quel Sbire garde le Timonstre.",
+    "lilmonsta-marionette": "S’il devait y avoir une Marionnette en jeu, elle entre en jeu après le Démon et doit commencer en étant sa voisine.",
+    "lilmonsta-poppygrower": "Si le Timonstre et le Planteur de pavot sont vivants, les Sbires se réveillent un par un, jusqu’à ce que l’un d’eux choisisse de prendre le jeton Timonstre.",
+    "lilmonsta-psychopath": "Si le Psychopathe garde le Timonstre, il meurt lorsqu’il est exécuté.",
+    "lilmonsta-scarletwoman": "Si le Timonstre meurt alors qu’il reste 5 joueurs ou plus en vie, la Femme écarlate s’occupe du Timonstre pour le reste de la partie.",
+    "lilmonsta-vizier": "Si le Vizir s’occupe du Timonstre, il meurt lorsqu’il est exécuté.",
+    "lleech-mastermind": "Si le Conspirateur est vivant et que l’hôte du Parasyte meurt par exécution, le Parasyte survit mais perd sa capacité.",
+    "lleech-slayer": "Si la Pourfendeuse tue l’hôte du Parasyte, l’hôte meurt.",
+    "lordoftyphon-summoner": "Si un Seigneur de Typhon est invoqué, il doit être voisin d’un Sbire et son autre voisin devient un Sbire maléfique.",
+    "lunatic-mathematician": "Le Mathématicien peut apprendre si le Lunatique attaque un joueur différent de celui attaqué par le vrai Démon.",
+    "magician-marionette": "Si le Magicien est vivant, le Démon ne sait pas lequel de ses voisins est la Marionnette.",
+    "magician-spy": "Lorsque l’Espionne voit le Grimoire, les jetons de rôle du Démon et du Magicien sont retirés.",
+    "magician-vizier": "Si le Vizir est en jeu, le Magicien n’a pas de capacité mais est immunisé contre la capacité du Vizir.",
+    "magician-widow": "Lorsque la Veuve voit le Grimoire, les jetons de rôle du Démon et du Magicien sont retirés.",
+    "magician-wraith": "Après chaque exécution, le Magicien vivant peut publiquement désigner un joueur vivant comme étant le Spectre. Si c’est correct, le Démon doit choisir le Spectre cette nuit.",
+    "marionette-mathematician": "Le Mathématicien peut apprendre si la capacité de la Marionnette a donné une information fausse ou n’a pas fonctionné correctement.",
+    "marionette-plaguedoctor": "Si le Conteur devait obtenir la capacité de la Marionnette, l’un des voisins bons du Démon devient la Marionnette.",
+    "marionette-summoner": "S’il devait y avoir une Marionnette en jeu, elle entre en jeu après le Démon et doit commencer en étant sa voisine.",
+    "mastermind-vigormortis": "Un Conspirateur qui possède sa capacité la conserve si le Vigormortis meurt.",
+    "mayor-riot": "Le Maire peut choisir d’arrêter l’émeute. S’il le fait alors qu’il ne reste qu’un seul joueur Émeute en vie, l’équipe du Bien gagne. Sinon, le Mal gagne.",
+    "monk-riot": "Si l’Émeute nomme et fait exécuter un joueur protégé par le Moine, le camp du bien gagne.",
+    "ogre-pithag": "Si la Guenaude transforme un joueur maléfique en Ogre, celui-ci ne peut pas devenir bon à cause de sa propre capacité.",
+    "ogre-recluse": "Si la Recluse est considérée comme maléfique pour l’Ogre, l’Ogre apprend qu’il est maléfique.",
+    "ogre-spy": "L’Espionne est considérée comme maléfique pour l’Ogre.",
+    "pithag-politician": "Si la Guenaude transforme un joueur maléfique en Politicien, celui-ci ne peut pas devenir bon à cause de sa propre capacité.",
+    "pithag-summoner": "Si l’Invocatrice crée un second Démon vivant, les morts cette nuit sont arbitraires.",
+    "pithag-villageidiot": "S’il y a un jeton disponible, la Guenaude peut créer un Idiot du village supplémentaire. Dans ce cas, l’Idiot du village ivre peut changer.",
+    "plaguedoctor-scarletwoman": "Si le Conteur devait obtenir la capacité de la Femme écarlate, un Sbire l’obtient et l’apprend.",
+    "plaguedoctor-spy": "Si le Conteur devait obtenir la capacité de l’Espionne, un Sbire l’obtient et l’apprend.",
+    "plaguedoctor-wraith": "Si le Conteur devait obtenir la capacité de Spectre, un Sbire l’obtient et l’apprend.",
+    "politician-vizier": "Le Politicien peut être considéré comme maléfique pour le Vizir.",
+    "poppygrower-spy": "Si le Planteur de pavot possède sa capacité, l’Espionne ne voit pas le Grimoire.",
+    "poppygrower-summoner": "Si le Planteur de pavot est vivant lors de la 3e nuit, l’Invocatrice choisit quel Démon entre en jeu mais pas quel joueur.",
+    "poppygrower-widow": "Si le Planteur de pavot possède sa capacité, la Veuve ne voit pas le Grimoire.",
+    "preacher-summoner": "Si l’Invocatrice vivante n’a pas de capacité, le Conteur possède la capacité de l’Invocatrice.",
+    "preacher-vizier": "Si le Vizir perd sa capacité, il l’apprend et ne peut pas mourir pendant la journée.",
+    "pukka-summoner": "L’Invocatrice peut invoquer un Pukka lors de la 2e nuit au lieu de la 3e.",
+    "ravenkeeper-riot": "Chaque nuit*, l’Émeute choisit un joueur bon vivant (différent des nuits précédentes) : une Corneille choisie utilise sa capacité mais ne meurt pas.",
+    "recluse-sage": "La Recluse peut être considérée comme le Démon pour le Sage.",
+    "riot-sage": "Chaque nuit*, l’Émeute choisit un joueur bon vivant (différent des nuits précédentes) : un Sage choisi utilise sa capacité mais ne meurt pas.",
+    "riot-soldier": "Si l’Émeute nomme et fait exécuter le Soldat, l’équipe du Bien gagne.",
+    "summoner-zombuul": "Si l’Invocatrice invoque un joueur mort en tant que Zombuul, le Zombuul est déjà «mort une fois».",
+    "vizier-zealot": "Le Zélote peut être considéré comme maléfique pour le Vizir."
+  },
+  "ui": {
+    "firstNight": "Première Nuit",
+    "otherNights": "Autres Nuits",
+    "players": "Joueurs",
+    "notFirstNight": "* Sauf la première nuit"
+  }
+}
