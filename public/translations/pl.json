@@ -2,7 +2,7 @@
   "roles": {
     "acrobat": {
       "ability": "Każdej nocy* wybierz gracza: jeżeli jest lub stanie się pijany lub zatruty tej nocy, umierasz.",
-      "flavor": "Panie, panowie, i wy, drogie dzieci - witamy na najlepszym przedstawieniu na świecie.",
+      "flavor": "Panie, panowie, i wy, drogie dzieci - witamy na najlepszym przedstawieniu na świecie!",
       "name": "Akrobata",
       "other": "Akrobata wybiera gracza. :reminder:"
     },
@@ -117,7 +117,7 @@
       "name": "Zamachowiec"
     },
     "bootlegger": {
-      "ability": "Ten scenariusz zawiera autorskie postacie lub zasady.",
+      "ability": "Ten skrypt zawiera chałupnicze postacie lub zasady.",
       "flavor": "Mam właśnie najnowszą dostawę z domu, coś, co nazywają \"Księżycówką\". Chcesz spróbować?",
       "name": "Przemytnik"
     },

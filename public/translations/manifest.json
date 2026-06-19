@@ -36,6 +36,12 @@
     "completion": 100
   },
   {
+    "code": "fr",
+    "name": "French",
+    "nativeName": "Français",
+    "completion": 99
+  },
+  {
     "code": "gl",
     "name": "Galician",
     "nativeName": "Galego",
@@ -58,6 +64,12 @@
     "name": "Dutch",
     "nativeName": "Nederlands",
     "completion": 70
+  },
+  {
+    "code": "nb_NO",
+    "name": "Norwegian Bokmål",
+    "nativeName": "Norsk bokmål",
+    "completion": 100
   },
   {
     "code": "pl",
