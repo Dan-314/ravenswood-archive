@@ -7,8 +7,14 @@ interface ScriptRowProps {
 }
 
 export function ScriptRow({ script }: ScriptRowProps) {
+  // transform-gpu forces a containing block for the stretched link below.
+  // Safari/WebKit ignores `position: relative` on a <tr> (relative positioning
+  // on table-internal elements is undefined per spec), so without this the
+  // `before:inset-0` overlay escapes the row and covers the whole page, routing
+  // every click to a single script. A transform reliably establishes the
+  // containing block in all engines.
   return (
-    <tr className="relative border-b transition-colors hover:bg-muted/50 focus-within:bg-muted/50">
+    <tr className="relative transform-gpu border-b transition-colors hover:bg-muted/50 focus-within:bg-muted/50">
       <td className="py-3 pr-4 font-medium">
         <Link
           href={`/scripts/${script.id}`}
