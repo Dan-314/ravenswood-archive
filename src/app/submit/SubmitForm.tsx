@@ -72,8 +72,8 @@ export default function SubmitForm() {
       return
     }
     const finalType = scriptType
-    const finalName = manualName || parsed.name
-    const finalAuthor = manualAuthor
+    const finalName = (manualName || parsed.name).trim()
+    const finalAuthor = manualAuthor.trim()
 
     const { data: existing } = await supabase
       .from('scripts')
