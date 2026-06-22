@@ -2,7 +2,7 @@
   "roles": {
     "acrobat": {
       "ability": "Każdej nocy* wybierz gracza: jeżeli jest lub stanie się pijany lub zatruty tej nocy, umierasz.",
-      "flavor": "Panie, panowie, i wy, drogie dzieci - witamy na najlepszym przedstawieniu na świecie!",
+      "flavor": "Panie, panowie, trzymajcie kapelusze, bo za chwilę, wbrew prawom grawitacji zatańczę w powietrzu! Prawdziwy cud zwinności i śmiałości, ku waszej uciesze i zdumieniu!",
       "name": "Akrobata",
       "other": "Akrobata wybiera gracza. :reminder:"
     },
@@ -288,7 +288,7 @@
       "name": "Zły Bliźniak"
     },
     "exorcist": {
-      "ability": "Każdej nocy* wybierz gracza (innego niż poprzedniej nocy): Demon, jeżeli wybrany, dowiaduje się o tym i nie budzi się tej nocy.",
+      "ability": "Każdej nocy* wybierz gracza (innego niż poprzedniej nocy): Demon, jeżeli wybrany, dowiaduje się o nim i nie budzi się tej nocy.",
       "flavor": "Wypędzamy was, wszelkiego ducha nieczystego, wszelką moc szatańską, każdy napór piekielnego przeciwnika, każdy legion, każdą diabelską sektę i zgromadzenie, w imię i mocą Pana naszego, Jezusa Chrystusa. Rozkazujemy wam, odejdźcie i uchodźcie daleko od Kościoła Bożego, od dusz stworzonych przez Boga na Jego obraz i odkupionych drogocenną krwią Boskiego Baranka.",
       "name": "Egzorcysta",
       "other": "Egzorcysta wybiera gracza. :reminder: Uśpij Egzorcystę. Jeżeli Egzorcysta wybrał Demona: Obudź Demona. Pokaż mu kastę *TA POSTAĆ CIĘ WYBRAŁA* i żeton Egzorcysty. Wskaż Egzorcystę."
@@ -586,7 +586,7 @@
       "name": "Marionetka"
     },
     "mastermind": {
-      "ability": "Jeżeli Demon umrze w wyniku egzekucji (kończąc grę), grajcie przez jeszcze 1 dzień. Jeżeli gracz zostanie stracony, jego drużyna przegrywa.",
+      "ability": "Jeżeli Demon umrze w wyniku egzekucji (kończąc grę), grajcie przez jeszcze 1 dzień. Jeżeli gracz zostanie poddany egzekucji, jego drużyna przegrywa.",
       "flavor": "Macki tego potwora zostały przybite do kościelnych wrót. Matki z dziećmi tańczą na ulicach. Wyśmienicie. Wszystko idzie zgodnie z moim planem.",
       "name": "Geniusz Zła"
     },
