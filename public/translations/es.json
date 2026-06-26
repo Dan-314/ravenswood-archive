@@ -51,7 +51,7 @@
       "ability": "Una vez por partida, de noche*, elige un jugador: muere, aunque por alguna razón no pueda.",
       "flavor": "...",
       "name": "Asesino",
-      "other": "El Asesino podría elegir a un jugador."
+      "other": "El Asesino podría elegir a un jugador. :reminder: :reminder:"
     },
     "atheist": {
       "ability": "El Narrador puede romper las reglas del juego, y si se ejecuta, gana el bien, incluso si estás muerto. [Sin personajes malvados]",
