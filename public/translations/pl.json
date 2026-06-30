@@ -386,7 +386,7 @@
     "godfather": {
       "ability": "Zaczynasz grę wiedząc, którzy Outsiderzy są w grze. Jeżeli jeden umarł za dnia, wybierz gracza tej nocy: umiera. [-1 albo +1 Outsider]",
       "first": "Pokaż żetony postaci wszystkich Outsiderów, którzy są w grze.",
-      "flavor": "Normalnie, to tylko interes. Ale gdy obrażasz moją córkę, obrażasz mnie. A jak obrażasz mnie, obrażasz moją rodzinę. Naprawdę powinieneś bardziej uważać - była by wielka szkoda gdyby przytrafił ci się jakiś nieszczęśliwy wypadek.",
+      "flavor": "Zwyczajnie, to tylko interes. Ale gdy obrażasz moją córkę, obrażasz mnie. A jak obrażasz mnie, obrażasz moją rodzinę. Naprawdę powinieneś bardziej uważać - byłoby naprawdę szkoda, gdyby wydarzył ci się jakiś nieszczęśliwy wypadek.",
       "name": "Ojciec Chrzestny",
       "other": "Jeżeli za dnia umarł Outsider, Ojciec chrzestny wybiera gracza. :reminder:"
     },
@@ -647,7 +647,7 @@
       "other": "Nocny Strażnik może wybrać gracza. Uśpij Nocnego Strażnika. Obudź cel i pokaż kartę *TEN GRACZ JEST*, żeton Nocnego Strażnika i samego Nocnego Strażnika. :reminder:"
     },
     "noble": {
-      "ability": "Zaczynasz grę wiedząc o 3 graczach, 1 i tylko 1 z nich jest zły.",
+      "ability": "Zaczynasz grę znając 3 graczy, 1 i tylko 1 z nich jest zły.",
       "first": "Wskaż na wszystkich trzech graczy oznaczonych *ZNASZ*.",
       "flavor": "Sarkazm jest zaiste najniższą formą dowcipu. Jednak muszę Panu przypomnieć, skoro tak Pan krytykuje, że jest to nadal forma dowcipu.",
       "name": "Szlachcic"
