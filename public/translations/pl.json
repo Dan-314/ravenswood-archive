@@ -351,7 +351,7 @@
       "other": "Wróżka wybiera 2 graczy. Przytaknij, jeśli któryś z nich jest Demonem (albo *PODPUCHĄ*)."
     },
     "gambler": {
-      "ability": "Każdej nocy*, wybierz gracza i odgadnij jego postać: jeżeli źle odgadniesz, umierasz.",
+      "ability": "Każdej nocy* wybierz gracza i odgadnij jego postać: jeżeli źle odgadniesz, umierasz.",
       "flavor": "Orzeł, ja wygrywam. Reszka, ty przegrywasz.",
       "name": "Hazardzista",
       "other": "Hazardzista wybiera gracza i postać. :reminder:"
@@ -367,7 +367,7 @@
       "name": "Ogrodnik"
     },
     "general": {
-      "ability": "Każdej nocy, dowiadujesz się która przynależność, według Bajarza, wygrywa: dobro, zło, czy żadne.",
+      "ability": "Każdej nocy dowiadujesz się która przynależność, według Bajarza, wygrywa: dobro, zło, czy żadne.",
       "first": "Daj znać kciukiem.",
       "flavor": "Nie mam czasu na cytaty.",
       "name": "Generał",
@@ -503,7 +503,7 @@
       "other": "Kazali wybiera gracza. :reminder:"
     },
     "king": {
-      "ability": "Każdej nocy, jeżeli liczba martwych zrównała się lub przewyższa żywych, dowiadujesz się o 1 żyjącej postaci. Demon wie, że jesteś Królem.",
+      "ability": "Każdej nocy, jeżeli martwych graczy jest tyle samo lub więcej niż żywych, dowiadujesz się o 1 żyjącej postaci. Demon wie, że jesteś Królem.",
       "first": "Obudź Demona. Pokaż kartę *TEN GRACZ JEST* i żeton Króla, następnie wskaż Króla.",
       "flavor": "Między znojem śmiertelnych, nieznanych dróg / A nocą chorą, słodką w tajemnicy swej / Spoczywa losu barwny, nieskrępowany próg / Gdzie każda twarz — to kwiat w ogrodzie jej.",
       "name": "Król",
@@ -554,7 +554,7 @@
       "other": "Pijawa wybiera gracza. :reminder:"
     },
     "lordoftyphon": {
-      "ability": "Każdej nocy wybierz gracza: umiera. [Złe postacie siuedzą rzędzie. Ty siedzisz pośrodku. +1 Sługus. -? do +? Outsiderów]",
+      "ability": "Każdej nocy* wybierz gracza: umiera. [Złe postacie siedzą w rzędzie. Ty siedzisz pośrodku. +1 Sługus. -? do +? Outsiderów]",
       "first": "Obudź sąsiadów Tyfaona. Pokaż kartę *JESTEŚ*, żeton Sługusa i kciuk w dół (zły).",
       "flavor": "W zaciemnionych i zapomnianych zakątkach kosmosu, gdzie gwiazdy szepczą tajemnice w otchłań, znajduje się prawda tak głęboka, że nawet najlżejszy rzut oka przetrąca zdrowe zmysły śmiertelnikom.",
       "name": "Tyfaon",
@@ -591,7 +591,7 @@
       "name": "Geniusz Zła"
     },
     "mathematician": {
-      "ability": "Każdej nocy dowiadujesz się ile umiejętności graczy zadziałało niepoprawnie (od świtu) w wyniku działania umiejętności innej postaci.",
+      "ability": "Każdej nocy dowiadujesz się, ile umiejętności graczy zadziałało niepoprawnie (od świtu) w wyniku działania umiejętności innej postaci.",
       "first": "Pokarz palcem.",
       "flavor": "Każdy spójny formalny system x, w którym można wykonać określoną liczbę podstawowych działań arytmetycznych, jest niezupełny; znaczy się, istnieją stwierdzenia w języku x, których nie da się udowodnić ani obalić w x. Ergo, jesteś pijany.",
       "name": "Matematyk",
@@ -671,7 +671,7 @@
       "other": "Ojo wybiera postać. :reminder:"
     },
     "oracle": {
-      "ability": "Każdej nocy* dowiadujesz się ilu martwych graczy jest złych.",
+      "ability": "Każdej nocy* dowiadujesz się, ilu martwych graczy jest złych.",
       "flavor": "Tylko wybrańcy mogą przejrzeć poza zasłonę. Martwi są niespokojni i wskazują, w swej ciszy, w kierunku lodowatej północy.",
       "name": "Wyrocznia",
       "other": "Wskaż palcem."
@@ -696,7 +696,7 @@
       "other": "Filozof może wybrać postać. Jeżeli trzeba podmień ich żeton. :reminder:"
     },
     "pithag": {
-      "ability": "Każdej nocy* wybierz gracza i postać którą się staje (jeżeli nie ma jej w grze). Jeżeli w ten sposób powstał Demon, śmierć tej nocy jest arbitralna.",
+      "ability": "Każdej nocy* wybierz gracza i postać, którą się staje (jeżeli nie ma jej w grze). Jeżeli w ten sposób powstał Demon, śmierć tej nocy jest arbitralna.",
       "flavor": "Czas czarodziejski taniec zawrócić; W kotła wnętrzności truciznę rzucić; Ropucho czarna, co od miesiąca; Pod zimnym głazem skryta śpiąca; Sączyłaś jady, ty na początek; Zaprawisz kotła naszego wrzątek.",
       "name": "Jędza",
       "other": "Jędza wybiera gracza i postać. Jeżeli wybranej postaci nie ma w grze: Uśpij Jędzę. Obudź cel. Pokaż kastę *JESTEŚ* i jego nowy żeton postaci."
@@ -933,7 +933,7 @@
       "other": "Majsterkowicz może umrzeć. :reminder:"
     },
     "towncrier": {
-      "ability": "Każdej nocy* dowiadujesz się czy Sługus nominował.",
+      "ability": "Każdej nocy* dowiadujesz się, czy Sługus nominował.",
       "flavor": "Słuchajcie! Słuchajcie! Czary w labiryncie! Genialny uczony odkrywa wszystko! Miasteczko zagrożone! Słuchajcie!",
       "name": "Krzykacz Miejski",
       "other": "Potaknij albo zaprzecz głową."
@@ -976,7 +976,7 @@
       "name": "Wezyr"
     },
     "vortox": {
-      "ability": "Każdej nocy* wybierz gracza: umiera. Umiejętności Mieszczan generują fałszywe informacje, jeżeli nikt nie zostanie poddany egzekucji zło wygrywa.",
+      "ability": "Każdej nocy* wybierz gracza: umiera. Umiejętności Mieszczan generują fałszywe informacje. Każdego dnia, jeżeli nikt nie zostanie stracony, zło wygrywa.",
       "flavor": "Czarne jest Białe. Prawe jest Złe. Lewo to Prawo. W Górę jest Wszerz. W Dół droga zła. Idźże za mną, tam prawda twa.",
       "name": "Vortox",
       "other": "Vortox wybiera gracza. :reminder:"
@@ -999,7 +999,7 @@
       "name": "Wdowa"
     },
     "witch": {
-      "ability": "Każdej nocy wybierz gracza: jeśli jutro nominuje, umiera. Jeżeli w grze jest tylko 3 graczy, tracisz tą umiejętność.",
+      "ability": "Każdej nocy wybierz gracza: jeśli jutro nominuje, umiera. Jeżeli w grze jest tylko 3 graczy, tracisz tę umiejętność.",
       "first": "Czarownica wybiera gracza. :reminder:",
       "flavor": "Trzy krople koziej krwi. Pukiel włosów, wyrwanych w gniewie. Imię wypowiedziane, cień rzucony. Wejdź lewą stopą w ścieżki pył i nie patrz w tył.",
       "name": "Czarownica",
@@ -1039,7 +1039,7 @@
       "name": "Zelota"
     },
     "zombuul": {
-      "ability": "Każdej nocy*, jeżeli nikt nie zginął tego dnia, wybierz gracza: umiera. Za pierwszym razem gdybyś miał umrzeć żyjesz, ale pokazujesz się jako martwy.",
+      "ability": "Każdej nocy*, jeżeli nikt nie zginął tego dnia, wybierz gracza: umiera. Przeżywasz za pierwszym razem, gry umeirasz, ale pokazujesz się jako martwy.",
       "flavor": "Nie. Rozumiem. Waszych zwyczajów. Towarzyszu. Pokarz mi. Ziemie. Gdzie święci. Leżą. Śpią. Ja także. Muszę spać. Niebawem.",
       "name": "Zombuul",
       "other": "Jeżeli nikt nie umarł dzisiaj, Zombuul wybiera gracza. :reminder:"
