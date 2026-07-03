@@ -782,7 +782,7 @@
     },
     "recluse": {
       "ability": "Vous pourriez apparaître comme maléfique et comme Sbire ou Démon, même morte.",
-      "flavor": "Feriez ben d’pas m’estancer avec cte stoire de Démon. Grr. Gardez don vot’nez cheu vous où qu’ç’a vous r’gad. Git ! Mi, j’m’occupe point d’vos affaires. F’tez-moi l’camp.",
+      "flavor": "Feriez ben d’pas m’estancer avec cte stoire de Démon. Grr. Gardez don vot’nez cheu vous où qu’ç’a vous r’gad. Git ! Mi, j’m’occupe point d’vos affaires. F’tez-moi l’camp.",
       "name": "Recluse"
     },
     "revolutionary": {
@@ -1224,7 +1224,6 @@
     "damsel-pithag": "Si la Guenaude crée une Demoiselle, le Conteur choisit quel joueur c’est.",
     "damsel-spy": "Si l’Espionne est (ou a été) en jeu, la Demoiselle est empoisonnée.",
     "damsel-widow": "Si la Veuve est (ou a été) en jeu, la Demoiselle est empoisonnée.",
-    "drunk-mathematician": "Le Mathématicien peut apprendre si la capacité de l’Ivrogne a donné une information fausse ou n’a pas fonctionné correctement.",
     "engineer-legion": "Si la Légion est créée, tous les joueurs maléfiques deviennent Légion. Si Légion est en jeu, l’Ingénieur commence en le sachant mais n’a pas de capacité.",
     "engineer-summoner": "Si l’Invocatrice vivante est retirée du jeu, le Conteur possède la capacité de l’Invocatrice.",
     "eviltwin-plaguedoctor": "Si le Conteur devait obtenir la capacité de la Jumelle maléfique, un joueur devient la Jumelle maléfique.",
@@ -1257,7 +1256,6 @@
     "kazali-summoner": "Si l’Invocatrice crée un second Démon vivant, les morts cette nuit sont arbitraires.",
     "king-leviathan": "Si le Léviathan est en jeu et qu’au moins un joueur est mort, le Roi apprend chaque nuit un rôle vivant.",
     "king-riot": "Si l’Émeute est en jeu et qu’au moins un joueur est mort, le Roi apprend chaque nuit un rôle vivant.",
-    "legion-magician": "Le Magicien se réveille avec Légion et peut être considéré comme maléfique. Légion sait si un Magicien est en jeu, mais pas quel joueur c’est.",
     "legion-minstrel": "Si Légion meurt par exécution aujourd’hui, Légion conserve sa capacité, mais le Ménestrel peut apprendre que Légion est en jeu.",
     "legion-politician": "Le Politicien peut être considéré comme maléfique par Légion.",
     "legion-preacher": "Si le Prédicateur choisit Légion, Légion conserve sa capacité, mais le Prédicateur peut apprendre que Légion est en jeu.",
@@ -1278,13 +1276,11 @@
     "lleech-mastermind": "Si le Conspirateur est vivant et que l’hôte du Parasyte meurt par exécution, le Parasyte survit mais perd sa capacité.",
     "lleech-slayer": "Si la Pourfendeuse tue l’hôte du Parasyte, l’hôte meurt.",
     "lordoftyphon-summoner": "Si un Seigneur de Typhon est invoqué, il doit être voisin d’un Sbire et son autre voisin devient un Sbire maléfique.",
-    "lunatic-mathematician": "Le Mathématicien peut apprendre si le Lunatique attaque un joueur différent de celui attaqué par le vrai Démon.",
     "magician-marionette": "Si le Magicien est vivant, le Démon ne sait pas lequel de ses voisins est la Marionnette.",
     "magician-spy": "Lorsque l’Espionne voit le Grimoire, les jetons de rôle du Démon et du Magicien sont retirés.",
     "magician-vizier": "Si le Vizir est en jeu, le Magicien n’a pas de capacité mais est immunisé contre la capacité du Vizir.",
     "magician-widow": "Lorsque la Veuve voit le Grimoire, les jetons de rôle du Démon et du Magicien sont retirés.",
     "magician-wraith": "Après chaque exécution, le Magicien vivant peut publiquement désigner un joueur vivant comme étant le Spectre. Si c’est correct, le Démon doit choisir le Spectre cette nuit.",
-    "marionette-mathematician": "Le Mathématicien peut apprendre si la capacité de la Marionnette a donné une information fausse ou n’a pas fonctionné correctement.",
     "marionette-plaguedoctor": "Si le Conteur devait obtenir la capacité de la Marionnette, l’un des voisins bons du Démon devient la Marionnette.",
     "marionette-summoner": "S’il devait y avoir une Marionnette en jeu, elle entre en jeu après le Démon et doit commencer en étant sa voisine.",
     "mastermind-vigormortis": "Un Conspirateur qui possède sa capacité la conserve si le Vigormortis meurt.",

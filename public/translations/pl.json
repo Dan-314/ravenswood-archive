@@ -2,7 +2,7 @@
   "roles": {
     "acrobat": {
       "ability": "Każdej nocy* wybierz gracza: jeżeli jest lub stanie się pijany lub zatruty tej nocy, umierasz.",
-      "flavor": "Panie, panowie, trzymajcie kapelusze, bo za chwilę, wbrew prawom grawitacji zatańczę w powietrzu! Prawdziwy cud zwinności i śmiałości, ku waszej uciesze i zdumieniu!",
+      "flavor": "Panie, panowie, i wy, drogie dzieci - witamy na najlepszym przedstawieniu na świecie.",
       "name": "Akrobata",
       "other": "Akrobata wybiera gracza. :reminder:"
     },
@@ -1240,7 +1240,6 @@
     "damsel-pithag": "Jeżeli Jędza stworzy Damulkę, Bajarz wybiera, który gracz nią będzie.",
     "damsel-spy": "Jeżeli Szpieg jest (lub był) w grze, Damulka jest zatruta.",
     "damsel-widow": "Jeżeli Wdowa jest (lub była) w grze, Damulka jest zatruta.",
-    "drunk-mathematician": "Matematyk może dowiedzieć się, czy umiejętność Pijaka wygenerowała fałszywe informacje, albo zadziałała nieprawidłowo.",
     "engineer-legion": "Jeżeli zostanie stworzony Legion, wszyscy źli gracze stają się Legionem. Jeżeli Legion jest w grze, Inżynier dowiaduje się o tym i nie ma swojej umiejętności.",
     "engineer-summoner": "Jeżeli żywy Przyzywacz zostanie usunięty z gry, Bajarz ma umiejętność Przyzywacza.",
     "eviltwin-plaguedoctor": "Jeżeli Bajarz ma otrzymać umiejętność Złego Bliźniaka, któryś z graczy staje się Złym Bliźniakiem.",
@@ -1273,7 +1272,6 @@
     "kazali-summoner": "Jeżeli Przyzywacz stworzy drugiego żyjącego Demona, śmierci tej nocy są arbitralne.",
     "king-leviathan": "Jeżeli Lewiatan jest w grze i co najmniej jeden gracz jest martwy, Król dowiaduje się o jednej żywej postaci każdej nocy.",
     "king-riot": "Jeżeli Zadyma jest w grze i co najmniej jeden gracz jest martwy, Król dowiaduje się o jednej żywej postaci każdej nocy.",
-    "legion-magician": "Magik budzi się z Legionem i może pokazywać się jako zły. Legion wie, że Magik jest w grze, ale nie wie, który to gracz.",
     "legion-minstrel": "Jeżeli Legion zginął w wyniku egzekucji to Legion zachowuje swoją umiejętność, ale Minstrel może dowiedzieć się, że jest Legionem.",
     "legion-politician": "Polityk może pokazać się Legionowi jako zły.",
     "legion-preacher": "Jeżeli Kaznodzieja wybierze Legion, Legion zachowuje swoją umiejętność, ale Kaznodzieja może dowiedzieć się, że jest Legionem.",
@@ -1294,13 +1292,11 @@
     "lleech-mastermind": "Jeżeli Geniusz Zła żyje, a żywiciel Pijawy zginie w wyniku egzekucji, Pijawa przeżywa, ale traci swoją umiejętność.",
     "lleech-slayer": "Jeżeli Pogromca strzeli w żywiciela Pijawy, żywiciel umiera.",
     "lordoftyphon-summoner": "Jeżeli Tyfaon zostaje przyzwany, musi sąsiadować ze Sługusem i jego drugi sąsiad staje się złym Sługusem.",
-    "lunatic-mathematician": "Matematyk może dowiedzieć się, że Szaleniec wybrał innego gracza niż ten, którego zaatakował Demon.",
     "magician-marionette": "Jeżeli Magik żyje, to Demon nie wie, który z jego sąsiadów jest Marionetką.",
     "magician-spy": "Kiedy Szpieg podgląda Grymuar, żetony Demona i Magika należy usunąć.",
     "magician-vizier": "Jeżeli Wezyr jest w grze, Magik nie ma umiejętności, ale jest odporny na umiejętność Wezyra.",
     "magician-widow": "Gdy Wdowa podgląda Grymuar, żetony Demona i Magika należy usunąć.",
     "magician-wraith": "Po każdej egzekucji, żywy Magik może publicznie zgadnąć, który żywy gracz jest Upiorem. Jeżeli zgadł poprawnie, Demon musi wybrać Upiora tej nocy.",
-    "marionette-mathematician": "Matematyk może dowiedzieć się, czy umiejętność Marionetki wygenerowała fałszywe informacje, albo zadziałała nieprawidłowo.",
     "marionette-plaguedoctor": "Jeżeli Bajarz miałby otrzymać umiejętność Marionetki, jeden z dobrych sąsiadów Demona staje się Marionetką.",
     "marionette-summoner": "Jeżeli Marionetka miałaby być w grze, wchodzi do gry po Demonie i musi zacząć grę jako jego sąsiad.",
     "mastermind-vigormortis": "Geniusz Zła, który posiada swoją umiejętność, zachowuje ją, gdy Vigormortis ginie.",
