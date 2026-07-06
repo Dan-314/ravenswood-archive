@@ -535,7 +535,7 @@
     },
     "librarian": {
       "ability": "Empiezas sabiendo que uno de dos jugadores es un Forastero en particular. (O que hay cero en juego.)",
-      "first": "Muestra la ficha de personaje Forastero. Señala tanto a los jugadores *FORASTEROS* como *EQUIVOCADOS*",
+      "first": "Muestra la ficha de personaje Forastero. Señala tanto a los jugadores *FORASTEROS* como *EQUIVOCADO*",
       "flavor": "Por supuesto, señora, en circunstancias normales, puede pedir prestado el Codex Malificarium de las bóvedas de la biblioteca. Sin embargo, no parece que sea miembro.",
       "name": "Bibliotecario"
     },

@@ -610,8 +610,8 @@
     "mezepheles": {
       "ability": "Aloitat tietäen salaisen sanan. 1. hyvä pelaaja joka tämän sanan sanoo, muuttuu tulevana yönä pahaksi.",
       "first": "Näytä salainen sana.",
-      "flavor": "Se, mikä pelkästään sydämestä kumpuaa, kääntää muiden sydämet puoleesi.",
-      "name": "Kuiskaaja",
+      "flavor": "Vaan mik' ei sydämestä vuoda, sydäntä ei se voita milloinkaan.",
+      "name": "Mefistofeles",
       "other": "Jos hyvä pelaaja sanoi salaisen sanan, herätä tämä pelaaja. Näytä *SINÄ OLET* -merkki & peukkua alas. :reminder: :reminder:"
     },
     "minioninfo": {
