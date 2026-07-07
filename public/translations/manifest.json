@@ -3,7 +3,7 @@
     "code": "da",
     "name": "Danish",
     "nativeName": "Dansk",
-    "completion": 88
+    "completion": 87
   },
   {
     "code": "de",
@@ -15,13 +15,13 @@
     "code": "en@pirate",
     "name": "English (Pirate)",
     "nativeName": "English (Pirate)",
-    "completion": 92
+    "completion": 91
   },
   {
     "code": "es",
     "name": "Spanish",
     "nativeName": "Español",
-    "completion": 100
+    "completion": 99
   },
   {
     "code": "es_419",
@@ -39,7 +39,7 @@
     "code": "fr",
     "name": "French",
     "nativeName": "Français",
-    "completion": 99
+    "completion": 98
   },
   {
     "code": "gl",
@@ -57,7 +57,7 @@
     "code": "hu",
     "name": "Hungarian",
     "nativeName": "Magyar",
-    "completion": 99
+    "completion": 98
   },
   {
     "code": "nl",
@@ -117,7 +117,7 @@
     "code": "uk",
     "name": "Ukrainian",
     "nativeName": "Українська",
-    "completion": 87
+    "completion": 86
   },
   {
     "code": "th",
@@ -129,18 +129,18 @@
     "code": "ko",
     "name": "Korean",
     "nativeName": "한국어",
-    "completion": 100
+    "completion": 99
   },
   {
     "code": "ja",
     "name": "Japanese",
     "nativeName": "日本語",
-    "completion": 91
+    "completion": 90
   },
   {
     "code": "zh_Hans",
     "name": "Chinese (Simplified Han script)",
     "nativeName": "简体中文",
-    "completion": 97
+    "completion": 96
   }
 ]

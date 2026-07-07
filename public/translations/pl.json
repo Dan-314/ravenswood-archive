@@ -2,7 +2,7 @@
   "roles": {
     "acrobat": {
       "ability": "Każdej nocy* wybierz gracza: jeżeli jest lub stanie się pijany lub zatruty tej nocy, umierasz.",
-      "flavor": "Panie, panowie, i wy, drogie dzieci - witamy na najlepszym przedstawieniu na świecie.",
+      "flavor": "Panie, panowie, i wy, drogie dzieci - patrzcie uważnie, gdyż za chwilę zaśmieję się w twarz grawitacji, tańcząc w powietrzu! Co to za śmiałość, co za gibkość! A to wszystko dla was, drodzy widzowie!",
       "name": "Akrobata",
       "other": "Akrobata wybiera gracza. :reminder:"
     },
@@ -13,22 +13,22 @@
       "name": "Alchemik"
     },
     "alhadikhia": {
-      "ability": "Każdej nocy* możesz wybrać 3 graczy (wszyscy gracze dowiadują się kogo): każdy w tajemnicy decyduje czy żyje czy umiera, ale gdy wszyscy żyją, to wszyscy umierają.",
+      "ability": "Każdej nocy* możesz wybrać 3 graczy (wszyscy gracze dowiadują się. kogo): każdy w tajemnicy decyduje, czy chce przeżyć, czy umrzeć. Jeśli wszyscy troje przeżyją, to wszyscy umierają.",
       "flavor": "Alsukut min dhahab.",
       "name": "Al-Hadikhia",
-      "other": "Al-Hadikhia wybiera 3 graczy. :reminder: :reminder: :reminder: Obudź gracza oznaczonego *1* i powiedz \"Al-Hadikhia wybrała\", po czym wypowiedz imię tego gracza, następnie zapytaj \"Czy chcesz żyć?\". Gracz potwierdza potaknięciem, lub zaprzecza ruchem głowy. Uśpij tego gracza i dodaj lub usuń całun według decyzji. Powtórz z graczami *2* i *3*. Jeżeli wszyscy troje są teraz żywi, dodaj całun do każdego z nich."
+      "other": "Al-Hadikhia wybiera 3 graczy. :reminder: :reminder: :reminder: Obudź każdego z wybranych graczy po kolei. Gracze mogą pokiwać lub pokręcić głową. Uśpij gracza zanim obudzisz kolejnego."
     },
     "alsaahir": {
-      "ability": "Każdego dnia, jeżeli publicznie odgadniesz którzy gracze są Sługusami i którzy są Demonami, dobro wygrywa.",
+      "ability": "Każdego dnia, jeżeli publicznie odgadniesz, którzy gracze są Sługusami, a którzy są Demonami, dobro wygrywa.",
       "flavor": "Jestem tutaj dzięki tobie, a ty jesteś tu dzięki mnie.",
       "name": "Alsaahir"
     },
     "amnesiac": {
       "ability": "Nie znasz swojej umiejętności. Każdego dnia, prywatnie zgadnij ją: dowiadujesz się, jak blisko jesteś.",
-      "first": "Zrób wszystko, co trzeba aby zaspokoić umiejętność Sklerotyka.",
+      "first": "Zrób wszystko, co trzeba, aby zaspokoić umiejętność Sklerotyka.",
       "flavor": "Czekaj. Co. Kto? Ach, dobrze. Czekaj. Co?",
       "name": "Sklerotyk",
-      "other": "Zrób wszystko, co trzeba aby zaspokoić umiejętność Sklerotyka."
+      "other": "Zrób wszystko, co trzeba, aby zaspokoić umiejętność Sklerotyka."
     },
     "angel": {
       "ability": "Coś złego może się stać osobie, która jest najbardziej odpowiedzialna za śmierć nowego gracza.",
@@ -37,8 +37,8 @@
       "name": "Anioł"
     },
     "apprentice": {
-      "ability": "1-szej swej nocy, zdobywasz umiejętność Mieszczanina (jeżeli dobry) lub Sługusa (jeżeli zły).",
-      "first": "Pokaż Czeladnikowi kartę *JESTEŚ*, a następnie żeton Mieszczanina lub Sługusa, zamień żeton Czeladnika z żetonem postaci. :reminder:",
+      "ability": "Pierwszej nocy po wejściu do gry otrzymujesz umiejętność Mieszczanina (jeśli jesteś dobry) lub Sługusa (jeśli jesteś zły).",
+      "first": "Pokaż Czeladnikowi kartę *JESTEŚ*, a następnie żeton Mieszczanina lub Sługusa, zamień żeton Czeladnika z żetonem tej postaci. :reminder:",
       "flavor": "Przez lata podróżowałem i zgłębiałem tajniki Sztuki. Której sztuki, pytasz? Prostego ludu. Nie ma się czym martwić. Jeszcze.",
       "name": "Czeladnik"
     },
@@ -54,7 +54,7 @@
       "other": "Skrytobójca może wybrać gracza. :reminder: :reminder:"
     },
     "atheist": {
-      "ability": "Bajarz może łamać zasady gry i jeżeli zostanie poddany egzekucji to dobro wygrywa, nawet gdy nie żyjesz. [Brak złych postaci]",
+      "ability": "Bajarz może łamać zasady gry, a jeżeli zostanie poddany egzekucji, to dobro wygrywa, nawet gdy nie żyjesz. [Brak złych postaci]",
       "flavor": "Odrzućmy zbędne domysły i niedorzeczną paranoję. Wszystko można całkowicie racjonalnie wyjaśnić. Tak, być może gdzieś wokół planety krąży filiżanka, zbyt mała, by ją dostrzec — ale ja napiję się herbaty z tej prawdziwej, porcelanowej, którą trzymam w dłoniach.",
       "name": "Ateista"
     },
@@ -66,7 +66,7 @@
       "other": "Pokaż gracza o innym typie postaci niż poprzednio. :reminder:"
     },
     "banshee": {
-      "ability": "Jeżeli zabije cię Demon to wszyscy gracze się o tym dowiadują. Od tej chwili możesz nominować dwa razy dziennie i głosować dwa razy podczas każdej nominacji.",
+      "ability": "Jeżeli zabije cię Demon, wszyscy gracze się o tym dowiadują. Od tej chwili możesz nominować dwa razy dziennie i głosować dwa razy podczas każdej nominacji.",
       "flavor": "Gorm do shúile, dearg do ghruaig, ní bheidh sé i bhfad, is a mbeidh tú san uaigh.",
       "name": "Banshee",
       "other": "Jeżeli Banshee została zabita tej nocy przez Demona, ogłoś wszystkim graczom, że Banshee zginęła. :reminder:"
@@ -78,11 +78,11 @@
       "other": "Jeżeli Balwierz umarł tego dnia lub nocy, pokaż Demonowi *TA POSTAĆ WYBRAŁA CIEBIE* i żeton Balwierza. Jeżeli Demon wybierze 2 graczy, obudź ich pojedynczo. Pokaż kartę *JESTEŚ* i ich nowy żeton postaci."
     },
     "barista": {
-      "ability": "Każdej nocy, do zmierzchu: 1) gracz staje się trzeźwy, zdrowy i dostaje prawdziwe informacje, albo 2) jego umiejętność działa dwa razy. Dowiadują się który co.",
-      "first": "Wybierz gracza. Obudź go, pokaż kartę *TA POSTAĆ WYBRAŁA CIEBIE* i żeton Baristy, następnie pokaż znak palcem. :reminder:",
+      "ability": "Każdej nocy, do zmierzchu: 1) jeden gracz staje się trzeźwy, zdrowy i dostaje prawdziwe informacje lub 2) jego umiejętność działa dwa razy. Dowiaduje się, która opcja została wybrana.",
+      "first": "Wybierz gracza. Obudź go, pokaż kartę *TA POSTAĆ WYBRAŁA CIEBIE* i żeton Kawiarki, następnie pokaż znak palcem. :reminder:",
       "flavor": "Kawa bez śmietanki, Monsieur? Najserdeczniej przepraszam, ale właśnie skończyła nam się śmietanka - może być bez mleka?",
-      "name": "Barista",
-      "other": "Wybierz gracza. Obudź go, pokaż kartę *TA POSTAĆ WYBRAŁA CIEBIE* i żeton Baristy, następnie pokaż znak palcem. :reminder:"
+      "name": "Kawiarka",
+      "other": "Wybierz gracza. Obudź go, pokaż kartę *TA POSTAĆ WYBRAŁA CIEBIE* i żeton Kawiarki, następnie pokaż znak palcem. :reminder:"
     },
     "baron": {
       "ability": "W grze są dodatkowi Outsiderzy. [+2 Outsiderów]",
@@ -90,7 +90,7 @@
       "name": "Baron"
     },
     "beggar": {
-      "ability": "Musisz zużyć widmowy głos aby zagłosować. Jeżeli martwy gracz odda ci swój głos, poznajesz jego frakcję. Jesteś trzeźwy i zdrowy.",
+      "ability": "Musisz zużyć żeton głosu aby zagłosować. Jeżeli martwy gracz odda ci swój głos, poznajesz jego przynależność. Jesteś trzeźwy i zdrowy.",
       "flavor": "Jałmużna dla biednych, dobry panie? Grosik, pani dobrodziejko? Dziękuję, niech Bóg błogosławi! Serce macie dobre, co się zowie! Dziś to sobie królewsko podjem, oj tak!",
       "name": "Żebrak"
     },
@@ -147,7 +147,7 @@
       "name": "Rzeźnik"
     },
     "butler": {
-      "ability": "Każdej nocy wybierz gracza (nie siebie): jutro możesz głosować tylko i wyłącznie gdy on też głosuje.",
+      "ability": "Każdej nocy wybierz gracza (nie siebie): jutro możesz głosować tylko i wyłącznie, gdy on też głosuje.",
       "first": "Rzeźnik wybiera gracza. :reminder:",
       "flavor": "Tak, jaśnie panie... Nie, jaśnie panie... Oczywiście, jaśnie panie.",
       "name": "Lokaj",
@@ -313,7 +313,7 @@
       "other": "Siewca Strachu wybiera gracza. :reminder: Jeżeli to inny gracz niż poprzedniej nocy, ogłoś że \"Siewca Strachu wybrał nowego gracza\"."
     },
     "ferryman": {
-      "ability": "Ostatniego dnia wszyscy gracze otrzymują z powrotem swój widmowy głos.",
+      "ability": "Ostatniego dnia wszyscy martwi gracze otrzymują z powrotem swój żeton głosu.",
       "flavor": "Gdy nadchodzą sprawiedliwe sny, mają wagę prawdy.",
       "name": "Przewoźnik"
     },
@@ -333,7 +333,7 @@
       "name": "Rybak"
     },
     "flowergirl": {
-      "ability": "Każdej nocy* dowiadujesz się czy Demon głosował za dnia.",
+      "ability": "Każdej nocy* dowiadujesz się, czy Demon dziś głosował.",
       "flavor": "Wczorajsze fiołki zwiędły i uschły, ale dzisiaj kwitną maki.",
       "name": "Kwiaciarka",
       "other": "Potaknij albo zaprzecz głową."
@@ -414,7 +414,7 @@
       "other": "Jeżeli wnuczek został zabity przez Demona, Babcia umiera także. :reminder:"
     },
     "gunslinger": {
-      "ability": "Każdego dnia, po podliczeniu pierwszego głosowania, możesz wybrać gracza który zagłosował: umiera.",
+      "ability": "Każdego dnia, po podliczeniu pierwszego głosowania, możesz wybrać gracza, który zagłosował: umiera.",
       "flavor": "Najwyższy czas, aby ktoś wziął sprawy w swoje ręce. Tym kimś... jestem ja.",
       "name": "Rewolwerowiec"
     },
@@ -521,7 +521,7 @@
       "name": "Rycerz"
     },
     "legion": {
-      "ability": "Każdej nocy jakiś gracz może zginąć. Egzekucje nie dochodzą do skutku, jeżeli tylko zło głosowało. Pokazujesz się także jako Sługus. [większość graczy jest Legionem]",
+      "ability": "Każdej nocy* może zginąć gracz. Egzekucje nie dochodzą do skutku, jeżeli tylko zło zagłosowało. Pokazujesz się także jako Sługus. [większość graczy jest Legionem]",
       "flavor": "Legiony to – żołnierska nuta,\nLegiony to – straceńców los,\nLegiony to – rycerska buta,\nLegiony to – ofiarny stos.\n- Andrzej Hałaciński i Tadeusz Biernacki - My, Pierwsza Brygada",
       "name": "Legion",
       "other": "Jakiś gracz może umrzeć. :reminder:"
@@ -920,7 +920,7 @@
       "name": "Herbaciarka"
     },
     "thief": {
-      "ability": "Każdej nocy wybierz gracza (nie siebie): jutro jego głos liczy się negatywnie.",
+      "ability": "Każdej nocy wybierz gracza (nie siebie): jutro jego głos jest ujemny.",
       "first": "Złodziej wybiera gracza. :reminder:",
       "flavor": "Ja nie zrobił nic. Nawet mnie nie była w tej alejce tej nocy! To nie ja zwinąłem teczkę Burmistrza Bruno z tymi fszystkimi dokmentami. Poza tym, była zbyt ciężka aby ją nieść.",
       "name": "Złodziej",
@@ -970,7 +970,7 @@
       "name": "Dziewica"
     },
     "vizier": {
-      "ability": "Wszyscy gracze wiedzą, że jesteś Wezyrem. Nie możesz umrzeć za dnia. Jeżeli dobrzy głosowali, możesz natychmiast wymusić egzekucje.",
+      "ability": "Wszyscy gracze wiedzą, że jesteś Wezyrem. Nie możesz umrzeć za dnia. Jeżeli zagłosował dobry gracz, możesz natychmiast wymusić egzekucję.",
       "first": "Ogłoś który z graczy jest Wezyrem.",
       "flavor": "Doskonała decyzja, jak zawsze, ekscelencjo. Tak małe wykroczenia jak potrącenie Biskupa rzeczywiście zasługują na twą \"sprawiedliwość\" i \"łaskę\". Idź na spacer do ogrodu. Odwiedź galerię i podziwiaj rzeźby Von Straufa. Odpręż się, panie. Ja wszystkim się... zajmę.",
       "name": "Wezyr"
@@ -982,7 +982,7 @@
       "other": "Vortox wybiera gracza. :reminder:"
     },
     "voudon": {
-      "ability": "Tylko ty i martwi możecie głosować. Nie potrzeba widmowego głosu aby głosować. Większość nie jest wymagana.",
+      "ability": "Możesz głosować tylko ty i martwi gracze. Nie potrzebują do tego żetonu głosu. Większość głosów nie jest wymagana.",
       "flavor": "Bien venu. Usiądź. Oddychaj głęboko. Wkrocz do krainy umarłych. Przejrzyj ich oczami. Przemów ich głosem. Yon sel lang se janm ase.",
       "name": "Voudon"
     },
@@ -1111,7 +1111,7 @@
   "reminders": {
     "2nd": "2-gi",
     "3attacks": "3 Ataki",
-    "3votes": "3 Głosy",
+    "3votes": "3 głosy",
     "abnormal": "Niepoprawne działanie",
     "abouttodie": "Niebawem zginie",
     "actstwice": "Działa dwa razy",
@@ -1148,7 +1148,7 @@
     "good": "Dobry",
     "goodplayerexecuted": "Dobry gracz został stracony",
     "grandchild": "Wnuczek",
-    "guessused": "Odgadnięcie Zużyte",
+    "guessused": "Odgadnięcie zużyte",
     "haircutstonight": "Strzyżenie tej nocy",
     "hasability": "Ma umiejętność",
     "isthealchemist": "Jest Alchemikiem",
@@ -1172,7 +1172,7 @@
     "noability": "Brak umiejętności",
     "nominateevil": "Nominuj złego",
     "nominategood": "Nominuj dobrego",
-    "nomoreevil": "Brak Złych",
+    "nomoreevil": "Żadnych więcej złych",
     "once": "Zmieniony",
     "outsider": "Outsider",
     "poisoned": "Zatruty",
@@ -1323,7 +1323,11 @@
     "riot-sage": "Każdej nocy* Zadyma wybiera dobrego gracza (innego niż poprzednich nocy): wybrany Mędrzec używa swojej umiejętności, ale nie umiera.",
     "riot-soldier": "Jeżeli Zadyma nominuje i doprowadzi do egzekucji Żołnierza, dobro wygrywa.",
     "summoner-zombuul": "Jeżeli Przyzywacz przyzwie martwego gracza jako Zombuula, Zombuul już \"raz umarł\".",
-    "vizier-zealot": "Zelota może pokazać się jako zły dla Wezyra."
+    "vizier-zealot": "Zelota może pokazać się jako zły dla Wezyra.",
+    "drunk-mathematician": "Matematyk dowiaduje się, czy Pijak otrzymał fałszywe informacje lub jego moc zadziałała nieprawidłowo.",
+    "legion-magician": "Jeżeli w grze jest Magik, podczas informacji dla Demona Legion budzi się w oddzielnych grupach. Każda grupa poznaje dobrych graczy, ale nie dowiaduje się o Magiku.",
+    "lunatic-mathematician": "Matematyk dowiaduje się, czy Szaleniec zaatakował innego gracza niż prawdziwy Demon.",
+    "marionette-mathematician": "Matematyk dowiaduje się, czy Marionetka otrzymała fałszywe informacje lub jej moc zadziałała nieprawidłowo."
   },
   "ui": {
     "firstNight": "Pierwsza noc",
