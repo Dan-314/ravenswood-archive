@@ -101,18 +101,18 @@
     },
     "boffin": {
       "ability": "Demon (nawet jeśli jest pijany lub zatruty) posiada umiejętność dobrej, nie będącej w grze postaci. Oboje wiecie jaką.",
-      "first": "Obudź Szalonego Naukowca i Demona. Pokaż kartę *TA POSTAĆ WYBRAŁA CIEBIE*, żeton Szalonego Naukowca i postaci, której nie ma w grze. Uśpij obu.",
+      "first": "Obudź Szalonego Naukowca i Demona. Pokaż kartę *TA POSTAĆ WYBRAŁA CIEBIE*, żeton Szalonego Naukowca i postaci, której nie ma w grze.",
       "flavor": "Wodór gwiazd, bezkresny i bezwładny; węgiel, tlen, neon — wszystko obrócone w niwecz. Z molekularnego chaosu i entropii rodzą się nowe cuda kosmosu — odrodzenie z atomowego bezładu, materia gęstnieje, zapada się w sobie. A wszystko to — w maleńkiej buteleczce.",
       "name": "Laborant"
     },
     "bonecollector": {
-      "ability": "Raz na grę w nocy*, wybierz gracza: ponownie otrzymują swoją umiejętność do zmroku.",
+      "ability": "Raz na grę, w nocy*, wybierz gracza: ponownie otrzymuje swoją umiejętność do zmroku.",
       "flavor": "Kolekcjonuję wiele rzeczy. Włosy. Zęby. Ubrania. Fragmenty wierszy. Sny utraconych kochanków. Tajemnice mojej sztuki nie są dla ciebie, ale zapłata to tylko drobnostka. Przynieś mi krew szlachcianki, która umarła na złamane serce podczas pełni księżyca, a znajdziesz odpowiedzi na swoje pytania.",
       "name": "Kolekcjoner Kości",
-      "other": "Kolekcjoner Kości może wybrać martwego gracza. :reminder: Jeśli trzeba, obudź wybranego gracza aby użył swojej umiejętności."
+      "other": "Kolekcjoner kości może wybrać martwego gracza. :reminder: Jeśli trzeba, obudź wybranego gracza, aby użył swojej umiejętności."
     },
     "boomdandy": {
-      "ability": "Jeżeli zostaniesz stracony, wszyscy oprócz 3 graczy umierają. Po odliczaniu od 10 do 1, gracz na którego wskazuje największa liczba graczy umiera.",
+      "ability": "Jeżeli zostaniesz stracony, wszyscy oprócz 3 graczy umierają. Po odliczaniu od 10 do 1, gracz, na którego wskazuje większość graczy, umiera.",
       "flavor": "Tik... Tik... Tik... TAK.",
       "name": "Zamachowiec"
     },
@@ -122,11 +122,11 @@
       "name": "Przemytnik"
     },
     "bountyhunter": {
-      "ability": "Zaczynasz grę wiedząc o 1 złym graczu. Gdy gracz o którym wiesz umrze, poznajesz następnego złego gracza. [1 Mieszczanin jest zły]",
-      "first": "Wskaż na gracza oznaczonego *ZNASZ*.",
+      "ability": "Na początku gry poznajesz 1 złego gracza. Gdy ten gracz umrze, poznajesz następnego złego gracza. [1 Mieszczanin jest zły]",
+      "first": "Wskaż na gracza oznaczonego *ZNANY*.",
       "flavor": "Samotnie przemierzam ulice wybrukowane chorobliwym smrodem zepsucia. Ten odór siłą wpełza w moje nozdrza, pali obrzydzeniem... i żarem oczekiwania. Choroba jątrząca to plugawe miejsce rozrasta się co noc. A ja... ja jestem lekarstwem.",
-      "name": "Łowca Nagród",
-      "other": "Jeżeli gracz oznaczony *ZNAM* umarł tego dnia lub nocy, wskaż nowego *ZNAM* gracza."
+      "name": "Łowca nagród",
+      "other": "Jeżeli gracz oznaczony jako *ZNANY* zginął tego dnia lub w nocy, wskaż nowego gracza oznaczonego jako *ZNANY*."
     },
     "buddhist": {
       "ability": "Przez pierwsze 2 minuty każdego dnia, doświadczeni gracze nie mogą się odzywać.",
@@ -148,25 +148,25 @@
     },
     "butler": {
       "ability": "Każdej nocy wybierz gracza (nie siebie): jutro możesz głosować tylko i wyłącznie, gdy on też głosuje.",
-      "first": "Rzeźnik wybiera gracza. :reminder:",
+      "first": "Lokaj wybiera gracza. :reminder:",
       "flavor": "Tak, jaśnie panie... Nie, jaśnie panie... Oczywiście, jaśnie panie.",
       "name": "Lokaj",
       "other": "Lokaj wybiera gracza. :reminder:"
     },
     "cannibal": {
-      "ability": "Masz umiejętność ostatnio zabitej w wyniku egzekucji osoby. Jeżeli był zły, jesteś otruty aż dobry gracz nie zostanie zabity w wyniku egzekucji.",
+      "ability": "Masz umiejętność ostatniego gracza, który zginął od egzekucji. Jeżeli był zły, jesteś otruty do czasu, aż dobry gracz zginie od egzekucji.",
       "flavor": "Nie lubię klaunów. Dziwnie smakują.",
       "name": "Kanibal"
     },
     "cerenovus": {
-      "ability": "Każdej nocy wybierz gracza i dobrą postać: jutro mają obsesję że są tą postacią, albo mogą być straceni.",
-      "first": "Kosiarz Umysłów wybiera gracza i postać (dobrą). :reminder: Uśpij Kosiarza Umysłów. Obudź wybranego gracza. Pokaż kartę *TA POSTAĆ CIĘ WYBRAŁA*, żeton Kosiarza Umysłów i żeton jego obsesji.",
+      "ability": "Każdej nocy wybierz gracza i dobrą postać: jutro ma mieć \"obsesję\", że jest tą postacią, albo może zostać stracony.",
+      "first": "Cerenovus wybiera gracza i postać. :reminder: Uśpij Cerenovusa. Obudź wybranego gracza. Pokaż kartę *TA POSTAĆ CIĘ WYBRAŁA*, żeton Cerenovusa i żeton postaci, na punkcie której ma mieć obsesję.",
       "flavor": "Rzeczywistość to kwestia opinii. Konkretnie, mojej opinii.",
       "name": "Cerenovus",
-      "other": "Kosiarz Umysłów wybiera gracza i postać (dobrą). :reminder: Uśpij Kosiarza Umysłów. Obudź wybranego gracza. Pokaż kartę *TA POSTAĆ CIĘ WYBRAŁA*, żeton Kosiarza Umysłów i żeton jego obsesji."
+      "other": "Cerenovus wybiera gracza i postać. :reminder: Uśpij Cerenovusa. Obudź wybranego gracza. Pokaż kartę *TA POSTAĆ CIĘ WYBRAŁA*, żeton Cerenovusa i żeton postaci, na punkcie której ma mieć obsesję."
     },
     "chambermaid": {
-      "ability": "Każdej nocy wybierz 2 żywych graczy (nie siebie): dowiadujesz się ilu z nich zostało obudzonych w wyniku swojej umiejętności.",
+      "ability": "Każdej nocy wybierz 2 żywych graczy (nie siebie): dowiadujesz się, ilu z nich obudziło się tej nocy w wyniku swojej umiejętności.",
       "first": "Pokojówka wybiera 2 żywych graczy. Pokaż na palcach.",
       "flavor": "Ja, proszę pani, naprawdę nie widziałam niczego osobliwego. Najmocniej przepraszam, ale gdybym coś widziała, to z całą pewnością nie byłby to jaśnie pan zakradający się do laboratorium profesora około jedenastej i przyrządzający jakąś fikuśną miksturę, tak jak pani wspominała, Panienko.",
       "name": "Pokojówka",
@@ -179,23 +179,23 @@
       "name": "Kucharz"
     },
     "choirboy": {
-      "ability": "Jeżeli Demon zabije Króla, dowiadujesz się który gracz jest Demonem. [+Król]",
+      "ability": "Jeżeli Demon zabije Króla, dowiadujesz się, który gracz jest Demonem. [+Król]",
       "flavor": "Widziałem to, naprawdę. Byłem za ławami, układałem śpiewniki, gdy organy zagrały okropną melodię. Organista miał długą pelerynę, i długie palce spoczywające na klawiszach. I kapelusz, który wyglądał... wyglądał zupełnie... jak twój.",
       "name": "Chórzysta",
-      "other": "Jeżeli Demon zabił Króla wskaż gracza który jest Demonem."
+      "other": "Jeżeli Demon zabił Króla, wskaż gracza, który jest Demonem."
     },
     "clockmaker": {
-      "ability": "Zaczynasz grę wiedząc ile kroków jest od Demona do jego najbliższego Sługusa.",
-      "first": "Pokarz palcem.",
+      "ability": "Na początku gry dowiadujesz się, ile kroków jest między Demonem a jego najbliższym Sługusem.",
+      "first": "Pokaż palcem.",
       "flavor": "Nie przeszkadzać. Tykanie musi trwać, bo okrąg jest symbolem życia i zawiera wszystko - każdą odpowiedź - w swym świętym mechanizmie. Musi działać.",
       "name": "Zegarmistrz"
     },
     "courtier": {
       "ability": "Raz na grę, w nocy, wybierz postać: jest ona pijana przez 3 dni i 3 noce.",
-      "first": "Dworzanin może wybrać Postać. :reminder: :reminder:",
+      "first": "Dworzanin może wybrać postać. :reminder: :reminder:",
       "flavor": "Bardziej się boję armii stu owiec przewodzonej przez jednego lwa, niż armii stu lwów przewodzonej przez jedną owcę.",
       "name": "Dworzanin",
-      "other": "Dworzanin może wybrać Postać. :reminder: :reminder:"
+      "other": "Dworzanin może wybrać postać. :reminder: :reminder:"
     },
     "cultleader": {
       "ability": "Każdej nocy zmieniasz swoją przynależność na przynależność jednego ze swoich żywych sąsiadów. Jeżeli wszyscy dobrzy gracze przyłączą się do twojej sekty, twoja drużyna wygrywa.",
@@ -224,16 +224,16 @@
       "name": "Boska Katastrofa"
     },
     "deviant": {
-      "ability": "Jeżeli dzisiaj byłeś śmieszny, to nie można cię wygnać.",
+      "ability": "Jeżeli dzisiaj byłeś zabawny, to nie można cię wygnać.",
       "flavor": "Toż to był żarcik tej damy, zaprawdę.",
       "name": "Dewiant"
     },
     "devilsadvocate": {
-      "ability": "Każdej nocy wybierz żywego gracza (innego niż poprzedniej nocy): jeżeli miał by być stracony, nie umiera.",
-      "first": "Adwokat Diabła może wybrać żywego gracza. :reminder:",
+      "ability": "Każdej nocy wybierz żywego gracza (innego niż poprzedniej nocy): jeżeli jutro zostanie stracony, nie umiera.",
+      "first": "Adwokat Diabła wybiera żywego gracza. :reminder:",
       "flavor": "Mój klient, jeśli sprzeciw zostanie oddalony, utrzymuje niewinność z mocy faktu, iż oskarżenie nie dochowało postanowień statutu 27.B — dotyczącego niepoprawnej lub wprowadzającej w błąd koniugacji czasownika. Fakt, że dziewięciu przysięgłych zmarło zeszłej nocy, stanowi jedynie prima facie, co — jak ustanowił precedens w sprawie Wills przeciwko Thule — jest dodatkową podstawą do uniewinnienia.",
       "name": "Adwokat Diabła",
-      "other": "Adwokat Diabła może wybrać żywego gracza. :reminder:"
+      "other": "Adwokat Diabła wybiera żywego gracza. :reminder:"
     },
     "djinn": {
       "ability": "Użyj specjalnych zasad Dżina. Wszyscy gracze je znają.",
@@ -246,7 +246,7 @@
       "name": "Wieszcz Zagłady"
     },
     "dreamer": {
-      "ability": "Każdej nocy wybierz gracza (nie siebie ani Podróżnika): dowiadujesz się 1 dobrą i 1 złą postać, 1 z nich jest prawdą.",
+      "ability": "Każdej nocy wybierz gracza (nie siebie ani Podróżnika): poznajesz 1 dobrą i 1 złą postać, 1 z nich jest prawdą.",
       "first": "Marzyciel Senny wskazuje na gracza. Pokaż żeton 1 dobrej i 1 złej postaci, 1 z nich jest żeton wskazanej osoby.",
       "flavor": "Pamiętam zegarmistrza. Niebo było czerwone i padało fraktalnymi trójkątami. Czuć było zapach fiołków i coś bulgotało. Kobieta o świecących oczach i postrzępionej brodzie syczała na niebo. Wtedy się obudziłam.",
       "name": "Senny Wędrowiec",
@@ -258,7 +258,7 @@
       "name": "Pijak"
     },
     "duchess": {
-      "ability": "Każdego dnia, możesz być odwiedzona przez 3 graczy. W nocy*, każdy z nich dowiaduje się ilu odwiedzających było złych, ale jeden dostaje fałszywe informacje.",
+      "ability": "Każdego dnia może cię odwiedzić 3 graczy. W nocy*, każdy z nich dowiaduje się, ilu odwiedzających było złych, ale 1 dostaje fałszywe informacje.",
       "flavor": "Będziemy przyjmować gości między godziną 6 a 7 dokładnie i bez zwłoki. Herbata zostanie podana o 6:15, a ciasteczka o 6:45. Spóźnienia nie będą tolerowane. Strój uroczysty, jak zawsze, bezwzględnie.",
       "name": "Księżna",
       "other": "Obudź pojedynczo każdego gracza oznaczonego *ODWIEDZAJĄCY* albo *FAŁSZYWE INFORMACJE*. Pokaż im kartę *TA POSTAĆ CIĘ WYBRAŁA* i żeton Księżnej i odpowiednią ilość palców (1,2,3)."
@@ -275,14 +275,14 @@
       "other": "Pokaż palcem."
     },
     "engineer": {
-      "ability": "Raz na grę, w nocy, wybierz którzy Sługusi albo który Demon jest w grze.",
-      "first": "Inżynier może wybrać Sługusów albo Demona. Uśpij Inżyniera. Obudź cel(e) pojedynczo. Pokaż kartę *JESTEŚ* i jego nowy żeton postaci. :reminder:",
+      "ability": "Raz na grę, w nocy wybierz, którzy Sługusi albo który Demon jest w grze.",
+      "first": "Inżynier może wybrać Sługusów albo Demona. Uśpij Inżyniera. Obudź wybranych graczy pojedynczo. Pokaż kartę *JESTEŚ* i nowy żeton postaci. :reminder:",
       "flavor": "Jeśli się zgina, świetnie. Jeśli pęknie, cóż, prawdopodobnie i tak potrzebowało naprawy.",
       "name": "Inżynier",
-      "other": "Inżynier może wybrać Sługusów albo Demona. Uśpij Inżyniera. Obudź kolejno cel(e). Pokaż kartę *JESTEŚ* i jego nowy żeton postaci. :reminder:"
+      "other": "Inżynier może wybrać Sługusów albo Demona. Uśpij Inżyniera. Obudź wybranych graczy pojedynczo. Pokaż kartę *JESTEŚ* i nowy żeton postaci. :reminder:"
     },
     "eviltwin": {
-      "ability": "Ty i gracz przeciwnej strony się znacie. Jeżeli dobry z was zostanie stracony, zło zwycięża. Dobro nie może wygrać jeżeli oboje z was żyją.",
+      "ability": "Ty i gracz z przeciwnej drużyny się znacie. Jeżeli dobry z waszej dwójki zostanie stracony, zło zwycięża. Dobro nie może wygrać, jeżeli oboje żyjecie.",
       "first": "Obudź obu bliźniaków. Pozwól na kontakt wzrokowy. Pokaż żeton dobrego bliźniaka Złemu Bliźniakowi i vice versa.",
       "flavor": "Ja nie jestem Sara! Ja jestem Klara! ONA jest Sara! Sara jest tą złą! Nie ja!",
       "name": "Zły Bliźniak"
@@ -485,19 +485,19 @@
       "name": "Śledczy"
     },
     "judge": {
-      "ability": "Raz na grę, jeżeli inny gracz nominował, możesz zdecydować aby przepchnąć obecną egzekucję aby się udała albo nie.",
+      "ability": "Raz na grę, jeżeli inny gracz nominował, możesz zdecydować, czy obecna egzekucja się odbywa, czy nie.",
       "flavor": "Uznaję oskarżonego za winnego zbrodni morderstwa, oszustwa, podpalenia, kradzieży, podszywania się pod funkcjonariusza prawa, wykonywania praktyki lekarskiej bez uprawnień, zniesławienia, królobójstwa oraz zaśmiecania.",
       "name": "Sędzia"
     },
     "juggler": {
-      "ability": "Pierwszego dnia publicznie zgadnij do 5 postaci graczy. Tej nocy dowiadujesz się ilu zgadłeś poprawnie.",
+      "ability": "Pierwszego dnia publicznie zgadnij do 5 postaci graczy. Tej nocy dowiadujesz się, ilu zgadłeś poprawnie.",
       "flavor": "Na potrzeby mojej następnej sztuczki, wedle zamówienia, będę potrzebował kwiatka, woreczka fasoli, węża-zabawki, pędzel i zmotoryzowany napędzany paliwem przyrząd do skracania żywopłotów. Ostrzegam, ta sztuczka może być moją ostatnią. O rety.",
       "name": "Żongler",
-      "other": "Pokarz palcem."
+      "other": "Pokaż liczbę palcami."
     },
     "kazali": {
       "ability": "Każdej nocy* wybierz gracza: umiera. [Wybierasz, którzy gracze zostają jakimi Sługusami. -? do +? Outsiderów]",
-      "first": "Kazali wybiera którzy gracze są jakimi Sługusami. Obudź każdego wybranego gracza. Pokaż mu \"JESTEŚ\", żeton Sługusa i kciuk w dół (zły).",
+      "first": "Kazali wybiera graczy, którzy zostają Sługusami, i ich nwoe role. Obudź każdego wybranego gracza. Pokaż mu kartę \"JESTEŚ\", żeton Sługusa i kciuk w dół.",
       "flavor": "Gon(z)a7les6. Uwa$aj. Mech4niz4cj4 odwr0cona. B7Edy w 5y5tem1e. Reko|\\|figur4cja.",
       "name": "Kazali",
       "other": "Kazali wybiera gracza. :reminder:"
@@ -507,16 +507,16 @@
       "first": "Obudź Demona. Pokaż kartę *TEN GRACZ JEST* i żeton Króla, następnie wskaż Króla.",
       "flavor": "Między znojem śmiertelnych, nieznanych dróg / A nocą chorą, słodką w tajemnicy swej / Spoczywa losu barwny, nieskrępowany próg / Gdzie każda twarz — to kwiat w ogrodzie jej.",
       "name": "Król",
-      "other": "Jeżeli liczba martwych zrównała się lub przewyższa żywych, pokaż postać żywego gracza."
+      "other": "Jeżeli liczba martwych graczy wynosi tyle samo lub więcej niż żywych, pokaż postać żywego gracza."
     },
     "klutz": {
-      "ability": "Gdy dowiadujesz się, że umarłeś wybierz publicznie 1 żyjącego gracza: jeżeli jest zły, twoja drużyna przegrywa.",
+      "ability": "Gdy dowiadujesz się, że umarłeś, wybierz publicznie 1 żyjącego gracza: jeżeli jest zły, twoja drużyna przegrywa.",
       "flavor": "Ups.",
       "name": "Fajtłapa"
     },
     "knight": {
-      "ability": "Zaczynasz grę wiedząc o 2 graczach, którzy nie są Demonem.",
-      "first": "Wskaż dwóch graczy oznaczonych *ZNASZ*.",
+      "ability": "Zaczynasz grę poznając 2 graczy, którzy nie są Demonem.",
+      "first": "Wskaż dwóch graczy oznaczonych *ZNANY*.",
       "flavor": "Jeśli człowiek skłamie, zabija małą część świata.",
       "name": "Rycerz"
     },
@@ -524,11 +524,11 @@
       "ability": "Każdej nocy* może zginąć gracz. Egzekucje nie dochodzą do skutku, jeżeli tylko zło zagłosowało. Pokazujesz się także jako Sługus. [większość graczy jest Legionem]",
       "flavor": "Legiony to – żołnierska nuta,\nLegiony to – straceńców los,\nLegiony to – rycerska buta,\nLegiony to – ofiarny stos.\n- Andrzej Hałaciński i Tadeusz Biernacki - My, Pierwsza Brygada",
       "name": "Legion",
-      "other": "Jakiś gracz może umrzeć. :reminder:"
+      "other": "Gracz może umrzeć. :reminder:"
     },
     "leviathan": {
       "ability": "Jeżeli więcej niż 1 dobry gracz umarł w wyniku egzekucji, zło wygrywa. Wszyscy gracze wiedzą, że jesteś w grze. Po 5-tym dniu zło wygrywa.",
-      "first": "Ogłoś, że \"Lewiatan jest w grze\". :reminder:",
+      "first": "Ogłoś, że Lewiatan jest w grze. :reminder:",
       "flavor": "Do ostatka zmagam się z tobą. Z samego serca piekieł godzę w ciebie. W imię nienawiści plwam na ciebie ostatnim mym tchnieniem!",
       "name": "Lewiatan",
       "other": "Podmień żeton przypominajki Lewiatana na kolejny dzień. :reminder: Opcjonalnie ogłoś, że \"Lewiatan jest w grze\"."
@@ -648,7 +648,7 @@
     },
     "noble": {
       "ability": "Zaczynasz grę znając 3 graczy, 1 i tylko 1 z nich jest zły.",
-      "first": "Wskaż na wszystkich trzech graczy oznaczonych *ZNASZ*.",
+      "first": "Wskaż na trzech graczy oznaczonych *ZNANY*.",
       "flavor": "Sarkazm jest zaiste najniższą formą dowcipu. Jednak muszę Panu przypomnieć, skoro tak Pan krytykuje, że jest to nadal forma dowcipu.",
       "name": "Szlachcic"
     },
@@ -849,7 +849,7 @@
       "other": "Poprzednio wybrany gracz może zostać wskrzeszony. :reminder: Shabaloth wybiera 2 graczy. :reminder: :reminder:"
     },
     "shugenja": {
-      "ability": "Zaczynasz grę wiedząc czy najbliższy zły gracz jest po stronie zgodnej ze wskazówkami zegara czy przeciwnie. Jeżeli odległość jest identyczna, jest to arbitralne.",
+      "ability": "Na początku gry dowiadujesz się, czy najbliższy zły gracz siedzi od ciebie w stronę ruchu wskazówek zegara, czy w przeciwną. Jeżeli odległość jest identyczna, Bajarz wybiera, co pokazać.",
       "first": "Wskaż kierunek zgodny ze wskazówkami zegara lub na odwrót.",
       "flavor": "これは夢。それも夢。すべて夢です。",
       "name": "Shugenja"
@@ -1224,8 +1224,8 @@
     "boffin-politician": "Demon nie może mieć umiejętności Polityka.",
     "boffin-villageidiot": "Jeżeli w grze jest zbędny żeton, Szalony naukowiec może dać Demonowi umiejętność Wioskowego głupka.",
     "boomdandy-plaguedoctor": "Jeżeli Bajarz miałby dostać umiejętność Zamachowca, gracz staje się Zamachowcem.",
-    "bountyhunter-kazali": "Jeżeli Kazali zmieni Łowcę Nagród w Sługusa, nie powstaje zły Mieszczanin.",
-    "bountyhunter-philosopher": "Jeżeli Filozof otrzymuje zdolność Łowcy Nagród, jeden z Mieszczan może stać się zły.",
+    "bountyhunter-kazali": "Jeżeli Kazali zmieni Łowcę nagród w Sługusa, nie powstaje zły Mieszczanin.",
+    "bountyhunter-philosopher": "Jeżeli Filozof otrzymuje zdolność Łowcy nagród, jeden z Mieszczan może stać się zły.",
     "butler-cannibal": "Jeżeli Kanibal otrzymuje umiejętność Lokaja, Kanibal się o tym dowiaduje.",
     "butler-organgrinder": "Jeśli Kataryniarz powoduje głosowanie z zamkniętymi oczami, Lokaj może podnieść rękę podczas głosowania, ale jego głos się liczy tylko, gdy jego pan także zagłosował.",
     "cannibal-juggler": "Jeżeli Żongler zgadywał pierwszego dnia i zginął w wyniku egzekucji, tej nocy żywy Kanibal dowiaduje się ile trafnych zgadnięć dostałby Żongler.",

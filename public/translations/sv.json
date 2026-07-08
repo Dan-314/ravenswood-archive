@@ -1323,7 +1323,11 @@
     "riot-sage": "Varje natt* väljer Kravallen en levande god spelare (en ny varje natt); en vald Guru använder sin förmåga men dör inte.",
     "riot-soldier": "Om Kravallen nominerar och avrättar Soldaten så vinner goda laget.",
     "summoner-zombuul": "Om Åkallaren gör en död spelare till Zombuul så har den Zombuulen redan ”dött en gång”.",
-    "vizier-zealot": "Fanatikern kanske registreras som ond för Vesiren."
+    "vizier-zealot": "Fanatikern kanske registreras som ond för Vesiren.",
+    "drunk-mathematician": "Matematikern får veta om Fyllots förmåga gav falsk info eller inte fungerade som väntat.",
+    "legion-magician": "Om Magikern är i spel vaknar Legionen i separata grupper under Demon-info. Varje grupp får veta vilka som är goda, men får inte se Magikern.",
+    "lunatic-mathematician": "Matematikern får veta om Galningen attackerar en annan spelare än den riktiga Demonen.",
+    "marionette-mathematician": "Matematikern får veta om Marionettens förmåga gav falsk info eller inte fungerade som väntat."
   },
   "ui": {
     "firstNight": "Första natten",
