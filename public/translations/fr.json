@@ -703,7 +703,7 @@
     },
     "pixie": {
       "ability": "Lors de votre première nuit, vous apprenez un rôle de Villageois en jeu. Si vous étiez fou d’être ce rôle, gagnez sa capacité à sa mort.",
-      "first": "Montrez le jeton de rôle Villageois *MAD*.",
+      "first": "Montrez le jeton de rôle Villageois *FOU*.",
       "flavor": "La petite Pixie s’est cachée dans le jardin. Cherchez-moi, coucou coucou. Je suis cachée parmi vous. Tirant ses moustaches, le Démon passe et repasse mais ne trouve rien du tout. La Pixie l’envoie au trou.",
       "name": "Pixie"
     },

@@ -1323,7 +1323,11 @@
     "riot-sage": "Cada noche*, Riot elige un jugador bueno vivo (diferente a las noches anteriores): un Sabio elegido usa su habilidad, pero no muere.",
     "riot-soldier": "Si Riot nomina y ejecuta al Soldado, gana el bien.",
     "summoner-zombuul": "Si el Invocador invoca a un jugador muerto en el Zombuul, el Zombuul ya ha \"muerto una vez\".",
-    "vizier-zealot": "El Intransigente puede ser percibido como malvado por el Visir."
+    "vizier-zealot": "El Intransigente puede ser percibido como malvado por el Visir.",
+    "drunk-mathematician": "El Matemático aprende si la habilidad del Borracho proporcionó información falsa o no funcionó correctamente.",
+    "legion-magician": "Si el Mago está en juego, durante el paso de información del Demonio, la Legión despierta en grupos separados. Cada grupo aprende qué jugadores son buenos, pero no aprende quién es el Mago.",
+    "lunatic-mathematician": "El Matemático aprende si el Lunático ataca a un jugador distinto del que atacó el Demonio real.",
+    "marionette-mathematician": "El Matemático aprende si la habilidad de la Marioneta proporcionó información falsa o no funcionó correctamente."
   },
   "ui": {
     "firstNight": "Primera noche",
