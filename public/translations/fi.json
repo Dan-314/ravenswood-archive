@@ -1149,7 +1149,7 @@
     "goodplayerexecuted": "Hyvä Pelaaja Teloitettiin",
     "grandchild": "Lapsenlapsi",
     "guessused": "Arvaus Käytetty",
-    "haircutstonight": "Hiustenleikkuut Tänä Yönä",
+    "haircutstonight": "Hiustenleikkuuyö",
     "hasability": "On Kyky",
     "isthealchemist": "On Alkemisti",
     "istheapprentice": "On Oppipoika",
@@ -1323,7 +1323,11 @@
     "riot-sage": "Joka yö*, Mellakka valitsee elävän hyvän pelaajan (eri kuin aiempina öinä): valittu Tietäjä käyttää kykyään, muttei kuole.",
     "riot-soldier": "Jos Mellakka nimeää ja teloituttaa Sotilaan, hyvä voittaa.",
     "summoner-zombuul": "Jos Rienaaja rienaa kuolleen pelaajan Vainajaksi, on Vainaja jo \"kuollut kertaalleen\".",
-    "vizier-zealot": "Kiihkoilija saattaa näyttäytyä pahana Visiirille."
+    "vizier-zealot": "Kiihkoilija saattaa näyttäytyä pahana Visiirille.",
+    "drunk-mathematician": "Matemaatikko saa tietää, jos Juopon kyky tuotti väärää tietoa tai toimi epäluonnollisesti.",
+    "legion-magician": "Jos Taikuri on pelissä, Leegio herää Demonitiedonannon aikana erillisissä ryhmissä. Joka ryhmä saa tietoonsa hyvät pelaajat, Taikuri pois lukien.",
+    "lunatic-mathematician": "Matemaatikko saa tietää, jos Mielipuoli hyökkää eri pelaajan kimppuun kuin oikea Demoni.",
+    "marionette-mathematician": "Matemaatikko saa tietää, jos Sätkynuken kyky tuotti väärää tietoa tai toimi epäluonnollisesti."
   },
   "ui": {
     "firstNight": "Eka Yö",

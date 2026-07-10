@@ -599,20 +599,20 @@
     },
     "matron": {
       "ability": "Każdego dnia możesz wybrać do 3 par graczy i zamienić ich miejscami. Gracze nie mogą opuszczać swoich miejsc aby porozmawiać prywatnie.",
-      "flavor": "Panno Featherbottom, proszę o ciszę. Paniczu Rutherford, filiżankę trzyma się czterema palcami, o tak. Wiem, że jest pan ojcem dziewięciorga dzieci, lecz wiek — ani jego brak, jak w tym wypadku — nigdy nie usprawiedliwia złych manier.",
+      "flavor": "Panno Featherbottom, proszę o ciszę. Panie Rutherford, filiżankę trzyma się czterema palcami, o tak. Wiem, że jest pan ojcem dziewięciorga dzieci, lecz wiek — ani jego brak, jak w tym wypadku — nigdy nie usprawiedliwia złych manier.",
       "name": "Matrona"
     },
     "mayor": {
-      "ability": "Jeżeli żyje tylko 3 graczy i nie dojdzie do egzekucji, twoja drużyna wygrywa. Jeżeli miałbyś umrzeć w nocy, inny gracz może umrzeć w zamiast.",
+      "ability": "Jeżeli przy 3 żywych graczach nie nastąpi egzekucja, twoja drużyna wygrywa. Jeżeli zginiesz nocą, inny gracz może zginąć zamiast ciebie.",
       "flavor": "Musimy odłożyć nasze różnice na bok i przerwać to bezsensowne zabijanie. W końcu wszyscy płacimy podatki. No, prawie wszyscy.",
       "name": "Burmistrz"
     },
     "mezepheles": {
-      "ability": "Zaczynasz grę znając tajemne słowo. Pierwszy dobry gracz, który je wypowie staje się zły tej nocy.",
-      "first": "Pokaż sekretne słowo.",
-      "flavor": "To, co z serca płynie, ku sercom innych się skłoni.",
-      "name": "Mefistofeles",
-      "other": "Jeżeli dobry gracz wypowiedział sekretne słowo obudź go. Pokaż mu kartę *JESTEŚ* i kciuk w dół (zły). :reminder: :reminder:"
+      "ability": "Na początku gry poznajesz tajne słowo. Pierwszy dobry gracz, który je wypowie, staje się zły tej nocy.",
+      "first": "Pokaż tajne słowo.",
+      "flavor": "Tylko to, co z serca płynie, w sercu drugich znajdzie wtór.",
+      "name": "Mezefeles",
+      "other": "Jeżeli dobry gracz wypowiedział tajne słowo, obudź go. Pokaż mu kartę *JESTEŚ* i kciuk w dół. :reminder: :reminder:"
     },
     "minioninfo": {
       "first": "Jeżeli w grze jest 7 lub więcej graczy, obudź Sługusów: Pokaż kartę *TO JEST DEMON*. Wskaż Demona. Pokaż kartę *TO SĄ TWOI SŁUGUSI*. Wskaż innych Sługusów."
@@ -629,19 +629,19 @@
       "other": "Mnich wybiera gracza. :reminder:"
     },
     "moonchild": {
-      "ability": "Gdy dowiesz się, że umarłeś, publicznie wskaż żywego gracza. Dzisiejszej nocy, jeżeli był dobry to umiera.",
-      "flavor": "Skorpion patrzy w poprzek na kochanków, a ty masz wybór. Ze srebrnym krzyżem na mej dłoni twój los się odsłoni. Ze stalowym krzyżem na mym gardle, gwiazdy świadkiem, pożałujesz tego nagle.",
+      "ability": "Gdy dowiesz się, że nie żyjesz, publicznie wskaż 1 żywego gracza. Jeśli był to dobry gracz, umrze on tej nocy.",
+      "flavor": "Skorpion patrzy krzywo na kochanków, a ty musisz dokonać wyboru. Połóż srebro na mej dłoni, a twój los się odsłoni. Połóż stal na mym gardle, gwiazdy świadkiem, pożałujesz tego nagle.",
       "name": "Księżycowe Dziecię",
       "other": "Jeżeli Księżycowe Dziecię miało zabić dobrego gracza, dzieje się to teraz. :reminder:"
     },
     "mutant": {
       "ability": "Jeżeli masz \"obsesję\", że jesteś Outsiderem, możesz zostać stracony.",
-      "flavor": "Nie jestem dziwactwem! Jestem człowiekiem! Litości!",
+      "flavor": "Nie jestem dziwadłem! Jestem człowiekiem! Litości!",
       "name": "Mutant"
     },
     "nightwatchman": {
-      "ability": "Raz na grę, w nocy, wybierz gracza: dowiaduje się, że jesteś Nocnym Strażnikiem .",
-      "first": "Nocny Strażnik może wybrać gracza. Uśpij Nocnego Strażnika. Obudź cel i pokaż kartę *TEN GRACZ JEST*, żeton Nocnego Strażnika i samego Nocnego Strażnika. :reminder:",
+      "ability": "Raz na grę, w nocy, wybierz gracza: dowiaduje się, że jesteś Nocnym strażnikiem .",
+      "first": "Nocny strażnik może wybrać gracza. Uśpij Nocnego strażnika. Obudź wybranego przez niego gracza i pokaż kartę *TEN GRACZ JEST*, żeton Nocnego strażnika i samego Nocnego strażnika. :reminder:",
       "flavor": "Zimna i samotna ta noc, lecz towarzyszą mi księżyc i gwiazdy, chłodny powiew wiatru i cichy odgłos skórzanych butów na kamiennym bruku. A tam, w oddali, za zmętniałą szybą, drży blask świecy...",
       "name": "Nocny Strażnik",
       "other": "Nocny Strażnik może wybrać gracza. Uśpij Nocnego Strażnika. Obudź cel i pokaż kartę *TEN GRACZ JEST*, żeton Nocnego Strażnika i samego Nocnego Strażnika. :reminder:"
@@ -702,7 +702,7 @@
       "other": "Jędza wybiera gracza i postać. Jeżeli wybranej postaci nie ma w grze: Uśpij Jędzę. Obudź cel. Pokaż kastę *JESTEŚ* i jego nowy żeton postaci."
     },
     "pixie": {
-      "ability": "Zaczynasz grę wiedząc o Mieszczaninie będącym w grze. Jeżeli masz obsesję, że jesteś tą postacią, otrzymujesz jej umiejętność gdy ona umiera.",
+      "ability": "Na początku gry poznajesz 1 rolę Mieszczanina w grze. Jeżeli masz obsesję, że jesteś tą postacią, otrzymujesz jej umiejętność po jej śmierci.",
       "first": "Pokaż żeton postaci Mieszczanina oznaczonego *OBSESJA*.",
       "flavor": "W kółko, w kółko — ogród trwa,\nMała dziewczynka — tam i z powrotem gna.\nMały chłopiec — na drzewa wspina się wzwyż,\nKtórym z nich ma być skrzat — dziś?\n\nDamy się śmieją i w miasto mkną,\nPanowie siekierą lasy tną.\nCo twoje — moje, co moje — święte,\nJam głupi malutki skrzat — ty, bądź przeklęte.",
       "name": "Skrzat"
@@ -714,7 +714,7 @@
       "other": "Jeżeli Doktor Plagi umarł, Bajarz zdobył zdolność Sługusa. Jeżeli jeszcze tego nie zrobiłeś, zrób to teraz. :reminder:"
     },
     "po": {
-      "ability": "Każdej nocy* możesz wybrać gracza: umiera. Jeżeli twój ostatni wybór to nikt, zamiast tego wybierz 3 graczy.",
+      "ability": "Każdej nocy* możesz wybrać gracza: umiera. Jeżeli twoim ostatnim wyborem był nikt, zamiast tego wybierz 3 graczy.",
       "flavor": "Chciałbyś kwiatuszka? Jestem taka samotna.",
       "name": "Po",
       "other": "Po może wybrać gracza albo 3 jeżeli nikt nie został wybrany poprzedniej nocy. :reminder: albo :reminder: :reminder: :reminder:"
@@ -727,7 +727,7 @@
       "other": "Truciciel wybiera gracza. :reminder:"
     },
     "politician": {
-      "ability": "Jeżeli byłeś najbardziej odpowiedzialny za przegraną swojej drużyny, możesz zmienić drużynę i wygrać, nawet jak jesteś martwy.",
+      "ability": "Jeżeli byłeś najbardziej odpowiedzialny za przegraną swojej drużyny, możesz zmienić przynależność i wygrać, nawet po śmierci.",
       "flavor": "Cieszę się, że zadałeś to pytanie. Naprawdę. Jednak myślę, że PRAWDZIWE pytanie brzmi...",
       "name": "Polityk"
     },

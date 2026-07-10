@@ -39,7 +39,7 @@
     "code": "fr",
     "name": "French",
     "nativeName": "Français",
-    "completion": 98
+    "completion": 99
   },
   {
     "code": "gl",
@@ -141,6 +141,6 @@
     "code": "zh_Hans",
     "name": "Chinese (Simplified Han script)",
     "nativeName": "简体中文",
-    "completion": 96
+    "completion": 100
   }
 ]
