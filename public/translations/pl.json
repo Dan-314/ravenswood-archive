@@ -786,8 +786,8 @@
       "name": "Odludek"
     },
     "revolutionary": {
-      "ability": "Wiadomo, że 2 sąsiadujących graczy jest w tej samej drużynie. Raz na grę, jeden z nich, może się pokazać niepoprawnie.",
-      "flavor": "Zjednoczeni, kłamaliśmy w zgodzie. Podzieleni, nie ruszyliśmy dalej.",
+      "ability": "Wiadomo, że 2 sąsiadujących graczy jest w tej samej drużynie. Raz na grę, jeden z nich może się pokazać niepoprawnie.",
+      "flavor": "Zjednoczeni, udawaliśmy. Podzieleni, utknęliśmy.",
       "name": "Rewolucjonista"
     },
     "riot": {
@@ -798,9 +798,9 @@
     },
     "sage": {
       "ability": "Jeżeli zabije cię Demon, dowiadujesz się, że jest nim 1 z 2 graczy.",
-      "flavor": "Te wielgachne tomiszcza strzegą tajemnice, jestem tego pewien! Między wierszem, a słowem czai się w milczeniu. Więcej świec, chłopcze! Więcej atramentu! Te notatki może i wyglądają bluźnierczo, ale piekielna zagadka zaczyna się odsłaniać.",
+      "flavor": "Te wielgachne tomiszcza kryją w sobie tajemnicę, jestem tego pewien! Czeka tylko, żeby ją odkryć między wierszami. Chłopcze, przynieś więcej świec! Więcej atramentu! Te notatki może i wyglądają ezoterycznie, ale piekielna zagadka zaczyna się odsłaniać.",
       "name": "Mędrzec",
-      "other": "Jeżeli Demon zabił Mędrca, obudź Mędrca i wskaż 2 graczy z których 1 jest Demonem."
+      "other": "Jeżeli Demon zabił Mędrca, obudź Mędrca i wskaż 2 graczy, z których 1 jest Demonem."
     },
     "sailor": {
       "ability": "Każdej nocy wybierz gracza: jeden z was jest pijany do zmierzchu. Nie możesz umrzeć.",
@@ -821,7 +821,7 @@
     },
     "scapegoat": {
       "ability": "Jeżeli gracz z twojej drużyny zostanie stracony, możesz zostać straconym zamiast niego.",
-      "flavor": "Dobry wieczór! Dziękuję, że zaprosiliście mnie na ten bal. Nie jestem stąd, ale wyglądacie na sympatyczną grupę, na Boga. Na pewno się dogadamy. Po co wam tyle liny?",
+      "flavor": "Dobry wieczór! Dziękuję, że zaprosiliście mnie na ten bal. Nie jestem stąd, ale wyglądacie na sympatyczną grupę, och tak. Na pewno będziemy się wyśmienicie bawić. A po co ta szubienica?",
       "name": "Kozioł Ofiarny"
     },
     "scarletwoman": {
@@ -831,8 +831,8 @@
       "other": "Jeżeli Kochanica diabła stała się Demonem, pokaż kartę *JESTEŚ* i żeton Demona."
     },
     "seamstress": {
-      "ability": "Raz na grę, w nocy, wybierz 2 graczy (nie siebie): dowiadujesz się czy należą do tej samej drużyny.",
-      "first": "Szwaczka może wybrać 2 graczy. Potaknij albo zaprzecz głową. :reminder:",
+      "ability": "Raz na grę, w nocy, wybierz 2 graczy (nie siebie): dowiadujesz się, czy należą do tej samej drużyny.",
+      "first": "Szwaczka może wybrać 2 graczy. Pokiwaj lub pokręć głową. :reminder:",
       "flavor": "Słyszałaś, że ten nieznajomy w kaszmirowym płaszczu dał po słowie małej Belle? I powiedziała tak? Cóż, to nic w porównaniu z tym co Harry i ten żongler narozrabiali podczas festynu! Mogła bym tak opowiadać i opowiadać...jak bym była plotkarą, o tak.",
       "name": "Szwaczka",
       "other": "Szwaczka może wybrać 2 graczy. Potaknij albo zaprzecz głową. :reminder:"
