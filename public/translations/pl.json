@@ -363,7 +363,7 @@
     },
     "gardener": {
       "ability": "Bajarz przypisuje postacie wszystkim graczom.",
-      "flavor": "Oj, ależ tak nie można. Mamy Tojad wymieszany z Wilczą Jagodą, a Cykuta dławi Ciemiernik! O matulu, lepiej zacznijmy od nowa. Przynieś mi mój sekator.",
+      "flavor": "Gdy debata publiczna staje się bezmyślnością, a moralizowanie przeradza się w okrucieństwo, najlepiej pójść do ogrodu. Ostateczną miłością starych ludzi są kwiaty i kamienie.",
       "name": "Ogrodnik"
     },
     "general": {
@@ -568,7 +568,7 @@
       "other": "Zrób wszystko co trzeba, aby zasymulować działanie Demona. Uśpij Szaleńca. Obudź Demona. Pokaż żeton Szaleńca i wskaż go, następnie wskaż cele, które wybrał."
     },
     "lycanthrope": {
-      "ability": "Każdej nocy* wybierz żywego gracza. Jeżeli dobry umiera, a Demon nie zabija tej nocy. Jeden z dobrych graczy pokazuje się jako zły.",
+      "ability": "Każdej nocy* wybierz żywego gracza. Jeżeli jest dobry to umiera, a Demon nie zabija tej nocy. Jeden z dobrych graczy pokazuje się jako zły.",
       "flavor": "Tuż pod cienką warstwą cywilizacji czai się dzikie, wyjące szaleństwo.",
       "name": "Wilkołak",
       "other": "Wilkołak wybiera gracza. :reminder:"
