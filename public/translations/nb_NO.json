@@ -1323,7 +1323,11 @@
     "riot-sage": "Hver natt* velger Opptøyene en levende, god spiller (forskjellig fra tidligere netter): en valgt Vismann bruker egenskapen sin, men dør ikke.",
     "riot-soldier": "Hvis Opptøyene nominerer og henretter Soldaten, vinner de gode.",
     "summoner-zombuul": "Hvis Åndemaneren maner frem en død spiller som Zombuul, har Zombuulen allerede «dødd én gang».",
-    "vizier-zealot": "Fanatikeren kan registreres som ond for Vesiren."
+    "vizier-zealot": "Fanatikeren kan registreres som ond for Vesiren.",
+    "drunk-mathematician": "Matematikeren får vite om Fyllikens egenskap ga falsk informasjon eller ikke fungerte som den skulle.",
+    "legion-magician": "Hvis Magikeren er i spill, våkner Legionen i separate grupper under Demon-info. Hver gruppe får vite hvilke spillere som er gode, men lærer ikke Magikeren.",
+    "lunatic-mathematician": "Matematikeren får vite om Galningen angriper en annen spiller enn den virkelige Demonen.",
+    "marionette-mathematician": "Matematikeren får vite om Marionettens egenskap ga falsk informasjon eller ikke fungerte som den skulle."
   },
   "ui": {
     "firstNight": "Første natt",

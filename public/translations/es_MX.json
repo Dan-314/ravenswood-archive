@@ -1323,7 +1323,11 @@
     "riot-sage": "Cada noche*, el Disturbio elije un jugador buene vivx (diferente a las noches anteriores): un Sabie usa su habilidad pero no muere.",
     "riot-soldier": "Si el Disturbio nomina y ejecuta a le Soldado, les buenes ganan.",
     "summoner-zombuul": "Si le Invocador invoca a un jugador muertx en le Zombuul, le Zombuul ya \"murió una vez\".",
-    "vizier-zealot": "Le Fanáticx puede registrar como malvade para le Visir."
+    "vizier-zealot": "Le Fanáticx puede registrar como malvade para le Visir.",
+    "drunk-mathematician": "Le Matemáticx aprender si la habilidad del Borrache dio información falsa o fallo en funcionar correctamente.",
+    "legion-magician": "Si le Mage está en juego, durante la fase de Información de Demonie, la Legión despiertan en grupos separados. Cada grupo aprende que jugadores son buenes, pero no aprenden al Mage.",
+    "lunatic-mathematician": "Le Matemáticx aprende si le Lunáticx ataca a un jugador diferente que le Demonie atacó.",
+    "marionette-mathematician": "Le Matemáticx aprende si la habilidad de la Marioneta dio información falsa o fallo en funcionar correctamente."
   },
   "ui": {
     "firstNight": "Primera Noche",
