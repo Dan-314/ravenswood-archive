@@ -1323,7 +1323,11 @@
     "riot-sage": "Mỗi đêm*, Riot chọn một người phe tốt còn sống (khác với những đêm trước): Sage nếu được chọn sẽ kích hoạt năng lực của họ nhưng không chết.",
     "riot-soldier": "Nếu Riot biểu quyết và hành quyết Soldier, phe tốt thắng.",
     "summoner-zombuul": "Nếu Summoner triệu hồi một người đã chết thành Zombuul, họ sẽ được xem như đã \"chết một lần\".",
-    "vizier-zealot": "Zealot có thể được tính là phe xấu đối với Vizier."
+    "vizier-zealot": "Zealot có thể được tính là phe xấu đối với Vizier.",
+    "drunk-mathematician": "Mathematician biết chức năng của Drunk cho thông tin sai hoặc hoạt động bất thường.",
+    "legion-magician": "Nếu có Magician trong trò chơi, khi nhận Thông tin của Ác Quỷ, Legion được dậy thành từng khác nhau. Mỗi nhóm biết những ai là người tốt, nhưng không được biết Magician.",
+    "lunatic-mathematician": "Mathematician biết khi Lunatic tấn công người khác với người Ác Quỷ tấn công.",
+    "marionette-mathematician": "Mathematician biết khi chức năng của Marionette cho thông tin sai hoặc hoạt động bất thường."
   },
   "ui": {
     "firstNight": "Đêm Đầu Tiên",
