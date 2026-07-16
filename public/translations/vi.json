@@ -867,7 +867,7 @@
       "other": "Snake Charmer chọn một người chơi. Nếu họ chọn phải Ác quỷ: Cho thấy token *BẠN LÀ* & token Ác quỷ. Cho thấy ngón cái hướng xuống. Hoán đổi token Snake Charmer & Ác quỷ. Cho Snake Charmer cũ đi ngủ. Đánh thức Ác quỷ cũ. Cho thấy token *BẠN LÀ* và token Snake Charmer & cho thấy ngón cái hướng lên. :reminder:"
     },
     "snitch": {
-      "ability": "Mỗi Tay sai nhận được 3 nhân vật không có trong ván chơi.",
+      "ability": "Mỗi Tay sai nhận được 3 nhân vật ngoài ván chơi.",
       "first": "Đánh thức từng Tay sai. Cho xem token *NHỮNG NHÂN VẬT NÀY KHÔNG CÓ TRONG VÁN CHƠI*. Cho xem ba token nhân vật không có trong ván chơi.",
       "flavor": "Thằng John làm đó.",
       "name": "Snitch"
@@ -902,7 +902,7 @@
       "name": "Storm Catcher"
     },
     "summoner": {
-      "ability": "Bạn biết được 3 nhân vật không có trong ván chơi. Vào đêm thứ 3, chọn một người chơi: họ trở thành một Ác quỷ xấu do bạn chọn. [Không có Ác quỷ]",
+      "ability": "Bạn biết được 3 nhân vật ngoài ván chơi. Vào đêm thứ 3, chọn một người chơi: họ trở thành một Ác quỷ xấu do bạn chọn. [Không có Ác quỷ]",
       "first": "Cho thấy token *NHỮNG NHÂN VẬT NÀY KHÔNG CÓ TRONG VÁN CHƠI*. Cho thấy 3 token những nhân vật đó.",
       "flavor": "Chào mừng những người bảo vệ phương Bắc; bởi trí tuệ của ta, ngươi đã bị cắt đứt. Chào mừng những người bảo vệ phương Đông; bởi ý chí của ta, ngươi đã bị chế ngự. Chào mừng những người bảo vệ phương Nam; bởi những gì nằm ở phía bên kia, bí ẩn đã được hé lộ. Chào mừng những người bảo vệ phương Tây; một lá chắn trong bóng tối.",
       "name": "Summoner",
@@ -1202,7 +1202,7 @@
     "alchemist-mastermind": "Alchemist-Mastermind không có năng lực của Mastermind & không có Mastermind trong trò chơi.",
     "alchemist-organgrinder": "Nếu Alchemist có năng lực của Organ Grinder, Organ Grinder cũng có trong trò chơi. Nếu cả hai đều tỉnh táo, cả hai sẽ bị say.",
     "alchemist-spy": "Alchemist-Spy không có năng lực của Spy và Spy có trong trò chơi. Sau mỗi hành quyết, Alchemist-Spy còn sống có thể đoán công khai một người chơi còn sống là Spy. Nếu đoán đúng, Ác quỷ phải chọn Spy vào đêm nay.",
-    "alchemist-summoner": "Alchemist-Summoner không biết được 3 nhận vật không có tham gia ván chơi, được chọn Ác quỷ là gì nhưng không được chọn Ác quỷ là ai. Nếu chết trước khi điều đó xảy ra, phe xấu thắng. [Không có Ác quỷ]",
+    "alchemist-summoner": "Alchemist-Summoner không biết được 3 nhận vật ngoài ván chơi, được chọn Ác quỷ là gì nhưng không được chọn Ác quỷ là ai. Nếu chết trước khi điều đó xảy ra, phe xấu thắng. [Không có Ác quỷ]",
     "alchemist-widow": "Alchemist-Widow không có năng lực của Widow & có Widow trong trò chơi. Sau mỗi hành quyết, Alchemist-Widow còn sống có thể đoán công khai một người chơi còn sống là Widow. Nếu đoán đúng, Ác quỷ phải chọn Widow vào đêm nay.",
     "alchemist-wraith": "Alchemist-Wraith không có năng lực của Wraith & có Wraith trong trò chơi. Sau mỗi hành quyết, Alchemist-Wraith còn sống có thể đoán công khai một người chơi còn sống là Wraith. Nếu đoán đúng, Ác quỷ phải chọn Wraith vào đêm nay.",
     "alhadikhia-mastermind": "Nếu Al-Hadikhia chết bởi hành quyết, và Mastermind còn sống, Al-Hadikhia chọn 3 người chơi phe tốt đêm nay: nếu cả 3 chọn sống, phe xấu thắng. Nếu không, phe tốt thắng.",
