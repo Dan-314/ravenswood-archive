@@ -9,7 +9,7 @@
     "alchemist": {
       "ability": "Du har en Minion-evne. Når du bruker denne, kan fortelleren be deg om å velge annerledes.",
       "first": "Vis *DU ER*-infobrikken og en Undersåttbrikke.",
-      "flavor": "Besøk jordens indre. Ved rettelse skal du finne den skjulte steinen. Over gullet ligger den røde. Kether i Malkuth.",
+      "flavor": "Besøk jordens indre. Ved renselse vil du finne den skjulte steinen. Over gullet hviler det røde. Kether i Malkuth.",
       "name": "Alkymist"
     },
     "alhadikhia": {
@@ -787,7 +787,7 @@
     },
     "revolutionary": {
       "ability": "2 nabospillere er kjent for å ha samme lagtilhørighet. Én gang per spill registreres 1 av dem feil.",
-      "flavor": "Sammen vi feiget. Splittet, vi sinket.",
+      "flavor": "Forenede vi bløffet. Splittet vi trakk ut tiden.",
       "name": "Revolusjonær"
     },
     "riot": {
@@ -1325,7 +1325,7 @@
     "summoner-zombuul": "Hvis Åndemaneren maner frem en død spiller som Zombuul, har Zombuulen allerede «dødd én gang».",
     "vizier-zealot": "Fanatikeren kan registreres som ond for Vesiren.",
     "drunk-mathematician": "Matematikeren får vite om Fyllikens egenskap ga falsk informasjon eller ikke fungerte som den skulle.",
-    "legion-magician": "Hvis Magikeren er i spill, våkner Legionen i separate grupper under Demon-info. Hver gruppe får vite hvilke spillere som er gode, men lærer ikke Magikeren.",
+    "legion-magician": "Hvis Magikeren er i spill, våkner Legionen i separate grupper under Demon-info. Hver gruppe får vite hvilke spillere som er gode, men får ikke se Magikeren.",
     "lunatic-mathematician": "Matematikeren får vite om Galningen angriper en annen spiller enn den virkelige Demonen.",
     "marionette-mathematician": "Matematikeren får vite om Marionettens egenskap ga falsk informasjon eller ikke fungerte som den skulle."
   },
