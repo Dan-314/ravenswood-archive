@@ -1306,7 +1306,11 @@
     "riot-sage": "Jede Nacht* wählt der Riot einen lebendigen guten Spieler (einen anderen als in vorherigen Nächten): Eine gewählte Weise benutzt seine Fähigkeit, aber stirbt nicht.",
     "riot-soldier": "Falls der Riot den Soldaten nominiert und dieser hingerichtet wird, gewinnt Gut.",
     "summoner-zombuul": "Falls der Beschwörer einen toten Spieler zum Zombuul macht, ist der Zombuul schon einmal gestorben.",
-    "vizier-zealot": "Der Eiferer erscheint dem Wesir möglicherweise als böse."
+    "vizier-zealot": "Der Eiferer erscheint dem Wesir möglicherweise als böse.",
+    "drunk-mathematician": "Der Mathematiker erfährt, ob die Fähigkeit des Trunkenbolds falsche Informationen geliefert hat oder nicht richtig funktioniert hat.",
+    "legion-magician": "Falls die Magierin im Spiel ist, erwacht Legion während der Dämonen-Informationsphase in getrennten Gruppen. Jede Gruppe erfährt, welche Spieler gut sind, wobei die Magierin nie als gut mit angezeigt wird.",
+    "lunatic-mathematician": "Der Mathematiker erfährt, ob die Verrückte einen anderen Spieler angreifen wollte als den Spieler, den der echte Dämon angegriffen hat.",
+    "marionette-mathematician": "Der Mathematiker erfährt, ob die Fähigkeit der Marionette falsche Informationen geliefert hat oder nicht richtig funktioniert hat."
   },
   "ui": {
     "firstNight": "Erste Nacht",
