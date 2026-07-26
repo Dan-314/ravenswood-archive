@@ -569,7 +569,7 @@
     },
     "lycanthrope": {
       "ability": "Varje natt* väljer du en levande spelare; om hen är god dör hen & Demonen dödar inte inatt. En god spelare registreras som ond.",
-      "flavor": "Bakom civilisationens tunna fernissa döljer sig ett ylande vanvett.",
+      "flavor": "Bakom civilisationens tunna fernissa döljer sig ett avgrundsdjupt vanvett.",
       "name": "Lykantropen",
       "other": "Lykantropen väljer en spelare. :reminder:"
     },
@@ -782,7 +782,7 @@
     },
     "recluse": {
       "ability": "Du kanske registreras som ond & som Kumpan eller Demon, även om du är död.",
-      "flavor": "Di va’na förbasta åhäver å kom’ å nada på marska mi. Ska fan te å skrata eft’er! Kas! Ja dreter i döbler ja å di gör bäst di i å höll se hissed frå tôfta mi. Kas, sa ja!",
+      "flavor": "Di va’na förbasta åhäver å kom’ å nada hänne på marska mi. Ska fan te å skrata eft’er sörbor! Kas! Ja dreter i döbler ja å di ula skrömsla hissed fra tôfta mi. Kas, saja!",
       "name": "Enstöringen"
     },
     "revolutionary": {

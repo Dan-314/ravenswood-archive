@@ -1332,7 +1332,7 @@
   "ui": {
     "firstNight": "Eka Yö",
     "otherNights": "Muut Yöt",
-    "players": "Pelaajat",
+    "players": "Pelaajalle",
     "notFirstNight": "* Ei ekana yönä"
   }
 }
