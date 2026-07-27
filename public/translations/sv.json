@@ -39,7 +39,7 @@
     "apprentice": {
       "ability": "Din första natt får du en Bybos förmåga (om du är god) eller en Kumpans (om du är ond).",
       "first": "Visa Lärlingen kortet *DU ÄR* och en Bybos eller Kumpans rollbricka. Byt ut Lärlingsbrickan mot den nya rollbrickan. :reminder:",
-      "flavor": "Många år har jag vandrat och studerat hantverket. Vilket hantverk? Bara det enkla folkets. Inget att oroa sig för. Inte än.",
+      "flavor": "Många år har jag vandrat och studerat hantverket. Vilket hantverk? Bara det enkla folkets. Inget att bekymra sig över. Inte än.",
       "name": "Lärlingen"
     },
     "artist": {
@@ -55,7 +55,7 @@
     },
     "atheist": {
       "ability": "Berättaren kan bryta mot reglerna, och om hen avrättas vinner goda laget, även om du är död. [Inga onda roller]",
-      "flavor": "Nu lägger vi ifrån oss allt onödigt gissande och larvig paranoia. Det finns en fullständigt logisk förklaring till allt. Ja, kanske är det så att en tekopp kretsar kring planeten, för liten att se, men jag dricker hellre mitt te från det högst verkliga porslinet i mina högst verkliga händer.",
+      "flavor": "Nu lägger vi ifrån oss allt onödigt gissande och larvig paranoia. Det finns en fullständigt logisk förklaring till allt. Ja, kanske är det så att en tekopp kretsar kring planeten, för liten för att se, men jag dricker hellre mitt te från det högst verkliga porslinet i mina högst verkliga händer.",
       "name": "Ateisten"
     },
     "balloonist": {
@@ -80,7 +80,7 @@
     "barista": {
       "ability": "Varje natt, fram till skymningen, 1) blir en spelare frisk, nykter & får sann info, eller 2) dubblerar sin förmåga. Hen får veta vilket.",
       "first": "Välj en spelare. Väck hen, visa kortet *DU PÅVERKAS AV* & Baristans rollbricka, och ge en fingersignal. :reminder:",
-      "flavor": "Kaffe utan grädde? Jag är hemskt ledsen, men vi har slut på grädde – går det bra utan mjölk istället?",
+      "flavor": "Kaffe utan grädde, monsieur? Jag är hemskt ledsen, men vi har slut på grädde – går det bra utan mjölk istället?",
       "name": "Baristan",
       "other": "Välj en spelare. Väck hen, visa kortet *DU PÅVERKAS AV* & Baristans rollbricka, och ge en fingersignal. :reminder:"
     },
@@ -569,7 +569,7 @@
     },
     "lycanthrope": {
       "ability": "Varje natt* väljer du en levande spelare; om hen är god dör hen & Demonen dödar inte inatt. En god spelare registreras som ond.",
-      "flavor": "Bakom civilisationens tunna fernissa döljer sig ett avgrundsdjupt vanvett.",
+      "flavor": "Bakom civilisationens tunna fernissa döljer sig ett bottenlöst vanvett.",
       "name": "Lykantropen",
       "other": "Lykantropen väljer en spelare. :reminder:"
     },
@@ -782,7 +782,7 @@
     },
     "recluse": {
       "ability": "Du kanske registreras som ond & som Kumpan eller Demon, även om du är död.",
-      "flavor": "Di va’na förbasta åhäver å kom’ å nada hänne på marska mi. Ska fan te å skrata eft’er sörbor! Kas! Ja dreter i döbler ja å di ula skrömsla hissed fra tôfta mi. Kas, saja!",
+      "flavor": "Di va’na föbasta åhäver å kum’ å nada hänne å marska mi. Grr. Ul fan te å skrata eft’er sörbor! Kas! I dråner bågä på me i å ula skrömsla hissed fra tôfta mi. Kas, saja!",
       "name": "Enstöringen"
     },
     "revolutionary": {
