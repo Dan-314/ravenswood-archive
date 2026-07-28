@@ -624,7 +624,7 @@
     },
     "monk": {
       "ability": "Varje natt* väljer du en spelare (inte dig själv); hen är skyddad från Demonen inatt.",
-      "flavor": "Det blåser en grym och dödlig vind inatt. Kom, broder, och ta skydd i klostret medan stormen rasar. Jag svär vid mitt liv att du är säker här.",
+      "flavor": "Det blåser en grym och dödlig vind inatt. Kom, broder, och ta skydd i klostret medan stormen rasar. Jag svär vid mitt liv att du är trygg här.",
       "name": "Munken",
       "other": "Munken väljer en spelare. :reminder:"
     },
@@ -904,7 +904,7 @@
     "summoner": {
       "ability": "Du får 3 bluffar. Natt 3 väljer du en spelare; hen blir en ond Demon som du väljer. [Ingen Demon]",
       "first": "Visa kortet *DE HÄR ROLLERNA ÄR INTE I SPEL*. Visa 3 goda rollbrickor som inte är i spel.",
-      "flavor": "Hell väktarna i nord; av mitt intellekt är ni sårade. Hell väktarna i öst; av min vilja är ni härskade. Hell väktarna i syd; av världen bortom denna är mysteriet avslöjat. Hell väktarna i väst; en sköld i mörkret.",
+      "flavor": "Hell väktarna i nord; av mitt intellekt är ni huggna. Hell väktarna i öst; av min vilja är ni härskade. Hell väktarna i syd; av världen bortom denna är mysteriet avslöjat. Hell väktarna i väst; en sköld i mörkret.",
       "name": "Åkallaren",
       "other": "Byt ut Åkallarens påminnelse till den aktuella natten. :reminder: Om det är natt 3 så väljer Åkallaren en spelare & en Demon. Söv Åkallaren. Väck den valda spelaren. Visa kortet *DU ÄR*, den valda Demonens rollbricka & tummen ner."
     },
