@@ -605,7 +605,7 @@
     "mayor": {
       "ability": "Mikäli vain 3 pelaajaa on elossa eikä ketään teloiteta, voittaa joukkueesi. Jos kuolet yöllä, saattaa joku toinen kuolla sijastasi.",
       "flavor": "Meidän on jätettävä erimielisyytemme sivuun ja lopetettava tämä järjetön tappaminen. Olemmehan kaikki veronmaksajia. No, useimmat meistä.",
-      "name": "Pormestari"
+      "name": "Oltermanni"
     },
     "mezepheles": {
       "ability": "Aloitat tietäen salaisen sanan. 1. hyvä pelaaja joka tämän sanan sanoo, muuttuu tulevana yönä pahaksi.",
@@ -777,8 +777,8 @@
     "ravenkeeper": {
       "ability": "Jos kuolet yöllä, heräät valitsemaan pelaajan: saat tietää tämän hahmon.",
       "flavor": "Lintuni kostavat! Lentäkää! Lentäkää, suloiset ja nöyrät lemmikkini! Kartanoon ja joelle! Kujille ja salonkeihin! Liitäkää!",
-      "name": "Korpinkesyttäjä",
-      "other": "Jos Korpinkesyttäjä kuoli yöllä, saa Korpinkesyttäjä valita pelaajan. Näytä valitun pelaajan hahmo."
+      "name": "Korppivaksi",
+      "other": "Jos Korppivaksi kuoli yöllä, saa tämä valita pelaajan. Näytä valitun pelaajan hahmo."
     },
     "recluse": {
       "ability": "Saatat näyttäytyä pahana & Kätyrinä tai Demonina, vaikka olisit kuollut.",
@@ -922,7 +922,7 @@
     "thief": {
       "ability": "Joka yö, valitse pelaaja (ei itseäsi): heidän äänensä lasketaan negatiivisena huomenna.",
       "first": "Varas valitsee pelaajan. :reminder:",
-      "flavor": "Emmä mittää tehny oo. Emmä siel kujal eile ees ollu! Pormestari Brunon salkun kaikkine hienoine paperinee vei kyll iha jokku muu. Sit paitsi se oli liian painava kannettavaks kovi pitkälle.",
+      "flavor": "Emmä mittää tehny oo. Emmä siel kujal eile ees ollu! Oltermannisen Brunon salkun kaikkine hienoine paperinee vei kyll iha jokku muu. Sit paitsi se oli liian painava kannettavaks kovi pitkälle.",
       "name": "Varas",
       "other": "Varas valitsee pelaajan. :reminder:"
     },
@@ -1277,10 +1277,10 @@
     "legion-preacher": "Jos Manaaja valitsee Leegion, tämä saa pitää kykynsä, mutta Manaaja saattaa tietää, että tämä on Leegio.",
     "legion-summoner": "Jos Leegio muodostuu, kaikki pahat pelaajat muuttuvat Leegioksi.",
     "legion-zealot": "Kiihkoilija saattaa näyttäytyä pahana Leegiolle.",
-    "leviathan-mayor": "Jos Leviatan ja Pormestari ovat elossa 5. päivänä & teloituksia ei tapahdu, hyvä voittaa.",
+    "leviathan-mayor": "Jos Leviatan ja Oltermanni ovat elossa 5. päivänä & teloituksia ei tapahdu, hyvä voittaa.",
     "leviathan-monk": "Jos Leviatan nimeää ja teloituttaa Munkin suojeleman pelaajan, hyvä voittaa.",
     "leviathan-pithag": "Leviatan ei voi tulla peliin 5. päivän jälkeen.",
-    "leviathan-ravenkeeper": "Joka yö*, Leviatan valitsee elävän hyvän pelaajan (eri kuin aiempina öinä): valittu Korpinkesyttäjä käyttää kykyään, muttei kuole.",
+    "leviathan-ravenkeeper": "Joka yö*, Leviatan valitsee elävän hyvän pelaajan (eri kuin aiempina öinä): valittu Korppivaksi käyttää kykyään, muttei kuole.",
     "leviathan-sage": "Joka yö*, Leviatan valitsee elävän hyvän pelaajan (eri kuin aiempina öinä): valittu Tietäjä käyttää kykyään, muttei kuole.",
     "leviathan-soldier": "Jos Leviatan nimeää ja teloituttaa Sotilaan, hyvä voittaa.",
     "lilmonsta-magician": "Jos Taikuri on elossa, Tarinankertoja valitsee kuka Kätyreistä hoitaa Pikku Riiviötä.",
@@ -1300,7 +1300,7 @@
     "marionette-plaguedoctor": "Jos Tarinankertoja saisi Sätkynuken kyvyn, yksi Demonin hyvistä naapureista muuttuu Sätkynukeksi.",
     "marionette-summoner": "Jos Sätkynukke on määritelty peliin, ilmestyy tämä mukaan vasta rienatun Demonin naapuriksi.",
     "mastermind-vigormortis": "Välkky jolla on kykynsä, saa pitää sen jos Puhkikuolio kuolee.",
-    "mayor-riot": "Pormestari voi pysäyttää mellakan. Jos tällöin vain 1 Mellakka on elossa, hyvä voittaa. Muuten paha voittaa.",
+    "mayor-riot": "Oltermanni voi pysäyttää mellakan. Jos tällöin vain 1 Mellakka on elossa, hyvä voittaa. Muuten paha voittaa.",
     "monk-riot": "Jos Mellakka nimeää ja teloituttaa Munkin suojeleman pelaajan, hyvä voittaa.",
     "ogre-pithag": "Jos Pata-akka muuttaa pahan pelaajan Möröksi, ei tämä voi kääntyä oman kykynsä vuoksi hyväksi.",
     "ogre-recluse": "Jos Rastuli näyttäytyy pahana Mörölle, saa Mörkö tietää olevansa paha.",
@@ -1318,7 +1318,7 @@
     "preacher-summoner": "Jos elävällä Rienaajalla ei ole kykyä, on Rienaaja-kyky Tarinankertojalla.",
     "preacher-vizier": "Jos Visiiri menettää kykynsä, hän saa tietää tästä, eikä voi kuolla päivällä.",
     "pukka-summoner": "Rienaaja voi rienata Pookan peliin 2. päivänä, 3. sijaan.",
-    "ravenkeeper-riot": "Joka yö*, Mellakka valitsee elävän hyvän pelaajan (eri kuin aiempina öinä): valittu Korpinkesyttäjä käyttää kykyään, muttei kuole.",
+    "ravenkeeper-riot": "Joka yö*, Mellakka valitsee elävän hyvän pelaajan (eri kuin aiempina öinä): valittu Korppivaksi käyttää kykyään, muttei kuole.",
     "recluse-sage": "Rastuli saattaa näyttäytyä Demonina Tietäjälle.",
     "riot-sage": "Joka yö*, Mellakka valitsee elävän hyvän pelaajan (eri kuin aiempina öinä): valittu Tietäjä käyttää kykyään, muttei kuole.",
     "riot-soldier": "Jos Mellakka nimeää ja teloituttaa Sotilaan, hyvä voittaa.",
