@@ -221,7 +221,7 @@
     "deusexfiasco": {
       "ability": "Przynajmniej raz w tej grze Bajarz popełni błąd, poprawi go i ogłosi to publicznie.",
       "flavor": "To nie błąd, to funkcja. To nie usterka, tylko poprawka. To nie jest zepsute, to po prostu tak ma.",
-      "name": "Boska Katastrofa"
+      "name": "Deus ex Fiasco"
     },
     "deviant": {
       "ability": "Jeżeli dzisiaj byłeś zabawny, to nie można cię wygnać.",
@@ -392,7 +392,7 @@
     },
     "golem": {
       "ability": "Możesz nominować tylko raz na grę. Jeżeli nominowana przez ciebie osoba nie jest Demonem, umiera.",
-      "flavor": "Golem pomóc? Golem roztrzaskać! Golem pomóc.",
+      "flavor": "Golem pomaga? Golem trach! Golem pomaga.",
       "name": "Golem"
     },
     "goon": {
@@ -427,7 +427,7 @@
     "harpy": {
       "ability": "Każdej nocy wybierz 2 graczy: jutro, pierwszy gracz ma obsesję, że drugi jest zły, inaczej jeden z nich lub oboje mogą umrzeć.",
       "first": "Harpia wybiera dwóch graczy. :reminder: :reminder: Uśpij Harpię. Obudź pierwszego gracza, pokaż mu kartę *TA POSTAĆ CIĘ WYBRAŁA* i żeton Harpii, a następnie wskaż na drugiego gracza.",
-      "flavor": "Tak piękny dzień nie zdarzył się przede mną, lecz cień plugawy wisi dziś nade mną.",
+      "flavor": "Dnia tak pięknego nie miałem jeszcze, lecz duch szpetny i pierzasty powoduje u mnie dreszcze.",
       "name": "Harpia",
       "other": "Harpia wybiera dwóch graczy. :reminder: :reminder: Uśpij Harpię. Obudź pierwszego gracza, pokaż mu kartę *TA POSTAĆ CIĘ WYBRAŁA* i żeton Harpii, a następnie wskaż na drugiego gracza."
     },

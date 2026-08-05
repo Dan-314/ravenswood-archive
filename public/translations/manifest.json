@@ -1,5 +1,11 @@
 [
   {
+    "code": "ca",
+    "name": "Catalan",
+    "nativeName": "Catalan",
+    "completion": 100
+  },
+  {
     "code": "da",
     "name": "Danish",
     "nativeName": "Dansk",
