@@ -193,7 +193,7 @@
     "courtier": {
       "ability": "Raz na grę, w nocy, wybierz postać: jest ona pijana przez 3 dni i 3 noce.",
       "first": "Dworzanin może wybrać postać. :reminder: :reminder:",
-      "flavor": "Bardziej się boję armii stu owiec przewodzonej przez jednego lwa, niż armii stu lwów przewodzonej przez jedną owcę.",
+      "flavor": "Bardziej obawiałbym się armii stu owiec dowodzonej przez lwa niż armii stu lwów dowodzonej przez owcę.",
       "name": "Dworzanin",
       "other": "Dworzanin może wybrać postać. :reminder: :reminder:"
     },
@@ -288,7 +288,7 @@
       "name": "Zły Bliźniak"
     },
     "exorcist": {
-      "ability": "Każdej nocy* wybierz gracza (innego niż poprzedniej nocy): Demon, jeżeli wybrany, dowiaduje się o nim i nie budzi się tej nocy.",
+      "ability": "Każdej nocy* wybierz gracza (innego niż poprzedniej nocy). Jeśli wybierzesz demona, to dowiaduje się on, kim jesteś, po czym nie budzi się tej nocy.",
       "flavor": "Wypędzamy was, wszelkiego ducha nieczystego, wszelką moc szatańską, każdy napór piekielnego przeciwnika, każdy legion, każdą diabelską sektę i zgromadzenie, w imię i mocą Pana naszego, Jezusa Chrystusa. Rozkazujemy wam, odejdźcie i uchodźcie daleko od Kościoła Bożego, od dusz stworzonych przez Boga na Jego obraz i odkupionych drogocenną krwią Boskiego Baranka.",
       "name": "Egzorcysta",
       "other": "Egzorcysta wybiera gracza. :reminder: Uśpij Egzorcystę. Jeżeli Egzorcysta wybrał Demona: Obudź Demona. Pokaż mu kartę *TA POSTAĆ CIĘ WYBRAŁA* i żeton Egzorcysty. Wskaż Egzorcystę."

@@ -2,14 +2,14 @@
   "roles": {
     "acrobat": {
       "ability": "Cada nit,* tria un jugador: si està (o es torna) borratxo o emmetzinat aquesta nit, mors.",
-      "flavor": "Senyores i senyors, subjecteu-vos bé els barrets, perquè desafiaré les mateixes lleis de la gravetat i dansaré per l’aire, en una exhibició prodigiosa d’agilitat i audàcia, tot per al vostre gaudi i admiració!",
+      "flavor": "Senyores i senyors, agafeu-vos bé els barrets, perquè desafiaré les lleis de la gravetat i dansaré per l’aire: una meravella d’agilitat i gosadia, tot per al vostre gaudi i admiració!",
       "name": "Acròbata",
       "other": "L’Acròbata tria un jugador. :reminder:"
     },
     "alchemist": {
       "ability": "Tens l’habilitat d’un sequaç. Quan l’utilitzis, el narrador pot demanar-te que triïs de manera diferent.",
       "first": "Mostra la targeta *TU ETS* i la fitxa de sequaç.",
-      "flavor": "Visita l’interior de la terra; rectificant, trobaràs la pedra oculta. Damunt de l’or, jeu el roig. Keter dins de Malkuth.",
+      "flavor": "Visita l’interior de la terra. Rectificant, trobaràs la pedra oculta. Damunt de l’or jeu el roig. Kéter dins de Malkuth.",
       "name": "Alquimista"
     },
     "alhadikhia": {
@@ -1333,6 +1333,6 @@
     "firstNight": "Primera nit",
     "otherNights": "Altres nits",
     "players": "Jugadors",
-    "notFirstNight": "*Excepte la primera nit"
+    "notFirstNight": "*No la primera nit"
   }
 }
