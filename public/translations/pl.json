@@ -568,7 +568,7 @@
       "other": "Zrób wszystko co trzeba, aby zasymulować działanie Demona. Uśpij Szaleńca. Obudź Demona. Pokaż żeton Szaleńca i wskaż go, następnie wskaż cele, które wybrał."
     },
     "lycanthrope": {
-      "ability": "Każdej nocy* wybierz żywego gracza. Jeżeli jest dobry to umiera, a Demon nie zabija tej nocy. Jeden z dobrych graczy pokazuje się jako zły.",
+      "ability": "Każdej nocy* wybierz żywego gracza. Jeżeli jest dobry - umiera, a Demon nie zabija tej nocy. Jeden z dobrych graczy pokazuje się jako zły.",
       "flavor": "Tuż pod cienką warstwą cywilizacji czai się dzikie, wyjące szaleństwo.",
       "name": "Wilkołak",
       "other": "Wilkołak wybiera gracza. :reminder:"
