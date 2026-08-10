@@ -230,10 +230,10 @@
     },
     "devilsadvocate": {
       "ability": "Joka yö, valitse elävä pelaaja (eri kuin viime yönä): tämä ei kuole, jos tulee huomenna teloitetuksi.",
-      "first": "Poleemikko valitsee elävän pelaajan. :reminder:",
+      "first": "Paholaisen Asianajaja valitsee elävän pelaajan. :reminder:",
       "flavor": "Jos vastalause hylätään, asiakkaani vetoaa syyttömyyteensä, koska syyttäjä ei ole noudattanut lakia 27.B – verbin virheellinen tai harhaanjohtava taivutus. Se, että yhdeksän valamiehistön jäsentä kuoli eilisyönä, on vain 'prima facie', mikä on, kuten Wills vs. Thule loi ennakkotapauksena, lisäsyy vapautukseen.",
-      "name": "Poleemikko",
-      "other": "Poleemikko valitsee elävän pelaajan. :reminder:"
+      "name": "Paholaisen Asianajaja",
+      "other": "Paholaisen Asianajaja valitsee elävän pelaajan. :reminder:"
     },
     "djinn": {
       "ability": "Käytä Djinnin erikoissääntöä. Kaikki tietävät, mikä se on.",
@@ -917,7 +917,7 @@
     "tealady": {
       "ability": "Jos molemmat elävät naapurisi ovat hyviä, eivät he voi kuolla.",
       "flavor": "Jos sinulla on kylmä, tee lämmittää. Jos olet liian kiihtynyt, tee viilentää. Jos sinua masentaa, tee piristää. Jos olet innoissasi, tee rauhoittaa.",
-      "name": "Teerouva"
+      "name": "Teetäti"
     },
     "thief": {
       "ability": "Joka yö, valitse pelaaja (ei itseäsi): heidän äänensä lasketaan negatiivisena huomenna.",
