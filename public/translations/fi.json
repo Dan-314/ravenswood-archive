@@ -45,7 +45,7 @@
     "artist": {
       "ability": "Kerran pelissä, päivän aikana, voit yksityisesti kysyä Kertojalta minkä tahansa kyllä/ei -kysymyksen.",
       "flavor": "Mon Dieu! C'est lumineux! Luomukseni, hän on... kuinka se sanotaan... Magnifique! Dieu est révélé! Oui.",
-      "name": "Taiteilija"
+      "name": "Artisti"
     },
     "assassin": {
       "ability": "Kerran pelissä, yöllä*, valitse pelaaja: tämä kuolee, vaikka jostain syystä ei muuten voisi.",
@@ -777,8 +777,8 @@
     "ravenkeeper": {
       "ability": "Jos kuolet yöllä, heräät valitsemaan pelaajan: saat tietää tämän hahmon.",
       "flavor": "Lintuni kostavat! Lentäkää! Lentäkää, suloiset ja nöyrät lemmikkini! Kartanoon ja joelle! Kujille ja salonkeihin! Liitäkää!",
-      "name": "Korppivaksi",
-      "other": "Jos Korppivaksi kuoli yöllä, saa tämä valita pelaajan. Näytä valitun pelaajan hahmo."
+      "name": "Korpinkaitsija",
+      "other": "Jos Korpinkaitsija kuoli yöllä, saa tämä valita pelaajan. Näytä valitun pelaajan hahmo."
     },
     "recluse": {
       "ability": "Saatat näyttäytyä pahana & Kätyrinä tai Demonina, vaikka olisit kuollut.",
@@ -1280,7 +1280,7 @@
     "leviathan-mayor": "Jos Leviatan ja Oltermanni ovat elossa 5. päivänä & teloituksia ei tapahdu, hyvä voittaa.",
     "leviathan-monk": "Jos Leviatan nimeää ja teloituttaa Munkin suojeleman pelaajan, hyvä voittaa.",
     "leviathan-pithag": "Leviatan ei voi tulla peliin 5. päivän jälkeen.",
-    "leviathan-ravenkeeper": "Joka yö*, Leviatan valitsee elävän hyvän pelaajan (eri kuin aiempina öinä): valittu Korppivaksi käyttää kykyään, muttei kuole.",
+    "leviathan-ravenkeeper": "Joka yö*, Leviatan valitsee elävän hyvän pelaajan (eri kuin aiempina öinä): valittu Korpinkaitsija käyttää kykyään, muttei kuole.",
     "leviathan-sage": "Joka yö*, Leviatan valitsee elävän hyvän pelaajan (eri kuin aiempina öinä): valittu Tietäjä käyttää kykyään, muttei kuole.",
     "leviathan-soldier": "Jos Leviatan nimeää ja teloituttaa Sotilaan, hyvä voittaa.",
     "lilmonsta-magician": "Jos Taikuri on elossa, Tarinankertoja valitsee kuka Kätyreistä hoitaa Pikku Riiviötä.",
@@ -1318,7 +1318,7 @@
     "preacher-summoner": "Jos elävällä Rienaajalla ei ole kykyä, on Rienaaja-kyky Tarinankertojalla.",
     "preacher-vizier": "Jos Visiiri menettää kykynsä, hän saa tietää tästä, eikä voi kuolla päivällä.",
     "pukka-summoner": "Rienaaja voi rienata Pookan peliin 2. päivänä, 3. sijaan.",
-    "ravenkeeper-riot": "Joka yö*, Mellakka valitsee elävän hyvän pelaajan (eri kuin aiempina öinä): valittu Korppivaksi käyttää kykyään, muttei kuole.",
+    "ravenkeeper-riot": "Joka yö*, Mellakka valitsee elävän hyvän pelaajan (eri kuin aiempina öinä): valittu Korpinkaitsija käyttää kykyään, muttei kuole.",
     "recluse-sage": "Rastuli saattaa näyttäytyä Demonina Tietäjälle.",
     "riot-sage": "Joka yö*, Mellakka valitsee elävän hyvän pelaajan (eri kuin aiempina öinä): valittu Tietäjä käyttää kykyään, muttei kuole.",
     "riot-soldier": "Jos Mellakka nimeää ja teloituttaa Sotilaan, hyvä voittaa.",
