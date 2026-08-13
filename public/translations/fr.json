@@ -461,7 +461,7 @@
     },
     "huntsman": {
       "ability": "Une fois par partie, la nuit, choisissez un joueur en vie : si c’est la Demoiselle, elle devient un Villageois pas en jeu. [+ Demoiselle]",
-      "first": "Le Chasseur peut choisir un joueur. :reminder: S’il a choisi la Demoiselle : le Chasseur se rendort. Réveillez «La Demoiselle» Montrez-lui la tuile *VOUS ÊTES* et son nouveau jeton de rôle",
+      "first": "Le Chasseur peut choisir un joueur. :reminder: S'il a choisi la Demoiselle : endormez le Chasseur. Réveillez la cible. Montrez le jeton d'information *VOUS ÊTES* et son nouveau jeton de rôle.",
       "flavor": "Ma hutte est chaude et robuste. Voyez ma hache à la porte, mes bottes qui sèchent au coin du feu, et ce petit ragoût d’élan qui mijote… Écoutez ! Un cri dans la vallée ! La pluie, la boue et le vent glacial masquent l’odeur des loups, mais je connais tous les sentiers de cette forêt. J'arrive.",
       "name": "Chasseur",
       "other": "Le Chasseur peut choisir un joueur. :reminder: S’il a choisi la Demoiselle : le Chasseur se rendort. Réveillez «La Demoiselle». Montrez-lui la tuile *VOUS ÊTES* et son nouveau jeton de rôle."
@@ -1080,6 +1080,10 @@
     "godofug": {
       "ability": "Un chapeau Ug. Quand porter chapeau Ug, parler un son à la fois mais voter deux fois. Si échouer, passer chapeau Ug.",
       "flavor": "Bénis soient mes enfants, car ils voient la beauté dans les choses simples."
+    },
+    "knaves": {
+      "ability": "Il y a 2 Conteurs : l’un ment et l’autre dit la vérité. Une fois par partie, au crépuscule, ils peuvent échanger.",
+      "flavor": "Chaque mur est une porte. Chaque repas est un festin."
     }
   },
   "teams": {

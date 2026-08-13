@@ -453,7 +453,7 @@
       "name": "Erakko"
     },
     "highpriestess": {
-      "ability": "Joka yö, saat tietää kenelle kannattaisi Tarinankertojan mielestä puhua pikimmiten.",
+      "ability": "Joka yö, saat tietää kenen kanssa sinun kannattaisi Tarinankertojan mielestä jutella.",
       "first": "Osoita pelaajaa.",
       "flavor": "Naamioita luonteenaan käyttävän persoonan taakse piiloutuu elämää. On aikoja, jolloin elämä riisuu naamiot ja perimmäiset vastaukset syvällisyyteen.",
       "name": "Ylipapitar",
