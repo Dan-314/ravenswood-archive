@@ -964,7 +964,8 @@
     "minion": "Håndlangere",
     "outsider": "Fremmede",
     "townsfolk": "Landsbyboere",
-    "traveller": "Rejsende"
+    "traveller": "Rejsende",
+    "loric": "Loric"
   },
   "nightMarkers": {
     "dawn": "Daggry",

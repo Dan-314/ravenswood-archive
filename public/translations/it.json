@@ -1323,7 +1323,11 @@
     "riot-sage": "Ogni notte*, la Rivolta sceglie un giocatore buono vivo (diverso dalle notti precedenti): un Saggio scelto usa la sua abilità ma non muore.",
     "riot-soldier": "Se la Rivolta accusa e fa giustiziare il Soldato, i buoni vincono.",
     "summoner-zombuul": "Se l'Evocatore trasforma un giocatore morto nello Zombuul, lo Zombuul è già \"morto una volta\".",
-    "vizier-zealot": "Il Fanatico potrebbe apparire come malvagio al Visir."
+    "vizier-zealot": "Il Fanatico potrebbe apparire come malvagio al Visir.",
+    "drunk-mathematician": "Il Matematico scopre se l'abilità dell'Ubriaco ha prodotto informazioni false o non ha funzionato correttamente.",
+    "legion-magician": "Se il Mago è in gioco, durante la fase delle informazioni del Demone, i membri della Legione si svegliano in gruppi separati. Ogni gruppo scopre quali giocatori sono Buoni, ma non scopre chi è il Mago.",
+    "lunatic-mathematician": "Il Matematico scopre se il Lunatico ha attaccato un giocatore diverso da quello attaccato dal vero Demone.",
+    "marionette-mathematician": "Il Matematico scopre se l'abilità della Marionetta ha fornito informazioni false o non ha funzionato correttamente."
   },
   "ui": {
     "firstNight": "Prima notte",
