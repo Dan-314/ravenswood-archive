@@ -13,7 +13,7 @@
       "name": "Alchemist"
     },
     "alhadikhia": {
-      "ability": "Mỗi đêm*, bạn có thể chọn 3 người (mọi biết là những ai): mỗi người bí mật chọn được sống hay chết, nhưng nếu tất cả sống, tất cả chết.",
+      "ability": "Mỗi đêm*, bạn có thể chọn 3 người (mọi người biết là ai): mỗi người bí mật chọn được sống hay chết, nhưng nếu tất cả sống, tất cả chết.",
       "flavor": "Alsukut min dhahab.",
       "name": "Al-Hadikhia",
       "other": "Al-Hadikhia chọn 3 người. :reminder: :reminder: :reminder: Lần lượt gọi từng mục tiêu. Họ gật hoặc lắc đầu. Cho họ ngủ rồi gọi mục tiêu tiếp theo."
@@ -24,7 +24,7 @@
       "name": "Alsaahir"
     },
     "amnesiac": {
-      "ability": "Bạn không biết bạn có năng lực gì. Mỗi ngày, bí mật đoán nó là gì: bạn biết độ chính xác của suy đoán đó.",
+      "ability": "Bạn không biết bạn có năng lực gì. Mỗi ngày, bí mật đoán nó là gì: bạn biết độ chính xác của bạn.",
       "first": "Làm cái gì đó để dùng cho năng lực của Amnesiac.",
       "flavor": "Khoan. Ủa. Từ từ? À, ok. Ủa. Khoan?",
       "name": "Amnesiac",
@@ -43,7 +43,7 @@
       "name": "Apprentice"
     },
     "artist": {
-      "ability": "Một lần trong trò chơi, trong ngày, bí mật hỏi Người kể chuyện bất kỳ câu hỏi đúng/sai.",
+      "ability": "Một lần trong trò chơi, trong ngày, bí mật hỏi Người kể chuyện một câu hỏi đúng/sai bất kỳ.",
       "flavor": "Mon Dieu! C'est lumineux! Tác phẩm của tôi, cổ ấy... phải nói thể nào... Thât Lộng lẫy! Dieu est révélé! Oui.",
       "name": "Artist"
     },
@@ -198,14 +198,14 @@
       "other": "Courtier có thể chọn một nhân vật. :reminder: :reminder:"
     },
     "cultleader": {
-      "ability": "Mỗi đêm, bạn trờ thành phe của một hàng xóm còn sống. Nếu tất cả người tốt theo giáo hội của bạn, đội của bạn thắng.",
+      "ability": "Mỗi đêm, bạn trờ thành phe của một hàng xóm còn sống. Nếu tất cả người tốt theo giáo hội của bạn, phe của bạn thắng.",
       "first": "Cult Leader có thể đổi phe. Nếu vậy, cho xem token *BẠN LÀ* & giơ ngón cái lên hoặc xuống.",
       "flavor": "Họ tự nghĩ mình khôn rồi khắc họ sẽ tự biến thành thằng ngốc.",
       "name": "Cult Leader",
       "other": "Cult Leader có thể đổi phe. Nếu vậy, cho xem token *BẠN LÀ* & giơ ngón cái lên hoặc xuống."
     },
     "damsel": {
-      "ability": "Tất cả Tay sai biết có Damsel trong trò chơi. Nếu một Tay sai công khai đoán bạn (một lần), đội của bạn thua.",
+      "ability": "Tất cả Tay sai biết có Damsel trong trò chơi. Nếu một Tay sai công khai đoán bạn (một lần), phe của bạn thua.",
       "first": "Trong Thông tin Tay sai, cho Tay sai xem token Damsel. Nếu bạn chưa làm điều này, làm vậy ngay. Nếu Damsel được chọn bởi Huntsman, cho xem token *BẠN LÀ* & nhân vật mới của họ.",
       "flavor": "Đừng chạm vào tóc chị nhé em.",
       "name": "Damsel",
@@ -258,7 +258,7 @@
       "name": "Drunk"
     },
     "duchess": {
-      "ability": "Mỗi ngày, 3 người có thể được thăm bạn. Trong đêm*, mỗi khách thăm được biết bao nhiêu vị khách là người xấu, nhưng 1 trong số đó nhận thông tin sai.",
+      "ability": "Mỗi ngày, 3 người có thể đến thăm bạn. Trong đêm*, mỗi vị khách được biết bao nhiêu vị khách là người xấu, nhưng 1 trong số đó nhận thông tin sai.",
       "flavor": "Tôi chỉ tiếp đón trong khoảng thời gian chính xác từ 6 đến 7 giờ. Trà tiếp lúc 6h15. Bánh kẹo lúc 6h45. Đừng đến muộn. Trang phục vẫn phải lịch sự như thường lệ.",
       "name": "Duchess",
       "other": "Từng người một: Gọi từng người được đánh dấu *ĐẾN THĂM* hoặc *THÔNG TIN SAI*. Cho xem token *NHÂN VẬT NÀY CHỌN BẠN* & Duchess, rồi giơ một số."
@@ -275,7 +275,7 @@
       "other": "Giơ một số."
     },
     "engineer": {
-      "ability": "Một lần trong trò chơi, trong đêm, chọn những Tay sai nào hoặc Ác quỷ nào có trong trò chơi.",
+      "ability": "Một lần trong trò chơi, trong đêm, chọn những Tay sai hoặc Ác quỷ nào có trong trò chơi.",
       "first": "Engineer có thể chọn những Tay sai hoặc Ác quỷ. Cho Engineer đi ngủ. Lần lượt gọi (những) mục tiêu dậy. Cho xem token *BẠN LÀ* & nhân vật mới của họ. :reminder:",
       "flavor": "Nếu nó cong, được. Nếu nó gãy, thực ra nó thể nào cũng cần phải sửa thôi.",
       "name": "Engineer",
@@ -288,13 +288,13 @@
       "name": "Evil Twin"
     },
     "exorcist": {
-      "ability": "Mỗi đêm*, chọn một người (khác đêm trước): Ác quỷ, nếu được chọn, biết bạn là ai rồi không được dậy nữa.",
+      "ability": "Mỗi đêm*, chọn một người (khác đêm trước): Ác quỷ, nếu được chọn, biết bạn là ai rồi không được dậy vào đêm nay.",
       "flavor": "Ta sẽ khiến ngươi rời đi, những linh hồn tà ác, những thế lực ác quỷ, những cuộc tấn công từ địa ngục, những đội quân, những giáo hội ác độc, trong tên và bằng sức mạnh của Chúa Jesus. Ta ra lệnh cho ngươi, hãy biến đi và bay xa khỏi Nhà thời của Chúa, khỏi những linh hồn tạo bởi Chúa và chuộc lại bằng máu của Cừu thần thánh.",
       "name": "Exorcist",
       "other": "Exorcist chọn một người. :reminder: Cho Exorcist đi ngủ. Nếu Exorcist chọn Ác quỷ: Gọi Ác quỷ dậy. Cho xem token *NHÂN VẬT NÀY CHỌN BẠN* & nhân vật Exorcist. Chỉ vào Exorcist."
     },
     "fanggu": {
-      "ability": "Mỗi đêm*, chọn một người: họ chết. Ngoại lai đầu tiên nhân vật này giết biến thành Fang Gu & bạn chết thay họ. [+1 Ngoại lai]",
+      "ability": "Mỗi đêm*, chọn một người: họ chết. Ngoại lai đầu tiên nhân vật này giết biến thành Fang Gu xấu & bạn chết thay họ. [+1 Ngoại lai]",
       "flavor": "Bức tường và vũ khí của các ngươi cũng chỉ là làn khói trong giấc mơ thôi.",
       "name": "Fang Gu",
       "other": "Fang Gu chọn một người. :reminder: Nếu họ chọn Ngoại lai (chỉ một lần): Thay thế token Ngoại lai đó với token Fang Gu còn lại. Cho Fang Gu đi ngủ. Gọi mục tiêu dậy. Cho xem token *BẠN LÀ* và Fang Gu & giơ ngón cái xuống. :reminder:"
@@ -306,7 +306,7 @@
       "other": "Nếu Farmer chết tối nay, gọi một người tốt còn sống dậy. Cho xem token *BẠN LÀ* và token Farmer."
     },
     "fearmonger": {
-      "ability": "Mỗi đêm, chọn một người: nếu bạn biểu quyết & hành quyết họ, đội của họ thua. Tất cả người chơi biết khi bạn chọn một người mới.",
+      "ability": "Mỗi đêm, chọn một người: nếu bạn biểu quyết & hành quyết họ, phe của họ thua. Tất cả người chơi biết khi bạn chọn một người mới.",
       "first": "Fearmonger chọn một người. :reminder: Thông báo rằng Fearmonger đã chọn một người.",
       "flavor": "Cẩn thận khi nhìn chằm vào Đáy vực, kẻo Đáy vực cũng sẽ nhìn chằm vào ngươi.",
       "name": "Fearmonger",
@@ -328,7 +328,7 @@
       "name": "Fiddler"
     },
     "fisherman": {
-      "ability": "Một lần trong trò chơi, trong ngày, gặp Người kể chuyện để được nhận vài lời khuyên để giúp đội của bạn thắng.",
+      "ability": "Một lần trong trò chơi, trong ngày, gặp Người kể chuyện để được nhận vài lời khuyên để giúp phe của bạn thắng.",
       "flavor": "Đây là phần sông ta thích nhất... thấy ánh nắng tạo thành cầu vồng từ tu viện đến phiên chợ không? Đây là nơi tuyệt nhất để bắt cá lớn. Và ta càng già, cá càng lớn.",
       "name": "Fisherman"
     },
@@ -379,7 +379,7 @@
       "name": "Gnome"
     },
     "goblin": {
-      "ability": "Nếu bạn công khai nhận là Goblin khi bị biểu quyết & bị hành quyết hôm đó, đội của bạn thắng.",
+      "ability": "Nếu bạn công khai nhận là Goblin khi bị biểu quyết & bị hành quyết hôm đó, phe của bạn thắng.",
       "flavor": "Ngươi không được xúc phạm yêu tinh. Ngươi thật sự không nên làm vậy. Mà đổi sang chủ để mới... ngươi có thể cho ta xin miếng bánh khác không?",
       "name": "Goblin"
     },
@@ -401,7 +401,7 @@
       "name": "Goon"
     },
     "gossip": {
-      "ability": "Mỗi ngày, bạn có thể đưa ra mệnh đề công khai. Tối nay, nếu nó đúng, một người chết.",
+      "ability": "Mỗi ngày, bạn có thể công khai đưa ra một mệnh đề. Tối nay, nếu nó đúng, một người chết.",
       "flavor": "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah. Blah.",
       "name": "Gossip",
       "other": "Nếu Gossip phải giết một người, họ chết. :reminder:"
@@ -425,7 +425,7 @@
       "other": "Harlot chọn một người sống. Cho Harlot đi ngủ. Gọi người được chọn dậy, cho ho xem token *NHÂN VẬT NÀY CHỌN BẠN*, và token Harlot. Nếu người đó gật đầu, gọi Harlor dậy và cho họ thấy token nhân vật của người được chọn. Cả hai người có thể chết. :reminder: :reminder:"
     },
     "harpy": {
-      "ability": "Mỗi đêm, chọn 2 người: sáng mai, người đầu tiên phải điên rằng người thứ hai là người xấu, hoặc một hoặc cả hai bạn chết.",
+      "ability": "Mỗi đêm, chọn 2 người: sáng mai, người thứ nhất phải điên rằng người thứ hai là người xấu, hoặc một hoặc cả hai chết.",
       "first": "Harpy chọn 2 người. :reminder: :reminder: Cho Harpy đi ngủ. Gọi mục tiêu đầu tiên dậy. Cho xem token *NHÂN VẬT NÀY CHỌN BẠN*, token Harpy, và chỉ vào mục tiêu thứ hai.",
       "flavor": "Một ngày yên bình mà ta không bao giờ thấy, cũng như một ngày không có kẻ nào ở trên đầu ta.",
       "name": "Harpy",
@@ -510,7 +510,7 @@
       "other": "Nếu số người chết bằng hoặc nhiều hơn số người còn sống, cho xem token nhân vật của một người còn sống."
     },
     "klutz": {
-      "ability": "Khi bạn biết được bạn đã chết, công khai chọn một người sống: nếu họ là người xấu, đội của bạn thua.",
+      "ability": "Khi bạn biết được bạn đã chết, công khai chọn một người sống: nếu họ là người xấu, phe của bạn thua.",
       "flavor": "Ôi không.",
       "name": "Klutz"
     },
@@ -727,7 +727,7 @@
       "other": "Poisoner chọn một người chơi. :reminder:"
     },
     "politician": {
-      "ability": "Nếu bạn là người chơi gây ảnh hưởng nhiều nhất dẫn đến đội bạn thua, bạn đổi phe & thắng, kể cả khi bạn chết.",
+      "ability": "Nếu bạn là người chơi gây ảnh hưởng nhiều nhất khiến phe bạn thua, bạn đổi phe & thắng, kể cả khi bạn chết.",
       "flavor": "Tôi rất vui vì bạn đã hỏi câu hỏi đó. Thật sự là vậy. Nhưng tôi nghĩ câu hỏi THỰC SỰ ở đây là...",
       "name": "Politician"
     },
@@ -815,7 +815,7 @@
       "name": "Saint"
     },
     "savant": {
-      "ability": "Mỗi ngày, bạn có thể bí mật thăm Người kể chuyện để biết 2 điều: 1 là đúng & 1 là sai.",
+      "ability": "Mỗi ngày, bạn có thể bí mật thăm Người kể chuyện để biết 2 điều: 1 đúng & 1 sai.",
       "flavor": "Bảy mươi hai que diêm trên sàn nhà... mặt trời lặn sớm nhưng mặt trăng vẫn không thay đổi... một mảnh vải rách... điều xấu xa trong dinh thự... ba que diêm... người mà chúng ta tin tưởng không phải là người như vẻ bề ngoài... ánh sáng xanh lá cây có nghĩa là magiê... cặn bã, nhưng hoa văn thì sai... Bảy mươi hai que diêm trên sàn nhà...",
       "name": "Savant"
     },
@@ -1062,12 +1062,12 @@
       "name": "Zenomancer"
     },
     "hindu": {
-      "ability": "4 người chết đầu tiên sẽ được hồi sinh làm Du khách giữ nguyên phe ngay lập tức.",
+      "ability": "4 người chết đầu tiên sẽ được hồi sinh ngay lập tức thành Du khách giữ nguyên phe.",
       "flavor": "(Tiếng Phạn) Bốn người đã chết, bốn người hồi sinh, bốn người ngay thẳng, bốn người bất tử: ||",
       "name": "Hindu"
     },
     "pope": {
-      "ability": "Có các nhân vật tốt bị trùng lặp trong trò chơi. Nó cũng có thể là nhân vật không trong ván chơi.",
+      "ability": "Có các nhân vật tốt bị trùng lặp trong ván chơi. Nó cũng có thể là nhân vật ngoài ván chơi.",
       "flavor": "...Đẹp thật.",
       "name": "Pope"
     },
@@ -1083,7 +1083,7 @@
       "name": "Ventriloquist"
     },
     "godofug": {
-      "ability": "Một mũ Ug. Khi đội mũ Ug, chỉ nói một âm một lúc và giơ hai. Nếu sai, đổi mũ Ug.",
+      "ability": "Một mũ Ug. Khi đội mũ Ug, chỉ nói một âm một lúc và giơ hai. Nếu sai, gửi mũ Ug.",
       "flavor": "Người nhận phước là con của ta, vì họ thấy vẻ đẹp từ những điều giản dị nhất.",
       "name": "God of Ug"
     },
@@ -1202,7 +1202,7 @@
     "alchemist-mastermind": "Alchemist-Mastermind không có năng lực của Mastermind & không có Mastermind trong trò chơi.",
     "alchemist-organgrinder": "Nếu Alchemist có năng lực của Organ Grinder, Organ Grinder cũng có trong trò chơi. Nếu cả hai đều tỉnh táo, cả hai sẽ bị say.",
     "alchemist-spy": "Alchemist-Spy không có năng lực của Spy và Spy có trong trò chơi. Sau mỗi hành quyết, Alchemist-Spy còn sống có thể đoán công khai một người chơi còn sống là Spy. Nếu đoán đúng, Ác quỷ phải chọn Spy vào đêm nay.",
-    "alchemist-summoner": "Alchemist-Summoner không biết được 3 nhận vật ngoài ván chơi, được chọn Ác quỷ là gì nhưng không được chọn Ác quỷ là ai. Nếu chết trước khi điều đó xảy ra, phe xấu thắng. [Không có Ác quỷ]",
+    "alchemist-summoner": "Alchemist-Summoner không biết được 3 nhận vật ngoài ván chơi, được chọn Ác quỷ là gì nhưng không được chọn Ác quỷ là ai. Nếu họ chết trước khi điều đó xảy ra, phe xấu thắng. [Không có Ác quỷ]",
     "alchemist-widow": "Alchemist-Widow không có năng lực của Widow & có Widow trong trò chơi. Sau mỗi hành quyết, Alchemist-Widow còn sống có thể đoán công khai một người chơi còn sống là Widow. Nếu đoán đúng, Ác quỷ phải chọn Widow vào đêm nay.",
     "alchemist-wraith": "Alchemist-Wraith không có năng lực của Wraith & có Wraith trong trò chơi. Sau mỗi hành quyết, Alchemist-Wraith còn sống có thể đoán công khai một người chơi còn sống là Wraith. Nếu đoán đúng, Ác quỷ phải chọn Wraith vào đêm nay.",
     "alhadikhia-mastermind": "Nếu Al-Hadikhia chết bởi hành quyết, và Mastermind còn sống, Al-Hadikhia chọn 3 người chơi phe tốt đêm nay: nếu cả 3 chọn sống, phe xấu thắng. Nếu không, phe tốt thắng.",
@@ -1303,7 +1303,7 @@
     "mayor-riot": "Mayor có thể chọn dừng sự nổi dậy (bởi Riot). Nếu họ chọn làm thế khi chỉ có một Riot còn sống, phe tốt thắng. Nếu không, phe xấu thắng.",
     "monk-riot": "Nếu Riot biểu quyết và hành quyết người chơi được bảo vệ bởi Monk, phe tốt thắng.",
     "ogre-pithag": "Nếu Pit-Hag chọn biến một người chơi phe xấu thành Ogre, họ không thể chuyển sang phe tốt bởi năng lực của họ.",
-    "ogre-recluse": "Nếu Recluse được tính là theo phe xấu đối với Ogre, Ogre sẽ biết là họ theo phe xấu.",
+    "ogre-recluse": "Nếu Recluse được tính là theo phe xấu đối với Ogre, Ogre được biết là họ theo phe xấu.",
     "ogre-spy": "Spy được tính là theo phe xấu đối với Ogre.",
     "pithag-politician": "Nếu Pit-Hag chọn biến một người chơi phe xấu thành Politician, họ không thể chuyển sang phe tốt bởi năng lực của họ.",
     "pithag-summoner": "Nếu Summoner chọn tạo ra một Ác quỷ còn sống thứ hai, ai chết đêm nay sẽ do Người kể chuyện quyết định.",
@@ -1325,8 +1325,8 @@
     "summoner-zombuul": "Nếu Summoner triệu hồi một người đã chết thành Zombuul, họ sẽ được xem như đã \"chết một lần\".",
     "vizier-zealot": "Zealot có thể được tính là phe xấu đối với Vizier.",
     "drunk-mathematician": "Mathematician biết chức năng của Drunk cho thông tin sai hoặc hoạt động bất thường.",
-    "legion-magician": "Nếu có Magician trong trò chơi, khi nhận Thông tin của Ác Quỷ, Legion được dậy thành từng khác nhau. Mỗi nhóm biết những ai là người tốt, nhưng không được biết Magician.",
-    "lunatic-mathematician": "Mathematician biết khi Lunatic tấn công người khác với người Ác Quỷ tấn công.",
+    "legion-magician": "Nếu có Magician trong trò chơi, khi nhận Thông tin của Ác Quỷ, Legion được dậy theo các nhóm khác nhau. Mỗi nhóm biết những ai là người tốt, nhưng không được biết Magician.",
+    "lunatic-mathematician": "Mathematician biết khi Lunatic tấn công người khác với người mà Ác Quỷ thật tấn công.",
     "marionette-mathematician": "Mathematician biết khi chức năng của Marionette cho thông tin sai hoặc hoạt động bất thường."
   },
   "ui": {

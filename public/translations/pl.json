@@ -13,7 +13,7 @@
       "name": "Alchemik"
     },
     "alhadikhia": {
-      "ability": "Każdej nocy* możesz wybrać 3 graczy (wszyscy gracze dowiadują się. kogo): każdy w tajemnicy decyduje, czy chce przeżyć, czy umrzeć. Jeśli wszyscy troje przeżyją, to wszyscy umierają.",
+      "ability": "Każdej nocy* możesz wybrać 3 graczy (wszyscy gracze dowiadują się, kogo): każdy w tajemnicy decyduje, czy chce przeżyć, czy umrzeć. Jeśli wszyscy troje przeżyją, to wszyscy umierają.",
       "flavor": "Alsukut min dhahab.",
       "name": "Al-Hadikhia",
       "other": "Al-Hadikhia wybiera 3 graczy. :reminder: :reminder: :reminder: Obudź każdego z wybranych graczy po kolei. Gracze mogą pokiwać lub pokręcić głową. Uśpij gracza zanim obudzisz kolejnego."
@@ -129,8 +129,8 @@
       "other": "Jeżeli gracz oznaczony jako *ZNANY* zginął tego dnia lub w nocy, wskaż nowego gracza oznaczonego jako *ZNANY*."
     },
     "buddhist": {
-      "ability": "Przez pierwsze 2 minuty każdego dnia, doświadczeni gracze nie mogą się odzywać.",
-      "first": "Ogłoś którzy gracze są pod wpływem Buddysty.",
+      "ability": "Przez pierwsze 2 minuty każdego dnia doświadczeni gracze nie mogą się odzywać.",
+      "first": "Ogłoś, którzy gracze są pod wpływem Buddysty.",
       "flavor": "Rzucasz cierniami. Opadając w mojej ciszy, stają się kwiatami.",
       "name": "Buddysta"
     },
@@ -562,7 +562,7 @@
     },
     "lunatic": {
       "ability": "Myślisz, że jesteś Demonem, ale nim nie jesteś. Demon wie, kim jesteś i dowiaduje się, kogo wybrałeś w nocy.",
-      "first": "Jeżeli gra 7 lub więcej graczy, obudź Szaleńca: pokaż kartę *TO SĄ TWOI SŁUGUSI*. Wskaż jakiś graczy. Pokaż kartę *TYCH POSTACI NIE MA W GRZE*. Pokaż 3 dobre postacie. Uśpij Szaleńca. Obudź Demona. Pokaż kartę *JESTEŚ* i żeton Demona. Pokaż kartę *TEN GRACZ JEST* i żeton Szaleńca, następnie wskaż na Szaleńca.",
+      "first": "Jeżeli gra 7 lub więcej graczy, obudź Szaleńca: pokaż kartę *TO SĄ TWOI SŁUGUSI*. Wskaż którychkolwiek graczy. Pokaż kartę *TYCH POSTACI NIE MA W GRZE*. Pokaż żetony 3 dobrych postaci. Uśpij Szaleńca. Obudź Demona. Pokaż kartę *JESTEŚ* i żeton Demona. Pokaż kartę *TEN GRACZ JEST* i żeton Szaleńca, następnie wskaż na Szaleńca.",
       "flavor": "Jestem nocą... a przynajmniej tak mi się wydaje.",
       "name": "Szaleniec",
       "other": "Zrób wszystko co trzeba, aby zasymulować działanie Demona. Uśpij Szaleńca. Obudź Demona. Pokaż żeton Szaleńca i wskaż go, następnie wskaż cele, które wybrał."
@@ -575,18 +575,18 @@
     },
     "magician": {
       "ability": "Demon myśli, że jesteś Sługusem. Sługusi myślą, że jesteś Demonem.",
-      "first": "Podczas przekazywania Informacji Sługusom wskaż Magika i Demona. Podczas przekazywania Informacji dla Demona wskaż Magika i Sługusów.",
-      "flavor": "1... 2... Abra... 3... 4... Kadabra... *puf* I jak widzicie drodzy państwo, worek złota Kapitana Farnswortha zniknął! Przepadł! Bez śladu! Dziękuję i dobranoc!",
+      "first": "Podczas przekazywania Informacji dla Sługusów wskaż Magika i Demona. Podczas przekazywania Informacji dla Demona wskaż Magika i Sługusów.",
+      "flavor": "1... 2... Abra... 3... 4... Kadabra... *puf!* I jak widzicie, drodzy państwo, worek złota Kapitana Farnswortha zniknął! Przepadł! Bez śladu! Dziękuję i dobranoc!",
       "name": "Magik"
     },
     "marionette": {
-      "ability": "Myślisz, że jesteś dobrą postacią, ale nią nie jesteś. Demon wie kim jesteś. [Sąsiadujesz z Demonem]",
+      "ability": "Myślisz, że jesteś dobrą postacią, ale nią nie jesteś. Demon wie, kim jesteś. [Sąsiadujesz z Demonem]",
       "first": "Obudź Demona. Pokaż kartę *TEN GRACZ JEST* i żeton Marionetki. Wskaż Marionetkę.",
       "flavor": "Słowa, słowa. Tylko to nam pozostało.",
       "name": "Marionetka"
     },
     "mastermind": {
-      "ability": "Jeżeli Demon umrze w wyniku egzekucji (kończąc grę), grajcie przez jeszcze 1 dzień. Jeżeli gracz zostanie poddany egzekucji, jego drużyna przegrywa.",
+      "ability": "Jeżeli Demon umrze w wyniku egzekucji (kończąc grę), grajcie przez jeszcze 1 dzień. Jeżeli tego dnia gracz zostanie poddany egzekucji, jego drużyna przegrywa.",
       "flavor": "Macki tego potwora zostały przybite do kościelnych wrót. Matki z dziećmi tańczą na ulicach. Wyśmienicie. Wszystko idzie zgodnie z moim planem.",
       "name": "Geniusz Zła"
     },
@@ -647,13 +647,13 @@
       "other": "Nocny Strażnik może wybrać gracza. Uśpij Nocnego Strażnika. Obudź cel i pokaż kartę *TEN GRACZ JEST*, żeton Nocnego Strażnika i samego Nocnego Strażnika. :reminder:"
     },
     "noble": {
-      "ability": "Zaczynasz grę znając 3 graczy, 1 i tylko 1 z nich jest zły.",
+      "ability": "Na początku gry poznajesz 3 graczy, z których 1 i tylko 1 jest zły.",
       "first": "Wskaż na trzech graczy oznaczonych *ZNANY*.",
       "flavor": "Sarkazm jest zaiste najniższą formą dowcipu. Jednak muszę Panu przypomnieć, skoro tak Pan krytykuje, że jest to nadal forma dowcipu.",
       "name": "Szlachcic"
     },
     "nodashii": {
-      "ability": "Każdej nocy* wybierz gracza: umiera. Twoi 2 sąsiedzi będący Mieszkańcem są zatruci.",
+      "ability": "Każdej nocy* wybierz gracza: umiera. Twoi 2 sąsiedzi-Mieszczanie są zatruci.",
       "flavor": "Na grzechy Arnocha, czuję twój obciążający smród. Na przeklęte słońce i jej plugawy legion małych, szyderczych bogów, deprawuję cię. Na błogą noc i ukryte głębiny straszliwego i bezbożnego morza, kończę twoje nędzne życie na tym łez padole.",
       "name": "No Dashii",
       "other": "No Dashii wybiera gracza. :reminder:"
@@ -684,19 +684,19 @@
       "other": "Kataryniarz kiwa głową, jeśli chce być pijany, albo potrząsa głową, jeśli chce być trzeźwy. :reminder:"
     },
     "pacifist": {
-      "ability": "Straceni dobrzy gracze mogą przeżyć egzekucje.",
+      "ability": "Straceni dobrzy gracze mogą przeżyć egzekucję.",
       "flavor": "Nie ufaj nikomu kto ma chęć karać wielką.",
       "name": "Pacyfista"
     },
     "philosopher": {
       "ability": "Raz na grę, w nocy, wybierz dobrą postać: otrzymujesz jej umiejętność. Jeżeli ta postać jest w grze, jest pijana.",
-      "first": "Filozof może wybrać postać. Jeżeli trzeba podmień ich żeton. :reminder:",
+      "first": "Filozof może wybrać postać. Jeżeli trzeba, podmień jego żeton. :reminder:",
       "flavor": "Jeżeli cokolwiek jest prawdziwe, to prawdziwe jest piwo. Pij, jutro możemy umrzeć.",
       "name": "Filozof",
-      "other": "Filozof może wybrać postać. Jeżeli trzeba podmień ich żeton. :reminder:"
+      "other": "Filozof może wybrać postać. Jeżeli trzeba, podmień jego żeton. :reminder:"
     },
     "pithag": {
-      "ability": "Każdej nocy* wybierz gracza i postać, którą się staje (jeżeli nie ma jej w grze). Jeżeli w ten sposób powstał Demon, śmierć tej nocy jest arbitralna.",
+      "ability": "Każdej nocy* wybierz gracza i postać, którą się staje (jeżeli nie ma jej w grze). Jeżeli w ten sposób powstał Demon, Bajarz wybiera, kto ginie tej nocy.",
       "flavor": "Czas czarodziejski taniec zawrócić; W kotła wnętrzności truciznę rzucić; Ropucho czarna, co od miesiąca; Pod zimnym głazem skryta śpiąca; Sączyłaś jady, ty na początek; Zaprawisz kotła naszego wrzątek.",
       "name": "Jędza",
       "other": "Jędza wybiera gracza i postać. Jeżeli wybranej postaci nie ma w grze: Uśpij Jędzę. Obudź cel. Pokaż kastę *JESTEŚ* i jego nowy żeton postaci."
@@ -739,15 +739,15 @@
       "other": "Jeżeli Siewca Maku umarł tego dnia lub nocy, obudź Sługusów, pokaż kartę *TO JEST DEMON* i wskaż Demona. Uśpij ich. Obudź Demona, pokaż kartę *TO SĄ TWOI SŁUGUSI* i wskaż Sługusów. Uśpij Demona."
     },
     "preacher": {
-      "ability": "Każdej nocy wybierz gracza: Sługus, jeżeli wybrany, dowiaduje się o tym. Wszystkie wybrane w ten sposób Sługusy nie mają umiejętności.",
+      "ability": "Każdej nocy wybierz gracza: jeśli wybierzesz Sługusa, dowiaduje się o tym. Wszyscy wybrani Sługusi tracą swoje umiejętności.",
       "first": "Kaznodzieja wybiera gracza. :reminder: Jeżeli wybrał Sługusa: uśpij Kaznodzieję. Obudź wybranego gracza. Pokaż kartę *TA POSTAĆ CIĘ WYBRAŁA* i żeton Kaznodziei.",
-      "flavor": "Lepszym jest być bogatym i zdrowym, niż biednym i chorym.",
+      "flavor": "Lepiej jest być bogatym i zdrowym, niż biednym i chorym.",
       "name": "Kaznodzieja",
       "other": "Kaznodzieja wybiera gracza. :reminder: Jeżeli wybrał Sługusa: uśpij Kaznodzieję. Obudź wybranego gracza. Pokaż kartę *TA POSTAĆ CIĘ WYBRAŁA* i żeton Kaznodziei."
     },
     "princess": {
-      "ability": "Pierwszego dnia, jeżeli z nominowałaś gracza i doszło do jego egzekucji, Demon nie zabija tej nocy.",
-      "flavor": "Nasze słowa są jak ogary, spętane jedwabnymi nićmi, drodzy Państwo. Niech życzliwość tka prawdę, aby nasze władanie się nie rozpruło rozdarłszy nasz dwór.",
+      "ability": "Jeżeli pierwszego dnia w grze nominowałaś gracza i doszło do jego egzekucji, Demon nie zabije tej nocy.",
+      "flavor": "Nasze słowa są jak ogary, spętane jedwabnymi nićmi, drodzy Państwo. Niech życzliwość tka z nich prawdę, aby smycze się nie rozpruły, rozdzierając nasz dwór.",
       "name": "Księżniczka",
       "other": "Jeżeli Księżniczka nominowała gracza, który został stracony tego dnia, Demon budzi się normalnie, ale nikt nie umiera w wyniku umiejętności Demona. :reminder:"
     },
@@ -758,12 +758,12 @@
       "other": "Profesor może wybrać martwego gracza. :reminder: :reminder:"
     },
     "psychopath": {
-      "ability": "Każdego dnia, przed nominacjami, możesz publicznie wybrać gracza: umiera. Jeżeli miał byś być straconym, umierasz tylko gdy przegrasz w papier/nożyce/kamień.",
+      "ability": "Każdego dnia, przed nominacjami, możesz publicznie wybrać gracza: umiera. Jeżeli miałbyś zostać stracony, umierasz tylko gdy przegrasz w papier/nożyce/kamień.",
       "flavor": "Niespodzianka!",
       "name": "Psychopata"
     },
     "pukka": {
-      "ability": "Każdej nocy wybierz gracza: jest zatruty. Poprzednio zatruty gracz umiera i przestaje być zatruty.",
+      "ability": "Każdej nocy wybierz gracza: jest zatruty. Poprzednio zatruty gracz umiera i zdrowieje.",
       "first": "Pukka wybiera gracza. :reminder:",
       "flavor": "Byliście naprawdę mili przyjmując mnie do waszego pięknego domu. Przepraszam najmocniej, że zadrapałem cię przypadkiem. Taka drobnostka. Cóż, może bez znaczenia. Jednak proszę, przyjmij tę złotą wykałaczkę jako uniżony znak mojego żalu.",
       "name": "Pukka",
@@ -815,9 +815,9 @@
       "name": "Święty"
     },
     "savant": {
-      "ability": "Każdego dnia możesz odwiedzić prywatnie Bajarza aby dowiedzieć się 2 faktów: 1 jest prawdziwy, drugi fałszywy.",
+      "ability": "Każdego dnia możesz odwiedzić Bajarza, aby dowiedzieć się 2 faktów: 1 jest prawdziwy, drugi fałszywy.",
       "flavor": "Na podłodze leżą siedemdziesiąt dwie zapałki... słońce zachodzi wcześnie, ale księżyc jest niezmienny... podarty kawałem tkaniny... zło we dworze... trzy na trzy... ten któremu zaufaliśmy ni ejest tym za kogo się podaje... zielone światło oznacza magnez... osad, ale wzór jest nieprawidłowy... Siedemdziesiąt dwie zapałki na podłodze...",
-      "name": "Geniusz"
+      "name": "Uczony"
     },
     "scapegoat": {
       "ability": "Jeżeli gracz z twojej drużyny zostanie stracony, możesz zostać straconym zamiast niego.",
@@ -993,13 +993,13 @@
       "name": "Praczka"
     },
     "widow": {
-      "ability": "Twojej pierwszej nocy spójrz w Grymuar i wybierz gracza: jest zatruty. 1 dobry gracz dowiaduje się, że Wdowa jest w grze.",
+      "ability": "Pierwszej nocy po wejściu do gry spójrz w Grymuar i wybierz gracza: jest zatruty. 1 dobry gracz dowiaduje się, że Wdowa jest w grze.",
       "first": "Pokaż Grymuar na tak długo, jak Wdowa potrzebuje. Wdowa wybiera gracza. :reminder: Uśpij Wdowę. Obudź gracza oznaczonego *Wie* i pokaż żeton Wdowy. :reminder:",
       "flavor": "Więcej wina? Château d’Ergot ’07 to specjalny rocznik. O tak, bardzo specjalny.",
       "name": "Wdowa"
     },
     "witch": {
-      "ability": "Każdej nocy wybierz gracza: jeśli jutro nominuje, umiera. Jeżeli w grze jest tylko 3 graczy, tracisz tę umiejętność.",
+      "ability": "Każdej nocy wybierz gracza: jeżeli jutro nominuje, umiera. Jeżeli żyje tylko 3 graczy, tracisz tę umiejętność.",
       "first": "Czarownica wybiera gracza. :reminder:",
       "flavor": "Trzy krople koziej krwi. Pukiel włosów, wyrwanych w gniewie. Imię wypowiedziane, cień rzucony. Wejdź lewą stopą w ścieżki pył i nie patrz w tył.",
       "name": "Czarownica",
@@ -1031,7 +1031,7 @@
       "first": "Pokaż Yaggababble jej sekretną frazę.",
       "flavor": "Zabójstwo przy Rue Morgue? Фальшивые новости! Psy na wrzosowisku Baskerville? Фальшивые новости! Śmierć podczas rejsu na Nilu? Фальшивые новости!",
       "name": "Yaggababble",
-      "other": "Za każde wypowiedzenie przez Yaggababble jej frazy, któryś z graczy może umrzeć. :reminder:"
+      "other": "Za każde wypowiedzenie przez Yaggababble jej frazy, gracz może umrzeć. :reminder:"
     },
     "zealot": {
       "ability": "Jeżeli żyje 5 lub więcej graczy, musisz głosować podczas każdej nominacji.",
@@ -1067,7 +1067,7 @@
       "name": "Hindus"
     },
     "pope": {
-      "ability": "W grze występują duplikaty dobrych umiejętności. Mogą być także blefami.",
+      "ability": "W grze występują duplikaty dobrych postaci. Mogą być także blefami.",
       "flavor": "...Pulcherrimae.",
       "name": "Papież"
     },
