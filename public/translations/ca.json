@@ -227,7 +227,7 @@
       "other": "Espera un segons. Acaba la fase de nit."
     },
     "demoninfo": {
-      "first": "Si hi han set o més jugadors, desperta el dimoni: Mostra-li la targeta *AQUESTS SÓN ELS TEUS SEQUAÇOS*. Assenya-la tots els sequaços. Mostra-li la targeta *AQUESTS PERSONATGES NO SÓN A LA PARTIDA*. Mostra-li tres fitxes de personatge que no siguin a la partida."
+      "first": "Si hi ha set o més jugadors, desperta el dimoni: Mostra-li la targeta *AQUESTS SÓN ELS TEUS SEQUAÇOS*. Assenya-la tots els sequaços. Mostra-li la targeta *AQUESTS PERSONATGES NO SÓN A LA PARTIDA*. Mostra-li tres fitxes de personatge que no siguin a la partida."
     },
     "deusexfiasco": {
       "ability": "Com a mínim una vegada per partida, el narrador cometrà un error, el corregirà i l’admetrà públicament.",
@@ -290,7 +290,7 @@
       "first": "L’Enginyer pot triar sequaços o dimonis. Adorm l’Enginyer. Desperta els jugadors afectats un per un. Mostra a cadascun la targeta *TU ETS* i la fitxa del seu nou personatge. :reminder:",
       "flavor": "Si es doblega, perfecte. Si es trenca, bé, segurament ja calia arreglar-ho de totes maneres.",
       "name": "Enginyer",
-      "other": "L’Enginyer pot triar sequaços o dimonis. :reminder: Si ho fa, adorm l’Enginyer. Desperta un jugador afectat, mostra-li la targeta *TU ETS* i la fitxa del seu nou personatge i torna’l a adormir. Repeteix-ho amb tots els jugadors que hagin canviat de personatge. :reminder:"
+      "other": "L’Enginyer pot triar sequaços o dimonis. Adorm l’Enginyer. Desperta els jugadors afectats un per un. Mostra a cadascun la targeta *TU ETS* i la fitxa del seu nou personatge. :reminder:"
     },
     "eviltwin": {
       "ability": "Tu i un jugador del bàndol contrari us coneixeu. Si el jugador bo és executat, els malvats guanyen. Els bons no poden guanyar si totes dues bessones estan vives.",
@@ -591,7 +591,7 @@
       "first": "Si hi ha set jugadors o més, desperta el Llunàtic: mostra la targeta *AQUESTS SÓN ELS TEUS SEQUAÇOS*. Assenyala qualssevol jugadors. Mostra la targeta *AQUESTS PERSONATGES NO SÓN A LA PARTIDA*. Mostra tres fitxes de personatge bo. Adorm el Llunàtic.<br>Desperta el dimoni. Mostra-li la targeta *TU ETS* i la fitxa del dimoni. Mostra-li la targeta *AQUEST JUGADOR ÉS* i la fitxa del Llunàtic i, després, assenyala el Llunàtic.",
       "flavor": "Soc la nit… o això crec.",
       "name": "Llunàtic",
-      "other": "Fes tot el que calgui per simular que el dimoni actua. Adorm el Llunàtic. Desperta el dimoni. Mostra la fitxa del Llunàtic i assenyala’l; després, assenyala el seu objectiu o els seus objectius."
+      "other": "Fes tot el que calgui per simular que el dimoni actua. Adorm el Llunàtic. Desperta el dimoni. Mostra la fitxa del Llunàtic i assenyala’l; després, assenyala el seu objectiu."
     },
     "lycanthrope": {
       "ability": "Cada nit,* tria un jugador viu. Si és bo, mor i el dimoni no mata aquesta nit. Un jugador bo és percebut com a malvat.",

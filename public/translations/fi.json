@@ -605,7 +605,7 @@
     "mayor": {
       "ability": "Mikäli vain 3 pelaajaa on elossa eikä ketään teloiteta, voittaa joukkueesi. Jos kuolet yöllä, saattaa joku toinen kuolla sijastasi.",
       "flavor": "Meidän on jätettävä erimielisyytemme sivuun ja lopetettava tämä järjetön tappaminen. Olemmehan kaikki veronmaksajia. No, useimmat meistä.",
-      "name": "Oltermanni"
+      "name": "Pormestari"
     },
     "mezepheles": {
       "ability": "Aloitat tietäen salaisen sanan. 1. hyvä pelaaja joka tämän sanan sanoo, muuttuu tulevana yönä pahaksi.",
@@ -1277,7 +1277,7 @@
     "legion-preacher": "Jos Manaaja valitsee Leegion, tämä saa pitää kykynsä, mutta Manaaja saattaa tietää, että tämä on Leegio.",
     "legion-summoner": "Jos Leegio muodostuu, kaikki pahat pelaajat muuttuvat Leegioksi.",
     "legion-zealot": "Kiihkoilija saattaa näyttäytyä pahana Leegiolle.",
-    "leviathan-mayor": "Jos Leviatan ja Oltermanni ovat elossa 5. päivänä & teloituksia ei tapahdu, hyvä voittaa.",
+    "leviathan-mayor": "Jos Leviatan ja Pormestari ovat elossa 5. päivänä & teloituksia ei tapahdu, hyvä voittaa.",
     "leviathan-monk": "Jos Leviatan nimeää ja teloituttaa Munkin suojeleman pelaajan, hyvä voittaa.",
     "leviathan-pithag": "Leviatan ei voi tulla peliin 5. päivän jälkeen.",
     "leviathan-ravenkeeper": "Joka yö*, Leviatan valitsee elävän hyvän pelaajan (eri kuin aiempina öinä): valittu Korpinkaitsija käyttää kykyään, muttei kuole.",
@@ -1300,7 +1300,7 @@
     "marionette-plaguedoctor": "Jos Tarinankertoja saisi Sätkynuken kyvyn, yksi Demonin hyvistä naapureista muuttuu Sätkynukeksi.",
     "marionette-summoner": "Jos Sätkynukke on määritelty peliin, ilmestyy tämä mukaan vasta rienatun Demonin naapuriksi.",
     "mastermind-vigormortis": "Välkky jolla on kykynsä, saa pitää sen jos Puhkikuolio kuolee.",
-    "mayor-riot": "Oltermanni voi pysäyttää mellakan. Jos tällöin vain 1 Mellakka on elossa, hyvä voittaa. Muuten paha voittaa.",
+    "mayor-riot": "Pormestari voi halutessaan pysäyttää mellakan. Jos tällöin vain 1 Mellakka on elossa, hyvä voittaa. Muuten paha voittaa.",
     "monk-riot": "Jos Mellakka nimeää ja teloituttaa Munkin suojeleman pelaajan, hyvä voittaa.",
     "ogre-pithag": "Jos Pata-akka muuttaa pahan pelaajan Möröksi, ei tämä voi kääntyä oman kykynsä vuoksi hyväksi.",
     "ogre-recluse": "Jos Rastuli näyttäytyy pahana Mörölle, saa Mörkö tietää olevansa paha.",
