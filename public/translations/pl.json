@@ -864,21 +864,21 @@
       "first": "Zaklinacz Węży wybiera gracza. Jeżeli wybrał Demona: Pokaż kartę *JESTEŚ* i żeton Demona. Pokaż kciuk w dół (zły). Zamień żeton Zaklinacza Wężów i Demona. Uśpij starego Zaklinacza Wężów. Obudź starego Demona. Pokaż kartę *JESTEŚ* i żeton Zaklinacza Węży oraz kciuk w górę (dobry). :reminder:",
       "flavor": "Effendi... jestem tylko skromnym człowiekiem, ale mój flet jest złoty i jedna nuta ukoi najdzikszego dżina, Inshallah. Powiadają, że chciwość powiesiła więcej ludzi niż pozróz. Ale nie ja, Effendi... nie ja.",
       "name": "Zaklinacz Węży",
-      "other": "Zaklinacz Węży wybiera gracza. Jeżeli wybrał Demona: Pokaż kartę *JESTEŚ* i żeton Demona. Pokaż kciuk w dół (zły). Zamień żeton Zaklinacza Wężów i Demona. Uśpij starego Zaklinacza Wężów. Obudź starego Demona. Pokaż kartę *JESTEŚ* i żeton Zaklinacza Węży oraz kciuk w górę (dobry). :reminder:"
+      "other": "Zaklinacz węży wybiera gracza. Jeżeli wybrał Demona: Pokaż kartę *JESTEŚ* i żeton Demona. Pokaż kciuk w dół. Zamień żeton Zaklinacza węży i Demona. Uśpij poprzedniego Zaklinacza węży. Obudź poprzedniego Demona. Pokaż kartę *JESTEŚ* i żeton Zaklinacza węży oraz kciuk w górę. :reminder:"
     },
     "snitch": {
-      "ability": "Każdy ze Sługusów dostaje 3 blefy.",
+      "ability": "Każdy Sługus dostaje 3 blefy.",
       "first": "Obudź każdego Sługusa. Pokaż kartę *TYCH POSTACI NIE MA W GRZE* i 3 żetony dobrych postaci, których nie ma w grze.",
       "flavor": "To był John.",
       "name": "Kapuś"
     },
     "soldier": {
-      "ability": "Jesteś bezpieczny od Demona.",
-      "flavor": "Jak Dawid rzekł do Goliata, jak Tezeusz rzekł do Minotaura, jak Arjuna rzekł do Bhagadatta... Nie.",
+      "ability": "Jesteś chroniony przed działaniem Demona.",
+      "flavor": "Jak Dawid rzekł do Goliata, jak Tezeusz rzekł do Minotaura, jak Arjuna rzekł do Bhagadatty... Nie.",
       "name": "Żołnierz"
     },
     "spiritofivory": {
-      "ability": "Nie może być więcej niż 1 dodatkowy zły gracz.",
+      "ability": "Może być maksymalnie 1 dodatkowy zły gracz.",
       "flavor": "Pustkowia wzywają. Kości obrastają mięsem, wtem rozpadają się w pył. Wielki duch rośnie. Wielki duch patrzy. Wielki duch prowadzi. Człowiek słucha, albo człowieka nie ma.",
       "name": "Duch z Kości Słoniowej"
     },
@@ -896,8 +896,8 @@
       "name": "Ekonom"
     },
     "stormcatcher": {
-      "ability": "Wymień dobrą postać. Jeżeli w grze, może umrzeć jedynie w skutek egzekucji, ale źli gracze dowiadują się który to gracz.",
-      "first": "Ogłoś, która postać jest pod ochroną Łapacza Burzy. Jeżeli ta postać jest w grze, oznacz ją przypominajką *BEZPIECZNY*. Obudź każdego złego gracza i pokaż żeton postaci, następnie wskaż gracza. Jeżeli nie ma jej w grze, obudź każdego złego gracza, pokaż kartę *TYCH POSTACI NIE MA W GRZE* i żeton odpowiedniej postaci.",
+      "ability": "Wymień dobrą postać. Jeżeli jest w grze, może umrzeć jedynie przez egzekucję, ale źli gracze dowiadują się, który to gracz.",
+      "first": "Ogłoś, która postać jest pod ochroną Łowcy Burz. Jeżeli ta postać jest w grze, oznacz ją przypominajką *CHRONIONY*. Obudź każdego złego gracza i pokaż żeton tej postaci, następnie wskaż gracza. Jeżeli nie ma jej w grze, obudź każdego złego gracza, pokaż kartę *TYCH POSTACI NIE MA W GRZE* i żeton odpowiedniej postaci.",
       "flavor": "O świcie, długie cienie świątyni podchodzą pod fontannę. O zmierzchu, obelisk blokuje czerwoną poświatę, ochładzając ciepłą wodę pod łukiem. Wszystkie linie zbiegają się tutaj. Nadchodzi burza i to, to miejsce pełne kamyczków, bujne i święte miejsce pomiędzy jabłoniami, jest jej okiem.",
       "name": "Łowca Burz"
     },
@@ -1191,7 +1191,7 @@
     "visitor": "Odwiedzający",
     "whoopsie": "Ups",
     "wrong": "Błędny",
-    "stormcaught": "Rażony Piorunem",
+    "stormcaught": "Chroniony",
     "goal": "Misja",
     "notme": "Nie ja",
     "hat": "Kapelusz"
