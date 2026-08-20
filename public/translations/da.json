@@ -1189,6 +1189,7 @@
   "ui": {
     "firstNight": "Første Nat",
     "otherNights": "Andre Nætter",
-    "players": "Spillere"
+    "players": "Spillere",
+    "notFirstNight": "* ikke den første nat"
   }
 }
