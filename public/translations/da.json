@@ -2,11 +2,13 @@
   "roles": {
     "acrobat": {
       "ability": "Hver nat*, vælg en spiller: hvis de er eller bliver fuld eller forgiftet i nat, dør du.",
+      "flavor": "Mine damer og herrer, hold på hat og briller, for jeg vil nu trodse selveste tyngdekraften og danse i luften, et kunststykke udi smidighed og dristighed, til Deres begejstring og forundring!",
       "name": "Akrobat",
       "other": "Akrobaten vælger en spiller. :reminder:"
     },
     "alchemist": {
       "ability": "Du har en Håndlanger-evne. Når du bruger den, kan Fortælleren bede dig om at vælge anderledes.",
+      "first": "Vis \"DU ER\" infobrikken og en Håndlangerbrik.",
       "flavor": "Besøg Jordens indre. Ved rektifikation skal du finde den skjulte sten. Over guldet hviler det røde. Kether i Malkuth.",
       "name": "Alkymist"
     },
@@ -1055,7 +1057,11 @@
     "twin": "Tvilling",
     "visitor": "Besøgende",
     "whoopsie": "Hovsa",
-    "wrong": "Forkert"
+    "wrong": "Forkert",
+    "stormcaught": "Stormjaget",
+    "goal": "Mål",
+    "notme": "Ikke Mig",
+    "hat": "Hat"
   },
   "jinxes": {
     "alchemist-boffin": "Hvis Alkymisten har Æggehoved-evnen, lærer Alkymisten ikke hvilken evne Dæmonen har.",
@@ -1184,7 +1190,8 @@
     "riot-sage": "Hver nat* vælger Oprøret en levende, god spiller (en anden end tidligere nætter): en valgt Vismand bruger sin evne men dør ikke.",
     "riot-soldier": "Hvis Oprøret nominerer og henretter Soldaten, vinder det gode hold.",
     "summoner-zombuul": "Hvis Hidkalderen hidkalder en død spiller som Zombuulen, er Zombuulen allerede \"død én gang\".",
-    "vizier-zealot": "Fanatikeren kan registreres som ond for Vesiren."
+    "vizier-zealot": "Fanatikeren kan registreres som ond for Vesiren.",
+    "marionette-mathematician": "Matematikeren lærer om Marionettens evne gav falsk info, eller ikke fungerede korrekt."
   },
   "ui": {
     "firstNight": "Første Nat",
