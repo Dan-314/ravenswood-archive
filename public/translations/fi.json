@@ -125,7 +125,7 @@
       "ability": "Aloitat pelin tietäen 1 pahan pelaajan. Jos tämä pelaaja kuolee, saat tietää toisen pahiksen tänä yönä. [1 Kyläläinen on paha]",
       "first": "Osoita \"TIEDÄT\" -merkittyä pelaajaa.",
       "flavor": "Yksin näitä, turmeluksen sairaalloisella löyhkällä päällystettyjä, katuja kävelen . Hajujen paksuus tunkeutuu sieraimiini, kutsumatta, inhosta polttaen. Ja odotuksesta. Tämän kurjan paikan sairaus kasvaa joka yö. Ja minä... olen parannuskeino.",
-      "name": "Palkkionmetsästäjä",
+      "name": "Luutteri",
       "other": "Jos *TIEDÄT* -merkitty pelaaja kuoli, osoita uutta *TIEDÄT* -merkittyä pelaajaa."
     },
     "buddhist": {
@@ -1224,8 +1224,8 @@
     "boffin-politician": "Demonilla ei voi olla Poliitikon kykyä.",
     "boffin-villageidiot": "Jos käytettävissä on ylimääräinen hahmomerkki, Propellipää voi antaa Demonille Kylähullun kyvyn.",
     "boomdandy-plaguedoctor": "Jos Tarinankertoja saisi Ruutikeikarin-kyvyn, yksi pelaajista muuttuu Ruutikeikariksi.",
-    "bountyhunter-kazali": "Jos Kazali muuttaa Palkkionmetsästäjän Kätyrikseen, pahaa Kyläläistä ei luoda.",
-    "bountyhunter-philosopher": "Jos Filosofi saa Palkkionmetsästäjän kyvyn, yksi Kyläläinen saattaa muuttua pahaksi.",
+    "bountyhunter-kazali": "Jos Kazali muuttaa Luutterin Kätyrikseen, pahaa Kyläläistä ei luoda.",
+    "bountyhunter-philosopher": "Jos Filosofi saa Luutterin kyvyn, yksi Kyläläinen saattaa muuttua pahaksi.",
     "butler-cannibal": "Jos Kannibaali saa Hovimestarin kyvyn, kerro Kannibaalille tästä.",
     "butler-organgrinder": "Jos Posetiivari aiheuttaa silmät kiinni -äänestyksen, Hovimestari voi nostaa kätensä, mutta ääni lasketaan vain, mikäli isäntäkin äänesti.",
     "cannibal-juggler": "Jos Jonglööri arvaa ensimmäisenä päivänään ja kuolee teloitukseen, elävä Kannibaali saa tänä yönä tietää, kuinka moni Jonglöörin arvauksista osui oikeaan.",
