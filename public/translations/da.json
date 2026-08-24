@@ -15,7 +15,8 @@
     "alhadikhia": {
       "ability": "Hver nat* kan du vælge 3 spillere (alle spillere lærer hvem): i stilhed vælger hver især, om de vil leve eller dø, men hvis alle lever, dør alle.",
       "flavor": "Alsukut min dhahab.",
-      "name": "Al-Hadikhia"
+      "name": "Al-Hadikhia",
+      "other": "Al-Hadikhiaen vælger 3 spillere. :reminder: :reminder: :reminder: Væk hver udvalgt spiller i nævnt rækkefølge. De vil nikke eller ryste på hovedet. Læg dem til at sove inden du vækker det næste offer."
     },
     "alsaahir": {
       "ability": "Hver dag hvis du offentligt gætter, hvilke spillere der er Håndlanger(e) og hvilke er Dæmon(er), vinder det gode hold.",
@@ -1064,15 +1065,15 @@
     "hat": "Hat"
   },
   "jinxes": {
-    "alchemist-boffin": "Hvis Alkymisten har Æggehoved-evnen, lærer Alkymisten ikke hvilken evne Dæmonen har.",
+    "alchemist-boffin": "Hvis Alkymisten har Klogeågeevnen, lærer Alkymisten ikke hvilken evne Dæmonen har.",
     "alchemist-marionette": "En Alkymist-Marionet har ingen Marionetevne, og Marionetten er i spil.",
-    "alchemist-mastermind": "En Alkymist-Mastermind har ingen Mastermind-evne, og Masterminden er ikke i spil.",
-    "alchemist-organgrinder": "Hvis Alkymisten har Organkværner-evnen, er Organkværneren i spil. Hvis begge er ædru, er begge fulde.",
+    "alchemist-mastermind": "En Alkymist-Bagmand har ingen Bagmandsevne, og Bagmanden er ikke i spil.",
+    "alchemist-organgrinder": "Hvis Alkymisten har Lirekassemandens evne, er Lirekassemanden i spil. Hvis begge er ædru, er begge fulde.",
     "alchemist-spy": "En Alkymist-Spion har ingen Spion-evne, og en Spion er i spil. Efter hver henrettelse, kan en levende Alkymist-Spion offentligt gætte en levende spiller som Spionen. Gættes korrekt, skal Dæmonen vælge Spionen i nat.",
-    "alchemist-summoner": "Alkymist-Hidkalderen får ikke bluffs, og vælger hvilken Dæmon der er i spil, men ikke hvilken spiller. Hvis de dør før dette sker, vinder det onde hold. [Ingen Dæmon]",
+    "alchemist-summoner": "Alkymist-Åndemaneren får ikke bluffs, og vælger hvilken Dæmon der er i spil, men ikke hvilken spiller. Hvis de dør før dette sker, vinder det onde hold. [Ingen Dæmon]",
     "alchemist-widow": "En Alkymist-Enke har ingen Enke-evne, og der er en Enke i spil. Efter hver henrettelse kan en levende Alkymist-Enke offentligt gætte en levende spiller som Enken. Gættes korrekt, skal Dæmonen vælge Enken i nat.",
     "alchemist-wraith": "Et Alkymist-Genfærd har ingen Genfærd-evne, og et Genfærd er i spil. Efter hver henrettelse, et levende Alkymist-Genfærd kan offentligt gætte en levende spiller som Genfærdet. Hvis rigtigt, skal Dæmonen vælge Genfærdet i nat.",
-    "alhadikhia-mastermind": "Hvis Al-Hadikhiaen dør til henrettelse, og Overmanden er i live, vælger Al-Hadikhiaen 3 gode spillere i nat: hvis alle 3 vælger at leve, vinder det onde hold. Ellers, vinder det gode hold.",
+    "alhadikhia-mastermind": "Hvis Al-Hadikhiaen dør til henrettelse, og Bagmanden er i live, vælger Al-Hadikhiaen 3 gode spillere i nat: hvis alle 3 vælger at leve, vinder det onde hold. Ellers, vinder det gode hold.",
     "alhadikhia-princess": "Hvis Prinsessen nominerede og henrettede en spiller på deres 1. dag, dør ingen til Al-Hadikhiaen i nat.",
     "alhadikhia-scarletwoman": "Hvis der ville være to Dæmoner, og en af dem var Skarlagenkvinden, bliver Skarlagenkvinden til Skarlagenkvinden igen.",
     "alsaahir-vizier": "Fortælleren erklærer ikke at Vesiren er i spil.",
@@ -1191,6 +1192,8 @@
     "riot-soldier": "Hvis Oprøret nominerer og henretter Soldaten, vinder det gode hold.",
     "summoner-zombuul": "Hvis Hidkalderen hidkalder en død spiller som Zombuulen, er Zombuulen allerede \"død én gang\".",
     "vizier-zealot": "Fanatikeren kan registreres som ond for Vesiren.",
+    "drunk-mathematician": "Matematikeren lærer om Drukkenboltens evne gav falsk info eller på anden måde ikke fungerede.",
+    "lunatic-mathematician": "Matematikeren lærer om Galningen angriber en anden spiller end den rigtige Dæmon angreb.",
     "marionette-mathematician": "Matematikeren lærer om Marionettens evne gav falsk info, eller ikke fungerede korrekt."
   },
   "ui": {
