@@ -25,16 +25,20 @@
     },
     "amnesiac": {
       "ability": "Du ved ikke, hvad din evne er. Hver dag kan du privat gætte, hvad den er: du lærer, hvor nøjagtig du er.",
+      "first": "Udfør eventuelle handlinger for at tilfredsstille Amnesistens evne.",
       "flavor": "Vent. Hvad. Hvem? Oh, ok. Vent. Hvad?",
-      "name": "Amnesist"
+      "name": "Amnesist",
+      "other": "Udfør eventuelle handlinger for at tilfredsstille Amnesistens evne."
     },
     "angel": {
       "ability": "Noget dårligt kan ske for den, der er mest ansvarlig for en ny spillers død.",
+      "first": "Bekendtgør hvilke spillere der er beskyttet af Englen. :reminder:",
       "flavor": "Lad dem, som er uden synd, vove at række deres hånd mod min udvalgte, for jeg vil slå sådanne tåber ned med tusind stormes vrede og retfærdighed.",
       "name": "Engel"
     },
     "apprentice": {
       "ability": "På din første nat får du en Borgerevne (hvis du er god) eller en Håndlangerevne (hvis du er ond).",
+      "first": "Vis *DU ER* infobrikken, og så en Landsbyboer- eller Håndlangerbrik. Byt Lærlingen ud med Landsbyboer- eller Håndlangerbrikken. :reminder:",
       "flavor": "I årevis har jeg rejst og studeret Håndværkets vej. Hvilket håndværk, spørger du? Blot de almindelige folks. Intet at bekymre sig om. Ikke endnu.",
       "name": "Lærling"
     },
@@ -56,7 +60,10 @@
     },
     "balloonist": {
       "ability": "Hver nat lærer du en spiller af en anden karaktertype end forrige nat. [+0 eller +1 Fremmed]",
-      "name": "Ballonskipper"
+      "first": "Peg på en valgfri spiller. :reminder:",
+      "flavor": "Mere varme på! Højere! Højere! Più alto! Ahhh... alt er så smukt heroppefra, synes du ikke? Kan du se børnene der fisker i floden, under piletræet? Kan du se solens glimten i cirkusteltets stænger? Men hvad er nu det? En gammel mand, alene og bevidstløs på vinmarken? Mindre varme! Lavere! Lavere! Vai più in basso!",
+      "name": "Ballonskipper",
+      "other": "Peg på en spiller med en anden karaktertype end den senest udpegede spiller. :reminder:"
     },
     "banshee": {
       "ability": "Hvis Dæmonen dræber dig, vil alle spillere lære dette. Fra nu af kan du nominere to gange pr. dag og stemme to gange pr. nominering.",
@@ -1193,6 +1200,7 @@
     "summoner-zombuul": "Hvis Hidkalderen hidkalder en død spiller som Zombuulen, er Zombuulen allerede \"død én gang\".",
     "vizier-zealot": "Fanatikeren kan registreres som ond for Vesiren.",
     "drunk-mathematician": "Matematikeren lærer om Drukkenboltens evne gav falsk info eller på anden måde ikke fungerede.",
+    "legion-magician": "Hvis Tryllekunstneren er i spil, vågner Legionen i seperate grupper under Dæmoninfofasen. Hver gruppe får at vide hvilke spillere der er gode, men får ikke at vide hvem Tryllekunstneren er.",
     "lunatic-mathematician": "Matematikeren lærer om Galningen angriber en anden spiller end den rigtige Dæmon angreb.",
     "marionette-mathematician": "Matematikeren lærer om Marionettens evne gav falsk info, eller ikke fungerede korrekt."
   },
