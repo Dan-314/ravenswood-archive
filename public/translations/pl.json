@@ -928,7 +928,7 @@
     },
     "tinker": {
       "ability": "Możesz umrzeć w każdej chwili.",
-      "flavor": "Chyba wiem gdzie leży problem. Na szczęście, mam pomysł! Ta katapulta będzie strzelała dwa razy dalej tylko po drobniutkiej poprawce...",
+      "flavor": "Chyba wiem, gdzie leży problem. Na szczęście mam pomysł! Wystarczy jedna drobna poprawka, a katapulta będzie strzelała dwa razy dalej...",
       "name": "Majsterkowicz",
       "other": "Majsterkowicz może umrzeć. :reminder:"
     },
@@ -936,14 +936,14 @@
       "ability": "Każdej nocy* dowiadujesz się, czy Sługus nominował.",
       "flavor": "Słuchajcie! Słuchajcie! Czary w labiryncie! Genialny uczony odkrywa wszystko! Miasteczko zagrożone! Słuchajcie!",
       "name": "Krzykacz Miejski",
-      "other": "Potaknij albo zaprzecz głową."
+      "other": "Pokiwaj lub pokręć głową."
     },
     "toymaker": {
-      "ability": "Demon może wybrać aby nie zaatakować i musi zrobić to przynajmniej raz na grę. Źli gracze otrzymują poprawne startowe informacje.",
-      "first": "Wykonaj krok Informacje dla Sługusów i Informacje dla Demona nawet gdy jest mniej niż 7 graczy.",
-      "flavor": "Bzyczy! Schodzi po schodach! Zapewnia ciepło w nocy! Smakuje jak cukier! Dzieciaki je kochają! Przedstawiam... całkiem nowe... Bzycząco-schodzące-ciepło-słodkie-ustrojstwo! Zabawa dla całej rodziny!",
+      "ability": "Demon może zdecydować się nie zaatakować i musi zrobić to przynajmniej raz na grę. Źli gracze otrzymują początkowe informacje jak zwykle.",
+      "first": "Wykonaj krok Informacje dla Sługusów i Informacje dla Demona nawet przy mniej niż 7 graczach.",
+      "flavor": "Brzęczy! Schodzi po schodach! Zapewnia ciepło w nocy! Smakuje jak cukier! Dzieciaki je kochają! Przedstawiam... całkiem nowe... Brzęcząco-schodzące-ciepło-słodkie-ustrojstwo! Zabawa dla całej rodziny!",
       "name": "Lalkarz",
-      "other": "Jeżeli jest to noc gdy atak Demona zakończyłby grę, a Demon jest oznaczony *OSTATNIA NOC: BRAK ATAKU*, nie budź Demona."
+      "other": "Jeżeli jest to noc, gdy atak Demona zakończyłby grę, a Demon jest oznaczony *OSTATNIA NOC: BRAK ATAKU*, nie budź Demona."
     },
     "undertaker": {
       "ability": "Każdej nocy* dowiadujesz się, jaka postać zmarła dziś w wyniku egzekucji.",
@@ -1053,8 +1053,8 @@
       "ability": "Gracze nie znają swojej postaci ani przynależności. Dowiaduję się o nich po śmierci.",
       "flavor": "Z głosem jak grom i ostrzem z błyskawicy, ja, strażnik wieczności, żywię się głupcami, którzy ważą się zbliżyć do zakazanej bramy. Spójrzcie, oto mój uświęcony cel! Aby wyplenić skarabeusza z wnętrzności kamienistej ziemi, zaplątać w sieci z gwiazd, na wzgórzu, gdzie spotykają się niebo i ziemia.",
       "name": "Tor",
-      "other": "Jeżeli gracz umarł tej nocy, pokaż kartę *JESTEŚ*, jego żeton postaci i kciukiem w górę/w dół jego przynależność.",
-      "first": "Pomiń info dla Sługusa i Demona."
+      "other": "Jeżeli gracz umarł tej nocy, pokaż kartę *JESTEŚ*, jego żeton postaci i kciukiem w górę lub w dół jego przynależność.",
+      "first": "Pomiń informacje dla Sługusów i Demona."
     },
     "zenomancer": {
       "ability": "Jeden bądź więcej graczy ma swój cel. Gdy go osiągnie, gracz ten zdobywa prawdziwe informacje.",
