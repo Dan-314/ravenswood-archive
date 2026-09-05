@@ -68,7 +68,8 @@
     "banshee": {
       "ability": "Hvis Dæmonen dræber dig, vil alle spillere lære dette. Fra nu af kan du nominere to gange pr. dag og stemme to gange pr. nominering.",
       "flavor": "Gorm do shúile, dearg do ghruaig, ní bheidh sé i bhfad, is a mbeidh tú san uaigh.",
-      "name": "Banshee"
+      "name": "Banshee",
+      "other": "Hvis Bansheen blev dræbt af dæmonen i nat, bekendtgør at Bansheen er død. :reminder:"
     },
     "barber": {
       "ability": "Hvis du døde i dag eller i nat, kan Dæmonen vælge 2 spillere (ikke en anden Dæmon), der bytter karakterer.",
@@ -78,8 +79,10 @@
     },
     "barista": {
       "ability": "Hver nat, indtil skumring, 1) en spiller bliver ædru, rask og får sand info, eller 2) deres evne virker to gange. De lærer hvilken.",
+      "first": "Vælg en spiller. Væk dem, vis dem brikken *DENNE KARAKTER HAR VALGT DIG* & Baristabrikken, og giv så et fingersignal. :reminder:",
       "flavor": "En kop kaffe uden fløde, Monsieur? Jeg beklager meget, men vi er løbet tør for fløde — hvad med uden mælk?",
-      "name": "Barista"
+      "name": "Barista",
+      "other": "Vælg en spiller. Væk dem, vis dem brikken *DENNE KARAKTER HAR VALGT DIG* & Baristabrikken, og giv så et fingersignal. :reminder:"
     },
     "baron": {
       "ability": "Der er ekstra Fremmede i spil. [+2 Fremmede]",
@@ -104,7 +107,8 @@
     "bonecollector": {
       "ability": "Én gang pr. spil, om natten*, vælg en død spiller: de får deres evne tilbage indtil skumring.",
       "flavor": "Jeg samler mange ting. Hår. Tænder. Tøj. Brudstykker af digte. Fortabte elskeres drømme. Mine metoder behøver du ikke kende til, men mit honorar er blot en slant. Bring mig bloddet fra en adelskvinde, som døde af hjertesorg under en fuldmåne, og jeg skal give dig dine svar.",
-      "name": "Knoglesamler"
+      "name": "Knoglesamler",
+      "other": "Knoglesamleren kan vælge en død spiller. :reminder: Hvis nødvendigt, væk den valgte spiller for at bruge deres evne."
     },
     "boomdandy": {
       "ability": "Hvis du bliver henrettet, dør alle spillere undtagen 3. Efter en nedtælling fra 10 til 1, dør den spiller der er flest der peger på.",
@@ -966,6 +970,11 @@
       "flavor": "Jeg kan ikke. Forstå. Dine metoder. Medmenneske. Vis mig. Jorden. Hvor de hellige. Ligger. Sovende. Jeg også. Må sove. Snart.",
       "name": "Zombuul",
       "other": "Hvis ingen døde i dag, vælger Zombuulen en spiller. :reminder:"
+    },
+    "bigwig": {
+      "ability": "Hver nominerede vælger en spiller: indtil afstemningen må kun de tale & de er gale med at den nominerede er god, eller de kan dø.",
+      "flavor": "Forfængelighed spørger 'Er det populært?' Fejhed spørger 'Er det forsvarligt?' Samvittighed spørger 'Er det rigtigt?' Hvem iblandt os vil spørge: ' Er det sandt?'",
+      "name": "Højesteretsdommer"
     }
   },
   "teams": {
