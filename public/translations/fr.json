@@ -294,7 +294,7 @@
       "other": "L’Exorciste choisit un joueur. :reminder: L’Exorciste se rendort. Si l’Exorciste choisit le Démon : Réveillez le Démon. Montrez la tuile *CE RÔLE VOUS A CHOISI* et le jeton Exorciste. Désignez l’Exorciste."
     },
     "fanggu": {
-      "ability": "Chaque nuit*, choisissez un joueur : il meurt. Le premier Marginal tué ainsi devient un Fang Gu maléfique et vous mourez à sa place. *[+1 Marginal]*",
+      "ability": "Chaque nuit*, choisissez un joueur : il meurt. Le premier Marginal tué ainsi devient un Fang Gu maléfique et vous mourez à sa place. [+1 Marginal]",
       "flavor": "Vos murs et vos armes ne sont qu’illusions.",
       "name": "Fang Gu",
       "other": "Le Fang Gu choisit un joueur. :reminder: S’il choisit un Marginal (une seule fois) : Remplacez le jeton Marginal par le jeton Fang Gu supplémentaire. Le Fang Gu se rendort. Réveillez la cible. Montrez la tuile *VOUS ÊTES* et le jeton Fang Gu, et pointez le pouce vers le bas. :reminder:"
@@ -782,7 +782,7 @@
     },
     "recluse": {
       "ability": "Vous pourriez apparaître comme maléfique et comme Sbire ou Démon, même morte.",
-      "flavor": "Feriez ben d’pas m’estancer avec cte stoire de Démon. Grr. Gardez don vot’nez cheu vous où qu’ç’a vous r’gad. Git ! Mi, j’m’occupe point d’vos affaires. F’tez-moi l’camp.",
+      "flavor": "Zy ctoi té tain té mites dmi seul tvoi. RRRrrrr!!! Vomai grubge lbà ver sud ba tepir apra té ! Lez ! Mi prosk pô don zarb lèchou et démmons pô se bagar’ minlvé j’mais fez la. Lez, mijdi ! »",
       "name": "Recluse"
     },
     "revolutionary": {
@@ -828,7 +828,7 @@
       "ability": "S’il y a au moins 5 joueurs en vie et que le Démon meurt, vous devenez le Démon. (Les Voyageurs ne comptent pas.)",
       "flavor": "Vous m’avez montré les secrets du Conseil de la Flamme Pourpre. Nous avons communié ensemble dans le feu et la luxure, et je suis à jamais à votre service. Mais ce soir, mon cher, je suis votre maître.",
       "name": "Femme écarlate",
-      "other": "Si la Femme écarlate est devenue le Diablotin dans la journée, montrez-lui la tuile *VOUS ÊTES*, puis le jeton Diablotin."
+      "other": "Si la Femme écarlate est devenue le Démon dans la journée, montrez-lui la tuile *VOUS ÊTES*, puis le jeton du Démon."
     },
     "seamstress": {
       "ability": "Une fois par partie, la nuit, choisissez 2 joueurs (sauf vous-même) : vous apprenez s’ils sont du même alignement.",
@@ -1224,7 +1224,7 @@
     "cannibal-juggler": "Si le Jongleur fait ses prédictions lors de son premier jour et meurt par exécution, cette nuit, le Cannibale vivant apprend combien de prédictions étaient correctes.",
     "cannibal-princess": "Si le Cannibale a nommé, fait exécuter et tué la Princesse aujourd’hui, le Démon ne tue pas cette nuit.",
     "cannibal-zealot": "Si le Cannibale obtient la capacité du Zélote, le Cannibale l’apprend.",
-    "cerenovus-goblin": "Le Cerenovus peut choisir de rendre un joueur «fou» en lui faisant croire qu’il est le Gobelin.",
+    "cerenovus-goblin": "Le Cerenovus peut choisir de rendre un joueur «fou» qu’il est le Gobelin.",
     "chambermaid-mathematician": "La Femme de chambre peut détecter si le Mathématicien se réveillera cette nuit.",
     "clockmaker-summoner": "L’Invocatrice est considérée comme le Démon pour l’Horloger.",
     "courtier-summoner": "Si l’Invocatrice vivante n’a pas de capacité, le Conteur possède la capacité de l’Invocatrice.",
@@ -1280,7 +1280,7 @@
     "lilmonsta-marionette": "S’il devait y avoir une Marionnette en jeu, elle entre en jeu après le Démon et doit commencer en étant sa voisine.",
     "lilmonsta-poppygrower": "Si le Timonstre et le Planteur de pavot sont vivants, les Sbires se réveillent un par un, jusqu’à ce que l’un d’eux choisisse de prendre le jeton Timonstre.",
     "lilmonsta-psychopath": "Si le Psychopathe garde le Timonstre, il meurt lorsqu’il est exécuté.",
-    "lilmonsta-scarletwoman": "Si le Timonstre meurt alors qu’il reste 5 joueurs ou plus en vie, la Femme écarlate s’occupe du Timonstre pour le reste de la partie.",
+    "lilmonsta-scarletwoman": "Si le Timonstre meurt alors qu’il reste 5 joueurs ou plus en vie, la Femme écarlate garde le Timonstre pour le reste de la partie.",
     "lilmonsta-vizier": "Si le Vizir s’occupe du Timonstre, il meurt lorsqu’il est exécuté.",
     "lleech-mastermind": "Si le Conspirateur est vivant et que l’hôte du Parasyte meurt par exécution, le Parasyte survit mais perd sa capacité.",
     "lleech-slayer": "Si la Pourfendeuse tue l’hôte du Parasyte, l’hôte meurt.",
