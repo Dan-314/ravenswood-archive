@@ -384,7 +384,7 @@
       "name": "Gobelin"
     },
     "godfather": {
-      "ability": "Lors de votre première nuit, vous apprenez quels Marginaux sont en jeu. Si un Marginal meurt dans la journée, choisissez un joueur cette nuit : il meurt. *[-1 ou +1 Marginal]*",
+      "ability": "Lors de votre première nuit, vous apprenez quels Marginaux sont en jeu. Si un Marginal meurt dans la journée, choisissez un joueur cette nuit : il meurt. [-1 ou +1 Marginal]",
       "first": "Montrez les jetons de rôle de tous les Marginaux en jeu.",
       "flavor": "Normalement, ce sont juste des affaires. Mais si tu insultes ma fille, tu m’insultes. Et quand tu m’insultes, tu insultes la famille. Fais bien attention où tu mets les pieds. Ce serait dommage qu’ils finissent dans le ciment.",
       "name": "Parrain",
