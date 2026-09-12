@@ -387,8 +387,8 @@
       "ability": "Jij start met weten welke Buitenstaanders in het spel zitten. Als 1 hiervan overdag sterft; kies een speler vannacht: zij sterven. [-1 of +1 Buitenstaander]",
       "first": "Laat het karakterfiche van alle Buitenstaanders in het spel zien.",
       "flavor": "Normaal gesproken is het je eigen probleem. Maar als je mijn dochter beledigd, beledig je mij. En als je mij beledigd, beledig je mijn familie. Je zou voorzichtiger moeten zijn - het zou zonde zijn als je iets overkomt.",
-      "name": "Mafioso",
-      "other": "Als vandaag een Buitenstaander is gestorven, kiest de Mafioso een speler. :reminder:"
+      "name": "Godfather",
+      "other": "Als vandaag een Buitenstaander is gestorven, kiest de Godfather een speler. :reminder:"
     },
     "golem": {
       "ability": "Je mag maar 1 keer in het spel nomineren. Als je dit doet en de genomineerde is niet de Demoon, dan sterft die.",
@@ -528,6 +528,7 @@
     },
     "leviathan": {
       "ability": "Als meer dan 1 goede speler wordt geëxecuteerd, wint slecht. Alle spelers weten dat jij in het spel zit. Na dag 5 wint slecht.",
+      "first": "Vertel publiekelijk \"De Leviathan zit in het spel\". :herinnering:",
       "flavor": "Tot het einde zal ik met je worstelen. Vanuit het diepst van de hel haal ik je neer. Uit haat spuw ik mijn laatste adem naar je uit.",
       "name": "Leviathan",
       "other": "Pas het Leviathan-herinneringsfiche aan naar de betreffende dag. :reminder: Je mag aankondigen dat de Leviathan in het spel is."
@@ -734,23 +735,27 @@
       "ability": "Handlangers & Demonen kennen elkaar niet. Als jij sterft, leren ze die nacht elkaar kennen.",
       "first": "Sla de informatie rond de Handlangers en de Demoon over. Ontwaak de Demoon. Laat het fiche *DEZE KARAKTERS ZIJN NIET IN HET SPEL* zien. Laat 3 fiches van goede karakters zien die niet in het spel zijn.",
       "flavor": "In de verborgen holen van het diepe woud, woont de zwarte papaver. Wie zijn dans aanschouwt wordt betoverd. Wie de geur ruikt zal een slaaf zijn aan de goden van licht en duisternis.",
-      "name": "Papaverkweker"
+      "name": "Papaverkweker",
+      "other": "Als de Poppy Grower vandaag of vannacht zou overlijden, maak dan alle Handlangers wakker. Laat het *DIT IS DE DEMOON*-fiche zien. Wijs naar de demoon. Breng de Handlangers in slaap. Maak de demoon wakker. Laat het *DIT ZIJN JE HANDLANGERS*-fiche zien. Wijs naar de Handlangers."
     },
     "preacher": {
-      "ability": "Elke nacht, kies een speler: als dit een Minion is leert deze dat ze zijn gekozen. De Minions hebben geen vaardigheid.",
+      "ability": "Elke nacht, kies een speler: als dit een Handlanger is, leer je dat ze dat zijn. Gekozen Handlangers hebben geen vaardigheid.",
+      "first": "De Preacher kiest een speler. :herinnering: Als die een Handlanger heeft gekozen: laat de Preach in slaap vallen. Ontwaak het doelwit . Laat de fiches *DIT PERSONAGE HEEFT JOU GEKOZEN* en Preacher zien.",
       "flavor": "Het is beter om rijk en gezond te zijn, dan arm en ziek.",
-      "name": "Pastoor"
+      "name": "Pastoor",
+      "other": "De Preacher kiest een speler. :herinnering: Als hij een Handlanger heeft gekozen: laat de Peeacher in slaap vallen. Ontwaak het doelwit. Laat de fiches *DIT PERSONAGE HEEFT JOU GEKOZEN* en Preacher zien."
     },
     "princess": {
       "ability": "Op jouw 1e dag, als jij een speler nomineert en executeert, kan de Demoon niet doden.",
       "flavor": "Onze woorden zijn honden, gebonden aan zijden draden; Laat vriendelijkheid de teugels zijn die ons hof bij elkaar houden.",
-      "name": "Prinses"
+      "name": "Prinses",
+      "other": "Als de Prinses vandaag een speler heeft genomineerd en geëxectueert heeft, maak de Demoon wakker zoals normaal, maar niemand sterft aan de Demonenkracht."
     },
     "professor": {
       "ability": "1 keer per spel, in de nacht*, kies een dode speler: als zij een Dorpeling zijn, worden ze herrezen.",
       "flavor": "Het proces is eenvoudig. Sluit de hydraulische confabulator aan op de gemodificeerde chi-matrixversterker, voeg 20 cc pseudodorafine toe, houd zijn Z-waarden boven de 20% en je man komt er wel. Nu hebben we alleen nog een blikseminslag nodig.",
       "name": "Professor",
-      "other": "De Professor kan een dode speler kiezen. :reminder: :reminder:"
+      "other": "De Professor mag een dode speler kiezen. :reminder: :reminder:"
     },
     "psychopath": {
       "ability": "Elke dag, voor de nominaties, mag je publiekelijk een speler kiezen: deze sterft. Als jij geexecuteert wordt, kun je alleen sterven door Steen-Papier-Schaar.",
@@ -760,9 +765,9 @@
     "pukka": {
       "ability": "Elke nacht, kies een speler: ze zijn vergiftigt. De vorige vergiftigde speler sterft en wordt gezond.",
       "first": "De Pukka kiest een speler. :reminder:",
-      "flavor": "Jullie hebben mij zo hartelijk ontvangen in dit prachtige huis. Het spijt me dat ik naar je uitgehaald heb. Een kleinigheidje. Kan gebeuren. Maar nee deze gouden tandenstoker als nederig teken van mijn excuus.",
+      "flavor": "Jullie hebben mij zo hartelijk ontvangen in dit prachtige huis. Het spijt me dat ik naar je uitgehaald heb. Een kleinigheidje. Kan gebeuren. Maar toe, neem deze gouden tandenstoker als nederig teken van mijn excuus.",
       "name": "Pukka",
-      "other": "De Pukka kiest een speler. :reminder: De vorige vergiftigde speler sterft en wordt gezond. :reminder:"
+      "other": "De Pukka kiest een speler. :reminder: De vorige vergiftigde speler sterft en wordt daarna gezond. :reminder:"
     },
     "puzzlemaster": {
       "ability": "1 speler is dronken, zelfs als jij sterft. Als je kiest (1 keer) wie het is, leer je de Demoon-speler. Maar als je verkeerd kiest krijg je foutieve info.",
@@ -1054,7 +1059,7 @@
       "other": "Kies vóór de zonsopgang een speler die niet is gemarkeerd met *NIET MIJ*. Maak het doelwit wakker. Laat het *JIJ BENT*-informatietoken en zijn of haar nieuwe karaktertoken zien."
     },
     "godofug": {
-      "ability": "Één Ug Hoed. Draag jij Ug Hoed? Jij moet praat in één klank per keer maar stem telt als twee. Als fout, Ug Hoed schuift door.",
+      "ability": "Één Ug Hoed. Draag jij Ug Hoed? Spreek in één klank per keer maar stem telt als twee. Als fout, Ug Hoed schuift door.",
       "flavor": "Gezegend zijn mijn kinderen, want zij zien de schoonheid in eenvoudige dingen.",
       "name": "God of Ug"
     },
@@ -1178,7 +1183,7 @@
     "alchemist-wraith": "Een Alchemist-Schim heeft niet de vaardigheid van de Schim & de Schim zit in het spel. Na elke executie mag de Alchemist-Schim publiekelijk een levende speler raden als de Schim. Als dit goed is, moet de Demoon de Schim vannacht kiezen.",
     "alhadikhia-mastermind": "Als de Al-Hadikhia sterft door executie en er is een Meesterbrein in leven, dan kiest de Al-Hadikhia 3 goede spelers vannacht: als ze alle drie kiezen om te leven, wint slecht. Anders wint goed.",
     "alhadikhia-princess": "Als de Prinses een speler nomineert & executeert op hun eerste dag, sterft er niemand door de Al-Hadikhia vannacht.",
-    "alhadikhia-scarletwoman": "Als er twee Demonen zijn en 1 hiervan was de Rode Vrouw, dan verandert de Rode Vrouw terug in de Rode Vrouw.",
+    "alhadikhia-scarletwoman": "Als er twee Demonen zijn en 1 hiervan was de Scarlet Woman, dan verandert de Scarlet Woman terug in de Scarlet Woman.",
     "alsaahir-vizier": "De verteller verklaart niet dat de Vizier in het spel zit.",
     "atheist-riot": "Tijdens de rellen, als de verteller is genomineerd, moeten de spelers stemmen. Als de verteller op het punt staat te sterven, eindigt het spel. Zo niet, dan nomineren ze opnieuw.",
     "balloonist-marionette": "Als de Marionette denkt dat ze de Balloonist (ballonvaarder) is, kan er een buitenstaander zijn toegevoegd aan het spel.",
