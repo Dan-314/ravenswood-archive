@@ -455,8 +455,8 @@
     "highpriestess": {
       "ability": "Ev'ry moon, ye be told which matey the captain tinks ye should parley with the most.",
       "first": "Point at a matey.",
-      "flavor": "There be life behind the personality that uses personalities as masks. There be times when life puts off the mask and deep answers to deep.",
-      "name": "High Priestess",
+      "flavor": "There'll be no knowing, here. We've come for help and we're not leaving without it. I thought I knew you.",
+      "name": "Calypso",
       "other": "Point at a matey."
     },
     "huntsman": {
@@ -605,7 +605,7 @@
     "mayor": {
       "ability": "If'n just 3 mateys be livin' & nobody walks the plank, yer crew prevails. If'n ye should join the locker under the moon, another matey mayhaps joins it instead.",
       "flavor": "With the Cap'n in the locker, I be thinkin' we need a new Captain. I be the next in line, but I be needin' the support o' the crew. What d'ye say?",
-      "name": "Quartermaster"
+      "name": "First Mate"
     },
     "mezepheles": {
       "ability": "Ye join knowin' a secret word. The 1st good'un to say it becomes a bad'un next moon.",
@@ -665,7 +665,7 @@
       "name": "Sycophant"
     },
     "ojo": {
-      "ability": "Ev’ry moon, pick a position: they be joinin' the locker. If'n they be ashore, the captain picks who joins the locker.",
+      "ability": "Ev’ry moon, pick a position: they join the locker. If'n they be ashore, the Captain picks who joins the locker.",
       "flavor": "One eye on this world, and one on the next.",
       "name": "Eyepatch",
       "other": "The Eyepatch picks a matey. :reminder:"
@@ -892,8 +892,8 @@
     "steward": {
       "ability": "Ye join knowin' a good'un.",
       "first": "Point at the good'un marked *KNOW*.",
-      "flavor": "The Quartermaster has seen us through thick and thin. We need to stick with him through these troubled waters.",
-      "name": "Steward"
+      "flavor": "The First Mate has seen us through thick and thin. We need to stick with him through these troubled waters.",
+      "name": "Quartermaster"
     },
     "stormcatcher": {
       "ability": "Name a Deckhand. If they be aboard, they can only join the locker by walkin' the plank, but bad'uns learn which matey it be.",
@@ -1006,7 +1006,7 @@
       "other": "The Witch picks a matey. :reminder:"
     },
     "wizard": {
-      "ability": "Once on yer journey, ye can make a wish. If'n it comes try, it mayhap has a cost, and leaves a clue to its self.",
+      "ability": "Once on yer journey, ye can make a wish. If'n it comes true, it mayhap has a cost, and leaves a clue to its self.",
       "first": "Work the Sorcerer's trade, if needs be.",
       "flavor": "Every man and every woman is a star. Love is the law, love under will.",
       "name": "Sorcerer",
@@ -1228,7 +1228,7 @@
     "bountyhunter-philosopher": "If'n the Ponderer works the Privateer's trade, a Crewmate will mayhaps become a bad'un.",
     "butler-cannibal": "If'n the Cannon Ball works the Cabin Boy's trade, they be told it.",
     "butler-organgrinder": "If'n the Vielleux makes the mateys close their eyes, the Butler may always say aye, but their aye counts only if'n the master said aye too.",
-    "cannibal-juggler": "If'n the Tosser guesses on the first daylight and walks the plank into the locker, the livin' Cannon Ball learns how many guesses were right this moon.",
+    "cannibal-juggler": "If'n the Tosser guesses on their first daylight and walks the plank into the locker, the livin' Cannon Ball learns how many guesses were right this moon.",
     "cannibal-princess": "If'n the Cannon Ball accused the Mermaid and made them walk the plank into the locker, the Beast o' the Sea doesn't send anyone to the locker tonight.",
     "cannibal-zealot": "If'n the Cannon Ball works the God-Botherer's trade, they be told it.",
     "cerenovus-goblin": "The Fata Morgana can pick a matey to be addled that they be Popeye.",
@@ -1277,7 +1277,7 @@
     "legion-preacher": "If'n the Preacher picks a Mutineer, the Mutineer keeps workin' their trade, but the Preach be told mayhap that they be a Mutineer.",
     "legion-summoner": "If'n a Mutineer be summoned, all bad'uns become Mutineers.",
     "legion-zealot": "The God-Botherer passes mayhap for a bad'un to Mutineers.",
-    "leviathan-mayor": "If'n the Kraken and the Quartermaster be aboard on the fifth daylight and no one walks the plank, the good'uns prevail.",
+    "leviathan-mayor": "If'n the Kraken and the First Mate be aboard on the fifth daylight and no one walks the plank, the good'uns prevail.",
     "leviathan-monk": "If'n the Kraken accuses the matey guarded by the Jesuit and makes them walk the plank, the good'uns prevail.",
     "leviathan-pithag": "The Kraken can't come aboard after fifth sunrise.",
     "leviathan-ravenkeeper": "Ev'ry moon*, the Kraken picks a livin matey (not one they picked afore): a picked Pigeon-Keeper works their trade but doesn't enter the locker.",
@@ -1300,7 +1300,7 @@
     "marionette-plaguedoctor": "If'n the Captain would work the Puppet's trade, one o' the Beast o' the Sea's good bunkmates becomes the Puppet.",
     "marionette-summoner": "If'n there would be a Puppet aboard, they come aboard after the Beast o' the Sea & are their bunkmate.",
     "mastermind-vigormortis": "A Plotter that's workin' their trade keeps workin' it if the Rigorrustus joins the locker.",
-    "mayor-riot": "The Quartermaster can stop the Chaos. If'n they do when there only be 1 Chaos livin', the good'uns prevail, but if not, the bad'uns do.",
+    "mayor-riot": "The First Mate can stop the Chaos. If'n they do when there only be 1 Chaos livin', the good'uns prevail, but if not, the bad'uns do.",
     "monk-riot": "If'n Chaos accuses the matey guarded by the Jesuit and makes 'em walk the plank, the good'uns prevail.",
     "ogre-pithag": "If'n Circe makes a bad'un the Sycophant, they can't become a good'un by workin' their own trade.",
     "ogre-recluse": "If'n the Marooned passes for a bad'un to the Sycophant, the Sycophant learns that they be a bad'un.",
