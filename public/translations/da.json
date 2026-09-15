@@ -345,6 +345,7 @@
       "name": "Gangster"
     },
     "gardener": {
+      "ability": "Fortælleren tildeler alle spilleres karakterer.",
       "flavor": "Når sofisteri bliver til dumhed og hykleri til grusomhed, træk da tilbage til haven. Ældre mænds endelige kærlighed er blomster og sten.",
       "name": "Gartner"
     },
@@ -439,6 +440,7 @@
     },
     "huntsman": {
       "ability": "Én gang pr. spil, om natten, kan du vælge en levende spiller: vælges Ungmøen, bliver de til en Borger, der ikke er i spil. [+Ungmøen]",
+      "first": "Jægeren kan vælge en spiller. :reminder: Hvis de har valgt Ungmøen: Læg Jægeren til at sove. Væk den udvalgte. Vis *DU ER* infobrikken & deres nye karakterbrik.",
       "flavor": "Min hytte er varm og robust. Min økse klar ved døren, mine støvler tørrer ved ilden, i gryden simrer elgekødet... Hør! Et skrig giver genlyd i dalen! Regnen, mudderet og den isnende vind tilslører ulvenes lugtesans, men jeg kender stien og holder en god fart. Jeg kommer.",
       "name": "Jæger"
     },
@@ -529,8 +531,8 @@
       "ability": "Du tror at du er Dæmonen, men det er du ikke. Dæmonen ved hvem du er, og hvem du vælger om natten.",
       "first": "Hvis der er 7 eller flere spillere, væk Særlingen: Vis *DISSE ER DINE HÅNDLANGERE*-brikken. Peg på vilkårlige spillere. Vis *DISSE KARAKTERE ER IKKE I SPIL*-brikken. Vis 3 gode karakterbrikker. Læg Særlingen til at sove. Væk Dæmonen. Vis *DU ER*-infobrikken og Dæmonbrikken. Vis *DENNE SPILLER ER*-infobrikken og Særlingens brik, derefter peg på Særlingen.",
       "flavor": "Jeg er natten... tror jeg.",
-      "name": "Særling",
-      "other": "Gør hvad end der skal gøres for at simulere Dæmonens opførsel. Læg Særlingen til at sove. Væk Dæmonen. Vis Særlingens brik og peg på dem, derefter deres mål."
+      "name": "Galning",
+      "other": "Gør hvad end der skal gøres for at simulere Dæmonens opførsel. Læg Galningen til at sove. Væk Dæmonen. Vis Galningens brik og peg på dem, derefter deres mål."
     },
     "lycanthrope": {
       "ability": "Hver nat*, vælg en levende spiller. Hvis god, dør de og Dæmonen dræber ikke i nat. Én god spiller registerer som ond.",
@@ -540,17 +542,17 @@
     },
     "magician": {
       "ability": "Dæmonen tror at du er en Håndlanger. Håndlangere tror at du er Dæmonen.",
-      "flavor": "1... 2... Abra... 3... 4... Cadabra... *poof!* Og, som i kan se, mine damer og herrer, er Kaptajn Farnsværs pose med guld forsvundet! Væk! Uden et spor! Mange tak, og godnat!",
+      "flavor": "1... 2... Abra... 3... 4... Kadabra... *puf!* Og, som I kan se, mine damer og herrer, er Kaptajn Farnsworths pose med guld forsvundet! Væk! Sporløst! Mange tak, og godnat!",
       "name": "Tryllekunstner"
     },
     "marionette": {
       "ability": "Du tror at du er en god karakter, men det er du ikke. Dæmonen ved hvem du er. [Du er nabo til Dæmonen]",
-      "flavor": "Ord, ord. Det er alt vi har at gå på.",
+      "flavor": "Ord, ord. Det er alt vi har at gå ud fra.",
       "name": "Marionet"
     },
     "mastermind": {
       "ability": "Hvis Dæmonen dør ved henrettelse (så spillet slutter), spil 1 dag mere. Hvis en spiller der bliver henrettet, taber deres hold.",
-      "flavor": "Tentaklerne fra det monster er sømmet til kirkens dør. Mødre og børn danser på gaderne. Fremragende. Alting går nøjagtigt som jeg har planlagt.",
+      "flavor": "Tentaklerne fra uhyret er sømmet fast til kirkens dør. Mødre og børn danser på gaderne. Fremragende. Alting går nøjagtigt som jeg har planlagt.",
       "name": "Overmand"
     },
     "mathematician": {
@@ -563,7 +565,7 @@
     "matron": {
       "ability": "Hver dag må du vælge op til 3 sæt af 2 spillere, som skal bytte plads. Spillere må ikke forlade deres plads for at tale privat.",
       "flavor": "Frøken Featherbottom, vær stille. Hr. Rutherford, husk venligst, at en tekop kun kræver fire fingre. Jeg ved, at De er far til ni, men alder, eller mangel på samme, er aldrig en undskyldning for dårlige manerer.",
-      "name": "Forstanderinde"
+      "name": "Oldfrue"
     },
     "mayor": {
       "ability": "Hvis kun 3 spillere er i live og ingen henrettelse sker, vinder dit hold. Hvis du dør om natten, kan en anden spiller dø i stedet.",
@@ -572,7 +574,7 @@
     },
     "mezepheles": {
       "ability": "Du starter med at kende et hemmeligt ord. Den første gode spiller som siger dette ord, bliver ond den nat.",
-      "flavor": "Det, som udgår alene fra hjertet, vil få andres hjerter til at følge dit.",
+      "flavor": "Aldrig vil I Vej til Hjertet finde, hvis ikke Eders Ord fra Hjertet gaa.",
       "name": "Mezefeles"
     },
     "minstrel": {
@@ -721,7 +723,7 @@
     },
     "ravenkeeper": {
       "ability": "Hvis du dør om natten, bliver du vækket for at vælge en spiller: du lærer deres karakter.",
-      "flavor": "Mine fugle hævner mig! Flyv! Flyv, mine kære og pligtopfyldende kæledyr! Til herregården og til floden! Til dalene og til salonerne! Flyv!",
+      "flavor": "Mine fugle vil hævne mig! Flyv! Flyv, mine kære og pligtopfyldende kæledyr! Til herregården og til floden! Til gyderne og til salonerne! Flyv!",
       "name": "Ravnevogter",
       "other": "Hvis Ravnevogteren døde i nat, vælger Ravnevogteren en spiller. Vis dem den spillers karakterbrik."
     },
@@ -738,7 +740,8 @@
     "riot": {
       "ability": "På dag 3, bliver Håndlangere til Oprør og nominerede dør men nominerer øjeblikkeligt en levende spiller. Dette skal ske.",
       "flavor": "Larga vida a la revolución! Mi revolucion!",
-      "name": "Oprør"
+      "name": "Oprør",
+      "other": "Skift Oprørhuskebrikken til den relevante dag. :reminder: Hvis det er nat 3, kan du vække Håndlangerne. Vis *DU ER* infobrikken & Oprørbrikken."
     },
     "sage": {
       "ability": "Hvis Dæmonen dræber dig, lærer du at det er 1 af 2 spillere.",
@@ -975,6 +978,26 @@
       "ability": "Hver nominerede vælger en spiller: indtil afstemningen må kun de tale & de er gale med at den nominerede er god, eller de kan dø.",
       "flavor": "Forfængelighed spørger 'Er det populært?' Fejhed spørger 'Er det forsvarligt?' Samvittighed spørger 'Er det rigtigt?' Hvem iblandt os vil spørge: ' Er det sandt?'",
       "name": "Højesteretsdommer"
+    },
+    "hindu": {
+      "ability": "De første 4 spillere der dør bliver straks genfødt som Rejsende på samme hold.",
+      "flavor": "चत्वारो मृत्युमध्ये पतन्ति, चत्वारो यात्री पुनरुद्गताः। चत्वारो धर्मे स्थितचित्तवृत्तेः, चत्वार एषां न पुनः क्षयः॥",
+      "name": "Hindu"
+    },
+    "pope": {
+      "ability": "Der er dubletter af gode karakterer i spil. De kan også være bluff.",
+      "flavor": "...Pulcherrimae.",
+      "name": "Pave"
+    },
+    "godofug": {
+      "ability": "En Ug hat. Når Ug hat på, sig kun én lyd, men stem to. Hvis fejl, mist Ug hat.",
+      "flavor": "Velsignet være mine børn, thi de ser skønheden i det beskedne.",
+      "name": "Gud for Ug"
+    },
+    "knaves": {
+      "ability": "Der er 2 Fortællere: den ene lyver og den anden taler sandt. Én gang pr. spil, ved solnedgang, kan de bytte.",
+      "flavor": "Enhver væg er en port. Ethvert måltid er et festmåltid.",
+      "name": "Gavtyve"
     }
   },
   "teams": {
