@@ -91,7 +91,7 @@
     },
     "beggar": {
       "ability": "Du skal bruge en stemmebrik for at stemme. Hvis en død spiller giver dig deres, lærer du deres fraktion. Du er ædru & rask.",
-      "flavor": "Almisse til de fattige, gode herre? Spare en mønt, frue? Mange tak. Gud velsigne! Du er en rigtigt venlig sjæl og ingen tvivl! Jeg skal ha' noget lækkert at spise i aften, det skal jeg!",
+      "flavor": "Almisse til de fattige, gode herre? Kan De undvære en mønt, frue? Tak. Gud velsigne Dem! De er en rigtig venlig sjæl, ingen tvivl om det! Jeg skal ha' noget lækkert at spise i aften, skal jeg!",
       "name": "Tigger"
     },
     "bishop": {
@@ -106,7 +106,7 @@
     },
     "bonecollector": {
       "ability": "Én gang pr. spil, om natten*, vælg en død spiller: de får deres evne tilbage indtil skumring.",
-      "flavor": "Jeg samler mange ting. Hår. Tænder. Tøj. Brudstykker af digte. Fortabte elskeres drømme. Mine metoder behøver du ikke kende til, men mit honorar er blot en slant. Bring mig bloddet fra en adelskvinde, som døde af hjertesorg under en fuldmåne, og jeg skal give dig dine svar.",
+      "flavor": "Jeg samler mange ting. Hår. Tænder. Tøj. Brudstykker af digte. Fortabte elskeres drømme. Mine metoder behøver du ikke kende til, men mit honorar er blot en slant. Bring mig blodet fra en adelskvinde, som døde af hjertesorg under en fuldmåne, og jeg skal give dig dine svar.",
       "name": "Knoglesamler",
       "other": "Knoglesamleren kan vælge en død spiller. :reminder: Hvis nødvendigt, væk den valgte spiller for at bruge deres evne."
     },
@@ -133,7 +133,7 @@
     "bureaucrat": {
       "ability": "Hver nat, vælg en spiller (ikke dig selv): deres stemme tæller som 3 stemmer i morgen.",
       "first": "Bureaukratten vælger en spiller. :reminder:",
-      "flavor": "Skriv venligst under her. Og her. Og her. Oooooog her. Dette burde være opklaret inden dagen er omme, forudsat at alles underskrifter er læselige. Vi har ikke haft forvirring i papirarbejdet i en evighed. I går eftermiddag, hvis jeg husker rigtigt...",
+      "flavor": "Skriv venligst under her. Og her. Og her. Oooooog her. Dette burde være opklaret inden dagen er omme, forudsat at alles underskrifter er læselige. Vi har ikke haft rod i papirarbejdet i en evighed. I går eftermiddags, hvis jeg ikke tager fejl...",
       "name": "Bureaukrat",
       "other": "Bureaukratten vælger en spiller. :reminder:"
     },
@@ -841,6 +841,7 @@
     },
     "stormcatcher": {
       "ability": "Nævn en god karakter. Hvis den er i spil, kan de kun dø ved henrettelse, men onde spillere lærer hvilken spiller det er.",
+      "first": "Bekendtgør hvilken karakter, der er stormjaget. Hvis karakteren er i spil, markér spilleren som *STORMJAGET*. Væk alle onde spillere, vis dem karakterbrikken, og så den markerede spiller. Hvis karakteren ikke er i spil, væk alle onde spillere, vis dem *DISSE KARAKTERER ER IKKE I SPIL* infobrikken & den relevante karakterbrik.",
       "flavor": "Ved daggry kryber templets lange skygge mod springvandet. Ved skumringstid skærmer obelisken for det skarpe, røde lys og køler det varme vand under buegangen. Alle linjer samler sig her. En storm er på vej, og dette, det frodige og hellige sted mellem æbletræerne, er øjet.",
       "name": "Stormfanger"
     },
@@ -892,7 +893,7 @@
     },
     "vigormortis": {
       "ability": "Hver nat*, vælg en spiller: de dør. Håndlangere du dræber beholder deres evne og forgifter 1 Borger-nabo. [-1 Fremmed]",
-      "flavor": "Alle døre er en dør. Alle nøgler er en nøgle. Alle kopper er en kop, men den som drikker af det vand, jeg giver, skal aldrig tørste, men vandet skal være i ham en kilde til evigt liv.",
+      "flavor": "Alle døre er samme dør. Alle nøgler er samme nøgle. Alle kopper er samme kop, men den, der drikker af det vand, jeg vil give ham, skal aldrig i evighed tørste, men vandet skal i ham blive en kilde, som vælder med vand til evigt liv.",
       "name": "Vigormortis",
       "other": "Vigormortisen vælger en spiller. :reminder: Hvis den spiller er en Håndlanger, forgiftes en Borger de har som nabo. :reminder: :reminder:"
     },
@@ -976,8 +977,20 @@
     },
     "bigwig": {
       "ability": "Hver nominerede vælger en spiller: indtil afstemningen må kun de tale & de er gale med at den nominerede er god, eller de kan dø.",
-      "flavor": "Forfængelighed spørger 'Er det populært?' Fejhed spørger 'Er det forsvarligt?' Samvittighed spørger 'Er det rigtigt?' Hvem iblandt os vil spørge: ' Er det sandt?'",
+      "flavor": "Forfængelighed spørger: \"Er det populært?\" Fejhed spørger: \"Er det forsvarligt?\" Samvittighed spørger: \"Er det rigtigt?\" Hvem iblandt os vil spørge: \"Er det sandt?\"",
       "name": "Højesteretsdommer"
+    },
+    "tor": {
+      "ability": "Spillere kender ikke deres karakter eller hold. De lærer dem, når de dør.",
+      "flavor": "Med tordenen som stemme og lynet som klinge, vil jeg, den evige vogter, fortære enhver tåbe, som vover at nærme sig den forbudte port. Besku mit hellige mål! At udrense krybet fra den stenede jord, at besnære den i et net af stjerner, på højen hvor himmel og jord mødes.",
+      "name": "Tor",
+      "other": "Hvis en spiller er død, vis dem i nat *DU ER* infobrikken & deres karakterbrik, og giv et tommelfingersignal.",
+      "first": "Spring over Håndlanger- og Dæmoninfofaserne."
+    },
+    "zenomancer": {
+      "ability": "En eller flere spillere har et mål. Når målet opnås, lærer spilleren noget sandt info.",
+      "flavor": "Det siges at univers er et udsagnsord og ikke et navneord, og det er skildpadder, skildpadder hele vejen ned. Skildpadder hele vejen ned, min ven, skildpadder hele vejen ned.",
+      "name": "Zenomancer"
     },
     "hindu": {
       "ability": "De første 4 spillere der dør bliver straks genfødt som Rejsende på samme hold.",
@@ -988,6 +1001,17 @@
       "ability": "Der er dubletter af gode karakterer i spil. De kan også være bluff.",
       "flavor": "...Pulcherrimae.",
       "name": "Pave"
+    },
+    "cacklejack": {
+      "ability": "Hver dag, vælg en spiller: en anden spiller skifter karakter i nat.",
+      "flavor": "Ledning α Til ledning β. LyS TæNDt. BruMMer sluKKet. GAzOinks! Arme L1gefrem. FingEREn på næsen. sTååååÅ stiLLe. BoiNgo-banGo! Ha-ha-ha!",
+      "name": "Stiktosse",
+      "other": "Inden daggry, vælg en spiller der ikke er markeret *IKKE MIG*. Væk den udvalgte. Vis *DU ER* infobrikken & deres nye karakterbrik."
+    },
+    "ventriloquist": {
+      "ability": "Hvis en spiller er gal med at være en ny karakter under deres nominering, vil de muligvis overleve, hvis de bliver henrettet i dag.",
+      "flavor": "Kom og se, folkens! Her er min kammerat Charlie, og han har et ordforråd der kan få selv et muldyr til at rødme af forlegenhed. Men bar' rolig folkens, jeg skal nok føre ordet... eller skal jeg?",
+      "name": "Bugtaler"
     },
     "godofug": {
       "ability": "En Ug hat. Når Ug hat på, sig kun én lyd, men stem to. Hvis fejl, mist Ug hat.",
