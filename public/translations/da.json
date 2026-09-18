@@ -101,6 +101,7 @@
     },
     "boffin": {
       "ability": "Dæmonen (selv hvis de er fulde eller forgiftet) har en god karakters evne (der ikke er i spil). I ved begge hvilken.",
+      "first": "Væk Æggehovedet og Dæmonen. Vis dem *DENNE KARAKTER VALGTE DIG* & Boffin-brikken, derefter den gode karakterbrik, der ikke er i spil.",
       "flavor": "Stjernernes hydrogen, enormt, inert; carbon, oxygen, neongasser, alt ødelagt. Molekylært kaos, entropi, frembringer nye kosmiske fænomener, genfødsel fra atomisk kaos, tæt stof kollapser. Alt i en lillebitte flaske.",
       "name": "Æggehoved"
     },
@@ -122,11 +123,14 @@
     },
     "bountyhunter": {
       "ability": "Du starter med at kende 1 ond spiller. Hvis den spiller du kender dør, vil du lære en ny ond spiller i nat. [1 Borger er ond]",
+      "first": "Peg på spilleren med *VED*-huskebrikken.",
       "flavor": "Alene går jeg på disse gader, med dens syge stank af korruption. Ubudent, snor det sig ind i mine næsebor, brændende af afsky. Og forventning. Denne elendighedens sygdom vokser hver nat. Og jeg... jeg er kuren.",
-      "name": "Dusørjæger"
+      "name": "Dusørjæger",
+      "other": "Hvis spilleren markeret *VED* døde i dag eller i nat, peg på en ny spiller markeret *VED*."
     },
     "buddhist": {
       "ability": "I de første 2 minutter hver dag, må erfarne spillere ikke tale.",
+      "first": "Bekendtgør hvilke spillere der er påvirket af Buddhisten.",
       "flavor": "Du kaster torne. I min stilhed falder de, og bliver til blomster.",
       "name": "Buddhist"
     },
@@ -195,13 +199,17 @@
     },
     "cultleader": {
       "ability": "Hver nat, bliver du samme fraktion som en levende nabo. Hvis alle gode spillere vælger at slutte sig til din kult, vinder dit hold.",
+      "first": "Kultlederen kan skifte fraktion. Hvis de gør, vis dem *DU ER*-infobrikken og en tommel op eller ned for deres nye fraktion.",
       "flavor": "Idet de mente sig vise, blev de tåber.",
-      "name": "Kultleder"
+      "name": "Kultleder",
+      "other": "Kultlederen kan skifte fraktion. Hvis de gør, vis dem *DU ER*-infobrikken og en tommel op eller ned for deres nye fraktion."
     },
     "damsel": {
       "ability": "Alle Håndlangerne ved, at en Ungmø er i spil. Hvis en Håndlanger offentligt gætter dig (ét forsøg), taber dit hold.",
+      "first": "Under Håndlanger-info skal du vise Håndlangere Ungmø-brikken. Hvis du ikke har gjort det endnu, gør det nu.",
       "flavor": "Fingrene fra håret, skat.",
-      "name": "Ungmø"
+      "name": "Ungmø",
+      "other": "Hvis Ungmøen blev valgt af Jægeren, vis dem *DU ER*-infobrikken og deres nye karakterbrik."
     },
     "dawn": {
       "first": "Vent et par sekunder. Afslut Natfasen.",
