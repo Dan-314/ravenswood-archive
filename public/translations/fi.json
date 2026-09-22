@@ -439,7 +439,7 @@
     },
     "hellslibrarian": {
       "ability": "Jotain pahaa saattaa tapahtua sille, joka puhuu, kun Tarinankertoja on pyytänyt hiljaisuutta.",
-      "flavor": "Shhhhhh. Olkaapas hiljaa. Kirjastonhoitajaa ei kantsi häiritä. Oon kuullut, et se on melkoinen äkäpussi.",
+      "flavor": "Shhhhhh. Olkaapas hiljaa. Arkistoijaa ei kantsi häiritä. Oon kuullut, et se on melkoinen äkäpussi.",
       "name": "Tuonelan Luetteloija"
     },
     "heretic": {
@@ -537,7 +537,7 @@
       "ability": "Aloitat tietäen, että 1 kahdesta pelaajasta on tietty Hylkiö. (Tai ettei pelissä ole yhtään.)",
       "first": "Näytä Hylkiö-hahmomerkki. Osoita sekä *HYLKIÖ* että *VÄÄRÄ* -pelaajia kohti.",
       "flavor": "Hyvä rouva, normaalioloissa voisitte toki lainata Codex Malificariumin kirjastoholvistamme. Ette kuitenkaan näytä olevan jäsen.",
-      "name": "Kirjastonhoitaja"
+      "name": "Arkistoija"
     },
     "lilmonsta": {
       "ability": "Joka yö, Kätyrit valitsevat kuka hoitaa Pikku Riiviötä & \"on Demoni\". Joka yö*, pelaaja saattaa kuolla. [+1 Kätyri]",
