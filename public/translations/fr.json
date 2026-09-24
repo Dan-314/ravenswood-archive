@@ -1045,7 +1045,7 @@
       "other": "Si personne n’est mort dans la journée, le Zombuul choisit un joueur. :reminder:"
     },
     "bigwig": {
-      "ability": "Chaque joueur nommé choisit un joueur : jusqu’au vote, seul ce joueur peut parler et il est « fou » que le joueur nommé soit bon. Sinon, il pourrait être exécuté.",
+      "ability": "Chaque joueur nommé choisit un joueur : jusqu’au vote, seul ce joueur peut parler et il est « fou » que le joueur nommé soit bon. Sinon, il pourrait mourir.",
       "flavor": "La vanité demande : « Est-ce populaire ? » La lâcheté demande : « Est-ce prudent ? » La conscience demande : « Est-ce juste ? » Mais qui parmi nous demandera : « Est-ce vrai ? »",
       "name": "Big Wig"
     },
@@ -1193,7 +1193,7 @@
     "alchemist-boffin": "Si l’Alchimiste a la capacité du Laborantin, l’Alchimiste n’apprend pas quelle capacité possède le Démon.",
     "alchemist-marionette": "Un Alchimiste-Marionnette n’a pas la capacité de Marionnette et une Marionnette est en jeu.",
     "alchemist-mastermind": "Un Alchimiste-Conspirateur n’a pas la capacité de Conspirateur et le Conspirateur n’est pas en jeu.",
-    "alchemist-organgrinder": "Si l’Alchimiste a la capacité de l’Organiste de rue, l’Organiste de rue est en jeu. Si les deux sont sains, ils sont tous deux ivres.",
+    "alchemist-organgrinder": "Si l’Alchimiste a la capacité de l’Organiste de rue, l’Organiste de rue est en jeu. Si les deux sont sobres, ils sont tous les deux ivres.",
     "alchemist-spy": "Un Alchimiste-Espionne n’a pas la capacité d’Espionne et une Espionne est en jeu. Après chaque exécution, un Alchimiste-Espionne vivant peut publiquement désigner un joueur vivant comme étant l’Espionne. Si c’est correct, le Démon doit choisir l’Espionne cette nuit.",
     "alchemist-summoner": "L’Alchimiste-Invocatrice ne reçoit pas de bluffs et choisit quel Démon mais pas quel joueur. S’il meurt avant cela, le Mal gagne. [Pas de Démon]",
     "alchemist-widow": "Un Alchimiste-Veuve n’a pas la capacité de Veuve et une Veuve est en jeu. Après chaque exécution, un Alchimiste-Veuve vivant peut publiquement désigner un joueur vivant comme étant la Veuve. Si c’est correct, le Démon doit choisir la Veuve cette nuit.",
@@ -1218,7 +1218,7 @@
     "boffin-villageidiot": "S’il y a un jeton disponible, le Laborantin peut donner au Démon la capacité d’Idiot du village.",
     "boomdandy-plaguedoctor": "Si le Conteur devait obtenir la capacité du Boumdandy, un joueur devient le Boumdandy.",
     "bountyhunter-kazali": "Si le Kazali transforme le Chasseur de primes en Sbire, aucun Villageois maléfique n’est créé.",
-    "bountyhunter-philosopher": "Si le Philosophe obtient la capacité du Chasseur de primes, un Villageois peut devenir maléfique.",
+    "bountyhunter-philosopher": "Si le Philosophe obtient la capacité du Chasseur de primes, un Villageois pourrait devenir maléfique.",
     "butler-cannibal": "Si le Cannibale obtient la capacité de Majordome, le Cannibale l’apprend.",
     "butler-organgrinder": "Si l’Organiste de rue force un vote les yeux fermés, le Majordome peut lever la main pour voter, mais son vote ne compte que si son maître a aussi voté.",
     "cannibal-juggler": "Si le Jongleur fait ses prédictions lors de son premier jour et meurt par exécution, cette nuit, le Cannibale vivant apprend combien de prédictions étaient correctes.",
@@ -1233,7 +1233,7 @@
     "damsel-pithag": "Si la Guenaude crée une Demoiselle, le Conteur choisit quel joueur c'est.",
     "damsel-spy": "Si l’Espionne est (ou a été) en jeu, la Demoiselle est empoisonnée.",
     "damsel-widow": "Si la Veuve est (ou a été) en jeu, la Demoiselle est empoisonnée.",
-    "engineer-legion": "Si la Légion est créée, tous les joueurs maléfiques deviennent Légion. Si Légion est en jeu, l’Ingénieur commence en le sachant mais n’a pas de capacité.",
+    "engineer-legion": "Si la Légion est créée, tous les joueurs maléfiques deviennent Légion. Si la Légion est en jeu, l’Ingénieur commence en le sachant mais n’a pas de capacité.",
     "engineer-summoner": "Si l’Invocatrice vivante est retirée du jeu, le Conteur possède la capacité de l’Invocatrice.",
     "eviltwin-plaguedoctor": "Si le Conteur devait obtenir la capacité de la Jumelle maléfique, un joueur devient la Jumelle maléfique.",
     "exorcist-leviathan": "Si le Léviathan nomme et fait exécuter le joueur choisi par l’Exorciste, le l’équipe du Bien gagne.",
