@@ -362,7 +362,7 @@
       "name": "Gangster"
     },
     "gardener": {
-      "ability": "Le Conteur attribue le rôle d'un ou plusieurs joueurs.",
+      "ability": "Le Conteur attribue leur rôle à tous les joueurs.",
       "flavor": "Lorsque la sophistique tourne à la sottise et l'hypocrisie à la cruauté, réfugiez-vous dans le jardin. Les dernières passions des vieillards sont les fleurs et les pierres.",
       "name": "Jardinier"
     },
@@ -1076,6 +1076,11 @@
       "flavor": "Le fil α sur le fil β. Di0de allumÉe. BuZZer désactivé. GAzOinks ! Bras teNdus. DoiGT dans 2 nez. Aaaattendez. BoiNgo-banGo ! Ha-ha-ha !",
       "name": "Déphasé",
       "other": "Avant l’aube, choisissez un joueur qui n’est pas marqué du jeton *PAS MOI*. Réveillez la cible. Montrez-lui la tuile Info *VOUS ÊTES* et le jeton de son nouveau rôle."
+    },
+    "ventriloquist": {
+      "ability": "Si un joueur est fou d'être un nouveau rôle durant sa nomination, il pourrait ne pas mourir s'il est exécuté aujourd'hui.",
+      "flavor": "Eh bien, mes amis, approchez donc ! Voici mon copain Charlie, et il a une langue si bien pendue qu’il ferait rougir un mulet. Mais ne vous inquiétez pas, c’est moi qui parle… ou peut-être pas ?",
+      "name": "Ventriloque"
     },
     "godofug": {
       "ability": "Un chapeau Ug. Quand porter chapeau Ug, parler un son à la fois mais voter deux fois. Si échouer, passer chapeau Ug.",
