@@ -247,10 +247,10 @@
     },
     "dreamer": {
       "ability": "Każdej nocy wybierz gracza (nie siebie ani Podróżnika): poznajesz 1 dobrą i 1 złą postać, 1 z nich jest prawdą.",
-      "first": "Marzyciel Senny wskazuje na gracza. Pokaż żeton 1 dobrej i 1 złej postaci, 1 z nich jest żeton wskazanej osoby.",
-      "flavor": "Pamiętam zegarmistrza. Niebo było czerwone i padało fraktalnymi trójkątami. Czuć było zapach fiołków i coś bulgotało. Kobieta o świecących oczach i postrzępionej brodzie syczała na niebo. Wtedy się obudziłam.",
-      "name": "Senny Wędrowiec",
-      "other": "Marzyciel Senny wskazuje na gracza. Pokaż żeton 1 dobrej i 1 złej postaci, 1 z nich jest żeton wskazanej osoby."
+      "first": "Snowidz wskazuje na gracza. Pokaż żeton 1 dobrej i 1 złej postaci, z których 1 to żeton wskazanej osoby.",
+      "flavor": "Pamiętam zegarmistrza. Niebo było czerwone i padało fraktalnymi trójkątami. Czuć było zapach fiołków i coś bulgotało. Kobieta o świecących oczach i postrzępionej brodzie syczała na niebo. Wtedy się obudziłem.",
+      "name": "Snowidz",
+      "other": "Snowidz wskazuje na gracza. Pokaż żeton 1 dobrej i 1 złej postaci, z których 1 to żeton wskazanej osoby."
     },
     "drunk": {
       "ability": "Nie wiesz, że jesteś Pijakiem. Myślisz, że jesteś Mieszczaninem, ale nim nie jesteś.",
@@ -363,7 +363,7 @@
     },
     "gardener": {
       "ability": "Bajarz przypisuje postacie wszystkim graczom.",
-      "flavor": "Gdy debata publiczna staje się bezmyślnością, a moralizowanie przeradza się w okrucieństwo, najlepiej pójść do ogrodu. Ostateczną miłością starych ludzi są kwiaty i kamienie.",
+      "flavor": "Gdy sofistyka zmienia się w nonsens, a hipokryzja przeradza się w okrucieństwo, najlepiej pójść do ogrodu. Na starość zostaje nam tylko kochać kwiaty i kamienie.",
       "name": "Ogrodnik"
     },
     "general": {
@@ -522,7 +522,7 @@
     },
     "legion": {
       "ability": "Każdej nocy* może zginąć gracz. Egzekucje nie dochodzą do skutku, jeżeli tylko zło zagłosowało. Pokazujesz się także jako Sługus. [większość graczy jest Legionem]",
-      "flavor": "Legiony to – żołnierska nuta,\nLegiony to – straceńców los,\nLegiony to – rycerska buta,\nLegiony to – ofiarny stos.\n- Andrzej Hałaciński i Tadeusz Biernacki - My, Pierwsza Brygada",
+      "flavor": "Jesteśmy chłodem wiatru w mroźny dzień. Jesteśmy cieniem w bezksiężycową noc. Jesteśmy trucizną, której dolano ci do herbaty i słowami, które szepczą ci do ucha. Jesteśmy wszędzie.",
       "name": "Legion",
       "other": "Któryś z graczy może umrzeć. :reminder:"
     },
@@ -705,13 +705,13 @@
       "ability": "Na początku gry poznajesz 1 rolę Mieszczanina w grze. Jeżeli masz obsesję, że jesteś tą postacią, otrzymujesz jej umiejętność po jej śmierci.",
       "first": "Pokaż żeton postaci Mieszczanina oznaczonego *OBSESJA*.",
       "flavor": "W kółko, w kółko — ogród trwa,\nMała dziewczynka — tam i z powrotem gna.\nMały chłopiec — na drzewa wspina się wzwyż,\nKtórym z nich ma być skrzat — dziś?\n\nDamy się śmieją i w miasto mkną,\nPanowie siekierą lasy tną.\nCo twoje — moje, co moje — święte,\nJam głupi malutki skrzat — ty, bądź przeklęte.",
-      "name": "Skrzat"
+      "name": "Podmieniec"
     },
     "plaguedoctor": {
-      "ability": "Gdy umierasz, Bajarz dostaje umiejętność Sługusa.",
+      "ability": "Po twojej śmierci Bajarz zyskuje umiejętność jednego ze Sługusów.",
       "flavor": "Prose nie rusaj sie. Czeba czasu by sie zleczylo. Myrhh-myrhh.",
-      "name": "Doktor Dżumy",
-      "other": "Jeżeli Doktor Plagi umarł, Bajarz zdobył zdolność Sługusa. Jeżeli jeszcze tego nie zrobiłeś, zrób to teraz. :reminder:"
+      "name": "Doktor plagi",
+      "other": "Jeżeli Doktor plagi zginął, Bajarz zdobył zdolność Sługusa. Jeżeli jeszcze tego nie zrobiłeś, zrób to teraz. :reminder:"
     },
     "po": {
       "ability": "Każdej nocy* możesz wybrać gracza: umiera. Jeżeli twoim ostatnim wyborem był nikt, zamiast tego wybierz 3 graczy.",
@@ -1010,7 +1010,7 @@
       "first": "Zrób wszystko, co trzeba, aby spełnić umiejętność Czarnoksiężnika.",
       "flavor": "Każdy mężczyzna i każda kobieta jest gwiazdą. Miłość jest prawem, miłość podług woli.",
       "name": "Czarodziej",
-      "other": "Zrób wszystko, co trzeba, aby zaspokoić umiejętność Czarnoksiężnika."
+      "other": "Zrób wszystko, czego wymaga umiejętność Czarnoksiężnika."
     },
     "wraith": {
       "ability": "Możesz zdecydować się otworzyć oczy w nocy. Budzisz się razem z innymi złymi graczami.",

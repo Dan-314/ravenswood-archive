@@ -379,7 +379,7 @@
       "name": "Gnome"
     },
     "goblin": {
-      "ability": "Si vous affirmez publiquement être le Gobelin quand vous êtes nommé puis êtes exécuté ce jour-là, votre équipe gagne.",
+      "ability": "Si vous affirmez publiquement être le Gobelin quand vous êtes nommé, puis êtes exécuté ce jour-là, votre équipe gagne.",
       "flavor": "Ne vexez jamais le Gobelin. Jamais, au grand jamais. Sinon, ça n’a rien à voir, mais… Puis-je avoir un autre morceau de gâteau ?",
       "name": "Gobelin"
     },
@@ -993,7 +993,7 @@
       "name": "Lavandière"
     },
     "widow": {
-      "ability": "Lors de votre première nuit, consultez le Grimoire et choisissez un joueur : il est empoisonné. 1 joueur bon sait qu’une Veuve est en jeu.",
+      "ability": "Lors de votre première nuit, regardez le Grimoire et choisissez un joueur : il est empoisonné. 1 joueur bon sait qu’une Veuve est en jeu.",
       "first": "Montrez le Grimoire aussi longtemps que nécessaire. La Veuve choisit un joueur. :reminder: La Veuve se rendort. Réveillez le joueur marqué *APPRIS* et montrez-lui le jeton Veuve. :reminder:",
       "flavor": "Goûtez-moi ce vin. Du Château d'Ergot 2007 ! Une cuvée très spéciale. Trrèèèèèès spéciale, croyez-moi.",
       "name": "Veuve"
@@ -1045,7 +1045,7 @@
       "other": "Si personne n’est mort dans la journée, le Zombuul choisit un joueur. :reminder:"
     },
     "bigwig": {
-      "ability": "Chaque joueur nommé choisit un joueur : jusqu’au vote, seul ce joueur peut parler et il est « fou » que le joueur nommé soit bon. Sinon, il pourrait mourir.",
+      "ability": "Chaque joueur nommé choisit un joueur : jusqu’au vote, seul ce joueur peut parler et il est « fou » que le joueur nommé est bon. Sinon, il pourrait mourir.",
       "flavor": "La vanité demande : « Est-ce populaire ? » La lâcheté demande : « Est-ce prudent ? » La conscience demande : « Est-ce juste ? » Mais qui parmi nous demandera : « Est-ce vrai ? »",
       "name": "Big Wig"
     },
