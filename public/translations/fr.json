@@ -85,7 +85,7 @@
       "other": "Choisissez un joueur. Réveillez-le et montrez-lui la tuile *CE RÔLE VOUS A CHOISI* et le jeton de rôle du Barista, puis faites signe avec vos doigts. :reminder:"
     },
     "baron": {
-      "ability": "Il y a deux Marginaux supplémentaires en jeu. *[+2 Marginaux]*",
+      "ability": "Il y a deux Marginaux supplémentaires en jeu. [+2 Marginaux]",
       "flavor": "Tout va à vau-l’eau dans ce village. Un peu de main-d’œuvre bon marché lui fera le plus grand bien. Tout le monde à la mine, voilà ce que je dis. Rien de tel que la vertu du labeur pour se remettre dans le droit chemin. Ça n’a jamais tué personne, non ?",
       "name": "Baron"
     },
