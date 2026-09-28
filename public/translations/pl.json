@@ -375,7 +375,7 @@
     },
     "gnome": {
       "ability": "Gdy wchodzisz do gry, wszyscy gracze poznają jednego gracza z twojej drużyny. Możesz zabić kogokolwiek, kto go nominuje.",
-      "flavor": "„- Ha – zaciekawił się Jaskier, który właśnie zbliżył się do nich. – Więc to są te słynne tajne runy krasnoludów? Co głosi ten napis?\n– Na pohybel skur...\"\n\t - Andrzej Sapkowski, \"Chrzest ognia\" (Saga o Wiedźminie)",
+      "flavor": "To mały krok dla człowieka, a jeszcze mniejszy dla krasnoludzkości. Przejdziem strumyk, przejdziem staw, będziem tam, gdzie kiedyś chodziliśmy na kremówki. Niech zstąpi piwo i odnowi oblicze tego ogródka. Ekhem.",
       "name": "Krasnal"
     },
     "goblin": {
@@ -709,7 +709,7 @@
     },
     "plaguedoctor": {
       "ability": "Po twojej śmierci Bajarz zyskuje umiejętność jednego ze Sługusów.",
-      "flavor": "Prose nie rusaj sie. Czeba czasu by sie zleczylo. Myrhh-myrhh.",
+      "flavor": "Prose nie rusaj sie. Czeba czasu by sie zleczylo. Mhm, mhm.",
       "name": "Doktor plagi",
       "other": "Jeżeli Doktor plagi zginął, Bajarz zdobył zdolność Sługusa. Jeżeli jeszcze tego nie zrobiłeś, zrób to teraz. :reminder:"
     },

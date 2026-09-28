@@ -498,7 +498,7 @@
     "kazali": {
       "ability": "Ogni notte*, scegli un giocatore: quest'ultimo muore. [Tu scegli quali giocatori sono quali Tirapiedi. -? o +? Forestieri]",
       "first": "Il Kazali sceglie quali giocatori sono quali Tirapiedi. Sveglia ciascun bersaglio. Mostragli la tessera di informazioni *TU SEI* e il gettone Tirapiedi, poi fai un segnale pollice verso.",
-      "flavor": "Gon(z)a7les6. Fai attenzi8ne. La mecc4nazi4ne è iNvert1ta. E99ori nelsi6tema. Reco{7\\}figura.",
+      "flavor": "Gon(z)a7les6. Fai attenzi8ne. La mecc4nazi4ne è iNvert1ta. E99ori nelsi6tema. Reco\\{7\\}figura.",
       "name": "Kazali",
       "other": "Il Kazali sceglie un giocatore. :reminder:"
     },

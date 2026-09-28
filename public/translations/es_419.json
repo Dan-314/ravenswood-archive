@@ -498,7 +498,7 @@
     "kazali": {
       "ability": "Cada noche*, escoge un jugador: él muere. [Tú eliges cuáles jugadores son cuáles Secuaces. -? a +? Extranjeros]",
       "first": "Despierta al Kazali, y permítele elegir Secuaces.",
-      "flavor": "Gon(z)a7les6. Ten cu1d4d0. La mec4n4c4 está iNvert1d4. E99ores insytu. Reco{7}fig#r4r.",
+      "flavor": "Gon(z)a7les6. Ten cu1d4d0. La mec4n4c4 está iNvert1d4. E99ores insytu. Reco\\{7\\}fig#r4r.",
       "name": "Kazali",
       "other": "El Kazali escoge un jugador. :reminder: "
     },

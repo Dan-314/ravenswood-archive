@@ -498,7 +498,7 @@
     "kazali": {
       "ability": "Minden éjjel* válassz egy játékost, aki meghal. [Te döntesz, melyik játékos melyik csatlós lesz. -? vagy +? kívülálló]",
       "first": "A Kazali dönti el, melyik játékos melyik csatlós lesz. Ébreszd fel a kiválasztott játékosokat. Mutasd meg az EZ VAGY MOSTANTÓL lapkát, a csatlósok jelölőjét és a lefelé fordított hüvelykujjad.",
-      "flavor": "Gon(z)a7les6! Óv8toSan! A mech4an4izmus megf0rdu10t. Hib4 a re{7}d52eRben. Újr8koNf{1}gurá10ás.",
+      "flavor": "Gon(z)a7les6! Óv8toSan! A mech4an4izmus megf0rdu10t. Hib4 a re\\{7\\}d52eRben. Újr8koNf\\{1\\}gurá10ás.",
       "name": "Kazali",
       "other": "Kiválaszt egy játékost. :reminder:"
     },
