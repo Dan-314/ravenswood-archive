@@ -282,7 +282,7 @@
       "other": "Inżynier może wybrać Sługusów albo Demona. Uśpij Inżyniera. Obudź wybranych graczy pojedynczo. Pokaż kartę *JESTEŚ* i nowy żeton postaci. :reminder:"
     },
     "eviltwin": {
-      "ability": "Ty i gracz z przeciwnej drużyny się znacie. Jeżeli dobry z waszej dwójki zostanie stracony, zło zwycięża. Dobro nie może wygrać, jeżeli oboje żyjecie.",
+      "ability": "Ty i gracz z przeciwnej drużyny znacie się nawzajem. Jeżeli dobry z waszej dwójki zostanie stracony, zło zwycięża. Dobro nie może wygrać, jeżeli oboje żyjecie.",
       "first": "Obudź obu bliźniaków. Pozwól na kontakt wzrokowy. Pokaż żeton dobrego bliźniaka Złemu Bliźniakowi i vice versa.",
       "flavor": "Ja nie jestem Sara! Ja jestem Klara! ONA jest Sara! Sara jest tą złą! Nie ja!",
       "name": "Zły Bliźniak"
