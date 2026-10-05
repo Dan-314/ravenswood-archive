@@ -527,7 +527,7 @@
       "other": "Któryś z graczy może umrzeć. :reminder:"
     },
     "leviathan": {
-      "ability": "Jeżeli więcej niż 1 dobry gracz umarł w wyniku egzekucji, zło wygrywa. Wszyscy gracze wiedzą, że jesteś w grze. Po 5-tym dniu zło wygrywa.",
+      "ability": "Jeżeli więcej niż 1 dobry gracz zostanie stracony, zło wygrywa. Wszyscy gracze wiedzą, że jesteś w grze. Po 5. dniu zło wygrywa.",
       "first": "Ogłoś, że Lewiatan jest w grze. :reminder:",
       "flavor": "Do ostatka zmagam się z tobą. Z samego serca piekieł godzę w ciebie. W imię nienawiści plwam na ciebie ostatnim mym tchnieniem!",
       "name": "Lewiatan",

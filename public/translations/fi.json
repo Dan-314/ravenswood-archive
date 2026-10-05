@@ -972,7 +972,7 @@
     "vizier": {
       "ability": "Kaikki tietävät, että olet Visiiri. Et voi kuolla päivän aikana. Jos hyvä pelaaja äänesti, voit teloittaa nimitetyn välittömästi.",
       "first": "Ilmoita kuka pelaajista on Visiiri.",
-      "flavor": "Oivallinen valinta, kuten aina, herra. Piispaan tömräämisen kaltainen pikkurikos tosiaan ansaitsee 'oikeudenmukaisuutesi' ja 'armosi'. Käy kävelyllä puutarhoissa. Käy galleriassa tutki Von Straufin veistoksia. Rentoudu, herra. Jätä kaikki... minulle.",
+      "flavor": "Oivallinen valinta, kuten aina, herra. Piispaan törmäämisen kaltainen pikkurikos tosiaan ansaitsee 'oikeudenmukaisuutesi' ja 'armosi'. Käy kävelyllä puutarhoissa. Käy galleriassa ja tutki Von Straufin veistoksia. Rentoutukaa, herra. Jättäkää kaikki... minulle.",
       "name": "Visiiri"
     },
     "vortox": {
@@ -1287,10 +1287,10 @@
     "lilmonsta-marionette": "Jos Sätkynukke on pelissä, tai tulee peliin, on tämän aloitettava aina Demonin naapurina.",
     "lilmonsta-poppygrower": "Jos Pikku Riiviö ja Unikkotarhuri ovat elossa, Kätyrit heräävät yksitellen, kunnes joku suostuu hoitamaan Pikku Riiviötä.",
     "lilmonsta-psychopath": "Jos Psykopaatti vahtii Pikku Riiviötä, hän kuolee tullessaan teloitetuksi.",
-    "lilmonsta-scarletwoman": "Jos Pikku Riiviö kuolee, kun 5 tai enemmän pelaajia on elossa, pitää Syöjätär huolta Pikku Riiviöstä koko loppupelin.",
+    "lilmonsta-scarletwoman": "Jos Pikku Riiviö kuolee kun elossa on 5 pelaajaa tai enemmän, pitää Syöjätär huolta Pikku Riiviöstä koko loppupelin.",
     "lilmonsta-vizier": "Jos Visiiri vahtii Pikku Riiviötä, hän kuolee tullessaan teloitetuksi.",
     "lleech-mastermind": "Jos Välkky on elossa ja Iilimadon isäntä kuolee teloitukseen, jää Iilimato eloon, mutta ilman kykyään.",
-    "lleech-slayer": "Iilimadon isäntä kuolee, jos Surmaaja tappaa tämän.",
+    "lleech-slayer": "Jos Surmaaja tappaa Iilimadon isännän, kuolee Iilimatokin.",
     "lordoftyphon-summoner": "Jos Suur-Typerrys rienataan peliin, on tämän vieressä oltava Kätyri & toisestakin naapurista tulee paha Kätyri.",
     "magician-marionette": "Jos Taikuri on elossa, Demoni ei tiedä, kumpi hänen naapureistaan on Sätkynukke.",
     "magician-spy": "Demonin ja Taikurin merkit poistetaan näkyvistä, kun Vakooja näkee Loitsukirjan.",
