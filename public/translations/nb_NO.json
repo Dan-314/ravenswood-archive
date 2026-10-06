@@ -455,7 +455,7 @@
     "highpriestess": {
       "ability": "Hver natt, lær hvilken spiller Fortelleren synes du bør snakke med mest.",
       "first": "Pek på en spiller.",
-      "flavor": "Det finnes liv bak personligheten som bruker personligheter som masker. Det finnes tider når livet legger av seg masken og dype svar på dype.",
+      "flavor": "Det finnes liv bak personligheten som bruker personligheter som masker. Det finnes tider når livet legger av seg masken og dypet står til rette for dypet.",
       "name": "Yppersteprestinne",
       "other": "Pek på en spiller."
     },
@@ -709,7 +709,7 @@
     },
     "plaguedoctor": {
       "ability": "Når du dør, får fortelleren en Minion-egenskap.",
-      "flavor": "Vær thå thnill og thtå thtille. Thing thar tiid å heelee. Myrhh-myrhh.",
+      "flavor": "Vær thå thnill og thtå thtille. Thing thar tiid å heelee. Mphmph.",
       "name": "Pestdoktor",
       "other": "Hvis Pestdoktoren døde, fikk fortelleren en Minion-evne. Hvis du ikke har gjort dette ennå, gjør det nå. :reminder:"
     },
@@ -1029,7 +1029,7 @@
     "yaggababble": {
       "ability": "Du starter med å lære en hemmelig frase. For hver gang du sier den offentlig i dag, kan en spiller dø.",
       "first": "Vis Skvaldrepaven den hemmelige frasen deres.",
-      "flavor": "Mord på Rue Morgue? Фальшивые новости! Hunder på Baskervillemyren? Фальшивые новости! Død mens du seiler på Nilen? Фальшивые новости!",
+      "flavor": "Mord i Rue Morgue? Фальшивые новости! Hunder på Baskervillemoen? Фальшивые новости! Død mens du seiler på Nilen? Фальшивые новости!",
       "name": "Skvaldrepave",
       "other": "For hver gang Skvaldrepaven sa frasen i dag, kan en spiller dø. :reminder:"
     },
@@ -1141,7 +1141,7 @@
     "evil": "Ond",
     "evilwakes": "Onde våkner",
     "falseinfo": "Falsk info",
-    "fauxpaw": "Skivepote",
+    "fauxpaw": "Villspor",
     "fear": "Frykt",
     "finalnightnoattack": "Siste natt: Ingen angrep",
     "friend": "Venn",
