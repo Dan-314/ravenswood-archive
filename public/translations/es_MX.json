@@ -167,10 +167,10 @@
     },
     "chambermaid": {
       "ability": "Cada noche, elige a 2 jugadores vivxs (no a usted misme): usted aprende cuantos despertaron esta noche debido a su habilidad.",
-      "first": "Le Sirviente elige 2 jugadores vivxs. Dale un número con la mano.",
+      "first": "Le Camarista elige 2 jugadores vivxs. Dale un número con la mano.",
       "flavor": "No he visto nada raro, Milady. Disculpe, pero si vi algo, desde luego no fue al dueñe de la casa colándose en el laboratorio de le profesore alrededor de las once y preparando pociones sofisticadas, tal como usted dijo, Señorita.",
-      "name": "Sirviente",
-      "other": "Le Sirviente elige 2 jugadores vivxs. Dale un número con la mano."
+      "name": "Camarista",
+      "other": "Le Camarista elige 2 jugadores vivxs. Dale un número con la mano."
     },
     "chef": {
       "ability": "Usted empieza conociendo cuantos pares de jugadores malvades están sentades juntes.",
@@ -1232,7 +1232,7 @@
     "cannibal-princess": "Si hoy le Caníbal nomina, ejecuta y mata a la Princesa, le Demonie no mata esta noche.",
     "cannibal-zealot": "Si le Caníbal gana la habilidad de le Fanátique, le Caníbal aprende esto.",
     "cerenovus-goblin": "Le Cerenovo puede elegir hacer que un jugador este locx de que es el Duende.",
-    "chambermaid-mathematician": "Le Sirviente detecta si le Matemátique despertará esta noche.",
+    "chambermaid-mathematician": "Le Camarista detecta si le Matemátique despertará esta noche.",
     "clockmaker-summoner": "Le Invocador registra como le Demonie para le Relojere.",
     "courtier-summoner": "Si le Invocador vivx no tiene habilidad, le Narrador tiene la habilidad de le Invocador.",
     "courtier-vizier": "Si le Visir pierde su habilidad, elle aprende esto y no puede morir durante el día.",
