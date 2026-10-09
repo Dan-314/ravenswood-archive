@@ -468,7 +468,7 @@
     },
     "imp": {
       "ability": "Każdej nocy* wybierz gracza: umiera. Jeżeli zabijesz w ten sposób siebie, Sługus staje się Chochlikiem.",
-      "flavor": "Musimy zachować trzeźwość umysłu i gotowość oręża. Zło kroczy między nami i nie zatrzyma się przed niczym aby zniszczyć dobrych, prostych ludzi, sprowadzając zagładę na nasze wspaniałe miasto. Nie ufajcie nikomu. Ale, jeśli zaufać komuś musicie, zaufajcie mi.",
+      "flavor": "Musimy zachować trzeźwość umysłu i gotowość oręża. Zło kroczy między nami i nie zatrzyma się przed niczym, aby zniszczyć dobrych, prostych ludzi, sprowadzając zagładę na nasze wspaniałe miasto. Nie ufajcie nikomu. Ale, jeśli zaufać komuś musicie, zaufajcie mi.",
       "name": "Chochlik",
       "other": "Chochlik wybiera gracza. :reminder: Jeżeli Chochlik wybrał siebie: Zamień żeton żyjącego Sługusa na jeden zapasowy żeton Chochlika. Uśpij dotychczasowego Chochlika. Obudź nowego. Pokaż kartę *JESTEŚ* i żeton Chochlika."
     },
@@ -775,7 +775,7 @@
       "name": "Mistrz Zagadek"
     },
     "ravenkeeper": {
-      "ability": "Jeżeli umrzesz w nocy, zostaniesz obudzony aby wybrać gracza: poznasz jego postać.",
+      "ability": "Jeżeli umrzesz w nocy, budzisz się, aby wybrać gracza: poznajesz jego postać.",
       "flavor": "Moje ptaki mnie pomszczą! Lećcie! Lećcie, moje słodkie i oddane zwierzaki! Do dworu i nad rzekę! Nad uliczki i na salony! Lećcie!",
       "name": "Hodowca kruków",
       "other": "Jeżeli Hodowca kruków umarł tej nocy, Hodowca kruków wybiera gracza. Pokaż żeton postaci tego gracza."
@@ -922,7 +922,7 @@
     "thief": {
       "ability": "Każdej nocy wybierz gracza (nie siebie): jutro jego głos jest ujemny.",
       "first": "Złodziej wybiera gracza. :reminder:",
-      "flavor": "Ja nie zrobił nic. Nawet mnie nie była w tej alejce tej nocy! To nie ja zwinąłem teczkę Burmistrza Bruno z tymi fszystkimi dokmentami. Poza tym, była zbyt ciężka aby ją nieść.",
+      "flavor": "Ja żem nic nie zrobił. A coś pan, nawet nie byłem w tej alejce tej nocy! To nie ja zwinąłem teczkę Burmistrza Bruno z tymi fszyskimi papierami. Poza tym w ciul ciężka była, daleko bym jej nie doniósł.",
       "name": "Złodziej",
       "other": "Złodziej wybiera gracza. :reminder:"
     },
@@ -966,7 +966,7 @@
     },
     "virgin": {
       "ability": "Gdy zostaniesz nominowany po raz pierwszy, jeżeli nominował cię Mieszczanin, zostaje on natychmiast stracony.",
-      "flavor": "Jestem czysta. Niech ci, którzy są bez grzechu, ukorzą się i cierpią za mnie. Moja reputacja nie zostanie splamiona waszymi pełnymi jadu oskarżeniami.",
+      "flavor": "Jestem nieskalana. Niech ci, którzy są bez grzechu, ukorzą się i cierpią za mnie. Moja reputacja nie zostanie splamiona waszymi pełnymi jadu oskarżeniami.",
       "name": "Dziewica"
     },
     "vizier": {
@@ -1133,7 +1133,7 @@
     "demonvoted": "Demon głosował",
     "diedtoday": "Dzisiaj zginął",
     "doesntkill": "Nie zabija",
-    "drunk": "Pijak",
+    "drunk": "Pijany",
     "drunk1": "Pijany 1",
     "drunk2": "Pijany 2",
     "drunk3": "Pijany 3",
@@ -1244,7 +1244,7 @@
     "engineer-summoner": "Jeżeli żywy Przyzywacz zostanie usunięty z gry, Bajarz ma umiejętność Przyzywacza.",
     "eviltwin-plaguedoctor": "Jeżeli Bajarz zyskuje umiejętność Złego bliźniaka, któryś z graczy staje się Złym bliźniakiem.",
     "exorcist-leviathan": "Jeżeli Lewiatan nominuje i doprowadzi do egzekucji gracza wybranego przez Egzorcystę, dobro wygrywa.",
-    "exorcist-riot": "Jeżeli Zadyma nominuje i podda egzekucji gracza wybranego przez Egzorcystę, dobro wygrywa.",
+    "exorcist-riot": "Jeżeli Zadyma nominuje i doprowadzi do egzekucji gracza wybranego przez Egzorcystę, dobro wygrywa.",
     "exorcist-yaggababble": "Jeżeli Egzorcysta wybrał Yaggababble, Yaggababble nie zabija tej nocy.",
     "fanggu-scarletwoman": "Jeśli w grze miałyby być dwa Demony, z których jeden był wcześniej Kochanicą diabła, Kochanica diabła pozostaje Kochanicą diabła.",
     "farmer-leviathan": "Każdej nocy* Lewiatan wybiera żywego dobrego gracza (innego niż poprzedniej nocy): wybrany Farmer używa swojej umiejętności, ale nie umiera.",
@@ -1265,8 +1265,8 @@
     "heretic-spy": "Tylko 1 przeklęta postać może być w grze.",
     "heretic-widow": "Tylko 1 przeklęta postać może być w grze.",
     "huntsman-marionette": "Jeżeli Marionetka myśli, że jest Łowczym, to Damulka została dodana podczas przygotowywania gry.",
-    "innkeeper-leviathan": "Jeżeli Lewiatan nominuje i doprowadzi do egzekucji postaci chronionej przez Karczmarza, dobro zwycięża.",
-    "innkeeper-riot": "Jeżeli Zadyma nominuje i podda egzekucji postać chronioną przez Karczmarza, dobro wygrywa.",
+    "innkeeper-leviathan": "Jeżeli Lewiatan nominuje i doprowadzi do egzekucji gracza chronionego przez Karczmarza, dobro zwycięża.",
+    "innkeeper-riot": "Jeżeli Zadyma nominuje i doprowadzi do egzekucji gracza chronionego przez Karczmarza, dobro wygrywa.",
     "investigator-vizier": "Bajarz nie ogłasza, że Wezyr jest w grze.",
     "kazali-marionette": "Jeżeli Marionetka miałaby być w grze, to wchodzi do gry po Demonie i musi zaczynać grę jako jego sąsiad.",
     "kazali-summoner": "Jeżeli Przyzywacz stworzy drugiego żyjącego Demona, Bajarz wybiera, kto ginie tej nocy.",
@@ -1293,7 +1293,7 @@
     "lleech-slayer": "Jeżeli Pogromca strzeli w żywiciela Pijawy, żywiciel umiera.",
     "lordoftyphon-summoner": "Jeżeli Tyfaon zostaje przyzwany, musi sąsiadować ze Sługusem i jego drugi sąsiad staje się złym Sługusem.",
     "magician-marionette": "Jeżeli Magik żyje, to Demon nie wie, który z jego sąsiadów jest Marionetką.",
-    "magician-spy": "Kiedy Szpieg podgląda Grymuar, żetony Demona i Magika należy usunąć.",
+    "magician-spy": "Kiedy Szpieg zagląda do Grymuaru, żetony Demona i Magika należy usunąć.",
     "magician-vizier": "Jeżeli Wezyr jest w grze, Magik nie ma umiejętności, ale jest odporny na umiejętność Wezyra.",
     "magician-widow": "Gdy Wdowa podgląda Grymuar, żetony Demona i Magika należy usunąć.",
     "magician-wraith": "Po każdej egzekucji, żywy Magik może publicznie zgadnąć, który żywy gracz jest Upiorem. Jeżeli zgadł poprawnie, Demon musi wybrać Upiora tej nocy.",

@@ -562,7 +562,7 @@
     },
     "lunatic": {
       "ability": "Bạn nghĩ bạn là Ác quỷ, nhưng bạn không phải. Ác quỷ biết bạn là ai & người bạn chọn vào ban đêm.",
-      "first": "Nếu có 7 người chơi trở lên, đánh thức Lunatic: Cho xem token *ĐÂY LÀ NHỮNG TAY SAI CỦA BẠN*. Chỉ vào người bất kỳ. Cho xem token *NHỮNG NHÂN VẬT SAU KHÔNG CÓ TRONG VÁN CHƠI*. Cho xem 3 token nhân vật tốt. Cho Lunatic đi ngủ. Đánh thức Ác quỷ. Cho xem token thông tin \"BẠN LÀ\" và token Ác quỷ. Cho xem token *NGƯỜI ĐÓ LÀ* và token Lunatic, rồi chỉ vào Lunatic.",
+      "first": "Nếu có 7 người chơi trở lên, đánh thức Lunatic: Cho xem token *ĐÂY LÀ NHỮNG TAY SAI CỦA BẠN*. Chỉ vào người bất kỳ. Cho xem token *NHỮNG NHÂN VẬT SAU KHÔNG CÓ TRONG VÁN CHƠI*. Cho xem 3 token nhân vật tốt. Cho Lunatic đi ngủ. Đánh thức Ác quỷ. Cho xem token thông tin *BẠN LÀ* và token Ác quỷ. Cho xem token *NGƯỜI ĐÓ LÀ* và token Lunatic, rồi chỉ vào Lunatic.",
       "flavor": "Ta là bóng đêm... hình như vậy.",
       "name": "Lunatic",
       "other": "Làm bất kỳ hành động để đóng giả là Ác quỷ. Cho Lunatic đi ngủ. Đánh thức Ác quỷ. Cho xem token Lunatic & chỉ vào họ, và (những) mục tiêu của họ."
@@ -592,10 +592,10 @@
     },
     "mathematician": {
       "ability": "Mỗi đêm, bạn biết bao nhiêu năng lực của người chơi hoạt động bất thường (kể từ bình minh) do năng lực của nhân vật khác.",
-      "first": "Đưa dấu hiệu bằng ngón tay.",
+      "first": "Giơ một số.",
       "flavor": "Bất kỳ hệ thống chính thức nhất quán x nào, trong đó có thể thực hiện một lượng phép tính số học cơ bản nhất định, đều không nhất quán; nghĩa là, có những phát biểu trong ngôn ngữ của x không thể được chứng minh hoặc bác bỏ trong x. Do đó, bạn say rồi, Ergo ạ.",
       "name": "Mathematician",
-      "other": "Đưa dấu hiệu bằng ngón tay."
+      "other": "Giơ một số."
     },
     "matron": {
       "ability": "Mỗi ngày, bạn có thể chọn đến tối đa 3 cặp 2 người chơi để hoán đổi chỗ ngồi. Người chơi không thể rời khỏi chỗ ngồi để nói riêng.",
@@ -674,7 +674,7 @@
       "ability": "Mỗi đêm*, bạn biết có bao nhiêu người chết theo phe xấu.",
       "flavor": "Chỉ những người được chọn mới có thể nhìn thấy bên kia bức màn. Người chết bồn chồn, im lặng chỉ tay về phía bắc băng giá.",
       "name": "Oracle",
-      "other": "Đưa dấu hiệu bằng ngón tay."
+      "other": "Giơ một số."
     },
     "organgrinder": {
       "ability": "Tất cả người chơi phải nhắm mắt khi bỏ phiếu và tổng số phiếu được giữ bí mật. Mỗi đêm, chọn bạn có bị say rượu cho đến hoàng hôn không.",
