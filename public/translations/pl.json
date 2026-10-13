@@ -48,7 +48,7 @@
       "name": "Artysta"
     },
     "assassin": {
-      "ability": "Raz na grę, nocą*, wybierz gracza: umiera, nawet jeśli z jakiegoś powodu nie powinien.",
+      "ability": "Raz na grę, nocą*, wybierz gracza: umiera, nawet jeśli z jakiegokolwiek powodu nie powinien.",
       "flavor": "...",
       "name": "Skrytobójca",
       "other": "Skrytobójca może wybrać gracza. :reminder: :reminder:"
@@ -106,7 +106,7 @@
       "name": "Laborant"
     },
     "bonecollector": {
-      "ability": "Raz na grę, w nocy*, wybierz gracza: ponownie otrzymuje swoją umiejętność do zmroku.",
+      "ability": "Raz na grę, nocą*, wybierz gracza: ponownie otrzymuje swoją umiejętność do zmroku.",
       "flavor": "Kolekcjonuję wiele rzeczy. Włosy. Zęby. Ubrania. Fragmenty wierszy. Sny utraconych kochanków. Tajemnice mojej sztuki nie są dla ciebie, ale zapłata to tylko drobnostka. Przynieś mi krew szlachcianki, która umarła na złamane serce podczas pełni księżyca, a znajdziesz odpowiedzi na swoje pytania.",
       "name": "Kolekcjoner Kości",
       "other": "Kolekcjoner kości może wybrać martwego gracza. :reminder: Jeśli trzeba, obudź wybranego gracza, aby użył swojej umiejętności."
@@ -191,7 +191,7 @@
       "name": "Zegarmistrz"
     },
     "courtier": {
-      "ability": "Raz na grę, w nocy, wybierz postać: jest ona pijana przez 3 dni i 3 noce.",
+      "ability": "Raz na grę, nocą, wybierz postać: jest ona pijana przez 3 noce i 3 dni.",
       "first": "Dworzanin może wybrać postać. :reminder: :reminder:",
       "flavor": "Bardziej obawiałbym się armii stu owiec dowodzonej przez lwa niż armii stu lwów dowodzonej przez owcę.",
       "name": "Dworzanin",
@@ -200,7 +200,7 @@
     "cultleader": {
       "ability": "Każdej nocy zmieniasz swoją przynależność na przynależność jednego ze swoich żywych sąsiadów. Jeżeli wszyscy dobrzy gracze przyłączą się do twojej sekty, twoja drużyna wygrywa.",
       "first": "Przywódca Sekty może zmienić swoją przynależność. Jeżeli tak się stanie, pokaż kartę *JESTEŚ* i kciukiem w górę/w dół nową przynależność.",
-      "flavor": "Myśląc, że są mędrcami, stali się głupcami.",
+      "flavor": "Uważając się za mądrych stali się głupimi.",
       "name": "Przywódca Sekty",
       "other": "Przywódca Sekty może zmienić swoją przynależność. Jeżeli tak się stanie, pokaż kartę *JESTEŚ* i kciukiem w górę/w dół nową przynależność."
     },
@@ -230,10 +230,10 @@
     },
     "devilsadvocate": {
       "ability": "Każdej nocy wybierz żywego gracza (innego niż poprzedniej nocy): jeżeli jutro zostanie stracony, nie umiera.",
-      "first": "Adwokat Diabła wybiera żywego gracza. :reminder:",
-      "flavor": "Mój klient, jeśli sprzeciw zostanie oddalony, utrzymuje niewinność z mocy faktu, iż oskarżenie nie dochowało postanowień statutu 27.B — dotyczącego niepoprawnej lub wprowadzającej w błąd koniugacji czasownika. Fakt, że dziewięciu przysięgłych zmarło zeszłej nocy, stanowi jedynie prima facie, co — jak ustanowił precedens w sprawie Wills przeciwko Thule — jest dodatkową podstawą do uniewinnienia.",
-      "name": "Adwokat Diabła",
-      "other": "Adwokat Diabła wybiera żywego gracza. :reminder:"
+      "first": "Adwokat diabła wybiera żywego gracza. :reminder:",
+      "flavor": "Mój klient, jeśli sprzeciw zostanie oddalony, utrzymuje niewinność z mocy faktu, iż oskarżenie nie dochowało postanowień statutu 27.B dotyczącego niepoprawnej lub wprowadzającej w błąd koniugacji czasownika. Fakt, że dziewięciu przysięgłych zmarło zeszłej nocy, stanowi jedynie prima facie, co, jak ustanowił precedens w sprawie Wills przeciwko Thule, jest dodatkową podstawą do uniewinnienia.",
+      "name": "Adwokat diabła",
+      "other": "Adwokat diabła wybiera żywego gracza. :reminder:"
     },
     "djinn": {
       "ability": "Użyj specjalnych zasad Dżina. Wszyscy gracze je znają.",
@@ -258,7 +258,7 @@
       "name": "Pijak"
     },
     "duchess": {
-      "ability": "Każdego dnia może cię odwiedzić 3 graczy. W nocy*, każdy z nich dowiaduje się, ilu odwiedzających było złych, ale 1 dostaje fałszywe informacje.",
+      "ability": "Każdego dnia może cię odwiedzić 3 graczy. Nocą*, każdy z nich dowiaduje się, ilu odwiedzających było złych, ale 1 dostaje fałszywe informacje.",
       "flavor": "Będziemy przyjmować gości między godziną 6 a 7 dokładnie i bez zwłoki. Herbata zostanie podana o 6:15, a ciasteczka o 6:45. Spóźnienia nie będą tolerowane. Strój uroczysty, jak zawsze, bezwzględnie.",
       "name": "Księżna",
       "other": "Obudź pojedynczo każdego gracza oznaczonego *ODWIEDZAJĄCY* albo *FAŁSZYWE INFORMACJE*. Pokaż im kartę *TA POSTAĆ CIĘ WYBRAŁA* i żeton Księżnej i odpowiednią ilość palców."
@@ -275,7 +275,7 @@
       "other": "Pokaż na palcach."
     },
     "engineer": {
-      "ability": "Raz na grę, w nocy wybierz, którzy Sługusi albo który Demon jest w grze.",
+      "ability": "Raz na grę, nocą, wybierz, którzy Sługusi albo który Demon jest w grze.",
       "first": "Inżynier może wybrać Sługusów albo Demona. Uśpij Inżyniera. Obudź wybranych graczy pojedynczo. Pokaż kartę *JESTEŚ* i nowy żeton postaci. :reminder:",
       "flavor": "Jeśli się zgina, świetnie. Jeśli pęknie, cóż, prawdopodobnie i tak potrzebowało naprawy.",
       "name": "Inżynier",
@@ -339,8 +339,8 @@
       "other": "Pokiwaj lub pokręć głową."
     },
     "fool": {
-      "ability": "Gdy pierwszy raz umierasz, nie umierasz.",
-      "flavor": "...a Król powiedział: \"Co?! Nigdy nie miałem nawet gumowych pantalonów, a co dopiero armatę na budyń!\" Hej-ho! Co za dzień!",
+      "ability": "Za pierwszym razem kiedy miałbyś umrzeć, przeżywasz.",
+      "flavor": "...a Król na to: \"Co?! Nigdy nie miałem nawet gumowych pantalonów, a co dopiero armatę na budyń!\" Hej-ho! Co za dzień!",
       "name": "Błazen"
     },
     "fortuneteller": {
@@ -384,10 +384,10 @@
       "name": "Goblin"
     },
     "godfather": {
-      "ability": "Na początku gry dowiadujesz się, którzy Outsiderzy są w grze. Jeżeli 1 umarł za dnia, wybierz tej nocy gracza, który umiera. [-1 albo +1 Outsider]",
+      "ability": "Na początku gry dowiadujesz się, którzy Outsiderzy są w grze. Jeżeli 1 dziś umarł, wybierz tej nocy gracza, który umiera. [-1 albo +1 Outsider]",
       "first": "Pokaż żetony postaci wszystkich Outsiderów, którzy są w grze.",
       "flavor": "Zazwyczaj to tylko interes. Ale gdy obrażasz moją córkę, obrażasz mnie. A jak obrażasz mnie, obrażasz moją rodzinę. Naprawdę powinieneś bardziej uważać - byłoby naprawdę szkoda, gdyby przydarzył ci się jakiś nieszczęśliwy wypadek.",
-      "name": "Ojciec Chrzestny",
+      "name": "Ojciec chrzestny",
       "other": "Jeżeli za dnia umarł Outsider, Ojciec chrzestny wybiera gracza. :reminder:"
     },
     "golem": {
@@ -396,12 +396,12 @@
       "name": "Golem"
     },
     "goon": {
-      "ability": "Każdej nocy pierwszy gracz, który wybierze cię w wyniku swojej umiejętności jest pijany do zmierzchu. Przechodzisz na jego stronę.",
+      "ability": "Każdej nocy pierwszy gracz, który wskaże cię za pomocą swojej umiejętności, jest pijany do zmierzchu. Przechodzisz na jego stronę.",
       "flavor": "Ta szefie. Pogadałem z tym typem jak należy. Drugi raz nie będzie trzeba, gwarantuję. Nie szefie, nie trza doktora - to tylko rana od noża. Do rana się zagoi.",
       "name": "Zbir"
     },
     "gossip": {
-      "ability": "Każdego dnia, możesz oświadczyć coś publicznie. W nocy, jeżeli była to prawda, któryś z graczy umiera.",
+      "ability": "Każdego dnia możesz wygłosić publiczne oświadczenie. Jeśli było prawdziwe, jeden z graczy umrze w nocy.",
       "flavor": "Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla. Bla.",
       "name": "Plotkara",
       "other": "Jeżeli Plotkara ma zabić gracza, gracz umiera. :reminder:"
@@ -409,7 +409,7 @@
     "grandmother": {
       "ability": "Na początku gry poznajesz dobrego gracza i jego postać. Jeżeli zabije go Demon, ty też umierasz.",
       "first": "Wskaż na gracza oznaczonego jako wnuczek i pokaż jego żeton postaci.",
-      "flavor": "Ubierz kurteczkę jak idziesz na dwór, skarbie. I jeszcze termos. I szaliczek. Wiesz, że mam słabe serce. Co bym zrobiła, gdybyś złapał przeziębienie... albo coś gorszego?",
+      "flavor": "Załóż kurteczkę jak idziesz na dwór, skarbie. I jeszcze termos. I szaliczek. Wiesz, że mam słabe serce. Co bym zrobiła, gdybyś złapał przeziębienie... albo coś gorszego?",
       "name": "Babcia",
       "other": "Jeżeli wnuczek został zabity przez Demona, Babcia również umiera. :reminder:"
     },
@@ -460,7 +460,7 @@
       "other": "Wskaż gracza."
     },
     "huntsman": {
-      "ability": "Raz na grę, w nocy, wybierz żywego gracza: jeśli wybrałeś Damulkę, staje się Mieszczaninem, którego nie ma w grze. [+Damulka]",
+      "ability": "Raz na grę, nocą, wybierz żywego gracza: jeśli wybrałeś Damulkę, staje się Mieszczaninem, którego nie ma w grze. [+Damulka]",
       "first": "Łowczy może wybrać gracza. :reminder: Jeżeli wybrany gracz jest Damulką: Uśpij Łowczego. Obudź wybranego gracza, pokaż kartę *JESTEŚ* i żeton nowej postaci.",
       "flavor": "Moja chatka jest ciepła i solidna. Siekiera leży koło drzwi, buty schną przy palenisku, potrawka z łosia bulgocze... Hej! Krzyk odbija się echem w dolinie! Deszcz i błoto i chłód, chłodny wiatr maskuje zapach wilków, ale ja znam ścieżkę i nie zwalniam tempa. Nadchodzę.",
       "name": "Łowczy",
@@ -561,7 +561,7 @@
       "other": "Tyfaon wybiera gracza. :reminder:"
     },
     "lunatic": {
-      "ability": "Myślisz, że jesteś Demonem, ale nim nie jesteś. Demon wie, kim jesteś i dowiaduje się, kogo wybrałeś w nocy.",
+      "ability": "Myślisz, że jesteś Demonem, ale nim nie jesteś. Demon wie, kim jesteś oraz kogo wybierasz nocą.",
       "first": "Jeżeli gra 7 lub więcej graczy, obudź Szaleńca: pokaż kartę *TO SĄ TWOI SŁUGUSI*. Wskaż którychkolwiek graczy. Pokaż kartę *TYCH POSTACI NIE MA W GRZE*. Pokaż żetony 3 dobrych postaci. Uśpij Szaleńca. Obudź Demona. Pokaż kartę *JESTEŚ* i żeton Demona. Pokaż kartę *TEN GRACZ JEST* i żeton Szaleńca, następnie wskaż na Szaleńca.",
       "flavor": "Jestem nocą... a przynajmniej tak mi się wydaje.",
       "name": "Szaleniec",
@@ -586,9 +586,9 @@
       "name": "Marionetka"
     },
     "mastermind": {
-      "ability": "Jeżeli Demon umrze w wyniku egzekucji (kończąc grę), grajcie przez jeszcze 1 dzień. Jeżeli tego dnia gracz zostanie poddany egzekucji, jego drużyna przegrywa.",
+      "ability": "Jeżeli Demon zginie w wyniku egzekucji (kończąc grę), grajcie jeszcze 1 dzień. Jeżeli tego dnia gracz zostanie poddany egzekucji, jego drużyna przegrywa.",
       "flavor": "Macki tego potwora zostały przybite do kościelnych wrót. Matki z dziećmi tańczą na ulicach. Wyśmienicie. Wszystko idzie zgodnie z moim planem.",
-      "name": "Geniusz Zła"
+      "name": "Geniusz zła"
     },
     "mathematician": {
       "ability": "Każdej nocy dowiadujesz się, umiejętności ilu graczy zadziałały niepoprawnie (od świtu) w wyniku działania umiejętności innej postaci.",
@@ -618,8 +618,8 @@
       "first": "Jeżeli w grze jest 7 lub więcej graczy, obudź Sługusów: Pokaż kartę *TO JEST DEMON*. Wskaż Demona. Pokaż kartę *TO SĄ TWOI SŁUGUSI*. Wskaż innych Sługusów."
     },
     "minstrel": {
-      "ability": "Gdy Sługus zostaje stracony, wszyscy inni gracze (oprócz Podróżników) są pijani do zmierzchu następnego dnia.",
-      "flavor": "Usłyszę cię, choć nade mną stąpasz lekko... I wszystkie me sny staną się cieplejsze, słodsze... Jeśli tylko nie zapomnisz powiedzieć, że mnie kochasz... Będę spał spokojnie, dopóki nie przyjdziesz do mnie.",
+      "ability": "Gdy Sługus ginie w wyniku egzekucji, wszyscy inni gracze (oprócz Podróżników) są pijani do zmierzchu następnego dnia.",
+      "flavor": "Usłyszę cię, choć nade mną stąpasz lekko... I wszystkie me sny staną się cieplejsze, słodsze... Jeśli tylko nie zapomnisz powiedzieć, że mnie kochasz... Będę spać spokojnie, dopóki nie przyjdziesz do mnie.",
       "name": "Minstrel"
     },
     "monk": {
@@ -640,7 +640,7 @@
       "name": "Mutant"
     },
     "nightwatchman": {
-      "ability": "Raz na grę, w nocy, wybierz gracza: dowiaduje się, że jesteś Strażnikiem nocnym.",
+      "ability": "Raz na grę, nocą, wybierz gracza: dowiaduje się, że jesteś Strażnikiem nocnym.",
       "first": "Strażnik nocny może wybrać gracza. Uśpij Strażnika nocnego. Obudź wybranego przez niego gracza i pokaż kartę *TEN GRACZ JEST*, żeton Strażnika nocnego i wskaż Strażnika nocnego. :reminder:",
       "flavor": "Zimna i samotna ta noc, lecz towarzyszą mi księżyc i gwiazdy, chłodny powiew wiatru i cichy odgłos skórzanych butów na kamiennym bruku. A tam, w oddali, za zmętniałą szybą, drży blask świecy...",
       "name": "Strażnik nocny",
@@ -685,11 +685,11 @@
     },
     "pacifist": {
       "ability": "Straceni dobrzy gracze mogą przeżyć egzekucję.",
-      "flavor": "Nie ufaj nikomu kto ma chęć karać wielką.",
+      "flavor": "Nie dowierzajcie nikomu, w kim popęd do karania jest zbyt silny.",
       "name": "Pacyfista"
     },
     "philosopher": {
-      "ability": "Raz na grę, w nocy, wybierz dobrą postać: otrzymujesz jej umiejętność. Jeżeli ta postać jest w grze, jest pijana.",
+      "ability": "Raz na grę, nocą, wybierz dobrą postać: otrzymujesz jej umiejętność. Jeżeli ta postać jest w grze, jest pijana.",
       "first": "Filozof może wybrać postać. Jeżeli trzeba, podmień jego żeton. :reminder:",
       "flavor": "Jeżeli cokolwiek jest prawdziwe, to prawdziwe jest piwo. Pij, jutro możemy umrzeć.",
       "name": "Filozof",
@@ -714,10 +714,10 @@
       "other": "Jeżeli Doktor plagi zginął, Bajarz zdobył zdolność Sługusa. Jeżeli jeszcze tego nie zrobiłeś, zrób to teraz. :reminder:"
     },
     "po": {
-      "ability": "Każdej nocy* możesz wybrać gracza: umiera. Jeżeli twoim ostatnim wyborem był nikt, zamiast tego wybierz 3 graczy.",
+      "ability": "Każdej nocy* możesz wybrać gracza: umiera. Jeżeli poprzednio wstrzymałeś się przed wyborem, zamiast tego wybierz 3 graczy.",
       "flavor": "Chciałbyś kwiatuszka? Jestem taka samotna.",
       "name": "Po",
-      "other": "Po może wybrać gracza albo 3 jeżeli nikt nie został wybrany poprzedniej nocy. :reminder: albo :reminder: :reminder: :reminder:"
+      "other": "Po może wybrać gracza ALBO 3 graczy, jeżeli nikt poprzedniej nocy wstrzymał się przed wyborem. :reminder: albo :reminder: :reminder: :reminder:"
     },
     "poisoner": {
       "ability": "Każdej nocy wybierz gracza: jest zatruty tej nocy i następnego dnia.",
@@ -752,7 +752,7 @@
       "other": "Jeżeli Księżniczka nominowała gracza, który został stracony tego dnia, Demon budzi się normalnie, ale nikt nie umiera w wyniku umiejętności Demona. :reminder:"
     },
     "professor": {
-      "ability": "Raz na grę, w nocy*, wybierz martwego gracza: jeżeli był Mieszczaninem, zostaje wskrzeszony.",
+      "ability": "Raz na grę, nocą*, wybierz martwego gracza: jeżeli jest Mieszczaninem, zostaje wskrzeszony.",
       "flavor": "Procedura jest prosta. Zamocuj hydrauliczny konfabulator do zmodyfikowanego wzmacniacza matrycy chi, dodaj 20 ml pseudodorafiny, utrzymuj poziom Z powyżej 20%, a twój mąż będzie cały i zdrów. Teraz potrzebujemy tylko pioruna.",
       "name": "Profesor",
       "other": "Profesor może wybrać martwego gracza. :reminder: :reminder:"
@@ -763,9 +763,9 @@
       "name": "Psychopata"
     },
     "pukka": {
-      "ability": "Każdej nocy wybierz gracza: jest zatruty. Poprzednio zatruty gracz umiera i zdrowieje.",
+      "ability": "Każdej nocy wybierz gracza: jest zatruty. Poprzednio zatruty gracz umiera, po czym zdrowieje.",
       "first": "Pukka wybiera gracza. :reminder:",
-      "flavor": "Byliście naprawdę mili przyjmując mnie do waszego pięknego domu. Przepraszam najmocniej, że zadrapałem cię przypadkiem. Taka drobnostka. Cóż, może bez znaczenia. Jednak proszę, przyjmij tę złotą wykałaczkę jako uniżony znak mojego żalu.",
+      "flavor": "Byliście naprawdę uczynni przyjmując mnie do waszego pięknego domu. Przepraszam najmocniej, że zadrapałem cię przypadkiem. Taka drobnostka. Cóż, może bez znaczenia. Jednak proszę, przyjmij tę złotą wykałaczkę jako uniżony znak mojej skruchy.",
       "name": "Pukka",
       "other": "Pukka wybiera gracza. :reminder: Poprzednio zatruty gracz umiera, a następnie przestaje być zatruty. :reminder:"
     },
@@ -805,7 +805,7 @@
     "sailor": {
       "ability": "Każdej nocy wybierz gracza: jeden z was jest pijany do zmierzchu. Nie możesz umrzeć.",
       "first": "Żeglarz wybiera żywego gracza. :reminder:",
-      "flavor": "Przepiję któregokolwiek z was pod stół! Ty! Gaduło! Myślisz, że dasz mi radę? Nie? A ty, babciu? Próbowałaś kiedyś Old McKilly’s Extra Spiced Rum? Gwarantuję, że wyrosną ci po tym włosy na klacie! Wskakuj na pokład, ej!",
+      "flavor": "Przepiję któregokolwiek z was pod stół! Ty! Gaduło! Myślisz, że dasz mi radę? Nie? A ty, babciu? Próbowałaś kiedyś korzennego rumu od starego McKilly’ego? Gwarantuję, że wyrosną ci po tym włosy na klacie! Wskakuj na pokład, ej!",
       "name": "Żeglarz",
       "other": "Żeglarz wybiera żywego gracza. :reminder:"
     },
@@ -831,7 +831,7 @@
       "other": "Jeżeli Kochanica diabła stała się Demonem, pokaż kartę *JESTEŚ* i żeton Demona."
     },
     "seamstress": {
-      "ability": "Raz na grę, w nocy, wybierz 2 graczy (nie siebie): dowiadujesz się, czy należą do tej samej drużyny.",
+      "ability": "Raz na grę, nocą, wybierz 2 graczy (nie siebie): dowiadujesz się, czy należą do tej samej drużyny.",
       "first": "Szwaczka może wybrać 2 graczy. Pokiwaj lub pokręć głową. :reminder:",
       "flavor": "Słyszałaś, że ten nieznajomy w kaszmirowym płaszczu dał po słowie małej Belle? I powiedziała tak? Cóż, to nic w porównaniu z tym co Harry i ten żongler narozrabiali podczas festynu! Mogła bym tak opowiadać i opowiadać...jak bym była plotkarą, o tak.",
       "name": "Szwaczka",
@@ -843,7 +843,7 @@
       "name": "Odźwierny"
     },
     "shabaloth": {
-      "ability": "Każdej nocy* wybierz 2 graczy: umierają. Martwy gracz, którego wybrałeś poprzedniej nocy może zostać zwrócony.",
+      "ability": "Każdej nocy* wybierz 2 graczy: umierają. Martwy gracz wybrany poprzedniej nocy może zostać zwrócony.",
       "flavor": "Blarg f'taag nm mataan! No sho gumtha m'sik na yuuu. Fluuuuuuuuurg h-sikkkh.",
       "name": "Shabaloth",
       "other": "Poprzednio wybrany gracz może zostać wskrzeszony. :reminder: Shabaloth wybiera 2 graczy. :reminder: :reminder:"
@@ -860,10 +860,10 @@
       "name": "Pogromca"
     },
     "snakecharmer": {
-      "ability": "Każdej nocy wybierz żywego gracza: wybrany Demon zamienia się z tobą postacią i przynależnością, następnie staje się zatruty.",
-      "first": "Zaklinacz Węży wybiera gracza. Jeżeli wybrał Demona: Pokaż kartę *JESTEŚ* i żeton Demona. Pokaż kciuk w dół (zły). Zamień żeton Zaklinacza Wężów i Demona. Uśpij starego Zaklinacza Wężów. Obudź starego Demona. Pokaż kartę *JESTEŚ* i żeton Zaklinacza Węży oraz kciuk w górę (dobry). :reminder:",
-      "flavor": "Effendi... jestem tylko skromnym człowiekiem, ale mój flet jest złoty i jedna nuta ukoi najdzikszego dżina, Inshallah. Powiadają, że chciwość powiesiła więcej ludzi niż pozróz. Ale nie ja, Effendi... nie ja.",
-      "name": "Zaklinacz Węży",
+      "ability": "Każdej nocy wybierz żywego gracza: wybrany Demon zamienia się z tobą postacią i przynależnością, a następnie zostaje zatruty.",
+      "first": "Zaklinacz węży wybiera gracza. Jeżeli wybrał Demona: Pokaż kartę *JESTEŚ* i żeton Demona. Pokaż kciuk w dół. Zamień żeton Zaklinacza węży i Demona. Uśpij poprzedniego Zaklinacza węży. Obudź poprzedniego Demona. Pokaż kartę *JESTEŚ* i żeton Zaklinacza węży oraz kciuk w górę. :reminder:",
+      "flavor": "Effendi... jestem tylko skromnym człowiekiem, ale mój flet jest złoty i jedna nuta oswoi najdzikszego dżina, Inshallah. Powiadają, że chciwość powiesiła więcej ludzi niż powróz. Ale nie ja, Effendi... nie ja.",
+      "name": "Zaklinacz węży",
       "other": "Zaklinacz węży wybiera gracza. Jeżeli wybrał Demona: Pokaż kartę *JESTEŚ* i żeton Demona. Pokaż kciuk w dół. Zamień żeton Zaklinacza węży i Demona. Uśpij poprzedniego Zaklinacza węży. Obudź poprzedniego Demona. Pokaż kartę *JESTEŚ* i żeton Zaklinacza węży oraz kciuk w górę. :reminder:"
     },
     "snitch": {
@@ -915,8 +915,8 @@
       "other": "Po śmierci Cukiereczka jeden z graczy natychmiast staje się pijany. Jeżeli jeszcze tego nie zrobiłeś, zrób to teraz. :reminder:"
     },
     "tealady": {
-      "ability": "Jeżeli oboje z twoich żyjących sąsiadów są dobrzy, nie mogą umrzeć.",
-      "flavor": "Jeśli ci zimno, herbata cie ogrzeje. Jeśli ci gorąco, herbata cie ochłodzi. Jeśli masz depresję, herbata cię pocieszy. Jeśli jesteś podniecony, herbata cię uspokoi.",
+      "ability": "Jeśli obydwoje twoich żywych sąsiadów jest dobrych, żadne z nich nie może umrzeć.",
+      "flavor": "Jeśli ci zimno, herbata cię ogrzeje. Jeśli ci zbyt gorąco, herbata cię ochłodzi. Jeśli jesteś przygnębiony, herbata cię pocieszy. Jeśli jesteś podniecony, herbata cię uspokoi.",
       "name": "Herbaciarka"
     },
     "thief": {
@@ -927,21 +927,21 @@
       "other": "Złodziej wybiera gracza. :reminder:"
     },
     "tinker": {
-      "ability": "Możesz umrzeć w każdej chwili.",
+      "ability": "Możesz umrzeć w dowolnym momencie.",
       "flavor": "Chyba wiem, gdzie leży problem. Na szczęście mam pomysł! Wystarczy jedna drobna poprawka, a katapulta będzie strzelała dwa razy dalej...",
-      "name": "Majsterkowicz",
-      "other": "Majsterkowicz może umrzeć. :reminder:"
+      "name": "Druciarz",
+      "other": "Druciarz może umrzeć. :reminder:"
     },
     "towncrier": {
       "ability": "Każdej nocy* dowiadujesz się, czy Sługus nominował.",
-      "flavor": "Słuchajcie! Słuchajcie! Czary w labiryncie! Genialny uczony odkrywa wszystko! Miasteczko zagrożone! Słuchajcie!",
-      "name": "Krzykacz Miejski",
+      "flavor": "Słuchajcie! Słuchajcie! Czary w labiryncie! Genialny uczony odkrywa wszystko! Miasteczko w niebezpieczeństwie! Słuchajcie!",
+      "name": "Krzykacz miejski",
       "other": "Pokiwaj lub pokręć głową."
     },
     "toymaker": {
       "ability": "Demon może zdecydować się nie zaatakować i musi zrobić to przynajmniej raz na grę. Źli gracze otrzymują początkowe informacje jak zwykle.",
       "first": "Wykonaj krok Informacje dla Sługusów i Informacje dla Demona nawet przy mniej niż 7 graczach.",
-      "flavor": "Brzęczy! Schodzi po schodach! Zapewnia ciepło w nocy! Smakuje jak cukier! Dzieciaki je kochają! Przedstawiam... całkiem nowe... Brzęcząco-schodzące-ciepło-słodkie-ustrojstwo! Zabawa dla całej rodziny!",
+      "flavor": "Brzęczy! Schodzi po schodach! Ogrzewa nocą! Smakuje jak cukier! Dzieciaki je kochają! Przedstawiam... całkiem nowe... Brzęcząco-schodzące-ciepło-słodkie-ustrojstwo! Zabawa dla całej rodziny!",
       "name": "Lalkarz",
       "other": "Jeżeli jest to noc, gdy atak Demona zakończyłby grę, a Demon jest oznaczony *OSTATNIA NOC: BRAK ATAKU*, nie budź Demona."
     },
@@ -1199,13 +1199,13 @@
   "jinxes": {
     "alchemist-boffin": "Jeśli Alchemik posiada umiejętność Szalonego naukowca, nie dowiaduje się, jaką umiejętność uzyskał Demon.",
     "alchemist-marionette": "Alchemik-Marionetka nie posiada umiejętności Marionetki, a Marionetka jest w grze.",
-    "alchemist-mastermind": "Alchemik-Geniusz Zła nie ma umiejętności Geniusza Zła, a Geniusza Zła nie ma w grze.",
+    "alchemist-mastermind": "Alchemik-Geniusz zła nie ma umiejętności Geniusza zła, a Geniusza zła nie ma w grze.",
     "alchemist-organgrinder": "Jeżeli Alchemik ma zdolność Kataryniarza, Kataryniarz jest w grze. Jeżeli oboje są trzeźwi, oboje są pijani.",
     "alchemist-spy": "Alchemik-Szpieg nie ma umiejętności Szpiega, a Szpieg jest w grze. Po każdej egzekucji, żywy Alchemik-Szpieg może publicznie zgadnąć, który żywy gracz jest Szpiegiem. Jeżeli zgadnie poprawnie, Demon musi wybrać Szpiega tej nocy.",
     "alchemist-summoner": "Alchemik-Przyzywacz nie dostaje blefów i wybiera, który Demon jest w grze, ale nie który gracz nim jest. Jeśli umrze zanim to się stanie, zło wygrywa. [brak Demona]",
     "alchemist-widow": "Alchemik-Wdowa nie ma umiejętności Wdowy, a Wdowa jest w grze. Po każdej egzekucji żywy Alchemik-Wdowa może publicznie zgadnąć, który żywy gracz jest Wdową. Jeżeli zgadnie poprawnie, Demon musi wybrać Wdowę tej nocy.",
     "alchemist-wraith": "Alchemik-Widmo nie ma zdolności Widma, a Widmo jest w grze. Po każdej egzekucji żywy Alchemik-Widmo może publicznie zgadnąć, który żywy gracz jest Widmem. Jeżeli zgadnie poprawnie, Demon musi wybrać Widmo tej nocy.",
-    "alhadikhia-mastermind": "Jeżeli Al-Hadikhia umrze w wyniku egzekucji, a Geniusz Zła żyje, tej nocy Al-Hadikhia wybiera 3 dobrych graczy: jeżeli wszyscy 3 wybiorą życie, zło wygrywa. W przeciwnym wypadku wygrywa dobro.",
+    "alhadikhia-mastermind": "Jeżeli Al-Hadikhia zginie w wyniku egzekucji, a Geniusz zła żyje, tej nocy Al-Hadikhia wybiera 3 dobrych graczy: jeżeli wszyscy 3 wybiorą życie, zło wygrywa. W przeciwnym wypadku wygrywa dobro.",
     "alhadikhia-princess": "Jeżeli swojego pierwszego dnia Księżniczka nominowała gracza poddanego egzekucji, nikt nie umiera od umiejętności Al-Hadikhi tej nocy.",
     "alhadikhia-scarletwoman": "Jeśli w grze są dwa Demony, z których jeden był wcześniej Kochanicą diabła, Kochanica diabła staje się ponownie Kochanicą diabła.",
     "alsaahir-vizier": "Bajarz nie ogłasza, że Wezyr jest w grze.",
@@ -1218,7 +1218,7 @@
     "baron-plaguedoctor": "Jeżeli Bajarz zyskuje umiejętność Barona, maksymalnie dwóch graczy staje się Outsiderami.",
     "boffin-cultleader": "Jeżeli Demon ma zdolność Przywódcy Sekty, nie może on zmienić się w dobrego w wyniku działania tej umiejętności.",
     "boffin-drunk": "Demon nie może mieć umiejętności Pijaka.",
-    "boffin-goon": "Jeśli Demon miałby mieć umiejętność Zbira, nie może zmienić się w dobrego demona w wyniku tej umiejętności.",
+    "boffin-goon": "Jeśli Demon ma umiejętność Zbira, nie może zmienić się w dobrego demona w wyniku tej umiejętności.",
     "boffin-heretic": "Demon nie może mieć umiejętności Heretyka.",
     "boffin-ogre": "Demon nie może mieć umiejętności Ogra.",
     "boffin-politician": "Demon nie może mieć umiejętności Polityka.",
@@ -1228,11 +1228,11 @@
     "bountyhunter-philosopher": "Jeżeli Filozof uzyska zdolność Łowcy nagród, jeden z Mieszczan może stać się zły.",
     "butler-cannibal": "Jeżeli Kanibal uzyskuje umiejętność Lokaja, Kanibal dowiaduje się o tym.",
     "butler-organgrinder": "Jeśli Kataryniarz powoduje głosowanie z zamkniętymi oczami, Lokaj może podnieść rękę podczas głosowania, ale jego głos się liczy tylko, gdy jego pan także zagłosował.",
-    "cannibal-juggler": "Jeżeli Żongler zgadywał pierwszego dnia i zginął w wyniku egzekucji, tej nocy żywy Kanibal dowiaduje się ile trafnych zgadnięć dostałby Żongler.",
+    "cannibal-juggler": "Jeżeli Żongler zgadywał pierwszego dnia i zginął w wyniku egzekucji, tej nocy żywy Kanibal dowiaduje się, ile razy Żongler zgadł poprawnie.",
     "cannibal-princess": "Jeżeli Księżniczka zginie od egzekucji nominowana przez Kanibala, Demon nie zabija tej nocy.",
     "cannibal-zealot": "Jeżeli Kanibal uzyskuje umiejętność Zeloty, Kanibal dowiaduje się o tym.",
     "cerenovus-goblin": "Cerenovus może zdecydować, że wybrany gracz ma mieć obsesję na punkcie tego, że jest Goblinem.",
-    "chambermaid-mathematician": "Pokojówka może wykryć, że Matematyk obudzi się tej nocy.",
+    "chambermaid-mathematician": "Pokojówka może wykryć, czy Matematyk obudzi się tej nocy.",
     "clockmaker-summoner": "Przyzywacz pokazuje się Zegarmistrzowi jako Demon.",
     "courtier-summoner": "Jeżeli żywy Przyzywacz nie posiada umiejętności, Bajarz posiada umiejętność Przyzywacza.",
     "courtier-vizier": "Jeżeli Wezyr utraci swoją umiejętność, dowiaduje się o tym i nie może zginąć w ciągu dnia.",
@@ -1254,8 +1254,8 @@
     "goblin-plaguedoctor": "Jeżeli Bajarz uzyskuje umiejętność Goblina, zamiast tego otrzymuje ją Sługus i dowiaduje się o tym.",
     "godfather-heretic": "Tylko 1 przeklęta postać może być w grze.",
     "goon-pithag": "Jeżeli Jędza przemieni złego gracza w Zbira, nie może on zmienić się w dobrego w wyniku swojej umiejętności.",
-    "grandmother-leviathan": "Jeśli Lewiatan jest w grze i Wnuczek umrze przez egzekucję, zło wygrywa.",
-    "grandmother-riot": "Jeśli Zadyma jest w grze, a Wnuczek umrze przez egzekucję, zło wygrywa.",
+    "grandmother-leviathan": "Jeśli Lewiatan jest w grze, a Wnuczek zginie w wyniku egzekucji, zło wygrywa.",
+    "grandmother-riot": "Jeśli Zadyma jest w grze, a Wnuczek zginie w wyniku egzekucji, zło wygrywa.",
     "hatter-legion": "Jeżeli zostanie stworzony Legion, wszyscy źli gracze stają się Legionem. Jeżeli Legion jest w grze, Kapelusznik nie ma umiejętności.",
     "hatter-leviathan": "Lewiatan nie może dołączyć do gry po 5 dniu.",
     "hatter-lilmonsta": "Jeżeli Kapelusznik umrze, a Demon wybierze Potforka, to wybiera także Sługusa, którym się staje.",
@@ -1272,7 +1272,7 @@
     "kazali-summoner": "Jeżeli Przyzywacz stworzy drugiego żyjącego Demona, Bajarz wybiera, kto ginie tej nocy.",
     "king-leviathan": "Jeżeli Lewiatan jest w grze i co najmniej jeden gracz jest martwy, Król dowiaduje się o jednej żywej postaci każdej nocy.",
     "king-riot": "Jeżeli Zadyma jest w grze i co najmniej jeden gracz jest martwy, Król dowiaduje się o jednej żywej postaci każdej nocy.",
-    "legion-minstrel": "Jeżeli Legion zginął w wyniku egzekucji to Legion zachowuje swoją umiejętność, ale Minstrel może dowiedzieć się, że jest Legionem.",
+    "legion-minstrel": "Jeżeli Legion zginął dziś w wyniku egzekucji, to Legion zachowuje swoją umiejętność, ale Minstrel może dowiedzieć się, że stracony gracz jest Legionem.",
     "legion-politician": "Polityk może pokazać się Legionowi jako zły.",
     "legion-preacher": "Jeżeli Kaznodzieja wybierze Legion, Legion zachowuje swoją umiejętność, ale Kaznodzieja może dowiedzieć się, że jest Legionem.",
     "legion-summoner": "Jeżeli Legion został przyzwany, wszyscy źli gracze stają się Legionem.",
@@ -1289,7 +1289,7 @@
     "lilmonsta-psychopath": "Jeżeli Psychopata opiekuje się Potforkiem, to umiera od egzekucji.",
     "lilmonsta-scarletwoman": "Jeżeli Potforek umrze przy 5 lub ponad 5 żywych graczach, Kochanica diabła opiekuje się Potforkiem do końca gry.",
     "lilmonsta-vizier": "Jeżeli Wezyr opiekuje się Potforkiem, to umiera od egzekucji.",
-    "lleech-mastermind": "Jeżeli Geniusz Zła żyje, a żywiciel Pijawy zginie w wyniku egzekucji, Pijawa przeżywa, ale traci swoją umiejętność.",
+    "lleech-mastermind": "Jeżeli Geniusz zła żyje, a żywiciel Pijawy zginie w wyniku egzekucji, Pijawa przeżywa, ale traci swoją umiejętność.",
     "lleech-slayer": "Jeżeli Pogromca strzeli w żywiciela Pijawy, żywiciel umiera.",
     "lordoftyphon-summoner": "Jeżeli Tyfaon zostaje przyzwany, musi sąsiadować ze Sługusem i jego drugi sąsiad staje się złym Sługusem.",
     "magician-marionette": "Jeżeli Magik żyje, to Demon nie wie, który z jego sąsiadów jest Marionetką.",
@@ -1299,7 +1299,7 @@
     "magician-wraith": "Po każdej egzekucji, żywy Magik może publicznie zgadnąć, który żywy gracz jest Upiorem. Jeżeli zgadł poprawnie, Demon musi wybrać Upiora tej nocy.",
     "marionette-plaguedoctor": "Jeżeli Bajarz zyskuje umiejętność Marionetki, jeden z dobrych sąsiadów Demona staje się Marionetką.",
     "marionette-summoner": "Jeżeli Marionetka miałaby być w grze, wchodzi do gry po Demonie i musi zacząć grę jako jego sąsiad.",
-    "mastermind-vigormortis": "Geniusz Zła, który posiada swoją umiejętność, zachowuje ją, gdy Vigormortis ginie.",
+    "mastermind-vigormortis": "Geniusz zła, który posiada swoją umiejętność, zachowuje ją, gdy Vigormortis ginie.",
     "mayor-riot": "Burmistrz może zdecydować o przerwaniu zadymy. Jeżeli zrobi to przy jednej żywej Zadymie, dobro wygrywa. W innym przypadku wygrywa zło.",
     "monk-riot": "Jeżeli Zadyma nominuje i doprowadzi do egzekucji gracza chronionego przez Mnicha, dobro wygrywa.",
     "ogre-pithag": "Jeżeli Jędza zamieni złego gracza w Ogra, to nie może on zmienić się w dobrego przy pomocy swojej umiejętności.",
@@ -1317,7 +1317,7 @@
     "poppygrower-widow": "Jeżeli Siewca maku ma swoją umiejętność, Wdowa nie zagląda do Grymuaru.",
     "preacher-summoner": "Jeżeli żywy Przyzywacz nie posiada umiejętności, Bajarz posiada umiejętność Przyzywacza.",
     "preacher-vizier": "Jeżeli Wezyr utraci swoją umiejętność, dowiaduje się o tym i nie może zginąć w ciągu dnia.",
-    "pukka-summoner": "Przyzywacz może przyzwać Pukkę 2-giej nocy, a nie 3-ciej.",
+    "pukka-summoner": "Przyzywacz może przyzwać Pukkę 2-giej nocy, zamiast 3-ciej.",
     "ravenkeeper-riot": "Każdej nocy* Zadyma wybiera dobrego gracza (innego niż poprzednich nocy): wybrany Hodowca kruków używa swojej umiejętności, ale nie umiera.",
     "recluse-sage": "Odludek może pokazać się Mędrcowi jako Demon.",
     "riot-sage": "Każdej nocy* Zadyma wybiera dobrego gracza (innego niż poprzednich nocy): wybrany Mędrzec używa swojej umiejętności, ale nie umiera.",
