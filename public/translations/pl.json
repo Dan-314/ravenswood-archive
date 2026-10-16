@@ -38,7 +38,7 @@
     },
     "apprentice": {
       "ability": "Pierwszej nocy po wejściu do gry otrzymujesz umiejętność Mieszczanina (jeśli jesteś dobry) lub Sługusa (jeśli jesteś zły).",
-      "first": "Pokaż Czeladnikowi kartę *JESTEŚ*, a następnie żeton Mieszczanina lub Sługusa, zamień żeton Czeladnika z żetonem tej postaci. :reminder:",
+      "first": "Pokaż Czeladnikowi kartę *JESTEŚ*, a następnie żeton Mieszczanina lub Sługusa. Zamień żeton Czeladnika z żetonem tej postaci. :reminder:",
       "flavor": "Przez lata podróżowałem i zgłębiałem tajniki Sztuki. Której sztuki, pytasz? Prostego ludu. Nie ma się czym martwić. Jeszcze.",
       "name": "Czeladnik"
     },
@@ -108,7 +108,7 @@
     "bonecollector": {
       "ability": "Raz na grę, nocą*, wybierz gracza: ponownie otrzymuje swoją umiejętność do zmroku.",
       "flavor": "Kolekcjonuję wiele rzeczy. Włosy. Zęby. Ubrania. Fragmenty wierszy. Sny utraconych kochanków. Tajemnice mojej sztuki nie są dla ciebie, ale zapłata to tylko drobnostka. Przynieś mi krew szlachcianki, która umarła na złamane serce podczas pełni księżyca, a znajdziesz odpowiedzi na swoje pytania.",
-      "name": "Kolekcjoner Kości",
+      "name": "Kolekcjoner kości",
       "other": "Kolekcjoner kości może wybrać martwego gracza. :reminder: Jeśli trzeba, obudź wybranego gracza, aby użył swojej umiejętności."
     },
     "boomdandy": {
@@ -199,10 +199,10 @@
     },
     "cultleader": {
       "ability": "Każdej nocy zmieniasz swoją przynależność na przynależność jednego ze swoich żywych sąsiadów. Jeżeli wszyscy dobrzy gracze przyłączą się do twojej sekty, twoja drużyna wygrywa.",
-      "first": "Przywódca Sekty może zmienić swoją przynależność. Jeżeli tak się stanie, pokaż kartę *JESTEŚ* i kciukiem w górę/w dół nową przynależność.",
+      "first": "Przywódca Sekty może zmienić swoją przynależność. Jeżeli tak się stanie, pokaż kartę *JESTEŚ* i wskaż kciukiem nową przynależność.",
       "flavor": "Uważając się za mądrych stali się głupimi.",
       "name": "Przywódca Sekty",
-      "other": "Przywódca Sekty może zmienić swoją przynależność. Jeżeli tak się stanie, pokaż kartę *JESTEŚ* i kciukiem w górę/w dół nową przynależność."
+      "other": "Przywódca Sekty może zmienić swoją przynależność. Jeżeli tak się stanie, pokaż kartę *JESTEŚ* i wskaż kciukiem nową przynależność."
     },
     "damsel": {
       "ability": "Wszyscy Sługusi wiedzą, że Damulka jest w grze. Jeżeli Sługus publicznie zgadnie, kim jesteś (raz), twoja drużyna przegrywa.",
@@ -224,7 +224,7 @@
       "name": "Deus ex Fiasco"
     },
     "deviant": {
-      "ability": "Jeżeli dzisiaj byłeś zabawny, to nie można cię wygnać.",
+      "ability": "Jeżeli byłeś dziś zabawny, to nie można cię wygnać.",
       "flavor": "Toż to był żarcik tej damy, zaprawdę.",
       "name": "Dewiant"
     },
@@ -236,7 +236,7 @@
       "other": "Adwokat diabła wybiera żywego gracza. :reminder:"
     },
     "djinn": {
-      "ability": "Użyj specjalnych zasad Dżina. Wszyscy gracze je znają.",
+      "ability": "Użyj specjalnych zasad Dżinna. Wszyscy gracze je znają.",
       "flavor": "نحن لسنا هنا. انت لست حقيقي. كل شيء هو وهم. أسئلتك هي جبل نار في يوم صافٍ.",
       "name": "Dżinn"
     },
@@ -357,7 +357,7 @@
       "other": "Hazardzista wybiera gracza i postać. :reminder:"
     },
     "gangster": {
-      "ability": "Raz dziennie, możesz zdecydować się na zabicie żywego sąsiada, jeżeli twój drugi żywy sąsiad się zgodzi.",
+      "ability": "Raz na dzień możesz zdecydować się na zabicie żywego sąsiada, jeżeli twój drugi żywy sąsiad się zgodzi.",
       "flavor": "Ładne masz buty. Szkoda by było, gdyby przydarzył ci się jakiś wypadek i się zniszczyły. Jak już o tym mowa, to spinki do mankietów też masz fajne.",
       "name": "Gangster"
     },
@@ -368,10 +368,10 @@
     },
     "general": {
       "ability": "Każdej nocy dowiadujesz się która przynależność, według Bajarza, wygrywa: dobro, zło, czy żadne.",
-      "first": "Daj znać kciukiem.",
+      "first": "Wskaż kciukiem.",
       "flavor": "Nie mam czasu na cytaty.",
       "name": "Generał",
-      "other": "Daj znać kciukiem."
+      "other": "Wskaż kciukiem."
     },
     "gnome": {
       "ability": "Gdy wchodzisz do gry, wszyscy gracze poznają jednego gracza z twojej drużyny. Możesz zabić kogokolwiek, kto go nominuje.",
@@ -598,8 +598,8 @@
       "other": "Pokaż na palcach."
     },
     "matron": {
-      "ability": "Każdego dnia możesz wybrać do 3 par graczy i zamienić ich miejscami. Gracze nie mogą opuszczać swoich miejsc aby porozmawiać prywatnie.",
-      "flavor": "Panno Featherbottom, proszę o ciszę. Panie Rutherford, filiżankę trzyma się czterema palcami, o tak. Wiem, że jest pan ojcem dziewięciorga dzieci, lecz wiek — ani jego brak, jak w tym wypadku — nigdy nie usprawiedliwia złych manier.",
+      "ability": "Każdego dnia możesz wybrać do 3 par graczy i zamienić ich miejscami. Gracze nie mogą opuszczać swoich miejsc aby porozmawiać na osobności.",
+      "flavor": "Panno Featherbottom, proszę o ciszę. Paniczu Rutherford, filiżankę trzyma się czterema palcami, o tak. Wiem, że jest pan ojcem dziewięciorga dzieci, lecz wiek - ani jego brak, jak w tym przypadku - nigdy nie usprawiedliwia złych manier.",
       "name": "Matrona"
     },
     "mayor": {
@@ -653,8 +653,8 @@
       "name": "Szlachcic"
     },
     "nodashii": {
-      "ability": "Każdej nocy* wybierz gracza: umiera. Twoi 2 sąsiedzi-Mieszczanie są zatruci.",
-      "flavor": "Na grzechy Arnocha, czuję twój obciążający smród. Na przeklęte słońce i jej plugawy legion małych, szyderczych bogów, deprawuję cię. Na błogą noc i ukryte głębiny straszliwego i bezbożnego morza, kończę twoje nędzne życie na tym łez padole.",
+      "ability": "Każdej nocy* wybierz gracza: umiera. Twoi 2 najbliżsi Mieszczanie są zatruci.",
+      "flavor": "Przez grzechy Arnocha czuję twój obciążający smród. Przez przeklęte słońce i jej plugawy legion małych, szyderczych bogów, deprawuję cię. Przez błogą noc i ukryte głębiny straszliwego i bezbożnego morza, kończę twoje nędzne życie na tym łez padole.",
       "name": "No Dashii",
       "other": "No Dashii wybiera gracza. :reminder:"
     },
@@ -794,7 +794,7 @@
       "ability": "3-ciego dnia Sługusi stają się Zadymą, a nominowani gracze umierają od razu, ale natychmiast nominują kogoś żywego. Jest to obowiązkowe.",
       "flavor": "Larga vida a la revolución! Mi revolucion!",
       "name": "Zadyma",
-      "other": "Zmień przypominajkę przy [tu wstawić tłumaczenie RIOT] na aktualny dzień. :reminder: Jeżeli to 3 noc, możesz obudzić Sługusów, pokazać kartę *JESTEŚ* i żeton [tu wstawić tłumaczenie RIOT]."
+      "other": "Zamień przypominajkę Zadymy na odpowiedni numer dnia. :reminder: Jeżeli to 3 noc, możesz obudzić Sługusów, pokazać kartę *JESTEŚ* i żeton Zadymy."
     },
     "sage": {
       "ability": "Jeżeli zabije cię Demon, dowiadujesz się, że jest nim 1 z 2 graczy.",
@@ -820,9 +820,9 @@
       "name": "Uczony"
     },
     "scapegoat": {
-      "ability": "Jeżeli gracz z twojej drużyny zostanie stracony, możesz zostać straconym zamiast niego.",
+      "ability": "Jeżeli gracz z twojej drużyny zostanie stracony, możesz być stracony zamiast niego.",
       "flavor": "Dobry wieczór! Dziękuję, że zaprosiliście mnie na ten bal. Nie jestem stąd, ale wyglądacie na sympatyczną grupę, och tak. Na pewno będziemy się wyśmienicie bawić. A po co ta szubienica?",
-      "name": "Kozioł Ofiarny"
+      "name": "Kozioł ofiarny"
     },
     "scarletwoman": {
       "ability": "Jeżeli żyje 5 lub więcej graczy, a Demon ginie, stajesz się Demonem. (Podróżnicy się nie liczą)",
@@ -839,7 +839,7 @@
     },
     "sentinel": {
       "ability": "W grze może być 1 Outsider więcej lub 1 mniej.",
-      "flavor": "Poproszę o imię. Poproszę o dokumenty. Poproszę o Broń.",
+      "flavor": "Poproszę imię. Poproszę dokumenty. Poproszę broń.",
       "name": "Odźwierny"
     },
     "shabaloth": {
@@ -850,7 +850,7 @@
     },
     "shugenja": {
       "ability": "Na początku gry dowiadujesz się, czy najbliższy zły gracz siedzi od ciebie w stronę ruchu wskazówek zegara, czy w przeciwną. Jeżeli odległość jest identyczna, Bajarz wybiera, co pokazać.",
-      "first": "Wskaż kierunek zgodny ze wskazówkami zegara lub na odwrót.",
+      "first": "Wskaż kierunek zgodny z ruchem wskazówek zegara lub przeciwny.",
       "flavor": "これは夢。それも夢。すべて夢です。",
       "name": "Shugenja"
     },
@@ -862,7 +862,7 @@
     "snakecharmer": {
       "ability": "Każdej nocy wybierz żywego gracza: wybrany Demon zamienia się z tobą postacią i przynależnością, a następnie zostaje zatruty.",
       "first": "Zaklinacz węży wybiera gracza. Jeżeli wybrał Demona: Pokaż kartę *JESTEŚ* i żeton Demona. Pokaż kciuk w dół. Zamień żeton Zaklinacza węży i Demona. Uśpij poprzedniego Zaklinacza węży. Obudź poprzedniego Demona. Pokaż kartę *JESTEŚ* i żeton Zaklinacza węży oraz kciuk w górę. :reminder:",
-      "flavor": "Effendi... jestem tylko skromnym człowiekiem, ale mój flet jest złoty i jedna nuta oswoi najdzikszego dżina, Inshallah. Powiadają, że chciwość powiesiła więcej ludzi niż powróz. Ale nie ja, Effendi... nie ja.",
+      "flavor": "Effendi... jestem tylko skromnym człowiekiem, ale mój flet jest złoty i jedna nuta oswoi najdzikszego dżinna, Inshallah. Powiadają, że chciwość powiesiła więcej ludzi niż powróz. Ale nie ja, Effendi... nie ja.",
       "name": "Zaklinacz węży",
       "other": "Zaklinacz węży wybiera gracza. Jeżeli wybrał Demona: Pokaż kartę *JESTEŚ* i żeton Demona. Pokaż kciuk w dół. Zamień żeton Zaklinacza węży i Demona. Uśpij poprzedniego Zaklinacza węży. Obudź poprzedniego Demona. Pokaż kartę *JESTEŚ* i żeton Zaklinacza węży oraz kciuk w górę. :reminder:"
     },
@@ -959,10 +959,10 @@
     },
     "villageidiot": {
       "ability": "Każdej nocy wybierz gracza: poznajesz jego przynależność. [+0 do +2 Wioskowych głupków, 1 z dodatkowych jest pijany]",
-      "first": "Jeżeli jest kilku Wioskowych Głupków, oznacz jednego jako *PIJANY*. :reminder: Obudź pojedynczo każdego Wioskowego Głupka, aby wybrał gracza. Pokaż kciukiem dobry albo zły zgodnie z przynależnością tego gracza.",
+      "first": "Jeżeli jest kilku Wioskowych głupków, oznacz jednego jako *PIJANY*. :reminder: Obudź pojedynczo każdego Wioskowego głupka, aby wybrał gracza. Wskaż jego przynależność kciukiem.",
       "flavor": "Róże są niebieskie, a fiołki czerwone. Ma to sens, jeśli jest odwrócone.",
       "name": "Wioskowy Głupek",
-      "other": "Obudź pojedynczo każdego Wioskowego Głupka, aby wybrał gracza. Przekaż informację kciukiem (dobry/zły)."
+      "other": "Obudź pojedynczo każdego Wioskowego głupka, aby wybrał gracza. Wskaż jego przynależność kciukiem."
     },
     "virgin": {
       "ability": "Gdy zostaniesz nominowany po raz pierwszy, jeżeli nominował cię Mieszczanin, zostaje on natychmiast stracony.",
@@ -972,7 +972,7 @@
     "vizier": {
       "ability": "Wszyscy gracze wiedzą, że jesteś Wezyrem. Nie możesz umrzeć za dnia. Jeżeli zagłosował dobry gracz, możesz natychmiast wymusić egzekucję.",
       "first": "Ogłoś który z graczy jest Wezyrem.",
-      "flavor": "Doskonała decyzja, jak zawsze, ekscelencjo. Tak małe wykroczenia jak potrącenie Biskupa rzeczywiście zasługują na twą \"sprawiedliwość\" i \"łaskę\". Idź na spacer do ogrodu. Odwiedź galerię i podziwiaj rzeźby Von Straufa. Odpręż się, panie. Ja wszystkim się... zajmę.",
+      "flavor": "Doskonała decyzja, jak zawsze, najjaśniejszy panie. Takie drobne wykroczenia jak potrącenie Biskupa rzeczywiście zasługują na twą \"sprawiedliwość\" i \"łaskę\". Wasza łaskawość powinna udać się na spacer do ogrodu. Odwiedzić galerię i podziwiać rzeźby Von Straufa. Odpręż się, panie. Ja wszystkim się tu... zajmę.",
       "name": "Wezyr"
     },
     "vortox": {
@@ -1053,7 +1053,7 @@
       "ability": "Gracze nie znają swojej postaci ani przynależności. Dowiaduję się o nich po śmierci.",
       "flavor": "Z głosem jak grom i ostrzem z błyskawicy, ja, strażnik wieczności, żywię się głupcami, którzy ważą się zbliżyć do zakazanej bramy. Spójrzcie, oto mój uświęcony cel! Aby wyplenić skarabeusza z wnętrzności kamienistej ziemi, zaplątać w sieci z gwiazd, na wzgórzu, gdzie spotykają się niebo i ziemia.",
       "name": "Tor",
-      "other": "Jeżeli gracz umarł tej nocy, pokaż kartę *JESTEŚ*, jego żeton postaci i kciukiem w górę lub w dół jego przynależność.",
+      "other": "Jeżeli gracz umarł tej nocy, pokaż kartę *JESTEŚ*, jego żeton postaci i wskaż kciukiem jego przynależność.",
       "first": "Pomiń informacje dla Sługusów i Demona."
     },
     "zenomancer": {
@@ -1074,7 +1074,7 @@
     "cacklejack": {
       "ability": "Każdego dnia wybierz gracza: tej nocy inny gracz zostaje zmieniony w inną postać.",
       "flavor": "Przewód α Do przewodu β. WłĄczyć. BrzĘczyK wyłĄczony. ŻEżkUrczę! Ramiona proSt0. Palęc do n0$a. tEraaaZz nie ru$ZaĆ siĘ. BoiNgo-banGo! Ha-ha-ha!",
-      "name": "Majster-Wihajster",
+      "name": "Majster-wihajster",
       "other": "Przed świtem, wybierz gracza nie oznaczonego *NIE JA*. Obudź go, pokaż kartę *JESTEŚ* i jego nowy żeton postaci."
     },
     "ventriloquist": {
@@ -1213,7 +1213,7 @@
     "balloonist-marionette": "Jeżeli Marionetka myśli, że jest Baloniarzem, to Outsider mógł zostać dodany podczas przygotowywania gry.",
     "banshee-leviathan": "Każdej nocy* Lewiatan wybiera żywego dobrego gracza (innego niż poprzednich nocy): wybrana Banshee umiera i uzyskuje swoją umiejętność.",
     "banshee-riot": "Każdej nocy* Zadyma wybiera żywego gracza (innego niż poprzednich nocy): wybrana Banshee umiera i uzyskuje swoją umiejętność.",
-    "banshee-vortox": "Jeżeli Vortox zabije Banshee, wszyscy gracze dowiadują się, że Banshee umarła.",
+    "banshee-vortox": "Jeżeli Vortox zabije Banshee, wszyscy gracze dowiadują się, że Banshee zginęła.",
     "baron-heretic": "Tylko 1 przeklęta postać może być w grze.",
     "baron-plaguedoctor": "Jeżeli Bajarz uzyskuje umiejętność Barona, maksymalnie dwóch graczy staje się Outsiderami.",
     "boffin-cultleader": "Jeżeli Demon ma zdolność Przywódcy Sekty, nie może on zmienić się w dobrego w wyniku działania tej umiejętności.",
