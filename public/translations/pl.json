@@ -517,7 +517,7 @@
     "knight": {
       "ability": "Na początku gry poznajesz 2 graczy, którzy nie są Demonem.",
       "first": "Wskaż dwóch graczy oznaczonych *ZNANY*.",
-      "flavor": "Jeśli człowiek skłamie, zabija małą część świata.",
+      "flavor": "Kiedy człowiek kłamie, to morduje część świata.",
       "name": "Rycerz"
     },
     "legion": {
@@ -993,7 +993,7 @@
       "name": "Praczka"
     },
     "widow": {
-      "ability": "Pierwszej nocy po wejściu do gry spójrz w Grymuar i wybierz gracza: jest zatruty. 1 dobry gracz dowiaduje się, że Wdowa jest w grze.",
+      "ability": "Pierwszej nocy po wejściu do gry zajrzyj do Grymuaru i wybierz gracza: jest zatruty. 1 dobry gracz dowiaduje się, że Wdowa jest w grze.",
       "first": "Pokaż Grymuar na tak długo, jak Wdowa potrzebuje. Wdowa wybiera gracza. :reminder: Uśpij Wdowę. Obudź gracza oznaczonego *Wie* i pokaż żeton Wdowy. :reminder:",
       "flavor": "Więcej wina? Château d’Ergot ’07 to specjalny rocznik. O tak, bardzo specjalny.",
       "name": "Wdowa"
@@ -1295,8 +1295,8 @@
     "magician-marionette": "Jeżeli Magik żyje, to Demon nie wie, który z jego sąsiadów jest Marionetką.",
     "magician-spy": "Kiedy Szpieg zagląda do Grymuaru, żetony Demona i Magika należy usunąć.",
     "magician-vizier": "Jeżeli Wezyr jest w grze, Magik nie ma umiejętności, ale jest odporny na umiejętność Wezyra.",
-    "magician-widow": "Gdy Wdowa podgląda Grymuar, żetony Demona i Magika należy usunąć.",
-    "magician-wraith": "Po każdej egzekucji, żywy Magik może publicznie zgadnąć, który żywy gracz jest Upiorem. Jeżeli zgadł poprawnie, Demon musi wybrać Upiora tej nocy.",
+    "magician-widow": "Kiedy Wdowa zagląda do Grymuaru, żetony Demona i Magika należy usunąć.",
+    "magician-wraith": "Po każdej egzekucji, żywy Magik może publicznie zgadnąć, który żywy gracz jest Widmem. Jeżeli zgadł poprawnie, Demon musi wybrać Widmo tej nocy.",
     "marionette-plaguedoctor": "Jeżeli Bajarz uzyskuje umiejętność Marionetki, jeden z dobrych sąsiadów Demona staje się Marionetką.",
     "marionette-summoner": "Jeżeli Marionetka miałaby być w grze, wchodzi do gry po Demonie i musi zacząć grę jako jego sąsiad.",
     "mastermind-vigormortis": "Geniusz zła, który posiada swoją umiejętność, zachowuje ją, gdy Vigormortis ginie.",
@@ -1325,7 +1325,7 @@
     "summoner-zombuul": "Jeżeli Przyzywacz przyzwie martwego gracza jako Zombuula, Zombuul już \"raz umarł\".",
     "vizier-zealot": "Zelota może pokazać się jako zły dla Wezyra.",
     "drunk-mathematician": "Matematyk dowiaduje się, czy Pijak otrzymał fałszywe informacje lub jego moc zadziałała nieprawidłowo.",
-    "legion-magician": "Jeżeli w grze jest Magik, podczas informacji dla Demona Legion budzi się w oddzielnych grupach. Każda grupa poznaje dobrych graczy, ale nie dowiaduje się o Magiku.",
+    "legion-magician": "Jeżeli w grze jest Magik, podczas przekazywania Informacji dla Demona Legion budzi się w oddzielnych grupach. Każda grupa poznaje dobrych graczy, ale nie dowiaduje się o Magiku.",
     "lunatic-mathematician": "Matematyk dowiaduje się, czy Szaleniec zaatakował innego gracza niż prawdziwy Demon.",
     "marionette-mathematician": "Matematyk dowiaduje się, czy Marionetka otrzymała fałszywe informacje lub jej moc zadziałała nieprawidłowo."
   },
