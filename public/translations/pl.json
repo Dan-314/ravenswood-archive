@@ -114,11 +114,11 @@
     "boomdandy": {
       "ability": "Jeżeli zostaniesz stracony, wszyscy oprócz 3 graczy umierają. Po odliczaniu od 10 do 1 gracz, na którego wskazuje większość graczy, umiera.",
       "flavor": "Tik... Tik... Tik... TAK.",
-      "name": "Bombiarz"
+      "name": "Bumelegant"
     },
     "bootlegger": {
       "ability": "Ten skrypt zawiera chałupnicze postacie lub zasady.",
-      "flavor": "Mam właśnie najnowszą dostawę z domu, coś, co nazywają \"Księżycówką\". Chcesz spróbować?",
+      "flavor": "Słuchaj, mordeczko ty moja, zawsze się świetnie maskowałeś! Byłeś przeostrożny, byłeś super ostrożny – jak łasica! Byłeś czujny jak chrabąszcz, jak gajowy!",
       "name": "Przemytnik"
     },
     "bountyhunter": {
@@ -219,7 +219,7 @@
       "first": "Jeżeli w grze jest 7 lub więcej graczy, obudź Demona: Pokaż kartę *TO SĄ TWOI SŁUGUSI*. Wskaż każdego Sługusa. Pokaż kartę *POSTACIE, KTÓRYCH NIE MA W GRZE*. Pokaż 3 żetony dobrych postaci, których nie ma w grze."
     },
     "deusexfiasco": {
-      "ability": "Przynajmniej raz w tej grze Bajarz popełni błąd, poprawi go i ogłosi to publicznie.",
+      "ability": "Co najmniej raz w tej grze Bajarz popełni błąd, poprawi go i ogłosi to publicznie.",
       "flavor": "To nie błąd, to funkcja. To nie usterka, tylko poprawka. To nie jest zepsute, to po prostu tak ma.",
       "name": "Deus ex Fiasco"
     },
@@ -258,8 +258,8 @@
       "name": "Pijak"
     },
     "duchess": {
-      "ability": "Każdego dnia może cię odwiedzić 3 graczy. Nocą*, każdy z nich dowiaduje się, ilu odwiedzających było złych, ale 1 dostaje fałszywe informacje.",
-      "flavor": "Będziemy przyjmować gości między godziną 6 a 7 dokładnie i bez zwłoki. Herbata zostanie podana o 6:15, a ciasteczka o 6:45. Spóźnienia nie będą tolerowane. Strój uroczysty, jak zawsze, bezwzględnie.",
+      "ability": "Każdego dnia może cię odwiedzić 3 graczy. Nocą* każdy z nich dowiaduje się, ilu odwiedzających było złych, ale 1 dostaje fałszywe informacje.",
+      "flavor": "Będziemy przyjmować gości między godziną 18 a 19 dokładnie i bez zwłoki. Herbata zostanie podana o 18.15, a ciasteczka o 18.45. Spóźnienia nie będą tolerowane. Obowiązują stroje wieczorowe, jak zawsze, bezwzględnie.",
       "name": "Księżna",
       "other": "Obudź pojedynczo każdego gracza oznaczonego *ODWIEDZAJĄCY* albo *FAŁSZYWE INFORMACJE*. Pokaż im kartę *TA POSTAĆ CIĘ WYBRAŁA* i żeton Księżnej i odpowiednią ilość palców."
     },
@@ -309,7 +309,7 @@
       "ability": "Każdej nocy wybierz gracza: jeżeli go nominujesz i zostanie stracony, jego drużyna przegrywa. Wszyscy gracze wiedzą, że wybrałeś nowego gracza.",
       "first": "Siewca strachu wybiera gracza. :reminder: Ogłoś, że Siewca strachu wybrał gracza.",
       "flavor": "Strzeż się patrzenia zbyt długo w Otchłań, aby Otchłań nie spojrzała w głąb ciebie.",
-      "name": "Siewca Strachu",
+      "name": "Siewca strachu",
       "other": "Siewca strachu wybiera gracza. :reminder: Jeżeli jest to inny gracz niż poprzedniej nocy, ogłoś, że Siewca strachu wybrał gracza."
     },
     "ferryman": {
@@ -897,9 +897,9 @@
     },
     "stormcatcher": {
       "ability": "Wymień dobrą postać. Jeżeli jest w grze, może umrzeć jedynie przez egzekucję, ale źli gracze dowiadują się, który to gracz.",
-      "first": "Ogłoś, która postać jest pod ochroną Łowcy Burz. Jeżeli ta postać jest w grze, oznacz ją przypominajką *CHRONIONY*. Obudź każdego złego gracza i pokaż żeton tej postaci, następnie wskaż gracza. Jeżeli nie ma jej w grze, obudź każdego złego gracza, pokaż kartę *TYCH POSTACI NIE MA W GRZE* i żeton odpowiedniej postaci.",
+      "first": "Ogłoś, która postać jest pod ochroną Łowcy burz. Jeżeli ta postać jest w grze, oznacz ją przypominajką *CHRONIONY*. Obudź każdego złego gracza i pokaż żeton tej postaci, następnie wskaż gracza. Jeżeli nie ma jej w grze, obudź każdego złego gracza, pokaż kartę *TYCH POSTACI NIE MA W GRZE* i żeton odpowiedniej postaci.",
       "flavor": "O świcie, długie cienie świątyni podchodzą pod fontannę. O zmierzchu, obelisk blokuje czerwoną poświatę, ochładzając ciepłą wodę pod łukiem. Wszystkie linie zbiegają się tutaj. Nadchodzi burza i to, to miejsce pełne kamyczków, bujne i święte miejsce pomiędzy jabłoniami, jest jej okiem.",
-      "name": "Łowca Burz"
+      "name": "Łowca burz"
     },
     "summoner": {
       "ability": "Dostajesz 3 blefy. 3-ciej nocy wybierz gracza: staje się złym Demonem, którego wybierzesz. [brak Demona]",
@@ -1223,7 +1223,7 @@
     "boffin-ogre": "Demon nie może mieć umiejętności Ogra.",
     "boffin-politician": "Demon nie może mieć umiejętności Polityka.",
     "boffin-villageidiot": "Jeżeli w grze jest zbędny żeton, Szalony naukowiec może dać Demonowi umiejętność Wioskowego głupka.",
-    "boomdandy-plaguedoctor": "Jeżeli Bajarz uzyskuje umiejętność Bombiarza, gracz staje się Bombiarzem.",
+    "boomdandy-plaguedoctor": "Jeżeli Bajarz uzyskuje umiejętność bumeleganta, gracz staje się Bumelegantem.",
     "bountyhunter-kazali": "Jeżeli Kazali zmieni Łowcę nagród w Sługusa, nie powstaje zły Mieszczanin.",
     "bountyhunter-philosopher": "Jeżeli Filozof uzyska zdolność Łowcy nagród, jeden z Mieszczan może stać się zły.",
     "butler-cannibal": "Jeżeli Kanibal uzyskuje umiejętność Lokaja, Kanibal dowiaduje się o tym.",
@@ -1250,7 +1250,7 @@
     "farmer-leviathan": "Każdej nocy* Lewiatan wybiera żywego dobrego gracza (innego niż poprzednich nocy): wybrany Farmer używa swojej umiejętności, ale nie umiera.",
     "farmer-riot": "Każdej nocy* Zadyma wybiera żywego dobrego gracza (innego niż poprzednich nocy): wybrany Farmer używa swojej umiejętności, ale nie umiera.",
     "fearmonger-plaguedoctor": "Jeżeli Bajarz uzyskuje umiejętność Siewcy strachu, zamiast tego otrzymuje ją Sługus i dowiaduje się o tym.",
-    "fearmonger-vizier": "Wezyr budzi się wraz z Siewcą Strachu, dowiaduje się, który gracz został wybrany, ale nie może poddać tego gracza natychmiastowej egzekucji.",
+    "fearmonger-vizier": "Wezyr budzi się wraz z Siewcą strachu, dowiaduje się, który gracz został wybrany, ale nie może poddać tego gracza natychmiastowej egzekucji.",
     "goblin-plaguedoctor": "Jeżeli Bajarz uzyskuje umiejętność Goblina, zamiast tego otrzymuje ją Sługus i dowiaduje się o tym.",
     "godfather-heretic": "Tylko 1 przeklęta postać może być w grze.",
     "goon-pithag": "Jeżeli Jędza zmieni złego gracza w Zbira, nie może on zmienić się w dobrego w wyniku działania swojej umiejętności.",
