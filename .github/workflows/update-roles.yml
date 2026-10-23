@@ -2,7 +2,7 @@ name: Update roles.json
 
 on:
   schedule:
-    - cron: '0 8 * * *' # Daily at 8am UTC
+    - cron: '7 17 * * *' # Daily at 17:07 UTC (off the hour to dodge GitHub's top-of-hour queue)
   workflow_dispatch: # Allow manual trigger
 
 jobs:

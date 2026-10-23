@@ -2,7 +2,7 @@ name: Update translations
 
 on:
   schedule:
-    - cron: '0 9 * * *' # Daily at 9am UTC (1hr after roles)
+    - cron: '7 18 * * *' # Daily at 18:07 UTC (1hr after roles)
   workflow_dispatch: # Allow manual trigger
 
 jobs:
