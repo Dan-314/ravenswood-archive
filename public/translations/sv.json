@@ -200,7 +200,7 @@
     "cultleader": {
       "ability": "Varje natt hamnar du på en levande grannes lag. Om alla goda spelare går med i din kult vinner ditt lag.",
       "first": "Kultledaren kanske byter lag. Visa hen i så fall kortet *DU ÄR* & en tumsignal.",
-      "flavor": "De ville gälla för visa, men blev till dårar.",
+      "flavor": "De hävdade att de var visa, men blev till dårar.",
       "name": "Kultledaren",
       "other": "Kultledaren kanske byter lag. Visa hen i så fall kortet *DU ÄR* & en tumsignal."
     },
@@ -953,7 +953,7 @@
     },
     "vigormortis": {
       "ability": "Varje natt* väljer du en spelare; hen dör. Kumpaner du dödar behåller sin förmåga & förgiftar 1 Bybogranne. [−1 Utböling]",
-      "flavor": "Alla dörrar är en dörr. Alla nycklar är en nyckel. Alla bägare är en bägare, men den som dricker av det vatten jag ger honom blir aldrig mer törstig. Det vatten jag ger blir en källa i honom, med ett flöde som ger evigt liv.",
+      "flavor": "Alla dörrar är en dörr. Alla nycklar är en nyckel. Alla bägare är en bägare, men de som dricker av det vatten jag ger dem ska aldrig mer törsta. Det vatten jag ger ska i dem bli en källa med vatten som flödar fram till evigt liv.",
       "name": "Vigormortis",
       "other": "Vigormortis väljer en spelare. :reminder: Om den spelaren är en Kumpan, förgifta en Bybogranne. :reminder: :reminder:"
     },
