@@ -13,6 +13,10 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
       - name: Download latest roles.json
         run: curl -sS -o roles-upstream.json https://release.botc.app/resources/data/roles.json
 
