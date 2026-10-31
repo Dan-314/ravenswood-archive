@@ -1308,8 +1308,8 @@
     "vizier-zealot": "A fanatikus gonosznak tűnhet a vezír számára."
   },
   "ui": {
-    "firstNight": "Első éjjel",
-    "otherNights": "További éjjelek",
+    "firstNight": "Első éjszaka",
+    "otherNights": "További éjszakák",
     "players": "Játékosok",
     "notFirstNight": "*Kivéve az első éjjel"
   }
