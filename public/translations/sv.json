@@ -102,7 +102,7 @@
     "boffin": {
       "ability": "Demonen (även om hen är full/förgiftad) har en god rolls förmåga (inte en som är i spel). Ni vet båda vilken.",
       "first": "Väck Labbråttan och Demonen. Visa dem *DU PÅVERKAS AV* & Labbråttas bricka, sedan den goda rollens bricka.",
-      "flavor": "Stjärnväte, massivt, inert; kol, syre, neon, allt är förstört. Molekylärt kaos, entropi, skapar nya kosmiska fenomen, återfödsel ur atomiskt kaos, tät, kollapsande materia. Allt i en liten, liten flaska.",
+      "flavor": "Stjärnväte, vidsträckt, inert; kol, syre, neon, allt är förstört. Molekylärt kaos, entropi, skapar nya kosmiska fenomen, återfödsel ur atomiskt kaos, tät kollapsande materia. Allt i en liten, liten flaska.",
       "name": "Labbråttan"
     },
     "bonecollector": {
@@ -363,7 +363,7 @@
     },
     "gardener": {
       "ability": "Berättaren bestämmer alla spelares roller.",
-      "flavor": "När ord blir tomma och den skenheliga blir grym, ta tillflykt i trädgården. De gamlas sista kärlek är blommor och stenar.",
+      "flavor": "När ord blir tomma och den skenheliga blir grym, ta tillflykt i trädgården. Blommor och stenar är de gamlas sista kärlek.",
       "name": "Trädgårdsmästaren"
     },
     "general": {
@@ -375,7 +375,7 @@
     },
     "gnome": {
       "ability": "Alla får veta en spelare på ditt lag. Du får välja att döda spelare som nominerar hen.",
-      "flavor": "Vad det är bra att jag har dig. Vad det är bra att du har mig. Vad det är bra att vi har oss, och jättebra är det förstås att vi får träffas varje dag, och va tillsammans, du och jag, för ingen, nä ingen, vill va ensam.",
+      "flavor": "Vad det är bra att jag har dig. Vad det är bra att du har mig. Vad det är bra att vi har oss, och jättebra är det förstås att vi får träffas varje dag och va tillsammans, du och jag, för ingen, nä ingen, vill va ensam.",
       "name": "Pysslingen"
     },
     "goblin": {
@@ -542,7 +542,7 @@
     "lilmonsta": {
       "ability": "Varje natt väljer Kumpanerna vem som vaktar Lillmonstret & är Demonen. Varje natt* kanske en spelare dör. [+1 Kumpan]",
       "first": "Väck Kumpanerna. De väljer en spelare. :reminder: Söv Kumpanerna. Väck den valda spelaren. Visa kortet *DU ÄR* & Lillmonstrets rollbricka.",
-      "flavor": "Steg 1: Va söt. Steg 2: Ta övej väden. Steg 3: Äta fjukost.",
+      "flavor": "Steg 1: Va söt. Steg 2: Ta övej väden. Steg 3: Fjukost.",
       "name": "Lillmonstret",
       "other": "Väck Kumpanerna. De väljer en spelare. :reminder: Söv Kumpanerna. Väck den valda spelaren. Visa kortet *DU ÄR* & Lillmonstrets rollbricka. En spelare kanske dör. :reminder:"
     },
@@ -709,7 +709,7 @@
     },
     "plaguedoctor": {
       "ability": "När du dör får berättaren en Kumpanförmåga.",
-      "flavor": "Stå stilla. Det tar tid för kroppen att läka. Mer myrra.",
+      "flavor": "Schtå schtilla. Kschoppen b’öve’ tzzd å läka. Hrrmm.",
       "name": "Pestläkaren",
       "other": "Om Pestläkaren dött har berättaren fått en Kumpanförmåga. Om du inte redan gjort det så gör det nu. :reminder:"
     },
