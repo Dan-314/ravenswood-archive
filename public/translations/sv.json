@@ -468,7 +468,7 @@
     },
     "imp": {
       "ability": "Varje natt* väljer du en spelare; hen dör. Om du dödar dig själv på det sättet blir en Kumpan till Djävulen.",
-      "flavor": "Vi måste vara på vår vakt och ha våra klingor nära till hands. Ondskan vandrar bland oss, och är beredd att göra vad som helst för att förgöra oss hederliga människor och ödelägga vår by. Lita inte på någon. Men om ni måste lita på någon, lita på mig.",
+      "flavor": "Vi måste hålla våra huvuden på skaft och våra svärd nära till hands. Ondskan vandrar bland oss, och är beredd att göra vad som helst för att förgöra oss hederliga människor och ödelägga vår by. Lita inte på någon. Men om ni måste lita på någon, lita på mig.",
       "name": "Djävulen",
       "other": "Djävulen väljer en spelare. :reminder: Om Djävulen väljer sig själv, ersätt 1 levande Kumpans bricka med en extra Djävulen-bricka. Söv den gamla Djävulen. Väck den nya Djävulen, visa kortet *DU ÄR* och Djävulens rollbricka."
     },
@@ -512,7 +512,7 @@
     "klutz": {
       "ability": "När du får veta att du dött väljer du öppet 1 levande spelare; om hen är ond förlorar ditt lag.",
       "flavor": "Oj då.",
-      "name": "Klanten"
+      "name": "Klumpedunsen"
     },
     "knight": {
       "ability": "I början vet du 2 spelare som inte är Demonen.",

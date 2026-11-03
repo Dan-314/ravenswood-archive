@@ -160,10 +160,10 @@
     },
     "cerenovus": {
       "ability": "Hver natt, velg en spiller og en god rolle: De er «gal» om at de er den rollen, hvis ikke kan de bli henrettet.",
-      "first": "Cerenoven peker mot en spiller, så på en rolle på rollearket. :reminder: Vekk spilleren, vis dem *DENNE ROLLEN VALGTE DEG*-brikken, så Cerenov-brikken. Vis dem den valgte rollebrikken. Om spilleren ikke er gal om at de er den rollen i morgen, kan de henrettes.",
+      "first": "Hjernevaskeren peker mot en spiller, så på en rolle på rollearket. :reminder: Vekk spilleren, vis dem *DENNE ROLLEN VALGTE DEG*-brikken, så Hjernevasker-brikken. Vis dem den valgte rollebrikken. Om spilleren ikke er gal om at de er den rollen i morgen, kan de henrettes.",
       "flavor": "Virkeligheten er bare en oppfatning. Mer spesifikt, min oppfatning.",
-      "name": "Cerenov",
-      "other": "Cerenoven peker mot en spiller, så på en rolle på rollearket. :reminder: Vekk spilleren, vis dem *DENNE ROLLEN VALGTE DEG*-brikken, så Cerenov-brikken. Vis dem den valgte rollebrikken. Om spilleren ikke er gal om at de er den rollen i morgen, kan de henrettes."
+      "name": "Hjernevasker",
+      "other": "Hjernevaskeren peker mot en spiller, så på en rolle på rollearket. :reminder: Vekk spilleren, vis dem *DENNE ROLLEN VALGTE DEG*-brikken, så Hjernevasker-brikken. Vis dem den valgte rollebrikken. Om spilleren ikke er gal om at de er den rollen i morgen, kan de henrettes."
     },
     "chambermaid": {
       "ability": "Hver natt, velg 2 levende spillere (ikke deg selv): Du får vite hvor mange av dem som våknet i natt på grunn av egenskapen sin.",
@@ -353,8 +353,8 @@
     "gambler": {
       "ability": "Hver natt*, velg en spiller og gjett rollen deres: Hvis du gjetter feil, dør du.",
       "flavor": "Kron, jeg vinner. Mynt, du taper.",
-      "name": "Lykkejeger",
-      "other": "Spilleren velger en spiller og en rolle. :reminder:"
+      "name": "Storspiller",
+      "other": "Storspilleren velger en spiller og en rolle. :reminder:"
     },
     "gangster": {
       "ability": "Én gang hver dag kan du velge å drepe en levende nabo, hvis den andre levende naboen din samtykker.",
@@ -416,7 +416,7 @@
     "gunslinger": {
       "ability": "Hver dag, etter at den første avstemmingen er telt opp, kan du velge en spiller som stemte: De dør.",
       "flavor": "Det er på tide at noen tar saken i egne hender. Den noen … er meg.",
-      "name": "Revolvermann"
+      "name": "Duellant"
     },
     "harlot": {
       "ability": "Hver natt*, velg en levende spiller: Om de er enig, får du vite rollen deres, men dere kan begge dø.",
@@ -1231,7 +1231,7 @@
     "cannibal-juggler": "Hvis Gjøgleren gjetter på sin første dag og dør ved henrettelse, får den levende Kannibalen vite i natt hvor mange gjetninger Gjøgleren fikk riktig.",
     "cannibal-princess": "Hvis Kannibalen nominerte, henrettet og drepte Prinsessen i dag, dreper ikke Demonen i natt.",
     "cannibal-zealot": "Hvis Kannibalen får Fanatiker-egenskapen, får Kannibalen vite dette.",
-    "cerenovus-goblin": "Cerenov kan velge å gjøre en spiller gal om at de er Goblinen.",
+    "cerenovus-goblin": "Hjernevaskeren kan velge å gjøre en spiller gal om at de er Goblinen.",
     "chambermaid-mathematician": "Kammerpiken kan oppdage om Matematikeren vil våkne i natt.",
     "clockmaker-summoner": "Åndemaneren registreres som Demonen hos Urmakeren.",
     "courtier-summoner": "Hvis den levende Åndemaneren ikke har noen egenskap, har Fortelleren Åndemaner-egenskapen.",

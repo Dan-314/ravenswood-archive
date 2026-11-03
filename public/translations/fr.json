@@ -113,7 +113,7 @@
     },
     "boomdandy": {
       "ability": "Si vous êtes exécuté, tous, sauf 3, meurent. Après un décompte de 10 à 0, le joueur le plus désigné par les joueurs meurt.",
-      "flavor": "Tic… Tic… Tic… TOCK.",
+      "flavor": "Tic... Tic... Tic... TAC.",
       "name": "Boumdandy"
     },
     "bootlegger": {
@@ -1047,7 +1047,7 @@
     "bigwig": {
       "ability": "Chaque joueur nommé choisit un joueur : jusqu’au vote, seul ce joueur peut parler et il est « fou » que le joueur nommé est bon. Sinon, il pourrait mourir.",
       "flavor": "La vanité demande : « Est-ce populaire ? » La lâcheté demande : « Est-ce prudent ? » La conscience demande : « Est-ce juste ? » Mais qui parmi nous demandera : « Est-ce vrai ? »",
-      "name": "Big Wig"
+      "name": "Gros bonnet"
     },
     "tor": {
       "ability": "Les joueurs ne connaissent ni leur rôle ni leur alignement. Ils les apprennent lorsqu'ils meurent.",
@@ -1083,12 +1083,14 @@
       "name": "Ventriloque"
     },
     "godofug": {
-      "ability": "Un chapeau Ug. Quand porter chapeau Ug, parler un son à la fois mais voter deux fois. Si échouer, passer chapeau Ug.",
-      "flavor": "Bénis soient mes enfants, car ils voient la beauté dans les choses simples."
+      "ability": "Un chapeau Ug. Quand porter chapeau Ug, on doit parler un son à la fois mais voter deux fois. Si échec, passe chapeau Ug.",
+      "flavor": "Bénis soient mes enfants, car ils voient la beauté dans les choses simples.",
+      "name": "Dieu Ug"
     },
     "knaves": {
       "ability": "Il y a 2 Conteurs : l’un ment et l’autre dit la vérité. Une fois par partie, au crépuscule, ils peuvent échanger.",
-      "flavor": "Chaque mur est une porte. Chaque repas est un festin."
+      "flavor": "Chaque mur est une porte. Chaque repas est un festin.",
+      "name": "Valets"
     }
   },
   "teams": {
