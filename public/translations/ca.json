@@ -1163,17 +1163,17 @@
     "lunch": "Menjar",
     "mad": "Boig",
     "master": "Amo",
-    "maynotnominate": "No pot acusar",
+    "maynotnominate": "No pot nominar",
     "minion": "Sequaç",
-    "minionnominated": "Algun sequaç ha acusat",
-    "minionsnotnominated": "Cap sequaç no ha acusat",
+    "minionnominated": "Algun sequaç ha nominat",
+    "minionsnotnominated": "Cap sequaç no ha nominat",
     "negativevote": "Vot negatiu",
     "night1": "Nit 1",
     "night2": "Nit 2",
     "night3": "Nit 3",
     "noability": "Sense habilitat",
-    "nominateevil": "Acusa un jugador malvat",
-    "nominategood": "Acusa un jugador bo",
+    "nominateevil": "Nomina un jugador malvat",
+    "nominategood": "Nomina un jugador bo",
     "nomoreevil": "Sense malvat addicional",
     "notme": "Jo no",
     "once": "Una vegada",
@@ -1333,6 +1333,6 @@
     "firstNight": "Primera nit",
     "otherNights": "Altres nits",
     "players": "Jugadors",
-    "notFirstNight": "*No la primera nit"
+    "notFirstNight": "*Excepte la primera nit"
   }
 }
