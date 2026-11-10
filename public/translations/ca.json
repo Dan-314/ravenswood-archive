@@ -8,7 +8,7 @@
     },
     "alchemist": {
       "ability": "Tens l’habilitat d’un sequaç. Quan l’utilitzis, el narrador pot demanar-te que triïs de manera diferent.",
-      "first": "Mostra la targeta *TU ETS* i la fitxa de sequaç.",
+      "first": "Mostra la targeta <b>TU ETS</b> i la fitxa de sequaç.",
       "flavor": "Visita l’interior de la terra. Rectificant, trobaràs la pedra oculta. Damunt de l’or jeu el roig. Kéter dins de Malkuth.",
       "name": "Alquimista"
     },
@@ -38,7 +38,7 @@
     },
     "apprentice": {
       "ability": "En la teva primera nit, obtens una habilitat de vilatà (si ets bo) o una de sequaç (si ets malvat).",
-      "first": "Mostra la targeta *TU ETS* i, després, una fitxa de vilatà o de sequaç. Intercanvia la fitxa de l’Aprenent amb la de vilatà o de sequaç. :reminder:",
+      "first": "Mostra la targeta <b>TU ETS</b> i, després, una fitxa de vilatà o de sequaç. Intercanvia la fitxa de l’Aprenent amb la de vilatà o de sequaç. :reminder:",
       "flavor": "Fa anys que viatjo, estudiant els camins de l’Art. Quin art, demaneu? Simplement, l’ofici de la gent senzilla. No hi ha res de què preocupar-se. Encara.",
       "name": "Aprenent"
     },
@@ -66,7 +66,7 @@
       "other": "Assenyala un jugador amb un personatge d’un tipus diferent del de la nit anterior. :reminder:"
     },
     "banshee": {
-      "ability": "Si el dimoni et mata, tots els jugadors ho descobriran. A partir d’aquest moment, podràs acusar dues vegades al dia i votar dues vegades en cada acusació.",
+      "ability": "Si el dimoni et mata, tots els jugadors ho descobriran. A partir d’aquest moment, podràs nominar dues vegades al dia i votar dues vegades en cada nominació.",
       "flavor": "Gorm do shúile, dearg do ghruaig, ní bheidh sé i bhfad, is a mbeidh tú san uaigh.",
       "name": "Gemegaire",
       "other": "Si el dimoni ha matat la Gemegaire aquesta nit, anuncia que la Gemegaire ha mort. :reminder:"
@@ -75,14 +75,14 @@
       "ability": "Si has mort avui o aquesta nit, el dimoni pot triar dos jugadors perquè intercanviïn els personatges (no pot triar un altre dimoni).",
       "flavor": "Sabíeu que la barberia i la cirurgia havien estat, temps enrere, una mateixa professió? No? Doncs ara ja ho sabeu.",
       "name": "Barber",
-      "other": "Si el Barber ha mort avui o aquesta nit, mostra al dimoni la targeta *AQUEST PERSONATGE T’HA SELECCIONAT* i la fitxa del Barber. Si el dimoni ha triat dos jugadors, desperta’ls un per un. Mostra a cadascun la targeta *TU ETS* i la fitxa del seu nou personatge."
+      "other": "Si el Barber ha mort avui o aquesta nit, mostra al dimoni la targeta <b>AQUEST PERSONATGE T’HA SELECCIONAT</b> i la fitxa del Barber. Si el dimoni ha triat dos jugadors, desperta’ls un per un. Mostra a cadascun la targeta <b>TU ETS</b> i la fitxa del seu nou personatge."
     },
     "barista": {
       "ability": "Cada nit, fins al capvespre: 1) un jugador es torna sobri i sa i rep informació certa, o bé 2) la seva habilitat funciona dues vegades. Aquest jugador descobreix quina opció s’ha aplicat.",
-      "first": "Tria un jugador. Desperta’l, mostra-li la targeta *AQUEST PERSONATGE T’HA SELECCIONAT* i la fitxa del Barista, i fes un senyal amb els dits. :reminder:",
+      "first": "Tria un jugador. Desperta’l, mostra-li la targeta <b>AQUEST PERSONATGE T’HA SELECCIONAT</b> i la fitxa del Barista, i fes un senyal amb els dits. :reminder:",
       "flavor": "Un cafè sense nata, monsieur? Em sap molt greu, però se’ns ha acabat la nata; què me’n diu d’un sense llet?",
       "name": "Barista",
-      "other": "Tria un jugador. Desperta’l, mostra-li la targeta *AQUEST PERSONATGE T’HA SELECCIONAT* i la fitxa del Barista, i fes un senyal amb els dits. :reminder:"
+      "other": "Tria un jugador. Desperta’l, mostra-li la targeta <b>AQUEST PERSONATGE T’HA SELECCIONAT</b> i la fitxa del Barista, i fes un senyal amb els dits. :reminder:"
     },
     "baron": {
       "ability": "Hi ha forasters addicionals a la partida. [+2 forasters]",
@@ -95,18 +95,18 @@
       "name": "Captaire"
     },
     "bigwig": {
-      "ability": "Cada acusat tria un jugador: fins a la votació, només aquest jugador pot parlar i ha d’estar «boig» afirmant que l’acusat és bo, o podria morir.",
+      "ability": "Cada nominat tria un jugador: fins a la votació, només aquest jugador pot parlar i ha d’estar «boig» afirmant que el nominat és bo, o podria morir.",
       "flavor": "La vanitat pregunta: «És popular?» La covardia pregunta: «És segur?» La consciència pregunta: «És correcte?» Qui de nosaltres preguntarà: «És veritat?»",
       "name": "Peix gros"
     },
     "bishop": {
-      "ability": "Només el narrador pot acusar. Cada dia, ha d’acusar com a mínim un jugador del bàndol contrari al del Bisbe.",
+      "ability": "Només el narrador pot nominar. Cada dia, ha de nominar com a mínim un jugador del bàndol contrari al del Bisbe.",
       "flavor": "En el nom del Pare, del Fill i de l’Esperit Sant… Som el designi de Déu. Déu ho vol de nosaltres.",
       "name": "Bisbe"
     },
     "boffin": {
       "ability": "El dimoni (fins i tot si està borratxo o emmetzinat) té l’habilitat d’un personatge bo que no sigui a la partida. Tots dos sabeu quina és.",
-      "first": "Desperta el Setciències i el dimoni. Mostra’ls la targeta *AQUEST PERSONATGE T’HA SELECCIONAT*, la fitxa del Setciències i, després, la fitxa del personatge bo que no és a la partida.",
+      "first": "Desperta el Setciències i el dimoni. Mostra’ls la targeta <b>AQUEST PERSONATGE T’HA SELECCIONAT</b>, la fitxa del Setciències i, després, la fitxa del personatge bo que no és a la partida.",
       "flavor": "Hidrogen estel·lar, vast, inert; carboni, oxigen, gasos de neó, tot arruïnat. El caos molecular, l’entropia, engendra nous fenòmens còsmics, un renaixement del caos atòmic, matèria densa que col·lapsa. Tot dins d’una ampolleta minúscula.",
       "name": "Setciències"
     },
@@ -128,10 +128,10 @@
     },
     "bountyhunter": {
       "ability": "Comences sabent qui és un jugador malvat. Si aquest jugador mor, aquesta nit descobreixes qui és un altre jugador malvat. [1 vilatà és malvat]",
-      "first": "Assenyala el jugador *CONEGUT*. Desperta el vilatà amb la fitxa cap avall. Mostra-li la targeta *TU ETS* i fes un senyal amb el polze avall.",
+      "first": "Assenyala el jugador <b>CONEGUT</b>. Desperta el vilatà amb la fitxa cap avall. Mostra-li la targeta <b>TU ETS</b> i fes un senyal amb el polze avall.",
       "flavor": "Sol, recorro aquests carrers, empedrats amb la fetor malaltissa de la corrupció. La seva espessor se m’endinsa pels narius sense permís i em crema de repulsió. I d’expectació. La malaltia d’aquest indret miserable creix cada nit. I jo… jo soc la cura.",
       "name": "Caça-recompenses",
-      "other": "Si el jugador marcat com a *CONEGUT* ha mort avui o aquesta nit, assenyala un nou jugador marcat com a *CONEGUT*."
+      "other": "Si el jugador marcat com a <b>CONEGUT</b> ha mort avui o aquesta nit, assenyala un nou jugador marcat com a <b>CONEGUT</b>."
     },
     "buddhist": {
       "ability": "Durant els dos primers minuts de cada dia, els jugadors veterans no poden parlar.",
@@ -147,7 +147,7 @@
       "other": "El Buròcrata tria un jugador. :reminder:"
     },
     "butcher": {
-      "ability": "Cada dia, després de la primera execució, pots tornar a acusar.",
+      "ability": "Cada dia, després de la primera execució, pots tornar a nominar.",
       "flavor": "Té gust de pollastre. Més, si us plau.",
       "name": "Carnisser"
     },
@@ -162,7 +162,7 @@
       "ability": "Cada dia, tria un jugador: un jugador diferent canvia de personatge aquesta nit.",
       "flavor": "Fil α amb fil β. LluM eNcesa. BrUnZidOr apagat. GAzUixes! Braços REcT3s. Dit al nas. eStigUes quIEt. BoiNgo-banGo! Ha-ha-ha!",
       "name": "Rialler",
-      "other": "Abans de l’alba, tria un jugador que no estigui marcat amb *JO NO*. Desperta el jugador triat. Mostra-li la targeta *TU ETS* i la fitxa del seu nou personatge."
+      "other": "Abans de l’alba, tria un jugador que no estigui marcat amb <b>JO NO</b>. Desperta el jugador triat. Mostra-li la targeta <b>TU ETS</b> i la fitxa del seu nou personatge."
     },
     "cannibal": {
       "ability": "Tens l’habilitat de l’últim jugador mort per execució. Si és malvat, estàs emmetzinat fins que un jugador bo mori per execució.",
@@ -171,10 +171,10 @@
     },
     "cerenovus": {
       "ability": "Cada nit, tria un jugador i un personatge bo: l’endemà estarà «boig» afirmant que és aquest personatge o podria ser executat.",
-      "first": "El Cerenovus tria un jugador i un personatge. :reminder: Adorm el Cerenovus. Desperta el jugador triat. Mostra-li la targeta *AQUEST PERSONATGE T’HA SELECCIONAT*, la fitxa del Cerenovus i, després, la fitxa del personatge triat.",
+      "first": "El Cerenovus tria un jugador i un personatge. :reminder: Adorm el Cerenovus. Desperta el jugador triat. Mostra-li la targeta <b>AQUEST PERSONATGE T’HA SELECCIONAT</b>, la fitxa del Cerenovus i, després, la fitxa del personatge triat.",
       "flavor": "La realitat no és més que una opinió. Concretament, la meva.",
       "name": "Cerenovus",
-      "other": "El Cerenovus tria un jugador i un personatge. :reminder: Adorm el Cerenovus. Desperta el jugador triat. Mostra-li la targeta *AQUEST PERSONATGE T’HA SELECCIONAT*, la fitxa del Cerenovus i, després, la fitxa del personatge triat."
+      "other": "El Cerenovus tria un jugador i un personatge. :reminder: Adorm el Cerenovus. Desperta el jugador triat. Mostra-li la targeta <b>AQUEST PERSONATGE T’HA SELECCIONAT</b>, la fitxa del Cerenovus i, després, la fitxa del personatge triat."
     },
     "chambermaid": {
       "ability": "Cada nit, tria dos jugadors vius (excepte tu mateix): descobreixes quants d’ells s’han despertat aquesta nit a causa de la seva habilitat.",
@@ -210,17 +210,17 @@
     },
     "cultleader": {
       "ability": "Cada nit, passes a ser del mateix bàndol que un dels teus dos veïns vius. Si tots els jugadors bons trien unir-se a la teva secta, el teu equip guanya.",
-      "first": "El Líder de secta podria canviar de bàndol. Si ho fa, mostra-li la targeta *TU ETS* i fes un senyal amb el polze.",
+      "first": "El Líder de secta podria canviar de bàndol. Si ho fa, mostra-li la targeta <b>TU ETS</b> i fes un senyal amb el polze.",
       "flavor": "Presumint de savis, es van tornar ximples.",
       "name": "Líder de secta",
-      "other": "El Líder de secta podria canviar de bàndol. Si ho fa, mostra-li la targeta *TU ETS* i fes un senyal amb el polze."
+      "other": "El Líder de secta podria canviar de bàndol. Si ho fa, mostra-li la targeta <b>TU ETS</b> i fes un senyal amb el polze."
     },
     "damsel": {
       "ability": "Tots els sequaços saben que hi ha una Donzella a la partida. Si un sequaç intenta endevinar públicament qui ets (un sol intent) i ho encerta, el teu equip perd.",
-      "first": "Durant la fase d’informació de sequaços, mostra’ls la fitxa de la Donzella. Si encara no ho has fet, fes-ho ara. Si la Donzella ha estat triada pel Caçador, mostra-li la targeta *TU ETS* i la fitxa del seu nou personatge.",
+      "first": "Durant la fase d’informació de sequaços, mostra’ls la fitxa de la Donzella. Si encara no ho has fet, fes-ho ara. Si la Donzella ha estat triada pel Caçador, mostra-li la targeta <b>TU ETS</b> i la fitxa del seu nou personatge.",
       "flavor": "No em toquis els cabells, amor.",
       "name": "Donzella",
-      "other": "Si la Donzella ha estat triada pel Caçador, mostra-li la targeta *TU ETS* i la fitxa del seu nou personatge."
+      "other": "Si la Donzella ha estat triada pel Caçador, mostra-li la targeta <b>TU ETS</b> i la fitxa del seu nou personatge."
     },
     "dawn": {
       "first": "Espera un segons. Acaba la fase de nit.",
@@ -272,7 +272,7 @@
       "ability": "Cada dia, tres jugadors poden decidir visitar-te. A la nit*, cada visitant descobrirà quants dels visitants són malvats, però un d’ells rebrà informació falsa.",
       "flavor": "Rebrem convidats exactament entre les sis i les set. El te, a les 6.15. Els pastissets, a les 6.45. No feu tard. Com sempre, cal vestir d’etiqueta.",
       "name": "Duquessa",
-      "other": "Un per un, desperta cada jugador marcat com a *VISITANT* o *INFORMACIÓ FALSA*. Mostra-li la targeta *AQUEST PERSONATGE T’HA SELECCIONAT* i la fitxa de la Duquessa i, després, fes un senyal amb els dits."
+      "other": "Un per un, desperta cada jugador marcat com a <b>VISITANT</b> o <b>INFORMACIÓ FALSA</b>. Mostra-li la targeta <b>AQUEST PERSONATGE T’HA SELECCIONAT</b> i la fitxa de la Duquessa i, després, fes un senyal amb els dits."
     },
     "dusk": {
       "first": "Comença la fase de nit.",
@@ -287,10 +287,10 @@
     },
     "engineer": {
       "ability": "Una vegada per partida, a la nit, tria quins sequaços o quin dimoni hi ha a la partida.",
-      "first": "L’Enginyer pot triar sequaços o dimonis. Adorm l’Enginyer. Desperta els jugadors afectats un per un. Mostra a cadascun la targeta *TU ETS* i la fitxa del seu nou personatge. :reminder:",
+      "first": "L’Enginyer pot triar sequaços o dimonis. Adorm l’Enginyer. Desperta els jugadors afectats un per un. Mostra a cadascun la targeta <b>TU ETS</b> i la fitxa del seu nou personatge. :reminder:",
       "flavor": "Si es doblega, perfecte. Si es trenca, bé, segurament ja calia arreglar-ho de totes maneres.",
       "name": "Enginyer",
-      "other": "L’Enginyer pot triar sequaços o dimonis. Adorm l’Enginyer. Desperta els jugadors afectats un per un. Mostra a cadascun la targeta *TU ETS* i la fitxa del seu nou personatge. :reminder:"
+      "other": "L’Enginyer pot triar sequaços o dimonis. Adorm l’Enginyer. Desperta els jugadors afectats un per un. Mostra a cadascun la targeta <b>TU ETS</b> i la fitxa del seu nou personatge. :reminder:"
     },
     "eviltwin": {
       "ability": "Tu i un jugador del bàndol contrari us coneixeu. Si el jugador bo és executat, els malvats guanyen. Els bons no poden guanyar si totes dues bessones estan vives.",
@@ -302,22 +302,22 @@
       "ability": "Cada nit,* tria un jugador (diferent del de la nit anterior): si tries el dimoni, aquest descobreix qui ets i no es desperta aquesta nit.",
       "flavor": "T’expulsem, esperit impur; poder satànic; escomesa de l’adversari infernal; legió, congregació i secta diabòlica: en el nom i pel poder de Nostre Senyor Jesucrist. T’ordenem que te’n vagis i fugis lluny de l’Església de Déu, de les ànimes creades per Déu a imatge seva i redimides per la sang preciosa de l’Anyell diví.",
       "name": "Exorcista",
-      "other": "L’Exorcista tria un jugador. :reminder: Adorm l’Exorcista. Si l’Exorcista ha triat el dimoni: desperta el dimoni. Mostra-li la targeta *AQUEST PERSONATGE T’HA SELECCIONAT* i la fitxa de l’Exorcista. Assenyala l’Exorcista."
+      "other": "L’Exorcista tria un jugador. :reminder: Adorm l’Exorcista. Si l’Exorcista ha triat el dimoni: desperta el dimoni. Mostra-li la targeta <b>AQUEST PERSONATGE T’HA SELECCIONAT</b> i la fitxa de l’Exorcista. Assenyala l’Exorcista."
     },
     "fanggu": {
       "ability": "Cada nit,* tria un jugador: mor. El primer foraster que matis es converteix en un Fang Gu malvat i tu mors en lloc seu. [+1 foraster]",
       "flavor": "Les vostres muralles i les vostres armes no són sinó fum dins dels somnis.",
       "name": "Fang Gu",
-      "other": "El Fang Gu tria un jugador. :reminder: Si tria un foraster (només una vegada), substitueix la fitxa del foraster per la fitxa de reserva del Fang Gu. Adorm el Fang Gu. Desperta el jugador triat. Mostra-li la targeta *TU ETS* i la fitxa del Fang Gu. Fes un senyal amb el polze avall. :reminder:"
+      "other": "El Fang Gu tria un jugador. :reminder: Si tria un foraster (només una vegada), substitueix la fitxa del foraster per la fitxa de reserva del Fang Gu. Adorm el Fang Gu. Desperta el jugador triat. Mostra-li la targeta <b>TU ETS</b> i la fitxa del Fang Gu. Fes un senyal amb el polze avall. :reminder:"
     },
     "farmer": {
       "ability": "Quan mors a la nit, un altre jugador bo viu es converteix en el Granger.",
       "flavor": "Fins i tot els rics i poderosos han de posar menjar a taula. Sense nosaltres, la ciutat passa fam.",
       "name": "Granger",
-      "other": "Si el Granger ha mort aquesta nit, desperta un jugador bo viu. Mostra-li la targeta *TU ETS* i la fitxa del Granger."
+      "other": "Si el Granger ha mort aquesta nit, desperta un jugador bo viu. Mostra-li la targeta <b>TU ETS</b> i la fitxa del Granger."
     },
     "fearmonger": {
-      "ability": "Cada nit, tria un jugador. Si durant el dia l’acuses i acaba executat, el seu equip perd. Tots els jugadors saben si tries un nou jugador.",
+      "ability": "Cada nit, tria un jugador. Si durant el dia el nomines i acaba executat, el seu equip perd. Tots els jugadors saben si tries un nou jugador.",
       "first": "L’Alarmista tria un jugador. :reminder: Anuncia que l’Alarmista ha triat un jugador.",
       "flavor": "Guarda’t de mirar gaire temps l’Abisme, no fos cas que l’Abisme també mirés dins teu.",
       "name": "Alarmista",
@@ -356,10 +356,10 @@
     },
     "fortuneteller": {
       "ability": "Cada nit, tria dos jugadors: descobreixes si algun dels dos és un dimoni. Hi ha un jugador bo que perceps com a dimoni.",
-      "first": "L’Endevinador tria dos jugadors. Assenteix si un d’aquests jugadors és el dimoni (o l’*ESQUER*).",
+      "first": "L’Endevinador tria dos jugadors. Assenteix si un d’aquests jugadors és el dimoni (o l’<b>ESQUER</b>).",
       "flavor": "Noto una gran maldat a la vostra ànima! Però… també podria ser el vostre perfum. El saüc em fa al·lèrgia.",
       "name": "Endevinador",
-      "other": "L’Endevinador tria dos jugadors. Assenteix si un d’aquests jugadors és el dimoni (o l’*ESQUER*)."
+      "other": "L’Endevinador tria dos jugadors. Assenteix si un d’aquests jugadors és el dimoni (o l’<b>ESQUER</b>)."
     },
     "gambler": {
       "ability": "Cada nit,* tria un jugador i intenta endevinar el seu personatge: si falles, mors.",
@@ -385,12 +385,12 @@
       "other": "Fes un senyal amb el polze."
     },
     "gnome": {
-      "ability": "Tots els jugadors comencen sabent qui és un jugador del teu bàndol. Pots decidir matar qualsevol jugador que l’acusi.",
+      "ability": "Tots els jugadors comencen sabent qui és un jugador del teu bàndol. Pots decidir matar qualsevol jugador que el nomini.",
       "flavor": "Quatre la vintena o set cerveses, cap funció no va ni per mi ni pels meus. Una broma per fer petar els rondinaires i els taulons del fonament del terra, tan incontravertibombollosament mini. Els grans assaigs baixen per corrents de joia, no més grans que allò que es veu, no heretats, ha-urrumph.o.",
       "name": "Gnom"
     },
     "goblin": {
-      "ability": "Si, quan t’acusen, declares públicament que ets el Goblin i t’executen aquell mateix dia, el teu equip guanya.",
+      "ability": "Si, quan et nominen, declares públicament que ets el Goblin i t’executen aquell mateix dia, el teu equip guanya.",
       "flavor": "No vols pas insultar els gòblins. De debò que no. Canviant completament de tema… em dones un altre tros de pastís?",
       "name": "Goblin"
     },
@@ -407,7 +407,7 @@
       "name": "Déu d’Ug"
     },
     "golem": {
-      "ability": "Només pots acusar una vegada per partida. Quan ho fas, si l’acusat no és el dimoni, mor.",
+      "ability": "Només pots nominar una vegada per partida. Quan ho fas, si el nominat no és el dimoni, mor.",
       "flavor": "Gòlem ajudar? Gòlem esclafar! Gòlem ajudar.",
       "name": "Gólem"
     },
@@ -438,20 +438,20 @@
       "ability": "Cada nit,* tria un jugador viu: si aquest et dona el seu consentiment, descobriràs quin és el seu personatge, però tots dos podríeu morir.",
       "flavor": "Enchantée, mariner. Sembla que necessites algú que escolti de debò els teus problemes. Jo sé escoltar. Molt, molt bé.",
       "name": "Meretriu",
-      "other": "La Meretriu tria un jugador viu. Adorm la Meretriu. Desperta el jugador triat, mostra-li la targeta *AQUEST PERSONATGE T’HA SELECCIONAT* i la fitxa de la Meretriu. Si el jugador assenteix, desperta la Meretriu i mostra-li la fitxa de personatge del jugador triat. Tots dos jugadors podrien morir. :reminder: :reminder:"
+      "other": "La Meretriu tria un jugador viu. Adorm la Meretriu. Desperta el jugador triat, mostra-li la targeta <b>AQUEST PERSONATGE T’HA SELECCIONAT</b> i la fitxa de la Meretriu. Si el jugador assenteix, desperta la Meretriu i mostra-li la fitxa de personatge del jugador triat. Tots dos jugadors podrien morir. :reminder: :reminder:"
     },
     "harpy": {
       "ability": "Cada nit, tria dos jugadors: demà, el primer jugador estarà «boig» afirmant que el segon és malvat, o bé tots dos podrien morir.",
-      "first": "L’Harpia tria dos jugadors. :reminder: :reminder: Adorm l’Harpia. Desperta el primer jugador. Mostra-li la targeta *AQUEST PERSONATGE T’HA SELECCIONAT* i la fitxa de l’Harpia; després, assenyala el segon jugador.",
+      "first": "L’Harpia tria dos jugadors. :reminder: :reminder: Adorm l’Harpia. Desperta el primer jugador. Mostra-li la targeta <b>AQUEST PERSONATGE T’HA SELECCIONAT</b> i la fitxa de l’Harpia; després, assenyala el segon jugador.",
       "flavor": "Mai no havia vist un dia tan bell, ni damunt meu planant tan mal ocell.",
       "name": "Harpia",
-      "other": "L’Harpia tria dos jugadors. :reminder: :reminder: Adorm l’Harpia. Desperta el primer jugador. Mostra-li la targeta *AQUEST PERSONATGE T’HA SELECCIONAT* i la fitxa de l’Harpia; després, assenyala el segon jugador."
+      "other": "L’Harpia tria dos jugadors. :reminder: :reminder: Adorm l’Harpia. Desperta el primer jugador. Mostra-li la targeta <b>AQUEST PERSONATGE T’HA SELECCIONAT</b> i la fitxa de l’Harpia; després, assenyala el segon jugador."
     },
     "hatter": {
       "ability": "Si has mort avui o aquesta nit, els sequaços i els dimonis poden canviar els seus personatges per altres sequaços i dimonis.",
       "flavor": "Un barret. Dos barrets. Tres barrets. Te amb barret. Quatre barrets. Cinc barrets. Sis barrets. Set barrets.",
       "name": "Barreter",
-      "other": "Si el Barreter ha mort, desperta els sequaços i els dimonis. Cadascun pot triar un personatge nou. Si ho fa, mostra-li la targeta *TU ETS* i la fitxa del seu nou personatge."
+      "other": "Si el Barreter ha mort, desperta els sequaços i els dimonis. Cadascun pot triar un personatge nou. Si ho fa, mostra-li la targeta <b>TU ETS</b> i la fitxa del seu nou personatge."
     },
     "hellslibrarian": {
       "ability": "Alguna cosa dolenta li pot passar a qui parli quan el narrador demani silenci.",
@@ -482,16 +482,16 @@
     },
     "huntsman": {
       "ability": "Una vegada per partida, a la nit, tria un jugador viu: si és la Donzella, es converteix en un vilatà que no és a la partida. [+Donzella]",
-      "first": "El Caçador pot triar un jugador. :reminder: Si tria la Donzella, adorm el Caçador. Desperta el jugador triat. Mostra-li la targeta *TU ETS* i la fitxa del seu nou personatge.",
+      "first": "El Caçador pot triar un jugador. :reminder: Si tria la Donzella, adorm el Caçador. Desperta el jugador triat. Mostra-li la targeta <b>TU ETS</b> i la fitxa del seu nou personatge.",
       "flavor": "La meva cabana és càlida i robusta. La destral, al costat de la porta; les botes, assecant-se vora el foc; i l’estofat d’ant, fent xup-xup… Escolteu! Un crit ressona per la vall! La pluja, el fang i el vent glaçat emmascaren l’olor dels llops, però conec el camí i avanço amb pas ferm. Ja vinc.",
       "name": "Caçador",
-      "other": "El Caçador pot triar un jugador. :reminder: Si tria la Donzella, adorm el Caçador. Desperta el jugador triat. Mostra-li la targeta *TU ETS* i la fitxa del seu nou personatge."
+      "other": "El Caçador pot triar un jugador. :reminder: Si tria la Donzella, adorm el Caçador. Desperta el jugador triat. Mostra-li la targeta <b>TU ETS</b> i la fitxa del seu nou personatge."
     },
     "imp": {
       "ability": "Cada nit,* tria un jugador: mor. Si et mates d’aquesta manera, un sequaç es converteix en el Diabló.",
       "flavor": "Hem de mantenir l’enginy esmolat i l’espasa encara més. El mal camina entre nosaltres i no s’aturarà davant de res per destruir-nos, a nosaltres, gent bona i senzilla, i reduir a la ruïna el nostre bell poble. No confieu en ningú. Però, si heu de confiar en algú, confieu en mi.",
       "name": "Diabló",
-      "other": "El Diabló tria un jugador. :reminder: Si el Diabló es tria a si mateix: substitueix la fitxa d’un sequaç viu per una fitxa de reserva del Diabló. Adorm l’antic Diabló. Desperta el nou Diabló. Mostra-li la targeta *TU ETS* i, després, la fitxa del Diabló."
+      "other": "El Diabló tria un jugador. :reminder: Si el Diabló es tria a si mateix: substitueix la fitxa d’un sequaç viu per una fitxa de reserva del Diabló. Adorm l’antic Diabló. Desperta el nou Diabló. Mostra-li la targeta <b>TU ETS</b> i, després, la fitxa del Diabló."
     },
     "innkeeper": {
       "ability": "Cada nit,* tria dos jugadors: no poden morir aquesta nit, però un quedarà borratxo fins al capvespre.",
@@ -501,12 +501,12 @@
     },
     "investigator": {
       "ability": "Comences sabent que un d’entre dos jugadors és un sequaç en concret.",
-      "first": "Mostra la fitxa de personatge de sequaç. Assenyala tant el *SEQUAÇ* com el jugador *INCORRECTE*.",
+      "first": "Mostra la fitxa de personatge de sequaç. Assenyala tant el <b>SEQUAÇ</b> com el jugador <b>INCORRECTE</b>.",
       "flavor": "Fa una nit esplèndida per passejar, no troba, senyor Morozov? O potser hauria de dir… BARÓ Morozov?",
       "name": "Investigador"
     },
     "judge": {
-      "ability": "Una vegada per partida, si un altre jugador ha fet una acusació, pots forçar l’execució o impedir-la.",
+      "ability": "Una vegada per partida, si un altre jugador ha fet una nominació, pots forçar l’execució o impedir-la.",
       "flavor": "Declaro l’acusat culpable dels delictes d’assassinat, frau, incendi provocat, furt, suplantació d’un agent de la llei, exercici de la medicina sense llicència, calúmnies, regicidi i abandonament de residus a la via pública.",
       "name": "Jutge"
     },
@@ -518,14 +518,14 @@
     },
     "kazali": {
       "ability": "Cada nit,* tria un jugador: mor. [Tries quins jugadors són sequaços i quin sequaç és cadascun. De -? a +? forasters]",
-      "first": "El Kazali tria quin jugador és cada sequaç. Desperta cada jugador triat. Mostra-li la targeta *TU ETS* i la fitxa de sequaç corresponent. Fes un senyal amb el polze avall.",
+      "first": "El Kazali tria quin jugador és cada sequaç. Desperta cada jugador triat. Mostra-li la targeta <b>TU ETS</b> i la fitxa de sequaç corresponent. Fes un senyal amb el polze avall.",
       "flavor": "Gon(z)a7les6. Ves a8mb c4ute4a. El mec4an1sme està iNvert10t. E99ors al s6stema. Reco\\{7\\}fig.",
       "name": "Kazali",
       "other": "El Kazali tria un jugador. :reminder:"
     },
     "king": {
       "ability": "Cada nit, si els morts igualen o superen els vius, descobreixes el personatge d’un jugador viu. El dimoni sap que ets el Rei.",
-      "first": "Desperta el dimoni. Mostra-li la targeta *AQUEST JUGADOR ÉS* i la fitxa del Rei; després, assenyala el Rei.",
+      "first": "Desperta el dimoni. Mostra-li la targeta <b>AQUEST JUGADOR ÉS</b> i la fitxa del Rei; després, assenyala el Rei.",
       "flavor": "↑Entre els incerts embats de la lluita mortal→ / I la nit morbosa, dolça↓ de misteri i dolor, / ←Jeuen els goigs desfermats de la vida llarga i acolorida del destí, / El jardí de la qual floreix amb cada cara pintada que es mostra.",
       "name": "Rei",
       "other": "Si els jugadors morts igualen o superen els vius, mostra la fitxa de personatge d’un jugador viu."
@@ -542,7 +542,7 @@
     },
     "knight": {
       "ability": "Comences sabent que dos jugadors concrets no són el dimoni.",
-      "first": "Assenyala els dos jugadors que no són el dimoni i que estan marcats com a *CONEGUT*.",
+      "first": "Assenyala els dos jugadors que no són el dimoni i que estan marcats com a <b>CONEGUT</b>.",
       "flavor": "Quan un home menteix, assassina una part del món.",
       "name": "Cavaller"
     },
@@ -561,16 +561,16 @@
     },
     "librarian": {
       "ability": "Comences sabent que un d’entre dos jugadors és un foraster en concret (o que no n’hi ha cap a la partida).",
-      "first": "Mostra la fitxa de personatge de foraster. Assenyala tant el *FORASTER* com el jugador *INCORRECTE*.",
+      "first": "Mostra la fitxa de personatge de foraster. Assenyala tant el <b>FORASTER</b> com el jugador <b>INCORRECTE</b>.",
       "flavor": "Sens dubte, senyora, en circumstàncies normals podríeu agafar en préstec el Codex Malificarium de les cambres cuirassades de la biblioteca. Tanmateix, no sembla que en sigueu membre.",
       "name": "Bibliotecari"
     },
     "lilmonsta": {
       "ability": "Cada nit, els sequaços trien quin d’ells cuida la fitxa del Petit monstre i és considerat el dimoni. Cada nit,* un jugador podria morir. [+1 sequaç]",
-      "first": "Desperta els sequaços. Trien un jugador. :reminder: Adorm els sequaços. Desperta el jugador triat. Mostra-li la targeta *TU ETS* i la fitxa del Petit monstre.",
+      "first": "Desperta els sequaços. Trien un jugador. :reminder: Adorm els sequaços. Desperta el jugador triat. Mostra-li la targeta <b>TU ETS</b> i la fitxa del Petit monstre.",
       "flavor": "Pas 1: Ser adorable. Pas 2: Dominar el món. Pas 3: Esmouzar.",
       "name": "Petit monstre",
-      "other": "Desperta els sequaços. Trien un jugador. :reminder: Adorm els sequaços. Desperta el jugador triat. Mostra-li la targeta *TU ETS* i la fitxa del Petit monstre. Un jugador podria morir. :reminder:"
+      "other": "Desperta els sequaços. Trien un jugador. :reminder: Adorm els sequaços. Desperta el jugador triat. Mostra-li la targeta <b>TU ETS</b> i la fitxa del Petit monstre. Un jugador podria morir. :reminder:"
     },
     "lleech": {
       "ability": "Cada nit,* tria un jugador: mor. Comences triant un jugador: queda emmetzinat. Mors si, i només si, aquest jugador és mort.",
@@ -581,14 +581,14 @@
     },
     "lordoftyphon": {
       "ability": "Cada nit,* tria un jugador: mor. [Els personatges malvats seuen tots junts, l’un al costat de l’altre. Tu ets al mig. +1 sequaç. De -? a +? forasters]",
-      "first": "Desperta els veïns del Senyor del Tifó. Mostra a cadascun la targeta *TU ETS* i la fitxa de sequaç corresponent. Fes un senyal amb el polze avall.",
+      "first": "Desperta els veïns del Senyor del Tifó. Mostra a cadascun la targeta <b>TU ETS</b> i la fitxa de sequaç corresponent. Fes un senyal amb el polze avall.",
       "flavor": "Als racons ombrívols i oblidats del cosmos, on les estrelles xiuxiuegen secrets al buit, s’hi amaga una veritat tan profunda que el més mínim besllum basta per desfer el seny de les ments mortals.",
       "name": "Senyor del Tifó",
       "other": "El Senyor del Tifó tria un jugador. :reminder:"
     },
     "lunatic": {
       "ability": "Creus que ets el dimoni, però no ho ets. El dimoni sap qui ets i a qui tries a la nit.",
-      "first": "Si hi ha set jugadors o més, desperta el Llunàtic: mostra la targeta *AQUESTS SÓN ELS TEUS SEQUAÇOS*. Assenyala qualssevol jugadors. Mostra la targeta *AQUESTS PERSONATGES NO SÓN A LA PARTIDA*. Mostra tres fitxes de personatge bo. Adorm el Llunàtic.<br>Desperta el dimoni. Mostra-li la targeta *TU ETS* i la fitxa del dimoni. Mostra-li la targeta *AQUEST JUGADOR ÉS* i la fitxa del Llunàtic i, després, assenyala el Llunàtic.",
+      "first": "Si hi ha set jugadors o més, desperta el Llunàtic: mostra la targeta <b>AQUESTS SÓN ELS TEUS SEQUAÇOS</b>. Assenyala qualssevol jugadors. Mostra la targeta <b>AQUESTS PERSONATGES NO SÓN A LA PARTIDA</b>. Mostra tres fitxes de personatge bo. Adorm el Llunàtic.<br>Desperta el dimoni. Mostra-li la targeta <b>TU ETS</b> i la fitxa del dimoni. Mostra-li la targeta <b>AQUEST JUGADOR ÉS</b> i la fitxa del Llunàtic i, després, assenyala el Llunàtic.",
       "flavor": "Soc la nit… o això crec.",
       "name": "Llunàtic",
       "other": "Fes tot el que calgui per simular que el dimoni actua. Adorm el Llunàtic. Desperta el dimoni. Mostra la fitxa del Llunàtic i assenyala’l; després, assenyala el seu objectiu."
@@ -607,7 +607,7 @@
     },
     "marionette": {
       "ability": "Creus que ets un personatge bo, però no ho ets. El dimoni sap qui ets. [Ets veí del dimoni]",
-      "first": "Desperta el dimoni. Mostra-li la targeta *AQUEST JUGADOR ÉS* i la fitxa de la Marioneta. Assenyala la Marioneta.",
+      "first": "Desperta el dimoni. Mostra-li la targeta <b>AQUEST JUGADOR ÉS</b> i la fitxa de la Marioneta. Assenyala la Marioneta.",
       "flavor": "Paraules, paraules. És tot el que tenim per a continuar.",
       "name": "Marioneta"
     },
@@ -638,10 +638,10 @@
       "first": "Mostra la paraula secreta.",
       "flavor": "Mes mai no creareu de cor a cor, si des de dins del cor no us ve.",
       "name": "Mezèfil",
-      "other": "Si un jugador bo ha dit la paraula secreta, desperta’l. Mostra-li la targeta *TU ETS*. Fes un senyal amb el polze avall. :reminder: :reminder:"
+      "other": "Si un jugador bo ha dit la paraula secreta, desperta’l. Mostra-li la targeta <b>TU ETS</b>. Fes un senyal amb el polze avall. :reminder: :reminder:"
     },
     "minioninfo": {
-      "first": "Si hi ha set o més jugadors, desperta tots els sequaços: Mostra’ls la targeta *AQUEST ÉS EL DIMONI*. Assenya-la el dimoni. Mostra’ls la targeta *AQUESTS SÓN ELS TEUS SEQUAÇOS*. Assenya-la els altres sequaços."
+      "first": "Si hi ha set o més jugadors, desperta tots els sequaços: Mostra’ls la targeta <b>AQUEST ÉS EL DIMONI</b>. Assenya-la el dimoni. Mostra’ls la targeta <b>AQUESTS SÓN ELS TEUS SEQUAÇOS</b>. Assenya-la els altres sequaços."
     },
     "minstrel": {
       "ability": "Quan un sequaç mor per execució, tots els altres jugadors (excepte els viatgers) queden borratxos fins al capvespre de l’endemà.",
@@ -667,14 +667,14 @@
     },
     "nightwatchman": {
       "ability": "Una vegada per partida, a la nit, tria un jugador: descobreix que ets el Vigilant nocturn.",
-      "first": "El Vigilant nocturn pot triar un jugador. Adorm el Vigilant nocturn. Desperta el jugador triat i mostra-li la targeta *AQUEST JUGADOR ÉS* i la fitxa del Vigilant nocturn; després, assenyala el Vigilant nocturn. :reminder:",
+      "first": "El Vigilant nocturn pot triar un jugador. Adorm el Vigilant nocturn. Desperta el jugador triat i mostra-li la targeta <b>AQUEST JUGADOR ÉS</b> i la fitxa del Vigilant nocturn; després, assenyala el Vigilant nocturn. :reminder:",
       "flavor": "La nit és freda i solitària, però em fan companyia la lluna, les estrelles, el vent tallant i el cop sord de les botes de cuir sobre les llambordes. Allà lluny, la llum d’una espelma tremola darrere una finestra tèrbola…",
       "name": "Vigilant nocturn",
-      "other": "El Vigilant nocturn pot triar un jugador. Adorm el Vigilant nocturn. Desperta el jugador triat i mostra-li la targeta *AQUEST JUGADOR ÉS* i la fitxa del Vigilant nocturn; després, assenyala el Vigilant nocturn. :reminder:"
+      "other": "El Vigilant nocturn pot triar un jugador. Adorm el Vigilant nocturn. Desperta el jugador triat i mostra-li la targeta <b>AQUEST JUGADOR ÉS</b> i la fitxa del Vigilant nocturn; després, assenyala el Vigilant nocturn. :reminder:"
     },
     "noble": {
       "ability": "Comences sabent que, de tres jugadors, només un és malvat.",
-      "first": "Assenyala els tres jugadors marcats com a *CONEGUT*.",
+      "first": "Assenyala els tres jugadors marcats com a <b>CONEGUT</b>.",
       "flavor": "El sarcasme és, en efecte, la forma més baixa d’humor. Però, en resposta a la vostra crítica, senyor, no deixa de ser una forma d’humor.",
       "name": "Noble"
     },
@@ -725,11 +725,11 @@
       "ability": "Cada nit,* tria un jugador i el personatge en què es converteix (si no és a la partida). Si crees un dimoni, el narrador decideix lliurement les morts d’aquesta nit.",
       "flavor": "Gitem-hi butza emmetzinada. Galapat que baix freda pedra trenta un jorns i tantes nits has dormit gruant verí, bull primer en l'olla encantada.",
       "name": "Fetiller",
-      "other": "El Fetiller tria un jugador i un personatge. Si tria un personatge que no és a la partida: adorm el Fetiller. Desperta el jugador triat. Mostra-li la targeta *TU ETS* i la fitxa del seu nou personatge."
+      "other": "El Fetiller tria un jugador i un personatge. Si tria un personatge que no és a la partida: adorm el Fetiller. Desperta el jugador triat. Mostra-li la targeta <b>TU ETS</b> i la fitxa del seu nou personatge."
     },
     "pixie": {
       "ability": "Comences sabent quin és un dels personatges vilatans de la partida. Si has estat «boig» afirmant que ets aquest personatge, obtens la seva habilitat quan mor.",
-      "first": "Mostra al Follet la fitxa del personatge vilatà marcat com a *BOIG*.",
+      "first": "Mostra al Follet la fitxa del personatge vilatà marcat com a <b>BOIG</b>.",
       "flavor": "Volta que volta pel jardí. Les nenes corren per aquí. Els nens s’enfilen al pomer. Quin d’ells el Follet voldrà ser? Les dames somriuen camí de ciutat. Els senyors, destral en mà, deixen el bosc pelat. El que és teu és meu; el que és meu, diví. Quin Follet més beneit, pobre de mi.",
       "name": "Follet"
     },
@@ -764,23 +764,23 @@
     },
     "poppygrower": {
       "ability": "Els sequaços i els dimonis no es coneixen entre ells. Si mors, aquella mateixa nit descobreixen qui és qui.",
-      "first": "Salta’t les fases d’informació de sequaços i de dimoni. Desperta el dimoni. Mostra-li la targeta *AQUESTS PERSONATGES NO SÓN A LA PARTIDA*. Mostra-li tres fitxes de personatge bo que no siguin a la partida.",
+      "first": "Salta’t les fases d’informació de sequaços i de dimoni. Desperta el dimoni. Mostra-li la targeta <b>AQUESTS PERSONATGES NO SÓN A LA PARTIDA</b>. Mostra-li tres fitxes de personatge bo que no siguin a la partida.",
       "flavor": "Als bosquets amagats del bosc profund habita la rosella negra. Veure-la lliurar-se a la disbauxa és caure sota el seu encís. Olorar-ne l’aroma espessa és perdre’s per sempre, esclau dels déus de la llum i la foscor.",
       "name": "Conreador de roselles",
-      "other": "Si el Conreador de roselles ha mort avui o aquesta nit, desperta els sequaços. Mostra’ls la targeta *AQUEST ÉS EL DIMONI*. Assenyala el dimoni. Adorm els sequaços. Desperta el dimoni. Mostra-li la targeta *AQUESTS SÓN ELS TEUS SEQUAÇOS*. Assenyala els sequaços."
+      "other": "Si el Conreador de roselles ha mort avui o aquesta nit, desperta els sequaços. Mostra’ls la targeta <b>AQUEST ÉS EL DIMONI</b>. Assenyala el dimoni. Adorm els sequaços. Desperta el dimoni. Mostra-li la targeta <b>AQUESTS SÓN ELS TEUS SEQUAÇOS</b>. Assenyala els sequaços."
     },
     "preacher": {
       "ability": "Cada nit, tria un jugador: si és un sequaç, ho descobrirà. Els sequaços triats no tenen habilitat.",
-      "first": "El Predicador tria un jugador. :reminder: Si tria un sequaç, adorm el Predicador. Desperta el jugador triat. Mostra-li la targeta *AQUEST PERSONATGE T’HA SELECCIONAT* i la fitxa del Predicador.",
+      "first": "El Predicador tria un jugador. :reminder: Si tria un sequaç, adorm el Predicador. Desperta el jugador triat. Mostra-li la targeta <b>AQUEST PERSONATGE T’HA SELECCIONAT</b> i la fitxa del Predicador.",
       "flavor": "És millor ser ric i tenir salut que ser pobre i estar malalt.",
       "name": "Predicador",
-      "other": "El Predicador tria un jugador. :reminder: Si tria un sequaç, adorm el Predicador. Desperta el jugador triat. Mostra-li la targeta *AQUEST PERSONATGE T’HA SELECCIONAT* i la fitxa del Predicador."
+      "other": "El Predicador tria un jugador. :reminder: Si tria un sequaç, adorm el Predicador. Desperta el jugador triat. Mostra-li la targeta <b>AQUEST PERSONATGE T’HA SELECCIONAT</b> i la fitxa del Predicador."
     },
     "princess": {
-      "ability": "Durant el teu primer dia, si un jugador que has acusat és executat, el dimoni no mata aquesta nit.",
+      "ability": "Durant el teu primer dia, si un jugador que has nominat és executat, el dimoni no mata aquesta nit.",
       "flavor": "Les nostres paraules són gossos de caça lligats amb fils de seda, estimats senyors. Que la bondat en teixeixi bé les regnes, no fos cas que es desfessin i esquincessin la nostra cort.",
       "name": "Princesa",
-      "other": "Si el jugador que la Princesa ha acusat ha estat executat avui, desperta el dimoni normalment, però ningú mor a causa de l’habilitat del dimoni. :reminder:"
+      "other": "Si el jugador que la Princesa ha nominat ha estat executat avui, desperta el dimoni normalment, però ningú mor a causa de l’habilitat del dimoni. :reminder:"
     },
     "professor": {
       "ability": "Una vegada per partida, a la nit*, tria un jugador mort. Si és vilatà, ressuscita.",
@@ -789,7 +789,7 @@
       "other": "El Professor pot triar un jugador mort. :reminder: :reminder:"
     },
     "psychopath": {
-      "ability": "Cada dia, abans de les acusacions, pots triar públicament un jugador: mor. Si ets executat, només mors si perds una partida de pedra, paper, tisores contra el jugador que t’ha acusat.",
+      "ability": "Cada dia, abans de les nominacions, pots triar públicament un jugador: mor. Si ets executat, només mors si perds una partida de pedra, paper, tisores contra el jugador que t’ha nominat.",
       "flavor": "Sorpresa!",
       "name": "Psicòpata"
     },
@@ -822,8 +822,8 @@
       "name": "Revolucionari"
     },
     "riot": {
-      "ability": "El tercer dia, els sequaços es converteixen en Esvalotadors i els acusats moren, però han d’acusar immediatament un jugador viu. Això ha de passar.",
-      "other": "Canvia la fitxa de recordatori de l’Esvalotador al dia corresponent. :reminder: Si és la tercera nit, desperta els sequaços. Mostra’ls la targeta *TU ETS* i la fitxa de l’Esvalotador.",
+      "ability": "El tercer dia, els sequaços es converteixen en Esvalotadors i els nominats moren, però han de nominar immediatament un jugador viu. Això ha de passar.",
+      "other": "Canvia la fitxa de recordatori de l’Esvalotador al dia corresponent. :reminder: Si és la tercera nit, desperta els sequaços. Mostra’ls la targeta <b>TU ETS</b> i la fitxa de l’Esvalotador.",
       "flavor": "¡Larga vida a la revolución! ¡Mi revolución!",
       "name": "Esvalotador"
     },
@@ -859,7 +859,7 @@
       "ability": "Si hi ha cinc o més jugadors vius (no compten els viatgers) i el dimoni mor, et converteixes en el dimoni.",
       "flavor": "M’has mostrat els secrets del Consell de la Flama Porpra. Hem jagut plegats en el foc, en la luxúria i en una comunió bestial, i seré per sempre la teva serventa. Però aquesta nit, amor meu, jo soc la teva mestressa.",
       "name": "Dona escarlata",
-      "other": "Si la Dona escarlata s’ha convertit avui en el dimoni, mostra-li la targeta *TU ETS* i la fitxa del dimoni."
+      "other": "Si la Dona escarlata s’ha convertit avui en el dimoni, mostra-li la targeta <b>TU ETS</b> i la fitxa del dimoni."
     },
     "seamstress": {
       "ability": "Una vegada per partida, a la nit, tria dos jugadors (excepte tu mateix): descobreixes si són del mateix bàndol.",
@@ -892,14 +892,14 @@
     },
     "snakecharmer": {
       "ability": "Cada nit, tria un jugador viu: si és el dimoni, intercanvieu els personatges i els bàndols, i després queda emmetzinat.",
-      "first": "L’Encantador de serps tria un jugador. Si tria el dimoni: mostra-li la targeta *TU ETS* i la fitxa del dimoni. Fes un senyal amb el polze avall. Intercanvia les fitxes de l’Encantador de serps i del dimoni. Adorm l’antic Encantador de serps. Desperta l’antic dimoni. Mostra-li la targeta *TU ETS* i la fitxa de l’Encantador de serps. Fes un senyal amb el polze amunt. :reminder:",
+      "first": "L’Encantador de serps tria un jugador. Si tria el dimoni: mostra-li la targeta <b>TU ETS</b> i la fitxa del dimoni. Fes un senyal amb el polze avall. Intercanvia les fitxes de l’Encantador de serps i del dimoni. Adorm l’antic Encantador de serps. Desperta l’antic dimoni. Mostra-li la targeta <b>TU ETS</b> i la fitxa de l’Encantador de serps. Fes un senyal amb el polze amunt. :reminder:",
       "flavor": "Effendi… No soc sinó un home humil, però la meva flauta és d’or i una sola melodia amansirà el djinn més salvatge, inshallah. Diuen que la cobdícia penja més homes que la corda. Però jo no, effendi… jo no.",
       "name": "Encantador de serps",
-      "other": "L’Encantador de serps tria un jugador. Si tria el dimoni: mostra-li la targeta *TU ETS* i la fitxa del dimoni. Fes un senyal amb el polze avall. Intercanvia les fitxes de l’Encantador de serps i del dimoni. Adorm l’antic Encantador de serps. Desperta l’antic dimoni. Mostra-li la targeta *TU ETS* i la fitxa de l’Encantador de serps. Fes un senyal amb el polze amunt. :reminder:"
+      "other": "L’Encantador de serps tria un jugador. Si tria el dimoni: mostra-li la targeta <b>TU ETS</b> i la fitxa del dimoni. Fes un senyal amb el polze avall. Intercanvia les fitxes de l’Encantador de serps i del dimoni. Adorm l’antic Encantador de serps. Desperta l’antic dimoni. Mostra-li la targeta <b>TU ETS</b> i la fitxa de l’Encantador de serps. Fes un senyal amb el polze amunt. :reminder:"
     },
     "snitch": {
       "ability": "Els sequaços comencen sabent tres coartades.",
-      "first": "Desperta cada sequaç. Mostra’ls la targeta *AQUESTS PERSONATGES NO SÓN A LA PARTIDA*. Mostra’ls tres fitxes de personatge que no siguin a la partida.",
+      "first": "Desperta cada sequaç. Mostra’ls la targeta <b>AQUESTS PERSONATGES NO SÓN A LA PARTIDA</b>. Mostra’ls tres fitxes de personatge que no siguin a la partida.",
       "flavor": "Va ser en John.",
       "name": "Delator"
     },
@@ -922,22 +922,22 @@
     },
     "steward": {
       "ability": "Comences sabent qui és un jugador bo.",
-      "first": "Assenyala el jugador bo marcat com a *CONEGUT*.",
+      "first": "Assenyala el jugador bo marcat com a <b>CONEGUT</b>.",
       "flavor": "Com US ATREVIU a acusar Sa Senyoria d’haver fet res de dolent? La conec de tota la vida! Tots nou anys!",
       "name": "Administrador"
     },
     "stormcatcher": {
       "ability": "Anomena un personatge bo. Si és a la partida, tan sols pot morir per execució, però els jugadors malvats descobreixen quin jugador és.",
-      "first": "Anuncia quin personatge ha estat atrapat per la tempesta. Si aquest personatge és a la partida, marca el jugador com a *ATRAPAT PER LA TEMPESTA*. Desperta cada jugador malvat i mostra-li la fitxa del personatge i, després, assenyala el jugador marcat. Si no és a la partida, desperta cada jugador malvat i mostra-li la targeta *AQUESTS PERSONATGES NO SÓN A LA PARTIDA* i la fitxa del personatge corresponent.",
+      "first": "Anuncia quin personatge ha estat atrapat per la tempesta. Si aquest personatge és a la partida, marca el jugador com a <b>ATRAPAT PER LA TEMPESTA</b>. Desperta cada jugador malvat i mostra-li la fitxa del personatge i, després, assenyala el jugador marcat. Si no és a la partida, desperta cada jugador malvat i mostra-li la targeta <b>AQUESTS PERSONATGES NO SÓN A LA PARTIDA</b> i la fitxa del personatge corresponent.",
       "flavor": "A l’alba, la llarga ombra del temple s’arrossega fins a la font. Al capvespre, l’obelisc tapa la resplendor vermella i refreda l’aigua tèbia sota l’arcada. Totes les línies convergeixen aquí. S’acosta una tempesta, i aquest indret —aquest indret pedregós, exuberant i sagrat entre les pomeres— n’és l’ull.",
       "name": "Caçador de tempestes"
     },
     "summoner": {
       "ability": "Comptes amb tres coartades. A la tercera nit, tria un jugador: aquest passa a ser un dimoni malvat de la teva elecció. [Sense dimoni]",
-      "first": "Mostra la targeta *AQUESTS PERSONATGES NO SÓN A LA PARTIDA*. Mostra tres fitxes de personatge bo que no siguin a la partida.",
+      "first": "Mostra la targeta <b>AQUESTS PERSONATGES NO SÓN A LA PARTIDA</b>. Mostra tres fitxes de personatge bo que no siguin a la partida.",
       "flavor": "Salve, guardians del nord: el meu intel·lecte us talla. Salve, guardians de l’est: la meva voluntat us sotmet. Salve, guardians del sud: per allò que rau més enllà, el misteri és revelat. Salve, guardians de l’oest: un escut dins la foscor.",
       "name": "Invocador",
-      "other": "Canvia la fitxa de recordatori de l’Invocador a la nit corresponent. :reminder: Si és la tercera nit, l’Invocador tria un jugador i un dimoni. Adorm l’Invocador. Desperta el jugador triat. Mostra-li la targeta *TU ETS* i la fitxa del dimoni. Fes un senyal amb el polze avall."
+      "other": "Canvia la fitxa de recordatori de l’Invocador a la nit corresponent. :reminder: Si és la tercera nit, l’Invocador tria un jugador i un dimoni. Adorm l’Invocador. Desperta el jugador triat. Mostra-li la targeta <b>TU ETS</b> i la fitxa del dimoni. Fes un senyal amb el polze avall."
     },
     "sweetheart": {
       "ability": "Quan mors, un jugador queda borratxo a partir d’aquell moment.",
@@ -966,12 +966,12 @@
     "tor": {
       "ability": "Els jugadors no saben quin és el seu personatge ni quin és el seu bàndol. Ho descobreixen quan moren.",
       "first": "Salta’t les fases d’informació de sequaços i de dimoni.",
-      "other": "Si un jugador ha mort aquesta nit, mostra-li la targeta *TU ETS* i la fitxa del seu personatge, i fes un senyal amb el polze.",
+      "other": "Si un jugador ha mort aquesta nit, mostra-li la targeta <b>TU ETS</b> i la fitxa del seu personatge, i fes un senyal amb el polze.",
       "flavor": "Amb el tro per veu i el llamp per espasa, jo, el guardià etern, devoro els insensats que gosen acostar-se a la porta prohibida. Vet aquí el meu propòsit sagrat! Extirpar l’escarabat del ventre de la terra rocosa, atrapar-lo en una xarxa d’estels, al cim del turó on el cel i la terra es troben.",
       "name": "Tor"
     },
     "towncrier": {
-      "ability": "Cada nit,* descobreixes si un sequaç ha acusat algú avui.",
+      "ability": "Cada nit,* descobreixes si un sequaç ha nominat algú avui.",
       "flavor": "Escolteu, escolteu! Bruixeria al laberint! Un savi genial ho revela tot! El poble és en perill! Escolteu!",
       "name": "Pregoner",
       "other": "Assenteix o nega amb el cap."
@@ -981,7 +981,7 @@
       "first": "Resol les fases d’informació de sequaços i de dimoni, encara que hi hagi menys de set jugadors.",
       "flavor": "Fa zum-zum! Baixa escales! T’escalfa a la nit! Té gust de sucre! A la canalla li encanta! Us presentem… el nou de trinca… Calentó-zum-zum-caminabot-cosa-artefacte! Diversió per a totes les edats!",
       "name": "Joguinaire",
-      "other": "Si un atac del dimoni podria acabar la partida i el dimoni està marcat amb la fitxa *DARRERA NIT: SENSE ATAC*, no despertis el dimoni."
+      "other": "Si un atac del dimoni podria acabar la partida i el dimoni està marcat amb la fitxa <b>DARRERA NIT: SENSE ATAC</b>, no despertis el dimoni."
     },
     "undertaker": {
       "ability": "Cada nit,* descobreixes quin personatge ha mort avui per execució.",
@@ -990,7 +990,7 @@
       "other": "Si avui s’ha executat un jugador, mostra la seva fitxa de personatge."
     },
     "ventriloquist": {
-      "ability": "Si un jugador està «boig» afirmant que és un personatge nou durant la seva acusació, podria no morir si l’executen avui.",
+      "ability": "Si un jugador està «boig» afirmant que és un personatge nou durant la seva nominació, podria no morir si l’executen avui.",
       "flavor": "Bé, gent, apropeu-vos! Aquest d’aquí és el meu amic Charlie i té una llengua que faria enrojolar una mula. Però no patiu, gent, que aquí qui parla soc jo... o no?",
       "name": "Ventríloc"
     },
@@ -1002,18 +1002,18 @@
     },
     "villageidiot": {
       "ability": "Cada nit, tria un jugador: descobreixes de quin bàndol és. [De +0 a +2 Ximplets. Un dels Ximplets addicionals està borratxo]",
-      "first": "Si hi ha diversos Ximplets, marca’n un com a *BORRATXO*. :reminder: Desperta els Ximplets, un per un, perquè triïn un jugador. Fes un senyal amb el polze.",
+      "first": "Si hi ha diversos Ximplets, marca’n un com a <b>BORRATXO</b>. :reminder: Desperta els Ximplets, un per un, perquè triïn un jugador. Fes un senyal amb el polze.",
       "flavor": "Les roses són blaves i les violetes, roges; capgira el que acabo de dir, si no t’hi oposes.",
       "name": "Ximplet",
       "other": "Desperta els Ximplets, un per un, perquè triïn un jugador. Fes un senyal amb el polze."
     },
     "virgin": {
-      "ability": "La primera vegada que t’acusin, si qui t’acusa és un vilatà, és executat immediatament.",
+      "ability": "La primera vegada que et nominin, si qui et nomina és un vilatà, és executat immediatament.",
       "flavor": "Soc pura. Que els qui estiguin lliures de pecat es prostrin i pateixin en lloc meu. La meva reputació no quedarà tacada per les vostres acusacions verinoses.",
       "name": "Verge"
     },
     "vizier": {
-      "ability": "Tots els jugadors saben que ets el Visir. No pots morir durant el dia. Si algun jugador bo ha votat, pots decidir executar immediatament el jugador acusat.",
+      "ability": "Tots els jugadors saben que ets el Visir. No pots morir durant el dia. Si algun jugador bo ha votat, pots decidir executar immediatament el jugador nominat.",
       "first": "Anuncia quin jugador és el Visir.",
       "flavor": "Una decisió excel·lent, com sempre, majestat. Un delicte tan insignificant com topar amb el Bisbe mereix, sens dubte, la vostra «justícia» i «clemència». Passegeu pels jardins. Visiteu la galeria i contempleu les escultures de Von Strauf. Descanseu, majestat. Deixeu-m’ho tot… a mi.",
       "name": "Visir"
@@ -1031,18 +1031,18 @@
     },
     "washerwoman": {
       "ability": "Comences sabent que un d’entre dos jugadors és un vilatà en concret.",
-      "first": "Mostra la fitxa de personatge de vilatà. Assenyala tant el *VILATÀ* com el jugador *INCORRECTE*.",
+      "first": "Mostra la fitxa de personatge de vilatà. Assenyala tant el <b>VILATÀ</b> com el jugador <b>INCORRECTE</b>.",
       "flavor": "Taques de sang en un esmòquing? No, és xerès de cuina. Quin descuit.",
       "name": "Bugadera"
     },
     "widow": {
       "ability": "En la teva primera nit, mira el grimori i tria un jugador: queda emmetzinat. Un jugador bo sap que la Vídua és a la partida.",
-      "first": "Mostra el grimori a la Vídua tant de temps com ho necessiti. La Vídua tria un jugador. :reminder: Adorm la Vídua. Desperta el jugador marcat com a *HO SAP* i mostra-li la fitxa de la Vídua. :reminder:",
+      "first": "Mostra el grimori a la Vídua tant de temps com ho necessiti. La Vídua tria un jugador. :reminder: Adorm la Vídua. Desperta el jugador marcat com a <b>HO SAP</b> i mostra-li la fitxa de la Vídua. :reminder:",
       "flavor": "Més vi? El Château d’Ergot ’07 és una anyada molt especial. Oh, sí, molt especial.",
       "name": "Vídua"
     },
     "witch": {
-      "ability": "Cada nit, tria un jugador: si l’endemà acusa algú, mor. Si només hi ha tres jugadors vius, perds aquesta habilitat.",
+      "ability": "Cada nit, tria un jugador: si l’endemà nomina algú, mor. Si només hi ha tres jugadors vius, perds aquesta habilitat.",
       "first": "La Bruixa tria un jugador. :reminder:",
       "flavor": "Tres gotes de sang de cabra. Un ble de cabells arrencat amb ràbia. Es pronuncia el nom, es projecta l’ombra. Avança amb el peu esquerre per aquell camí ple d’esbarzers i no miris enrere.",
       "name": "Bruixa",
@@ -1064,10 +1064,10 @@
     },
     "xaan": {
       "ability": "A la nit X, tots els vilatans estan emmetzinats fins al capvespre. [X forasters]",
-      "first": "Si X és 1, marca el Xaan amb la fitxa de recordatori *X*. :reminder: :reminder:",
+      "first": "Si X és 1, marca el Xaan amb la fitxa de recordatori <b>X</b>. :reminder: :reminder:",
       "flavor": "Cauen. Un rere l’altre. De dos en dos, de tres en tres, de cinc en cinc.",
       "name": "Xaan",
-      "other": "Canvia la fitxa de recordatori del Xaan a la nit corresponent. Si és la nit X, marca el Xaan amb la fitxa de recordatori *X*. :reminder: :reminder:"
+      "other": "Canvia la fitxa de recordatori del Xaan a la nit corresponent. Si és la nit X, marca el Xaan amb la fitxa de recordatori <b>X</b>. :reminder: :reminder:"
     },
     "yaggababble": {
       "ability": "Comences sabent una frase secreta. Per cada cop que l’hagis dit públicament avui, un jugador podria morir.",
@@ -1077,7 +1077,7 @@
       "other": "Per cada cop que la Queta hagi dit la seva frase avui, un jugador podria morir. :reminder:"
     },
     "zealot": {
-      "ability": "Si hi ha cinc o més jugadors vius, has de votar en totes les acusacions.",
+      "ability": "Si hi ha cinc o més jugadors vius, has de votar en totes les nominacions.",
       "flavor": "M’agrada parlar amb tu. La teva ment m’atrau. S’assembla a la meva, amb l’única diferència que tu has perdut el seny.",
       "name": "Extremista"
     },
@@ -1206,10 +1206,10 @@
     "alchemist-widow": "Un Alquimista-Vídua no té l’habilitat de la Vídua i la Vídua és a la partida. Després de cada execució, l’Alquimista viu pot intentar encertar públicament si un jugador viu és la Vídua. Si encerta, el dimoni ha de triar la Vídua aquesta nit.",
     "alchemist-wraith": "Un Alquimista-Espectre no té l’habilitat de l’Espectre i l’Espectre és a la partida. Després de cada execució, l’Alquimista viu pot intentar encertar públicament si un jugador viu és l’Espectre. Si encerta, el dimoni ha de triar l’Espectre aquesta nit.",
     "alhadikhia-mastermind": "Si l’Al-Hadikhia mor per execució i el Conspirador és viu, l’Al-Hadikhia tria tres jugadors bons aquesta nit: si tots tres trien viure, guanyen els malvats; si no, guanyen els bons.",
-    "alhadikhia-princess": "Si la Princesa ha acusat i executat un jugador en el seu primer dia, ningú mor a causa de l’habilitat de l’Al-Hadikhia aquesta nit.",
+    "alhadikhia-princess": "Si la Princesa ha nominat i executat un jugador en el seu primer dia, ningú mor a causa de l’habilitat de l’Al-Hadikhia aquesta nit.",
     "alhadikhia-scarletwoman": "Si hi hagués d’haver dos dimonis, un dels quals fos la Dona escarlata, la Dona escarlata torna a ser la Dona escarlata.",
     "alsaahir-vizier": "El narrador no declara que el Visir és a la partida.",
-    "atheist-riot": "Durant un esvalotament, si el narrador és acusat, els jugadors voten. Si està «a punt de morir», la partida acaba. Si no, torna a acusar.",
+    "atheist-riot": "Durant un esvalotament, si el narrador és nominat, els jugadors voten. Si està «a punt de morir», la partida acaba. Si no, torna a nominar.",
     "balloonist-marionette": "Si la Marioneta creu que és l’Aeronauta, pot haver-se afegit un foraster durant la preparació.",
     "banshee-leviathan": "Cada nit,* el Leviatan tria un jugador bo viu (diferent dels de les nits anteriors): una Gemegaire triada mor i obté la seva habilitat.",
     "banshee-riot": "Cada nit,* l’Esvalotador tria un jugador bo viu (diferent dels de les nits anteriors): una Gemegaire triada mor i obté la seva habilitat.",
@@ -1229,7 +1229,7 @@
     "butler-cannibal": "Si el Caníbal obté l’habilitat del Majordom, el Caníbal ho descobreix.",
     "butler-organgrinder": "Si el Tocador d’orguenet fa que els jugadors tanquin els ulls en votar, el Majordom pot aixecar la mà per votar, però el seu vot només compta si el seu amo també ha votat.",
     "cannibal-juggler": "Si el Malabarista fa prediccions el primer dia i mor per execució, aquesta nit el Caníbal viu descobreix quantes prediccions ha encertat el Malabarista.",
-    "cannibal-princess": "Si el Caníbal acusa, executa i mata la Princesa avui, el dimoni no mata aquesta nit.",
+    "cannibal-princess": "Si el Caníbal nomina, executa i mata la Princesa avui, el dimoni no mata aquesta nit.",
     "cannibal-zealot": "Si el Caníbal obté l’habilitat de l’Extremista, el Caníbal ho descobreix.",
     "cerenovus-goblin": "El Cerenovus pot triar fer que un jugador estigui «boig» afirmant que és el Goblin.",
     "chambermaid-mathematician": "La Minyona pot detectar si el Matemàtic es despertarà aquesta nit.",
@@ -1244,8 +1244,8 @@
     "engineer-legion": "Si la Legió és creada, tots els jugadors malvats es converteixen en Legió. Si la Legió és a la partida, l’Enginyer comença sabent-ho però no té habilitat.",
     "engineer-summoner": "Si l’Invocador viu és eliminat de la partida, el narrador té l’habilitat de l’Invocador.",
     "eviltwin-plaguedoctor": "Si el narrador hagués d’obtenir l’habilitat de la Bessona malvada, un jugador es converteix en la Bessona malvada.",
-    "exorcist-leviathan": "Si el Leviatan acusa i executa el jugador triat per l’Exorcista, els bons guanyen.",
-    "exorcist-riot": "Si l’Esvalotador acusa i executa el jugador triat per l’Exorcista, els bons guanyen.",
+    "exorcist-leviathan": "Si el Leviatan nomina i executa el jugador triat per l’Exorcista, els bons guanyen.",
+    "exorcist-riot": "Si l’Esvalotador nomina i executa el jugador triat per l’Exorcista, els bons guanyen.",
     "exorcist-yaggababble": "Si l’Exorcista tria la Queta, la Queta no mata aquesta nit.",
     "fanggu-scarletwoman": "Si hi hagués d’haver dos dimonis, un dels quals fos la Dona escarlata, la Dona escarlata continua sent la Dona escarlata.",
     "farmer-leviathan": "Cada nit,* el Leviatan tria un jugador bo viu (diferent dels de les nits anteriors): un Granger triat utilitza la seva habilitat però no mor.",
@@ -1266,8 +1266,8 @@
     "heretic-spy": "Només hi pot haver un personatge maleït a la partida.",
     "heretic-widow": "Només hi pot haver un personatge maleït a la partida.",
     "huntsman-marionette": "Si la Marioneta creu que és el Caçador, la Donzella s’ha afegit durant la preparació.",
-    "innkeeper-leviathan": "Si el Leviatan acusa i executa el jugador protegit per l’Hostaler, els bons guanyen.",
-    "innkeeper-riot": "Si l’Esvalotador acusa i executa el jugador protegit per l’Hostaler, els bons guanyen.",
+    "innkeeper-leviathan": "Si el Leviatan nomina i executa el jugador protegit per l’Hostaler, els bons guanyen.",
+    "innkeeper-riot": "Si l’Esvalotador nomina i executa el jugador protegit per l’Hostaler, els bons guanyen.",
     "investigator-vizier": "El narrador no declara que el Visir és a la partida.",
     "kazali-marionette": "Si hi hagués d’haver una Marioneta a la partida, entraria a la partida després del dimoni i com a veí seu.",
     "kazali-summoner": "Si l’Invocador crea un segon dimoni viu, les morts d’aquesta nit són arbitràries.",
@@ -1280,11 +1280,11 @@
     "legion-summoner": "Si la Legió és invocada, tots els jugadors malvats es converteixen en Legió.",
     "legion-zealot": "L’Extremista pot ser percebut com a malvat per la Legió.",
     "leviathan-mayor": "Si el Leviatan i el Batlle són vius el dia 5 i no hi ha cap execució, guanyen els bons.",
-    "leviathan-monk": "Si el Leviatan acusa i executa el jugador protegit pel Monjo, els bons guanyen.",
+    "leviathan-monk": "Si el Leviatan nomina i executa el jugador protegit pel Monjo, els bons guanyen.",
     "leviathan-pithag": "El Leviatan no pot entrar a la partida després del dia 5.",
     "leviathan-ravenkeeper": "Cada nit,* el Leviatan tria un jugador viu (diferent dels de les nits anteriors): un Criador de corbs triat utilitza la seva habilitat però no mor.",
     "leviathan-sage": "Cada nit,* el Leviatan tria un jugador bo viu (diferent dels de les nits anteriors): un Savi triat utilitza la seva habilitat però no mor.",
-    "leviathan-soldier": "Si el Leviatan acusa i executa el Soldat, els bons guanyen.",
+    "leviathan-soldier": "Si el Leviatan nomina i executa el Soldat, els bons guanyen.",
     "lilmonsta-magician": "Si el Mag és viu, el narrador tria quin sequaç cuida la fitxa del Petit monstre.",
     "lilmonsta-marionette": "Si hi hagués d’haver una Marioneta a la partida, entraria a la partida després del dimoni i com a veí seu.",
     "lilmonsta-poppygrower": "Si el Petit monstre i el Conreador de roselles són vius, els sequaços es desperten un per un fins que un d’ells decideix quedar-se la fitxa del Petit monstre.",
@@ -1305,7 +1305,7 @@
     "marionette-summoner": "Si hi hagués d’haver una Marioneta a la partida, entraria a la partida després del dimoni i com a veí seu.",
     "mastermind-vigormortis": "El Conspirador que té la seva habilitat la manté si el Vigormortis mor.",
     "mayor-riot": "El Batlle pot decidir aturar l’esvalotament. Si ho fa quan només un Esvalotador és viu, guanyen els bons. Si no, guanyen els malvats.",
-    "monk-riot": "Si l’Esvalotador acusa i executa el jugador protegit pel Monjo, els bons guanyen.",
+    "monk-riot": "Si l’Esvalotador nomina i executa el jugador protegit pel Monjo, els bons guanyen.",
     "ogre-pithag": "Si el Fetiller transforma un jugador malvat en un Ogre, aquest no pot tornar-se bo a causa de la seva pròpia habilitat.",
     "ogre-recluse": "Si el Reclús és percebut com a malvat per l’Ogre, l’Ogre descobreix que és malvat.",
     "ogre-spy": "L’Espia és percebut com a malvat per l’Ogre.",
@@ -1325,7 +1325,7 @@
     "ravenkeeper-riot": "Cada nit,* l’Esvalotador tria un jugador bo viu (diferent dels de les nits anteriors): un Criador de corbs triat utilitza la seva habilitat però no mor.",
     "recluse-sage": "El Reclús pot ser percebut com a dimoni pel Savi.",
     "riot-sage": "Cada nit,* l’Esvalotador tria un jugador bo viu (diferent dels de les nits anteriors): un Savi triat utilitza la seva habilitat però no mor.",
-    "riot-soldier": "Si l’Esvalotador acusa i executa el Soldat, els bons guanyen.",
+    "riot-soldier": "Si l’Esvalotador nomina i executa el Soldat, els bons guanyen.",
     "summoner-zombuul": "Si l’Invocador transforma un jugador mort en el Zombuul, el narrador tracta aquell jugador com un Zombuul que ha mort una vegada.",
     "vizier-zealot": "L’Extremista pot ser percebut com a malvat pel Visir."
   },
