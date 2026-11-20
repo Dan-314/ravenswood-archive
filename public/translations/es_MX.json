@@ -435,7 +435,7 @@
       "ability": "Si usted murió hoy o esta noche, les jugadores Demonies y Secuaces pueden elegir convertirse en nuevos personajes Secuaces y Demonies.",
       "flavor": "Un Sombrero. Segundero. Tesorero. Caballero. Don Quintero. Sé Certero.",
       "name": "Sombrere",
-      "other": "Si le Sombrerere murió, despierte a les Secuaces y Demonies. Cada uno puede elegir un nuevo personake. Si lo hace, muestre la ficha de *USTED ES* y su nueva ficha de personaje."
+      "other": "Si le Sombrerere murió, despierte a les Secuaces y Demonies. Cada uno puede elegir un nuevo personaje. Si lo hace, muestre la ficha de *USTED ES* y su nueva ficha de personaje."
     },
     "hellslibrarian": {
       "ability": "Algo malo le pasara a quienquiera que hable cuando el Narrador pida silencio.",
@@ -507,7 +507,7 @@
       "first": "Despierte al Demonie. Muestre las fichas de *ESTE JUGADOR ES* y del Rey, luego apunte al Rey.",
       "flavor": "Entre las desconocidas tensiones de la lucha mortal / Y la noche mórbida, dulce de misterio y dolor / Yacen las alegrías sin límites de la larga y colorida vida del destino / Cuyo jardín florece con cada Rostro pintado para Mostrar.",
       "name": "Rey",
-      "other": "Si les muertxs igual o superan a les vivxs, muestre la ficha de personaje de un jugador vivx."
+      "other": "Si les muertxs igualan o superan a les vivxs, muestre la ficha de personaje de un jugador vivx."
     },
     "klutz": {
       "ability": "Cuando aprenda que murio, publicamente elije 1 jugador vivx: si elle es malvade, tu equipo pierde.",
@@ -661,7 +661,7 @@
     "ogre": {
       "ability": "En su 1ª noche, elige un jugador (no a si misme): usted se convierte en su alineamiento (usted no sabe cual) incluso si esta borrache o envenenade.",
       "first": "Le Ogre elije un jugador. :reminder:",
-      "flavor": "\\<gruñido\\>\\<sonrisa\\>\\</gruñido\\>",
+      "flavor": "<gruñido><sonrisa></gruñido>",
       "name": "Ogre"
     },
     "ojo": {

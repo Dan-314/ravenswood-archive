@@ -118,7 +118,7 @@
     },
     "bootlegger": {
       "ability": "Este escenario tiene roles o reglas homebrew.",
-      "flavor": "Ya me llegó el último cargamento de casa, un brebaje que me gustaría llamar 'Niebla Fantasmal'. ¿Quieres probar?",
+      "flavor": "Al nacer, me pusieron el nombre de Zoiel Contrabando, igual que mi padre. Un nombre respetable, propio de una época llena de dignidad.",
       "name": "Contrabandista"
     },
     "bountyhunter": {
@@ -199,17 +199,17 @@
     },
     "cultleader": {
       "ability": "Cada noche, tú te vuelves del alineamiento de uno de tus vecinos vivos. Si todos los jugadores buenos eligen unirse a tu culto, tu equipo gana.",
-      "first": "El Cultista quizás cambie de alineamiento. Si es así, muéstrale la ficha de *TÚ ERES* y un pulgar arriba o abajo de acuerdo a su nuevo alineamiento.",
+      "first": "El Líder de Culto podría cambiar de alineamiento. Si es así, muéstrale la ficha *TÚ ERES* y la señal con el pulgar.",
       "flavor": "Creyéndose sabios, se volvieron necios.",
       "name": "Cultista",
-      "other": "El Cultista quizás cambie de alineamiento. De ser así, muéstrale la ficha de *TÚ ERES* y un pulgar arriba o abajo de acuerdo a su nuevo alineamiento."
+      "other": "El Líder de Culto podría cambiar de alineamiento. Si es así, muéstrale la ficha *TÚ ERES* y la señal con el pulgar."
     },
     "damsel": {
       "ability": "Todos los Secuaces saben que la Damisela está en juego. Si un Secuaz te adivina como la Damisela públicamente (una sola vez), tu equipo pierde.",
-      "first": "Si la Damisela fue escogida por el Cazador, muéstrale la ficha de *TÚ ERES* y su nueva ficha de rol.",
+      "first": "Durante la Información de Secuaz, muestre la ficha de la Damisela a los Secuaces. Si no lo has hecho aún, hazlo ahora. Si la Damisela fue elegida por el Cazador, muestra la ficha *TÚ ERES* y su nueva ficha de personaje.",
       "flavor": "No toques el cabello, querido.",
       "name": "Damisela",
-      "other": "Si la Damisela fue escogida por el Cazador, muéstrale la ficha de *TÚ ERES* y su nueva ficha de rol."
+      "other": "Si la Damisela fue elegida por el Cazador, muéstrale la ficha *TÚ ERES* y su nueva ficha de personaje."
     },
     "dawn": {
       "first": "Espera unos segundos. Termina la Fase de la Noche.",
@@ -261,7 +261,7 @@
       "ability": "Cada día, 3 jugadores pueden elegir visitarte. Por la noche*, cada visitante aprende cuántos de los visitantes son malvados, pero 1 obtiene información falsa.",
       "flavor": "Los entretendremos precisamente entre las 6 y las 7 horas. Té a las 6:15. Pastelitos a las 6:45. No llegues tarde. Código de vestimenta formal, como siempre.",
       "name": "Duquesa",
-      "other": "Despierta a cada jugador marcado como *VISITANTE* o *INFORMACIÓN FALSA* uno por uno. Muéstrales la ficha de la Duquesa, luego una cantidad de dedos igual al número de jugadores malvados marcados como \"Visitante\" (1, 2 o 3) o, si estás despertando al jugador marcado \"Información Falsa\", muéstrale cualquier número de dedos excepto el número de jugadores malvados marcados como \"Visitante\"."
+      "other": "Uno a uno: Despierta a cada jugador marcado como *VISITANTE* o *INFORMACIÓN FALSA*. Muestra las fichas *ESTE PERSONAJE TE HA ELEGIDO* y la Duquesa y luego haz una señal con el dedo."
     },
     "dusk": {
       "first": "Empieza la Fase de la Noche.",
@@ -279,7 +279,7 @@
       "first": "El Ingeniero puede escoger Secuaces o Demonios. Pon al Ingeniero a dormir. Despierta a los jugadores objetivo uno por uno. Muestra la ficha de *TÚ ERES* y la ficha de su nuevo rol. :reminder:",
       "flavor": "Si se dobla, genial. Si se rompe, bueno, probablemente necesitaba que lo reparen de todos modos.",
       "name": "Ingeniero",
-      "other": "El Ingeniero quizás escoja Secuaces o Demonios. :reminder: Si lo hacen: Pon al Ingeniero a dormir. Despierta al jugador objetivo, muéstrale la ficha de *TÚ ERES* y la ficha de su nuevo rol, luego ponlo a dormir. Repite con todos los jugadores que han cambiado de rol."
+      "other": "El Ingeniero puede elegir Secuaces o Demonios. Duerme al Ingeniero. Despierta al/los objetivo(s), uno a la vez. Muestra la ficha *TÚ ERES* y su nueva ficha de personaje. :reminder:"
     },
     "eviltwin": {
       "ability": "Tú y un jugador del equipo contrario se conocen. Si el jugador bueno es ejecutado, los malvados ganan. Los buenos no pueden ganar si ambos viven.",
@@ -303,11 +303,11 @@
       "ability": "Cuando mueres en la noche, un jugador vivo bueno se convierte en un Granjero.",
       "flavor": "Incluso los grandes y poderosos necesitan comida en la mesa. Sin nosotros, la ciudad se muere de hambre.",
       "name": "Granjero",
-      "other": "Si el Granjero murió esta noche, despierta un jugador bueno vivo. Muéstrale la ficha de *TÚ ERES* y la ficha de rol del Granjero. Reemplaza su ficha anterior por la ficha del Granjero."
+      "other": "Si el Granjero murió esta noche, despierta un jugador bueno vivo. Muestra la ficha de *TÚ ERES* y la ficha del Granjero."
     },
     "fearmonger": {
       "ability": "Cada noche, escoge un jugador: si tú lo nominaste y ejecutaste, su equipo pierde. Todos los jugadores saben si escoges un nuevo jugador.",
-      "first": "El Alarmista escoge un jugador. :reminder: Declara que \"El Alarmista ha escogido un jugador.\"",
+      "first": "El Alarmista escoge un jugador. :reminder: Anuncia que el Alarmista ha elegido un jugador.",
       "flavor": "Ten cuidado de no mirar por largo tiempo al Abismo, no sea que el Abismo te mire de vuelta.",
       "name": "Alarmista",
       "other": "El Alarmista escoge un jugador. :reminder: Si el jugador es distinto al de la noche anterior, anuncia que el Alarmista ha elegido a un jugador."
@@ -362,8 +362,8 @@
       "name": "Mafioso"
     },
     "gardener": {
-      "ability": "El Narrador asigna 1 o más roles a los jugadores.",
-      "flavor": "Pues, no, esto no funciona. ¡El acónito está mezclado con el napelo y la cicuta está asfixiando al eléboro! Ay por Dios, será mejor que empecemos desde cero. Pásame mis podaderas.",
+      "ability": "El Narrador asigna los personajes de todos los jugadores.",
+      "flavor": "Cuando el sofisma se convierte en estupidez y la hipocresía en crueldad, retírate al jardín. El último amor de los ancianos son las flores y las piedras.",
       "name": "Jardinero"
     },
     "general": {
@@ -422,20 +422,20 @@
       "ability": "Cada noche*, escoge un jugador vivo: si él acepta, tú aprendes su rol, pero ambos quizás mueran.",
       "flavor": "Enchanté, Marinero. Tienes cara de que necesitas de alguien que realmente escuche tus problemas. Y yo sí que sé escuchar. Muy, muy bien.",
       "name": "Meretriz",
-      "other": "La Meretriz apunta a cualquier jugador vivo. Luego, pon a la Meretriz a dormir. Despierta al jugador escogido, muéstrale la ficha de *ESTE ROL TE HA SELECCIONADO*, luego la ficha de la Meretriz. Ese jugador puede asentir o denegar con la cabeza. Si asiente, despierta a la Meretriz y muéstrale la ficha de rol del jugador escogido. Luego, puedes decidir que ambos jugadores mueren."
+      "other": "La Meretriz elige a un jugador vivo. Duerme a la Meretriz. Despierta al jugador elegido, muestra la ficha *ESTE PERSONAJE TE HA ELEGIDO*, y luego la ficha de Meretriz. Si ese jugador asiente con la cabeza, despierta a la Meretriz y muestra la ficha de personaje del jugador elegido. Ambos jugadores podrían morir. :reminder: :reminder:"
     },
     "harpy": {
       "ability": "Cada noche, escoge 2 jugadores: mañana, el 1er jugador está loco de que el 2do es malvado, o uno o ambos quizás mueran.",
-      "first": "La Harpía escoge dos jugadores. :reminder: :reminder: Pon a la Harpía a dormir. Despierta el 1er jugador. Muéstrale la ficha de *ESTE ROL TE HA SELECCIONADO*, la ficha de la Harpía, y luego apunta al 2do jugador.",
+      "first": "La Arpía elige dos jugadores. :reminder: :reminder: Duerme a la Arpía. Despierta al primer objetivo. Muestra la ficha de *ESTE ROL TE HA SELECCIONADO*, la ficha de la Arpía, y luego apunta al segundo objetivo.",
       "flavor": "Nunca vi un día tan hermoso, ni una presencia tan terrible sobre mí.",
       "name": "Harpía",
-      "other": "La Harpía escoge dos jugadores. :reminder: :reminder: Pon a la Harpía a dormir. Despierta el 1er jugador. Muéstrale la ficha de *ESTE ROL TE HA SELECCIONADO*, la ficha de la Harpía, y luego apunta al 2do jugador."
+      "other": "La Arpía elige dos jugadores. :reminder: :reminder: Duerme a la Arpía. Despierta al primer objetivo. Muestra la ficha de *ESTE ROL TE HA SELECCIONADO*, la ficha de la Arpía, y luego apunta al segundo objetivo."
     },
     "hatter": {
       "ability": "Si has muerto hoy por el día o por la noche, los jugadores Secuaces y Demonios pueden elegir convertirse en nuevos roles de Secuaz y Demonio.",
       "flavor": "Un sombrero. Do sombreros. Tres sombreros. Té sombreros. Cuatro sombreros. Brinco sombreros. Seis sombreros. Sois sombreros.",
       "name": "Sombrerero",
-      "other": "Si el Sombrerero murió hoy por el día o por la noche, despierta a los Secuaces y Demonios, y permíteles elegir nuevos roles."
+      "other": "Si el Sombrerero murió, despierta a los Secuaces y Demonios. Cada uno puede elegir un nuevo personaje. Si lo hacen, muestra la ficha *TÚ ERES* y su nueva ficha de personaje."
     },
     "hellslibrarian": {
       "ability": "Algo malo quizás le ocurra a todo aquel que hable cuando el Narrador ha pedido silencio.",
@@ -461,10 +461,10 @@
     },
     "huntsman": {
       "ability": "Una vez por juego, por la noche, escoge un jugador vivo: la Damisela, si es escogida, se convierte en un Ciudadano fuera de juego. [+la Damisela]",
-      "first": "El Cazador quizás escoja un jugador. :reminder: Si ese jugador es la Damisela: Pon al Cazador a dormir. Despierta a la Damisela y muéstrale la ficha de *TÚ ERES* y su nueva ficha de rol.",
+      "first": "El Cazador puede elegir a un jugador. :reminder: Si elige a la Doncella: Duerme al Cazador. Despierta al objetivo. Muestra la ficha *TÚ ERES* y su nueva ficha de personaje.",
       "flavor": "Mi cabaña es cálida y robusta. Mi hacha junto a la puerta, mis botas secándose junto al fuego, y un estofado de alce a fuego lento…¡Escuchen! ¡Un grito resuena en el valle! La lluvia y el barro y el frío, congelante viento oscurecen el aroma de los lobos, pero yo conozco el camino y mi paso es firme. Allá voy.",
       "name": "Cazador",
-      "other": "El Cazador quizás escoja un jugador. :reminder: Si ese jugador es la Damisela: Pon al Cazador a dormir. Despierta a la Damisela y muéstrale la ficha de *TÚ ERES* y su nueva ficha de rol."
+      "other": "El Cazador puede elegir a un jugador. :reminder: Si elige a la Doncella: Duerme al Cazador. Despierta al objetivo. Muestra la ficha *TÚ ERES* y su nueva ficha de personaje."
     },
     "imp": {
       "ability": "Cada noche*, escoge un jugador: él muere. Si te matas a ti mismo de esta manera, un Secuaz se convierte en el Diablillo.",
@@ -497,17 +497,17 @@
     },
     "kazali": {
       "ability": "Cada noche*, escoge un jugador: él muere. [Tú eliges cuáles jugadores son cuáles Secuaces. -? a +? Extranjeros]",
-      "first": "Despierta al Kazali, y permítele elegir Secuaces.",
+      "first": "El Kazali elige qué jugadores son qué Secuaces. Despierta a cada objetivo. Muestra las fichas de *TÚ ERES* y de Secuaces y muestra un pulgar hacia abajo.",
       "flavor": "Gon(z)a7les6. Ten cu1d4d0. La mec4n4c4 está iNvert1d4. E99ores insytu. Reco\\{7\\}fig#r4r.",
       "name": "Kazali",
       "other": "El Kazali escoge un jugador. :reminder:"
     },
     "king": {
       "ability": "Cada noche, si los muertos equiparan o superan en número a los vivos, tú aprendes 1 de los roles vivos. El Demonio sabe que tú eres el Rey.",
-      "first": "Despierta al Demonio. Muéstrale la ficha de *ÉSTE JUGADOR ES* y la ficha del Rey, luego apunta al Rey.",
+      "first": "Despierta al Demonio: muestra las fichas de *ÉSTE JUGADOR ES* y del Rey, luego señala al Rey.",
       "flavor": "Entre las melodías desconocidas de lucha mortal / Y la noche mórbida, dulce con misterio y dolor / Yacen las alegrías desenfrenadas de la larga y colorida vida del destino / Cuyo jardín florece con cada Rostro pintado por Mostrar.",
       "name": "Rey",
-      "other": "Si los muertos equiparan o superan en número a los vivos, muéstrale la ficha de rol de un jugador vivo."
+      "other": "Si los muertos igualan o superan en número a los vivos, muestra la ficha de personaje de un jugador vivo."
     },
     "klutz": {
       "ability": "Cuando aprendes que has muerto, escoge 1 jugador vivo públicamente: si él es malvado, tu equipo pierde.",
@@ -516,7 +516,7 @@
     },
     "knight": {
       "ability": "Empiezas conociendo 2 jugadores que no son el Demonio.",
-      "first": "Apunta a los 2 jugadores no-Demonios marcados con *CONOCE*.",
+      "first": "Señala a los 2 jugadores marcados con *CONOCE*.",
       "flavor": "Cuando un hombre miente, mata una parte del mundo.",
       "name": "Caballero"
     },
@@ -531,7 +531,7 @@
       "first": "Declara que el Leviatán está en juego. :reminder:",
       "flavor": "Hasta el final, lucho contigo. Desde el corazón del Infierno, te apuñalo. Por puro odio, te escupo mi último aliento.",
       "name": "Leviatán",
-      "other": "Opcionalmente, declara que \"El Leviatán está en juego\". Reemplaza la ficha de recordatorio. :reminder:"
+      "other": "Cambia la ficha de recordatorio del Leviatán al día correspondiente. :reminder: Puedes anunciar que el Leviatán está en juego."
     },
     "librarian": {
       "ability": "Empiezas sabiendo que 1 de 2 jugadores es un Extranjero en particular. (O que hay cero en juego.)",
@@ -541,10 +541,10 @@
     },
     "lilmonsta": {
       "ability": "Cada noche, los Secuaces eligen quién cuida al Monstruito y \"es el Demonio\". Cada noche*, un jugador quizás muera. [+1 Secuaz]",
-      "first": "Despierta a todos los Secuaces, permíteles elegir un cuidador. :reminder:",
+      "first": "Despierta a los Secuaces. Eligen a un jugador. :reminder: Duerme a los Secuaces. Despierta al objetivo. Muestra las fichas de *TÚ ERES* y de Monstruito.",
       "flavor": "Paso 1: Verme tierno. Paso 2: Dominación mundial. Paso 3: Desayunito.",
       "name": "Monstruito",
-      "other": "Despierta a todos los Secuaces, permíteles elegir un cuidador. :reminder: Un jugador quizás muera. :reminder:"
+      "other": "Despierta a los Secuaces. Eligen a un jugador. :reminder: Duerme a los Secuaces. Despierta al objetivo. Muestra las fichas de *TÚ ERES* y de Monstruito. Un jugador podría morir. :reminder:"
     },
     "lleech": {
       "ability": "Cada noche*, escoge un jugador: él muere. Tú empiezas escogiendo un jugador: él está envenenado. Tú mueres sí y sólo sí él está muerto.",
@@ -555,7 +555,7 @@
     },
     "lordoftyphon": {
       "ability": "Cada noche*, escoge un jugador: él muere. [Los roles malvados se encuentran en una línea. Tú estás en el medio. +1 Secuaz. -? a +? Extranjeros]",
-      "first": "Reemplaza los vecinos del Señor del Tifón con Secuaces, despiértalos, muéstrales sus nuevos roles y alineamientos, y dales información del secuaz.",
+      "first": "Despierta a los vecinos del Señor de Tifón. Muestra las fichas de *TÚ ERES* y de Secuaces y muestra un pulgar hacia abajo.",
       "flavor": "En los rincones sombríos y olvidados del cosmos, donde las estrellas susurran secretos al vacío, yace una verdad tan profunda que tan solamente mirarla desbarata la cordura de las mentes mortales.",
       "name": "Señor del Tifón",
       "other": "El Señor del Tifón escoge un jugador. :reminder:"
@@ -575,13 +575,13 @@
     },
     "magician": {
       "ability": "El Demonio cree que eres un Secuaz. Los Secuaces creen que eres un Demonio.",
-      "first": "Incluye al Mago en los pasos de Información del Demonio y de los Secuaces.",
+      "first": "Durante la Información de Secuaces, señala al Mago y al Demonio. Durante la Información del Demonio, señala al Mago y a los Secuaces.",
       "flavor": "1... 2... Abra... 3... 4... Cadabra... *puf!* Y, como pueden ver, damas y caballeros, ¡la bolsa de oro del Capitán Farnsworth ha desaparecido! ¡Se ha ido! ¡Sin dejar ningún rastro! ¡Gracias, y buenas noches!",
       "name": "Mago"
     },
     "marionette": {
       "ability": "Tú crees que eres un rol bueno, pero no lo eres. El Demonio sabe quién eres. [Eres vecino del Demonio]",
-      "first": "Despierta al Demonio. Apunta al jugador marcado *ES LA MARIONETA* y muéstrale la ficha de *ESTE JUGADOR ES* y la ficha de rol de la Marioneta.",
+      "first": "Despierta al Demonio. Muestra las fichas *ESTE JUGADOR ES* y la de Marioneta. Señala la Marioneta.",
       "flavor": "Palabras, palabras. Son lo único que tenemos.",
       "name": "Marioneta"
     },
@@ -609,13 +609,13 @@
     },
     "mezepheles": {
       "ability": "Empiezas conociendo una palabra secreta. El 1er jugador bueno que diga esta palabra se vuelve malvado esa noche.",
-      "first": "Muéstrale la palabra escrita.",
+      "first": "Muestra la palabra secreta.",
       "flavor": "Aquello que sale solo del corazón doblegará los corazones de los demás ante el tuyo.",
       "name": "Mezéfeles",
-      "other": "Si un jugador está marcado con la ficha de *SE VUELVE MALVADO*, despiértalo. Muéstrale la ficha de *TÚ ERES* y un pulgar abajo. El Mezéfeles pierde su habilidad. :reminder:"
+      "other": "Si un jugador bueno dijo la palabra secreta, despierta al jugador. Muestra la ficha *TÚ ERES* y muestra un pulgar hacia abajo. :reminder: :reminder:"
     },
     "minioninfo": {
-      "first": "Si hay 7 o más jugadores, despierta a todos los Secuaces:\n\tMuéstrales la ficha de *ESTE ES EL DEMONIO*. Apunta al Demonio.\n\tMuéstrales la ficha de *ESTOS SON TUS SECUACES*. Apunta a los otros Secuaces."
+      "first": "Si hay 7 o más jugadores, despierta a todos los Secuaces: Muestra la ficha *ESTE ES EL DEMONIO*. Señala al Demonio. Muestra la ficha *ESTOS SON TUS SECUACES*. Apunta a los otros Secuaces."
     },
     "minstrel": {
       "ability": "Cuando un Secuaz muere por ejecución, todos los otros jugadores (excepto Viajeros) están borrachos hasta el anochecer de mañana.",
@@ -641,14 +641,14 @@
     },
     "nightwatchman": {
       "ability": "Una vez por juego, por la noche, escoge un jugador: él aprende que tú eres el Vigilante.",
-      "first": "El Vigilante quizás escoja un jugador :reminder: Pon al Vigilante a dormir. Despierta al jugador seleccionado y muéstrale la ficha de *ESTE JUGADOR ES* y la ficha del Vigilante y apunta al Vigilante.",
+      "first": "El Vigilante podría elegir a un jugador. Duerme al Vigilante. Despierta al objetivo. Muestra las fichas de *ESTE JUGADOR ES* y del Vigilante, después señala al Vigilante. :reminder:",
       "flavor": "Esta noche es fría y solitaria, pero tengo la luna, las estrellas, el viento fresco y el suave sonido de mis botas de cuero en el piso de piedra que me acompañan. A lo lejos, una vela titila detrás de una ventana turbia…",
       "name": "Vigilante",
-      "other": "El Vigilante quizás escoja un jugador :reminder: Pon al Vigilante a dormir. Despierta al jugador seleccionado y muéstrale la ficha de *ESTE JUGADOR ES* y la ficha del Vigilante y apunta al Vigilante."
+      "other": "El Vigilante podría elegir a un jugador. Duerme al Vigilante. Despierta al objetivo. Muestra las fichas de *ESTE JUGADOR ES* y del Vigilante, después señala al Vigilante. :reminder:"
     },
     "noble": {
       "ability": "Empiezas conociendo 3 jugadores, entre los cuales 1 y solo 1 es malvado.",
-      "first": "Apunta a todos los tres jugadores marcados *CONOCE*.",
+      "first": "Señala a los 3 jugadores marcados *CONOCE*.",
       "flavor": "El sarcasmo es, de hecho, la forma más básica de ingenio. Pero para hablar en respuesta a sus críticas, Señor, es, sin embargo, una forma de ingenio.",
       "name": "Noble"
     },
@@ -660,8 +660,8 @@
     },
     "ogre": {
       "ability": "En tu 1era noche, escoge un jugador (no tú mismo): tú te vuelves de su alineamiento (sin saber cuál es) incluso si estás borracho o envenenado.",
-      "first": "El Ogro apunta a un jugador. :reminder:",
-      "flavor": "\\<gruñido\\>\\<sonrisa\\>\\</gruñido\\>",
+      "first": "El Ogro elige a un jugador. :reminder:",
+      "flavor": "<gruñido><sonrisa></gruñido>",
       "name": "Ogro"
     },
     "ojo": {
@@ -711,7 +711,7 @@
       "ability": "Cuando mueres, el Narrador gana la habilidad de un Secuaz.",
       "flavor": "Prr favrr, mantn la calmah. Prrece que necesitah timpoh prra sanrr. Mmh-hmm.",
       "name": "Doctor de la Peste",
-      "other": "Si el Doctor de la Peste murió, el Narrador gana la habilidad de un Secuaz. Si aún no has hecho esto, hazlo ahora."
+      "other": "Si el Doctor de la Peste murió, el Narrador gana la habilidad de un Secuaz. Si aún no has hecho esto, hazlo ahora. :reminder:"
     },
     "po": {
       "ability": "Cada noche*, puedes escoger un jugador: él muere. Si tu última elección no fue nadie, escoge 3 jugadores esta noche.",
@@ -733,23 +733,23 @@
     },
     "poppygrower": {
       "ability": "Los Secuaces y el Demonio no se conocen entre ellos. Si tú mueres, ellos aprenden quiénes son esa noche.",
-      "first": "Sáltate los pasos de Información del Secuaz e Información del Demonio. Despierta al Demonio, muéstrale la ficha de *ESTOS ROLES NO ESTÁN EN JUEGO* y las fichas de cualquier tres roles buenos que no estén en juego.",
+      "first": "Salta la Información de Secuaces y la Información de Demonio. Despierta al Demonio. Muestra la ficha de *ESTOS PERSONAJES NO ESTÁN EN JUEGO*. Muestra 3 fichas de personajes buenos que no están en juego.",
       "flavor": "En las arboledas ocultas del bosque profundo, habita la amapola negra. Ver aquel espectáculo es quedar encantado. Oler aquel aroma es quedar perdido por siempre, un esclavo a los dioses de la luz y la oscuridad.",
       "name": "Cultivador de Amapolas",
-      "other": "Si el Cultivador de Amapolas ha muerto hoy por el día o por la noche, despierta a los Secuaces, muéstrales la ficha de *ESTE ES EL DEMONIO* y apunta al Demonio. Ponlos a dormir. Despierta al Demonio, y muéstrale la ficha de *ESTOS SON TUS SECUACES* y apunta a los Secuaces. Pon al Demonio a dormir."
+      "other": "Si el Cultivador de Amapolas murió hoy o en la noche, despierta a los Secuaces, muestra la ficha *ESTE ES EL DEMONIO* y señala al Demonio. Duerme a los Secuaces. Despierta al Demonio. Muestra la ficha *ESTOS SON TUS SECUACES*. Señala a los Secuaces."
     },
     "preacher": {
       "ability": "Cada noche, escoge un jugador: si un Secuaz ha sido escogido, él aprende esto. Todos los Secuaces escogidos no tienen su habilidad.",
-      "first": "El Predicador escoge un jugador. :reminder: Si él escogió un Secuaz: Pon al Predicador a dormir. Despierta al jugador escogido. Muéstrale la ficha de *ESTE ROL TE HA SELECCIONADO* y la ficha del Predicador.",
+      "first": "El Predicador elige un jugador. :reminder: Si eligió un Secuaz: Duerme al Predicador. Despierta al objetivo. Muestra las fichas de *ESTE ROL TE HA SELECCIONADO* y del Predicador.",
       "flavor": "Es mejor ser rico y saludable que pobre y enfermo.",
       "name": "Predicador",
-      "other": "El Predicador escoge un jugador. :reminder: Si él escogió un Secuaz: Pon al Predicador a dormir. Despierta al jugador escogido. Muéstrale la ficha de *ESTE ROL TE HA SELECCIONADO* y la ficha del Predicador."
+      "other": "El Predicador elige un jugador. :reminder: Si eligió un Secuaz: Duerme al Predicador. Despierta al objetivo. Muestra las fichas de *ESTE ROL TE HA SELECCIONADO* y del Predicador."
     },
     "princess": {
       "ability": "En tu 1er día, si tú nominaste y ejecutaste a un jugador, el Demonio no mata esta noche.",
       "flavor": "Nuestras palabras son como sabuesos, atados con hilos de seda, queridos señores. Dejemos que la bondad los teja, y que las riendas no se deshagan y desgarren nuestra corte.",
       "name": "Princesa",
-      "other": "Si la Princesa nominó al jugador que fue ejecutado hoy, el Demonio se despierta de forma normal, pero nadie muere a manos de la habilidad del Demonio."
+      "other": "Si la Princesa nominó al jugador que fue ejecutado hoy, el Demonio se despierta de forma normal, pero nadie muere por la habilidad del Demonio. :reminder:"
     },
     "professor": {
       "ability": "Una vez por juego, por la noche*, escoge un jugador muerto: si él es un Ciudadano, es resucitado.",
@@ -793,7 +793,8 @@
     "riot": {
       "ability": "En el día 3, los Secuaces se convierten en Disturbio y los nominados mueren pero nominan a un jugador vivo inmediatamente. Esto debe ocurrir.",
       "flavor": "¡Que viva la revolución! ¡Mi revolución!",
-      "name": "Disturbio"
+      "name": "Disturbio",
+      "other": "Cambia la ficha de recordatorio de Disturbio al día correspondiente. :reminder: Si es la noche 3, puedes despertar a los Secuaces. Muestra las fichas de *TÚ ERES* y de Disturbio."
     },
     "sage": {
       "ability": "Si el Demonio te mata, tú aprendes que él es 1 de 2 jugadores.",
@@ -849,7 +850,7 @@
     },
     "shugenja": {
       "ability": "Tú empiezas conociendo si el jugador malvado más cercano a ti está en sentido horario o antihorario. Si está equidistante, esta información es arbitraria.",
-      "first": "Apunta en sentido horario o antihorario alrededor del círculo.",
+      "first": "Apunta en sentido horario o antihorario.",
       "flavor": "これは夢。それも夢。すべて夢です。",
       "name": "Shugenja"
     },
@@ -867,7 +868,7 @@
     },
     "snitch": {
       "ability": "Cada Secuaz obtiene 3 coartadas.",
-      "first": "Despierta a cada Secuaz. Muéstrale la ficha de *ESTOS ROLES NO ESTÁN EN JUEGO* y las fichas de 3 roles fuera de juego. Pon a cada Secuaz a dormir.",
+      "first": "Despierta a cada Secuaz. Muestra la ficha *ESTOS PERSONAJES NO ESTÁN EN JUEGO* y las fichas de 3 personajes que no están en juego.",
       "flavor": "Fue Juan.",
       "name": "Soplón"
     },
@@ -890,22 +891,22 @@
     },
     "steward": {
       "ability": "Tú empiezas conociendo 1 jugador bueno.",
-      "first": "Apunta al jugador bueno marcado *CONOCE*.",
+      "first": "Señala al jugador marcado *CONOCE*.",
       "flavor": "¿Cómo te ATREVES a acusar a Su Señoría de hacer algo malo? ¡Yo la conozco de toda la vida! ¡Nueve años!",
       "name": "Administrador"
     },
     "stormcatcher": {
       "ability": "Nombra un rol bueno. Si está en juego, solo puede morir por ejecución, pero los jugadores malvados saben qué jugador es.",
-      "first": "Al principio de la noche, anuncia qué rol es favorecido por el Atrapatormentas. Si ese rol está en juego, marca a ese jugador como *A SALVO*. Despierta a cada jugador malvado y muéstrales la ficha del rol, y luego el jugador marcado.\n Si no está en juego, despierta a cada jugador malvado, muéstrales la ficha de *ESTOS ROLES NO ESTÁN EN JUEGO* y la ficha de rol adecuada.",
+      "first": "Anuncia qué personaje está atrapado. Si ese personaje está en juego, marca a ese jugador como *ATRAPADO*. Despierta a cada jugador malvado y muestra la ficha de personaje, luego el jugador marcado.  Si no está en juego, despierta a cada jugador malvado, muestra la ficha *ESTOS PERSONAJES NO ESTÁN EN JUEGO*y la ficha de personaje correspondiente.",
       "flavor": "Al amanecer, la larga sombra del templo llega hasta la fuente. Al anochecer, el obelisco bloquea el resplandor rojizo, refrescando el agua tibia bajo el arco. Todas las líneas convergen aquí. Una tormenta se avecina, y este camino de piedras, frondoso y sagrado, entre los manzanos, es el ojo.",
       "name": "Atrapatormentas"
     },
     "summoner": {
       "ability": "Tú obtienes 3 coartadas. En la 3era noche, escoge un jugador: él se convierte en un Demonio malvado de tu elección. [Ningún Demonio]",
       "first": "Muéstrale la ficha de *ESTOS ROLES NO ESTÁN EN JUEGO*. Muéstrale las fichas de 3 roles buenos fuera de juego.",
-      "flavor": "Salve, guardianes del norte; por mi intelecto, habéis sido cortados. Salve, guardianes del este; por mi voluntad, habéis sido dominados. Salve, guardianes del sur; por lo que yace en el más allá, el misterio ha sido revelado. Salve, guardianes del oeste; un escudo en la oscuridad",
+      "flavor": "Salve, guardianes del norte; por mi intelecto, habéis sido cortados. Salve, guardianes del este; por mi voluntad, habéis sido dominados. Salve, guardianes del sur; por lo que yace en el más allá, el misterio ha sido revelado. Salve, guardianes del oeste; un escudo en la oscuridad.",
       "name": "Invocador",
-      "other": "Cambia la ficha de recordatorio del Invocador a la noche adecuada. Si es la noche 3, el Invocador escoge a un jugador y un Demonio. Pon al Invocador a dormir. Despierta al jugador escogido. Muéstrale la ficha de *TÚ ERES*, un pulgar abajo y la ficha del Demonio escogido."
+      "other": "Cambia la ficha de recordatorio del Invocador a la noche adecuada. :reminder: Si es la noche 3, el Invocador elige a un jugador y un Demonio. Duerme al Invocador. Despierta al objetivo. Muestra la ficha *TÚ ERES*, un pulgar abajo y la ficha del Demonio elegido."
     },
     "sweetheart": {
       "ability": "Cuando mueres, 1 jugador está borracho de ahora en adelante.",
@@ -939,10 +940,10 @@
     },
     "toymaker": {
       "ability": "El Demonio puede escoger no atacar y debe hacer esto al menos una vez por juego. Los jugadores malvados reciben información inicial como es usual.",
-      "first": "Corre los pasos de Información del Secuaz e Información del Demonio incluso si hay menos de 7 jugadores.",
+      "first": "Resuelve la información de Secuaces y del Demonio, aunque haya menos de 7 jugadores.",
       "flavor": "¡Vibra! ¡Baja las escaleras! ¡Te mantiene calentito por la noche! ¡Y sabe a azúcar! ¡A los niños les va a encantar! Les presento…al novedoso…Calenti-vibra-fibra-camina-robo-coso-trón! ¡Diversión para todas las edades!",
       "name": "Juguetero",
-      "other": "Si el ataque de un Demonio pudiera acabar con el juego esta noche, y el Demonio está marcado con la ficha *NOCHE FINAL: NO ATAQUE*, entonces el Demonio no actúa esta noche. (No lo despiertes.)"
+      "other": "Si un ataque del Demonio pudiese terminar la partida y el Demonio está marcado *NOCHE FINAL: SIN ATAQUE*, no despiertes al Demonio."
     },
     "undertaker": {
       "ability": "Cada noche*, tú aprendes qué rol murió por ejecución hoy.",
@@ -958,10 +959,10 @@
     },
     "villageidiot": {
       "ability": "Cada noche, escoge un jugador: tú aprendes su alineamiento. [+0 a +2 Tontos del Pueblo. 1 de los adicionales está borracho]",
-      "first": "Escoge a un Tonto del Pueblo para que esté borracho. Despierta a los Tontos del Pueblo uno por uno, ellos escogen un jugador, muéstrales pulgar arriba o pulgar abajo dependiendo del alineamiento de aquel jugador.",
+      "first": "Si hay varios Tontos del Pueblo, marca uno como *BORRACHO*. :reminder: Despierta a los Tontos del Pueblo uno a uno para elegir un jugador. Haz una señal con el pulgar.",
       "flavor": "Las rosas son azules, las violetas son rojas, todo lo que digo con puras paradojas.",
       "name": "Tonto del Pueblo",
-      "other": "Despierta a los Tontos del Pueblo uno por uno, ellos escogen un jugador, muéstrales pulgar arriba o pulgar abajo dependiendo del alineamiento de aquel jugador."
+      "other": "Despierta a los Tontos del Pueblo uno a uno para elegir un jugador. Haz una señal con el pulgar."
     },
     "virgin": {
       "ability": "La 1era vez que seas nominada, si el nominador es un Ciudadano, él es ejecutado inmediatamente.",
@@ -970,7 +971,7 @@
     },
     "vizier": {
       "ability": "Todos los jugadores saben que tú eres el Visir. Tú no puedes morir durante el día. Si algún bueno votó, puedes escoger que la ejecución ocurra inmediatamente.",
-      "first": "Anuncia el jugador que es el Visir al grupo.",
+      "first": "Anuncia el jugador que es el Visir.",
       "flavor": "Una excelente decisión, como siempre, señor. Un crímen tan bajo como empujar al Obispo de cierto se merece su 'justicia' y 'piedad'. Vaya a tomar un paseo por los jardines. Visite la galería y vea las esculturas de Von Strauf. Relájese, señor. Déjeme todo…a mí.",
       "name": "Visir"
     },
@@ -993,7 +994,7 @@
     },
     "widow": {
       "ability": "En tu 1era noche, mira al Grimorio y escoge un jugador: él está envenenado. 1 jugador bueno conoce que la Viuda está en juego.",
-      "first": "Muéstrale el Grimorio a la Viuda el tiempo que sea necesario. La Viuda escoge un jugador. :reminder:",
+      "first": "Muestra el Grimorio todo el tiempo que la Viuda necesite. La Viuda elige a un jugador. :reminder: Duerme a la Viuda. Despierta al jugador marcado como *CONOCE* y muestra la ficha de Viuda. :reminder:",
       "flavor": "¿Más vino? Château d’Ergot ’07 es una cosecha muy especial. Oh sí, muy especial de verdad.",
       "name": "Viuda"
     },
@@ -1006,10 +1007,10 @@
     },
     "wizard": {
       "ability": "Una vez por juego, escoge pedir un deseo. Si es concedido, quizás tenga un precio y deje una pista sobre su naturaleza.",
-      "first": "Corre la habilidad del Hechicero, si es aplicable.",
+      "first": "Haz lo que sea necesario para satisfacer la habilidad del Hechicero.",
       "flavor": "Cada hombre y cada mujer son una estrella. El amor es la ley, amor bajo mi voluntad.",
       "name": "Hechicero",
-      "other": "Corre la habilidad del Hechicero, si es aplicable."
+      "other": "Haz lo que sea necesario para satisfacer la habilidad del Hechicero."
     },
     "wraith": {
       "ability": "Puedes escoger abrir tus ojos por la noche. Tú te despiertas cuando otros jugadores malvados se despiertan.",
@@ -1027,10 +1028,10 @@
     },
     "yaggababble": {
       "ability": "Empiezas conociendo una frase secreta. Por cada vez que la digas públicamente hoy, un jugador quizás muera.",
-      "first": "Escoge una frase secreta. Despierta al Yaggablabla y hazle saber su frase secreta.",
+      "first": "Muestra al Yaggablabla su frase secreta.",
       "flavor": "¿Asesinatos en la Calle Morgue? ¡Фальшивые новости! ¿Sabuesos en el páramo de Baskerville? ¡Фальшивые новости! ¿Muerte cruzando el Nilo? ¡Фальшивые новости!",
       "name": "Yaggablabla",
-      "other": "Por cada vez que el Yaggablabla haya dicho la frase hoy, puedes escoger un jugador. Él muere. :reminder:"
+      "other": "Por cada vez que el Yaggablabla haya dicho su frase hoy, un jugador podría morir. :reminder:"
     },
     "zealot": {
       "ability": "Si hay 5 o más jugadores vivos, debes votar en cada nominación.",
@@ -1048,10 +1049,48 @@
       "flavor": "La vanidad pregunta: \"¿Es popular?\" La cobardía pregunta: \"¿Es seguro?\" La conciencia pregunta: \"¿Es correcto?\" ¿Quién de nosotros preguntará: \"¿Es verdad?\"",
       "name": "Big Wig"
     },
+    "tor": {
+      "ability": "Los jugadores no conocen su personaje ni su alineamiento. Los aprenden cuando mueren.",
+      "flavor": "Con el trueno como mi voz y el rayo como mi espada, yo, el guardián eterno, me deleito con los tontos que osan acercarse a la puerta prohibida. ¡Contemplad mi sagrado propósito! Erradicar al escarabajo del vientre de la tierra pétrea, atraparlo en una red de estrellas, en la cima donde el cielo se encuentra con la tierra.",
+      "name": "Tor",
+      "other": "Si un jugador murió esta noche, muestra la ficha *TÚ ERES*, su ficha de personaje y un pulgar hacia arriba o hacia abajo.",
+      "first": "Omite la información de los Secuaces y del Demonio."
+    },
+    "zenomancer": {
+      "ability": "Uno o más jugadores tienen un objetivo cada uno. Cuando lo cumplen, ese jugador aprende una información verdadera.",
+      "flavor": "Dicen que el universo es un verbo, no un sustantivo, y que son tortugas, tortugas hasta el infinito. Tortugas hasta el infinito, amigo mío… tortugas hasta el infinito.",
+      "name": "Zenomante"
+    },
+    "hindu": {
+      "ability": "Los primeros 4 jugadores en morir reencarnan inmediatamente como Viajeros del mismo alineamiento.",
+      "flavor": "चत्वारो मृत्युमध्ये पतन्ति, चत्वारो यात्री पुनरुद्गताः। चत्वारो धर्मे स्थितचित्तवृत्तेः, चत्वार एषां न पुनः क्षयः॥",
+      "name": "Hindú"
+    },
+    "pope": {
+      "ability": "Hay personajes buenos duplicados en juego. También podrían ser bluffs.",
+      "flavor": "...Pulcherrimae.",
+      "name": "Papa"
+    },
     "cacklejack": {
       "ability": "Cada día, elige un jugador: un jugador diferente cambia de personaje esta noche.",
       "flavor": "Cable α A cable β. LuZ EncenDida. TimBRe apagado. ¡GAzOinks! Brazos Der3ch0s. DeDO a nar1z. quIiieetOO. ¡BoiNgo-banGo! ¡Ja-ja-ja!",
-      "name": "Cacklejack"
+      "name": "Cacklejack",
+      "other": "Antes del amanecer, elige un jugador que no esté marcado *NO YO*. Despierta al objetivo. Muestra la ficha *TÚ ERES* y su nueva ficha de personaje."
+    },
+    "ventriloquist": {
+      "ability": "Si un jugador está loco de que es un personaje nuevo durante su nominación, podría no morir si es ejecutado hoy.",
+      "flavor": "Bien, gente, ¡reúnanse! Este de aquí es mi amigo Charlie, y tiene una bocota que haría sonrojar a una mula. Pero no se preocupen gente, yo hablo por los dos... ¿o no?",
+      "name": "Ventrílocuo"
+    },
+    "godofug": {
+      "ability": "Un sombrero Ug. Cuando llevar sombrero Ug, hablar un sonido cada vez, pero votas dos veces. Si fallar, pasar sombrero Ug.",
+      "flavor": "Benditos sean mis hijos, porque encuentran belleza en las cosas sencillas.",
+      "name": "Dios de Ug"
+    },
+    "knaves": {
+      "ability": "Hay 2 Narradores: uno miente y otro dice la verdad. Una vez por juego, al anochecer, pueden cambiar.",
+      "flavor": "Cada pared es una puerta. Cada comida es un banquete.",
+      "name": "Bribones"
     }
   },
   "teams": {
