@@ -205,11 +205,11 @@
       "other": "Kultlederen kan endre lagtilhørighet. Vis i så fall *DU ER*-infobrikken og gi et tommelsignal."
     },
     "damsel": {
-      "ability": "Alle Undersåtter vet at en Ungfrue er i spill. Hvis en Undersått gjetter deg offentlig (én gang), taper laget ditt.",
-      "first": "Under Undersått-info, vis Undersåttene Ungfrue-brikken. Hvis du ikke har gjort dette ennå, gjør det nå. Hvis Ungfruen ble valgt av Jegeren, vis *DU ER*-infobrikken og deres nye rollebrikke.",
+      "ability": "Alle Undersåtter vet at en Frøken er i spill. Hvis en Undersått gjetter deg offentlig (én gang), taper laget ditt.",
+      "first": "Under Undersått-info, vis Undersåttene Frøken-brikken. Hvis du ikke har gjort dette ennå, gjør det nå. Hvis Frøkenen ble valgt av Jegeren, vis *DU ER*-infobrikken og deres nye rollebrikke.",
       "flavor": "Ikke rør håret, kjære.",
-      "name": "Ungfrue",
-      "other": "Hvis Ungfruen ble valgt av Jegeren, vis *DU ER*-infobrikken og deres nye rollebrikke."
+      "name": "Frøken",
+      "other": "Hvis Frøkenen ble valgt av Jegeren, vis *DU ER*-infobrikken og deres nye rollebrikke."
     },
     "dawn": {
       "first": "Vent noen sekunder. Avslutt nattfasen.",
@@ -460,11 +460,11 @@
       "other": "Pek på en spiller."
     },
     "huntsman": {
-      "ability": "Én gang per spill, om natten, velg en levende spiller: Hvis Ungfruen blir valgt, blir de til en Bygdefolk som ikke er i spill. [+Ungfrue]",
-      "first": "Jegeren kan velge en spiller. :reminder: Hvis de valgte Ungfruen: La Jegeren sove. Vekk den valgte spilleren. Vis *DU ER*-infobrikken og deres nye rollebrikke.",
+      "ability": "Én gang per spill, om natten, velg en levende spiller: Hvis Frøkenen blir valgt, blir de til en Bygdefolk som ikke er i spill. [+Frøken]",
+      "first": "Jegeren kan velge en spiller. :reminder: Hvis de valgte Frøkenen: La Jegeren sove. Vekk den valgte spilleren. Vis *DU ER*-infobrikken og deres nye rollebrikke.",
       "flavor": "Hytta mi er varm og solid. Øksen min ved døren, støvlene mine tørker ved bålet, og elggryten koker … Hør! Et skrik runger gjennom dalen! Regnet og gjørmen og den kalde, kalde vinden maskerer lukten av ulvene, men jeg kjenner stien, og tempoet mitt er jevnt. Jeg kommer.",
       "name": "Jeger",
-      "other": "Jegeren kan velge en spiller. :reminder: Hvis de valgte Ungfruen: La Jegeren sove. Vekk den valgte spilleren. Vis *DU ER*-infobrikken og deres nye rollebrikke."
+      "other": "Jegeren kan velge en spiller. :reminder: Hvis de valgte Frøkenen: La Jegeren sove. Vekk den valgte spilleren. Vis *DU ER*-infobrikken og deres nye rollebrikke."
     },
     "imp": {
       "ability": "Hver natt*, velg en spiller: De dør. Hvis du dreper deg selv på denne måten, blir en Undersått til Djevelen.",
@@ -893,7 +893,7 @@
       "ability": "Du starter med å få vite 1 god spiller.",
       "first": "Vis spilleren merket *VET*.",
       "flavor": "Hvordan VÅGER du å anklage Hennes Nåde for å ha gjort noe galt? Jeg har kjent henne hele livet! Alle ni årene!",
-      "name": "Stuert"
+      "name": "Stattholder"
     },
     "stormcatcher": {
       "ability": "Nevn en god rolle. Hvis de er i spill, kan de bare dø ved henrettelse, men onde spillere får vite hvilken spiller det er.",
@@ -1237,9 +1237,9 @@
     "courtier-summoner": "Hvis den levende Åndemaneren ikke har noen egenskap, har Fortelleren Åndemaner-egenskapen.",
     "courtier-vizier": "Hvis Vesiren mister egenskapen sin, får de vite dette, og kan ikke dø i løpet av dagen.",
     "cultleader-pithag": "Hvis Trollkjerringen forvandler en ond spiller til Kultleder, kan de ikke bli god på grunn av sine egne egenskaper.",
-    "damsel-pithag": "Hvis en Trollkjerring skaper en Ungfrue, velger Fortelleren hvilken spiller det er.",
-    "damsel-spy": "Hvis Spionen er (eller har vært) i spill, er Ungfruen forgiftet.",
-    "damsel-widow": "Hvis Enken er (eller har vært) i spill, er Ungfruen forgiftet.",
+    "damsel-pithag": "Hvis en Trollkjerring skaper en Frøken, velger Fortelleren hvilken spiller det er.",
+    "damsel-spy": "Hvis Spionen er (eller har vært) i spill, er Frøkenen forgiftet.",
+    "damsel-widow": "Hvis Enken er (eller har vært) i spill, er Frøkenen forgiftet.",
     "engineer-legion": "Hvis Legion opprettes, blir alle onde spillere til Legion. Hvis Legion er i spill, starter Ingeniøren med å få vite dette, men har ingen egenskap.",
     "engineer-summoner": "Hvis den levende Åndemaneren fjernes fra spillet, har Fortelleren Åndemaner-egenskapen.",
     "eviltwin-plaguedoctor": "Hvis Fortelleren skulle få egenskapen til Den onde Tvillingen, blir en spiller Den onde Tvillingen.",
@@ -1264,7 +1264,7 @@
     "heretic-pithag": "Bare 1 jinxet rolle kan være i spill.",
     "heretic-spy": "Bare 1 jinxet rolle kan være i spill.",
     "heretic-widow": "Bare 1 jinxet rolle kan være i spill.",
-    "huntsman-marionette": "Hvis Marionetten tror at de er Jegeren, ble Ungfruen lagt til under oppsettet.",
+    "huntsman-marionette": "Hvis Marionetten tror at de er Jegeren, ble Frøkenen lagt til under oppsettet.",
     "innkeeper-leviathan": "Hvis Leviatan nominerer og henretter en spiller som er beskyttet av Gjestgiveren, vinner de gode.",
     "innkeeper-riot": "Hvis Opptøyene nominerer og henretter en spiller som er beskyttet av Gjestgiver, vinner de gode.",
     "investigator-vizier": "Fortelleren erklærer ikke at Vesiren er i spill.",
