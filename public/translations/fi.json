@@ -135,7 +135,7 @@
       "name": "Buddhalainen"
     },
     "bureaucrat": {
-      "ability": "Joka yö, valitse pelaaja (ei itseäsi): tämän ääni vastaa 3 ääntä huomenna.",
+      "ability": "Joka yö valitset pelaajan (ei itseäsi): hänellä on huomenna 3 ääntä.",
       "first": "Byrokraatti valitsee pelaajan. :reminder:",
       "flavor": "Allekirjoita tähän, kiitos. Ja tähän. Ja tähän. Jaaaa tähän. Tämän pitäisi olla selvillä päivän loppuun mennessä, olettaen tietysti, että allekirjoituksenne ovat luettavissa. Papereissa ei ole ollut sekaannuksia aikoihin. Eilen keskipäivällä, jos oikein muistan...",
       "name": "Byrokraatti",

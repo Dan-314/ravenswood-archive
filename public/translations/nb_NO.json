@@ -45,7 +45,7 @@
     "artist": {
       "ability": "Én gang per spill, i løpet av dagen, still Fortelleren et ja/nei-spørsmål privat.",
       "flavor": "Mon Dieu! C'est lumineux! My work, she is … how you say … Magnifique! Dieu est révélé! Oui.",
-      "name": "Artist"
+      "name": "Kunstner"
     },
     "assassin": {
       "ability": "Én gang per spill, om natten*, velg en spiller: De dør, selv om de av en eller annen grunn ikke kunne det.",
@@ -1095,7 +1095,7 @@
   },
   "teams": {
     "demon": "Demoner",
-    "fabled": "Fabel",
+    "fabled": "Fabler",
     "minion": "Undersåtter",
     "outsider": "Utstøtte",
     "townsfolk": "Bygdefolk",
